@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+resource_dir: ~/PycharmProjects/bioengine/resources
+
+stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
+stanford_ner_model: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner-tagger/bio-ner-model.ser.gz
+
+neo4j:
+  uri: bolt://localhost:7687
+  user: engine_user
+  password: password
+
+wikipedia_pipeline:
+  div:
+    id:
+      - toc
+      - siteSub
+      - contentSub
+    class:
+      - reflist
+      - infobox
+      - thumb tright
+  table:
+  script:
+  a:
+    class: mw-jump-link
+  li:
+    class: interlanguage-link
+  h3:
