@@ -12,7 +12,7 @@ class WikipediaPageObject(PageObject):
     def __init__(self, name, lang: str = 'en'):
         self.page_name = f'https://{lang}.wikipedia.org/wiki/{name}?printable=yes'
         self.raw_html = request.urlopen(self.page_name).read()
-        self.pipeline = Config().get_config("wikipedia_pipeline")
+        self.pipeline = Config().get_property("wikipedia_pipeline")
         self.soup = BeautifulSoup(self.raw_html, 'lxml')
         self.delete_after('References')
         self.clean_wikipedia_citations()

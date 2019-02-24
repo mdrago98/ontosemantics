@@ -1,9 +1,14 @@
 %YAML 1.2
 ---
-resource_dir: ~/PycharmProjects/bioengine/resources
+resource_dir: /home/drago/PycharmProjects/bioengine/resources
 
-stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
-stanford_ner_model: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner-tagger/bio-ner-model.ser.gz
+ner:
+  stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
+  stanford_ner_model: /home/drago/PycharmProjects/bioengine/resources/models/bio-ner-model.ser.gz
+  genia_tagger: /home/drago/PycharmProjects/bioengine/resources/libs/geniatagger-3.0.2/geniatagger
+  metamap: /home/drago/Downloads/public_mm
+
+similarity_vector: /home/drago/PycharmProjects/bioengine/resources/vectors/PubMed-shuffle-win-30.bin
 
 neo4j:
   uri: bolt://localhost:7687

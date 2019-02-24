@@ -1,21 +1,27 @@
-from neo4j import GraphDatabase
+from py2neo import Graph, cypher_escape, Table
 
 from meta_classes import Singleton
 from settings import Config
-from .queries import all_ontologies as queries
 
 
 class Connection(metaclass=Singleton):
-
+    """
+    A class that abstracts neo4j operations
+    """
     def __init__(self, config: dict = None):
         if config is None:
-            config = Config().get_config('neo4j')
-        self._driver = GraphDatabase.driver(config['uri'], auth=(config['user'], config['password']))
+            config = Config().get_property('neo4j')
+        self._driver = Graph(config['uri'], auth=(config['user'], config['password']))
 
-    def close(self):
-        self._driver.close()
-
-    def execute_query(self, query):
-        with self._driver.session() as session:
-            result = session.run(query)
-        return result
+    def execute_string_query(self, query, **kwargs) -> Table:
+        """
+        A method that accepts a parameterized string, cleans the parameters, injects the params dynamically injects
+        them and executes the query.
+        :param query: a string representing a query with injectable parameters
+        :param kwargs: keyed injectable parameters
+        :return: a table representation of the data
+        """
+        args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
+        args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
+        query_string = query().format(**dict(args))
+        return self._driver.run(cypher=query_string).to_table()

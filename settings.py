@@ -9,11 +9,12 @@ class Config(metaclass=Singleton):
     """
     A configuration wrapper that parses config keys from the config.yaml file.
     """
-    def __init__(self):
-        with open(__config_loc__, 'r') as stream:
-            self.conf = yaml.load(stream)
+    def __init__(self, config: dict = None):
+        if config is None:
+            with open(__config_loc__, 'r') as stream:
+                self.conf = yaml.load(stream)
 
-    def get_config(self, resource_name) -> str:
+    def get_property(self, resource_name):
         conf = None
         if resource_name in self.conf:
             conf = self.conf[resource_name]
