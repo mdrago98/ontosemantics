@@ -1,15 +1,16 @@
 import nltk
 from nltk.tag.stanford import StanfordNERTagger
+from nltk.corpus import stopwords as nltk_stop_words
 
-from settings import Config
+from src.bioengine.preprocessor.taggers.tagger import Tagger
 
 
-class Tagger:
+class StanfordTagger(Tagger):
     """
     A class that abstracts the stanford NER tagger.
     """
 
-    def __init__(self, sentences: list, config: dict = None, stopwords: set = None, lang: str = 'english'):
+    def __init__(self, sentences: list, config: dict, stopwords: set = None, lang: str = 'english'):
         """
         A constrictor that initializes a Tagger object.
         :param sentences: A list of sentences to tag
@@ -18,16 +19,20 @@ class Tagger:
         :param lang: A string specifying the language. Defaults to 'english'
         """
         self.sentences = sentences
-        if config is None:
-            config = Config().get_config('ner')
         if stopwords is None:
-            self.stop_words = set(stopwords.words(lang))
+            self.stop_words = set(nltk_stop_words.words(lang))
         else:
             self.stop_words = stopwords
         self.jar = config['stanford_jar']
         self.model = config['stanford_ner_model']
         self.tagger = StanfordNERTagger(self.model, self.jar, encoding='utf8')
-        self.tags = [self.__tag_sentence__(sentence) for sentence in sentences]
+
+    def tag_sentences(self):
+        """
+        A function that extracts concepts from a list of sentences.
+        :return: a list of concepts
+        """
+        return [self.__tag_sentence__(sentence) for sentence in self.sentences]
 
     def __tag_sentence__(self, sentence: str) -> list:
         """
