@@ -6,6 +6,7 @@ from PIL import Image as Pil
 from wand.image import Image
 from pkg_resources import resource_string as resource
 from settings import Config
+from os import path
 
 
 def rip_text(file_name: str) -> list:
@@ -14,7 +15,7 @@ def rip_text(file_name: str) -> list:
     :param file_name: string representing the file_name
     :return: a list of strings representing the content
     """
-    file_path = '/'.join((Config().get_config('resources'), file_name))
+    file_path = path.join(Config().get_property('resource_dir'), file_name)
     with open(file_path, 'rb') as pdf_file_object:
         pdf_file_reader = PdfFileReader(pdf_file_object)
         return [pdf_file_reader.getPage(i).extractText() for i in range(0, pdf_file_reader.numPages)]
@@ -28,7 +29,7 @@ def read_pdf(file_name: str) -> list:
     """
     tool = pyocr.get_available_tools()[0]
     lang = tool.get_available_languages()[0]
-    file_path = '/'.join((Config().get_config('resources'), file_name))
+    file_path = path.join(Config().get_property('resource_dir'), file_name)
     with Image(filename=file_path, resolution=500) as img_pdf:
         image_jpeg = img_pdf.convert('jpeg')
         image_blobs = [Image(image=img).make_blob('jpeg') for img in image_jpeg.sequence]
@@ -37,7 +38,7 @@ def read_pdf(file_name: str) -> list:
 
 
 def write_to_file(file_name: str, contents: list):
-    file_path = '/'.join(Config().get_config('resource_dir'))
+    file_path = '/'.join(Config().get_property('resource_dir'))
     with open(resource(file_path, file_name), 'w') as file_handler:
         for entry in contents:
             file_handler.write(entry)

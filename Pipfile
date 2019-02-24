@@ -22,6 +22,8 @@ spacy = {extras = ["cuda"],version = "*"}
 nltk = "*"
 neo4j = "*"
 py2neo = "*"
+geniatagger-python = {file = "https://github.com/d2207197/geniatagger-python/archive/master.zip"}
+pymetamap = "*"
 
 [dev-packages]
 
