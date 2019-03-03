@@ -15,6 +15,12 @@ neo4j:
   user: engine_user
   password: password
 
+headers:
+  'User-Agent': Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+
+entrez:
+  base_url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?
+
 wikipedia_pipeline:
   div:
     id:
@@ -32,3 +38,16 @@ wikipedia_pipeline:
   li:
     class: interlanguage-link
   h3:
+
+pmc_pipeline:
+  div:
+    id:
+      - rightcolumn
+    class:
+      - navlink-box
+      - pmc-page-banner whole_rhythm
+      - fm-sec half_rhythm no_top_margin
+      - fig
+      - ref-cit-blk half_rhythm
+  h3:
+  sup:

@@ -22,21 +22,25 @@ annotation-* - All annotation properties on a class are indexed in a dynamic fil
 
 
 class OlsClassGraphObject(GraphObject):
-    id = Property()
-    iri = Property()
-    olsId = Property()
-    short_form = Property()
-    obo_id = Property()
-    ontology_name = Property()
-    has_children = Property()
-    ontology_prefix = Property()
-    description = Property()
-    label = Property()
-    is_defining_ontology = Property()
-    is_root = Property()
-    is_obsolete = Property()
-    ontology_iri = Property()
-    superClassDescription = Property()
-    equivalentClassDescription = Property()
+    """
+    A Graph object modelling a generic OLS node
+    """
+    __primarykey__ = "id"
 
+    id = Property('id')
+    iri = Property('iri')
+    ols_id = Property('olsId')
+    short_form = Property('short_form')
+    obo_id = Property('obo_id')
+    ontology_name = Property('ontology_name')
+    has_children = Property('has_children')
+    ontology_prefix = Property('ontology_prefix')
+    description = Property('description')
+    label = Property('label')
+    is_defining_ontology = Property('is_defining_ontology')
+    is_root = Property('is_root')
+    is_obsolete = Property('is_obsolete')
+    ontology_iri = Property('ontology_iri')
+    super_class_description = Property('superClassDescription')
+    equivalent_class_description = Property('equivalentClassDescription')
 

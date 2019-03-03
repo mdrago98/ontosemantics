@@ -10,17 +10,14 @@ gensim = "*"
 pyocr = "*"
 wand = "*"
 numpy = "*"
-textpipeliner = "*"
 "beautifulsoup4" = "*"
 lxml = "*"
 pyyaml = "*"
 matplotlib = "*"
 scikit-learn = "*"
 cupy = "*"
-thinc-gpu-ops = "*"
-spacy = {extras = ["cuda"],version = "*"}
+spacy = {extras = ["cuda92"],version = "*"}
 nltk = "*"
-neo4j = "*"
 py2neo = "*"
 geniatagger-python = {file = "https://github.com/d2207197/geniatagger-python/archive/master.zip"}
 pymetamap = "*"
