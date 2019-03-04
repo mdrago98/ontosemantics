@@ -23,6 +23,7 @@ geniatagger-python = {file = "https://github.com/d2207197/geniatagger-python/arc
 pymetamap = "*"
 
 [dev-packages]
+coverage = "*"
 
 [requires]
 python_version = "3.6"
