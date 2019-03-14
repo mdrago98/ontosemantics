@@ -3,6 +3,7 @@ from src.bioengine.preprocessor.taggers.genia_tagger import GeniaTagger
 from src.bioengine.preprocessor.taggers.metamap_tagger import MetaMapTagger
 from src.bioengine.preprocessor.taggers.stanford_tagger import StanfordTagger
 from src.bioengine.preprocessor.taggers.tagger import Tagger
+from src.bioengine.preprocessor.taggers.becas_tagger import BecasTagger
 
 
 class TaggerFactory:
@@ -25,4 +26,6 @@ class TaggerFactory:
             tagger_instance = StanfordTagger(sentences, config=conf)
         elif tagger_type is 'metamap':
             tagger_instance = MetaMapTagger(sentences, config=conf)
+        elif tagger_type is 'becas':
+            tagger_instance = BecasTagger(sentences)
         return tagger_instance

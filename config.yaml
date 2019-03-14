@@ -1,12 +1,31 @@
 %YAML 1.2
 ---
 resource_dir: /home/drago/PycharmProjects/bioengine/resources
+medical_stop_word_file_name: stopwords.txt
 
 ner:
   stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
   stanford_ner_model: /home/drago/PycharmProjects/bioengine/resources/models/bio-ner-model.ser.gz
   genia_tagger: /home/drago/PycharmProjects/bioengine/resources/libs/geniatagger-3.0.2/geniatagger
   metamap: /home/drago/Downloads/public_mm
+
+stanford:
+  location: /home/drago/thesis/stanford-corenlp-full-2018-10-05
+  domain: localhost
+  port: 9000
+  timeout: 15000
+  pipeline:
+    - tokenize
+    - ssplit
+    - pos
+    - lemma
+    - ner
+    - parse
+    - depparse
+
+becas:
+  email: matthew.drago.16@um.edu.mt
+  tool: becas-python
 
 similarity_vector: /home/drago/PycharmProjects/bioengine/resources/vectors/PubMed-shuffle-win-30.bin
 

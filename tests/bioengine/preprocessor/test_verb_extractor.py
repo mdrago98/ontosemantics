@@ -44,6 +44,11 @@ class TestVerbExtractor(TestCase):
         concept = regex.match('["CA9"-tx-1-"Ca9"-noun-0]').group(1)
         assert concept == 'CA9'
 
+    def test_meta_map_trigger_regex_returns_regex_that_matches_concept_names_with_percentage_sign(self):
+        regex = meta_map_trigger_regex()
+        concept = regex.match('["% Activity"-tx-1-"activity"-noun-0]').group(1)
+        assert concept == 'Activity'
+
     # TODO finish test assertion and add test with two sentences
     def test_align_concepts_to_sentences_with_one_sentence(self):
         sentence = 'Red algae: Aqueous extracts of Gracilaria corticata and Sargassum oligocystum inhibited'

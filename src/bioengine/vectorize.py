@@ -1,8 +1,6 @@
 import spacy
-from textpipeliner.pipes import *
 
 import cupy.cuda
-from spacy.vectors import Vectors
 
 # Load English tokenizer, tagger, parser, NER and word vectors
 from src.bioengine.dochandlers.page_objects.wikipedia_page_object import WikipediaPageObject
