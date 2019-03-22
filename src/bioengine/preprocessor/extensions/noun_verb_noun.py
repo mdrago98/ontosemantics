@@ -1,11 +1,17 @@
-from collections import deque
-from tokenize import Token
-
-from spacy.tokens import Span, Doc
+from spacy.tokens import Span, Doc, Token
 from grammaregex import find_tokens
 
 
-def get_noun_verb_noun_phrases(sentence: Span) -> list:
+def get_noun_verb_chunks(doc: Doc):
+    """
+    A function that returns all <noun><verb><noun> chunks
+    :param doc: A spacy document representation.
+    :return: a list of noun verb chunks
+    """
+    return [get_noun_verb_noun_phrases_from_sentence(sentence) for sentence in doc.sents]
+
+
+def get_noun_verb_noun_phrases_from_sentence(sentence: Span) -> list:
     """
     A function that returns a list of noun verb noun chunks
     :param sentence: The sentence from which to extract the chunk
@@ -13,12 +19,52 @@ def get_noun_verb_noun_phrases(sentence: Span) -> list:
     """
     verb_chunks = []
     for verb in find_tokens(sentence, 'VERB'):
-        right_nouns = list(filter(lambda x: x.pos_ == 'NOUN', verb.rights))[0]
-        left_nouns = list(filter(lambda x: x.pos_ == 'NOUN', verb.lefts))[0]
-        verb_chunks.append((augment_noun_with_adj(left_nouns), verb, augment_noun_with_adj(right_nouns)))
+        verb_chunks += [(get_nouns_from_children(list(verb.lefts)),
+                         verb,
+                         get_nouns_from_children(list(verb.rights))
+                         )]
     return verb_chunks
+        # right_noun = [enrich_nouns(noun) for noun in filter(lambda x: x.pos_ in ('NOUN', 'PRON'), verb.rights)]
+        # right_nouns = list(filter(lambda x: x.pos_ == 'NOUN', verb.rights))
+        # if len(right_nouns) == 0:
+        #     right_nouns = [get_co_ref(pronoun) for pronoun in verb.rights if pronoun.pos_ == 'PRON']
+        # enriched_right_nouns = augment_nouns_with_adj({noun: enrich_nouns(noun) for noun in right_nouns})
+    #     right_nouns = [enrich_nouns(noun) for noun in right_nouns]
+    #     left_nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'PRON'), verb.lefts))
+    #     if len(left_nouns) == 0:
+    #         left_nouns = [get_co_ref(pronoun) for pronoun in verb.lefts if pronoun.pos_ == 'PRON']
+    #     left_nouns = [enrich_nouns(noun) for noun in left_nouns]
+    #     verb_chunks += [([augment_nouns_with_adj(noun) for noun in left_nouns if noun is not None],
+    #                      verb,
+    #                      [augment_nouns_with_adj(noun) for noun in right_nouns if noun is not None])]
+    # return verb_chunks
 
 
+def get_nouns_from_children(children: list) -> dict:
+    """
+    A function that returns the a dictionary of nouns from a list of children
+    :param children: the children of a root verb
+    :return: a noun dictionary
+    """
+    nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'ADP'), children))
+    if len(nouns) == 0:
+        nouns = [get_co_ref(pronoun) for pronoun in children if pronoun.pos_ == 'PRON']
+    enriched_tokens = {noun: enrich_noun(noun) for noun in nouns if type(noun) == Token}
+    enriched_spans = {next(filter(lambda x: x.pos_ == 'NOUN', noun)): enrich_phrase(noun) for noun in nouns
+                      if type(noun) == Span}
+    return augment_nouns_with_adj({**enriched_spans, **enriched_tokens})
+
+
+def augment_nouns_with_adj(nouns: dict) -> dict:
+    """
+    A method that augments a dictionary of nouns with their corresponding adjectives
+    :param nouns: the noun dictionary
+    :return: an augmented noun dictionary
+    """
+    return {noun: (augment_noun_with_adj(noun), nouns[noun]) for noun in nouns.keys()}
+
+
+# TODO: Update the augment with adj code to take a list of nouns
 def augment_noun_with_adj(noun: Token) -> tuple:
     """
     A function that gets the descendent adjectives and attaches them to the noun
@@ -29,14 +75,26 @@ def augment_noun_with_adj(noun: Token) -> tuple:
     adjective = []
     if len(child_adjectives) != 0:
         adjective = get_full_adj(child_adjectives[0])
-    return adjective, noun
+    return adjective
+
+
+def get_co_ref(pronoun: Token) -> Token:
+    """
+    A method that given a pronoun token returns the referenced noun
+    :param pronoun: the pronoun
+    """
+    ref = []
+    if pronoun.pos_ == 'PRON' and pronoun._.in_coref:
+        # TODO: get noun coref
+        ref = [ref.main for ref in pronoun._.coref_clusters]
+    return ref[0] if len(ref) == 1 else None
 
 
 def get_full_adj(adjective: Token, path: list = None):
     """
     A method that traverses the dependency tree to obtain the full adjective
     :param adjective: root adjective
-    :param path:
+    :param path: A path from the dependency tree of supplementing adjectives
     """
     if path is None:
         path = [adjective]
@@ -47,3 +105,51 @@ def get_full_adj(adjective: Token, path: list = None):
         return get_full_adj(child_adj, path + [child_adj])
 
 
+def enrich_phrase(phrase: Span) -> list:
+    """
+    A method that gets the noun and enriches the noun from a phrase
+    :param phrase: a span representing the noun
+    """
+    return [enrich_noun(token) for token in phrase if token.pos_ == 'NOUN'][0]
+
+
+def enrich_noun(noun: Token, path: list = None) -> list:
+    """
+    A method that enriches nouns by traversing further down the dependency tree and get supplementary nouns supported
+    by apposition.
+    :param noun: the noun to enrich
+    :param path: the dependency path from the root noun to the final noun
+    :return:
+    """
+    if path is None:
+        path = []
+    next_adp: list = list(filter(lambda child: child.pos_ == 'ADP', noun.children))
+    if len(next_adp) == 0:
+        return path
+    for child_adp in next_adp:
+        noun_children: iter = filter(lambda x: x.pos_ == 'NOUN', child_adp.children)
+        for noun_child in noun_children:
+            # get nouns one step down the dep tree combined by conjunctions
+            return enrich_noun(noun_child, path + [noun_child] + get_conjunction_nouns(noun_child))
+
+
+def get_conjunction_nouns(noun: Token) -> list:
+    """
+    A helper function that returns nouns in conjunction to a root Noun.
+    :param noun: the root noun
+    :return: a list [conjunction, noun]
+    """
+    child_conjunctions = list(filter(lambda x: x.pos_ in ('CONJ', 'CCONJ', 'SCONJ'), noun.children))
+    path = []
+    if len(child_conjunctions) != 0:
+        path = child_conjunctions + list(filter(lambda x: x.pos_ in 'NOUN', noun.children))
+    return path
+
+
+# TODO: build + test method that enriches adp tokens
+def enrich_adp(adp: Token):
+    """
+    A method that enriches adp tokens with the next representative noun in the tree
+    :param adp: a spacy token representing the ADP
+    """
+    pass

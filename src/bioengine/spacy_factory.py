@@ -1,9 +1,14 @@
+
 import spacy
 from benepar.spacy_plugin import BeneparComponent
+from spacy.tokens import Doc, Span
 
 from settings import Config
 from src.bioengine.preprocessor.extensions import BecasNamedEntity
 from os.path import join
+
+from src.bioengine.preprocessor.extensions.noun_verb_noun import get_noun_verb_chunks, \
+    get_noun_verb_noun_phrases_from_sentence
 
 
 class MedicalSpacyFactory:
@@ -11,16 +16,20 @@ class MedicalSpacyFactory:
     A factory class tasked with loading and creating Spacy instances.
     """
     @staticmethod
-    def factory():
+    def factory(config: dict = None):
         """
         A factory method that creates a spacy instance with medical pipelines and custom medical extensions.
         :return:
         """
-        spacy.prefer_gpu()
-        nlp = spacy.load('en_core_web_sm')
+        if config is None:
+            config = Config().get_property('spacy')
+        disable = config['pipeline']['disable'] if 'disable' in config['pipeline'] else []
+        nlp = spacy.load('en_coref_sm', disable=disable)
         for stop_word in MedicalSpacyFactory._load_stop():
             lexeme = nlp.vocab[stop_word]
             lexeme.is_stop = True
+        Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks)
+        Span.set_extension('noun_verb_chunks', getter=get_noun_verb_noun_phrases_from_sentence)
         nlp.add_pipe(BecasNamedEntity(nlp))
         nlp.add_pipe(BeneparComponent("benepar_en2"))
         return nlp

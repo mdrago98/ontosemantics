@@ -5,10 +5,8 @@ from re import compile
 import spacy
 from spacy.tokens import Doc, Token
 
-from src.bioengine.preprocessor.extensions import get_noun_verb_noun_phrases
+from src.bioengine.preprocessor.extensions import get_noun_verb_noun_phrases_from_sentence
 from src.bioengine.spacy_factory import MedicalSpacyFactory
-
-spacy.prefer_gpu()
 
 
 def meta_map_trigger_regex():
@@ -192,11 +190,10 @@ corpus = "e.g. Red algae: Aqueous extracts of Gracilaria corticata and Sargassum
 
 
 doc = nlp(corpus)
-
 sentences = [str(sentence) for sentence in doc.sents]
 
 sent = list(doc.sents)[1]
-test = get_noun_verb_noun_phrases(sent)
+test = get_noun_verb_noun_phrases_from_sentence(sent)
 print()
 # pattern = [{'POS': 'NOUN', 'POS': 'VERB'}]
 
