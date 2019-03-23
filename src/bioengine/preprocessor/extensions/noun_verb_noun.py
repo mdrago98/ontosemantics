@@ -1,5 +1,3 @@
-from collections import deque
-
 from spacy.tokens import Span, Doc, Token
 from grammaregex import find_tokens
 
@@ -26,20 +24,6 @@ def get_noun_verb_noun_phrases_from_sentence(sentence: Span) -> list:
                          get_nouns_from_children(list(verb.rights))
                          )]
     return verb_chunks
-        # right_noun = [enrich_nouns(noun) for noun in filter(lambda x: x.pos_ in ('NOUN', 'PRON'), verb.rights)]
-        # right_nouns = list(filter(lambda x: x.pos_ == 'NOUN', verb.rights))
-        # if len(right_nouns) == 0:
-        #     right_nouns = [get_co_ref(pronoun) for pronoun in verb.rights if pronoun.pos_ == 'PRON']
-        # enriched_right_nouns = augment_nouns_with_adj({noun: enrich_nouns(noun) for noun in right_nouns})
-    #     right_nouns = [enrich_nouns(noun) for noun in right_nouns]
-    #     left_nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'PRON'), verb.lefts))
-    #     if len(left_nouns) == 0:
-    #         left_nouns = [get_co_ref(pronoun) for pronoun in verb.lefts if pronoun.pos_ == 'PRON']
-    #     left_nouns = [enrich_nouns(noun) for noun in left_nouns]
-    #     verb_chunks += [([augment_nouns_with_adj(noun) for noun in left_nouns if noun is not None],
-    #                      verb,
-    #                      [augment_nouns_with_adj(noun) for noun in right_nouns if noun is not None])]
-    # return verb_chunks
 
 
 def get_nouns_from_children(children: list) -> dict:
@@ -51,8 +35,8 @@ def get_nouns_from_children(children: list) -> dict:
     nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'ADP'), children))
     if len(nouns) == 0:
         nouns = [get_co_ref(pronoun) for pronoun in children if pronoun.pos_ == 'PRON']
-    enriched_tokens = {noun: enrich_noun(noun) for noun in nouns if type(noun) == Token}
-    enriched_spans = {next(filter(lambda x: x.pos_ == 'NOUN', noun)): enrich_phrase(noun) for noun in nouns
+    enriched_tokens = {enrich_adp(noun): enrich_noun(noun) for noun in nouns if type(noun) == Token}
+    enriched_spans = {enrich_adp(next(filter(lambda x: x.pos_ == 'NOUN', noun))): enrich_phrase(noun) for noun in nouns
                       if type(noun) == Span}
     return augment_nouns_with_adj({**enriched_spans, **enriched_tokens})
 
