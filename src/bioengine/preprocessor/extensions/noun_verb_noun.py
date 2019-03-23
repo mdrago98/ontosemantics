@@ -1,3 +1,5 @@
+from collections import deque
+
 from spacy.tokens import Span, Doc, Token
 from grammaregex import find_tokens
 
@@ -147,9 +149,18 @@ def get_conjunction_nouns(noun: Token) -> list:
 
 
 # TODO: build + test method that enriches adp tokens
-def enrich_adp(adp: Token):
+def enrich_adp(adp: Token, children: list = None):
     """
     A method that enriches adp tokens with the next representative noun in the tree
+    :param children:
     :param adp: a spacy token representing the ADP
     """
-    pass
+    if children is None:
+        children = []
+    if adp.pos_ == 'ADP':
+        new_children = list(adp.children)
+        children += new_children if new_children is not None else []
+        nouns = list(filter(lambda x: x.pos_ == 'NOUN', children))
+        if len(nouns) > 0 and adp.pos_ != 'NOUN':
+            return enrich_adp(children[0], children)
+    return adp

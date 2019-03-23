@@ -1,6 +1,7 @@
 from unittest import TestCase
 
-from src.bioengine.preprocessor.extensions.noun_verb_noun import get_co_ref, get_noun_verb_noun_phrases_from_sentence
+from src.bioengine.preprocessor.extensions.noun_verb_noun import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
+    enrich_adp
 from src.bioengine.spacy_factory import MedicalSpacyFactory
 
 
@@ -44,6 +45,13 @@ class TestNounVerbRelations(TestCase):
         noun_phrase = get_noun_verb_noun_phrases_from_sentence(list(doc.sents)[1])
         print()
 
+    def test_adp_resolution(self):
+        text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis. It is very ' \
+               'unusually found in the adult with type 2 diabetes mellitus.'
+        doc = self.nlp(text)
+        resolved_noun = enrich_adp(list(doc.sents)[1][5])
+        assert resolved_noun.text == 'adult'
+
     # TODO: add enrich adj tests
     # TODO: add enrich adp tests
-    # TODO: add
+    # TODO: finish test_noun_phrase_resolution_with_pronouns test
