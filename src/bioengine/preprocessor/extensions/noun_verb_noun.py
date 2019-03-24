@@ -35,9 +35,10 @@ def get_nouns_from_children(children: list) -> dict:
     nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'ADP'), children))
     if len(nouns) == 0:
         nouns = [get_co_ref(pronoun) for pronoun in children if pronoun.pos_ == 'PRON']
-    enriched_tokens = {enrich_adp(noun): enrich_noun(noun) for noun in nouns if type(noun) == Token}
+    enriched_tokens = {enrich_adp(noun): enrich_noun(noun) for noun in nouns if
+                       type(noun) == Token and noun is not None}
     enriched_spans = {enrich_adp(next(filter(lambda x: x.pos_ == 'NOUN', noun))): enrich_phrase(noun) for noun in nouns
-                      if type(noun) == Span}
+                      if type(noun) == Span and noun is not None}
     return augment_nouns_with_adj({**enriched_spans, **enriched_tokens})
 
 
@@ -70,9 +71,13 @@ def get_co_ref(pronoun: Token) -> Token:
     :param pronoun: the pronoun
     """
     ref = []
-    if pronoun.pos_ == 'PRON' and pronoun._.in_coref:
-        # TODO: get noun coref
-        ref = [ref.main for ref in pronoun._.coref_clusters]
+    # work around neural coref bug, open issue #110
+    try:
+        if pronoun.pos_ == 'PRON' and pronoun._.in_coref:
+            # TODO: get noun coref
+            ref = [ref.main for ref in pronoun._.coref_clusters]
+    except IndexError:
+        ref = []
     return ref[0] if len(ref) == 1 else None
 
 
