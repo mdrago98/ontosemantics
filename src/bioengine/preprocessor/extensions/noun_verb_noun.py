@@ -32,7 +32,7 @@ def get_nouns_from_children(children: list) -> dict:
     :param children: the children of a root verb
     :return: a noun dictionary
     """
-    nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'ADP'), children))
+    nouns = list(filter(lambda x: x.pos_ in ('NOUN', 'ADP', 'PROPN'), children))
     if len(nouns) == 0:
         nouns = [get_co_ref(pronoun) for pronoun in children if pronoun.pos_ == 'PRON']
     enriched_tokens = {enrich_adp(noun): enrich_noun(noun) for noun in nouns if
@@ -76,9 +76,9 @@ def get_co_ref(pronoun: Token) -> Token:
         if pronoun.pos_ == 'PRON' and pronoun._.in_coref:
             # TODO: get noun coref
             ref = [ref.main for ref in pronoun._.coref_clusters]
-    except IndexError:
+    except:
         ref = []
-    return ref[0] if len(ref) == 1 else None
+    return ref[0] if len(ref) == 1 and ref[0][0].pos_ != 'PRON' else None
 
 
 def get_full_adj(adjective: Token, path: list = None):
@@ -101,7 +101,8 @@ def enrich_phrase(phrase: Span) -> list:
     A method that gets the noun and enriches the noun from a phrase
     :param phrase: a span representing the noun
     """
-    return [enrich_noun(token) for token in phrase if token.pos_ == 'NOUN'][0]
+    phrases = [enrich_noun(token) for token in phrase if token.pos_ == 'NOUN']
+    return phrases if len(phrases) > 0 else []
 
 
 def enrich_noun(noun: Token, path: list = None) -> list:

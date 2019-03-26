@@ -17,13 +17,14 @@ class Config(metaclass=Singleton):
                 self.conf = yaml.load(stream)
 
         if logger_level is None:
-            logger_level = logging.INFO
+            self.logger_level = logging.INFO
+        else:
+            self.logger_level = logger_level
 
         if 'logger' in self.conf:
-            logger_conf = self.conf['logger']
-            logging.config.dictConfig(logger_conf)
+            self.logger_conf = self.conf['logger']
         else:
-            logging.basicConfig(level=logger_level)
+            self.logger_conf = None
 
     def get_property(self, resource_name):
         """

@@ -18,11 +18,13 @@ class BecasNamedEntity:
         self.matcher = PhraseMatcher(nlp.vocab)
         Span.set_extension('medical_mapping', default=[])
 
+    # TODO: strip the medical mapping functionality into the own function and put after span merge
     def __call__(self, doc, *args, **kwargs):
         nlp = English()
         becas = TaggerFactory.factory([str(sentence) for sentence in doc.sents], 'becas')
         named_ents = becas.tag_sentences()
-        terms = {md5(bytes(term['text'].lower(), 'utf-8')).hexdigest(): term['terms'] for sentence in named_ents for term in sentence['terms']}
+        terms = {md5(bytes(term['text'].lower(), 'utf-8')).hexdigest(): term['terms'] for sentence in named_ents
+                 for term in sentence['terms']}
         patterns = [nlp(term) for term in terms.keys()]
         for pattern in patterns:
             [nlp.vocab.strings.add(token.text) for token in pattern]
