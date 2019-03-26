@@ -22,10 +22,10 @@ class MetaMapTagger(Tagger):
             config = Config().get_property('ner')
         self.tagger_root = config['metamap']
         self.tagger_location = path.join(self.tagger_root, 'bin', 'metamap18')
-        if start_server:
-            self.server_running = self.start_server()
-        else:
-            self.server_running = start_server
+        # if start_server:
+        #     self.server_running = self.start_server()
+        # else:
+        #     self.server_running = start_server
         self.tagger = MetaMap.get_instance(self.tagger_location)
 
     def start_server(self) -> bool:
@@ -41,6 +41,20 @@ class MetaMapTagger(Tagger):
         except subprocess.CalledProcessError:
             running = False
         return running
+
+    def __enter__(self):
+        self.start_server()
+        return self
+
+    def __exit__(self, exception_type, exception_value, traceback):
+        """
+        Overridden to automatically close down servers to free resources when object is freed
+        :param exception_type: the exception
+        :param exception_value: the value for the thrown exception
+        :param traceback: the traceback
+        :return: None
+        """
+        self.close()
 
     def close(self) -> bool:
         """

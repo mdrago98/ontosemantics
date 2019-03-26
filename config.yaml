@@ -1,6 +1,13 @@
 %YAML 1.2
 ---
 resource_dir: /home/drago/PycharmProjects/bioengine/resources
+medical_stop_word_file_name: stopwords.txt
+
+spacy:
+  use_gpu: True
+  pipeline:
+    disable:
+      - ner
 
 ner:
   stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
@@ -8,12 +15,36 @@ ner:
   genia_tagger: /home/drago/PycharmProjects/bioengine/resources/libs/geniatagger-3.0.2/geniatagger
   metamap: /home/drago/Downloads/public_mm
 
+stanford:
+  location: /home/drago/thesis/stanford-corenlp-full-2018-10-05
+  domain: localhost
+  port: 9000
+  timeout: 15000
+  pipeline:
+    - tokenize
+    - ssplit
+    - pos
+    - lemma
+    - ner
+    - parse
+    - depparse
+
+becas:
+  email: matthew.drago.16@um.edu.mt
+  tool: becas-python
+
 similarity_vector: /home/drago/PycharmProjects/bioengine/resources/vectors/PubMed-shuffle-win-30.bin
 
 neo4j:
   uri: bolt://localhost:7687
   user: engine_user
   password: password
+
+headers:
+  'User-Agent': Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+
+entrez:
+  base_url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?
 
 wikipedia_pipeline:
   div:
@@ -32,3 +63,40 @@ wikipedia_pipeline:
   li:
     class: interlanguage-link
   h3:
+
+pmc_pipeline:
+  div:
+    id:
+      - rightcolumn
+    class:
+      - navlink-box
+      - pmc-page-banner whole_rhythm
+      - fm-sec half_rhythm no_top_margin
+      - fig
+      - ref-cit-blk half_rhythm
+  h3:
+  sup:
+
+logger:
+  version: 1
+  disable_existing_loggers: False
+  formatters:
+    simple:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: simple
+      stream: ext://sys.stdout
+
+  loggers:
+    my_module:
+      level: DEBUG
+      handlers: [console]
+      propagate: no
+
+  root:
+    level: DEBUG
+    handlers: [console]

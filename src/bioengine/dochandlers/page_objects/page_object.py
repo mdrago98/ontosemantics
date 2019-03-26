@@ -1,7 +1,11 @@
 from bs4 import BeautifulSoup
+from abc import ABC, abstractmethod
 
 
-class PageObject:
+class PageObject(ABC):
+    """
+    An abstract class for a page object. Implementation of PageObject must implement the get_text method
+    """
     def clean_tags(self, soup: BeautifulSoup = None, pipeline: dict = None) -> BeautifulSoup:
         """
         A helper function that given a pipeline cleans elements found on the page.
@@ -24,3 +28,11 @@ class PageObject:
         for item in decompose:
             item.decompose()
         return soup
+
+    @abstractmethod
+    def get_text(self):
+        """
+        An abstract method that returns text paragraph by paragraph.
+        :return: a list of paragraphs
+        """
+        pass

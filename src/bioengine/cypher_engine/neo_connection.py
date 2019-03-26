@@ -1,4 +1,4 @@
-from py2neo import Graph, cypher_escape, Table
+from py2neo import Graph, cypher_escape, Table, NodeMatcher, RelationshipMatch
 
 from meta_classes import Singleton
 from settings import Config
@@ -11,7 +11,9 @@ class Connection(metaclass=Singleton):
     def __init__(self, config: dict = None):
         if config is None:
             config = Config().get_property('neo4j')
-        self._driver = Graph(config['uri'], auth=(config['user'], config['password']))
+        self.driver = Graph(config['uri'], auth=(config['user'], config['password']))
+        self.node_matcher = NodeMatcher(self.driver)
+        self.relation_matcher = RelationshipMatch(self.driver)
 
     def execute_string_query(self, query, **kwargs) -> Table:
         """
@@ -24,4 +26,4 @@ class Connection(metaclass=Singleton):
         args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
         args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
         query_string = query().format(**dict(args))
-        return self._driver.run(cypher=query_string).to_table()
+        return self.driver.run(cypher=query_string).to_table()
