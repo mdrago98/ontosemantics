@@ -1,4 +1,4 @@
-from py2neo.ogm import GraphObject, Property
+from py2neo.ogm import GraphObject, Property, RelatedTo, RelatedFrom
 
 """
 id - Uniqiue id for the node in Neo4j
@@ -21,12 +21,10 @@ annotation-* - All annotation properties on a class are indexed in a dynamic fil
 """
 
 
-class OlsClassGraphObject(GraphObject):
+class Class(GraphObject):
     """
     A Graph object modelling a generic OLS node
     """
-    __primarykey__ = "id"
-
     id = Property('id')
     iri = Property('iri')
     ols_id = Property('olsId')

@@ -4,7 +4,7 @@ from py2neo.ogm import Property
 from src.bioengine.cypher_engine.models.ols_graph_object import Class
 
 
-class DOID(Class):
+class ZEBRAFISH_ANATOMICAL_ONTOLOGY(Class):
         annotation_comment = Property("annotation-comment")
         annotation_id = Property("annotation-id")
         synonym = Property("synonym")
@@ -16,3 +16,5 @@ class DOID(Class):
         in_subset = Property("in_subset")
         annotation_has_obo_namespace = Property("annotation-has_obo_namespace")
         annotation_has_alternative_id = Property("annotation-has_alternative_id")
+        annotation_creation_date = Property("annotation-creation_date")
+        annotation_created_by = Property("annotation-created_by")

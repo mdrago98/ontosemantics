@@ -1,5 +1,10 @@
+from collections import namedtuple
+
 from spacy.tokens import Span, Doc, Token
 from grammaregex import find_tokens
+
+Relation = namedtuple('Relation', 'effector relation effectee')
+Part = namedtuple('Part', 'adjectives nouns')
 
 
 def get_noun_verb_chunks(doc: Doc):
@@ -19,7 +24,7 @@ def get_noun_verb_noun_phrases_from_sentence(sentence: Span) -> list:
     """
     verb_chunks = []
     for verb in find_tokens(sentence, 'VERB'):
-        verb_chunks += [(get_nouns_from_children(list(verb.lefts)),
+        verb_chunks += [Relation(get_nouns_from_children(list(verb.lefts)),
                          verb,
                          get_nouns_from_children(list(verb.rights))
                          )]
@@ -48,7 +53,7 @@ def augment_nouns_with_adj(nouns: dict) -> dict:
     :param nouns: the noun dictionary
     :return: an augmented noun dictionary
     """
-    return {noun: (augment_noun_with_adj(noun), nouns[noun]) for noun in nouns.keys()}
+    return {noun: Part(augment_noun_with_adj(noun), nouns[noun]) for noun in nouns.keys()}
 
 
 # TODO: Update the augment with adj code to take a list of nouns
@@ -111,7 +116,7 @@ def enrich_noun(noun: Token, path: list = None) -> list:
     by apposition.
     :param noun: the noun to enrich
     :param path: the dependency path from the root noun to the final noun
-    :return:
+    :return: a list of enriched nouns
     """
     if path is None:
         path = []

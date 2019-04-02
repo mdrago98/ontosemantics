@@ -2,6 +2,7 @@ import plac
 from Bio import Entrez
 from spacy import displacy
 
+from cypher_engine.match import map_relation_with_ontology_terms, map_relation_terms_with_ontology_terms
 from src.bioengine import logger
 from src.bioengine.spacy_factory import MedicalSpacyFactory
 from os import path, makedirs
@@ -20,7 +21,7 @@ def search(query, retmax: int = 20):
 
 def fetch_details(id_list):
     ids = ','.join(id_list)
-    Entrez.email = 'your.email@example.com'
+    Entrez.email = 'matthew.drago.16@um.edu.mt'
     handle = Entrez.efetch(db='pubmed',
                            rettype='full',
                            retmode='xml',
@@ -41,8 +42,7 @@ def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threa
     if nlp is None:
         nlp = MedicalSpacyFactory.factory()
 
-    # id_list = search(query, size)['IdList']
-    id_list = ['17026722']
+    id_list = search(query, size)['IdList']
     handle = Entrez.efetch(db="pubmed", id=','.join(map(str, id_list)),
                            rettype="xml", retmode="text")
     papers = Entrez.read(handle)
@@ -54,7 +54,7 @@ def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threa
     return {str(pubmed_id): documents[index] for index, pubmed_id in enumerate(abstracts.keys())}
 
 
-def main(directory='', query='diabetes', size=40):
+def main(directory='', query='diabetes', size=4):
     """
     Main method obtains abstracts and parses them and organises them according to their pmid
     :param directory: the root directory where to save the output
@@ -64,19 +64,28 @@ def main(directory='', query='diabetes', size=40):
 
     res = read_and_parse(query, size)
     pmid_errors = []
+    terms = []
     for pubmed_id, doc in res.items():
         out_dir = path.join(directory, pubmed_id)
         if not path.exists(out_dir):
             makedirs(out_dir)
-        try:
-            relations = sum(doc._.noun_verb_chunks, [])
-            with open(path.join(out_dir, 'relations.txt'), 'w') as file:
-                for relation in relations:
-                    file.write(f'\nEffector: {relation[0]}, Verb: {relation[1]}, Efectee: {relation[2]}')
-            with open(path.join(out_dir, 'doc.txt'), 'w') as file:
-                file.write(doc.text)
-        except:
-            pmid_errors.append(pubmed_id)
+        relations = sum(doc._.noun_verb_chunks, [])
+        terms += [map_relation_terms_with_ontology_terms(relations)]
+        with open(path.join(out_dir, 'relations.txt'), 'w') as file:
+            for relation in relations:
+                file.write(f'\nEffector: {relation[0]}, Verb: {relation[1]}, Efectee: {relation[2]}')
+        with open(path.join(out_dir, 'doc.txt'), 'w') as file:
+            file.write(doc.text)
+        # try:
+        #     relations = sum(doc._.noun_verb_chunks, [])
+        #     terms += [map_relation_terms_with_ontology_terms(relations)]
+        #     with open(path.join(out_dir, 'relations.txt'), 'w') as file:
+        #         for relation in relations:
+        #             file.write(f'\nEffector: {relation[0]}, Verb: {relation[1]}, Efectee: {relation[2]}')
+        #     with open(path.join(out_dir, 'doc.txt'), 'w') as file:
+        #         file.write(doc.text)
+        # except:
+        #     pmid_errors.append(pubmed_id)
     if len(pmid_errors) > 0:
         logger.debug(f'Failed PMIDS: {pmid_errors}')
 

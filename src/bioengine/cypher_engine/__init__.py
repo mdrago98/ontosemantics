@@ -1,1 +1,2 @@
-from .neo_connection import Connection
+
+from cypher_engine.connections.ontology_store_connection import OntologyStoreConnection

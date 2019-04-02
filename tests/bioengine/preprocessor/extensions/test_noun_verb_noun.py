@@ -6,7 +6,6 @@ from benepar.spacy_plugin import BeneparComponent
 from src.bioengine.preprocessor.extensions import BecasNamedEntity
 from src.bioengine.preprocessor.extensions.noun_verb_noun import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
     enrich_adp
-from src.bioengine.spacy_factory import MedicalSpacyFactory
 
 
 class TestNounVerbRelations(TestCase):

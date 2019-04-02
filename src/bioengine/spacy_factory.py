@@ -2,6 +2,7 @@
 import spacy
 from benepar.spacy_plugin import BeneparComponent
 from spacy.tokens import Doc, Span
+from spacy.tokens.token import Token
 
 from settings import Config
 from src.bioengine.preprocessor.extensions import BecasNamedEntity

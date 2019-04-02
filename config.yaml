@@ -36,7 +36,7 @@ becas:
 similarity_vector: /home/drago/PycharmProjects/bioengine/resources/vectors/PubMed-shuffle-win-30.bin
 
 neo4j:
-  uri: bolt://localhost:7687
+  uri: bolt://localhost:11004
   user: engine_user
   password: password
 
