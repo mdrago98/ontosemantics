@@ -1,7 +1,7 @@
 
-from py2neo.ogm import Property
+from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_graph_object import Class
+from cypher_engine.models.ols_models.ols_graph_object import Class
 
 
 class GO(Class):
@@ -24,3 +24,6 @@ class GO(Class):
         annotation_creation_date = Property("annotation-creation_date")
         term_replaced_by = Property("term_replaced_by")
         annotation_created_by = Property("annotation-created_by")
+ 
+        children = RelatedTo('GO')
+        related = RelatedFrom('GO')

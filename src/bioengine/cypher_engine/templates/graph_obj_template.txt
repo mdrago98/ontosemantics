@@ -1,5 +1,5 @@
 
-from py2neo.ogm import Property
+from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
 from src.bioengine.cypher_engine.models.ols_graph_object import Class
 
@@ -8,3 +8,6 @@ class {{className}}(Class):
     {{#properties}}
         {{name}} = Property("{{property}}")
     {{/properties}}
+
+        children = RelatedTo('{{className}}')
+        related = RelatedFrom('{{className}}')

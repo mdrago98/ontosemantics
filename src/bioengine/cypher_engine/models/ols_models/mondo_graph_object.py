@@ -1,7 +1,7 @@
 
-from py2neo.ogm import Property
+from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_graph_object import Class
+from cypher_engine.models.ols_models.ols_graph_object import Class
 
 
 class MONDO(Class):
@@ -20,3 +20,6 @@ class MONDO(Class):
         annotation_has_narrow_synonym = Property("annotation-has_narrow_synonym")
         annotation_has_broad_synonym = Property("annotation-has_broad_synonym")
         annotation_excluded_sub_class_of = Property("annotation-excluded subClassOf")
+ 
+        children = RelatedTo('MONDO')
+        related = RelatedFrom('MONDO')

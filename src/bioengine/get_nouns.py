@@ -1,6 +1,5 @@
 import plac
 from Bio import Entrez
-from spacy import displacy
 
 from cypher_engine.match import map_relation_with_ontology_terms, map_relation_terms_with_ontology_terms
 from src.bioengine import logger
@@ -69,7 +68,7 @@ def main(directory='', query='diabetes', size=4):
         out_dir = path.join(directory, pubmed_id)
         if not path.exists(out_dir):
             makedirs(out_dir)
-        relations = sum(doc._.noun_verb_chunks, [])
+        relations = doc._.noun_verb_chunks
         terms += [map_relation_terms_with_ontology_terms(relations)]
         with open(path.join(out_dir, 'relations.txt'), 'w') as file:
             for relation in relations:

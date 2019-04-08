@@ -1,16 +1,16 @@
-from src.bioengine.cypher_engine.models.chebi_graph_object import CHEBI
-from src.bioengine.cypher_engine.models.cmpo_graph_object import CMPO
-from src.bioengine.cypher_engine.models.fma_graph_object import FMA
-from src.bioengine.cypher_engine.models.mondo_graph_object import MONDO
-from src.bioengine.cypher_engine.models.ro_graph_object import RO
-from src.bioengine.cypher_engine.models.cl_graph_object import CL
-from src.bioengine.cypher_engine.models.doid_graph_object import DOID
-from src.bioengine.cypher_engine.models.go_graph_object import GO
-from src.bioengine.cypher_engine.models.human_phenotype_graph_object import HUMAN_PHENOTYPE
-from src.bioengine.cypher_engine.models.ols_graph_object import Class
-from src.bioengine.cypher_engine.models.uberon_graph_object import UBERON
-from src.bioengine.cypher_engine.models.zebrafish_anatomical_ontology_graph_object import ZEBRAFISH_ANATOMICAL_ONTOLOGY
-
+from cypher_engine.models.ols_models.chebi_graph_object import CHEBI
+from cypher_engine.models.ols_models.cmpo_graph_object import CMPO
+from cypher_engine.models.ols_models.fma_graph_object import FMA
+from cypher_engine.models.ols_models.mondo_graph_object import MONDO
+from cypher_engine.models.ols_models.ro_graph_object import RO
+from cypher_engine.models.ols_models.cl_graph_object import CL
+from cypher_engine.models.ols_models.doid_graph_object import DOID
+from cypher_engine.models.ols_models.go_graph_object import GO
+from cypher_engine.models.ols_models.human_phenotype_graph_object import HUMAN_PHENOTYPE
+from cypher_engine.models.ols_models.ols_graph_object import Class
+from cypher_engine.models.ols_models.uberon_graph_object import UBERON
+from cypher_engine.models.ols_models.zebrafish_anatomical_ontology_graph_object import ZEBRAFISH_ANATOMICAL_ONTOLOGY
+from cypher_engine.models.knowledge.datamodel import *
 
 class ModelFactory:
 

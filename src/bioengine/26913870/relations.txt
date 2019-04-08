@@ -1,0 +1,13 @@
+
+Effector: Diabetes Insipidus, Verb: is, Efectee: [[complex, heterogeneous], syndrome]
+Effector: syndrome, Verb: affecting, Efectee: [[], water balance]
+Effector: Willis, Verb: noted, Efectee: [[], difference]
+Effector: Frank, Verb: described, Efectee: [[polyuric], patients]
+Effector: patients, Verb: excreting, Efectee: [[nonsaccharine], nonsaccharine, urine]
+Effector: milestone, Verb: was, Efectee: [[], the]
+Effector: Farini, Verb: treat, Efectee: [[posterior pituitary], extracts]
+Effector: Farini, Verb: treat, Efectee: [[], Diabetes Insipidus]
+Effector: evidence, Verb: indicated, Efectee: [[], Diabetes Insipidus]
+Effector: kidney, Verb: had, Efectee: [[critical], role]
+Effector: Vigneaud, Verb: received, Efectee: [[], Nobel, Prize]
+Effector: vasopressin, Verb: representing, Efectee: [[], milestone]

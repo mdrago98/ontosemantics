@@ -1,7 +1,7 @@
 
-from py2neo.ogm import Property
+from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_graph_object import Class
+from cypher_engine.models.ols_models.ols_graph_object import Class
 
 
 class CHEBI(Class):
@@ -24,3 +24,6 @@ class CHEBI(Class):
         annotation_monoisotopicmass = Property("annotation-monoisotopicmass")
         annotation_inchi = Property("annotation-inchi")
         term_replaced_by = Property("term_replaced_by")
+ 
+        children = RelatedTo('CHEBI')
+        related = RelatedFrom('CHEBI')

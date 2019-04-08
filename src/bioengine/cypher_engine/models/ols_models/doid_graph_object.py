@@ -1,7 +1,7 @@
 
-from py2neo.ogm import Property
+from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_graph_object import Class
+from cypher_engine.models.ols_models.ols_graph_object import Class
 
 
 class DOID(Class):
@@ -16,3 +16,6 @@ class DOID(Class):
         in_subset = Property("in_subset")
         annotation_has_obo_namespace = Property("annotation-has_obo_namespace")
         annotation_has_alternative_id = Property("annotation-has_alternative_id")
+ 
+        children = RelatedTo('DOID')
+        related = RelatedFrom('DOID')

@@ -5,7 +5,7 @@ from benepar.spacy_plugin import BeneparComponent
 
 from src.bioengine.preprocessor.extensions import BecasNamedEntity
 from src.bioengine.preprocessor.extensions.noun_verb_noun import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
-    enrich_adp
+    enrich_adp, get_subjects, get_full_adj
 
 
 class TestNounVerbRelations(TestCase):
@@ -47,16 +47,9 @@ class TestNounVerbRelations(TestCase):
         text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis.'
         doc = self.nlp(text)
         noun_phrase = get_noun_verb_noun_phrases_from_sentence(list(doc.sents)[0])
-        assert 'Central diabetes insipidus' == str(list(noun_phrase[0][0].keys())[0])
+        assert 'Central diabetes insipidus' == str(noun_phrase[0][0])
         assert 'is' == str(noun_phrase[0][1])
-        assert 'rare disease' == str(list(noun_phrase[0][2].keys())[0])
-
-    def test_noun_phrase_resolution_with_pronouns(self):
-        text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis. It is very ' \
-               'unusually found in the adult with type 2 diabetes mellitus.'
-        doc = self.nlp(text)
-        noun_phrase = get_noun_verb_noun_phrases_from_sentence(list(doc.sents)[1])
-        assert list(noun_phrase[0][0].keys())[0].text == 'Central diabetes insipidus'
+        assert 'rare disease' in str(noun_phrase[0][2])
 
     def test_adp_resolution(self):
         text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis. It is very ' \
@@ -64,6 +57,18 @@ class TestNounVerbRelations(TestCase):
         doc = self.nlp(text)
         resolved_noun = enrich_adp(list(doc.sents)[1][5])
         assert resolved_noun.text == 'adult'
+
+    def test_get_full_adj(self):
+        text = 'Pulmonary Langerhans cell histiocytosis is an uncommon diffuse cystic lung disease in adults.'
+        doc = self.nlp(text)
+        resolved_noun = get_full_adj(list(doc.sents)[0][5])
+        assert 'cystic lung disease' == str(resolved_noun[0])
+        assert 'uncommon' == str(resolved_noun[2])
+
+    # def test_get_subjects(self):
+    #     text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis.'
+    #     doc = self.nlp(text)
+    #     subjects, negation = get_subjects()
 
     # TODO: add enrich adj tests
     # TODO: add enrich adp tests

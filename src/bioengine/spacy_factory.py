@@ -1,15 +1,13 @@
 
 import spacy
 from benepar.spacy_plugin import BeneparComponent
-from spacy.tokens import Doc, Span
-from spacy.tokens.token import Token
+from spacy.tokens import Doc
 
 from settings import Config
 from src.bioengine.preprocessor.extensions import BecasNamedEntity
 from os.path import join
 
-from src.bioengine.preprocessor.extensions.noun_verb_noun import get_noun_verb_chunks, \
-    get_noun_verb_noun_phrases_from_sentence
+from src.bioengine.preprocessor.extensions.noun_verb_noun import get_noun_verb_chunks
 
 
 class MedicalSpacyFactory:
@@ -29,10 +27,9 @@ class MedicalSpacyFactory:
         for stop_word in MedicalSpacyFactory._load_stop():
             lexeme = nlp.vocab[stop_word]
             lexeme.is_stop = True
-        Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks)
-        Span.set_extension('noun_verb_chunks', getter=get_noun_verb_noun_phrases_from_sentence)
         nlp.add_pipe(BecasNamedEntity(nlp))
         nlp.add_pipe(BeneparComponent("benepar_en2"))
+        Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks)
         return nlp
 
     @staticmethod

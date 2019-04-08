@@ -11,7 +11,7 @@ class OntologyStoreConnection(Connection):
     """
     def __init__(self, config: dict = None):
         if config is None:
-            config = Config().get_property('neo4j')
+            config = Config().get_property('neo4j')['ontology_store']
         self.driver = Graph(config['uri'], auth=(config['user'], config['password']))
         self.node_matcher = NodeMatcher(self.driver)
         self.relation_matcher = RelationshipMatch(self.driver)
