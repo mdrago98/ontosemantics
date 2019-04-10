@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
-from meta_classes import Singleton
-from py2neo import Table
+from py2neo import Cursor, cypher_escape
 
 from cypher_engine.models import ModelFactory
 
@@ -10,14 +9,16 @@ class Connection(ABC):
     An Abstract class, abstracting Neo4j connections
     """
 
-    @abstractmethod
-    def execute_string_query(self, query, **kwargs) -> Table:
+    def execute_string_query(self, query, **kwargs) -> Cursor:
         """
         An abstract method for executing a cypher query
         :param query: a string representing a parameterized query
         :param kwargs: a dictionary of parameters
         """
-        pass
+        args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
+        args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
+        query_string = query().format(**dict(args))
+        return self.driver.run(cypher=query_string)
 
     @abstractmethod
     def get_nodes(self, concept: str, node_query=None, factory: ModelFactory = None) -> list:

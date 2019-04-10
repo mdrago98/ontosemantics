@@ -7,7 +7,8 @@ from cypher_engine.models import NamedThing, MolecularEntity, OrganismalEntity, 
 from preprocessor.extensions.noun_verb_noun import Relation
 from collections import OrderedDict
 
-test = Relation('Central diabetes insipidus', 'is', ['rare disease'], False)
+
+test = Relation('Central diabetes insipidus', 'is', [[], 'rare disease'], False)
 
 terms = map_relation_with_ontology_terms(test)
 associations = {
@@ -28,8 +29,6 @@ term_mapping = {
     DiseaseOrPhenotypicFeature: ['DOID', 'HUMAN_PHENOTYPE', 'CMPO'],
     ChemicalSubstance: ['CHEBI']
 }
-
-print(terms)
 
 
 def get_association(relation: Relation, terms: dict) -> dict:
@@ -77,14 +76,14 @@ subject = subject_biolink(id=subject_term.iri,
                           synonym=subject_term.synonym if hasattr(subject_term, 'synonym') else [],
                           description=subject_term.description)
 object_biolink = list(get_mapping(list(terms.items())[1][1][0]).items())[0][0]
-object_term = terms[test.effectee[0]][0]
-object = subject_biolink(id=subject_term.iri,
-                         name=subject_term.label,
-                         category=[term.ontology_iri for term in terms[test.effector]],
-                         iri=subject_term.iri,
-                         full_name=subject_term.label,
-                         synonym=subject_term.synonym if hasattr(subject_term, 'synonym') else [],
-                         description=subject_term.description)
+object_term = terms[test.effectee[1]][0]
+object = subject_biolink(id=object_term.iri,
+                         name=object_term.label,
+                         category=[term.ontology_iri for term in terms[test.effectee[1]]],
+                         iri=object_term.iri,
+                         full_name=object_term.label,
+                         synonym=object_term.synonym if hasattr(object_term, 'synonym') else [],
+                         description=object_term.description)
 knowledge_graph = list(possible_associations.items())[0][0](1, subject, test.relation, object, negated=test.negation)
 print(knowledge_graph)
 

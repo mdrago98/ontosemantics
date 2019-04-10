@@ -38,12 +38,12 @@ similarity_vector: /home/drago/PycharmProjects/bioengine/resources/vectors/PubMe
 neo4j:
   ontology_store:
     uri: bolt://localhost:11004
-    user: engine_user
+    user: neo4j
     password: password
   knowledge_graph:
     uri: bolt://localhost:7687
     user: neo4j
-    password: test
+    password: password
 
 headers:
   'User-Agent': Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0

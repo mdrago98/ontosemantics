@@ -1,11 +1,28 @@
 from collections import namedtuple
 
+from pandas import DataFrame
+
 from cypher_engine.connections import Connection
 from src.bioengine.cypher_engine import OntologyStoreConnection
 
 
 def filter_relation_terms(relation_part: list) -> list:
     return list(filter(lambda x: not isinstance(x, list), relation_part))
+
+
+def get_mapping_query() -> str:
+    """
+    A wrapper to the term matching query
+    :return: the string representing the parameterized query
+    """
+    return """UNWIND {terms} as term
+                MATCH (n:Class)--(m:Class)
+                WHERE n.label =~ term
+                RETURN n, term, LABELS(n)"""
+
+
+def get_ontology_mapping(terms: list, driver: Connection) -> DataFrame:
+    return driver.execute_string_query(get_mapping_query(), terms=terms).to_data_frame()
 
 
 def map_relation_with_ontology_terms(relation: namedtuple, driver: Connection = None) -> dict:

@@ -1,4 +1,4 @@
-from py2neo import Graph, cypher_escape, Table, NodeMatcher, RelationshipMatch
+from py2neo import Graph, cypher_escape, NodeMatcher, RelationshipMatch, Cursor
 
 from cypher_engine.models import Class, ModelFactory
 from src.bioengine.cypher_engine.connections.connection import Connection
@@ -16,18 +16,18 @@ class OntologyStoreConnection(Connection):
         self.node_matcher = NodeMatcher(self.driver)
         self.relation_matcher = RelationshipMatch(self.driver)
 
-    def execute_string_query(self, query, **kwargs) -> Table:
-        """
-        A method that accepts a parameterized string, cleans the parameters, injects the params dynamically
-        and executes the query.
-        :param query: a string representing a query with injectable parameters
-        :param kwargs: keyed injectable parameters
-        :return: a table representation of the data
-        """
-        args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
-        args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
-        query_string = query().format(**dict(args))
-        return self.driver.run(cypher=query_string).to_table()
+    # def execute_string_query(self, query, **kwargs) -> Cursor:
+    #     """
+    #     A method that accepts a parameterized string, cleans the parameters, injects the params dynamically
+    #     and executes the query.
+    #     :param query: a string representing a query with injectable parameters
+    #     :param kwargs: keyed injectable parameters
+    #     :return: a table representation of the data
+    #     """
+    #     args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
+    #     args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
+    #     query_string = query().format(**dict(args))
+    #     return self.driver.run(cypher=query_string)
 
     def get_nodes(self, concept: str, node_query=None, factory: ModelFactory = None) -> list:
         """

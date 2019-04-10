@@ -1,4 +1,0 @@
-
-Effector: Central diabetes insipidus, Verb: is, Efectee: [[], rare disease]
-Effector: who, Verb: had, Efectee: [[standing, long], syndrome]
-Effector: Resonance, Verb: showed, Efectee: [[bright], spot]
