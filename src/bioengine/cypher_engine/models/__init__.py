@@ -10,7 +10,7 @@ from cypher_engine.models.ols_models.human_phenotype_graph_object import HUMAN_P
 from cypher_engine.models.ols_models.ols_graph_object import Class
 from cypher_engine.models.ols_models.uberon_graph_object import UBERON
 from cypher_engine.models.ols_models.zebrafish_anatomical_ontology_graph_object import ZEBRAFISH_ANATOMICAL_ONTOLOGY
-from cypher_engine.models.knowledge.datamodel import *
+
 
 class ModelFactory:
 

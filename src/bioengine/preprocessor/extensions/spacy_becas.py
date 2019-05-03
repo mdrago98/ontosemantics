@@ -16,7 +16,7 @@ class BecasNamedEntity:
         nlp.vocab.strings.add('MISC')
         self.label = nlp.vocab.strings[label]
         self.matcher = PhraseMatcher(nlp.vocab)
-        Span.set_extension('medical_mapping', default=[])
+        # Span.set_extension('medical_mapping', default=[])
 
     # TODO: strip the medical mapping functionality into the own function and put after span merge
     def __call__(self, doc, *args, **kwargs):
@@ -35,7 +35,7 @@ class BecasNamedEntity:
                 if term is not None:
                     term_hash = md5(bytes(term.text.lower(), 'utf-8')).hexdigest()
                     if term_hash in terms.keys():
-                        term._.set('medical_mapping', terms[term_hash])
+                        # term._.set('medical_mapping', terms[term_hash])
                         spans.append(term)
                         doc.ents = list(doc.ents) + [term]
         # merge ent spans after not to mess with the ordering

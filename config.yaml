@@ -9,6 +9,18 @@ spacy:
     disable:
       - ner
 
+pubmed_base_iri: https://www.ncbi.nlm.nih.gov/pubmed/?term
+
+ontology_priority:
+  - MONDO
+  - DOID
+  - FMA
+  - UBERON
+  - GO
+  - CHEBI
+  - CL
+  - ZEBRAFISH_ANATOMICAL_ONTOLOGY
+
 ner:
   stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
   stanford_ner_model: /home/drago/PycharmProjects/bioengine/resources/models/bio-ner-model.ser.gz
@@ -43,7 +55,7 @@ neo4j:
   knowledge_graph:
     uri: bolt://localhost:7687
     user: neo4j
-    password: password
+    password: test
 
 headers:
   'User-Agent': Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0

@@ -7,7 +7,7 @@ Part = namedtuple('Part', 'adjectives nouns')
 
 
 SUBJECTS = ['nsubj', 'nsubjpass', 'csubj', 'csubjpass', 'agent', 'expl']
-OBJECTS = ['dobj', 'dative', 'attr', 'oprd']
+OBJECTS = ['dobj', 'dative', 'attr', 'oprd', 'pobj']
 ADJECTIVES = ['acomp', 'advcl', 'advmod', 'amod', 'appos', 'nn', 'nmod', 'ccomp', 'complm',
               'hmod', 'infmod', 'xcomp', 'rcmod', 'poss', ' possessive']
 COMPOUNDS = ['compound']
@@ -49,6 +49,17 @@ def get_noun_verb_noun_phrases_from_sentence(sentence: Span) -> list:
                         Relation(subject, verb, [augment_noun_with_adj(obj)] + generate_sub_compound(obj),
                                  True if is_negation or negated_object else False))
     return svos
+
+
+def enrich_svo(relation: Relation) -> list:
+    """
+    A function that finds adps or conjunctions and finds new svo triples using these.
+    :param relation: the relation to augment
+    :return: a list of augmented relationships
+    """
+    dependency = relation[2][1]
+
+    pass
 
 
 def get_subjects_from_conjunctions(subjects: list) -> list:
@@ -115,7 +126,7 @@ def get_objs_from_prepositions(tokens: list) -> list:
     objs = []
     for token in tokens:
         if token.pos_ == 'ADP' and token.dep_ == 'prep':
-            objs += [tok for tok in token.rights if tok.dep_ in OBJECTS or (tok.pos_ == 'PRON' and tok.lower_ == 'me')]
+            objs += [tok for tok in token.rights if tok.dep_ in OBJECTS]
     return objs
 
 

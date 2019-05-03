@@ -17,7 +17,7 @@ class Connection(ABC):
         """
         args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
         args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
-        query_string = query().format(**dict(args))
+        query_string = query.format(**dict(args))
         return self.driver.run(cypher=query_string)
 
     @abstractmethod

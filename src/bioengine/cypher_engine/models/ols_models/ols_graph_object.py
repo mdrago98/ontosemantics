@@ -41,6 +41,5 @@ class Class(GraphObject):
     ontology_iri = Property('ontology_iri')
     super_class_description = Property('superClassDescription')
     equivalent_class_description = Property('equivalentClassDescription')
-
     # children = RelatedTo('Class')
     # related = RelatedFrom('Class')

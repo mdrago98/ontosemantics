@@ -4,8 +4,8 @@ from unittest import TestCase
 from benepar.spacy_plugin import BeneparComponent
 
 from src.bioengine.preprocessor.extensions import BecasNamedEntity
-from src.bioengine.preprocessor.extensions.noun_verb_noun import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
-    enrich_adp, get_subjects, get_full_adj
+from src.bioengine.preprocessor.extensions.svo import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
+    enrich_adp, get_subjects, get_full_adj, get_dependencies, get_objs_from_prepositions
 
 
 class TestNounVerbRelations(TestCase):
@@ -28,6 +28,25 @@ class TestNounVerbRelations(TestCase):
         Tears down the test case dependencies
         """
         cls.nlp = None
+
+    def test_get_subjects_returns_left_subject(self):
+        text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis'
+        doc = self.nlp(text)
+        subjects, negation = get_subjects(doc[1])
+        assert negation is False
+        assert str(subjects[0]) == 'Central diabetes insipidus'
+
+    def test_pronoun_res(self):
+        text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis'
+        doc = self.nlp(text)
+        preps = get_objs_from_prepositions([doc[4]])
+        pass
+
+    def test_get_svo(self):
+        text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis'
+        doc = self.nlp(text)
+        svo = get_noun_verb_noun_phrases_from_sentence(list(doc.sents)[0])
+        pass
 
     def test_pronoun_resolution_with_ambiguous_pronoun(self):
         text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis. It is very ' \

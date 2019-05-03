@@ -1,97 +1,92 @@
-from cypher_engine.match import map_relation_with_ontology_terms
-from cypher_engine.models import NamedThing, MolecularEntity, OrganismalEntity, \
-    DiseaseOrPhenotypicFeature, ChemicalSubstance, AnatomicalEntityToAnatomicalEntityAssociation, \
-    ChemicalToDiseaseOrPhenotypicFeatureAssociation, ChemicalToGeneAssociation, ChemicalToThingAssociation, \
-    GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
-    DiseaseOrPhenotypicFeatureAssociationToThingAssociation, Class
-from preprocessor.extensions.noun_verb_noun import Relation
-from collections import OrderedDict
+from py2neo import Node, Subgraph
+
+from cypher_engine.biolink_mapping import get_relationship_node, get_association, get_publication_node, get_providers, \
+    link_publication_to_provider, link_entities_to_publication
+from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from cypher_engine.match import map_relations_with_ontology_terms
+from knowledge.datamodel import NamedThing
+from preprocessor.extensions.svo import Relation
+from pandas import read_csv
+from os.path import join
+
+base_dir = '/home/drago/test_eval/'
+pmid = '26508947'
+driver = KnowledgeGraphConnection()
+csv = read_csv(join(base_dir, pmid, 'relations.csv'))
+with open(join(base_dir, pmid, 'entities.txt')) as file:
+    entities = file.readlines()
+with open(join(base_dir, pmid, 'doc.txt')) as file:
+    doc = file.read()
+with open(join(base_dir, pmid, 'authors.txt')) as file:
+    authors = file.readlines()
+entities = [entity.strip() for entity in entities]
+authors = [author.strip() for author in authors]
+relations = [Relation(row['Subject'], row['Action'], row['Object'], row['Negation']) for index, row in csv.iterrows()]
+terms, alternate_term_dictionary, term_score = map_relations_with_ontology_terms(relations, entities=entities)
 
 
-test = Relation('Central diabetes insipidus', 'is', [[], 'rare disease'], False)
-
-terms = map_relation_with_ontology_terms(test)
-associations = {
-    AnatomicalEntityToAnatomicalEntityAssociation: (['FMA', 'ZEBRAFISH_ANATOMICAL_ONTOLOGY'],
-                                                    ['FMA', 'ZEBRAFISH_ANATOMICAL_ONTOLOGY']),
-    ChemicalToDiseaseOrPhenotypicFeatureAssociation: (['CHEBI'], ['DOID', 'HUMAN_PHENOTYPE']),
-    ChemicalToGeneAssociation: (['CHEBI'], ['GO']),
-    ChemicalToThingAssociation: (['CHEBI'], ['*']),
-    GeneToGeneAssociation: (['GO'], ['GO']),
-    GeneToThingAssociation: (['GO'], ['*']),
-    ThingToDiseaseOrPhenotypicFeatureAssociation: (['*'], ['DOID', 'HUMAN_PHENOTYPE']),
-    DiseaseOrPhenotypicFeatureAssociationToThingAssociation: (['DOID', 'HUMAN_PHENOTYPE'], ['*'])
-}
-
-term_mapping = {
-    MolecularEntity: ['GO'],
-    OrganismalEntity: ['FMA', 'ZEBRAFISH_ANATOMICAL_ONTOLOGY', 'UBERON', 'CL'],
-    DiseaseOrPhenotypicFeature: ['DOID', 'HUMAN_PHENOTYPE', 'CMPO'],
-    ChemicalSubstance: ['CHEBI']
-}
-
-
-def get_association(relation: Relation, terms: dict) -> dict:
+def generate_doc_details(pmid: str, doc: str, authors: list, entities, terms) -> tuple:
     """
-    A method that returns the appropriate association term
-    :param terms: a dictionary of enriched terms from the ontology store
-    :param relation: the relation
+    A function that generates a subgraph of document details
+    :param doc: the document text
+    :param pmid: the pmid of the article
+    :param authors: a list of authors
+    :param entities: a list of entities
     """
-    subject_terms = terms[relation.effector]
-    object_terms = terms[list(filter(lambda x: isinstance(x, str), relation.effectee))[0]]
-    subject_query = '*' if len(subject_terms) > 1 else subject_terms[0].ontology_prefix
-    subject_query = '*' if len(list(filter(lambda x: subject_query in x[1][0], associations.items()))) is 0 \
-        else subject_query
-    object_query = '*' if len(object_terms) > 1 else object_terms[0].ontology_prefix
-    object_query = '*' if len(list(filter(lambda x: object_query in x[1][0], associations.items()))) is 0 \
-        else object_query
-    return {association: requirements for association, requirements in associations.items()
-            if subject_query in requirements[0]
-            and object_query in requirements[1]}
+    sub_graph = None
+    entity_sub_graph = None
+    for entity in entities:
+        node, entity_relations = get_relationship_node(entity, terms)
+        if node is not None:
+            entity_sub_graph = node if sub_graph is None else sub_graph | node
+        if entity_relations is not None:
+            entity_sub_graph |= entity_relations
+    publication: Node = get_publication_node(doc, pmid, pmid)
+    entity_sub_graph |= link_entities_to_publication(list(entity_sub_graph.nodes), publication, entity_sub_graph)
+    sub_graph = publication
+    providers: list = get_providers(authors)
+    sub_graph |= link_publication_to_provider(providers, publication, sub_graph)
+    return sub_graph, entity_sub_graph, publication
 
 
-def get_mapping(term: Class) -> OrderedDict:
+def sort_terms(term_dict: dict, term_scores: dict) -> dict:
     """
-    A method for returning the biolink mapping from the source object
-    :param term: A neo4j OGM class
-    :return: a dict of possible mappings
+    A function that sorts entries by score
+    :param term_dict: the term dictionary
+    :param term_scores: a dictionary of iri: scores
+    :return: the term dict with sorted values
     """
-    mapping = {biolink_entity: requirements for biolink_entity, requirements in term_mapping.items()
-               if term.ontology_prefix in requirements}
-    if len(mapping) is 0:
-        mapping = {NamedThing: ['*']}
-    return OrderedDict(sorted(mapping.items(), key=lambda kv: (-len(kv[1]))))
+    for keys, values in term_dict.items():
+        values.sort(key=lambda graph_obj: term_scores[graph_obj.iri], reverse=True)
+    return term_dict
 
 
-possible_associations = get_association(relation=test, terms=terms)
+terms = sort_terms(terms, term_score)
 
-# sorted(possible_associations.items(), key=lambda x: len(x[1][0]))
-subject_biolink = list(get_mapping(list(terms.items())[0][1][0]).items())[0][0]
-subject_term = terms[test.effector][0]
-subject = subject_biolink(id=subject_term.iri,
-                          name=subject_term.label,
-                          category=[term.ontology_iri for term in terms[test.effector]],
-                          iri=subject_term.iri,
-                          full_name=subject_term.label,
-                          synonym=subject_term.synonym if hasattr(subject_term, 'synonym') else [],
-                          description=subject_term.description)
-object_biolink = list(get_mapping(list(terms.items())[1][1][0]).items())[0][0]
-object_term = terms[test.effectee[1]][0]
-object = subject_biolink(id=object_term.iri,
-                         name=object_term.label,
-                         category=[term.ontology_iri for term in terms[test.effectee[1]]],
-                         iri=object_term.iri,
-                         full_name=object_term.label,
-                         synonym=object_term.synonym if hasattr(object_term, 'synonym') else [],
-                         description=object_term.description)
-knowledge_graph = list(possible_associations.items())[0][0](1, subject, test.relation, object, negated=test.negation)
-print(knowledge_graph)
+detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmid, doc, authors, entities, terms)
 
-#
-# object = subject_biolink(id=term.id,
-#                     name=term.label,
-#                     category=[term.ontology_iri for term in terms[effector]],
-#                     iri=term.iri,
-#                     full_name=term.label,
-#                     synonym=term.synonym if hasattr(term, 'synonym') else [],
-#                     description=term.description)
+sub_graph = None
+associations = []
+for relation in relations:
+    if relation.effector in terms and relation.effectee in terms:
+        subject_node, subject_relations = get_relationship_node(relation.effector, terms)
+        object_node, object_relations = get_relationship_node(relation.effectee, terms)
+        associations += [get_association(relation.relation, subject_node, object_node, relation.negation)]
+        if sub_graph is None:
+            sub_graph = subject_node | object_node
+        else:
+            sub_graph |= subject_node | object_node
+        sub_graph |= link_entities_to_publication(list(sub_graph.nodes), publication, sub_graph)
+        if subject_relations is not None:
+            sub_graph |= subject_relations
+        if object_relations is not None:
+            sub_graph |= object_relations
+
+sub_graph |= entity_sub_graph
+
+tx = driver.driver.begin()
+tx.merge(sub_graph, primary_label=NamedThing.__class__.__name__, primary_key='iri')
+tx.merge(detail_sub_graph, primary_label=NamedThing.__class__.__name__, primary_key='name')
+for association in associations:
+    tx.merge(association, primary_label=association.__class__.__name__, primary_key='relation')
+tx.commit()
