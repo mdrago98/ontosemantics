@@ -1,10 +1,10 @@
 
-from py2neo.ogm import Property
+from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_graph_object import OlsClassGraphObject
+from cypher_engine.models.ols_models.ols_graph_object import Class
 
 
-class doidGraphObject(OlsClassGraphObject):
+class ZEBRAFISH_ANATOMICAL_ONTOLOGY(Class):
         annotation_comment = Property("annotation-comment")
         annotation_id = Property("annotation-id")
         synonym = Property("synonym")
@@ -16,3 +16,8 @@ class doidGraphObject(OlsClassGraphObject):
         in_subset = Property("in_subset")
         annotation_has_obo_namespace = Property("annotation-has_obo_namespace")
         annotation_has_alternative_id = Property("annotation-has_alternative_id")
+        annotation_creation_date = Property("annotation-creation_date")
+        annotation_created_by = Property("annotation-created_by")
+ 
+        children = RelatedTo('ZEBRAFISH_ANATOMICAL_ONTOLOGY')
+        related = RelatedFrom('ZEBRAFISH_ANATOMICAL_ONTOLOGY')

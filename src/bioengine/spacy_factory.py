@@ -7,11 +7,27 @@ from settings import Config
 from src.bioengine.preprocessor.extensions import BecasNamedEntity
 from os.path import join
 
-from src.bioengine.preprocessor.extensions.noun_verb_noun import get_noun_verb_chunks, \
+from src.bioengine.preprocessor.extensions.svo import get_noun_verb_chunks, \
     get_noun_verb_noun_phrases_from_sentence
+from abc import ABC, abstractmethod
 
 
-class MedicalSpacyFactory:
+class SpacyI(ABC):
+    """
+    A factory for creating Spacy instances.
+    """
+    @staticmethod
+    @abstractmethod
+    def factory(config: dict):
+        """
+`       A factory method that initializes a new Spacy instance.
+        :param config: the pipeline configuration
+        :return: A Spacy model
+        """
+        pass
+
+
+class MedicalSpacyFactory(SpacyI):
     """
     A factory class tasked with loading and creating Spacy instances.
     """
@@ -19,7 +35,7 @@ class MedicalSpacyFactory:
     def factory(config: dict = None):
         """
         A factory method that creates a spacy instance with medical pipelines and custom medical extensions.
-        :return:
+        :return: A spacy model optimized for biological tasks
         """
         if config is None:
             config = Config().get_property('spacy')
@@ -28,10 +44,9 @@ class MedicalSpacyFactory:
         for stop_word in MedicalSpacyFactory._load_stop():
             lexeme = nlp.vocab[stop_word]
             lexeme.is_stop = True
-        Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks)
-        Span.set_extension('noun_verb_chunks', getter=get_noun_verb_noun_phrases_from_sentence)
         nlp.add_pipe(BecasNamedEntity(nlp))
         nlp.add_pipe(BeneparComponent("benepar_en2"))
+        Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks, force=True)
         return nlp
 
     @staticmethod

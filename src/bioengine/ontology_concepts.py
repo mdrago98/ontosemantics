@@ -1,13 +1,13 @@
 from nltk import sent_tokenize
 
-from src.bioengine.cypher_engine import Connection
+from src.bioengine.cypher_engine import OntologyStoreConnection
 from src.bioengine.dochandlers.page_objects.pmc_page_object import PMCPageObject
 from src.bioengine.dochandlers.txt_file_handler import write_to_file
 from src.bioengine.preprocessor import TaggerFactory
 
 import re
 
-graph = Connection()
+graph = OntologyStoreConnection()
 corpus = PMCPageObject('PMC5894887').get_text()
 corpus = [line.strip('\n') for line in corpus]
 corpus = [re.sub(r'[^\x00-\x7F]+', ' ', line) for line in corpus]

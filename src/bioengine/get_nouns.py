@@ -1,10 +1,12 @@
 import plac
 from Bio import Entrez
-from spacy import displacy
 
+from cypher_engine.match import map_relations_with_ontology_terms
+from preprocessor.extensions.svo import Relation
 from src.bioengine import logger
 from src.bioengine.spacy_factory import MedicalSpacyFactory
 from os import path, makedirs
+from pandas import DataFrame
 
 
 def search(query, retmax: int = 20):
@@ -20,7 +22,7 @@ def search(query, retmax: int = 20):
 
 def fetch_details(id_list):
     ids = ','.join(id_list)
-    Entrez.email = 'your.email@example.com'
+    Entrez.email = 'matthew.drago.16@um.edu.mt'
     handle = Entrez.efetch(db='pubmed',
                            rettype='full',
                            retmode='xml',
@@ -28,7 +30,7 @@ def fetch_details(id_list):
     return Entrez.read(handle)
 
 
-def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threads: int = 12):
+def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threads: int = 12) -> tuple:
     """
     A method that reads and parses entries from entrez
     :param query: the query string
@@ -36,25 +38,27 @@ def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threa
     :param nlp: a spacy abstraction of the model
     :param batch_size: the batch size
     :param threads: the number of max threads to occupy
-    :return: None
+    :return: a tuple containing a dictionary of parsed documents and a dictionary of pmids and authors
     """
     if nlp is None:
         nlp = MedicalSpacyFactory.factory()
 
-    # id_list = search(query, size)['IdList']
-    id_list = ['17026722']
+    id_list = search(query, size)['IdList']
     handle = Entrez.efetch(db="pubmed", id=','.join(map(str, id_list)),
                            rettype="xml", retmode="text")
     papers = Entrez.read(handle)
     abstracts = {pubmed_article['MedlineCitation']['PMID']: pubmed_article['MedlineCitation']['Article']['Abstract']['AbstractText'][0]
                  for pubmed_article in papers['PubmedArticle']
                  if 'Abstract' in pubmed_article['MedlineCitation']['Article']}
+    authors = {str(pubmed_article['MedlineCitation']['PMID']): [f'{author["LastName"]}, {author["ForeName"]}'
+                                                           for author in pubmed_article['MedlineCitation']['Article']['AuthorList']]
+               for pubmed_article in papers['PubmedArticle']}
     documents = [doc for doc in nlp.pipe([str(abstract) for _, abstract in abstracts.items()], batch_size=batch_size,
                                          n_threads=threads)]
-    return {str(pubmed_id): documents[index] for index, pubmed_id in enumerate(abstracts.keys())}
+    return {str(pubmed_id): documents[index] for index, pubmed_id in enumerate(abstracts.keys())}, authors
 
 
-def main(directory='', query='diabetes', size=40):
+def main(directory='', query='diabetes', size=4):
     """
     Main method obtains abstracts and parses them and organises them according to their pmid
     :param directory: the root directory where to save the output
@@ -62,21 +66,30 @@ def main(directory='', query='diabetes', size=40):
     :param size: the amount of pubmed articles to get
     """
 
-    res = read_and_parse(query, size)
+    documents, authors = read_and_parse(query, size)
+    relations = {}
     pmid_errors = []
-    for pubmed_id, doc in res.items():
+    sents = {}
+    for pubmed_id, doc in documents.items():
         out_dir = path.join(directory, pubmed_id)
         if not path.exists(out_dir):
             makedirs(out_dir)
-        try:
-            relations = sum(doc._.noun_verb_chunks, [])
-            with open(path.join(out_dir, 'relations.txt'), 'w') as file:
-                for relation in relations:
-                    file.write(f'\nEffector: {relation[0]}, Verb: {relation[1]}, Efectee: {relation[2]}')
-            with open(path.join(out_dir, 'doc.txt'), 'w') as file:
-                file.write(doc.text)
-        except:
-            pmid_errors.append(pubmed_id)
+        sents.update({pubmed_id: list(doc.sents)})
+        doc_relations = doc._.noun_verb_chunks
+        doc_relations = [Relation(relation.effector, relation.relation, relation.effectee[1], relation.negation)
+                         for relation in doc_relations if str(relation.effector) in str(doc.ents)
+                         and str(relation.effectee[1]) in str(doc.ents)]
+        frame = DataFrame(doc_relations, columns=['Subject', 'Action', 'Object', 'Negation'])
+        relations[pubmed_id] = frame
+        frame.to_csv(path.join(out_dir, 'relations.csv'))
+        with open(path.join(out_dir, 'entities.txt'), 'w') as file:
+            for entity in doc.ents:
+                file.write(f'{entity}\n')
+        with open(path.join(out_dir, 'authors.txt'), 'w') as file:
+            for author in authors[pubmed_id]:
+                file.write(f'{author}\n')
+        with open(path.join(out_dir, 'doc.txt'), 'w') as file:
+            file.write(doc.text)
     if len(pmid_errors) > 0:
         logger.debug(f'Failed PMIDS: {pmid_errors}')
 
