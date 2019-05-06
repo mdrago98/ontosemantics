@@ -1,7 +1,7 @@
 from py2neo import Table
 
-from cypher_engine.connections import Connection
-from cypher_engine.models import ModelFactory
+from src.bioengine.cypher_engine.connections import Connection
+from src.bioengine.cypher_engine.models import ModelFactory
 from preprocessor.entity_normalization import normalize_batch
 from spacy_factory import MedicalSpacyFactory
 from src.bioengine.cypher_engine import OntologyStoreConnection

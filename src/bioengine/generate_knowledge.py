@@ -4,13 +4,13 @@ from cypher_engine.biolink_mapping import get_relationship_node, get_association
     link_publication_to_provider, link_entities_to_publication
 from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from cypher_engine.match import map_relations_with_ontology_terms
-from knowledge.datamodel import NamedThing
+from biolinkmodel.datamodel import NamedThing
 from preprocessor.extensions.svo import Relation
 from pandas import read_csv
 from os.path import join
 
 base_dir = '/home/drago/test_eval/'
-pmid = '26508947'
+pmid = '26913870'
 driver = KnowledgeGraphConnection()
 csv = read_csv(join(base_dir, pmid, 'relations.csv'))
 with open(join(base_dir, pmid, 'entities.txt')) as file:

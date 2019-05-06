@@ -1,6 +1,6 @@
 from py2neo import Graph, cypher_escape, NodeMatcher, RelationshipMatch, Cursor
 
-from cypher_engine.models import Class, ModelFactory
+from src.bioengine.cypher_engine.models import Class, ModelFactory
 from src.bioengine.cypher_engine.connections.connection import Connection
 from settings import Config
 

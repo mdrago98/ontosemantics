@@ -2,15 +2,15 @@ from collections import OrderedDict
 
 from py2neo import Relationship, Node, Subgraph
 
-from cypher_engine.models import Class
-from knowledge.datamodel import AnatomicalEntityToAnatomicalEntityAssociation, \
+from src.bioengine.cypher_engine.models import Class
+from biolinkmodel.datamodel import AnatomicalEntityToAnatomicalEntityAssociation, \
     ChemicalToDiseaseOrPhenotypicFeatureAssociation, ChemicalToGeneAssociation, ChemicalToThingAssociation, \
     GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
     DiseaseOrPhenotypicFeatureAssociationToThingAssociation, MolecularEntity, OrganismalEntity, \
     ChemicalSubstance, NamedThing, Association, Disease, PhenotypicFeature, Cell, \
     CellularComponent, BiologicalProcess, MolecularActivity
 from settings import Config
-from utils.pythonic_name import get_pythonic_name
+from src.bioengine.utils.pythonic_name import get_pythonic_name
 
 associations = {
     AnatomicalEntityToAnatomicalEntityAssociation: (['OrganismalEntity', 'Cell', 'CellularComponent'],
