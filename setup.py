@@ -6,9 +6,16 @@ from pip._internal.req import parse_requirements
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-def load_requirements(fname):
+
+def load_requirements(fname: str):
+    """
+    a function that loads requirements
+    :param fname: the name
+    :return: a list of requirements
+    """
     reqs = parse_requirements(fname, session="test")
     return [str(ir.req) for ir in reqs]
+
 
 setuptools.setup(
     name="bioengine",

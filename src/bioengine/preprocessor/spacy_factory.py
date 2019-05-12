@@ -32,7 +32,7 @@ class MedicalSpacyFactory(SpacyI):
     A factory class tasked with loading and creating Spacy instances.
     """
     @staticmethod
-    def factory(config: dict = None):
+    def factory(enable_ner: bool = True, config: dict = None):
         """
         A factory method that creates a spacy instance with medical pipelines and custom medical extensions.
         :return: A spacy model optimized for biological tasks
@@ -44,7 +44,8 @@ class MedicalSpacyFactory(SpacyI):
         for stop_word in MedicalSpacyFactory._load_stop():
             lexeme = nlp.vocab[stop_word]
             lexeme.is_stop = True
-        nlp.add_pipe(BecasNamedEntity(nlp))
+        if enable_ner:
+            nlp.add_pipe(BecasNamedEntity(nlp))
         nlp.add_pipe(BeneparComponent("benepar_en2"))
         Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks, force=True)
         return nlp

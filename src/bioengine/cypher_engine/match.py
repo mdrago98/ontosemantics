@@ -3,7 +3,7 @@ from py2neo import Table
 from src.bioengine.cypher_engine.connections import Connection
 from src.bioengine.cypher_engine.models import ModelFactory
 from preprocessor.entity_normalization import normalize_batch
-from spacy_factory import MedicalSpacyFactory
+from preprocessor.spacy_factory import MedicalSpacyFactory
 from src.bioengine.cypher_engine import OntologyStoreConnection
 from utils.pythonic_name import get_pythonic_name
 
@@ -23,9 +23,9 @@ def get_mapping_query() -> str:
     :return: the string representing the parameterized query
     """
     return """UNWIND {terms} as term
-                MATCH (node)-[r]-(m:Class)
-                WHERE toLower(node.label) =~ toLower(term) and 'Class' in Labels(node)
-                return node, term, LABELS(node), COUNT(r)
+                MATCH (node:Class)-[r]-(m:Class)
+                WHERE toLower(node.label) = toLower(term)
+                RETURN node, term, LABELS(node), COUNT(r)
                 UNION
                 UNWIND {terms} as term
                 match(node:Class)-[r]-(m:Class) where toLower(term) in [list_elem IN node.synonym | toLower(list_elem)]
@@ -48,9 +48,9 @@ def map_relations_with_ontology_terms(relations: list, entities: list = None,
                                       driver: Connection = None, nlp=None) -> tuple:
     """
     A method for mapping entities to ontology terms from relations
+    :param pmid: of the  document from which relations where extracted
     :param nlp: a spacy instance
     :param entities: a list of named entities to query
-    :param relations: the relation extracted
     :param driver: a neo4j Driver abstraction
     """
     if entities is None:
@@ -58,7 +58,7 @@ def map_relations_with_ontology_terms(relations: list, entities: list = None,
     if driver is None:
         driver = OntologyStoreConnection()
     if nlp is None:
-        nlp = MedicalSpacyFactory.factory()
+        nlp = MedicalSpacyFactory.factory(enable_ner=False)
     terms = sum([[relation.effector, relation.effectee] for relation in relations], [])
     terms += entities
     terms = list(set(terms))
@@ -68,7 +68,6 @@ def map_relations_with_ontology_terms(relations: list, entities: list = None,
     term_ranking: dict = {}
     mapping: dict = {}
     for row in relation_terms:
-        # TODO: qaccat il class barra
         model_identifier = [classifier for classifier in row[2] if classifier not in ('Class', '_Class', 'Obsolete')]
         graph_object = ModelFactory.factory(model_identifier[0])
         for key, item in row[0].items():

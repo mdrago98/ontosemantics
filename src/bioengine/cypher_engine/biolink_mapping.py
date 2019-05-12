@@ -1,5 +1,6 @@
 from collections import OrderedDict
 
+from Bio import Entrez, SeqIO
 from py2neo import Relationship, Node, Subgraph
 
 from src.bioengine.cypher_engine.models import Class
@@ -8,7 +9,7 @@ from biolinkmodel.datamodel import AnatomicalEntityToAnatomicalEntityAssociation
     GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
     DiseaseOrPhenotypicFeatureAssociationToThingAssociation, MolecularEntity, OrganismalEntity, \
     ChemicalSubstance, NamedThing, Association, Disease, PhenotypicFeature, Cell, \
-    CellularComponent, BiologicalProcess, MolecularActivity
+    CellularComponent, BiologicalProcess, MolecularActivity, Gene
 from settings import Config
 from src.bioengine.utils.pythonic_name import get_pythonic_name
 
@@ -25,7 +26,6 @@ associations = {
 }
 
 term_mapping = {
-    MolecularEntity: ['GO'],
     OrganismalEntity: ['FMA', 'ZEBRAFISH_ANATOMICAL_ONTOLOGY', 'UBERON'],
     Cell: ['CL'],
     CellularComponent: ['CellularComponent'],
@@ -37,16 +37,42 @@ term_mapping = {
 }
 
 
-def get_mapping(term: Class) -> OrderedDict:
+def is_gene_mention(token: str, entrez: Entrez = None, config: Config = None) -> bool:
+    """
+    A method that checks if a label is a gene
+    :param token: the token to look for
+    :param entrez: an entrez instance
+    :param config: config
+    :return:true IFF exists in gene ncbi database
+    """
+    if config is None:
+        config = Config().get_property('entrez')
+    if entrez is None:
+        entrez = Entrez
+        entrez.email = config['email']
+    try:
+        count = int(Entrez.read(Entrez.esearch(db="gene", term=token))['Count'])
+    except:
+        count = 0
+    return True if count > 0 else False
+
+
+def get_mapping(term: Class, term_mapping_conf: dict = None) -> OrderedDict:
     """
     A method for returning the biolink mapping from the source object
+    :param term_mapping_conf: the mapping dictionary
     :param term: A neo4j OGM class
     :return: a dict of possible mappings
     """
-    mapping = {biolink_entity: requirements for biolink_entity, requirements in term_mapping.items()
-               if term.ontology_prefix in requirements or (hasattr(term, 'annotation_has_obo_namespace')
-                                                           and term.annotation_has_obo_namespace in requirements)}
-    if len(mapping) is 0:
+    if term_mapping_conf is None:
+        term_mapping_conf = term_mapping
+    mapping = {biolink_entity: requirements for biolink_entity, requirements in term_mapping_conf.items()
+               if (term.ontology_prefix in requirements)
+               or (hasattr(term, 'annotation_has_obo_namespace')
+                   and term.annotation_has_obo_namespace in requirements)}
+    if len(mapping) is 0 and is_gene_mention(term.label):
+        mapping = {Gene: ['*']}
+    elif len(mapping) is 0:
         mapping = {NamedThing: ['*']}
     return OrderedDict(sorted(mapping.items(), key=lambda kv: (-len(kv[1]))))
 
@@ -71,7 +97,7 @@ def get_relationship_node(token: str, terms: dict) -> tuple:
                                       ontology_iri=alternate_map.ontology_iri,
                                       ontology_name=alternate_map.ontology_name)
                 entity_relation = Relationship(main, 'could_refer_to', alternate_node)
-                sub_relationships = entity_relation if sub_relationships is None\
+                sub_relationships = entity_relation if sub_relationships is None \
                     else sub_relationships | entity_relation
     return main, sub_relationships
 
@@ -110,9 +136,9 @@ def link_publication_to_provider(providers: list, publication: Node, sub_graph: 
     :param publication: a publication node
     :return: a subgraph of relationships between providers and publication
     """
-    for provider in providers:
+    for provider in providers[:3]:
         relation = Relationship(provider, 'provided_by', publication)
-        sub_graph = provider if sub_graph is not None else sub_graph | provider
+        sub_graph |= provider
         sub_graph |= relation
     return sub_graph
 
@@ -165,7 +191,7 @@ def get_nodes_from_biolink_object(biolink_named_thing: NamedThing) -> Node:
     return node
 
 
-def get_association(relation: str, subject_node: Node, object_node: Node, is_negated: bool,
+def get_association(relation: str, subject_node: Node, object_node: Node, is_negated: bool, pmid: str = '',
                     association_config: dict = None):
     """
     A function that returns the most appropriate association for a subject/object pair
@@ -183,7 +209,8 @@ def get_association(relation: str, subject_node: Node, object_node: Node, is_neg
                                               subject=subject_node['id'],
                                               relation=relation,
                                               object=object_node['id'],
-                                              negated=is_negated)
+                                              negated=is_negated,
+                                              publications=[pmid])
     return get_relationship_from_biolink(subject_node, biolink_relation, object_node)
 
 

@@ -1,23 +1,59 @@
-from Bio import Entrez
-from pandas import DataFrame
+import logging
+from itertools import repeat
+from multiprocessing.pool import ThreadPool
 
-from spacy_factory import MedicalSpacyFactory
+from biolinkmodel.datamodel import NamedThing
+
+from cypher_engine.connections import Connection
+from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from cypher_engine.match import map_relations_with_ontology_terms
+from dochandlers.page_objects.nature_page_object import NaturePageObject
+from dochandlers.page_objects.oup_page_object import OUPPageObject
+from dochandlers.page_objects.pmc_page_object import PMCPageObject
+from dochandlers.page_objects.springer_page_object import SpringerPageObject
+from preprocessor.extensions.svo import Relation
+from preprocessor.spacy_factory import MedicalSpacyFactory
+from scripts.generate_knowledge import sort_terms, generate_doc_details, get_document_subgraph
+
+logger = logging.getLogger(__name__)
 
 
-def search(query, retmax: int = 20):
-    Entrez.email = 'matthew.drago.16@um.edu.mt'
-    handle = Entrez.esearch(db='pubmed',
-                            sort='relevance',
-                            retmax=retmax,
-                            retmode='xml',
-                            term=query)
-    results = Entrez.read(handle)
-    return results
+def main(nlp: MedicalSpacyFactory, driver: Connection, pmc_pg):
+    text = ' '.join(pmc_pg.text)
+    text = text.replace('\n', ' ')
+    text = text.replace('\t', ' ')
+    name, authors = pmc_pg.get_article_details()
+    logger.info(f'started generating knowledge graph for {name}')
+    doc = nlp(text)
+    abstract = pmc_pg.get_abstract()
+    doc_relations = doc._.noun_verb_chunks
+    doc_relations = [
+        Relation(str(relation.effector), str(relation.relation), str(relation.effectee[1]), relation.negation)
+        for relation in doc_relations]
+    logger.info(f'mapping terms for {name}')
+    terms, alternate_term_dictionary, term_score = map_relations_with_ontology_terms(doc_relations)
+    detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmc_pg.id, abstract, authors, [], terms)
+    terms = sort_terms(terms, term_score)
+    sub_graph, associations = get_document_subgraph(doc_relations, terms, pmc_pg.id, publication)
+    logger.info(f'generating sub graph for {name}')
+    tx = driver().driver.begin()
+    tx.merge(sub_graph, primary_label=NamedThing.__class__.__name__, primary_key='iri')
+    tx.merge(detail_sub_graph, primary_label=NamedThing.__class__.__name__, primary_key='name')
+    for association in associations:
+        tx.merge(association, primary_label=association.__class__.__name__, primary_key='relation')
+    tx.commit()
 
 
-nlp = MedicalSpacyFactory.factory()
+# [PMCPageObject('28974775', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5894887/'),
+#                 OUPPageObject('11238471', 'https://academic.oup.com/jcem/article/86/3/972/2847394'),
+#                 SpringerPageObject('14722654', 'https://link.springer.com/article/10.1007%2Fs00125-003-1313-3')]
+if __name__ == '__main__':
+    nlp = MedicalSpacyFactory.factory()
+    driver = KnowledgeGraphConnection()
+    pmc_list = [NaturePageObject('11742412', 'https://www.nature.com/articles/414799a')]
+    pool = ThreadPool(10)
+    pool.starmap(main, zip(repeat(nlp), repeat(KnowledgeGraphConnection), pmc_list))
 
-# pm_list = ['29659364', '26508947', '27239592', '26913870', '30071825', '29675260', '29463074', '25083957', '30067922', '27156762', '28476225', '28420857', '21842608', '28258576', '28920918', '28626085', '28919622', '28483362', '26181158', '17026722', '29621695', '29353447', '28586735', '27788409', '29597131', '29957557', '28505557', '29974352', '29902718', '30099326', '29651637', '29388117', '30022435', '30039339', '28719811', '29763858', '29156384', '29614476', '27598996', '26255741']
 # handle = Entrez.efetch(db="pubmed", id=','.join(map(str, pm_list)),
 #                        rettype="xml", retmode="text")
 # papers = Entrez.read(handle)
@@ -35,5 +71,5 @@ nlp = MedicalSpacyFactory.factory()
 #     for sent_index in range(len(sents)):
 #         file.write(f'{sent_index} \t {sents[sent_index]}\n')
 
-doc = nlp('The PON1 102V allele appears to be associated with an increased risk for prostate cancer.')
-print(doc._.noun_verb_chunks)
+# doc = nlp('The PON1 102V allele appears to be associated with an increased risk for prostate cancer.')
+# print(doc._.noun_verb_chunks)
