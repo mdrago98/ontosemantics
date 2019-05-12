@@ -30,7 +30,7 @@ def wiki_style_citation():
     A wrapper function that returns a compiled regex for catching apa style citations
     :return: a complied regex
     """
-    return compile(r'\[\d+\]')
+    return compile(r'[\[(]\d+[)\]]')
 
 
 def strip_citations(text) -> str:

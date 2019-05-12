@@ -2,11 +2,10 @@ from collections import deque
 from multiprocessing.dummy import Pool as ThreadPool
 from re import compile
 
-import spacy
 from spacy.tokens import Doc, Token
 
 from src.bioengine.preprocessor.extensions import get_noun_verb_noun_phrases_from_sentence
-from src.bioengine.spacy_factory import MedicalSpacyFactory
+from preprocessor.spacy_factory import MedicalSpacyFactory
 
 
 def meta_map_trigger_regex():

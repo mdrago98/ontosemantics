@@ -1,7 +1,7 @@
 
 from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from cypher_engine.models.ols_models.ols_graph_object import Class
+from src.bioengine.cypher_engine.models.ols_models.ols_graph_object import Class
 
 
 class FMA(Class):

@@ -20,9 +20,10 @@ class PageObject(ABC):
         decompose = []
         for tag, attributes in pipeline.items():
             if attributes is not None:
-                for attribute in attributes.items():
-                    for value in attribute[1]:
-                        decompose += soup.findAll(tag, {attribute[0]: value})
+                for elm, attribute in attributes.items():
+                    if attribute is not None:
+                        for value in attribute:
+                            decompose += soup.findAll(tag, {elm: value})
             else:
                 decompose += soup.findAll(tag)
         for item in decompose:

@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from py2neo import Cursor, cypher_escape
 
-from cypher_engine.models import ModelFactory
+from src.bioengine.cypher_engine.models import ModelFactory
 
 
 class Connection(ABC):

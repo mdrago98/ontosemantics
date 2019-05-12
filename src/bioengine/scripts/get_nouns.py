@@ -1,10 +1,9 @@
 import plac
 from Bio import Entrez
 
-from cypher_engine.match import map_relations_with_ontology_terms
 from preprocessor.extensions.svo import Relation
 from src.bioengine import logger
-from src.bioengine.spacy_factory import MedicalSpacyFactory
+from preprocessor.spacy_factory import MedicalSpacyFactory
 from os import path, makedirs
 from pandas import DataFrame
 
@@ -69,12 +68,10 @@ def main(directory='', query='diabetes', size=4):
     documents, authors = read_and_parse(query, size)
     relations = {}
     pmid_errors = []
-    sents = {}
     for pubmed_id, doc in documents.items():
         out_dir = path.join(directory, pubmed_id)
         if not path.exists(out_dir):
             makedirs(out_dir)
-        sents.update({pubmed_id: list(doc.sents)})
         doc_relations = doc._.noun_verb_chunks
         doc_relations = [Relation(relation.effector, relation.relation, relation.effectee[1], relation.negation)
                          for relation in doc_relations if str(relation.effector) in str(doc.ents)

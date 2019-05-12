@@ -7,7 +7,6 @@ from utils.pythonic_name import convert_to_snake_case_from_camelcase, convert_to
 
 
 class TestGenModel(TestCase):
-    pass
 
     def test_covert_to_snake_from_camel(self):
         result = convert_to_snake_case_from_camelcase('TestClass')

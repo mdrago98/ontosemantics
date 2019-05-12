@@ -1,4 +1,4 @@
-from spacy_factory import MedicalSpacyFactory
+from preprocessor.spacy_factory import MedicalSpacyFactory
 from re import compile
 
 

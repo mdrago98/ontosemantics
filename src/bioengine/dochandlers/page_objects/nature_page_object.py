@@ -7,7 +7,7 @@ from settings import Config
 from utils.citation_utils import strip_citations
 
 
-class PMCPageObject(PageObject):
+class NaturePageObject(PageObject):
     """
     A page object abstracting the PMC website.
     """
@@ -19,12 +19,12 @@ class PMCPageObject(PageObject):
         :param txt_paragraph:
         :return:
         """
-        return list(filter(lambda x: 'web site requires JavaScript' not in x, txt_paragraph))
+        return list(filter(lambda x: 'requires JavaScript' not in x, txt_paragraph))
 
     @staticmethod
     def open_page(page_name):
         """
-        A helper function that opens a pmc webpage.
+        A helper function that opens a oup webpage.
         :return: a string containing the raw html
         """
         req = Request(page_name, headers=Config().get_property('headers'))
@@ -36,11 +36,26 @@ class PMCPageObject(PageObject):
         self.link = link
         self.soup = self.get_page()
         if self.soup is not None:
-            self.pipeline = Config().get_property("pmc_pipeline")
-            # self.soup = self.clean_tags()
+            self.pipeline = Config().get_property("nature_pipeline")
             self.text = [strip_citations(paragraph)
                          for paragraph in self.get_text()]
             self.text = self.remove_js_warning(self.text)
+
+    def get_article_details(self) -> tuple:
+        """
+        A helper function that returns the author details
+        :return: a tuple containing the title and a list of authors
+        """
+        name = self.soup.find('h1', attrs={'class': 'tighten-line-height small-space-below'}).text
+        authors = [author.text for author in self.soup.findAll('li', attrs={'itemprop':'author'})]
+        return name, authors
+
+    def get_abstract(self) -> str:
+        """
+        A function that returns the abstract from the text
+        :return: a string representing the abstract
+        """
+        return ''
 
     def get_page(self):
         """
@@ -53,27 +68,10 @@ class PMCPageObject(PageObject):
             result = None
         return result
 
-    def get_article_details(self) -> tuple:
-        """
-        A helper function that returns the author details
-        :return: a tuple containing the title and a list of authors
-        """
-        name = self.soup.find('h1', attrs={'class': 'content-title'}).text
-        authors = [author.text for author in
-                   self.soup.find('div', attrs='contrib-group fm-author').findAll('a', attrs='affpopup')]
-        return name, authors
-
-    def get_abstract(self) -> str:
-        """
-        A function that returns the abstract from the text
-        :return: a string representing the abstract
-        """
-        return self.soup.find('p', attrs={'id': 'P1'}).text
-
     def get_text(self):
         """
         A method that returns a list of paragraphs in the article.
         :return: a list of paragraphs
         """
-        paragraphs = self.soup.findAll('p')
+        paragraphs = self.soup.find('div', attrs={'class': 'article-body clear'}).findAll('p')
         return [paragraph.text for paragraph in paragraphs]
