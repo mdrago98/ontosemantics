@@ -1,0 +1,43 @@
+brain renin-angiotensin system
+RAS
+baroreflex
+heart
+brain
+RAS
+cardiac
+beta-adrenoceptor
+beta-AR
+agonist
+isoproterenol
+Iso
+rats
+brain
+angiotensinogen (TGR)
+hearts
+Iso
+ventricular
+contraction
+rats
+LV hypertrophy
+Iso
+rats
+body
+LV hypertrophy
+rats
+downregulation
+beta-AR
+upregulation
+LV beta-AR kinase-1 mRNA
+rats
+heart
+beta-AR
+antagonist
+metoprolol
+rats
+rats
+atropine
+beta-AR
+agonist
+cardiac
+hypertrophy
+heart

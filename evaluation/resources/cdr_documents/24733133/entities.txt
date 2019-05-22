@@ -1,0 +1,6 @@
+patient
+heparin-induced thrombocytopenia with thrombosis
+HITT
+argatroban
+catheter-directed thrombolysis
+CDT

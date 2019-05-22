@@ -1,0 +1,48 @@
+Hippocampal
+metallothionein
+MT
+neuroprotection
+MT
+carmustine
+hippocampal
+cognitive dysfunction
+rats
+albino
+rats
+solvent
+solvent
+learning
+short-term memory
+STM
+arm
+water
+hippocampal
+glutathione reductase
+GR
+reduced glutathione
+GSH
+serum
+tumor necrosis factor-alpha
+TNFalpha
+hippocampal
+MT
+malondialdehyde
+MDA
+caspase-3 activity
+inhibition
+GR
+GSH
+MDA
+TNFalpha
+caspase-3
+hippocampus
+rats
+MT
+hippocampal
+GR
+inhibition
+GSH
+TNFalpha
+MDA
+caspase-3 activity
+cognition

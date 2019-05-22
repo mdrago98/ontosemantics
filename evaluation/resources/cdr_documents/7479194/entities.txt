@@ -1,0 +1,23 @@
+people
+trimethoprim-sulfamethoxazole
+TMP-SMZ
+trimethoprim
+cephalexin
+liver
+blood
+skin
+renal disorders
+liver disease
+TMP-SMZ
+trimethoprim
+cephalexin
+blood disorders
+TMP-SMZ
+erythema multiforme
+Stevens-Johnson syndrome
+TMP-SMZ
+toxic epidermal necrolysis
+patient
+cephalexin
+renal disease
+antibiotics

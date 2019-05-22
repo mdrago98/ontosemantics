@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,ability,synthesize,DNA,False
+1,ability,synthesize,response,False
+2,ability,assessed,adult,False
+3,Isoproterenol,delivered,FeJ,False
+4,Isoproterenol,resulted,%,False
+5,Isoproterenol,resulted,%,False
+6,DNA synthesis,observed,control,False
+7,number,ranged,%,False
+8,cardiac hypertrophy,induced,strains,False
+9,mice,comprising,extremes,False
+10,cardiomyocytes,synthesize,DNA,True
+11,cardiomyocytes,synthesize,response,True

@@ -1,0 +1,20 @@
+,Subject,Action,Object,Negation
+0,patients,shown,response,False
+1,Tobramycin,given,to,False
+2,carbenicillin,given,dose,False
+3,There,were,episodes,False
+4,patients,receiving,chemotherapy,False
+5,rate,was,%,False
+6,Pneumonia,was,infection,False
+7,bacilli,were,organisms,False
+8,bacilli,were,%,False
+9,pathogen,was,Klebsiella pneumoniae,False
+10,Response,influenced,%,True
+11,episodes,associated,neutropenia,False
+12,failure,increase,response,False
+13,failure,increase,therapy,False
+14,Azotemia,was,side effect,False
+15,Azotemia,occurred,%,False
+16,azotemia,occurred,%,False
+17,regimen,showed,efficacy,False
+18,regimen,showed,renal toxicity,False

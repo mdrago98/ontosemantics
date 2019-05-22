@@ -1,0 +1,21 @@
+,Subject,Action,Object,Negation
+0,patients,followed,infection,False
+1,patients,received,Aza,False
+2,others,received,cyclosporine,False
+3,others,received,prednisone,False
+4,patients,had,infections,False
+5,patients,had,P,False
+6,patients,had,infections,False
+7,patients,had,infections,False
+8,There,were,deaths,True
+9,infection,played,role,False
+10,infection,played,3,False
+11,patients,had,bacteremias,False
+12,Analysis,showed,preponderance,False
+13,Pulmonary infections,were,patients,False
+14,patients,had,staphylococcal infections,False
+15,fungal infections,occurred,liver,False
+16,%,had,symptoms,False
+17,evidence,found,%,False
+18,Three,had,associated symptoms,False
+19,one,developed,lymphoma,False

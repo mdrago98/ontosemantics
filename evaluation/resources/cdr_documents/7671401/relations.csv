@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,reactions,recognized,cause,False
+1,inhibitors,treat,hypertension,False
+2,inhibitors,treat,congestive heart failure,False
+3,inhibitors,treat,hypertension,False
+4,inhibitors,treat,congestive heart failure,False
+5,Angiotensin-converting enzyme,introduced,Europe,False
+6,Angiotensin-converting enzyme,introduced,middle,False
+7,introduction,reported,association,False
+8,We,draw,attention,False
+9,We,draw,term,False

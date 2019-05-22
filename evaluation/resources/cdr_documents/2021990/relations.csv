@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Cimetidine,produces,decrease,False
+1,cimetidine,acts,histamine agonist,False
+2,We,investigated,effects,False
+3,changes,observed,cimetidine,False
+4,changes,observed,ICU,False
+5,patient,studied,days,False
+6,Each patient,received,cimetidine,False
+7,Each patient,received,mg,False
+8,arterial pressure,decreased,107.4,False
+9,systemic vascular resistance,decreased,minute,False
+10,activity,mediated,part,False
+11,activity,mediated,H1 receptor,False

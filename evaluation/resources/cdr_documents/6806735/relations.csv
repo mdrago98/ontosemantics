@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,patients,treated,combination,False
+1,patients,had,stage,False
+2,14,treated,chemotherapy,False
+3,17,have,treatment,True
+4,17,have,CPDD,True
+5,31,demonstrated,responses,False
+6,responses,lasting,months,False
+7,responses,were,19,False
+8,anemia,developing,%,False
+9,toxicity,necessitated,discontinuation,False
+10,nephrotoxicity,observed,patients,False
+11,There,were,deaths,True

@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,study,assess,risk,False
+1,risk,developing,coronary artery disease,False
+2,risk,developing,type 2 diabetes,False
+3,risk,developing,sulphonylureas,False
+4,coronary artery disease,associated,treatment,False

@@ -1,0 +1,31 @@
+,Subject,Action,Object,Negation
+0,Lenalidomide,is,standard,False
+1,dexamethasone,is,standard,False
+2,there,is,data,False
+3,We,studied,RRMM,False
+4,who,received,RD,False
+5,who,received,RW,False
+6,rate,was,%,False
+7,time,was,months,False
+8,RD,given,treatment,False
+9,RD,given,months,False
+10,duration,was,months,False
+11,Median duration of response,was,patients,False
+12,who,received,RD,False
+13,who,received,progression,False
+14,Improvement,occurred,%,False
+15,who,achieved,disease,False
+16,events,reported,%,False
+17,patients,needed,hospitalization,False
+18,Peripheral neuropathy,observed,%,False
+19,Peripheral neuropathy,observed,deep vein thrombosis,False
+20,reductions,needed,%,False
+21,reductions,needed,discontinuation,False
+22,time,was,months,False
+23,dose,predicted,treatment,False
+24,relapses,occurred,%,False
+25,Our study,produces,responses,False
+26,Our study,produces,patients,False
+27,who,continue,treatment,False
+28,patients,improves,humoral immunity,False
+29,patients,improves,patients,False

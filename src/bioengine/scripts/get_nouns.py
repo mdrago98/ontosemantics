@@ -1,9 +1,9 @@
 import plac
 from Bio import Entrez
 
-from preprocessor.extensions.svo import Relation
+from nlp_processor.extensions.svo import Relation
 from src.bioengine import logger
-from preprocessor.spacy_factory import MedicalSpacyFactory
+from nlp_processor.spacy_factory import MedicalSpacyFactory
 from os import path, makedirs
 from pandas import DataFrame
 
@@ -29,9 +29,10 @@ def fetch_details(id_list):
     return Entrez.read(handle)
 
 
-def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threads: int = 12) -> tuple:
+def read_and_parse(query: str = None, size: int = 0, id_list: list = None, nlp=None, batch_size: int = 100, threads: int = 12) -> tuple:
     """
     A method that reads and parses entries from entrez
+    :param id_list: a list of pmids
     :param query: the query string
     :param size: the size of the
     :param nlp: a spacy abstraction of the model
@@ -41,16 +42,19 @@ def read_and_parse(query: str, size: int, nlp=None, batch_size: int = 100, threa
     """
     if nlp is None:
         nlp = MedicalSpacyFactory.factory()
-
-    id_list = search(query, size)['IdList']
+    if id_list is None:
+        id_list = search(query, size)['IdList']
     handle = Entrez.efetch(db="pubmed", id=','.join(map(str, id_list)),
                            rettype="xml", retmode="text")
     papers = Entrez.read(handle)
-    abstracts = {pubmed_article['MedlineCitation']['PMID']: pubmed_article['MedlineCitation']['Article']['Abstract']['AbstractText'][0]
+    abstracts = {pubmed_article['MedlineCitation']['PMID']:
+                     pubmed_article['MedlineCitation']['Article']['Abstract']['AbstractText'][0]
                  for pubmed_article in papers['PubmedArticle']
                  if 'Abstract' in pubmed_article['MedlineCitation']['Article']}
     authors = {str(pubmed_article['MedlineCitation']['PMID']): [f'{author["LastName"]}, {author["ForeName"]}'
-                                                           for author in pubmed_article['MedlineCitation']['Article']['AuthorList']]
+                                                                for author in
+                                                                pubmed_article['MedlineCitation']['Article'][
+                                                                    'AuthorList'] if 'LastName' in author]
                for pubmed_article in papers['PubmedArticle']}
     documents = [doc for doc in nlp.pipe([str(abstract) for _, abstract in abstracts.items()], batch_size=batch_size,
                                          n_threads=threads)]

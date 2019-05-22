@@ -1,0 +1,10 @@
+patient
+pulmonary tuberculosis
+Rifampicin
+nausea
+vomiting
+fever with chills
+rigors
+acute renal failure
+patient
+patient

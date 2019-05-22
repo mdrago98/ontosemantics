@@ -5,7 +5,7 @@ def write_to_file(file_path: str, contents: list):
             file_handler.write(entry)
 
 
-def read_to_file(file_path: str) -> str:
+def read_from_file(file_path: str) -> str:
     with open(file_path, 'r') as file:
         content = file.read()
     return content

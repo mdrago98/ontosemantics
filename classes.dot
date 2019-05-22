@@ -1,0 +1,36 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{BecasNamedEntity|label\lmatcher\lname : str\l|get_spans()\l}", shape="record"];
+"1" [label="{BecasTagger|becas\lsentences\l|meta_map_trigger_regex()\ltag_sentences()\l}", shape="record"];
+"2" [label="{Connection|\l|execute_string_query()\lget_nodes()\l}", shape="record"];
+"3" [label="{GeniaTagger|sentences\ltagger : GeniaTagger\l|tag_sentences()\l}", shape="record"];
+"4" [label="{KnowledgeGraphConnection|driver : Graph\lnode_matcher : NodeMatcher\lrelation_matcher : RelationshipMatch\l|get_nodes()\l}", shape="record"];
+"5" [label="{MedicalSpacyFactory|\l|factory()\l}", shape="record"];
+"6" [label="{MetaMapTagger|sentences\ltagger : SubprocessBackend\ltagger_location\ltagger_root\l|close()\lget_executables()\lstart_server()\ltag_sentences()\l}", shape="record"];
+"7" [label="{ModelFactory|\l|factory()\l}", shape="record"];
+"8" [label="{NaturePageObject|id\llink\lpipeline\lsoup : BeautifulSoup, NoneType\ltext : list\l|get_abstract()\lget_article_details()\lget_page()\lget_text()\lopen_page()\lremove_js_warning()\l}", shape="record"];
+"9" [label="{OUPPageObject|id\llink\lpipeline\lsoup : NoneType, BeautifulSoup\ltext : list\l|get_abstract()\lget_article_details()\lget_page()\lget_text()\lopen_page()\lremove_js_warning()\l}", shape="record"];
+"10" [label="{OntologyStoreConnection|driver : Graph\lnode_matcher : NodeMatcher\lrelation_matcher : RelationshipMatch\l|get_generic_nodes()\lget_nodes()\l}", shape="record"];
+"11" [label="{PMCPageObject|id\llink\lpipeline\lsoup : NoneType, BeautifulSoup\ltext : list\l|get_abstract()\lget_article_details()\lget_page()\lget_text()\lopen_page()\lremove_js_warning()\l}", shape="record"];
+"12" [label="{PageObject|\l|clean_tags()\lget_text()\l}", shape="record"];
+"13" [label="{SpacyI|\l|factory()\l}", shape="record"];
+"14" [label="{SpacyMetaMap|label\lmatcher\lname : str\lterms : NoneType\l|}", shape="record"];
+"15" [label="{SpringerPageObject|id\llink\lpipeline\lsoup : NoneType, BeautifulSoup\ltext : list\l|get_abstract()\lget_article_details()\lget_page()\lget_text()\lopen_page()\lremove_js_warning()\l}", shape="record"];
+"16" [label="{StanfordTagger|jar\lmodel\lsentences\lstop_words : NoneType, set\ltagger : StanfordNERTagger\l|tag_sentences()\l}", shape="record"];
+"17" [label="{Tagger|\l|tag_sentences()\l}", shape="record"];
+"18" [label="{TaggerFactory|\l|factory()\l}", shape="record"];
+"19" [label="{WikipediaPageObject|page_name\lpipeline\lraw_html\lsoup : BeautifulSoup, NoneType\l|clean_wikipedia_citations()\ldelete_after()\lget_text()\l}", shape="record"];
+"1" -> "17" [arrowhead="empty", arrowtail="none"];
+"3" -> "17" [arrowhead="empty", arrowtail="none"];
+"4" -> "2" [arrowhead="empty", arrowtail="none"];
+"5" -> "13" [arrowhead="empty", arrowtail="none"];
+"6" -> "17" [arrowhead="empty", arrowtail="none"];
+"8" -> "12" [arrowhead="empty", arrowtail="none"];
+"9" -> "12" [arrowhead="empty", arrowtail="none"];
+"10" -> "2" [arrowhead="empty", arrowtail="none"];
+"11" -> "12" [arrowhead="empty", arrowtail="none"];
+"15" -> "12" [arrowhead="empty", arrowtail="none"];
+"16" -> "17" [arrowhead="empty", arrowtail="none"];
+"19" -> "12" [arrowhead="empty", arrowtail="none"];
+}

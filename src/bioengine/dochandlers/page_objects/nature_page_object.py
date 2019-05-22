@@ -21,15 +21,6 @@ class NaturePageObject(PageObject):
         """
         return list(filter(lambda x: 'requires JavaScript' not in x, txt_paragraph))
 
-    @staticmethod
-    def open_page(page_name):
-        """
-        A helper function that opens a oup webpage.
-        :return: a string containing the raw html
-        """
-        req = Request(page_name, headers=Config().get_property('headers'))
-        return urlopen(req).read()
-
     def __init__(self, pmid: str, link: str):
         # self.page_name = f'https://www.ncbi.nlm.nih.gov/pmc/articles/{pmc_id}/'
         self.id = pmid
@@ -56,17 +47,6 @@ class NaturePageObject(PageObject):
         :return: a string representing the abstract
         """
         return ''
-
-    def get_page(self):
-        """
-        A helper method for opening a pmc webpage and returns a parsed bs4 object
-        :return:
-        """
-        try:
-            result = BeautifulSoup(self.open_page(self.link), 'lxml')
-        except HTTPError as error:
-            result = None
-        return result
 
     def get_text(self):
         """

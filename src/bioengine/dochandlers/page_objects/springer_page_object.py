@@ -21,20 +21,16 @@ class SpringerPageObject(PageObject):
         """
         return list(filter(lambda x: 'requires JavaScript' not in x, txt_paragraph))
 
-    @staticmethod
-    def open_page(page_name):
-        """
-        A helper function that opens a springer webpage.
-        :return: a string containing the raw html
-        """
-        req = Request(page_name, headers=Config().get_property('headers'))
-        return urlopen(req).read()
-
-    def __init__(self, pmid: str, link: str):
+    def __init__(self, pmid: str, link: str, local = False):
         # self.page_name = f'https://www.ncbi.nlm.nih.gov/pmc/articles/{pmc_id}/'
         self.id = pmid
         self.link = link
-        self.soup = self.get_page()
+        self.local = local
+        if not local:
+            self.soup = self.get_page()
+        else:
+            with open(link) as file:
+                self.soup = BeautifulSoup(file.read())
         if self.soup is not None:
             self.pipeline = Config().get_property("oup_pipeline")
             self.soup = self.clean_tags()

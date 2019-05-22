@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,system,inhibit,secretion,False
+1,responsiveness,lost,rats,False
+2,purpose,induce,hyperprolactinemia,False
+3,purpose,induce,rats,False
+4,concentrations,increased,%,False
+5,concentrations,increased,control,False
+6,months,produced,%,False
+7,There,was,change,True
+8,hyperprolactinemia,affects,TIDA,False
+9,decrease,associated,increases,False

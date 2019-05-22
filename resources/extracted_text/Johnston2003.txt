@@ -1,0 +1,355 @@
+he insulin receptor substrate (IRS) proteins act as
+important mediators of insulin action. Their regulation serves to
+augment the speci¢city of the insulin signalling cascade. They
+can be regulated ^ both positively and negatively ^ at the level
+of phosphorylation, and signalling through these proteins can be
+further modulated through the actions of SOCS (suppressor of
+cytokine signalling) proteins. Understanding the mechanisms of
+IRS regulation will provide further insight into the pathophysiology of insulin resistance and type 2 diabetes.
+' 2003 Published by Elsevier Science B.V. on behalf of the
+Federation of European Biochemical Societies.
+Key words: Insulin; Signalling; IRS; SOCS; Phosphorylation
+
+1. Introduction
+Classical receptor tyrosine kinase (RTK) signalling is initiated by ligand-induced receptor dimerisation and autophosphorylation. Phosphorylation of tyrosine residues within a
+speci¢c consensus sequence of the receptors was early recognised to provide docking sites for Src homology 2 (SH2) domain-containing signalling proteins such as PI3K (phosphatidylinositol-3 kinase), PLCQ, RasGAP, Grb2, and others. This
+mode of signal transmission is utilised by several receptors,
+including EGFR, PDGFR, FGFR, the Met receptor and Trk.
+In addition, signalling from the above receptors is in part
+mediated by recruitment of docking proteins, including
+FRS2K and L, Gab1 and 2, and LAT. The signalling output
+is thus determined by the recruitment of signalling proteins to
+both the receptor and the various docking proteins [1]. However, not all receptors conform to this mechanism. Although
+the insulin and insulin-like growth factor receptors (IR,
+IGFR) belong to the RTK superfamily, signal transmission
+by these receptors mainly occurs via the insulin receptor substrate (IRS) adapter proteins (IRS-1 to -4). These adapter
+
+*Corresponding author. Fax: (33)-4938 15432.
+E-mail address: vanobbeg@unice.fr (E. Van Obberghen).
+Abbreviations: RTK, receptor tyrosine kinase; SH2, Src homology 2;
+IRS, insulin receptor substrate; IR, insulin receptor; IGF-1R, insulinlike growth factor-1 receptor; PI3K, phosphatidylinositol-3 kinase;
+AMPK, AMP-activated protein kinase; PKB, protein kinase B;
+SOCS, suppressor of cytokine signalling; TNF, tumour necrosis factor
+
+proteins bind to the transphosphorylated activated receptors
+at tyrosine docking sites, are themselves phosphorylated, and
+in turn recruit SH2 domain-containing signalling molecules to
+form the productive signalling complex [2].
+The involvement of the IRS proteins in insulin and IGF
+receptor signalling provides possibly tighter regulation of the
+¢nal response. Thus, while regulation of the signal initiated by
+the EGF and PDGF-receptors is mainly modulated by the
+opposite action of the respective agonist versus phosphotyrosine phosphatases (terminating the phosphotyrosine^SH2 domain interaction), internalisation/recycling of the receptor and
+in part downregulation of the receptor’s tyrosine kinase activity by serine phosphorylation [3], supplementary mechanisms
+have been reported to act upon the control of IRS molecules.
+Most notably, serine/threonine (S/T) phosphorylation mediated by several protein kinases has been shown to modulate
+^ both positively and negatively ^ signal transmission via IRS,
+while interaction with SOCS (suppressor of cytokine signalling) proteins provides a further mechanism of attenuating
+IRS signalling. Understanding how the action of IRS molecules is coordinated during insulin signalling is of particular
+interest as deregulation of these molecular events has been
+demonstrated to be associated with (and even causative of)
+insulin resistance and type 2 diabetes. We review here the
+recent progress in the understanding of the molecular mechanisms modulating the action of IRS proteins.
+2. Modulation of IRS protein action via serine/threonine
+phosphorylation
+2.1. Negative modulation
+Initial observations indicated that treatment of isolated soleus muscle and 3T3 adipocytes with okadaic acid (a general
+inhibitor of serine/threonine phosphatases) reduced insulinstimulated, IRS-1-associated PI3K activity and glucose transport while not a¡ecting the receptor’s activity [4]. Moreover,
+co-expression in IR-expressing CHO cells of the phospholipidand calcium-activated protein kinase C interfered with insulin
+signalling by inhibiting tyrosine phosphorylation of IRS-1 and
+its subsequent binding to PI3K [5]. These data provided the
+¢rst indication that increased S/T phosphorylation of IRS
+proteins could a¡ect insulin action. Subsequently, the observation that tumour necrosis factor K (TNFK) and chronic
+hyperinsulinemia ^ two inducers of insulin resistance ^ trigger
+increased S/T phosphorylation of IRS-1 and IRS-2 provided a
+clue to a molecular basis of insulin resistance.
+
+0014-5793 / 03 / $22.00 D 2003 Published by Elsevier Science B.V. on behalf of the Federation of European Biochemical Societies.
+doi:10.1016/S0014-5793(03)00438-1
+
+FEBS 27255 12-6-03 Cyaan Magenta Geel Zwart
+
+A.M. Johnston et al./FEBS Letters 546 (2003) 32^36
+
+The uncoupling of IRS proteins from productive insulin
+signalling has been shown to depend on various mechanisms,
+most likely acting in a concerted manner. It has been shown
+that: (i) elevated S/T phosphorylation of IRS-1 and -2 inhibits
+their binding to the juxtamembrane region of the activated
+IR, impairing their ability to undergo tyrosine phosphorylation [6]; (ii) speci¢c phosphorylation of serine and threonine
+residues adjacent to YxxM SH2 domain-binding motifs decreases the binding a⁄nity of the cognate molecule to the
+phosphotyrosine [7]; and (iii) S/T phosphorylation commits
+both IRS-1 and -2 to proteasomal degradation [8].
+The search for the kinase(s) responsible for mediating IRS
+protein S/T phosphorylation has been the focus of several
+laboratories. Based on the fact that high IRS S/T phosphorylation leads to an insulin-resistant state, inhibition of such
+kinase(s) would provide a possible means to reduce insulin
+resistance. However, as detailed in Table 1, there are several
+kinases that have been described to be potentially capable of
+IRS-1 phosphorylation. Some of these actions are yet to be
+con¢rmed in vivo, for example direct phosphorylation of IRS1 by PI3K in vivo has not been demonstrated. Given the
+number of IRS-1-directed kinases, it is likely that each kinase
+can partially contribute to the overall S/T phosphorylation
+status of IRS-1, with the relative importance of each kinase
+determined by its expression level in a given tissue, the cell
+type, as well as its degree of activation (dependent on the
+extracellular insulin-resistance-inducing stimuli, such as hyperinsulinemia, TNFK or other cytokines, glycated molecules,
+fatty acids, etc.).
+2.2. Positive modulation
+While a broad consensus has emerged over the past 10
+years regarding the negative regulatory function of S/T phosphorylation of IRS proteins, more recent data indicate that a
+certain phosphoserine and phosphothreonine content on particular residues is necessary for a functional IRS protein. In
+fact, in quiescent cells, basally phosphorylated IRS-1 and -2
+display a certain degree of S/T phosphorylation and are readily tyrosine-phosphorylated by IR or IGF-1R upon stimulation with the respective agonist. However, in an in vitro system, fully dephosphorylated recombinant IRS-1 and IRS-2
+undergo defective IR-mediated tyrosine phosphorylation, in-
+
+33
+
+Fig. 1. Modulation by S/T phosphorylation of the signalling potential of IRS-1. Tyrosine-phosphorylated IRS-1 recruits heterodimeric
+p85/p110 PI3K (and other signalling proteins such as Grb2, PLCQ,
+SHP2, rasGAP, not shown here). IRS-1 tyrosine phosphorylation
+and association with PI3K is positively regulated by AMPK and
+PKB-mediated S/T phosphorylation (green arrows), negative regulation is mediated by PKCK and j, JNK1, TOR and GSK-3 (red arrows).
+
+dicating that a basal S/T phosphorylation level is necessary
+and promotes subsequent tyrosine phosphorylation by the
+receptor [9]. In keeping with this observation are two recent
+reports demonstrating that AMP-activated protein kinase
+(AMPK) (by phosphorylating S789) and protein kinase B
+(PKB) (by phosphorylating serines 265, 302, 325 and 358)
+exert a positive regulatory role by increasing the IRS-1-associated PI3K activity and tyrosine phosphorylation after insulin stimulation, respectively [6,10]. In Fig. 1, we summarise the
+mode of activation and positive versus negative modulatory
+action of the various IRS kinases described to date.
+3. Animal models
+Most of the research related to the identi¢cation of IRS-1
+S/T kinases has been performed in cell culture systems which
+are more amenable to biochemical investigation than in vivo
+models. The ensuing challenge is to de¢ne the precise role that
+
+Table 1
+Summary of the protein S/T kinases demonstrated to function as IRS-1 kinases
+Kinase
+Inhibitory S/T phosphorylation
+PKCK
+MAPK
+GSK-3
+PKCj
+JNK
+TOR
+PI3K
+Rho kinase K
+IKK
+Casein kinase II
+Activatory S/T phosphorylation
+AMPK
+PKB
+
+Mode of activation
+
+Phosphorylated residues
+
+References
+
+PMA, human glycated albumin
+n.d.c
+Insulin
+Insulin
+TNFK
+TNFK
+Insulin
+Hypertension
+TNFK
+Insulin
+
+S612, Rna
+n.d.
+n.d.
+n.d.
+S307, Mm
+S636, S639, Rn
+n.d.
+n.d.
+S312, Hs
+S99, T502, mM
+
+[26]b
+[27]
+[28]
+[29]
+[11]
+[30]
+[31]
+[32]
+[33]
+[34]
+
+AICAR
+Insulin
+
+S789, Rn
+S265, 302, 325, 358, Mm
+
+[10]
+[6]
+
+The mode of activation and the speci¢c residues which are phosphorylated are indicated.
+a
+The numbering of S/T residues refers to the rat (Rn), mouse (Mm) or human (Hs) sequence.
+b
+Miele, C., Riboulet, A. et al., submitted.
+c
+Not determined.
+
+FEBS 27255 12-6-03 Cyaan Magenta Geel Zwart
+
+34
+
+A.M. Johnston et al./FEBS Letters 546 (2003) 32^36
+
+each of these kinases plays in the pathophysiology of insulin
+resistance and diabetes. In this respect, the biochemical observation of inhibition of insulin action by JNK-mediated IRS-1
+phosphorylation on S307 [11] has obtained physiological con¢rmation from a JNK1-de¢cient mouse model in which the
+absence of JNK1 (i) leads to a decreased IRS-1 S307 phosphorylation, (ii) protects the genetically predisposed ob/ob
+mice from developing obesity, and (iii) ameliorates all the
+metabolic parameters associated with insulin resistance [12].
+Similarly, mice lacking Akt-2/PKB2 display insulin resistance and a diabetes mellitus-like syndrome [13]; however,
+this phenotype is likely generated by the absence of PKB
+downstream signalling, and the contribution of the lack of
+positive regulation of PKB still remains to be investigated.
+With the recent availability of antibodies directed against speci¢c phosphorylated residues of IRS-1, rapid progress is likely
+to occur towards our understanding of how each kinase contributes to the modulation of IRS-1 action in animal models.
+4. Modulation of IRS protein action via interaction with
+SOCS proteins
+The SOCS family of proteins has been shown to play a
+regulatory role in insulin signalling mediated, at least in
+part, by e¡ects (direct and indirect) on IRS proteins. The
+SOCS family of proteins boast similar structural characteristics, including a unique NH2-terminal domain of variable
+length, a central SH2 domain and a COOH-terminal ‘SOCS
+box’, with this structural resemblance re£ecting functional
+similarities. Initial reports of the role of the SOCS proteins
+showed them acting as negative regulators of cytokine action
+via inhibition of JAK/STAT signalling. Subsequent work has
+shown that, as one would expect from e⁄cient signalling modulators, they are capable of modulating signalling events at
+di¡erent stages of the signal transduction process. Three
+mechanisms have thus far been identi¢ed: (i) SOCS proteins
+bind and inactivate Janus kinases (JAKs), (ii) they can impede
+access of other crucial signal transduction mediators such as
+STATs and SHP2 to receptor binding sites, (iii) more recent
+evidence suggests that the ‘SOCS box’ acts as an adapter to
+facilitate the ubiquitination of signalling proteins and their
+subsequent targeting to the proteasome.
+There is a growing body of evidence supporting the important role of the SOCS proteins in insulin signalling. In addition to being induced by insulin treatment in a number of
+tissues and cell lines, SOCS-1, -2, -3 and -6 have been shown
+to interact with the IR and IGFR in vitro, in vivo and in the
+yeast-2-hybrid system [14^18]. Expression of SOCS-1, -3 and
+-6 has been shown to have e¡ects on insulin-induced IRS-1^
+p85 association and on activation of PKB, mitogen-activated
+protein (MAP) kinase and STAT5 [15,18,19]. How the SOCS
+proteins achieve these e¡ects is under debate. One of the suggested mechanisms is through inhibition of IR activity,
+although this observation remains somewhat controversial
+[18]. The e¡ect of ectopic SOCS on the level of tyrosine phosphorylation of the IRS molecules, via the three canonical
+mechanisms of inhibition is more clear, with extant demonstrations of the inhibition of JAK activity [20], inhibition via
+competition with receptor binding sites [15] and induction of
+proteosomal degradation (see Fig. 2) [21].
+While SOCS-1 has been shown to directly bind with high
+a⁄nity, and thus potently inhibit, JAK, the a⁄nity of SOCS-3
+
+Fig. 2. Modulation by SOCS of the signalling potential of IRS.
+SOCS has been shown to modulate IRS signalling potential via at
+least its three canonical mechanisms of inhibition, as shown. In the
+context of signalling via the IR/IGF1R, SOCS introduces competition for receptor binding sites, inhibits JAK activity and induces
+proteosomal degradation of IRS.
+
+for JAK is relatively low and inhibition occurs only after
+binding JAK-proximal sites on the receptor. In the case of
+insulin signalling, Kawazoe and colleagues have demonstrated
+that overexpression of both SOCS-1 and -3 inhibits the insulin-induced activation of JAKs [20]. However, the physiological importance of JAK inhibition in this setting is placed in
+question by the likely overall small contribution of JAK-mediated IRS phosphorylation, which is believed to be primarily
+mediated by the IR itself.
+Of probably more physiological signi¢cance is the demonstration that SOCS proteins introduce competition for crucial
+receptor binding sites. In addition to directly binding and
+inhibiting the catalytic activity of JAKs, SOCS-3 has been
+shown to bind to the Y960 residue of the IR, a common
+docking site for other substrates of the IR, including IRS,
+SHC and STAT5 [15]. Thus, association between SOCS-3
+and IR may inhibit the association between IRS and IR,
+hence reducing the phosphorylation of IRS.
+There is evidence that the SOCS proteins may also mediate
+e¡ects on insulin signalling distal to the IR itself. SOCS proteins have been shown to play a role in proteosomal targeting
+of associated proteins by complexing with Elongins B and C
+(for review, see [22]). It has recently been demonstrated that
+binding of IRS-1 and -2 by SOCS-1 and -3 (but not SOCS-2)
+promotes their subsequent ubiquitination and degradation, an
+e¡ect mediated by the SOCS box [21].
+It is, however, di⁄cult to interpret the biological signi¢cance of many of the studies on SOCS protein action as
+they often involve in vitro experiments, and ectopic and
+supraphysiological levels of expression. However, studies in
+whole animals lend added credence to the story. Thus,
+SOCS-3 has been implicated in TNFK-induced insulin resistance, with the demonstration that SOCS-3 is overexpressed in
+the adipose tissue of obese mice, is induced by TNFK injection
+and is decreased in ob/ob mice lacking TNFK receptors [19].
+In addition, SOCS-1 de¢ciency in mice causes hypersensitivity
+to insulin action [20], resulting in prolonged IRS-1 phosphorylation upon insulin treatment, further implicating SOCS-1 in
+negative regulation of the insulin signalling pathway. This
+group interpret SOCS action to be via the suppression of
+IRS-1 phosphorylation, as their experiments overexpressing
+SOCS-1 and -3 did not lead to reductions in overall IRS
+
+FEBS 27255 12-6-03 Cyaan Magenta Geel Zwart
+
+A.M. Johnston et al./FEBS Letters 546 (2003) 32^36
+
+expression levels. Conversely, enforced adenoviral-driven
+SOCS-1 expression in liver of mice leads to disturbances in
+glucose homeostasis, with dramatic reductions in hepatic IRS1 and -2 levels, resulting in hyperglycaemia, hyperinsulinaemia
+and resistance to insulin injections and presumably due to
+proteosomal degradation of IRS [21]. Which of these mechanisms contribute to a negative regulation of the pathway in a
+physiological state, to what extent, and which SOCS proteins
+play the major role remains to be established and may well
+depend, at least in part, on the level of SOCS expression. It is
+thus possible that, at low levels of expression, SOCS-3 may
+inhibit signalling through IRS by competition mechanisms,
+while at higher levels of expression, SOCS-3 may inhibit signalling by direct antagonisation of receptor autophosphorylation, or through induction of IRS degradation.
+Until very recently, the majority of the studies of SOCS
+proteins in insulin signalling focussed on the action of
+SOCS-1 and -3, and little was known about the role of
+SOCS-6. It has now been shown that SOCS-6 has binding
+a⁄nity toward IRS-2 and IRS-4 [23] and that ectopically expressed SOCS-6 associates with the IR and inhibits signal
+transduction in vivo [18]. In addition, SOCS-6 has also been
+reported to directly inhibit IR kinase activity in vitro. However, although mice de¢cient in SOCS-6 have decreased in
+body weight, they do not exhibit defects in glucose homeostasis. Clearly, further studies are warranted in order to clarify
+the signi¢cance of the association of SOCS-6 with IRS proteins.
+Thus, although the SOCS proteins are induced by a gamut
+of cytokines, and show a degree interfamilial mechanistic
+overlap, evidence is accumulating of the potential of speci¢c
+SOCS proteins to modulate insulin signalling with exquisite
+control.
+5. Conclusions and perspectives
+Our understanding of the regulation of insulin signalling
+has improved in recent years with the discovery that regulatory S/T phosphorylation events, induction of SOCS expression and degradative pathways all converge on IRS molecules
+and modulate their activities. Moreover, a link between dysregulation of the above events and the pathophysiology of
+insulin resistance and diabetes has been established. However,
+the picture is still incomplete. Firstly, the IRS S/T residues
+phosphorylated by several kinases have not yet been de¢ned
+(see Table 1); determination of these sites will in turn allow
+mutagenesis studies and eventually assign a precise function to
+each S/T residue, be it positive or negative. Given that S/T
+phosphorylation pathways can converge on the same residue
+(e.g. both the JNK and PI3K/PDK pathways target S307
+[24]), further studies on animal models lacking relevant IRS
+S/T kinases should help to elucidate the relative contribution
+of each pathway towards the phosphorylation of a target
+serine or threonine residue. In addition, while we have a relatively complete picture of the S/T phosphorylation events
+taking place on IRS-1, much less is known on the regulation
+of IRS-2, which is possibly the most important adapter for
+insulin’s metabolic action, as mice lacking IRS-2 develop diabetes [25]. Although the exact relative contribution of the
+mechanisms leading to IRS modulation (by phosphorylation,
+substrate competition and degradation) remains to be established, it is clear that the IRS proteins play a central role in
+
+the transmission of the insulin signal, and that elucidation of
+the means by which this signal is modulated will be of great
+signi¢cance for our understanding of glucose homeostasis in
+normal and pathophysiological states.
+Acknowledgements: This work was supported by INSERM, Universite¤ de Nice ^ Sophia-Antipolis, la Re¤gion PACA, the European Community (QLGI-CT-1999-00674, EuroDiabetesGene and QLK3-CT2000-01038) and by Aventis Pharma (Frankfurt, Germany, Contract
+99206). L.P. was supported by an INSERM ‘Poste Vert’ postdoctoral
+fellowship and in part by FRM (Fondation pour la Recherche Me¤dicale), A.M.J. was supported by an INSERM ‘Poste Vert’ postdoctoral fellowship. We are grateful to Brice Emanuelli for critical reading of the manuscript.

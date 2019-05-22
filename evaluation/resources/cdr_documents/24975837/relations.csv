@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,treatment,adopted,chemotherapies,False
+1,drug,induce,kidney,False
+2,drug,induce,ability,False
+3,ability,affect,renal function,False
+4,kinin B2 receptor,associated,inflammation process,False
+5,deletion,resulted,improvement,False
+6,mice,challenged,cisplatin,False
+7,mice,treated,B2 receptor,False
+8,mice,treated,cisplatin,False
+9,treatment,reduced,levels,False
+10,treatment,reduced,cisplatin,False
+11,kinin B2 receptor,involved,kidney,False
+12,results,highlight,kinin B2 receptor,False

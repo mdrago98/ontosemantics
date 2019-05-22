@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,purpose,compare,influence,False
+1,purpose,compare,control,False
+2,series,performed,WKY,False
+3,slope,determined,relationships,False
+4,slope,determined,phenylephrine,False
+5,Increases,occurred,LV,False
+6,ANP,cause,changes,True
+7,it,abolished,MAP,False
+8,CCB,reduced,WKY,False
+9,CCB,reduced,LV,False
+10,ANP + AVP,decreased,CCB,False
+11,ANP + AVP,decreased,MAP,False
+12,results,indicate,that,False
+13,AVP,exert,effects,False

@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,options,are,patients,False
+1,RAD001,shown,phase,False
+2,RAD001,shown,NSCLC,False

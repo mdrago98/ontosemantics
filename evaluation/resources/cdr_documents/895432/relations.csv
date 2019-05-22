@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,effect,studied,rats,False
+1,rats,divided,groups,False
+2,groups,exercised,days,False
+3,groups,exercised,treadmill,False
+4,groups,exercised,mph,False
+5,groups,exercised,%,False
+6,which,remained,period,False
+7,animals,received,injection,False
+8,hours,following,isoproterenol,False
+9,differences,observed,isoproterenol,False
+10,differences,observed,groups,False
+11,exercise,reduced,mortality,False
+12,mortality,associated,effects,False

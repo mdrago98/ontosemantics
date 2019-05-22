@@ -1,0 +1,11 @@
+heart disease
+cocaine
+cocaine
+resting
+coronary artery disease
+ventricular
+resting
+ventricular
+coronary artery
+myocardial disease
+cocaine

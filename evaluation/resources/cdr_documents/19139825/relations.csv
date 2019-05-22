@@ -1,0 +1,17 @@
+,Subject,Action,Object,Negation
+0,Improving,remains,challenge,False
+1,Topotecan,is,option,False
+2,Topotecan,exhibits,growth,False
+3,study,assessed,combination,False
+4,toxicities,reported,patients,False
+5,response,were,%,False
+6,response,were,time,False
+7,response,were,%,False
+8,rates,were,%,False
+9,rates,were,time,False
+10,rates,were,%,False
+11,rate,was,%,False
+12,rate,was,OS,False
+13,response,concerned,third,False
+14,stabilization,concerned,third,False
+15,study,show,benefits,True

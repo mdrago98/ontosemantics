@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,injury,occurs,%,False
+1,injury,occurs,%,False
+2,Acute kidney injury (AKI),increases,mortality,False
+3,there,is,association,False

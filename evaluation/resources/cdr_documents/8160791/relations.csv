@@ -1,0 +1,19 @@
+,Subject,Action,Object,Negation
+0,Studies,examine,nephropathy,False
+1,Studies,examine,mechanisms,False
+2,rats,induced,reduction,False
+3,reduction,observed,nephropathy,False
+4,contents,observed,nephropathy,False
+5,increase,observed,nephropathy,False
+6,Superoxide dismutase,lessened,decrement,False
+7,Superoxide dismutase,lessened,CIn,False
+8,increase,associated,improvement,False
+9,SOD,attenuate,damage,True
+10,DMTU,reduced,damage,False
+11,DMTU,reduced,lipid peroxidation,False
+12,DMTU,affect,hemodynamics,True
+13,DMTU,affect,substances,True
+14,SOD,affected,GM,False
+15,SOD,have,effects,False
+16,mechanisms,differ,SOD,False
+17,anions,play,role,False

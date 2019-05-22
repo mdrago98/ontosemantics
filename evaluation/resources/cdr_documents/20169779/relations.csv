@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,symptoms,recognised,problem,False
+1,marmoset,used,model,False
+2,we,compare,time,False

@@ -1,0 +1,978 @@
+CBC207.QXD
+
+02/24/2000
+
+01:55
+
+Page 222
+
+222
+
+Signalling through the insulin receptor
+Jonathan P Whitehead*, Sharon F Clark†, Birgitte Ursø‡ and
+David E James§
+The insulin receptor substrates function at the heart of the
+insulin signalling network. It has recently become apparent that
+the intracellular localisation of these molecules is regulated in a
+precise manner that is critical for both the generation and the
+termination of the insulin signal. Some insulin receptor
+substrate isoforms appear to be associated with an insoluble
+matrix that resembles the cytoskeleton. When inappropriately
+dissociated from this matrix the signalling network collapses
+concomitant with loss of insulin sensitivity.
+Addresses
+*†§ The Centre for Molecular and Cellular Biology, University of
+Queensland, Brisbane, Queensland 4072, Australia
+‡ Copenhagen Muscle Research Centre, Institute of Exercise and Sport
+Sciences, August Krogh Institute, University of Copenhagen 13,
+Universitetsparken, DK-2100 Ø, Copehnagen, Denmark
+*e-mail: J.Whitehead@cmcb.uq.edu.au
+† e-mail: S.Clark@cmcb.uq.edu.au
+‡ e-mail: Burso@ifi.ku.dk
+§e-mail: D.James@cmcb.uq.edu.au
+Current Opinion in Cell Biology 2000, 12:222–228
+0955-0674/00/$ — see front matter © 2000 Elsevier Science Ltd.
+All rights reserved.
+Abbreviations
+ARNO ADP-ribosylation factor nucleotide-binding-site opener
+GF
+growth factor
+HSP
+high-speed pellet
+IR
+insulin receptor
+IRS
+IR substrate
+PDGF platelet-derived GF
+PDK
+3-phosphoinositide-dependent kinase
+PH
+pleckstrin homology
+PI3K
+phosphoinositide 3-kinase
+PIP3
+phosphoinositide 3,4,5-trisphosphate
+PKC
+protein kinase C
+PTB
+phosphotyrosine-binding
+α Rho kinase
+ROKα
+SH2
+Src homology 2
+
+Introduction
+Unlike other growth factor receptor tyrosine kinases
+(GF-RTKs), the insulin receptor (IR) utilises a family of soluble adaptors or scaffolding molecules, known as insulin
+receptor substrates (IRSs), to initiate its signalling programme. Whilst most GF-RTKs regulate long-term events
+such as cell differentiation and mitogenesis, a major function
+of the IR is the acute regulation of glucose metabolism in
+muscle and fat cells. It has been proposed that IRS proteins
+have evolved to facilitate this unique aspect of insulin action.
+Numerous tyrosine phosphorylation sites on IRSs act as
+docking sites for Src homology 2 (SH2) domain-containing
+signalling molecules, indicating that IRSs represent the
+epicentre for the majority of IR downstream signalling
+events involved in insulin action [1]. One key molecule
+that is activated in this manner is phosphoinositide
+
+3-kinase (PI3K), a lipid kinase that generates phosphorylated phosphatidylinositol (PI) intermediates (such as PI
+3,4,5-triphosphate, PIP3) in the cytosolic leaflet of cellular
+membranes [2]. These PIP3 intermediates recruit other
+downstream signalling molecules particularly serine/threonine protein kinases such as Akt and atypical protein
+kinase C (PKC) isoforms to membranes. Membrane
+recruitment of these molecules facilitates their interaction
+with upstream regulators, including the serine kinase 3phosphoinositide-dependent-kinase 1 (PDK1), which
+phosphorylate and activate them [3]. This relatively simple mechanism of membrane microlocalisation is a
+unifying theme in signal transduction.
+As simple as the above mechanism seems, several observations imply the existence of further layers of complexity.
+While considerable evidence has accrued to implicate
+PI3K/Akt in insulin action, other GFs that are equally effective in activating PI3K are metabolically incompetent.
+Furthermore, as discussed in other articles in this issue,
+most biological membranes including the plasma membrane, the presumed site of Akt activation, are now viewed
+as composites of lipid microdomains that may define ‘signalling hotspots’ where the concentrated assembly of
+signalling molecules may be a key element in signalling
+specificity. Overexpression of signalling molecules, including IRS proteins [4,5], in some cases causes constitutive
+activation and more potent phenotypes are often observed if
+soluble signalling molecules become permanently associated with membranes; in fact, Akt becomes transforming
+under these conditions [6]. To begin to tease this aspect of
+signalling apart, it is essential not to perturb the endogenous
+balance. Further downstream we encounter other layers of
+complexity. Once activated at the plasma membrane, how
+do signalling molecules find their way to their correct site of
+action? This is a key question given that numerous GFs activate PI3K/Akt to evoke specific responses, including
+apoptosis, protein translation, differentiation and glucose
+metabolism. Presumably, this requires that activated Akt
+seeks out downstream targets in discrete locations such as
+the nucleus, on the mitochondrial surface or in the cytoplasm [7]. However, it is not clear if this process is random
+or highly organised. What role do IRS proteins play in this
+and other aspects of insulin signalling?
+Previous studies have suggested that IRS proteins may be
+localized to the cytoskeleton and that this localization is
+regulated. In this review we consider the evidence to support the cytoskeletal association of IRS and discuss the
+physiological consequence of this localization. A model is
+presented to suggest that this may prevent IRS from targeted degradation and thus play an important role in
+insulin sensitivity.
+
+CBC207.QXD
+
+02/24/2000
+
+01:55
+
+Page 223
+
+Signalling through the insulin receptor Whitehead et al.
+
+Insulin receptor substrates
+To date, four IRS proteins have been identified (denoted
+IRS-1 to IRS-4), all having a conserved domain structure,
+including pleckstrin homology (PH) and phosphotyrosinebinding (PTB) domains at the amino terminus that are
+required for efficient coupling to the IR. The PTB domain
+binds directly to the juxtamembrane region of the IR (at
+the NPXY motif) and this is thought to be enhanced by
+interactions of the PH domain with membrane phospholipids or intracellular proteins [8–11,12••]. The
+carboxy-terminal domain is poorly conserved except for the
+presence of multiple motifs that become tyrosine phosphorylated in response to insulin, and these serve as docking
+sites for SH2 domain-containing proteins such as PI3K,
+SH2-containing phosphotyrosine phosphatase (SHP2) and
+Grb2. Some of these sites are unique, raising the possibility that they may be involved in specific processes.
+While there is considerable evidence for a direct role of
+IRS-1 and IRS-2 in insulin’s metabolic actions [1], the role
+of IRS-3 or IRS-4 is less clear, despite the fact that overexpression of these proteins in adipocytes mimic some of
+insulin’s actions [5]: IRS-4 is undetectable in muscle or
+adipocytes [13], and IRS-3, which undergoes insulin-stimulated tyrosine phosphorylation in adipocytes, does not
+appear to bind significant levels of PI3K in response to
+insulin [14]. In addition, IRS-3–/– mice exhibit normal glucose tolerance [15]. Conversely, both IRS-1 and IRS-2 are
+major insulin-stimulated tyrosine phosphoproteins in
+adipocytes and muscle cells and IRS-1–/– and IRS-2–/–
+mice both display insulin resistance [16,17,18•].
+From an evolutionary standpoint, increasing complexity of
+organisms could dictate the development of more sophisticated systems to allow coordination of intricate
+physiological events. Invertebrates such as Drosophila and
+Caenorhabditis elegans have an insulin-like signalling pathway similar to that in mammals [19,20], which appears to
+regulate growth and metabolism [19–22]. Whilst many of
+the downstream signalling molecules are conserved, such
+as PI3K and Akt, it is noteworthy that both the Drosophila
+and C. elegans IR homologues contain a carboxy-terminal
+extension reminiscent of IRS-1, which contains putative
+docking sites for PI3K and SHP2 [21–24]. However, only a
+single homologue of IRS, termed CHICO, has been identified in Drosophila and no IRS homologues have currently
+been identified in C. elegans. Thus, it is tempting to speculate that the IRS proteins have evolved as a family of
+molecules distinct from the IR family to afford higher
+organisms greater flexibility to coordinate multiple events.
+We would like to consider the possibilities in favour of this
+with regard to different aspects of insulin action.
+
+Role of insulin receptor substrates in signal
+generation
+To enable the acute regulation of the insulin signalling
+network, phosphorylation of IRS-1 and IRS-2 by the IR
+must occur rapidly. Because IRS proteins are soluble
+
+223
+
+molecules, however, it is unclear how and where they
+intersect with the membrane-associated IR. The requirement for IR internalisation in promoting IRS tyrosine
+phosphorylation has been the subject of several studies.
+Inhibition of internalisation by incubation of cells at 4°C
+has produced evidence for and against a need for this
+process [25,26]. Similarly, studies using dominant interfering dynamin mutants suggest that internalisation is not
+required [27•]. However, IR internalisation was not completely inhibited in these studies and, given the catalytic
+nature of the signal generated, it is conceivable that only a
+small amount of internalised IR is necessary to stimulate
+IRS tyrosine phosphorylation.
+In determining the site of coupling between IRS and the
+IR, the intracellular location of IRS-1/2 is of considerable
+interest. Kelly and Ruderman [28] first showed, by crude
+fractionation, that IRS-1 is highly enriched in an intracellular fraction referred to as either the low-density microsomes
+or high-speed pellet (HSP). Notably, the IR is not enriched
+in this fraction [26,28]. More recently, IRS-2 has been
+shown to be enriched in this fraction [14,29••–31••]. This
+appears to represent the active component of IRS-1/2
+because HSP-associated IRS-1/2 is rapidly and highly tyrosine phosphorylated in response to insulin treatment of
+cells, leading to a specific increase in PI3K in this fraction.
+Conversely, there is little or no recruitment of PI3K to fractions containing the tyrosine phosphorylated IR
+[26,29••,30••]. Biochemical studies have since indicated
+that IRS-1/2 co-sediment with the HSP fraction not
+because of their association with membranes but rather
+because of their association with large polypeptide complexes — possibly the cytoskeleton [30••,31••,32].
+Most membranes are coated with cytoskeletal elements
+and in certain cells  platelets, for example — membrane
+skeletons are attached to the underside of the plasma
+membrane and act as a conduit between the external and
+the internal environment [33]. Indeed, filamentous structures running beneath the plasma membrane of adipocytes
+have been described [34]. Alternatively, the cytoskeleton
+in adipocytes may form an array that interacts with the
+plasma membrane at its multiple end points. Insulin may
+regulate this interaction in a manner analogous to the formation of focal adhesions. Thus, IRS-1/2 may slide along
+the filaments that make up this array and transiently interact with the membrane, possibly via PH domain
+interactions, so increasing the efficiency of coupling with
+the IR (see Figure 1). This model also provides a potential
+means for the deposition of other molecules, including
+PI3K/Akt, to various intracellular sites such as the mitochondrial and nuclear membranes. A completely different
+model, which also cannot be ruled out at the present time,
+is that IRS-1/2 binds to a large polypeptide complex distinct from the cytoskeleton that sediments with the HSP
+and this complex may associate with the IR in a regulated
+manner. One candidate proposed by Czech and colleagues
+[35] is the adaptor protein 3 (AP3) complex. They have
+
+CBC207.QXD
+
+02/24/2000
+
+224
+
+01:55
+
+Page 224
+
+Cell regulation
+
+Figure 1
+
+Figure 1 legend
+
+(a) Basal
+
+IR tyrosine kinase
+
+Cell surface
+
+Membrane skeleton
+
+Y
+
+Y
+
+IRS-1/2
+
+PDK1
+PKC ζ/λ
+
+YMXM
+Akt2
+p110
+
+p85
+
+PI3K
+
+Cytosol
+
+(b) Acute insulin 1
+
+IR tyrosine kinase
+
+Cell surface
+
+Membrane skeleton
+
+pY
+Y
+
+pY
+Y
+
+IRS-1/2
+
+PDK1
+PKC ζ/λ
+
+p110
+
+p85
+
+Akt2
+
+YpMXM
+
+PI3K
+Cytosol
+
+(c) Acute insulin 2
+IR tyrosine kinase
+
+Cell surface
+
+P
+
+P
+
+P
+
+PKC ζ/λ
+
+P
+
+PDK1
+
+P
+
+Membrane skeleton
+
+P
+
+pY
+
+pY
+
+IRS-1/2
+IRS-1/2
+
+Akt2
+PKB
+b
+p110
+
+pSer
+pThr
+
+pThr
+
+Model illustrating the putative role of cytoskeleton-associated IRS-1/2
+in IR signalling. (a) In the basal state (i.e. in the absence of insulin),
+IRS-1/2 are associated with the cytoskeleton, which may run parallel to
+the membrane as shown, or may form arrays interacting with the plasma
+membrane at multiple points. The association of IRS-1/2 with the
+cytoskeleton maintains the signalling apparatus in a ‘primed’ fashion.
+(b) Upon insulin stimulation, the IR undergoes tyrosine
+autophosphorylation. Interaction of IRS-1/2 with the tyrosine
+phosphorylated cytoplasmic tail of the IR is facilitated by the
+cytoskeleton and mediated by interaction of the PH/PTB domain.
+Following tyrosine phosphorylation of IRS-1/2 on key sites, SH2domain-containing proteins such as PI3K are recruited. (c) The
+cytoskeleton targets the activated IRS-1/2–PI3K complex to specific
+microdomains within the plasma membrane. PIP3 is generated at these
+specific sites, serving to recruit PDK1 (and PDK2) and downstream
+kinases such as Akt2 (in adipocytes) and the atypical PKCs (ζ/λ).
+PDK1 mediates their activation by phosphorylation. Activated Akt2 and
+PKC (ζ/λ) then translocate to alternative sites, possibly via the
+cytoskeletal network, to phosphorylate downstream effectors and so
+coordinate glucose metabolism. (d) Following chronic insulin treatment
+(as in states of hyperinsulinemia) or other regimes such as okadaic acid
+treatment, IRS-1/2 become hyperphosphorylated on serine residues.
+This is coupled with dissociation from the cytoskeleton, which also
+undergoes serine phosphorylation, preventing the interaction of IRS-1/2
+with the IR. Cytosolic IRS-1/2 may then be targeted for degradation by
+intracellular proteases such as the proteasome.
+
+p85
+
+YpMXM
+
+PI3K
+
+Glucose
+metabolism
+
+Cytosol
+
+(d) Insulin resistance
+
+IR tyrosine kinase
+
+Cell surface
+
+Membrane skeleton
+
+pY
+
+suggested that IRS-1/2 may associate with the IR in
+clathrin-coated pits at the cell surface [26]. However, there
+is no evidence that AP3 adaptors regulate the formation of
+clathrin-coated pits at the cell surface, thus further emphasising the need to re-investigate the need for IR
+internalisation in IRS phosphorylation.
+An additional advantage of anchoring IRS-1/2 proteins to
+the cytoskeleton is that this may create a scaffold for
+attracting other downstream molecules, such as PI3K/Akt,
+and then provide a very controlled way of delivering these
+molecules to their appropriate site of action. The
+cytoskeleton is known to undergo major rearrangements as
+cells traverse the cell cycle or as preadipocytes differentiate into adipocytes. Hence, one could imagine that a major
+purpose of such rearrangements might be to create new or
+different destinations for signalling molecules, thus ensuring that they do the right thing at the right time. Attempts
+to localise the site of PI3K activity in living cells using a
+PIP3-specific binding protein (ARNO) linked to green fluorescence protein (GFP), suggested that insulin activates
+PI3K primarily at the plasma membrane [36•].
+
+pY
+
+PDK1
+pSer
+
+PKC ζ/λ
+Akt2
+
+IRS-1/2
+pSer
+
+p110
+
+PI3K
+
+pSer
+
+p85
+
+Degradation
+
+Cytosol
+
+Current Opinion in Cell Biology
+
+Consistent with this, Akt undergoes translocation to the plasma membrane [37,38,39•]. How can these observations be
+reconciled with the fact that other GFs such as plateletderived GF (PDGF) recruit and activate PI3K at the plasma
+membrane in adipocytes, yet the majority of evidence suggests they are metabolically incompetent [40–42]? First,
+fractionation studies indicate that the majority of insulin-stimulated IRS-associated PI3K activity resides in the HSP,
+whereas PDGF activates PI3K in the plasma membrane. Second, direct measurement of PIP3 levels in intact adipocytes
+
+CBC207.QXD
+
+02/24/2000
+
+01:55
+
+Page 225
+
+Signalling through the insulin receptor Whitehead et al.
+
+suggests that PDGF has very little effect on the production of
+these lipids [43]. Third, PDGF is not equally effective in activating Akt [39•,44,45,46•]. Nevertheless, PDGF generates a
+signal that is sufficient to stimulate other PI3K-dependent
+pathways, such as p70S6K and PHAS-1, in these cells [46•].
+Collectively, these findings indicate that IRS-1/2-mediated
+activation of PI3K is qualitatively different to that mediated by
+direct association with the PDGF receptor. One model that
+may account for these differences is that the PDGF receptor
+and IRS-1/2 recruit PI3K to distinct plasma membrane
+microdomains with unique lipid compositions including PIP3.
+Alternatively, IRS-1/2 may also regulate PI3K/Akt at more
+remote locations in the cell that are inaccessible to the PDGF
+receptor. It also remains conceivable that PDGF activates only
+the serine protein kinase activity of PI3K in intact cells. Whilst
+this activity may be sufficient to activate p70S6K and PHAS1, as has been shown for mitogen-activated protein kinase
+(MAPK), it may be insufficient to activate Akt [47].
+An additional issue is one of isoform specificity. Recent
+studies suggest that the expression of Akt2 is induced in
+adipocytes at the expense of Akt1 [39•,46•]. Moreover,
+there are several different isoforms of both the regulatory
+and catalytic subunits of PI3K [2] and it remains possible
+that different isoforms of PI3K may couple uniquely to different Akt isoforms.
+
+Role of insulin receptor substrates in
+desensitisation
+In addition to stimulating IRS tyrosine phosphorylation, insulin also causes increased serine/threonine
+phosphorylation of IRS-1, which is thought to cause conformational changes, making it a poor substrate for the IR [48].
+Several serine/threonine kinases that are regulated by insulin
+have since been implicated in mediating this effect, including PI3K [49], Akt [50], MAPK [50,51] and GSK3 [52,53],
+thus providing a possible mechanism for signal termination.
+Serine/threonine phosphorylation of IRSs also appears
+concomitant with IRS dissociation from the HSP, leading
+to the suggestion that these events may be linked [26].
+However, it has since been found that IRS dissociation
+from the HSP may be uncoupled from IRS serine/threonine phosphorylation [31••] and that serine/threonine
+phosphorylation of components other than IRSs are
+accountable for this effect [29••]. In keeping with the
+model that a HSP cytoskeletal matrix interacts with IRS1/2, the serine kinase ROKα constitutes a suitable
+candidate for regulating this effect. ROKα binds to IRS-1
+and has been further implicated in the disassembly of the
+cytoskeleton [54,55]. Disassembly of the cytoskeleton provides a second potential mechanism for signal termination
+by disengaging IRS from its access to IR.
+
+Role of insulin receptor substrates in crosstalk and insulin resistance
+As mentioned earlier, the evolution of higher organisms
+called for the development of complex hormonal systems
+
+225
+
+for the regulation of various events, including cell proliferation, division and metabolism. The cell must therefore
+assimilate a myriad of different signals in order to mediate
+an appropriate response. Whilst integration may occur at
+many levels, the IRS proteins are ideally positioned to combine signals from multiple receptors. As such, several factors
+including growth hormone, catecholamines and tumour
+necrosis factor α (TNFα) are known to impact on insulin
+action and insulin signalling. In many cases, they appear to
+do so at an early signalling step between insulin binding and
+PI3K activity, namely at the level of the IRS [48,56,57].
+There is also substantial evidence to suggest that at least
+some forms of insulin resistance may operate at the level of
+the IRS. TNFα [48,57], okadaic acid [58] or chronic insulin
+treatment [59,60] all increase serine/threonine phosphorylation of IRSs and induce insulin-resistant states. Indeed,
+increased IRS serine kinase activity has recently been
+detected in diabetic states [61••]. Consistent with the
+above mechanisms for signal termination described above,
+we have found that chronic insulin or okadaic acid treatments result in quantitative dissociation of the IRS from
+the HSP [31••]. Moreover, oxidative stress has been reported to promote insulin resistance by disruption of the
+intracellular distribution of IRS-1 [62••]. Dissociation of
+IRS from the HSP may also provide a rational basis for the
+observed decrease in total intracellular IRS upon chronic
+insulin treatment. Release of IRS into the cytosol coincides
+with this decrease in IRS [31••], and may thereby facilitate
+greater IRS accessibility to proteases such as the proteasome [63•]. As such, reduced IRS protein levels have been
+reported in many states of insulin resistance.
+
+Conclusions
+The involvement of IRS-1/2 appears to be central to the
+unique ability of the IR to regulate events such as glucose
+metabolism. Although we do not yet have definitive proof,
+data suggest that the recruitment and activation of signal
+transduction molecules such as PI3K to specific membranous
+microdomains is at least partly responsible. Approaches such as
+immunoelectron microscopy should provide further insight
+into the location of IRS-1/2 and the cytoskeleton in adipocytes.
+Furthermore, identification of the proteins in the HSP that
+interact with IRS-1/2, and subsequent characterisation of
+the domains responsible for this interaction, will increase
+our understanding of how these processes are regulated.
+Whilst the role of PI3K in mediating the majority of insulin’s
+effects is unequivocal, the requirement for additional pathways still remains contentious. PIP3 is seemingly
+insufficient for insulin action, making a strong case for the
+involvement of parallel pathways or the involvement of
+another PI3K activity [64••]. Recent evidence appears to
+have clarified the importance of Akt in insulin-stimulated
+glucose uptake and highlighted the significance of considering isoform specificity [39•,46•,65••]. Additionally, there is a
+growing body of evidence implicating the atypical PKCs
+(ζ/λ) in mediating insulin-stimulated glucose uptake via a
+
+CBC207.QXD
+
+02/24/2000
+
+226
+
+01:55
+
+Page 226
+
+Cell regulation
+
+pathway that appears to run parallel to that of Akt [66•–68•].
+An important step will involve the identification and characterisation of potential downstream effectors.
+
+Update
+Since the submission of this review two interesting papers
+have been published [69•,70•]. Oatey et al. [69•] used
+GFP-tagged PIP3-binding proteins to show that insulin
+stimulates PIP3 production at the plasma membrane to a
+greater extent and in more cells than PDGF, consistent
+with the findings in [43]. Fantin et al. [70•] have confirmed
+that IRS-4 does not play a major role in the overall
+response to insulin. However, the authors speculate that
+the differences between IRS-4–/– and wild-type mice may
+be due to alterations in hypothalamic function.
+
+Acknowledgements
+We would like to thank John Lawrence and Gus Lienhard for critical
+reading of the manuscript. JP Whitehead is funded by the Wellcome Trust;
+B Ursø is funded by the British Diabetic Association; DE James is funded
+by the Juvenile Diabetes Foundation International and National Health
+and Medical Research Council of Australia.
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review,
+have been highlighted as:
+
+• of special interest
+•• of outstanding interest
+1.
+
+White MF: The IRS-signalling system: a network of docking
+proteins that mediate insulin action. Mol Cell Biochem 1998,
+182:3-11.
+
+2.
+
+Shepherd PR, Withers DJ, Siddle K: Phosphoinositide 3-kinase: the
+key switch mechanism in insulin signalling. Biochem J 1998,
+333:471-490.
+
+3.
+
+Alessi D, Cohen P: Mechanism of activation and function of protein
+kinase B. Curr Opin Genet Dev 1998, 8:55-62.
+
+4.
+
+Zhou L, Chen H, Lin C, Cong L-N, McGibbon M, Sciacchitano S,
+Lesniak M, Quon M, Taylor S: Insulin receptor substrate-2 (IRS-2)
+can mediate the action of insulin to stimulate the translocation of
+GLUT4 to the cell surface in rat adipose cells. J Biol Chem 1997,
+272:29829-29833.
+
+5.
+
+Zhou L, Chen H, Xu P, Cong LN, Sciacchitano S, Li Y, Graham D,
+Jacobs AR, Taylor SI, Quon MJ: Action of insulin receptor
+substrate-3 (IRS-3) and IRS-4 to stimulate translocation of
+GLUT4 in rat adipose cells. Mol Endocrinol 1999, 13:505-514.
+
+6.
+
+Aoki M, Batista O, Bellacosa A, Tsichlis P, Vogt PK: The akt kinase:
+molecular determinants of oncogenicity. Proc Natl Acad Sci USA
+1998, 95:14950-14955.
+
+7.
+
+Khwaja A: Akt is more than just a Bad kinase. Nature 1999,
+401:33-34.
+
+8.
+
+O’Neill T, Craparo A, Gustafson T: Characterization of an interaction
+between insulin receptor substrate 1 and the insulin receptor by
+using the two-hybrid system. Mol Cell Biol 1994, 14:6433-6442.
+
+9.
+
+Yenush L, Makati K, Smith-Hall J, Ishibashi O, Myers M, White M: The
+Pleckstrin Homology domain is the principle link between the
+insulin receptor and IRS-1. J Biol Chem 1996, 271:24300-24306.
+
+10. Sawka-Verhelle D, Tartare-Deckert S, White M, Van Obberghen E:
+Insulin receptor substrate-2 binds to the insulin receptor through
+its phosphotyrosine binding domain and through a newly
+identified domain comprising amino acids 591-786. J Biol Chem
+1996, 271:5980-5983.
+11. He W, Craparo A, Zhu Y, O’Neill T, Wang L-M, Pierce J, Gustafson T:
+Interaction of insulin receptor substrate-2 (IRS-2) with the insulin
+and insulin-like growth factor I receptors. Evidence for two
+distinct phosphotyrosine-dependent interaction domains within
+IRS-2. J Biol Chem 1996, 271:11641-11645.
+
+12. Burks DJ, Wang J, Towery H, Ishibashi O, Lowe D, Riedel H, White MF:
+•• IRS pleckstrin homology domains bind to acidic motifs in
+proteins. J Biol Chem 1998, 273:31061-31067.
+The PH domains of IRS-1/2 were found to bind to acidic motifs suggesting
+a role in mediating protein–protein interactions.
+13. Fantin VR, Lavan BE, Wang Q, Jenkins NA, Gilbert DJ, Copeland NG,
+Keller SR, Lienhard GE: Cloning, tissue expression, and
+chromosomal location of the mouse insulin receptor substrate 4
+gene. Endocrinol 1999, 140:1329-1337.
+14. Anai M, Ono H, Funaki M, Fukushima Y, Inukai K, Ogihara T, Sakoda H,
+Onishi Y, Yazaki Y, Kikuchi M et al.: Different subcellular distribution
+and regulation of expression of insulin receptor substrate (IRS)-3
+from those of IRS-1 and IRS-2. J Biol Chem 1998,
+273:29686-29692.
+15. Liu SC, Wang Q, Lienhard GE, Keller SR: Insulin receptor substrate
+3 is not essential for growth or glucose homeostasis. J Biol Chem
+1999, 274:18093-18099.
+16. Tamemoto H, Kadowaki T, Tobe K, Yagi T, Sakura H, Hayakawa T,
+Terauchi Y, Ueki K, Kaburagi Y, Satoh S et al.: Insulin resistance and
+growth retardation in mice lacking insulin receptor substrate-1.
+Nature 1994, 372:182-186.
+17.
+
+Araki E, Lipes M, Patti M-E, Bruning J, Haag B, Johnson R, Kahn C:
+Alternative pathway of insulin signalling in mice with targeted
+disruption of the IRS-1 gene. Nature 1994, 372:186-190.
+
+18. Withers D, Gutierrez J, Towery H, Burks D, Ren J-M, Previs S, Zhang Y,
+•
+Bernal D, Pons S, Shulman G et al.: Disruption of IRS-2 causes
+type 2 diabetes in mice. Nature 1998, 391:900-904.
+In contrast to mice lacking IRS-1, IRS-2–/– mice developed overt diabetes
+as a result of defects in both peripheral insulin signalling and pancreatic
+β-cell function. The phenotype of these IRS-2–/– mice highlighted the importance of the insulin signalling pathway in the pancreas, which has since been
+demonstrated by the β-cell-specific knockout of the IR.
+19. Paradis S, Ailion M, Toker A, Thomas JH, Ruvkun G: A PDK1
+homolog is necessary and sufficient to transduce AGE-1 PI3
+kinase signals that regulate diapause in Caenorhabditis elegans.
+Genes Dev 1999, 13:1438-1452.
+20. Bohni R, Riesgo-Escovar J, Oldham S, Brogiolo W, Stocker H,
+Andruss BF, Beckingham K, Hafen E: Autonomous control of cell
+and organ size by CHICO, a Drosophila homolog of vertebrate
+IRS1–4. Cell 1999, 97:865-875.
+21. Fernandez R, Tabarini D, Azpiazu N, Frasch M, Schlessinger J: The
+Drosophila insulin receptor homolog: a gene essential for
+embryonic development encodes two receptor isoforms with
+different signaling potential. EMBO J 1995, 14:3373-3384.
+22. Kimura KD, Tissenbaum HA, Liu Y, Ruvkun G: daf-2, an insulin
+receptor-like gene that regulates longevity and diapause in
+Caenorhabditis elegans. Science 1997, 277:942-946.
+23. Yamaguchi T, Fernandez R, Roth RA: Comparison of the signaling
+abilities of the Drosophila and human insulin receptors in
+mammalian cells. Biochemistry 1995, 34:4962-4968.
+24. Marin-Hincapie M, Garofalo RS: The carboxyl terminal extension of
+the Drosophila insulin receptor homologue binds IRS-1 and
+influences cell survival. J Biol Chem 1999, 274:24987-24994.
+25. Biener Y, Feinstein R, Mayak M, Kaburagi Y, Kadowaki T, Zick Y:
+Annexin II is a novel player in insulin signal transduction: possible
+association between annexin II phosphorylation and insulin
+receptor internalization. J Biol Chem 1996, 271:29489-29496.
+26. Heller-Harrison R, Morin M, Czech M: Insulin regulation of
+membrane-associated insulin receptor substrate-1. J Biol Chem
+1995, 270:24442-24450.
+27.
+•
+
+Ceresa BP, Kao AW, Santeler SR, Pessin JE: Inhibition of clathrin
+mediated endocytosis selectively attenuates specific insulin
+receptor signal transduction pathways. Mol Cell Biol 1998,
+18:3862-3870.
+In agreement with Heller-Harrison et al. [26], inhibition of endocytosis using
+a dominant interfering mutant of dynamin (K44A/dynamin) had little effect on
+IRS-1 phosphorylation. Intriguingly however, insulin-stimulated recruitment
+of PI3K to IRS-1- and IRS-1-associated PI3K activity was decreased.
+28. Kelly KL, Ruderman NB: Insulin-stimulated phosphatidylinositol 3kinase. Association with a 185-kDa tyrosine-phosphorylated
+protein (IRS-1) and localization in a low density membrane
+vesicle. J Biol Chem 1993, 268:4391-4398.
+
+CBC207.QXD
+
+02/24/2000
+
+01:55
+
+Page 227
+
+Signalling through the insulin receptor Whitehead et al.
+
+29. Inoue G, Cheatham B, Emkey R, Kahn CR: Dynamics of insulin
+•• signaling in 3T3-L1 adipocytes: differential compartmentalization
+and trafficking of insulin receptor substrate (IRS)-1 and IRS-2.
+J Biol Chem 1998, 273:11548-11555.
+This paper suggests that IRS-1 may provide a more sustained signal than
+IRS-2 and that insulin stimulates the dissociation of IRS-1 and IRS-2 from
+the LDM/HSP by different mechanisms.
+30. Clark SF, Martin S, Carozzi AJ, Hill MM, James DE: Intracellular
+•• localization of phosphatidylinositide 3-kinase and insulin receptor
+substrate-1 in adipocytes: Potential involvement of a membrane
+skeleton. J Cell Biol 1998, 140:1211-1225.
+In this paper, it is proposed that IRS-1 associates with the cytoskeleton.
+31. Clark SF, Molero JC, James DE: Release of insulin receptor
+•• substrate proteins from an intracellular complex coincides with
+the development of insulin resistance. J Biol Chem 2000, in press.
+This report shows that localisation of IRS-1 and IRS-2 to the LDM/HSP is
+regulated and that this may play a role in determining insulin sensitivity.
+32. Hill MM, Clark SF, James DE: Insulin-regulatable phosphoproteins
+in 3T3-L1 adipocytes form detergent-insoluble complexes not
+associated with caveolin. Electrophoresis 1997, 18:2629-2637.
+33. Stark F, Golla R, Nachmias VT: Formation and contraction of a
+microfilamentous shell in saponin-permeabilized platelets. J Cell
+Biol 1991, 112:903-913.
+34. Franke WW, Hergt M, Grund C: Rearrangement of the vimentin
+cytoskeleton during adipose conversion: formation of an
+intermediate filament cage around lipid globules. Cell 1987,
+49:131-141.
+35. VanRenterghem B, Morin M, Czech MP, Heller-Harrison RA:
+Interaction of insulin receptor substrate-1 with the σ3A subunit of
+the adaptor protein complex-3 in cultured adipocytes. J Biol Chem
+1998, 273:29942-29949.
+36. Venkateswarlu K, Oatey P, Tavare J, Cullen P: Insulin-dependent
+•
+translocation of ARNO to the plasma membrane of adipocytes
+requires phosphatidylinositol 3-kinase. Curr Biol 1998, 8:463-466.
+This paper describes the use of a novel approach to determine the site of
+synthesis of PIP3 in adipocytes and demonstrates that the bulk of PIP3 is
+synthesised at the plasma membrane in response to insulin.
+37.
+
+Andjelkovich M, Alessi DR, Meier R, Fernandez A, Lamb NJC, Frech M,
+Cron P, Cohen P, Lucocq JM, Hemmings BA: Role of translocation
+in the activation and function of protein kinase B. J Biol Chem
+1997, 272:31515-31524.
+
+38. Goransson O, Wijknader J, Manganiello V, Degerman E: Insulininduced translocation of protein kinase B to the plasma
+membrane in rat adipocytes. Biochem Biophys Res Commun
+1998, 246:249-254.
+39. Hill MM, Clark SF, Meerloo T, Tucker D, Birnbaum MJ, James DE,
+β/Akt2 in insulin-stimulated GLUT4
+•
+Macaulay SL: A role for PKBβ
+translocation in adipocytes. Mol Cell Biol 1999, 19:7771-7781.
+Inhibition of Akt activity, by microinjection of an Akt substrate peptide or Akt
+antibody, inhibits glucose uptake. Consistent with Summers et al. [46•], Akt
+isoform expression was altered upon differentiation of preadipocytes to
+adipocytes and this was mirrored by a change in growth factor response
+from platelet-derived growth factor to insulin.
+40. Wiese R, Mastick C, Lazar D, Saltiel A: Activation of mitogenactivated protein kinase and phosphatidylinositol 3′′-kinase is not
+sufficient for the hormonal stimulation of glucose uptake,
+lipogenesis, or glycogen synthesis in 3T3-L1 adipocytes. J Biol
+Chem 1995, 270:3442-3446.
+
+227
+
+phosphatase activation during adipogenesis in 3T3-L1 cells. J Biol
+Chem 1998, 273:14063-14066.
+46. Summers SA, Whiteman EL, Cho H, Lipfert L, Birnbaum MJ:
+•
+Differentiation-dependent suppression of platelet-derived growth
+factor signaling in cultured adipocytes. J Biol Chem 1999,
+274:23858-23867.
+This paper demonstrates that the expression and activation of Akt is regulated in a highly specific manner that is determined, at least in part, by the
+differentiation status of the cell.
+47.
+
+Bondeva T, Pirola L, Bulgarelli-Leva G, Rubio I, Wetzker R, Wymann MP:
+Bifurcation of lipid and protein kinase signals of PI3Kγγ to the
+protein kinases PKB and MAPK. Science 1998, 282:293-296.
+
+48. Paz K, Hemi R, LeRoith D, Karasik A, Elhanany E, Kanety H, Zick Y: A
+molecular basis for insulin resistance: elevated serine/threonine
+phosphorylation of IRS-1 and IRS-2 inhibits their binding to the
+juxtamembrane region of the insulin receptor and inhibits their
+ability to undergo insulin-induced tyrosine phosphorylation. J Biol
+Chem 1997, 272:299911-299918.
+49. Freund GG, Wittig JG, Mooney RA: The PI3-kinase serine kinase
+phosphorylates its p85 subunit and IRS-1 in PI3-kinase/IRS-1
+complexes. Biochem Biophys Res Commun 1995, 206:272-278.
+50. Li J, DeFea K, Roth RA: Modulation of insulin receptor substrate-1
+tyrosine phosphorylation by an Akt/phosphatidylinositol 3-kinase
+pathway. J Biol Chem 1999, 274:9351-9356.
+51. De Fea K, Roth RA: Modulation of insulin receptor substrate-1
+tyrosine phosphorylation and function by mitogen-activated
+protein kinase. J Biol Chem 1997, 272:31400-31406.
+52. Eldar-Finkelman H, Krebs EG: Phosphorylation of insulin receptor
+substrate 1 by glycogen synthase kinase 3 impairs insulin action.
+Proc Natl Acad Sci USA 1997, 94:9660-9664.
+53. Summers SA, Kao AW, Kohn AD, Backus GS, Roth RA, Pessin JE,
+β in insulinBirnbaum MJ: The role of glycogen synthase kinase 3β
+stimulated glucose metabolism. J Biol Chem 1999,
+274:17934-17940.
+54. Farah S, Agazie Y, Ohan N, Ngsee J, Liu X: A Rho-associated
+α, binds insulin receptor substrate-1 and
+protein kinase, ROKα
+modulates insulin signaling. J Biol Chem 1998, 273:4740-4746.
+55. Sin WC, Chen XQ, Leung T, Lim L: RhoA-binding kinase α
+translocation is facilitated by the collapse of the vimentin
+intermediate filament network. Mol Cell Biol 1998, 18:6325-6339.
+56. Thirone AC, Paez-Espinosa EV, Carvalho CR, Saad MJ: Regulation of
+insulin-stimulated tyrosine phosphorylation of Shc and IRS-1 in
+the muscle of rats: effect of growth hormone and epinephrine.
+FEBS Lett 1998, 421:191-196.
+57.
+
+Hotamisligil GS, Peraldi P, Budavari A, Ellis R, White MF, Spiegelman
+BM: IRS-1 mediated inhibition of insulin receptor tyrosine kinase
+α- and obesity-induced insulin resistance. Science
+activity in TNF-α
+1996, 271:665-668.
+
+58. Tanti J, Gremeaux T, Van Obberghen E, Le Marchand-Brustel Y:
+Serine/threonine phosphorylation of insulin receptor substrate 1
+modulates insulin receptor signaling. J Biol Chem 1994,
+269:6051-6057.
+59. Rice KM, Turnbow MA, Garner CW: Insulin stimulates the
+degradation of IRS-1 in 3T3-L1 adipocytes. Biochem Biophys Res
+Commun 1993, 190:961-967.
+
+41. Nave B, Haigh R, Hayward A, Siddle K, Shepherd P: Compartmentspecific regulation of phosphoinositide 3-kinase by platelet
+derived growth factor and insulin in 3T3-L1 adipocytes. Biochem J
+1996, 318:55-60.
+
+60. Ricort JM, Tanti JF, Van Obberghen E, Le Marchand-Brustel Y:
+Alterations in insulin signalling pathway induced by prolonged
+insulin treatment of 3T3-L1 adipocytes. Diabetologia 1995,
+38:1148-1156.
+
+42. Wang L, Hayashi H, Ebina Y: Transient effect of platelet-derived
+growth factor on GLUT4 translocation in 3T3-L1 adipocytes. J Biol
+Chem 1999, 274:19246-19253.
+
+61. Qiao LY, Goldberg JL, Russell JC, Sun XJ: Identification of enhanced
+•• serine kinase activity in insulin resistance. J Biol Chem 1999,
+274:10625-10632.
+An in vitro assay was developed to identify increased serine kinase activity
+associated with insulin-resistant states.
+
+43. Conricode KM: Involvement of phosphatidylinositol 3-kinase in
+stimulation of glucose transport by growth factors in 3T3-L1
+adipocytes. Biochem Mol Biol Int 1995, 36:835-843.
+44. Staubs PA, Nelson JG, Reichart DR, Olefsky JM: Platelet-derived
+growth factor inhibits insulin stimulation of insulin receptor
+substrate-1-associated phosphatidylinositol 3-kinase in 3T3-L1
+adipocytes without affecting glucose transport. J Biol Chem 1998,
+273:25139-25147.
+45. Brady MJ, Bourbonais FJ, Saltiel AR: The activation of glycogen
+synthase by insulin switches from kinase inhibition to
+
+62. Tirosh A, Potashnik R, Bashan N, Rudich A: Oxidative stress
+•• disrupts insulin-induced cellular redistribution of insulin receptor
+substrate-1 and phosphatidylinositol 3-kinase in 3T3- L1
+adipocytes. A putative cellular mechanism for impaired protein
+kinase B activation and GLUT4 translocation. J Biol Chem 1999,
+274:10595-10602.
+In this paper, the authors investigate the potential for oxidation induced
+insulin resistance occurring at the level of perturbed intracellular localisation,
+having previously reported that insulin-stimulated GLUT4 translocation was
+
+CBC207.QXD
+
+02/24/2000
+
+228
+
+01:55
+
+Page 228
+
+Cell regulation
+
+impaired in cells following oxidation even though PI3K activity appeared
+normal.
+63. Sun XJ, Goldberg JL, Qiao LY, Mitchell JJ: Insulin-induced insulin
+•
+receptor substrate-1 degradation is mediated by the proteasome
+degradation pathway. Diabetes 1999, 48:1359-1364.
+This paper describes how IRS-1, but not IRS-2, is degraded by the proteasome following chronic insulin treatment in a PI3K-dependent manner.
+64. Jiang T, Sweeney G, Rudolf MT, Klip A, Traynor-Kaplan A, Tsien RY:
+•• Membrane-permeant esters of phosphatidylinositol 3,4,5trisphosphate. J Biol Chem 1998, 273:11017-11024.
+Membrane-permeable esters of PIP3 were found to be insufficient to stimulate glucose uptake in adipocytes, but were able to restore glucose uptake
+in insulin stimulated cells treated with wortmannin. These results provide
+strong evidence for the requirement of a pathway independent of PIP3 for
+full insulin stimulated glucose uptake.
+65. Wang Q, Somwar R, Bilan PJ, Liu Z, Jin J, Woodgett JR, Klip A:
+•• Protein kinase B/Akt participates in GLUT4 translocation by
+insulin in L6 myoblasts. Mol Cell Biol 1999, 19:4008-4018.
+A dominant negative triple mutant Akt (AAA-Akt) was a potent inhibitor of
+insulin stimulated translocation of GLUT4.
+66. Kotani K, Ogawa W, Matsumoto M, Kitamura T, Sakaue H, Hino Y,
+•
+Miyake K, Sano W, Akimoto K, Ohno S, Kasuga M: Requirement of
+λ for insulin stimulation of glucose
+atypical protein kinase Cλ
+uptake but not for Akt activation in 3T3-L1 adipocytes. Mol Cell
+Biol 1998, 18:6971-6982.
+See annotation [68•].
+67.
+•
+
+Bandyopadhyay G, Standaert ML, Kikkawa U, Ono Y, Moscat J,
+Farese RV: Effects of transiently expressed atypical (ζζ, λ),
+α, β) and novel (δδ, ε) protein kinase C isoforms on
+conventional (α
+
+insulin-stimulated translocation of epitope-tagged GLUT4
+glucose transporters in rat adipocytes: specific interchangeable
+λ. Biochem J 1999,
+effects of protein kinases C-ζζ and C-λ
+337:461-470.
+See annotation [68•].
+68. Etgen GJ, Valasek KM, Broderick CL, Miller AR: In vivo adenoviral
+•
+delivery of recombinant human protein kinase C-ζζ stimulates
+glucose transport activity in rat skeletal muscle. J Biol Chem
+1999, 274:22139-22142.
+By means of transfection studies employing wild type, constitutively active
+and dominant-negative atypical PKCs (ζ/λ), these reports [66•–68•] provide
+considerable evidence supporting a role for the atypical PKCs (ζ/λ), in
+insulin-stimulated glucose uptake.
+69. Oatey PB, Venkateswarlu K, Williams AG, Fletcher LM, Foulstone EJ,
+•
+Cullen PJ, Tavare JM: Confocal imaging of the subcellular
+distribution of phosphatidylinositol 3,4,5-trisphosphate in insulinand PDGF-stimulated 3T3-L1 adipocytes. Biochem J 1999,
+344:511-518.
+Using GFP-tagged PIP3 binding proteins, as described in [36•] the authors
+show that insulin stimulates PIP3 production at the plasma membrane to a
+greater magnitude and in more cells than PDGF, consistent with the findings
+in [43].
+70. Fantin VR, Wang Q, Lienhard GE, Keller SR: Mice lacking insulin
+•
+receptor substrate 4 exhibit mild defects in growth, reproduction,
+and glucose homeostasis. Am J Physiol 2000, 278:E127-E133.
+The results confirm that IRS-4 does not play a major role in overall insulin
+responsiveness; however the authors speculate that the differences
+between IRS-4–/– and wild-type mice may be due to alterations in hypothalamic function, where high levels of IRS-4 mRNA have been detected.
+
+

@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,case,documents,patient,False
+1,who,developed,dizziness,False
+2,who,developed,downbeating,False
+3,patient,receiving,dose,False
+4,there,been,case,False

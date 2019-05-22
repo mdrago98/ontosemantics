@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,male,awoke,chest pain,False
+1,observations,were,limits,False
+2,his,administered,oxygen,False
+3,his,administered,face,False
+4,patient,experienced,drop,False
+5,There,was,deterioration,True
+6,There,are,case,False
+7,cause,be,Bezold,False
+8,which,decreases,outflow,False
+9,who,managing,patient,False
+10,that,recover,time,False
+11,syncopal episode,recover,time,False
+12,providers,consider,Bezold,False

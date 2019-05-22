@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,patients,given,kg,False
+1,Anaesthesia,maintained,etomidate,False
+2,trial,discontinued,cases,False
+3,trial,discontinued,incidence,False
+4,pain,occurred,%,False
+5,%,had,redness,False
+6,%,had,cases,False
+7,cases,lasting,anaesthesia,False
+8,movements,occurred,%,False
+9,%,experienced,upset,False
+10,Nausea and vomiting,occurred,%,False
+11,%,disturbing,emergence,False

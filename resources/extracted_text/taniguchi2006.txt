@@ -1,0 +1,2184 @@
+REVIEWS
+Critical nodes in signalling pathways:
+insights into insulin action
+Cullen M. Taniguchi*, Brice Emanuelli* and C. Ronald Kahn
+
+Abstract | Physiologically important cell-signalling networks are complex, and contain
+several points of regulation, signal divergence and crosstalk with other signalling cascades.
+Here, we use the concept of ‘critical nodes’ to define the important junctions in these
+pathways and illustrate their unique role using insulin signalling as a model system.
+
+Critical node
+A point in a signalling network
+that is essential for the
+biological function of a ligand–
+receptor interaction, but also
+allows divergence of the signal
+to facilitate crosstalk between
+systems and/or to fine-tune the
+response to stimuli.
+
+Insulin receptor substrate
+protein
+(IRS protein). A large protein
+scaffold that serves as a
+docking platform for other
+signalling proteins that contain
+Src-homology-2 domains. The
+IRS proteins are required for a
+complete insulin signal.
+
+Joslin Diabetes Center,
+One Joslin Place, Boston,
+Massachusetts 02215, USA.
+*These authors contributed
+equally to this work.
+Correspondence to C.R.K.
+e-mail: c.ronald.kahn@joslin.
+harvard.edu
+doi:10.1038/nrm1837
+
+Signalling by membrane receptors is essential for
+the regulation of several cell functions, but how each
+ligand–receptor interaction produces its own specific
+pattern of regulated cellular function is a fundamental
+question in biology. The identification of specific receptors and second messenger systems, such as cyclic AMP
+(cAMP), led to the classical view of signalling as a linear
+cascade (FIG.1a). Over time, this linear cascade evolved
+to reflect the divergence that is observed at several steps
+in a signalling pathway and the crosstalk between signalling pathways (FIG. 1b,c). However, it is now apparent
+that even this model might not be sufficient to explain
+the complexity of cellular signalling and the integrated
+control of cellular functions.
+One of the most daunting challenges to understanding
+any particular ligand–receptor system is the identification
+of components, or nodes, within the network that are essential mediators or modifiers of the ligand’s signal125. Several
+groups have taken quantitative approaches that integrate
+biochemical and computational data to identify essential
+nodes in signalling networks, as well as to describe how
+these nodes might interact with other signalling cascades.
+We believe that a complementary approach to describing
+cell-signalling networks, using data that has been derived
+from in vitro and in vivo genetic knockout studies, could
+provide a useful framework for integrating the growing
+body of knowledge in the field.
+Here, we propose that the essential mediators, or
+‘critical nodes’, of any signalling network (FIG. 1d) can be
+identified by three criteria: first, the node must constitute
+a group of related proteins (for example, gene isoforms)
+that are essential for the receptor-mediated signal, and in
+which two or more of these related proteins might have
+unique biological roles within a signalling network and
+therefore serve as a source of divergence within the signalling system; second, the node is highly regulated, both
+positively and negatively; and third, the node is a junction for potential crosstalk with other signalling systems.
+
+NATURE REVIEWS | MOLECULAR CELL BIOLOGY
+
+We illustrate this concept by analysis of the insulinsignalling network, in which several critical nodes have
+been defined and shown to have important roles in
+normal physiology, and disease states such as diabetes,
+obesity and the metabolic syndrome.
+
+Complexity of the insulin-signalling network
+Insulin signalling is mediated by a complex, highly
+integrated network that controls several processes.
+In the presence of insulin, the insulin receptor (IR)
+phosphorylates insulin receptor substrate proteins (IRS
+proteins) that are linked to the activation of two main
+signalling pathways: the phosphatidylinositol 3-kinase
+(PI3K)–AKT/protein kinase B (PKB) pathway, which is
+responsible for most of the metabolic actions of insulin,
+and the Ras–mitogen-activated protein kinase (MAPK)
+pathway, which regulates expression of some genes and
+cooperates with the PI3K pathway to control cell growth
+and differentiation (reviewed in REF. 1) (FIG. 2).
+Although a simple scheme of divergent pathways
+looks sufficient to explain insulin signalling, the concept
+of critical nodes becomes apparent when one looks at
+the sheer number of gene and protein isoforms that are
+involved in the activation of AKT/PKB and the generation
+of metabolic effects. For instance, the IR has two splice
+isoforms, which are usually co-expressed in cells that
+also express the highly related insulin-growth factor-1
+receptor (IGF1R) that can also be activated by insulin.
+Both the IR and IGF1R can phosphorylate at least six
+known substrate proteins that are capable of interacting
+with eight known forms of the PI3K regulatory subunit,
+which associate with three forms of the PI3K catalytic
+subunit that can generate phosphatidylinositol-3,4,5triphosphate (PIP3), which leads to the activation of the
+three known isoforms of AKT/PKB. Therefore, when
+you consider the combinatorial possibilities in these
+first steps of the pathway, there are over 1,000 possible combinations, and this number increases further
+VOLUME 7 | FEBRUARY 2006 | 85
+
+REVIEWS
+a Linear
+
+b Divergent
+
+c Network
+
+Ligand
+
+Ligand
+
+Ligand
+
+Receptor
+
+Receptor
+
+Receptor
+
+Effector (E)
+
+E1
+
+Action
+
+E2
+
+Action A Action B
+
+Action C
+
+Action
+
+E1
+
+E2
+
+A
+
+B
+
+E3
+C
+
+D
+
+E
+
+d Network with critical nodes
+Ligand I
+
+Ligand II
+
+Receptor I
+
+Receptor II
+
+Ligand III
+
+Receptor IIIa
+Receptor IIIb
+Node5
+
+E4a
+
+E3a
+E1
+
+E3b
+E3d
+Node2
+
+E2b
+Node1
+
+B
+
+C
+
+E6
+
+E4c
+Node3
+
+E3c
+
+E2a
+
+Action A
+
+E4b
+
+D
+
+E8a
+E8b
+Node4
+
+E10
+
+E12
+
+E13
+
+E5
+
+E7
+
+E9
+
+E11
+
+E
+
+F
+
+G
+
+H
+
+I
+
+J
+
+Figure 1 | Evolution of our concepts on signalling pathways. The binding of a ligand
+to its receptor triggers the activation of signalling pathways through effector (E)
+proteins that transduce signals to several intracellular second-messenger systems,
+which eventually lead to biological actions. Owing to the several molecules that are
+involved in these processes, our concepts of signalling pathways have evolved from
+simple linear cascades (a) to complex networks (b and c), and currently networks with
+critical nodes that participate in the crosstalk between the signalling networks (d,
+represented by the shaded/coloured boxes). In panel d, network 1 is represented by the
+green arrows, network 2 by the red arrows, and network 3 by the black arrows. Plain
+arrows represent an activation process, dashed arrows represent an activation process
+with less intensity and blocked arrows represent an inhibition process. The numbers
+beside every component of the network (I, II, III for receptors and 1 to 13 for effectors)
+represent distinct proteins, whereas the small letters indicate different isoforms of the
+same protein.
+
+Receptor tyrosine kinase
+(RTK). A cell-surface receptor
+with an intracellular tyrosine
+kinase domain. The ligandmediated activation of an RTK
+results in the activation of the
+intracellular kinase domain.
+
+Insulin resistance
+Insulin resistance is a condition
+in which normal concentrations
+of insulin produce a subnormal
+biological response. It is
+common in many physiological
+and pathological states,
+including obesity, type-2
+diabetes, metabolic syndrome,
+polycystic ovarian disease,
+pregnancy and puberty.
+
+if we consider the compartmentalization, kinetics and
+downstream components of the signalling network.
+Among the hundreds of molecules that have been
+shown to be involved in the insulin-signalling pathway,
+we have identified the IR/IRS, the PI3K heterodimer and
+AKT/PKB (FIG. 2) as the three best-defined critical nodes.
+As we will explain, each of these network components
+constitutes a critical node because they satisfy the criteria discussed above — each is essential for insulin action,
+consists of several isoforms with unique functions, is
+highly regulated and also mediates crosstalk with other
+signalling cascades. Most importantly, these critical
+nodes have been tested extensively as essential mediators of insulin signalling, both in vitro and in vivo. Other
+critical nodes in the insulin-signalling network might
+exist, however, only the IR/IRS, PI3K and AKT/PKB
+nodes have the strength and preponderance of data at
+this time to be considered ‘critical’. Finally, we will speculate on the existence of other possible critical nodes, and
+discuss approaches to investigate these further.
+
+86 | FEBRUARY 2006 | VOLUME 7
+
+The IR and the associated IRS node
+The first critical node in the insulin-signalling network
+is, by definition, the IR and the associated IRS proteins
+(FIG. 2). It is important to note that unlike other receptor
+tyrosine kinases (RTKs) that bind directly to the cytoplasmic tails of downstream effectors2, the IR and IGF1R satellite proteins that are known as the IRS proteins mediate
+the binding of intracellular effectors. In addition, the IR
+and the IRS proteins share common mechanisms of
+regulation: they are activated by tyrosine phosphorylation, and they are negatively regulated by protein tyrosine phosphatases (PTPs), serine phosphorylation and
+ligand-induced downregulation.
+The activity of the IR is tightly regulated, as unchecked
+activation or inactivity would lead to profound metabolic consequences. There are two splice isoforms of
+the IR, and each has a different affinity for insulin and
+IGF1 (see text, BOX 1). In addition, there are several
+mechanisms of negative regulation. One class of regulatory proteins is tyrosine phosphatases, the most studied
+of which is PTP1B. PTP1B interacts directly with the
+IR and dephosphorylates important tyrosine residues,
+thereby reducing its activity. Knockouts of PTP1B have
+shown remarkable efficacy in improving insulin sensitivity in vivo through enhanced insulin signalling3. Other
+proteins, such as suppressor of cytokine signalling-1
+(SOCS1) and SOCS3 (REF. 4), growth-factor-receptorbound protein 10 (Grb10) and plasma-cell-membrane
+glycoprotein-1 (PC1) downregulate IR function by sterically blocking its interaction with the IRS proteins, or
+by modifying its kinase activity. The SOCS proteins are
+of particular importance because they have been shown
+to be upregulated in states of insulin resistance, such as
+obesity, and therefore might contribute to the pathophysiology of diabetes5. The IR is also downregulated
+at the protein level by ligand-stimulated internalization
+and degradation, which is a common feature of most
+insulin-resistant, hyperinsulinaemic states, including
+obesity and type-2 diabetes6.
+Insulin-receptor substrates. At least 11 intracellular substrates of the IR and IGF1R kinases have been identified.
+Six of these belong to the family of IRS proteins, and have
+been termed IRS1–6 (REFS 7–11). Other substrates of the
+IR/IGF1R include Grb2-associated binder-1 (Gab1)12,
+Cas-Br-M (murine) ecotropic retroviral transforming
+sequence homologue (Cbl)13 and the various isoforms
+of Src-homology-2-containing protein (Shc)14. IRS1
+and IRS2 are widely distributed, whereas IRS3 is largely
+limited to the adipocytes and brain, and IRS4 is expressed
+primarily in embryonic tissues or cell lines. IRS5
+and IRS6 seem to have limited tissue expression, and
+function in signalling11.
+The IRS proteins have both pleckstrin-homology domains
+(PH domains) and phosphotyrosine-binding domains (PTB
+domains) near the N terminus that account for the high
+affinity of these substrates for the IR (FIG. 3). The centre
+and C terminus of the IRS proteins contain up to 20
+potential tyrosine-phosphorylation sites that, after phosphorylation by the IR, bind to intracellular molecules that
+contain Src-homology-2 domains (SH2 domains).
+
+www.nature.com/reviews/molcellbio
+
+REVIEWS
+TNFα
+
+IGF1
+
+TNFR
+
+IGF1R
+
+Insulin
+
+Cytokines (IL-6, leptin, etc.)
+
+Plasma membrane
+IR A/B
+PTP1B
+
+CAP
+Cbl
+
+IRS1
+
+Shc
+
+JNK
+CDC42
+
+IRS3
+p85α
+
+TC10
+PTEN
+
+p110α
+p110β
+
+PDK1, 2
+
+p55α
+PI3K
+
+IRS4
+Node1
+
+STAT
+
+Ras
+
+SOCS1, 3
+
+p50α
+
+p110γ
+
+p85β
+
+aPKC
+AS160
+
+JAK
+
+IRS2
+
+Rac
+
+Glucose
+uptake
+
+Rec
+
+p55γ
+Node2
+
+AKT1
+
+ERK1
+
+AKT2
+Cell growth,
+differentiation
+
+AKT3
+Node3
+
+p90RSK
+
+mTOR
+
+GSK3
+
+ERK2
+
+FOXO1
+Protein synthesis
+
+Glucose
+synthesis
+Gluconeogenesis
+
+Pleckstrin-homology
+domain
+(PH domain). A protein domain
+of ~100 amino acids with
+homology to pleckstrin that
+mediates the binding to
+membrane phospholipids, such
+as PIP3.
+
+Phosphotyrosine-binding
+domain
+(PTB domain). A domain that
+mediates the binding to
+specific phosphotyrosine
+residues. The affinity of a PTB
+domain for a phosphotyrosine
+depends on the residues that
+surround the phosphotyrosine.
+For instance, the PTB domain
+of the IRS proteins binds to an
+NPXpY motif.
+
+Src-homology-2 domain
+(SH2 domain). A domain of
+~100 amino acids that binds
+to phosphotyrosine residues in
+proteins. Every protein’s SH2
+domain might have a slightly
+different phosphotyrosinebinding motif.
+
+Figure 2 | Critical nodes in the insulin-signalling network. Critical nodes form an important part of the signalling
+network that functions downstream of the insulin receptor (IR) (black arrows) and the insulin growth factor-1 receptor
+(IGF1R) (blue arrows). Signalling pathways that are activated by cytokines such as tumour necrosis factor-α (TNFα),
+interleukin-6 (IL-6), and leptin interfere with insulin signalling through crosstalk (orange and red arrows). Three important
+nodes in the insulin pathway are the IR, the IR substrates (IRS) 1–4 (light blue box), the phosphatidylinositol 3-kinase (PI3K)
+with its several regulatory and catalytic subunits (light green box), and the three AKT/protein kinase B (PKB) isoforms (pink
+box). Downstream or intermediate effectors, as well as modulators, of these critical nodes include atypical protein kinase
+C (aPKC), Akt substrate of 160 kDa (AS160), Cas-Br-M (murine) ecotropic retroviral transforming sequence homologue
+(Cbl), Cbl-associated protein (CAP), cell-division cycle 42 (CDC42), extracellular signal-regulated kinase 1 and 2 (ERK1 and
+ERK2), forkhead box O1 (FOXO1), glycogen synthase kinase 3 (GSK3), Janus kinase (JAK), c-Jun-N-terminal kinase (JNK),
+mammalian target of rapamycin (mTOR), p90 ribosomal protein S6 kinase (p90RSK), phosphoinositide-dependent kinase 1
+and 2 (PDK1 and 2), phosphatase and tensin homologue (PTEN), protein tyrosine phosphatase-1B (PTP1B), Ras, Rac, Srchomology-2-containing protein (Shc), suppressor of cytokine signalling (SOCS), signal transducer and activator of
+transcription (STAT), and Ras homologue gene family, member Q (ARHQ; also called TC10). Dashed arrows represent an
+activation process with less intensity.
+
+The best-studied SH2 proteins that bind to phosphorylated IRS proteins are adaptor molecules, such
+as the regulatory subunit of PI3K, or the adaptor molecule Grb2, which associates with son-of-sevenless
+(SOS) to activate the Ras–MAPK pathway (reviewed
+in REF. 15). The other category of proteins that bind
+to IRS proteins are enzymes, such as SH2-domaincontaining tyrosine phosphatase-2 (SHP2) 16, and
+cytoplasmic tyrosine kinases, such as Fyn. There are
+also a few proteins that bind to IRS proteins that do
+not contain known SH2 domains, such as the calcium
+ATPases SERCA1 and 2 (REF. 17), and the SV40 large
+T antigen18. Like the IR, the ability of the IRS proteins
+to mediate intracellular signalling is also regulated
+by the action of tyrosine phosphatases. Interestingly,
+SHP2, which binds to IRS1 on two phosphotyrosine
+residues at its C terminus 16, dephosphorylates the
+other phosphotyrosines that mediate the binding of
+PI3K and Grb2.
+
+NATURE REVIEWS | MOLECULAR CELL BIOLOGY
+
+Serine phosphorylation of IRS proteins. IRS proteins also
+undergo serine phosphorylation in response to insulin and
+other stimuli, including cytokines and free fatty acids19.
+There are over 70 potential serine-phosphorylation sites
+in IRS1, and in general, serine phosphorylation seems to
+negatively regulate IRS signalling. Serine phosphorylation of IRS1 is increased in insulin-resistant states, and
+might have a role in the pathogenesis of insulin resistance.
+Many IRS kinases, such as extracellular signal-regulated
+kinase (ERK)20, S6 kinase21, and c-Jun-N-terminal kinase
+(JNK)22, are activated by insulin, which indicates that serine phosphorylation of the IRS proteins might represent
+a negative-feedback mechanism for the insulin-signalling
+pathway. Serine phosphorylation of the IRS proteins might
+also be a mechanism that mediates crosstalk between
+signalling systems. Recently, the activation of nuclear
+factor (NF)-κB-mediated pathways also have been shown
+to inhibit insulin signalling through enhanced serine
+phosphorylation of IRS1 (REF. 23).
+
+VOLUME 7 | FEBRUARY 2006 | 87
+
+REVIEWS
+Box 1 | The structure of the insulin receptor
+The insulin receptor (IR) is a tetrameric protein that consists of two extracellular
+α-subunits and two intracellular β-subunits. It belongs to a subfamily of receptor
+tyrosine kinases (RTKs), which also includes the insulin growth factor-1 receptor (IGF1R)
+and an orphan receptor, known as the IR-related receptor (IRR)120. Each of these
+receptors is the product of a separate gene, in which the two subunits are derived from
+a single-chain precursor or proreceptor that is processed by a furin-like enzyme to give
+a single α−β-subunit complex. Two of the α−β dimers are linked with disulfide bonds to
+form the tetramer, thereby allowing for the creation of a hybrid IR–IGF1R complex,
+which serves as an additional receptor isoform.
+Functionally, the IR behaves like a classical allosteric enzyme in which the α-subunit
+inhibits the tyrosine-kinase activity that is intrinsic to the β-subunit. Insulin binding to
+the α-subunit, or removal of the α-subunit by proteolysis or genetic deletion, leads to a
+derepression — for example, activation of the kinase activity in the β-subunit121.
+Following this initial activation, there is transphosphorylation of the β-subunits, which
+leads to a conformational change and further increase in kinase activity.
+In addition, the α-subunit undergoes differential mRNA splicing into two isoforms
+that either lack (IRA) or contain (IRB) exon 11, which encodes 12 amino acids near the
+C terminus of the α-subunit122. The IRA and IRB isoforms have differential expression
+patterns, and the IRB isoform has a higher affinity for IGFII binding123. Moreover, in
+pancreatic β-cells, IRA and IRB have been linked to different downstream events that are
+associated with transcription of insulin and cell survival124.
+
+The exact mechanisms by which serine phosphorylation alters IRS1 function are not clear. One possible
+mechanism is that the phosphorylated serine interferes
+with the functional domains of IRS1 in which they reside
+(FIG. 3). For instance, the phosphorylation of Ser307 of
+IRS1, which is located in the PTB domain, has been correlated with negative regulation of insulin signalling24.
+In vitro phosphorylation of this residue is sufficient to
+disrupt the interaction between the IR and IRS1 in a
+yeast-tri-hybrid assay25. Phosphorylation of Ser270, also
+within the PTB domain, has been shown to promote the
+interaction of IRS1 with 14-3-3 proteins, which might
+interfere with the function of the PTB domain26. In addition, a recent in vivo study has shown that decreased
+phosphorylation at Ser612 by MAPK correlates with
+increased phosphorylation of Tyr608 (REF. 27).
+Although serine phosphorylation of IRS1 strongly
+correlates with insulin resistance, its exact role in the
+pathophysiology of insulin resistance is still not completely understood. Moreover, it is still unknown whether
+the serine phosphorylation of other IRS proteins might
+also have an important regulatory role.
+
+Transphosphorylation
+The transfer of a phosphate by
+a protein kinase to a residue
+within the same kinase
+molecule, or to a different
+kinase molecule of the same
+kind.
+
+Regulation of IRS expression. The IRS proteins
+might also be regulated by decreased levels of protein
+expression. Hyperinsulinaemia is known to decrease
+the expression of IRS1 and IRS2 in both cell-culture
+models and in the tissues of mice 28. Two possible
+mechanisms could explain this effect. First, hyperinsulinaemia induces degradation of IRS1 protein and
+inhibits the synthesis of IRS2 at the transcriptional
+level28. Second, some studies have shown that SOCS
+proteins might induce ubiquitin-mediated degradation
+of IRS1 and IRS2 (REF. 29). Regardless of the mechanism, decreased levels of IRS proteins, coupled with
+decreased levels of the IR itself, certainly contribute to
+the insulin resistance in diabetic states in both rodents
+and humans30.
+
+88 | FEBRUARY 2006 | VOLUME 7
+
+Insights from knockout studies. Although the IRS proteins are highly homologous and possess many similar
+tyrosine-phosphorylation motifs, studies in knockout
+mice and knockout cell lines indicate that the various
+IRS proteins serve complementary, rather than redundant, roles in insulin/IGF1 signalling (reviewed in
+REF. 31) (FIG. 4). Irs1-knockout mice have defective insulin
+action primarily in the muscle, and a generalized defect
+in body growth due to IGF1 resistance32. Irs2-knockout
+mice have greater defects in insulin signalling in the
+liver, and show altered growth in only a few tissues, such
+as certain neurons33 and pancreatic β-cells34. Likewise
+at the cellular level, Irs1-knockout pre-adipocytes have
+defects in differentiation35, whereas Irs2-knockout preadipocytes differentiate normally, but fail to respond to
+insulin-stimulated glucose transport36. These knockout
+studies clearly indicate that the IRS proteins constitute a
+critical node, such that the deletion of each isoform has
+a different biological consequence.
+The mechanisms that account for differences
+between IRS isoforms, particularly IRS1 and IRS2, have
+recently been explored both in vitro and in vivo. When
+small interfering RNAs (siRNAs) are used to reduce
+the expression of IRS1 or IRS2 specifically in L6 myotubes, IRS1 is found to more closely regulate glucose
+uptake, whereas IRS2 seems to be more closely linked
+to MAPK activation37. Tissue-specific knockdown of
+hepatic IRS1 and IRS2 using adenoviral short hairpin
+RNAs in vivo has demonstrated that IRS1 and IRS2 have
+complementary roles in the maintenance of AKT/PKB
+activation, but exert differential roles in the regulation
+of gene expression38. Therefore, decreased hepatic IRS1
+correlates with the increased expression of genes that
+are involved in gluconeogenesis, whereas downregulation of hepatic IRS2 results in enhanced expression of
+genes that are involved in lipogenesis.
+Biochemical studies have revealed several molecular
+mechanisms by which the IRS proteins could exert their
+specific effects. For instance, IRS1 and IRS2 have been
+shown to differ in their ability to bind to various SH2
+partners. IRS1 can bind to the Abl tyrosine kinase and
+SHP2, whereas IRS2 does not39. In addition, IRS1 was
+shown to bind to several SH2 proteins with greater affinity than IRS2, including Grb2, the Crk adaptor protein
+and phospholipase Cγ 39. IRS1 and IRS2 have also been
+shown to have a differential ability to activate various
+members of the atypical protein kinase C (aPKC) family40. IRS3 and IRS4 probably modify the actions of IRS1
+and IRS2, as they cannot activate MAPK and PI3K to
+the same degree as IRS1 and IRS2, and might actually
+antagonize some of their functions when expressed at
+high levels41. The IRS-protein isoforms also differ in their
+cellular compartmentalization42 and activation kinetics43.
+In addition, IRS2 is structurally different from the other
+IRS proteins — it can bind to the IR through a unique
+kinase-regulatory-loop binding domain, which might
+contribute to its specific effects44.
+
+The PI3K node
+The PI3K enzyme consists of a regulatory and a catalytic
+subunit, each of which occurs in several isoforms (FIG. 5).
+
+www.nature.com/reviews/molcellbio
+
+REVIEWS
+PI3K
+
+Binding partners
+IRS1
+
+13
+
+PH
+
+460
+Y
+117 144
+
+PTB
+
+546
+Y
+
+608
+Y
+
+Grb2
+
+628
+Y
+
+PI3K
+891
+Y
+
+SHP2
+
+935
+Y
+
+1179 1222
+Y
+Y
+
+316
+
+1243
+
+S S S S S
+265 267 302 307 332
+
+GSK3β AKT/PKB
+
+AKT/PKB IKK JNK PKCθ p70S6K
+
+AMPK
+S
+1101
+SIK2
+
+S S
+S S S
+612 632 661 731 789
+
+ERK
+
+PI3K
+
+ROK
+
+PKCθ
+
+mTOR
+
+Grb2
+
+SHP2
+
+IRS kinases
+Y
+IRS2
+
+PH
+
+PI3K
+Y
+
+Y
+
+Y
+
+PTB
+
+482
+
+Y
+PH
+
+Y
+
+SHP2
+
+PI3K
+
+IRS4
+
+Y
+
+1322
+
+Y
+PH
+
+Y
+
+PTB
+
+Grb2
+
+IRS3
+
+Y
+
+PTB
+
+Grb2
+Y
+
+Y
+
+SHP2
+Y
+1257
+
+Figure 3 | Structure and interacting partners of the insulin-receptor substrates. The four insulin-receptor substrate
+(IRS) isoforms, IRS1, IRS2, IRS3 and IRS4, share a pleckstrin-homology (PH) domain (magenta), a phosphotyrosine-binding
+(PTB) domain (dark green) and several sites of phosphorylation on tyrosine and serine residues. The positions of the
+tyrosine residues (Y) that are phosphorylated by the IR and the downstream-signalling proteins that bind to these sites are
+shown. The positions of the serine residues (S) and the kinases responsible for their phosphorylation are also shown. Blue
+circles represent sites of positive regulation, whereas red circles represent sites of negative regulation. A combination of
+both colours shows sites in which the regulation has been reported to be either positive or negative under various
+conditions. White circles represent sites in which the effect of phosphorylation is currently unknown. Several proteins
+bind to or phosphorylate IRS, including phosphatidylinositol 3-kinase (PI3K), growth-factor-receptor-bound protein-2
+(Grb2), Src-homology-2 (SH2) domain-containing tyrosine phosphatase-2 (SHP2), AKT/protein kinase B (PKB), IκB kinase
+(IKK), c-Jun-N-terminal kinase (JNK), protein kinase Cθ (PKCθ), p70 ribosomal protein S6 kinase (p70S6K), glycogen
+synthase kinase-3 β (GSK3β), extracellular signal-regulated kinase (ERK), Rho kinase (ROK), mammalian target of
+rapamycin (mTOR), AMP-activated protein kinase (AMPK), salt-inducible serine/threonine kinase 2 (SIK2).
+
+Phosphotyrosine motif
+A phosphorylated tyrosine
+residue that is flanked by a few
+different amino-acid residues.
+Different phosphotyrosinebinding proteins have varying
+affinities for different
+phosphotyrosine motifs, which
+explains, in part, the specificity
+of phosphotyrosine-binding
+proteins.
+
+AGC kinases
+A large family of serine/
+threonine kinases that includes
+members as diverse as the
+cAMP-dependent protein
+kinases, and protein kinase C.
+The members of this AGC
+subgroup include AKT/PKB,
+serum/glucocorticoid kinases
+and the atypical PKCs.
+
+The activation of the catalytic subunit depends on the
+interaction of the two SH2 domains in the regulatory
+subunit, with specific phosphotyrosine motifs in the IRS
+proteins of the sequence (pY)MXM and (pY)XXM45.
+Inhibitors of PI3K or transfection with dominantnegative constructs block almost all of insulin’s metabolic actions, including stimulation of glucose transport,
+glycogen synthesis, lipid synthesis and adipocyte differentiation46, which highlights the pivotal role of this
+enzyme in the metabolic actions of insulin (FIG. 4).
+PI3K regulates insulin signalling by generating PIP3.
+PI3K activates critical regulators of insulin signalling by
+catalysing the formation of the lipid second messenger
+PIP3 in the cell (FIG. 5). Proteins with PH domains can
+bind to PIP3 and become localized to the same region,
+which allows for their activation. The AGC superfamily
+of serine/threonine protein kinases, guanine-nucleotideexchange proteins of the Rho family and the TEC family
+
+NATURE REVIEWS | MOLECULAR CELL BIOLOGY
+
+of tyrosine kinases are among these proteins. Perhaps
+the most critical of the AGC kinases for insulin action
+is the 3-phosphoinositide-dependent protein kinase 1
+(PDK1), which is responsible for the activation of AKT/
+PKB and aPKCs. PDK1 phosphorylates the activation
+loops of AKT/PKB on Thr308 (REF. 47) and PKCζ on
+Thr410 (REF. 48), enhancing the activity of these kinases.
+AKT/PKB, however, requires a second phosphorylation
+on Ser473 for full activation. Because PDK1 is unable to
+phosphorylate Ser473, the existence of a PDK2 has been
+postulated. Recently, new evidence has revealed that the
+PDK2 for AKT/PKB might be the rapamycin-insensitive
+companion of mTOR (rictor)–mammalian target of
+rapamycin (mTOR) complex. This complex is necessary
+for Ser473 phosphorylation in Drosophila melanogaster
+and mammalian cells, including adipocytes49.
+The positive actions of PI3K can be negatively
+regulated at the level of PIP3 by phospholipid phosphatases, such as phosphatase and tensin homologue
+
+VOLUME 7 | FEBRUARY 2006 | 89
+
+REVIEWS
+
+Glucose uptake
+(muscle/fat)
+
+Lipogenesis
+(liver)
+Gluconeogenesis
+(liver)
+
+Adipogenesis
+IRS4
+IRS1
+
+Appetite
+(hypothalamus)
+
+Islet growth/survival
+(β-cell/pancreas)
+IRS2
+
+PI3K
+IRS3
+
+Grb2/MAPK
+SHP2
+
+Figure 4 | Isoform-specific functions of IRS proteins. This figure summarizes the
+relative contribution of each insulin-receptor substrate (IRS) isoform (purple boxes) to
+the biological actions that are regulated by insulin (black arrows), as determined by
+knockdown and knockout studies. The main signalling pathways that are activated by
+each of these isoforms are also shown. These pathways involve Src-homology-2 (SH2)domain-containing tyrosine phosphatase-2 (SHP2), growth-factor-receptor-bound
+protein-2/mitogen-activated protein kinase (Grb2/MAPK) and phosphatidylinositol
+3-kinase (PI3K). The thickness of the arrows is proportional to the intensity of the signal
+that is mediated by the IRS proteins.
+
+(PTEN) and SH2-containing inositol 5′-phosphatase-2
+(SHIP2), which dephosphorylate and inactivate PIP3.
+PTEN dephosphorylates phosphoinositides on the
+3′-position50, whereas SHIP2 functions on the 5′-position.
+In vivo deletions of PTEN improve insulin sensitivity51,
+whereas the role of SHIP2 is controversial52. However,
+a recent knockout of SHIP2 protects mice against
+obesity-induced insulin resistance53.
+Several non-redundant isoforms of the PI3K subunits.
+PI3K exists as a heterodimer that consists of a catalytic
+subunit of 110 kDa and an SH2-containing regulatory
+subunit of ~85 kDa. The three different catalytic subunits, p110α, β and δ are derived from three different
+genes and show different tissue distribution, with the
+α and β forms being almost ubiquitous (reviewed in
+REF. 54), and p110δ being restricted to leukocytes. The
+catalytic subunit of PI3K is almost always found bound
+to the regulatory subunit, because free p110 is unstable
+and quickly degraded55. This binding of p110 to the
+regulatory subunits not only stabilizes the catalytic
+subunit, but also allosterically inhibits enzymatic function until the heterodimer binds to phosphotyrosines,
+which relieves the inhibition55. The p110α and p110β
+knockouts are early embryonic lethal, which indicates
+that each of these isoforms has a unique biological
+function that cannot be compensated for by the expression of the others. Overexpression studies have indicated that p110α might have a more important role in
+platelet-derived growth-factor signalling, whereas p110β
+is more important in mediating insulin-stimulated
+glucose uptake56.
+
+90 | FEBRUARY 2006 | VOLUME 7
+
+The catalytic subunit of PI3K also regulates its own
+function through its intrinsic serine-kinase activity that
+phosphorylates the regulatory subunit p85α on Ser608
+(REF. 57). This phosphorylation is known to decrease the
+enzymatic activity of the heterodimer. In addition, PI3K
+can serine-phosphorylate IRS1 and decrease its signalling
+in cell-culture models58.
+At least eight isoforms of the regulatory subunit
+of PI3K have been identified, which are derived from
+three distinct genes59. Pik3r1 encodes 65–75% of the
+regulatory subunits, mostly in the form of p85α, and
+is also responsible for producing the splice isoforms
+p55α and p50α. Each of the Pik3r1 gene products
+can also be expressed with or without a spliced 24nucleotide insert59. p85α is expressed ubiquitously,
+whereas p55α and p50α are expressed primarily in
+skeletal muscle and liver, respectively. Pik3r2 produces
+p85β and accounts for roughly 20% of the regulatory
+subunits in the cell60. Pik3r3 encodes p55PIK, which
+is similar in structure to p55α, but is expressed at low
+levels in most tissues.
+In addition to its role as a positive regulator of PI3K
+function, the regulatory subunit is also recognized as an
+important negative regulator of PI3K and insulin action.
+This notion stems from the paradoxical observation that
+knockouts of the regulatory subunit can improve insulin
+sensitivity60–63, and can rescue the diabetic phenotype of
+mice with genetic reductions of IR and IRS1 (REF. 64).
+This inverse correlation between p85 levels and insulin sensitivity is also applicable when the regulatory
+subunits are expressed at greater-than-normal levels. For
+instance, p85 overexpression is correlated with skeletalmuscle insulin resistance in mouse models of gestational
+diabetes65, and has been linked to insulin resistance in
+obese humans66.
+Negative regulation of insulin signalling by PI3K. The
+negative regulation of insulin signalling by the PI3K
+regulatory subunits is thought to occur through several
+mechanisms (FIG. 5). One factor is the stoichiometry of
+the regulatory subunit to the catalytic heterodimer64.
+Under normal conditions, the concentration of regulatory subunits is in excess of the catalytic subunits
+and phosphorylated IRS proteins. This catalytically
+inactive monomeric p85 competes with the p85–p110
+heterodimer for binding to the phosphotyrosines on the
+IRS proteins. Therefore, a reduction of the regulatory
+subunit can improve insulin action because it preferentially reduces the p85α monomer, and allows the
+heterodimer to bind to phosphorylated IRS proteins.
+This mechanism, however, does not fully explain the
+negative effects of the regulatory subunit, because the
+overexpression of the short isoforms p55α or p50α do
+not achieve similar decreases in insulin action despite
+similar alterations in stoichiometry67.
+At least two other mechanisms that involve only fulllength p85 might also help to explain the negative effects
+of the regulatory subunits. The first involves the sequestration and/or compartmentalization of PI3K activity.
+For example, it has been shown that free, monomeric
+p85α, and not other regulatory subunit isoforms, can
+
+www.nature.com/reviews/molcellbio
+
+REVIEWS
+3 Other negative
+effects
+
+Insulin
+Plasma membrane
+
+P
+P
+P
+P
+P
+
+Insulin receptor
+1 Competition with
+heterodimer
+
+p110β p85α P
+
+PIP2
+
+AKT/PKB
+
+P p85α p110α
+
+p55α P
+
+P p55α
+
+?
+p85α P
+p110α p85α
+
+PIP3
+
+IRS1
+
+P p85α
+
+p85α P
+
+P p50α
+
+p85β P
+
+P p85α p110β
+
+p50α P
+
+P
+
+PTEN
+Downstream
+effects
+
+?
+JNK
+
+P p85α
+
+P
+
+2 Sequestration/
+compartmentalization
+of IRS/PI3K activity
+
+P p85α
+
+p110 p85α P
+IRS1
+p85α P
+
+P
+
+p110 p85α P
+
+P
+
+Figure 5 | PI3K as a critical node. The combinations of the phosphatidylinositol 3-kinase (PI3K) derive from
+dimerization of the different PI3K regulatory and catalytic subunits. The binding of the heterodimers to
+phosphotyrosines (P) on insulin-receptor substrate (IRS) proteins leads to the production of phosphatidylinositol3,4,5-triphosphate (PIP3) from PIP2 at the plasma membrane. This phospholipid triggers activation of further
+downstream-signalling cascades that are mediated by AKT/protein kinase B (PKB). The higher abundance of the
+regulatory subunits compared to heterodimers allows for competition for the binding to the IRS (1), and diminishes
+efficient signalling. Other mechanisms of regulation involve the sequestration of the IRS/PI3K complex in a
+signalling-silent compartment (2) and the recruitment of inhibitory proteins that might interact with the p85
+regulatory subunits. This could then lead to the degradation of PIP3 by phospholipid phosphatases, such as the
+phosphatase and tensin homologue (PTEN), as well as negative regulation through c-Jun-N-terminal kinase (JNK) (3).
+
+Src-homology-3 domain
+(SH3 domain). A protein
+sequence of ~50 amino acids
+that facilitates the binding to
+proline-rich regions of proteins.
+Binding of an SH3 domain to a
+proline-rich region can occur in
+an intramolecular or
+intermolecular fashion.
+
+Breakpoint-cluster region
+homology domain
+A ~150-residue region of
+p85α with homology to the
+breakpoint-cluster region gene
+and homology to Rho-GTPase
+activating proteins, which
+decrease the activity of small
+GTPases. Despite this
+homology, the breakpointcluster region homology
+domain has not been
+demonstrated to have
+GTPase activity.
+
+sequester IRS1, and any associated PI3K enzymatic
+activity, into inert cellular foci that are incapable of
+generating PIP3 (REF. 68).
+The second mechanism involves crosstalk between
+the p85 subunit and the stress-kinase pathway. Recent
+studies have shown that the p85 subunit is required for
+the insulin-stimulated activation of JNK. Reconstitution
+studies indicate that the regulation of JNK activity is
+mediated through p85α, and not the shorter Pik3r1
+isoforms. JNK activity is also restored by a dominant
+negative p85 that cannot bind to p110, which indicates
+that monomeric p85 activates JNK independent of its
+role as a component of the PI3K holoenzyme69. We have
+recently generated a conditional knockout of Pik3r1 in
+liver, and found that this relationship between p85α
+and JNK also occurs in vivo, and might have an important role in the regulation of whole-body insulin sensitivity (C.M.T., J. Luo, L. Cantley, C.R.K., unpublished
+observation).
+The negative regulation that occurs almost exclusively by the p85 regulatory subunit indicates that
+
+NATURE REVIEWS | MOLECULAR CELL BIOLOGY
+
+the functional differences might stem from structural
+differences between the isoforms (FIG. 5). All the regulatory subunit isoforms share a common C terminus with
+two SH2 domains and an inter-SH2 domain, which
+has the p110 binding domain (reviewed in REF. 70).
+The structure of the subunits, however, diverges in the
+length and composition of their N termini. The N termini of p85α and p85β are ~339 amino acids long and
+contain an SH3 domain, two proline-rich domains and a
+breakpoint cluster-region homology domain. p55α and p50α
+have N-terminal sequences that consist of only 34 amino
+acids and 6 amino acids, respectively59.
+The unique N terminus of p85α has been found to
+bind to several interesting molecules that might regulate insulin sensitivity, including c-Cbl71 and the small
+GTPases Rac1 and cell-division cycle 42 (CDC42)72.
+Although the in vivo effect of these interactions on insulin
+sensitivity has yet to be determined, the preponderance
+of evidence indicates that p85α probably has many ways
+of regulating insulin sensitivity, besides its conventional
+role in regulating the catalytic subunit of PI3K.
+
+VOLUME 7 | FEBRUARY 2006 | 91
+
+REVIEWS
+Plasma membrane
+
+SHIP2
+
+P
+
+P
+
+AKT1
+
+mTOR
+
+PH
+P
+
+Cat
+
+P
+
+AKT2
+
+Cat
+
+P
+
+Cat
+
+P
+
+PTEN
+
+TRB3
+Active
+
+Cat
+
+PI3K
+
+PH
+
+PDK1
+
+PIP3
+
+PH
+
+IR
+
+PHLPP
+
+PH
+
+PP2A
+
+AKT3
+
+Inactive
+
+Rictor
+Translocation
+P
+P
+
+PH
+
+GLUT4
+
+P
+
+TSC1/2
+
+Cat
+TSC1/2
+14-3-3
+P
+
+P
+
+Rab GTPases
+
+GSK3
+
+GSK3
+
+Active
+
+Inactive
+
+FOXO1
+
+FOXO1
+
+Rheb
+
+Raptor
+
+mTOR
+Nucleus
+
+P
+
+AS160
+
+FOXO1
+
+AS160
+
+4EBP1
+
+GS
+
+p70S6K
+
+PEPCK
+↑ Glucose
+uptake
+
+↑ Glycogen
+synthesis
+
+↓ Gluconeogenesis
+
+↑ Protein
+synthesis
+
+Figure 6 | AKT/PKB as a critical node. The three AKT/protein kinase B (PKB) isoforms (in red) share the same structural
+organization: a pleckstrin-homology (PH) domain, which is required for binding to phospholipids, and a catalytic domain
+(Cat), which becomes active on phosphorylation (P) of two residues (Tyr308 and Ser473 for AKT1, Tyr309 and Ser474 for
+AKT2, and either Tyr305 alone or Tyr305 and Ser472 for AKT3). The upstream regulators of AKT/PKB activity are
+represented in green. Positive regulators are phosphatidylinositol 3-kinase (PI3K), which produces phosphatidylinositol3,4,5-triphosphate (PIP3) in response to insulin. PIP3 recruits phosphoinositide-dependent kinase-1 (PDK1) and AKT/PKB at
+the plasma membrane, where AKT/PKB is phosphorylated by PDK1 and PDK2 (this is thought to be a complex between the
+mammalian target of rapamycin (mTOR) and the rapamycin-insensitive companion of mTOR (rictor)). Negative regulators
+include the phosphatases phosphatase and tensin homologue (PTEN), Src-homology-2 domain-containing inositol
+phosphatase-2 (SHIP2), phosphatase-2A (PP2A) and the PH-domain leucine-rich-repeat protein phosphatase (PHLPP).
+Tribbles-3 (TRB3) is another protein that can bind to and inhibit AKT/PKB. The downstream targets of AKT/PKB are shown
+in purple. The GTPase activating protein AKT substrate of 160 kDa (AS160) is one of the AKT/PKB targets that is
+responsible for the translocation of the glucose transporter-4 (GLUT4). Glycogen synthase kinase-3 (GSK3), forkhead box
+O1 (FOXO1) and the tuberous sclerosis complex-1 and -2 (TSC1/2) complex are direct targets of AKT/PKB. GSK3 inhibits
+glycogen synthase (GS). Phosphorylated FOXO1 is sequestered in the cytoplasm on binding to 14-3-3 proteins. TSC1/2
+inhibits the small GTPase Ras homologue enriched in brain (Rheb), an activator of mTOR. mTOR, associated with
+regulatory associated protein of mTOR (raptor), phosphorylates its substrates eukaryotic translation initiation factor
+4E-binding protein 1 (4EBP1) and p70 ribosomal protein S6 kinase (p70S6K). Plain arrows represent an activation process,
+and blocked arrows represent an inhibition process. IR, insulin receptor; PEPCK, phosphoenolpyruvate carboxykinase.
+
+AKT/PKB as a critical node
+AKT/PKB is a serine/threonine kinase that is a downstream target of PI3K signalling. AKT/PKB mediates
+most of the PI3K-mediated metabolic actions of insulin through the phosphorylation of several substrates,
+including other kinases, signalling proteins and
+transcription factors (FIG. 6).
+AKT/PKB targets. Glycogen synthase kinase-3 (GSK3)
+was the first physiological target of AKT/PKB to be identified73. Phosphorylation of GSK3 decreases its activity
+towards glycogen synthase, which leads to increased
+glycogen synthesis74. GSK3 can also phosphorylate
+
+92 | FEBRUARY 2006 | VOLUME 7
+
+several other substrates and is involved in many processes
+besides the regulation of glycogen synthesis74.
+AKT/PKB seems to regulate glucose uptake by phosphorylating and inhibiting the Rab-GTPase-activating
+protein, AS160 (for AKT substrate of 160 kDa)75. This triggers the activation of Rab small GTPases that are involved
+in the cytoskeletal re-organization that is required for
+the translocation of the glucose transporter GLUT4 to
+the plasma membrane. AKT/PKB also phosphorylates
+and inhibits tuberin (also known as tuberous sclerosis
+complex-2, TSC2), which is in complex with hamartin
+(TSC1)76. Because this complex inhibits the growth regulator mTOR, the negative regulation of TSC1/2 by AKT/
+
+www.nature.com/reviews/molcellbio
+
+REVIEWS
+
+Diacylglycerol
+(DAG). DAG is a lipid second
+messenger that is produced by
+the cleavage of PIP2 by
+phospholipase C. DAG is
+involved in the activation of
+conventional and novel protein
+kinase Cs (PKCs).
+
+GLUT4 translocation
+Relocalization and fusion of an
+intracellular vesicle that
+contains the glucose
+transporter GLUT4 to the
+plasma membrane. It allows
+the uptake of extracellular
+glucose that is stimulated by
+insulin in muscle and adipose
+tissues.
+
+PKB effectively activates the mTOR pathway. mTOR
+associates with raptor and other proteins, and regulates
+protein synthesis by phosphorylating the proteins p70
+ribosomal protein S6 kinase and eukaryotic translation
+initiation factor 4E binding protein-1 (REF. 76).
+AKT/PKB also regulates the expression of gluconeogenic and lipogenic enzymes by controlling the activity
+of the winged helix or forkhead (FOX) class of transcription factors. The FOX family contains over 100 members,
+and several of these are crucial for insulin action77. For
+instance, FOXO1 activates gluconeogenic genes in liver78
+and inhibits adipogenesis79, and insulin reverses these
+effects through AKT/PKB, which phosphorylates FOXO1
+on Ser256. This event leads to interactions with 14-3-3
+proteins and sequestration in the cytoplasm77. The same
+principle applies to FOXA2, which is a crucial regulator
+of fasting lipid metabolism. AKT/PKB-mediated phosphorylation of Thr156 of FOXA2 prevents its nuclear
+localization and transcriptional activity80.
+
+with AKT2 particularly enriched in insulin-sensitive tissues, such as liver and fat90. Studies done in adipocytes
+derived from Akt2 knockout animals have shown that
+insulin-stimulated glucose uptake is severely reduced
+and cannot be compensated for by overexpression of
+AKT1 (REF. 91). An siRNA-based approach in 3T3-L1
+adipocytes has also highlighted the primary role of AKT2
+on insulin responsiveness in adipocytes92. Interestingly,
+AKT2 has been found to be co-localized with GLUT4containing vesicles, a property not shared by AKT1
+and AKT3 (REF. 93). Furthermore, Synip, a protein that
+regulates the docking and fusion of GLUT4-containing
+vesicles, is phosphorylated by AKT2, but not by AKT1
+or AKT3 (REF. 94). Because the main structural differences between AKT isoforms occur at the PH domains95,
+it is tempting to speculate that other AKT targets will
+also show isoform specificity based on the differential
+binding of their PH domains to various phospholipids
+or other binding partners.
+
+Complex regulation of AKT/PKB. AKT/PKB activity
+is regulated by several inhibitory molecules, including
+enzymes like the protein phosphatase-2A (PP2A) and
+the PH-domain leucine-rich repeat protein phosphatase
+(PHLPP), which directly dephosphorylate and deactivate AKT/PKB81,82. Other regulators, such as tribbles-3
+(TRB3), bind to unphosphorylated AKT/PKB and
+inhibit its phosphorylation and activation in vivo83.
+TRB3 levels are upregulated in fasting mice, and overexpression of TRB3 increases hepatic glucose output.
+Conversely, RNAi-mediated downregulation of TRB3
+improves insulin sensitivity84.
+
+Other possible signalling nodes
+The IR/IRS, PI3K and AKT/PKB signalling nodes are
+‘critical nodes’ because they fulfil the criteria for being
+a critical node (as discussed above), including a significant amount of in vitro and in vivo evidence. Below we
+present some other molecules that have been implicated
+in insulin action. Although they have some of the characteristics of critical nodes, more experiments are required
+to define their true role in the signalling network, and to
+determine whether they represent true critical nodes.
+
+Divergent functions of the three AKT/PKB isoforms.
+AKT/PKB has three isoforms in mammals, each
+encoded by a different gene (AKT1–3, also known
+as PKB α, β and γ; FIG. 6). These isoforms share the
+same general structure that consists of an N-terminal
+PH domain and a C-terminal catalytic domain, both
+with high degrees of amino-acid identity. Nevertheless,
+recent data that were obtained using knockout mice
+and siRNA indicate that the isoforms are involved
+in the regulation of different biological processes.
+Deletion of AKT1 results in growth retardation and
+reduced lifespan85, but no metabolic abnormalities86.
+By contrast, AKT2-deficient mice display insulin
+resistance and develop diabetes due, at least in part,
+to the inability of insulin to induce glucose utilization
+and decrease hepatic glucose output87. Consistent with
+these studies, a mutation in the kinase domain of AKT2
+has been found to cause severe insulin resistance and
+diabetes in humans88. AKT3, on the other hand, does
+not seem to have a role in glucose homeostasis, but has
+significant effects on neural development89.
+The specificity of action of different AKT/PKB
+isoforms results from differences in their tissue distribution, subcellular localization and downstreamsignalling targets. The relative ratios of expression of the
+three isoforms vary considerably among tissues. AKT3
+is predominantly expressed in the nervous system and
+testis, whereas AKT1 and AKT2 are widely distributed,
+
+NATURE REVIEWS | MOLECULAR CELL BIOLOGY
+
+aPKCs and glucose transport. Along with AKT/PKB
+activation, an important downstream effector of PI3K
+in mediating the metabolic effects of insulin is the activation of aPKC. In contrast to conventional or novel
+PKCs, aPKCs are not sensitive to the second messengers calcium or diacylglycerol (DAG). As a member of
+the AGC superfamily, the mechanisms of the aPKCs are
+similar to AKT/PKB, requiring PIP3 and phosphorylation by PDK1 (REF. 96). aPKCs have been shown to have
+a role in insulin-stimulated glucose uptake and GLUT4
+translocation in adipocytes and muscle 97. Decreased
+activation of aPKCs has been reported in the muscle of
+type-2 diabetic humans and rodents, whereas AKT/PKB
+activation might be unchanged98. The aPKCs have also
+been involved in the regulation of lipid synthesis in the
+liver by increasing the level of sterol-regulatory-element
+binding protein-1c expression98.
+The aPKC isoenzymes λ and ζ are encoded by two
+different genes, and their levels of expression vary. PKCλ
+is the main aPKC in the skeletal muscle and adipose tissue of the mouse, whereas PKCζ is more prominent in
+rats, monkeys and humans97. The high level of positive
+and negative regulation of these kinases, and the role that
+these proteins have in insulin action, indicate that they
+might form a critical node in insulin signalling. However,
+in vitro reconstitution experiments have indicated that
+both isoforms can function interchangeably to support
+insulin-stimulated glucose transport97. Tissue-specific
+knockouts of the various aPKC isoforms might shed
+light on the relative roles of these genes.
+
+VOLUME 7 | FEBRUARY 2006 | 93
+
+REVIEWS
+The Ras–MAPK pathway. The Ras–MAPK pathway is
+activated by insulin following the binding of Grb2 and
+the guanyl nucleotide-exchange factor SOS to cognate
+phosphotyrosines on IRS proteins Shc and Gab1. This
+binding triggers the activation of the small GTPase Ras
+and the subsequent activation of Raf, which triggers
+a kinase cascade that results in the phosphorylation
+and activation of the dual-specificity kinases MEK1
+(MAPK and ERK kinase 1) and MEK2, which in turn
+phosphorylate MAPK/ERK1 and ERK2 on threonine
+and tyrosine residues. The activated ERKs phosphorylate various targets, including p90 ribosomal protein
+S6 kinase (p90RSK) and the transcription factor ELK1,
+therefore promoting gene expression99. The Ras–MAPK
+pathway is mainly involved in mediating cell growth,
+survival and cellular differentiation. Although it has
+been postulated that ERK1 and ERK2 have similar
+functions, and ERK2 is able to compensate for ERK1
+loss in Erk1 knockout mice100, ERK1 has been shown
+to be specifically required for adipogenesis in vitro and
+in vivo101. ERK1 and ERK2 have also been involved in
+a negative-feedback loop of insulin action by phosphorylating IRS1 on serine residues20. Therefore, although
+ERK1 and ERK2 might have some of the features of
+critical nodes, the preliminary in vivo evidence indicates that these kinases might only be necessary for the
+growth and differentiation aspects of insulin actions,
+and not the other metabolic effects.
+As with many components of signalling networks,
+both Ras and the Raf kinases come in several isoforms.
+The three isoforms of Ras, H-Ras, N-Ras and K-Ras are
+ubiquitously expressed. The different lipid anchors on
+the three Ras isoforms have the potential to target them
+into different environments and different signalling
+complexes102. Also, the p85/p110–PI3K complex binds
+to Ras, linking two pathways that are normally considered to be distinct103. The Raf proteins also consist
+of three isoforms: A-Raf, B-Raf and C-Raf, which are
+differentially regulated104. Although all are able to activate MAPK, there are differences in the duration or the
+intensity of activation that might influence the cellular
+response104. However, so far, no differential impact on
+insulin action has been observed.
+Rho family of GTPases. The small GTPases of the Rho
+family, Rac and CDC42, have also been implicated
+in insulin action. The two Rac isoforms (1 and 2) are
+encoded by two separate genes105, whereas the two
+CDC42 isoforms are produced by alternative splicing106.
+Both Rac and CDC42 are activated by the exchange of
+GDP to GTP, which triggers a conformational change
+that induces the interaction of the GTPases with downstream effectors, many of which are involved in the
+rearrangement of the actin cytoskeleton. This property
+is thought to link Rac to GLUT4 translocation in skeletal muscle107, whereas CDC42 might have this role in
+adipocytes108.
+Stress-activated p38 MAPK and JNK. Three JNK-coding
+genes (JNK1–3) have been described in mammals,
+each with several splice variants. JNK1 and JNK2 are
+
+94 | FEBRUARY 2006 | VOLUME 7
+
+expressed ubiquitously, whereas JNK3 expression
+is restricted to neuronal tissues109. Insulin has been
+shown to activate JNK1 and JNK2 in various cellular
+systems22. As mentioned previously, JNK activation
+might negatively regulate insulin signalling through
+serine phosphorylation of IRS1. Interestingly, JNK
+activity has been found to be increased in insulinresistant states, including obesity and inflammation,
+and deletion of JNK1, but not JNK2, improves insulin
+sensitivity in obese mice24, which indicates a role in the
+pathophysiology of disease.
+p38 MAPK is also an intracellular target of insulin. The four splice variants of the p38 family (p38α,
+β, γ and δ) share 60% identity and have different tissue distribution, with p38α and β being ubiquitously
+expressed110. Several studies indicate that p38 MAPK
+activation is required for full GLUT4 translocation111,
+however, p38 MAPK activation has also been reported
+to have contradictory roles in GLUT4 expression in various tissues112. Whether insulin differentially affects the
+activation of various isoforms of p38 MAPK, or if these
+variants specifically modulate distinct cellular processes,
+is unknown.
+The CAP–Cbl pathway. The c-Cbl proto-oncogene
+is tyrosine-phosphorylated by the IR, and forms a
+complex with other molecules such as Cbl-associated
+protein (CAP) that results in the activation of the small
+GTPase TC10 (REF. 13). It has been suggested that the
+CAP–Cbl pathway collaborates with the PI3K pathway
+in the stimulation of GLUT4 translocation113, although
+this is still being debated. The Cbl family contains the
+three members c-Cbl, Cbl-b and Cbl-3 that have been
+shown to have a role in the ubiquitylation of receptor
+tyrosine kinases114. Interestingly, c-Cbl-deficient mice
+have improved insulin sensitivity that is associated with
+reduced adiposity and higher energy expenditure115.
+Clearly, further investigation is required to determine
+the role of Cbl proteins in insulin action.
+
+Conclusions
+As our understanding of the genome and proteome
+grows, so does the complexity of cell-signalling networks, which underscores the importance of establishing
+a framework to define the critical nodes in the system,
+and their roles in the network. The insulin-signalling
+network illustrates well the concept of critical nodes, as
+the molecular relationships between many of its components have been validated using genetic and biochemical
+approaches in vitro and in vivo. These studies demonstrate the essential features of a critical node. Critical
+nodes consist of several molecular isoforms that are
+involved in divergent signalling, they are highly regulated
+(both positively and negatively), they are essential for
+the biological actions of the ligand, and in many cases,
+they are points of crosstalk with other signalling systems.
+These nodes allow for the incredible diversification and
+fine-tuning of insulin’s signal in normal physiology and
+disease states.
+The main challenge to validating the critical
+nodes of other ligand–receptor systems is the in vivo
+
+www.nature.com/reviews/molcellbio
+
+REVIEWS
+elucidation of the exact roles of each component.
+Genetic techniques, such as knockout by homologous
+recombination, provide one approach to uncovering
+the unique biological functions of different signalling isoforms. The use of RNAi might also enable
+the rapid assessment of gene-isoform function and
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+Avruch, J. Insulin signal transduction through protein
+kinase cascades. Mol. Cell Biochem. 182, 31–48
+(1998).
+Ullrich, A. & Schlessinger, J. Signal transduction by
+receptors with tyrosine kinase activity. Cell 61,
+203–212 (1990).
+Elchebly, M. et al. Increased insulin sensitivity and
+obesity resistance in mice lacking the protein tyrosine
+phosphatase-1B gene. Science 283, 1544–1548
+(1999).
+Ueki, K., Kondo, T. & Kahn, C. R. Suppressor of cytokine
+signaling 1 (SOCS-1) and SOCS-3 cause insulin
+resistance through inhibition of tyrosine
+phosphorylation of insulin receptor substrate proteins
+by discrete mechanisms. Mol. Cell Biol. 24,
+5434–5446 (2004).
+Emanuelli, B. et al. SOCS-3 inhibits insulin signaling
+and is up-regulated in response to tumor necrosis
+factor-α in the adipose tissue of obese mice. J. Biol.
+Chem. 276, 47944–47949 (2001).
+Friedman, J. E. et al. Reduced insulin receptor signaling
+in the obese spontaneously hypertensive Koletsky rat.
+Am. J. Physiol. 273, E1014–E1023 (1997).
+Sun, X. J. et al. Structure of the insulin receptor
+substrate IRS-1 defines a unique signal transduction
+protein. Nature 352, 73–77 (1991).
+Sun, X. J. et al. Role of IRS-2 in insulin and cytokine
+signalling. Nature 377, 173–177 (1995).
+Lavan, B. E., Lane, W. S. & Lienhard, G. E. The 60-kDa
+phosphotyrosine protein in insulin-treated adipocytes is
+a new member of the insulin receptor substrate family.
+J. Biol. Chem. 272, 11439–11443 (1997).
+Fantin, V. R. et al. Characterization of insulin receptor
+substrate 4 in human embryonic kidney 293 cells.
+J. Biol. Chem. 273, 10726–10732 (1998).
+Cai, D., Dhe-Paganon, S., Melendez, P. A., Lee, J. &
+Shoelson, S. E. Two new substrates in insulin signaling,
+IRS5/DOK4 and IRS6/DOK5. J. Biol. Chem. 278,
+25323–25330 (2003).
+Lehr, S. et al. Identification of major tyrosine
+phosphorylation sites in the human insulin receptor
+substrate Gab-1 by insulin receptor kinase in vitro.
+Biochemistry 39, 10898–10907 (2000).
+Baumann, C. A. et al. CAP defines a second
+signalling pathway required for insulin-stimulated
+glucose transport. Nature 407, 202–207
+(2000).
+Gustafson, T. A., He, W., Craparo, A., Schaub, C. D. &
+O’Neill, T. J. Phosphotyrosine-dependent interaction
+of SHC and insulin receptor substrate 1 with the
+NPEY motif of the insulin receptor via a novel non-SH2
+domain. Mol. Cell Biol. 15, 2500–2508 (1995).
+Virkamaki, A., Ueki, K. & Kahn, C. R. Protein–protein
+interaction in insulin signaling and the molecular
+mechanisms of insulin resistance. J. Clin. Invest. 103,
+931–943 (1999).
+Myers, M. G. Jr et al. The COOH-terminal tyrosine
+phosphorylation sites on IRS-1 bind SHP-2 and
+negatively regulate insulin signaling. J. Biol. Chem.
+273, 26908–26914 (1998).
+Algenstaedt, P., Antonetti, D. A., Yaffe, M. B. &
+Kahn, C. R. Insulin receptor substrate proteins create a
+link between the tyrosine phosphorylation cascade and
+the Ca2+-ATPases in muscle and heart. J. Biol. Chem.
+272, 23696–23702 (1997).
+Fei, Z. L., D’Ambrosio, C., Li, S., Surmacz, E. &
+Baserga, R. Association of insulin receptor substrate 1
+with simian virus 40 large T antigen. Mol. Cell Biol. 15,
+4232–4239 (1995).
+Zick, Y. Ser/Thr phosphorylation of IRS proteins: a
+molecular basis for insulin resistance. Sci. STKE 2005,
+PE4 (2005).
+Bouzakri, K. et al. Reduced activation of
+phosphatidylinositol-3 kinase and increased serine 636
+phosphorylation of insulin receptor substrate-1 in
+primary culture of skeletal muscle cells from patients
+with type 2 diabetes. Diabetes 52, 1319–1325
+(2003).
+
+NATURE REVIEWS | MOLECULAR CELL BIOLOGY
+
+21.
+
+22.
+
+23.
+
+24.
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+regulation, both in vitro 116,117 and in vivo 38,118 , as
+could other emergent knockout techniques119. In this
+manner, critical-node analysis is not only helpful in
+understanding insulin signalling, but will also be a
+broadly useful concept in dissecting the biological
+effects of all receptor–ligand-mediated processes.
+
+Harrington, L. S. et al. The TSC1–2 tumor suppressor
+controls insulin-PI3K signaling via regulation of IRS
+proteins. J. Cell Biol. 166, 213–223 (2004).
+Miller, B. S. et al. Activation of cJun NH2-terminal
+kinase/stress-activated protein kinase by insulin.
+Biochemistry 35, 8769–8775 (1996).
+Cai, D. et al. Local and systemic insulin resistance
+resulting from hepatic activation of IKK-β and NF-κB.
+Nature Med. 11, 183–190 (2005).
+Hirosumi, J. et al. A central role for JNK in obesity and
+insulin resistance. Nature 420, 333–336 (2002).
+Aguirre, V., Uchida, T., Yenush, L., Davis, R. &
+White, M. F. The c-Jun NH(2)-terminal kinase promotes
+insulin resistance during association with insulin
+receptor substrate-1 and phosphorylation of Ser(307).
+J. Biol. Chem. 275, 9047–9054 (2000).
+An important paper that established the connection
+between Ser307 phosphorylation, JNK and insulin
+resistance.
+Craparo, A., Freund, R. & Gustafson, T. A. 14-3-3 (ε)
+interacts with the insulin-like growth factor I receptor
+and insulin receptor substrate I in a phosphoserinedependent manner. J. Biol. Chem. 272, 11663–11669
+(1997).
+Bard-Chapeau, E. A. et al. Deletion of Gab1 in the liver
+leads to enhanced glucose tolerance and improved hepatic
+insulin action. Nature Med. 11, 567–571 (2005).
+Hirashima, Y. et al. Insulin down-regulates insulin
+receptor substrate-2 expression through the
+phosphatidylinositol 3-kinase/Akt pathway.
+J. Endocrinol. 179, 253–266 (2003).
+Rui, L., Yuan, M., Frantz, D., Shoelson, S. & White, M. F.
+SOCS-1 and SOCS-3 block insulin signaling by
+ubiquitin-mediated degradation of IRS1 and IRS2.
+J. Biol. Chem. 277, 42394–42398 (2002).
+Shimomura, I. et al. Decreased IRS-2 and increased
+SREBP-1c lead to mixed insulin resistance and
+sensitivity in livers of lipodystrophic and ob/ob mice.
+Mol. Cell 6, 77–86 (2000).
+Sesti, G. et al. Defects of the insulin receptor substrate
+(IRS) system in human metabolic disorders. FASEB J.
+15, 2099–2111 (2001).
+Araki, E. et al. Alternative pathway of insulin signaling
+in targeted disruption of the IRS-1 gene. Nature 372,
+186–190 (1994).
+Kubota, N. et al. Insulin receptor substrate 2 plays a
+crucial role in β cells and the hypothalamus. J. Clin.
+Invest. 114, 917–927 (2004).
+Withers, D. J. et al. Disruption of IRS-2 causes type 2
+diabetes in mice. Nature 391, 900–904 (1998).
+Tseng, Y. H. et al. Prediction of preadipocyte
+differentiation by gene expression reveals role of insulin
+receptor substrates and necdin. Nature Cell Biol. 7,
+601–611 (2005).
+Miki, H. et al. Essential role of insulin receptor
+substrate 1 (IRS-1) and IRS-2 in adipocyte
+differentiation. Mol. Cell Biol. 21, 2521–2532 (2001).
+Huang, C., Thirone, A. C., Huang, X. & Klip, A.
+Differential contribution of insulin receptor substrates 1
+versus 2 to insulin signaling and glucose uptake in l6
+myotubes. J. Biol. Chem. 280, 19426–19435 (2005).
+Taniguchi, C. M., Ueki, K. & Kahn, R. Complementary
+roles of IRS-1 and IRS-2 in the hepatic regulation of
+metabolism. J. Clin. Invest. 115, 718–727 (2005).
+Sun, X. J. et al. The IRS-2 gene on murine chromosome
+8 encodes a unique signaling adapter for insulin and
+cytokine action. Mol. Endocrinol. 11, 251–262 (1997).
+Miura, A. et al. Insulin substrates 1 and 2 are
+corequired for activation of atypical protein kinase C
+and Cbl-dependent phosphatidylinositol 3-kinase
+during insulin action in immortalized brown adipocytes.
+Biochemistry 43, 15503–15509 (2004).
+Tsuruzoe, K., Emkey, R., Kriauciunas, K. M., Ueki, K. &
+Kahn, C. R. Insulin receptor substrate 3 (IRS-3) and IRS4 impair IRS-1- and IRS-2-mediated signaling. Mol. Cell
+Biol. 21, 26–38 (2001).
+Inoue, G., Cheatham, B., Emkey, R. & Kahn, C. R.
+Dynamics of insulin signaling in 3T3-L1 adipocytes.
+
+43.
+
+44.
+
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+
+52.
+
+53.
+
+54.
+
+55.
+
+56.
+
+57.
+
+58.
+
+59.
+
+Differential compartmentalization and trafficking of
+insulin receptor substrate (IRS)-1 and IRS-2. J. Biol.
+Chem. 273, 11548–11555 (1998).
+Ogihara, T. et al. Insulin receptor substrate (IRS)-2 is
+dephosphorylated more rapidly than IRS-1 via its
+association with phosphatidylinositol 3-kinase in skeletal
+muscle cells. J. Biol. Chem. 272, 12868–12873 (1997).
+Sawka-Verhelle, D., Tartare-Deckert, S., White, M. F. &
+Van Obberghen, E. Insulin receptor substrate-2 binds
+to the insulin receptor through its phosphotyrosinebinding domain and through a newly identified domain
+comprising amino acids 591–786. J. Biol. Chem. 271,
+5980–5983 (1996).
+Myers, M. G. Jr et al. IRS-1 activates
+phosphatidylinositol 3′-kinase by associating with src
+homology 2 domains of p85. Proc. Natl Acad. Sci. USA
+89, 10350–10354 (1992).
+Cheatham, B. et al. Phosphatidylinositol 3-kinase
+activation is required for insulin stimulation of pp70 S6
+kinase, DNA synthesis, and glucose transporter
+translocation. Mol. Cell Biol. 14, 4902–4911 (1994).
+Alessi, D. R. et al. Characterization of a
+3-phosphoinositide-dependent protein kinase which
+phosphorylates and activates protein kinase Bα. Curr.
+Biol. 7, 261–269 (1997).
+Describes the discovery of PDK1.
+Le Good, J. A. et al. Protein kinase C isotypes controlled
+by phosphoinositide 3-kinase through the protein kinase
+PDK1. Science 281, 2042–2045 (1998).
+Sarbassov, D. D., Guertin, D. A., Ali, S. M. &
+Sabatini, D. M. Phosphorylation and regulation of Akt/
+PKB by the rictor-mTOR complex. Science 307,
+1098–1101 (2005).
+Maehama, T. & Dixon, J. E. PTEN: a tumour suppressor
+that functions as a phospholipid phosphatase. Trends
+Cell Biol. 9, 125–128 (1999).
+Wijesekara, N. et al. Muscle-specific Pten deletion
+protects against insulin resistance and diabetes.
+Mol. Cell Biol. 25, 1135–1145 (2005).
+Tang, X., Powelka, A. M., Soriano, N. A., Czech, M. P. &
+Guilherme, A. PTEN, but not SHIP2, suppresses insulin
+signaling through the phosphatidylinositol 3-kinase/Akt
+pathway in 3T3-L1 adipocytes. J. Biol. Chem. 280,
+22523–22529 (2005).
+Sleeman, M. W. et al. Absence of the lipid phosphatase
+SHIP2 confers resistance to dietary obesity. Nature
+Med. 11, 199–205 (2005).
+Shepherd, P. R., Withers, D. J. & Siddle, K.
+Phosphoinositide 3-kinase: the key switch mechanism
+in insulin signalling. Biochem. J. 333, 471–490
+(1998).
+Yu, J. et al. Regulation of the p85/p110
+phosphatidylinositol 3′-kinase: stabilization and
+inhibition of the p110α catalytic subunit by the p85
+regulatory subunit. Mol. Cell Biol. 18, 1379–1387
+(1998).
+Helped to define the molecular and functional
+relationships between the regulatory and catalytic
+subunits of PI3K.
+Asano, T. et al. p110β is up-regulated during
+differentiation of 3T3-L1 cells and contributes to the
+highly insulin-responsive glucose transport activity.
+J. Biol. Chem. 275, 17671–17676 (2000).
+Tanti, J. F., Gremeaux, T., Van Obberghen, E. &
+Le Marchand-Brustel, Y. Insulin receptor substrate 1 is
+phosphorylated by the serine kinase activity of
+phosphatidylinositol 3-kinase. Biochem. J. 304, 17–21
+(1994).
+Tanti, J. F., Gremeaux, T., van Obberghen, E. &
+Le Marchand-Brustel, Y. Serine/threonine
+phosphorylation of insulin receptor substrate 1
+modulates insulin receptor signaling. J. Biol. Chem.
+269, 6051–6057 (1994).
+Antonetti, D. A., Algenstaedt, P. & Kahn, C. R.
+Insulin receptor substrate 1 binds two novel splice
+variants of the regulatory subunit of
+phosphatidylinositol 3-kinase in muscle and brain.
+Mol. Cell Biol. 16, 2195–2203 (1996).
+
+VOLUME 7 | FEBRUARY 2006 | 95
+
+REVIEWS
+60. Ueki, K. et al. Increased insulin sensitivity in mice
+lacking p85β subunit of phosphoinositide 3-kinase.
+Proc. Natl Acad. Sci. USA 99, 419–424 (2002).
+61. Terauchi, Y. et al. Increased insulin sensitivity and
+hypoglycaemia in mice lacking the p85 α subunit of
+phosphoinositide 3-kinase. Nature Genet. 21,
+230–235 (1999).
+The first description of the paradoxical negative
+regulation of insulin signalling by the regulatory
+subunit p85α.
+62. Chen, D. et al. p50α/p55α phosphoinositide 3-kinase
+knockout mice exhibit enhanced insulin sensitivity.
+Mol. Cell Biol. 24, 320–329 (2004).
+63. Fruman, D. A. et al. Hypoglycaemia, liver necrosis and
+perinatal death in mice lacking all isoforms of
+phosphoinositide 3-kinase p85 α. Nature Genet. 26,
+379–382 (2000).
+64. Mauvais-Jarvis, F. et al. Reduced expression of the
+murine p85α subunit of phosphoinositide 3-kinase
+improves insulin signaling and ameliorates diabetes.
+J. Clin. Invest. 109, 141–149 (2002).
+65. Barbour, L. A. et al. Human placental growth hormone
+increases expression of the p85 regulatory unit of
+phosphatidylinositol 3-kinase and triggers severe
+insulin resistance in skeletal muscle. Endocrinology
+145, 1144–1150 (2004).
+Shows that the physiologic upregulation of p85α
+in vivo induces insulin resistance.
+66. Bandyopadhyay, G. K., Yu, J. G., Ofrecio, J. &
+Olefsky, J. M. Increased p85/55/50 expression and
+decreased phosphatidylinositol 3-kinase activity in
+insulin-resistant human skeletal muscle. Diabetes 54,
+2351–2359 (2005).
+67. Ueki, K., Algenstaedt, P., Mauvais-Jarvis, F. & Kahn, C. R.
+Positive and negative regulation of phosphoinositide
+3-kinase-dependent signaling pathways by three
+different gene products of the p85α regulatory subunit.
+Mol. Cell Biol. 20, 8035–8046 (2000).
+68. Luo, J., Field, S. J., Lee, J. Y., Engelman, J. A. & Cantley,
+L. C. The p85 regulatory subunit of phosphoinositide
+3-kinase down-regulates IRS-1 signaling via the
+formation of a sequestration complex. J. Cell Biol. 170,
+455–464 (2005).
+69. Ueki, K. et al. Positive and negative roles of p85 α and
+p85 β regulatory subunits of phosphoinositide 3-kinase
+in insulin signaling. J. Biol. Chem. 278, 48453–48466
+(2003).
+The first published connection between the p85α
+regulatory subunit and JNK activation.
+70. Carpenter, C. L. & Cantley, L. C. Phosphoinositide
+kinases. Curr. Opin. Cell Biol. 8, 153–158 (1996).
+71. Fang, D. & Liu, Y. C. Proteolysis-independent regulation
+of PI3K by Cbl-b-mediated ubiquitination in T cells.
+Nature Immunol. 2, 870–875 (2001).
+72. Zheng, Y., Bagrodia, S. & Cerione, R. A. Activation of
+phosphoinositide 3-kinase activity by Cdc42Hs binding
+to p85. J. Biol. Chem. 269, 18727–18730 (1994).
+73. Cross, D. A., Alessi, D. R., Cohen, P., Andjelkovich, M. &
+Hemmings, B. A. Inhibition of glycogen synthase kinase3 by insulin mediated by protein kinase B. Nature 378,
+785–789 (1995).
+74. Frame, S. & Cohen, P. GSK3 takes centre stage more
+than 20 years after its discovery. Biochem. J. 359,
+1–16 (2001).
+75. Sano, H. et al. Insulin-stimulated phosphorylation of a
+Rab GTPase-activating protein regulates GLUT4
+translocation. J. Biol. Chem. 278, 14599–14602
+(2003).
+76. Harris, T. E. & Lawrence, J. C. Jr. TOR signaling. Sci.
+STKE 2003, RE15 (2003).
+77. Tran, H., Brunet, A., Griffith, E. C. & Greenberg, M. E.
+The many forks in FOXO’s road. Sci. STKE 2003, RE5
+(2003).
+78. Puigserver, P. et al. Insulin-regulated hepatic
+gluconeogenesis through FOXO1–PGC-1α interaction.
+Nature 423, 550–555 (2003).
+79. Nakae, J. et al. The forkhead transcription factor Foxo1
+regulates adipocyte differentiation. Dev. Cell 4,
+119–129 (2003).
+80. Wolfrum, C., Asilmaz, E., Luca, E., Friedman, J. M. &
+Stoffel, M. Foxa2 regulates lipid metabolism and
+ketogenesis in the liver during fasting and in diabetes.
+Nature 432, 1027–1032 (2004).
+81. Brazil, D. P., Yang, Z. Z. & Hemmings, B. A. Advances in
+protein kinase B signalling: AKTion on multiple fronts.
+Trends Biochem. Sci. 29, 233–242 (2004).
+82. Gao, T., Furnari, F. & Newton, A. C. PHLPP: a
+phosphatase that directly dephosphorylates Akt,
+promotes apoptosis, and suppresses tumor growth.
+Mol. Cell 18, 13–24 (2005).
+
+96 | FEBRUARY 2006 | VOLUME 7
+
+83. Du, K., Herzig, S., Kulkarni, R. N. & Montminy, M.
+TRB3: a tribbles homolog that inhibits Akt/PKB
+activation by insulin in liver. Science 300, 1574–1577
+(2003).
+84. Koo, S. H. et al. PGC-1 promotes insulin resistance in
+liver through PPAR-α-dependent induction of TRB-3.
+Nature Med. 10, 530–534 (2004).
+85. Chen, W. S. et al. Growth retardation and increased
+apoptosis in mice with homozygous disruption of the
+Akt1 gene. Genes Dev. 15, 2203–2208 (2001).
+86. Cho, H., Thorvaldsen, J. L., Chu, Q., Feng, F. &
+Birnbaum, M. J. Akt1/PKBα is required for normal
+growth but dispensable for maintenance of glucose
+homeostasis in mice. J. Biol. Chem. 276,
+38349–38352 (2001).
+87. Cho, H. et al. Insulin resistance and a diabetes mellituslike syndrome in mice lacking the protein kinase Akt2
+(PKBβ). Science 292, 1728–1731 (2001).
+88. George, S. et al. A family with severe insulin resistance
+and diabetes due to a mutation in AKT2. Science 304,
+1325–1328 (2004).
+89. Tschopp, O. et al. Essential role of protein kinase B γ
+(PKB γ/Akt3) in postnatal brain development but not in
+glucose homeostasis. Development 132, 2943–2954
+(2005).
+90. Chan, T. O., Rittenhouse, S. E. & Tsichlis, P. N. AKT/PKB
+and other D3 phosphoinositide-regulated kinases:
+kinase activation by phosphoinositide-dependent
+phosphorylation. Annu. Rev. Biochem. 68, 965–1014
+(1999).
+91. Bae, S. S., Cho, H., Mu, J. & Birnbaum, M. J. Isoformspecific regulation of insulin-dependent glucose uptake
+by Akt/protein kinase B. J. Biol. Chem. 278,
+49530–49536 (2003).
+92. Jiang, Z. Y. et al. Insulin signaling through Akt/protein
+kinase B analyzed by small interfering RNA-mediated
+gene silencing. Proc. Natl Acad. Sci. USA 100,
+7569–7574 (2003).
+93. Calera, M. R. et al. Insulin increases the association of
+Akt-2 with Glut4-containing vesicles. J. Biol. Chem.
+273, 7201–7204 (1998).
+94. Yamada, E. et al. Akt2 phosphorylates Synip to regulate
+docking and fusion of GLUT4-containing vesicles. J. Cell
+Biol. 168, 921–928 (2005).
+95. Masure, S. et al. Molecular cloning, expression and
+characterization of the human serine/threonine kinase
+Akt-3. Eur. J. Biochem. 265, 353–360 (1999).
+96. Standaert, M. L., Bandyopadhyay, G., Kanoh, Y., Sajan,
+M. P. & Farese, R. V. Insulin and PIP3 activate PKC-ζ by
+mechanisms that are both dependent and independent
+of phosphorylation of activation loop (T410) and
+autophosphorylation (T560) sites. Biochemistry 40,
+249–255 (2001).
+97. Farese, R. V. Function and dysfunction of aPKC isoforms
+for glucose transport in insulin-sensitive and insulinresistant states. Am. J. Physiol. Endocrinol. Metab.
+283, E1–E11 (2002).
+98. Farese, R. V., Sajan, M. P. & Standaert, M. L. Atypical
+protein kinase C in insulin action and insulin resistance.
+Biochem. Soc. Trans. 33, 350–353 (2005).
+99. Pouyssegur, J., Volmat, V. & Lenormand, P. Fidelity and
+spatio-temporal control in MAP kinase (ERKs)
+signalling. Biochem. Pharmacol. 64, 755–763
+(2002).
+100. Pages, G. et al. Defective thymocyte maturation in p44
+MAP kinase (Erk 1) knockout mice. Science 286,
+1374–1377 (1999).
+101. Bost, F. et al. The extracellular signal-regulated kinase
+isoform ERK1 is specifically required for in vitro and
+in vivo adipogenesis. Diabetes 54, 402–411 (2005).
+102. Hancock, J. F. & Parton, R. G. Ras plasma membrane
+signalling platforms. Biochem. J. 389, 1–11 (2005).
+103. Rodriguez-Viciana, P. et al. Phosphatidylinositol-3-OH
+kinase as a direct target of Ras. Nature 370, 527–532
+(1994).
+104. Wellbrock, C., Karasarides, M. & Marais, R. The RAF
+proteins take centre stage. Nature Rev. Mol. Cell Biol.
+5, 875–885 (2004).
+105. Matos, P. et al. Small GTPase Rac1: structure,
+localization, and expression of the human gene.
+Biochem. Biophys. Res. Commun. 277, 741–751
+(2000).
+106. Marks, P. W. & Kwiatkowski, D. J. Genomic organization
+and chromosomal location of murine Cdc42. Genomics
+38, 13–18 (1996).
+107. Marcusohn, J., Isakoff, S. J., Rose, E., Symons, M. &
+Skolnik, E. Y. The GTP-binding protein Rac does not
+couple PI 3-kinase to insulin-stimulated glucose
+transport in adipocytes. Curr. Biol. 5, 1296–1302
+(1995).
+
+108. Usui, I., Imamura, T., Huang, J., Satoh, H. & Olefsky, J. M.
+Cdc42 is a Rho GTPase family member that can
+mediate insulin signaling to glucose transport in 3T3-L1
+adipocytes. J. Biol. Chem. 278, 13765–13774 (2003).
+109. Ip, Y. T. & Davis, R. J. Signal transduction by the c-Jun
+N-terminal kinase (JNK) — from inflammation to
+development. Curr. Opin. Cell Biol. 10, 205–219 (1998).
+110. Zarubin, T. & Han, J. Activation and signaling of the
+p38 MAP kinase pathway. Cell Res. 15, 11–18 (2005).
+111. Furtado, L. M., Somwar, R., Sweeney, G., Niu, W. & Klip,
+A. Activation of the glucose transporter GLUT4 by
+insulin. Biochem. Cell Biol. 80, 569–578 (2002).
+112. Carlson, C. J., Koterski, S., Sciotti, R. J., Poccard, G. B.
+& Rondinone, C. M. Enhanced basal activation of
+mitogen-activated protein kinases in adipocytes from
+type 2 diabetes: potential role of p38 in the
+downregulation of GLUT4 expression. Diabetes 52,
+634–641 (2003).
+113. Chiang, S. H. et al. TCGAP, a multidomain Rho GTPaseactivating protein involved in insulin-stimulated glucose
+transport. EMBO J. 22, 2679–2691 (2003).
+114. Thien, C. B. & Langdon, W. Y. Cbl: many adaptations to
+regulate protein tyrosine kinases. Nature Rev. Mol. Cell
+Biol. 2, 294–307 (2001).
+115. Molero, J. C. et al. c-Cbl-deficient mice have reduced
+adiposity, higher energy expenditure, and improved
+peripheral insulin action. J. Clin. Invest. 114,
+1326–1333 (2004).
+116. Zhou, Q. L. et al. Analysis of insulin signalling by RNAibased gene silencing. Biochem. Soc. Trans. 32,
+817–821 (2004).
+117. Stegmeier, F., Hu, G., Rickles, R. J., Hannon, G. J. &
+Elledge, S. J. A lentiviral microRNA-based system for
+single-copy polymerase II-regulated RNA interference in
+mammalian cells. Proc. Natl Acad. Sci. USA 102,
+13212–13217 (2005).
+118. Shinagawa, T. & Ishii, S. Generation of Ski-knockdown
+mice by expressing a long double-strand RNA from an
+RNA polymerase II promoter. Genes Dev. 17,
+1340–1345 (2003).
+119. Ding, S. et al. Efficient transposition of the piggyBac
+(PB) transposon in mammalian cells and mice. Cell 122,
+473–483 (2005).
+120. Becker, A. B. & Roth, R. A. Insulin receptor structure
+and function in normal and pathological conditions.
+Annu. Rev. Med. 41, 99–115 (1990).
+121. Goren, H. J., White, M. F. & Kahn, C. R. Separate
+domains of the insulin receptor contain sites of
+autophosphorylation and tyrosine kinase activity.
+Biochemistry 26, 2374–2382 (1987).
+122. Sesti, G. et al. Tissue-specific expression of two
+alternatively spliced isoforms of the human insulin
+receptor protein. Acta Diabetol. 31, 59–65 (1994).
+123. Yamaguchi, Y. et al. Functional properties of two
+naturally occurring isoforms of the human insulin
+receptor in Chinese hamster ovary cells. Endocrinology
+129, 2058–2066 (1991).
+124. Leibiger, B. et al. Selective insulin signaling through A
+and B insulin receptors regulates transcription of insulin
+and glucokinase genes in pancreatic β cells. Mol. Cell 7,
+559–570 (2001).
+125. Bhalla, U. S. & Iyengar, R. Emergent properties of
+networks of biological signaling pathways. Science 283,
+381–387 (1999).
+
+Acknowledgements
+This work was supported by National Institutes of Health grants,
+and a Joslin Diabetes and Endocrinology Research Center grant
+(to C.R.K.). C.M.T. acknowledges support from the American
+Diabetes Association Medical Scholars Award and the Medical
+Scientist Training Program (Harvard Medical School). B.E. was
+supported by a National Institutes of Health grant. We apologize
+to the authors whose work could not be cited in this review due
+to space limitations, but appreciate all of the many contributions
+to the large body of literature we have tried to summarize here.
+
+Competing interests statement
+The authors declare no competing financial interests.
+
+DATABASES
+The following terms in this article are linked online to:
+UniProtKB: http://us.expasy.org
+AKT1 | AKT2 | AKT3 | Cbl | FOXO1 | GLUT4 | Grb2 | Grb10 | IRS1 |
+IRS2 | JNK1 | JNK2 | JNK3 | PTEN | PTP1B | SHIP2 | SOCS1 | SOCS3
+
+FURTHER INFORMATION
+C. Ronald Kahn’s homepage: http://www.joslinresearch.org/
+PINET/InvestigatorDetail.asp?InvestigatorID=5
+Access to this interactive links box is free online.
+
+www.nature.com/reviews/molcellbio
+
+

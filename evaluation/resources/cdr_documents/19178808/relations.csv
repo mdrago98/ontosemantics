@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,purpose,compare,conditions,False
+1,purpose,compare,sinus,False
+2,conditions,including,amount,False

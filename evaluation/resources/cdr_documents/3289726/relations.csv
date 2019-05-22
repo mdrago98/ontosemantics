@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,Etoposide,used,treatment,False
+1,agent,has,activity,False
+2,cancers,including,malignant glioma,False
+3,we,treated,glioma,False
+4,manifestations,included,confusion,False
+5,abnormalities,resolved,initiation,False
+6,scans,demonstrated,stability,False
+7,scans,demonstrated,peritumor,False
+8,complication,represent,toxicity,False

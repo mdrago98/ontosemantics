@@ -1,0 +1,72 @@
+renal
+heart
+liver
+transplant
+infection
+renal
+azathioprine
+Aza
+prednisone
+immunosuppression
+cyclosporine
+prednisone
+renal
+transplant
+cyclosporine
+prednisone
+Aza
+infections
+infections
+cyclosporine
+Heart
+liver
+infections
+cyclosporine
+renal
+infections
+Aza
+renal
+infectious
+deaths
+renal
+transplant
+cyclosporine
+Aza
+infection
+cardiac
+transplant
+deaths
+liver
+transplant
+deaths
+Renal
+cyclosporine
+bacteremias
+infection
+abdominal infections
+liver
+infections
+heart
+urinary tract infections
+renal
+Pulmonary infections
+cyclosporine
+renal
+Aza
+Aza
+staphylococcal infections
+transplant
+fungal infections
+liver
+transplant
+Cytomegalovirus
+CMV
+antibody
+cyclosporine
+Aza
+cyclosporine
+CMV infection
+Epstein Barr Virus infection
+cyclosporine
+associated symptoms
+lymphoma

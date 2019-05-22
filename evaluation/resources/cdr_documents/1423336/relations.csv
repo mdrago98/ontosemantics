@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,levodopa,examined,patients,False
+1,levodopa,examined,responses,False
+2,magnitude,was,concentration,False
+3,responders,demonstrated,response,False
+4,pressures,were,patients,False
+5,blood pressure,correlated,effects,False
+6,effects,correlated,blood pressure,False
+7,Phenylalanine,competing,levodopa,False
+8,levodopa,has,action,False
+9,that,parallels,motor,False
+10,blood pressure,fluctuating,patients,False

@@ -1,0 +1,28 @@
+,Subject,Action,Object,Negation
+0,Busulfan,be,animals,False
+1,Busulfan,be,humans,False
+2,We,report,study,False
+3,study,receiving,dose,False
+4,study,receiving,chemotherapy,False
+5,study,receiving,bone marrow,False
+6,Busulfan,given,p.o,False
+7,basis,results,doses,False
+8,patients,given,prophylaxis,True
+9,%,developed,seizures,False
+10,%,developed,days,False
+11,dose,taken,account,False
+12,there,was,difference,False
+13,patients,given,dose,False
+14,none,had,neurological symptoms,True
+15,ratio,was,1.39,False
+16,ratio,defined,children,False
+17,children,receiving,dose,False
+18,dose,calculated,basis,False
+19,dose,resulting,doses,False
+20,incidence,observed,adults,False
+21,studies,showed,clearance,False
+22,dose,approximate,exposure,False
+23,dose,approximate,inferences,False
+24,exposure,obtained,kg,False
+25,children,undergoing,bone marrow,False
+26,dose,reconsidered,basis,False

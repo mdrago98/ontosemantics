@@ -1,0 +1,3 @@
+,Subject,Action,Object,Negation
+0,amount,causes,deterioration,False
+1,amount,causes,increase,False

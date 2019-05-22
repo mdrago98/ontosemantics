@@ -2,8 +2,8 @@ from py2neo import Table
 
 from src.bioengine.cypher_engine.connections import Connection
 from src.bioengine.cypher_engine.models import ModelFactory
-from preprocessor.entity_normalization import normalize_batch
-from preprocessor.spacy_factory import MedicalSpacyFactory
+from nlp_processor.entity_normalization import normalize_batch
+from nlp_processor.spacy_factory import MedicalSpacyFactory
 from src.bioengine.cypher_engine import OntologyStoreConnection
 from utils.pythonic_name import get_pythonic_name
 
@@ -58,7 +58,7 @@ def map_relations_with_ontology_terms(relations: list, entities: list = None,
     if driver is None:
         driver = OntologyStoreConnection()
     if nlp is None:
-        nlp = MedicalSpacyFactory.factory(enable_ner=False)
+        nlp = MedicalSpacyFactory.factory(enable_ner=False, enable_benepar=False)
     terms = sum([[relation.effector, relation.effectee] for relation in relations], [])
     terms += entities
     terms = list(set(terms))

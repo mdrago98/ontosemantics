@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,regimens,described,patients,False
+1,regimens,described,women,False
+2,women,receiving,oestrogen,False
+3,Cystic hyperplasia,associated,oestrogen,False
+4,Cystic hyperplasia,associated,progestagen,False
+5,courses,caused,reversion,False
+6,courses,caused,6,False
+7,courses,caused,cases,False
+8,cases,demonstrated,problems,False
+9,difficulty,distinguishing,hyperplasia,False
+10,difficulty,distinguishing,malignancy,False
+11,therapy,increase,risk,True

@@ -1,0 +1,21 @@
+,Subject,Action,Object,Negation
+0,authors,reviewed,cases,False
+1,reports,requested,World,False
+2,reports,found,literature,False
+3,There,were,clarithromycin,False
+4,WHO,reported,cases,False
+5,clarithromycin,implicated,cases,False
+6,Cotrimoxazole,involved,episodes,False
+7,Cases,be,clarithromycin,False
+8,Cases,be,associated,False
+9,Cases,be,ciprofloxacin,False
+10,analysis,demonstrated,risk,True
+11,Patients,have,risk,False
+12,risk,developing,mania,False
+13,risk,treated,antimicrobials,False
+14,research,determine,incidence,False
+15,factors,developing,manic episode,False
+16,who,have,affective disorders,False
+17,patients,have,affective disorders,False
+18,patient,taking,antibiotics,False
+19,authors,name,antibiomania,False

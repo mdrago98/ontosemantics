@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,drugs,prescribed,treatment,False
+1,vasculitis,is,adverse effect,False
+2,We,report,patient,False
+3,who,developed,vasculitis,False
+4,skin rash,associated,arthritis,False
+5,"a vasculitic skin rash associated with large joint arthritis, pyrexia and parotiditis but no renal or pulmonary involvement",referred,evaluation,False
+6,"a vasculitic skin rash associated with large joint arthritis, pyrexia and parotiditis but no renal or pulmonary involvement",had,difficulty,False
+7,difficulty,squatting,position,False
+8,Carbimazole,have,incidence,False
+9,case,reported,India,False

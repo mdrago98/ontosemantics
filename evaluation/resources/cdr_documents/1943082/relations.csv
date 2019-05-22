@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,Reperfusion,results,liver dysfunction,False
+1,pathophysiology,underlying,injury,False
+2,oxidants,associated,injury,False
+3,methods,assessing,oxidant,False
+4,methods,assessing,vivo,False
+5,Hepatic tissue,assayed,lipid peroxidation,False
+6,There,was,change,True
+7,glutathione,following,reperfusion,False
+8,There,was,increase,True
+9,lipid peroxidation,associated,injury,False
+10,increase,suggests,exposure,False
+11,stress,result,magnitude,False
+12,stress,result,injury,False
+13,measurement,be,indicator,False

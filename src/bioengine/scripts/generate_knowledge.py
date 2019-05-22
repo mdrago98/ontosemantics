@@ -5,7 +5,7 @@ from cypher_engine.biolink_mapping import get_relationship_node, get_association
 from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from cypher_engine.match import map_relations_with_ontology_terms
 from biolinkmodel.datamodel import NamedThing
-from preprocessor.extensions.svo import Relation
+from nlp_processor.extensions.svo import Relation
 from pandas import read_csv
 from os.path import join
 
@@ -43,7 +43,7 @@ def generate_doc_details(pmid: str, doc: str, authors: list, entities, terms) ->
         if entity_relations is not None:
             entity_sub_graph |= entity_relations
     publication: Node = get_publication_node(doc, pmid, pmid)
-    if entities is not None and len(entities) > 0:
+    if entities is not None and len(entities) > 0 and entity_sub_graph is not None:
         entity_sub_graph |= link_entities_to_publication(list(entity_sub_graph.nodes), publication, entity_sub_graph)
     sub_graph = publication
     if authors is not None and len(authors) > 0:

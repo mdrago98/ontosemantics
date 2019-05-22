@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,correlation,found,severity,False
+1,correlation,found,dose,False
+2,Antibodies,be,IgM,False
+3,pattern,found,patients,False
+4,pattern,raised,possibility,False

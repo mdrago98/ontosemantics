@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,We,describe,patients,False
+1,patients,developed,treatment,False
+2,complication,result,inhibition,False
+3,patients,receiving,indomethacin,False
+4,attention,prevent,complication,False

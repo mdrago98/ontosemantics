@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,outcomes,compared,children,False
+1,evidence,compared,children,False
+2,children,treated,central nervous system,False
+3,central nervous system,receiving,treatment,False
+4,central nervous system,receiving,consolidation,False
+5,total,enrolled,ACCL0131,False
+6,scans,performed,end,False
+7,tests,performed,end,False
+8,%,identified,end,False
+9,%,scored,85,False
+10,Children,had,attention,False
+11,children,scored,average,False
+12,children,scored,measures,False
+13,measures,treated,P9201,False

@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,We,describe,patient,False
+1,We,describe,Parkinson's disease,False
+2,who,shown,worsening,False
+3,Parkinson's disease,worsening,motor,False
+4,Parkinson's disease,following,therapy,False
+5,We,emphasize,dopaminergic effect,False

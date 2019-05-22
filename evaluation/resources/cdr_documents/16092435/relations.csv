@@ -1,0 +1,3 @@
+,Subject,Action,Object,Negation
+0,Adriamycin,evoked,toxicity,False
+1,D-ribose,influence,ADR,True

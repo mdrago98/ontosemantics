@@ -1,0 +1,19 @@
+,Subject,Action,Object,Negation
+0,overdose,cause,hypertension,False
+1,We,studied,efficacy,False
+2,We,studied,treatment,False
+3,We,studied,safety,False
+4,Subjects,received,propranolol,False
+5,Subjects,received,mouth,False
+6,Subjects,received,hours,False
+7,diastolic,antagonized,increase,False
+8,pretreatment,antagonized,increase,False
+9,PPA,increased,stroke,False
+10,PPA,increased,62.5,False
+11,propranolol,reversed,effects,False
+12,Systemic vascular resistance,increased,1710,False
+13,PPA,increases,blood pressure,False
+14,propranolol,antagonizes,increase,False
+15,propranolol,antagonizes,pressor,False
+16,propranolol,enhances,pressor,False
+17,PPA,has,activity,False

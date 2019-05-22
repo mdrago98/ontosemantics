@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,studies,confirmed,incidence,False
+1,patients,treated,doses,False
+2,aims,measure,variations,False
+3,CLE,treated,thalidomide,False

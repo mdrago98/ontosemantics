@@ -1,0 +1,20 @@
+,Subject,Action,Object,Negation
+0,patients,respond,way,False
+1,patients,respond,way,False
+2,criteria,respond,way,False
+3,We,selected,patients,False
+4,We,selected,PD,False
+5,patients,had,psychotropic drug,True
+6,experiment,performed,occasions,False
+7,caffeine,administered,coffee,False
+8,solution,administered,coffee,False
+9,total,had,panic attack,False
+10,total,had,caffeine,False
+11,%,had,panic attack,False
+12,%,had,caffeine,False
+13,%,had,panic attack,False
+14,%,had,caffeine,False
+15,panic attack,observed,solution,False
+16,patients,had,heart,False
+17,there,is,association,False
+18,matter,associated,PD,False

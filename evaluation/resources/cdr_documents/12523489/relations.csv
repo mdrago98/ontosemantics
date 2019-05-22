@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,influence,examined,mice,False
+1,adenosine receptor agonists,decreased,locomotor,False
+2,adenosine receptor agonists,decreased,mice,False
+3,A2 receptors,involved,reaction,False
+4,CPA,reduced,cocaine,False
+5,which,influence,motility,True
+6,CGS,decreased,action,False
+7,results,suggest,involvement,False
+8,agonists,have,influence,False
+9,Caffeine,had,action,False
+10,CPT,show,influence,True
+11,adenosine receptor agonists,decreased,hyperactivity,False
+12,blockade,increased,action,False
+13,adenosine receptor agonists,reduce,locomotor,False
