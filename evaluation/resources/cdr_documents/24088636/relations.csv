@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,drug,cause,adverse effect,False
+1,We,describe,case,False
+2,loss of vision,associated,therapy,False
+3,who,was,treatment,False
+4,treatment,including,linezolid,False
+5,treatment,including,ethambutol,False
+6,patient,presented,painless,False
+7,Color vision,was,examination,False
+8,Deterioration,occurred,withdrawal,False
+9,Discontinuation,resulted,improvement,False
+10,report,emphasizes,need,False

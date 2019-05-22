@@ -1,0 +1,29 @@
+,Subject,Action,Object,Negation
+0,who,undergo,bone marrow,False
+1,cyclophosphamide,based,weight,False
+2,toxicity,correlates,dose,False
+3,we,calculated,dose,False
+4,patients,transplanted,institution,False
+5,incidence,correlated,dose,False
+6,who,receive,CYA,False
+7,who,receive,kg,False
+8,who,receive,days,False
+9,who,receive,preparation,False
+10,patients,receive,CYA,False
+11,patients,receive,kg,False
+12,patients,receive,days,False
+13,patients,receive,preparation,False
+14,patients,underwent,total,False
+15,Fourteen,had,symptoms and signs,False
+16,patients,had,symptoms and signs,False
+17,days,receiving,doses,False
+18,Six,died,congestive heart failure,False
+19,dose,calculated,patients,False
+20,patients,divided,groups,False
+21,groups,based,CYA,False
+22,Cardiotoxicity,occurred,1/32,False
+23,There,was,difference,True
+24,cardiotoxicity,correlates,CYA,False
+25,patients,based,weight,False
+26,study,reaffirms,principle,False
+27,toxicity,correlates,dose,False

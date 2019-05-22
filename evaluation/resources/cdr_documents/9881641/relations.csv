@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,basic 35-amino acid peptide,isolated,venom,False
+1,effects,examined,rat,False
+2,channels,involved,responses,False
+3,results,compared,those,False
+4,Helodermin,produced,hypotension,False
+5,Helodermin,produced,manner,False
+6,Helodermin,produced,potency,False
+7,Helodermin,produced,duration,False
+8,which,abolished,decrease,False
+9,Oxyhemoglobin,affect,hypotension,True
+10,Oxyhemoglobin,shortened,duration,False
+11,Oxyhemoglobin,shortened,hypotension,False
+12,which,exist,smooth muscle cells,False
+13,EDRF,play,role,True
+14,relaxing,play,role,True

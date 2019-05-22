@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,man,have,bradycardia,False
+1,man,have,respiratory failure,False
+2,Thyroid-stimulating hormone,be,mL,False
+3,0.8-1.8 ng/dL),received,fluids,False
+4,0.8-1.8 ng/dL),received,μg,False
+5,0.8-1.8 ng/dL),received,h,False
+6,improvement,occurred,h.,False
+7,patient,maintained,175,False
+8,ultrasound,showed,diffuse,False
+9,excretion,was,3657,False
+10,case,represents,case,False

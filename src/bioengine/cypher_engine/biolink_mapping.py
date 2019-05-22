@@ -1,26 +1,26 @@
 from collections import OrderedDict
 
-from Bio import Entrez, SeqIO
-from py2neo import Relationship, Node, Subgraph
-
-from src.bioengine.cypher_engine.models import Class
+from Bio import Entrez
 from biolinkmodel.datamodel import AnatomicalEntityToAnatomicalEntityAssociation, \
     ChemicalToDiseaseOrPhenotypicFeatureAssociation, ChemicalToGeneAssociation, ChemicalToThingAssociation, \
     GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
-    DiseaseOrPhenotypicFeatureAssociationToThingAssociation, MolecularEntity, OrganismalEntity, \
+    DiseaseOrPhenotypicFeatureAssociationToThingAssociation, OrganismalEntity, \
     ChemicalSubstance, NamedThing, Association, Disease, PhenotypicFeature, Cell, \
     CellularComponent, BiologicalProcess, MolecularActivity, Gene
+from py2neo import Relationship, Node, Subgraph
+
 from settings import Config
+from src.bioengine.cypher_engine.models import Class
 from src.bioengine.utils.pythonic_name import get_pythonic_name
 
 associations = {
     AnatomicalEntityToAnatomicalEntityAssociation: (['OrganismalEntity', 'Cell', 'CellularComponent'],
                                                     ['OrganismalEntity', 'Cell', 'CellularComponent']),
     ChemicalToDiseaseOrPhenotypicFeatureAssociation: (['ChemicalSubstance'], ['Disease', 'PhenotypicFeature']),
-    ChemicalToGeneAssociation: (['ChemicalSubstance'], ['MolecularEntity']),
+    ChemicalToGeneAssociation: (['ChemicalSubstance'], ['Gene']),
     ChemicalToThingAssociation: (['ChemicalSubstance'], ['NamedThing']),
-    GeneToGeneAssociation: (['MolecularEntity'], ['MolecularEntity']),
-    GeneToThingAssociation: (['MolecularEntity'], ['NamedThing']),
+    GeneToGeneAssociation: (['Gene'], ['Gene']),
+    GeneToThingAssociation: (['Gene'], ['NamedThing']),
     ThingToDiseaseOrPhenotypicFeatureAssociation: (['NamedThing'], ['Disease', 'PhenotypicFeature']),
     DiseaseOrPhenotypicFeatureAssociationToThingAssociation: (['Disease', 'PhenotypicFeature'], ['NamedThing'])
 }
@@ -105,7 +105,6 @@ def get_relationship_node(token: str, terms: dict) -> tuple:
 def get_providers(providers: list, provider_type: str = 'Author') -> list:
     """
     A method that maps provider types from biolink to neo4j property node
-    :param sub_graph: a neo4j subgraph instance
     :param providers: a list of provider names or groups
     :param provider_type: the type of provider (author, publisher etc.
     :return: a list of neo4j nodes
@@ -245,3 +244,28 @@ def get_relationship_from_biolink(biolink_subject: Node,
                         get_pythonic_name(biolink_association.__class__.__name__),
                         biolink_object,
                         **properties)
+
+
+def commit_sub_graph(driver, sub_graph, detail_sub_graph, associations, entity_subgraph) -> bool:
+    """
+     A helper function that commits a sub graph
+    :param driver: the KG Connection driver
+    :param sub_graph: the relation sub graph
+    :param detail_sub_graph: the details sub graph
+    :param associations: a list of associations
+    """
+    committed = True
+    try:
+        tx = driver.driver.begin()
+        if sub_graph is not None:
+            tx.merge(sub_graph, primary_label=NamedThing.__class__.__name__, primary_key='iri')
+        if entity_subgraph is not None:
+            tx.merge(entity_subgraph, primary_label=NamedThing.__class__.__name__, primary_key='iri')
+        if detail_sub_graph is not None:
+            tx.merge(detail_sub_graph, primary_label=NamedThing.__class__.__name__, primary_key='name')
+        for association in associations:
+            tx.merge(association, primary_label=association.__class__.__name__, primary_key='relation')
+        tx.commit()
+    except:
+        committed = False
+    return committed

@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Acetaminophen,produces,tubular necrosis,False
+1,Acetaminophen,produces,rats,False
+2,p-aminophenol,identified,metabolite,False
+3,formation,is,step,False
+4,BNPP,reduced,APAP,False
+5,Pretreatment,resulted,reduction,False
+6,pretreatment,reduced,fraction,False
+7,pretreatment,reduced,APAP,False
+8,fraction,excreted,PAP,False
+9,BNPP,alter,excretion,True
+10,formation,accounts,part,False
+11,formation,accounts,renal tubular necrosis,False

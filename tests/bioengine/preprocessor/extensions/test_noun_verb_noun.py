@@ -3,8 +3,8 @@ from unittest import TestCase
 
 from benepar.spacy_plugin import BeneparComponent
 
-from src.bioengine.preprocessor.extensions import BecasNamedEntity
-from src.bioengine.preprocessor.extensions.svo import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
+from src.bioengine.nlp_processor.extensions import BiologicalNamedEntity
+from src.bioengine.nlp_processor.extensions.svo import get_co_ref, get_noun_verb_noun_phrases_from_sentence, \
     enrich_adp, get_subjects, get_full_adj, get_dependencies, get_objs_from_prepositions
 
 
@@ -18,8 +18,8 @@ class TestNounVerbRelations(TestCase):
         """
         Sets up the test suite
         """
-        cls.nlp = spacy.load('en_coref_sm', disable=['ner'])
-        cls.nlp.add_pipe(BecasNamedEntity(cls.nlp))
+        cls.nlp = spacy.load('en_core_sci_sm', disable=['ner'])
+        cls.nlp.add_pipe(BiologicalNamedEntity(cls.nlp))
         cls.nlp.add_pipe(BeneparComponent("benepar_en2"))
 
     @classmethod
@@ -34,7 +34,7 @@ class TestNounVerbRelations(TestCase):
         doc = self.nlp(text)
         subjects, negation = get_subjects(doc[1])
         assert negation is False
-        assert str(subjects[0]) == 'Central diabetes insipidus'
+        assert str(subjects[0]) == 'rare disease'
 
     def test_pronoun_res(self):
         text = 'Central diabetes insipidus is a rare disease of the hypothalamus and neurohypophysis'

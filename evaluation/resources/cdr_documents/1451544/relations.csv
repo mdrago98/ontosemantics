@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,study,conducted,practice,False
+1,patients,entered,study,False
+2,effects,reported,%,False
+3,effects,were,headache,False
+4,there,was,evidence,True
+5,rates,were,%,False
+6,rates,were,%,False
+7,Dosage,increased,mg,False

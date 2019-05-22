@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,aim,assess,safety,False
+1,aim,assess,gemfibrozil,False
+2,aim,assess,efficacy,False
+3,%,had,atherosclerotic vascular disease,False
+4,targets,reached,low-density lipoprotein,True
+5,targets,reached,cholesterol,True
+6,targets,reached,diet,True
+7,visits,scheduled,average,False
+8,visits,scheduled,2-drug,False
+9,cholesterol,decreased,255,False
+10,levels,decreased,LDL cholesterol,False
+11,ratio,decreased,7.1,False
+12,Myositis,occurred,%,False
+13,patients,had,rhabdomyolysis,False

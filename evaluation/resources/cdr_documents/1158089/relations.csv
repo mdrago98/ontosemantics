@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,relationships,studied,rat,False
+1,relationship,observed,dose,False
+2,relationship,observed,dose,False
+3,relationship,observed,accumulation,False
+4,differences,observed,rats,False
+5,Accumulation,differ,rat,True
+6,secretion,accounted,%,False
+7,mechanisms,involved,production,False
+8,mechanisms,involved,response to tetracycline,False

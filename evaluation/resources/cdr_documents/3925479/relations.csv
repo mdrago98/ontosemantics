@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,Experiments,tested,evidence,False
+1,doses,induce,catalepsy,False
+2,doses,caused,enhancement,False
+3,blocker,disrupted,catalepsy,False
+4,injection,prevented,catalepsy,False
+5,findings,suggest,hypothesis,False
+6,activation,promote,catalepsy,False
+7,activation,promote,suppression,False

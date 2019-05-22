@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,Levodopa,is,therapy,False
+1,HOMER1,is,protein,False
+2,polymorphisms,associated,occurrence,False
+3,Patients,genotyped,rs4704559,False
+4,allele,associated,prevalence,False
+5,HOMER1 rs4704559 G allele,has,role,False

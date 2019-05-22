@@ -1,0 +1,21 @@
+,Subject,Action,Object,Negation
+0,participation,deduced,observations,False
+1,complexes,catalyze,formation,False
+2,antioxidants,attenuate,ototoxicity,False
+3,antioxidants,attenuate,vivo,False
+4,overexpression,protect,transgenic mice,False
+5,overexpression,protect,ototoxicity,False
+6,Immunocytochemistry,confirmed,expression,False
+7,littermates,received,kanamycin,False
+8,littermates,received,days,False
+9,littermates,received,birth,False
+10,days,beginning,day,False
+11,thresholds,tested,month,False
+12,kanamycin,increased,threshold,False
+13,kanamycin,increased,dB,False
+14,effects,were,kHz,False
+15,protection,supports,hypothesis,False
+16,results,suggest,animals,False
+17,results,suggest,models,False
+18,models,investigate,mechanisms,False
+19,models,investigate,strategies,False

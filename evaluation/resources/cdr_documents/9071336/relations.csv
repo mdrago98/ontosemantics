@@ -1,0 +1,18 @@
+,Subject,Action,Object,Negation
+0,Taxol,are,salvage,False
+1,Paclitaxel,have,cytotoxicity,False
+2,"(Taxol; Bristol-Myers Squibb Company, Princeton, NJ)",performed,trial,False
+3,I,followed,m2,False
+4,I,followed,women,False
+5,Analysis,reported,patients,False
+6,Analysis,reported,minimum,False
+7,who,received,total,False
+8,cycles,associated,neutropenia,False
+9,neutropenia,requiring,hospitalization,False
+10,cycles,required,granulocyte colony-stimulating factor,False
+11,patient,required,platelet,False
+12,there,were,responses,False
+13,there,were,%,False
+14,there,were,responses,False
+15,concentrations,measured,completion,False
+16,TFL,is,regimen,False

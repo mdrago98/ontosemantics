@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,methotrexate,is,treatment,False
+1,We,report,case,False
+2,We,report,HD,False
+3,patient,was,boy,False
+4,who,received,liver,False
+5,a 3-year-old boy who had received a living-related liver transplantation for congenital biliary atresia,diagnosed,post-transplantation lymphoproliferative disorder,False
+6,a 3-year-old boy who had received a living-related liver transplantation for congenital biliary atresia,suffered,perforation,False
+7,therapy,caused,acute renal failure,False
+8,that,required,hemodialysis,False
+9,We,supposed,hypovolemia,False
+10,we,treat,patient,False
+11,we,treat,HD,False

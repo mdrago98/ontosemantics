@@ -1,0 +1,7 @@
+early afterdepolarization
+EAD
+torsade de pointes
+TdP
+sotalol
+EAD
+TdP

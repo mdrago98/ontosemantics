@@ -1,0 +1,9 @@
+venous
+patient
+dyspnea
+rash
+patient
+sensation of heat
+skin
+skin
+allergy

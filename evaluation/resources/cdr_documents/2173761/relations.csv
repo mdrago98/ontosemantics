@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,administration,investigated,dogs,False
+1,kg,investigated,dogs,False
+2,diameter,affecting,parameter,False
+3,cromakalim,decreased,vascular resistance,False
+4,cromakalim,decreased,pressure,False
+5,pinacidil,decreased,vascular resistance,False
+6,pinacidil,decreased,pressure,False
+7,pinacidil,increasing,CxAD,False
+8,blood flow,maintained,constant,False
+9,nitroglycerin,dilates,coronary arteries,False
+10,cromakalim,dilate,coronary arteries,False
+11,vasodilation,involved,cromakalim-,False
+12,vasodilation,involved,increase,False
+13,flow,involved,cromakalim-,False
+14,flow,involved,increase,False

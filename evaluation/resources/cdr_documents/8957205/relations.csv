@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,Human corticotropin-releasing hormone,stimulate,ventilation,False
+1,Human corticotropin-releasing hormone,stimulate,i.v,False
+2,thyrotropin-releasing hormone,stimulate,ventilation,False
+3,thyrotropin-releasing hormone,stimulate,i.v,False
+4,peptides,altering,chemosensitivity,False
+5,tests,performed,volunteers,False
+6,NaCl,given,i.v,False
+7,micrograms,administered,i.v,False
+8,subjects,received,%,False
+9,curves,compared,subject,False
+10,shift,observed,hCRH,False
+11,hCRH,caused,reduction,False
+12,results,indicate,effect,False

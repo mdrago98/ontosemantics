@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,pretreatment,preventing,effects,False
+1,effectiveness,studied,rats,False
+2,Haloperidol,prevent,seizures,False
+3,Haloperidol,decreased,incidence,False
+4,Haloperidol,decreased,doses,False
+5,lowering,reach,significance,True
+6,lowering,reach,dose,True
+7,data,suggest,role,False
+8,role,reducing,incidence,False
+9,haloperidol,demonstrated,ability,False
+10,ability,reduce,seizures,False
+11,ability,reducing,mortality,False

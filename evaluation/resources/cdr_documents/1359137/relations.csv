@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,outpatients,associated,medications,False
+1,outpatients,treated,bromocriptine,False
+2,dosages,corrected,hyperprolactinemia,False
+3,woman,developed,psychiatric symptoms,False
+4,menstrual irregularity,corrected,bromocriptine,False
+5,bromocriptine,evaluated,therapy,False

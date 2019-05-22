@@ -1,0 +1,5 @@
+media
+nausea
+dizziness
+abdominal pain
+contrast media

@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Mantle cell lymphoma,is,type,False
+1,MCL,treated,temsirolimus,False
+2,we,had,opportunity,False
+3,opportunity,study,case,False
+4,who,had,tumor,False
+5,who,had,temsirolimus,False
+6,temsirolimus,inhibited,tumor,False
+7,temsirolimus,inhibited,cell,False
+8,temsirolimus,had,effect,False
+9,areas,found,temsirolimus,False
+10,temsirolimus,reduced,tumor,False
+11,temsirolimus,reduced,effects,False

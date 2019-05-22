@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,MAP,reshape,base,False
+1,aim,identify,benefits,False
+2,aim,identify,canine,False

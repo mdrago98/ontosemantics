@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,pressure,prescribe,chelation,False
+1,pressure,prescribe,blood,False
+2,chelation,improves,outcomes,False
+3,agents,have,adverse effects,False
+4,that,affect,brain development,False
+5,that,affect,absence,False

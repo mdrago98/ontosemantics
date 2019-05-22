@@ -1,0 +1,20 @@
+,Subject,Action,Object,Negation
+0,bupivacaine,precipitate,dysrhythmias,False
+1,epinephrine,precipitate,dysrhythmias,False
+2,circulating,potentiate,effects,False
+3,We,examined,dysrhythmogenicity,False
+4,dogs,received,micrograms.kg-1.min-1,False
+5,animals,responded,ventricular tachycardia,False
+6,animals,responded,min,False
+7,responders,received,kg,False
+8,epinephrine,caused,effects,False
+9,VT,appeared,dogs,False
+10,there,were,beats,False
+11,there,were,ectopies,False
+12,Epinephrine,shortened,QT,False
+13,dogs,received,micrograms.kg-1.min-1,False
+14,bupivacaine,injected,min,False
+15,Bupivacaine,antagonizes,epinephrine,False
+16,Bupivacaine,antagonizes,dogs,False
+17,There,is,evidence,True
+18,administration,enhances,dysrhythmogenicity,False

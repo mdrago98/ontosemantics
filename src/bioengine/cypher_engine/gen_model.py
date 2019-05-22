@@ -2,7 +2,6 @@
 import plac
 from json import loads
 from os.path import join
-from re import sub, compile
 from pystache import render
 from utils.pythonic_name import get_pythonic_name
 

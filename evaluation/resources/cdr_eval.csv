@@ -1,0 +1,1067 @@
+,pmid,chemical,disease
+0,8701013,famotidine,delirium
+1,439781,indomethacin,hypotension
+2,22836123,cyclosporine,thrombotic microangiopathy
+3,22836123,corticosteroids,SSc
+4,22836123,tacrolimus,SSc
+5,23433219,methamphetamine,psychotic symptoms
+6,23433219,methamphetamine,bipolar disorder
+7,23433219,methamphetamine,antisocial personality
+8,23535177,levodopa,abnormal involuntary movements
+9,23666265,CYP,cystitis
+10,23666265,CYP,pain
+11,23666265,CYP,edema
+12,23846525,clopidogrel,hepatic injury
+13,23864035,dex,peripheral neuropathy
+14,23864035,Bort,peripheral neuropathy
+15,23871786,BPA,anxiety
+16,23872883,isoproterenol,cardiotoxicity
+17,23892921,RD,Peripheral neuropathy
+18,23892921,RD,myelosuppression
+19,23892921,RD,deep vein thrombosis
+20,23892921,RD,myelosuppression
+21,23892921,RD,Peripheral neuropathy
+22,23892921,RD,deep vein thrombosis
+23,23949582,IFO,cystitis
+24,23949582,IFO,hemorrhagic
+25,23952588,levodopa,dyskinesia
+26,24040781,everolimus,amyloidosis
+27,24040781,everolimus,proteinuria
+28,24067251,TDF,acute kidney injury
+29,24067251,TDF,Fanconi syndrome
+30,24068571,Thiopentone,postoperative delirium
+31,24068571,Thiopentone,delirium
+32,24072398,METH,depressive
+33,24088636,linezolid,toxic optic neuropathy
+34,24088636,linezolid,optic disc edema
+35,24091473,levobupivacaine,cardiovascular collapse
+36,24100055,heparin,HIT type II
+37,24100257,zolmitriptan,coronary artery vasospasm
+38,24100257,zolmitriptan,TS
+39,24114426,ecstasy,sleep disturbance
+40,24114426,ecstasy,impulsiveness
+41,24114426,ecstasy,depression
+42,24126708,levodopa,visual hallucinations
+43,24126708,levodopa,dyskinesia
+44,24132704,diazinon,hyperlipemia
+45,24158386,methylprednisolone,neutropenia
+46,24158386,GEM,thrombocytopenia
+47,24158386,methylprednisolone,thrombocytopenia
+48,24158386,GEM,neutropenia
+49,24190587,ecstasy,depression
+50,24209900,ifosfamide,convulsions
+51,24209900,ifosfamide,NCSE
+52,24220752,Contrast,nephropathy
+53,24220752,irinotecan,nephropathy
+54,24234943,desvenlafaxine,SIADH
+55,24234943,desvenlafaxine,anxiety
+56,24234943,desvenlafaxine,hyponatremia
+57,24234943,desvenlafaxine,confusion
+58,24234943,desvenlafaxine,nausea
+59,24275640,DOX,cardiotoxicity
+60,24275640,DOX,necrosis
+61,24283660,TAC,seizures
+62,24284476,scopolamine,amnesia
+63,24309294,morphine,amnesia
+64,24333387,STZ,neuroinflammatory
+65,24333387,STZ,memory impairment
+66,24341598,contrast,ARF
+67,24345882,MTX,attention problems
+68,24345882,MTX,leukoencephalopathy
+69,24434397,TNA,tonic clonic convulsions
+70,24438483,bupivacaine,asystole
+71,24438483,bupivacaine,cardiotoxic
+72,24451297,fluvastatin,abdominal pain
+73,24451297,fluvastatin,hepatic damage
+74,24451297,fluvastatin,anorexia
+75,24451297,fluvastatin,nausea
+76,24459006,fluconazole,agranulocytosis
+77,24459006,fluconazole,thrombocytopenia
+78,24464946,epirubicin,cardiotoxicity
+79,24464946,epirubicin,heart failure
+80,24535067,etomidate,myoclonus
+81,24554916,phosphorus,acute hepatitis
+82,24554916,phosphorus,cholestasis
+83,24554916,phosphorus,acute liver failure
+84,24571687,dexmedetomidine,bradycardia
+85,24571687,dexmedetomidine,Vasovagal syncope
+86,24582773,quetiapine,agitation
+87,24587916,Dex,hypertension
+88,24587916,Dex,weight loss
+89,24588023,tranexamic acid,seizures
+90,24595967,ecstasy,sleep-related impairments
+91,24595967,ecstasy,memory impairments
+92,24614773,valproate,delusions
+93,24614773,valproate,confusion
+94,24614773,valproate,auditory hallucinations
+95,24618873,pethidine,dysmetria
+96,24618873,pethidine,nausea
+97,24618873,norpethidine,seizure
+98,24618873,pethidine,dysarthria
+99,24618873,pethidine,vomiting
+100,24618873,pethidine,hypotension
+101,24641119,ketoconazole,maculopapular eruption
+102,24653743,pilsicainide,torsades de pointes
+103,24653743,pilsicainide,sudden cardiac death
+104,24658375,ATRA,myositis
+105,24659727,CTX,neutropenia
+106,24659727,CCNU,neutropenia
+107,24664478,nelarabine,peripheral neuropathy
+108,24665854,valproate,impaired consciousness
+109,24665854,valproate,hyperammonemia
+110,24671324,dexamethasone,necrotising fasciitis
+111,24671324,bortezomib,necrotising fasciitis
+112,24675088,DOX,fibrosis
+113,24675088,DOX,cardiomyopathy
+114,24675088,DOX,LV dysfunction
+115,24684312,capsaicin,allodynic
+116,24691439,dexamethasone,glaucoma
+117,24691439,dexamethasone,axonal degeneration
+118,24691439,dexamethasone,ocular hypertension
+119,24709919,morphine,OIH
+120,24717468,propofol,bradycardia
+121,24717468,dexmedetomidine,hypotension
+122,24717468,dexmedetomidine,bradycardia
+123,24717468,propofol,hypotension
+124,24727461,doxorubicin,heart damage
+125,24729111,amiodarone,myxoedema
+126,24729111,amiodarone,bradycardia
+127,24729111,amiodarone,hypothermia
+128,24729111,amiodarone,respiratory failure
+129,24729111,amiodarone,coma
+130,24733133,heparin,HITT
+131,24733133,heparin,pulmonary embolism
+132,24733133,heparin,DVT
+133,24739405,apomorphine,schizophrenia
+134,24739405,amphetamine,schizophrenia
+135,24739405,haloperidol,catalepsy
+136,24739405,haloperidol,schizophrenia
+137,24742750,Citalopram,TdP
+138,24742750,Terfenadine,TdP
+139,24753331,S-53482,growth retardation
+140,24753331,S-23121,growth retardation
+141,24753331,S-23121,teratogenic
+142,24753331,S-23121,embryonic death
+143,24753331,S-53482,embryonic death
+144,24753331,S-53482,teratogenic
+145,24753331,S-23121,ventricular septal defect
+146,24753331,S-53482,ventricular septal defect
+147,24778426,cisplatin,AKI
+148,24802403,PTZ,memory impairments
+149,24802403,PTZ,learning impairments
+150,24802403,PTZ,cognitive impairment
+151,24802403,PTZ,seizures
+152,24812279,DOX,heart failure
+153,24816962,metronidazole,encephalopathy
+154,24840785,aconitine,poisoning
+155,24840785,aconitine,cardiotoxicity
+156,24840785,aconitine,arrhythmia
+157,24842192,isoproterenol,myocardial infarction
+158,24842192,isoproterenol,left ventricular dysfunction
+159,24881749,Tetrabenazine,neuroleptic malignant syndrome
+160,24881749,tiapride,neuroleptic malignant syndrome
+161,24894748,metoprolol,bradycardia
+162,24894748,terbinafine,bradycardia
+163,24897009,ethambutol,polyneuropathy
+164,24897009,ethambutol,visual loss
+165,24897009,ethambutol,optic neuropathy
+166,24897009,ethambutol,paresthesias
+167,24902786,STZ,memory impairment
+168,24902786,flutamide,memory impairment
+169,24902786,letrozole,memory impairment
+170,24902786,tamoxifen,memory impairment
+171,24911645,pilocarpine,seizure
+172,24911645,pilocarpine,status epilepticus
+173,24923469,tobramycin,AKI
+174,24923469,vancomycin,AKI
+175,24923469,gentamicin,AKI
+176,24927617,telaprevir,rhabdomyolysis
+177,24927617,statins,rhabdomyolysis
+178,24927617,statins,muscle toxicity
+179,24928523,dexamethasone,peripheral neuropathy
+180,24928523,thalidomide,peripheral neuropathy
+181,24928523,bortezomib,neutropenia
+182,24928523,thalidomide,thrombocytopenia
+183,24928523,bortezomib,thrombocytopenia
+184,24928523,thalidomide,neutropenia
+185,24928523,bortezomib,peripheral neuropathy
+186,24928523,dexamethasone,thrombocytopenia
+187,24928523,dexamethasone,neutropenia
+188,24971338,CsA,renal damage
+189,24971338,SRL,proteinuria
+190,24975837,cisplatin,acute tubular necrosis
+191,24975837,cisplatin,acute kidney injury
+192,24975837,cisplatin,weight loss
+193,24999722,fluocinolone acetonide,ocular hypertension
+194,24999722,fluocinolone acetonide,cataract
+195,25006369,succinylcholine,fasciculation
+196,25006369,succinylcholine,myalgia
+197,25006961,lithium,polyuria
+198,25006961,lithium,NDI
+199,25031906,amlodipine,dysguesia
+200,25041770,clarithromycin,rhabdomyolysis
+201,25041770,statin,rhabdomyolysis
+202,25054547,mivacurium,apnea
+203,25054547,suxamethonium,apnea
+204,25054547,mivacurium,Butyrylcholinesterase deficiency
+205,25054547,suxamethonium,Butyrylcholinesterase deficiency
+206,25071004,artesunate,hemolytic anemia
+207,25080425,isoproterenol,myocardial ischemia
+208,25080425,isoproterenol,ventricular remodeling
+209,25084821,quetiapine,neutropenia
+210,25084821,quetiapine,leucopenia
+211,25084821,quetiapine,fever
+212,25096313,steroid,paresthesia
+213,25119790,maleate,proteinuria
+214,25119790,maleate,necrosis
+215,25119790,maleate,nephropathy
+216,25907210,diazinon,lung cancer
+217,25951420,particulate matter,Parkinson's disease
+218,25951420,ozone,Parkinson's disease
+219,25986755,caffeine,dysplasia of fetal kidneys
+220,25986755,caffeine,interstitial fibrosis
+221,25986755,caffeine,IUGR
+222,26002693,"1,3-butadiene",Philadelphia chromosome
+223,26033014,metolachlor,follicular cell lymphoma
+224,26033014,metolachlor,liver cancer
+225,26115410,iAs,cancer
+226,44072,chloroform,arrhythmia
+227,44072,BaCl2,arrhythmia
+228,44072,aconitine,arrhythmia
+229,44072,adrenaline,arrhythmia
+230,44072,strophantine G,arrhythmia
+231,753803,Dianabol,myodystrophy
+232,753803,vitamin E,myodystrophy
+233,920167,warfarin,hemorrhage
+234,920167,warfarin,pulmonary hemorrhage
+235,920167,warfarin,cerebral hemorrhage
+236,920167,warfarin,stippled epiphyses
+237,1451544,isradipine,headache
+238,1451544,isradipine,dizziness
+239,1451544,isradipine,flushing
+240,2782734,salbutamol,tremor
+241,2983630,caffeine,tremors
+242,2983630,caffeine,nausea
+243,2983630,caffeine,anxiety disorders
+244,3711722,doxorubicin,heart failure
+245,3711722,cobalt,cardiomyopathy
+246,6728873,caffeine,tonic seizures
+247,7248895,cyclophosphamide,hematuria
+248,7248895,cyclophosphamide,carcinoma
+249,7248895,cyclophosphamide,carcinomas of the urinary bladder
+250,9578276,carbetocin,retained placenta
+251,9578276,carbetocin,vomiting
+252,9578276,carbetocin,blood loss
+253,9578276,carbetocin,abdominal pain
+254,9578276,carbetocin,hyper- or hypotension
+255,9578276,carbetocin,hyper- or hypotension
+256,11423811,cocaine,chest pain
+257,12678199,amiodarone,TdP
+258,15696449,melphalan,ARI
+259,17554526,cocaine,impaired fear recognition
+260,17721298,crack cocaine,corneal ulcers
+261,18341442,levetiracetam,lethargy
+262,19681452,heroin,basal ganglia infarcts
+263,19681452,cocaine,ischemia of the globus pallidus
+264,19681452,ethanol,ischemic stroke
+265,19681452,ethanol,haemorrhagic stroke
+266,20009434,MTX,acute renal failure
+267,20431083,warfarin,ICH
+268,20595935,risperidone,hyperprolactinemia
+269,35781,clonidine,catalepsy
+270,35781,fentanyl,catalepsy
+271,35781,naphazoline,catalepsy
+272,35781,codeine,catalepsy
+273,35781,xylometazoline,catalepsy
+274,35781,morphine,catalepsy
+275,48835,propranolol,Hypertension
+276,89511,oestrogen,hyperplasia
+277,146391,diphenylhydantoin,toxic dermatitis
+278,146391,diphenylhydantoin,lymphadenopathy
+279,146391,diphenylhydantoin,pure red cell aplasia
+280,256433,tobramycin,Azotemia
+281,256433,carbenicillin,Azotemia
+282,448423,EACA,SAH
+283,448423,EACA,thrombosis of a normal renal artery
+284,448423,EACA,thrombi
+285,448423,EACA,intracranial vascular thrombosis
+286,448423,EACA,hypertension
+287,573555,propranolol,Growth retardation
+288,611664,propranolol,hypertension
+289,612112,etomidate,myoclonia
+290,612112,etomidate,pain
+291,689020,fenoterol-hydrobromide,tremor
+292,689020,ritodrin-HCl,tremor
+293,733189,methylprednisolone acetate,retinal artery and choriocapillaris occlusions
+294,816141,cephalothin,hemolytic anemias
+295,851038,L-dopa,hypokalemia
+296,891494,DPH,encephalopathy
+297,895432,isoproterenol,myocardial infarction
+298,931801,aminoglycoside,acute renal failure
+299,931801,kanamycin,acute renal failure
+300,946593,methotrexate,paraplegia
+301,978847,carbachol,tachycardia
+302,978847,carbachol,enlargement of pulse pressure
+303,978847,desmethylimipramine,enlargement of pulse pressure
+304,1117341,amino,hyperglycemia
+305,1158089,tetracycline,fatty liver
+306,1280054,vincristine,sensory and motor dysfunction
+307,1280054,vincristine,encephalopathy
+308,1280707,bupivacaine,arrhythmia
+309,1280707,estradiol,arrhythmia
+310,1280707,progesterone,arrhythmia
+311,1289188,desferrioxamine,renal insufficiency
+312,1359137,bromocriptine,psychiatric symptoms
+313,1359137,neuroleptic,amenorrhea
+314,1359137,neuroleptic,oligomenorrhea
+315,1359137,neuroleptic,hyperprolactinemia
+316,1360900,ethacrynic acid,convulsions
+317,1361574,isoniazid,convulsions
+318,1395192,bromocriptine,myocardial infarction
+319,1420650,lithium,asterixis
+320,1420650,clozapine,asterixis
+321,1423336,levodopa,hypotensive
+322,1424076,vincristine,syndrome of inappropriate secretion of antidiuretic hormone
+323,1449452,digoxin,arrhythmias
+324,1522360,rifampin,acute renal failure
+325,1522360,rifampin,hemolysis
+326,1556529,zidovudine,hepatitis
+327,1563460,coumadin,thoracic hematomyelia
+328,1564030,fluoxetine,mania
+329,1615846,gemfibrozil,Myositis
+330,1615846,lovastatin,Myositis
+331,1655018,corticosteroid,peliosis
+332,1655018,androgen,peliosis
+333,1655018,corticosteroid,hepatocellular carcinoma
+334,1655018,androgen,hepatocellular carcinoma
+335,1735570,trimethaphan,hypotension
+336,1735570,trimethaphan,tachycardia
+337,1756784,pilocarpine,damage of SNR
+338,1756784,pilocarpine,status epilepticus
+339,1756784,pilocarpine,neurotransmitter dysfunction
+340,1760851,DOX,cardiotoxicity
+341,1779253,capsaicin,pain
+342,1779253,capsaicin,mastitis
+343,1837756,fluoxetine,paranoia
+344,1837756,amitriptyline,paranoia
+345,1858969,DEC,encephalitis
+346,1905439,misoprostol,delirium
+347,1943082,GSSG,reperfusion injury
+348,2021990,cimetidine,hypotension
+349,2083961,Rifampicin,Acute renal failure
+350,2131034,ara-C,polyneuropathy
+351,2131034,MTX,polyneuropathy
+352,2131034,TSPA,polyneuropathy
+353,2131034,ara-C,neurotoxicity
+354,2131034,MTX,neurotoxicity
+355,2131034,TSPA,neurotoxicity
+356,2173761,cromakalim,hypotension
+357,2173761,pinacidil,tachycardia
+358,2173761,cromakalim,tachycardia
+359,2173761,pinacidil,hypotension
+360,2217015,mefenamic acid,neutropenia
+361,2217015,mefenamic acid,renal failure
+362,2239937,CaCO3,hypercalcemic
+363,2320485,methyldopa,hemolytic anemias
+364,2358093,danazol,weight gain
+365,2358093,danazol,muscle cramps
+366,2358093,danazol,Menstrual abnormalities
+367,2383364,CHP,pain
+368,2400986,busulfan,seizures
+369,2429800,d-tubocurarine,hypotension
+370,2453942,lindane,convulsions
+371,2484903,propylthiouracil,lupus-like syndrome
+372,2484903,methimazole,hepatocellular necrosis
+373,2484903,propylthiouracil,hepatitis
+374,2553470,pilocarpine,status epilepticus
+375,2553470,lithium,status epilepticus
+376,2614930,nifedipine,tachycardia
+377,2614930,nifedipine,bradycardia
+378,2625524,cocaine,seizures
+379,2625524,amphetamine,seizures
+380,2650911,diethylstilbesterol,renal carcinomas
+381,2710809,biperiden,Bradycardia
+382,2710809,biperiden,dysphagia
+383,2710809,biperiden,dysarthria
+384,2718706,E,hypotension
+385,2718706,isoflurane,hypotension
+386,2718706,H,hypotension
+387,2718706,labetalol,hypotension
+388,2765447,fluorescein,Tonic-clonic seizures
+389,2767010,ouabain,ventricular tachycardia
+390,2767010,strophanthidin,arrhythmias
+391,2818777,phenytoin,hepatic failure
+392,2818777,phenytoin,drug hypersensitivity
+393,2884595,pertussis vaccine,encephalopathy
+394,2904523,adrenaline,hypertension
+395,2907577,gentamicin,ARF
+396,2931989,Isotretinoin,blurred vision
+397,2931989,Isotretinoin,corneal opacities
+398,2931989,Isotretinoin,papilledema
+399,2931989,Isotretinoin,Blepharoconjunctivitis
+400,2931989,Isotretinoin,pseudotumor cerebri
+401,2931989,Isotretinoin,dry eyes
+402,2931989,Isotretinoin,photodermatitis
+403,2933998,Procaterol,tremorgenic
+404,2974281,isoproterenol,heart hypertrophy
+405,3074291,theophylline,tremors
+406,3074291,theophylline,nausea
+407,3074291,theophylline,vomiting
+408,3083835,penicillin,anaphylaxis
+409,3084231,valproic acid,dementia
+410,3084231,valproic acid,hyperammonemia
+411,3088653,scopolamine,amnesia
+412,3109094,cyclophosphamide,lesions of the urinary bladder
+413,3125850,suxamethonium,muscle fasciculations
+414,3155884,ISO,fibrosis
+415,3155884,streptozotocin,diabetic
+416,3191389,phenylbutazone,seizures
+417,3191389,sodium salicylate,seizures
+418,3191389,pilocarpine,seizures
+419,3191389,pilocarpine,status epilepticus
+420,3289726,etoposide,confusion
+421,3289726,etoposide,seizure
+422,3289726,etoposide,papilledema
+423,3297909,thiabendazole,drug-induced liver damage
+424,3297909,thiabendazole,Cholestasis
+425,3323259,calcium channel blockers,anorexia
+426,3323259,calcium channel blockers,dizziness
+427,3323259,calcium channel blockers,edema
+428,3323259,calcium channel blockers,headache
+429,3323259,calcium channel blockers,nausea
+430,3323259,calcium channel blockers,flushing
+431,3323599,AMNS,FSGS
+432,3323599,AMNS,nephrotic syndrome
+433,3323599,AMNS,end-stage renal disease
+434,3339945,aminophylline,seizures
+435,3375885,mefenamic acid,renal disease
+436,3375885,indomethacin,hyperkalemia
+437,3375885,naproxen,type IV renal tubular acidosis
+438,3375885,naproxen,hyperkalemia
+439,3375885,indomethacin,type IV renal tubular acidosis
+440,3383127,5-FU,hypotension
+441,3383127,5-FU,left ventricular dysfunction
+442,3383127,CDDP,hypotension
+443,3383127,CDDP,left ventricular dysfunction
+444,3409843,Carbamazepine,aplastic anemia
+445,3423103,clonidine,hypotension
+446,3423103,clonidine,bradycardia
+447,3439580,Imipramine,hypertension
+448,3475563,beclomethasone,thrush
+449,3475563,beclomethasone,hoarseness
+450,3533179,CYA,Congestive heart failure
+451,3538855,aminoglycoside,nephrotoxicity
+452,3685052,Flurothyl,hypothermia
+453,3708328,pilocarpine,seizures
+454,3746148,dipyridamole,myocardial ischemia
+455,3798047,MP,bradycardia
+456,3812624,carbamazepine,oscillopsia
+457,3831029,pentobarbital,cardiac failure
+458,3832950,clonazepam,drowsiness
+459,3832950,clonazepam,ataxia
+460,3833372,timolol,fatigue
+461,3833372,timolol,dizziness
+462,3833372,hydrochlorothiazide,fatigue
+463,3833372,hydrochlorothiazide,dizziness
+464,3833372,hydrochlorothiazide,weakness
+465,3833372,timolol,weakness
+466,3864191,aspirin,deterioration of renal function
+467,3895875,lidocaine,hypotension
+468,3925479,pilocarpine,catalepsy
+469,3925479,haloperidol,catalepsy
+470,3975902,barium chloride,cardiomyopathic disorder
+471,3975902,barium chloride,hypertension
+472,3987172,PPA,hypertension
+473,3990093,PAN,proteinuric
+474,4010471,nicotine,seizure
+475,4082192,PAP,renal tubular necrosis
+476,4082192,APAP,renal tubular necrosis
+477,4082466,morphine,convulsions
+478,4631913,vincristine sulfate,sepsis
+479,4631913,vincristine sulfate,leukopenia
+480,4631913,vincristine sulfate,Pseudomonas infections
+481,6106951,FZP,convulsions
+482,6106951,PTZ,convulsions
+483,6299641,isoproterenol,tachycardia
+484,6305660,Premarin,mastodynia
+485,6305660,Medroxyprogesterone acetate,mastodynia
+486,6310832,cyclosporine,infections
+487,6310832,Aza,infections
+488,6316193,picrotoxin,seizures
+489,6321816,DOCA,hypertension
+490,6321816,lithium,diabetes insipidus
+491,6453500,disulfiram,toxic liver damage
+492,6517710,quinacrine hydrochloride,cardiac hypertrophy
+493,6517710,quinacrine hydrochloride,atrial thrombosis
+494,6529939,propranolol,S-A block
+495,6529939,propranolol,alternating rhythm
+496,6585590,doxorubicin,hydrothorax
+497,6585590,doxorubicin,ascites
+498,6585590,doxorubicin,Albuminuria
+499,6615679,timolol,hypotension
+500,6615679,Pilocarpine,bradycardia
+501,6615679,Pilocarpine,hypotension
+502,6615679,timolol,bradycardia
+503,6627074,succinylcholine,apnoea
+504,6631522,doxorubicin,cardiotoxicity
+505,6673474,trimetaphan,hypotension
+506,6673474,SNP,hypotension
+507,6687006,D-amphetamine,hyperactivity
+508,6695685,verapamil,Accelerated junctional rhythms
+509,6806735,CPDD,anemia
+510,6806735,CPDD,nephrotoxicity
+511,6806735,CPDD,gastrointestinal toxicity
+512,6884395,oral contraceptives,dissecting aneurysm
+513,6893265,propylthiouracil,chronic active hepatitis
+514,6893265,propylthiouracil,liver damage
+515,6985297,bepridil,bradycardia
+516,6985498,methoxyflurane,renal tubular acidosis
+517,6985498,methoxyflurane,Hepatitis
+518,7018927,haloperidol,hyperprolactinemia
+519,7121659,rifampicin,hemolysis
+520,7121659,rifampicin,thrombopenia
+521,7121659,rifampicin,acute tubular necrosis
+522,7147232,SNP,hypotension
+523,7147232,ATP,hypotension
+524,7173007,Endografine,abdominal pain
+525,7173007,Dimer-X,dizziness
+526,7173007,Dimer-X,nausea
+527,7176945,scoline,fasciculations
+528,7176945,scoline,pain
+529,7315949,L-norepinephrine,spasm
+530,7369302,quinine,tonic pupillary
+531,7369302,quinine,amblyopia
+532,7369302,quinine,blindness
+533,7378868,suxamethonium,prolonged jaw rigidity
+534,7378868,suxamethonium,apnoea
+535,7378868,suxamethonium,myalgia
+536,7411769,indomethacin,hyperkalemia
+537,7411769,indomethacin,renal insufficiency
+538,7457821,etomidate,Nausea
+539,7457821,etomidate,vomiting
+540,7457821,etomidate,pain
+541,7457821,etomidate,respiratory upset
+542,7457821,etomidate,psychoses
+543,7477981,apomorphine,dyskinesias
+544,7477981,fluoxetine,dyskinesias
+545,7479194,trimethoprim,liver disease
+546,7479194,TMP-SMZ,liver disease
+547,7479194,cephalexin,liver disease
+548,7479194,cephalexin,toxic epidermal necrolysis
+549,7479194,TMP-SMZ,toxic epidermal necrolysis
+550,7492040,cocaine,MI
+551,7644931,paclitaxel,sensory neuropathy
+552,7644931,paclitaxel,hematologic toxicities
+553,7644931,paclitaxel,arthralgia
+554,7661171,indomethacin,renal dysfunction
+555,7671401,ACE inhibitors,angio-oedema
+556,7727612,lorazepam,myoclonus
+557,7739955,carbamazepine,eosinophilic
+558,7739955,carbamazepine,myocarditis
+559,7931490,cisplatin,vomiting
+560,7931490,Granisetron,Headache
+561,7931490,cisplatin,nausea
+562,7949506,verapamil,hypotension
+563,7949506,verapamil,AV block
+564,7949506,clonidine,AV block
+565,7949506,clonidine,hypotension
+566,7967231,picrotoxin,convulsions
+567,7967231,pentylenetetrazole,convulsions
+568,7967231,bemegride,convulsions
+569,8096565,sumatriptan,myocardial infarction
+570,8135424,diazepam,seizures
+571,8135424,Flumazenil,seizures
+572,8135424,cocaine,seizures
+573,8160791,GM,nephropathy
+574,8184922,isoproterenol,cardiac hypertrophy
+575,8188982,Phe,hypertension
+576,8188982,SN,hypotension
+577,8188982,AVP,hypertension
+578,8308951,warfarin,intracerebral hemorrhage
+579,8312343,doxorubicin,cardiomyopathy
+580,8312983,fluoxetine,hyperkinetic
+581,8312983,fluoxetine,delirium
+582,8318674,Ara-C,diarrhea
+583,8318674,Ara-C,fever
+584,8318674,Ara-C,pulmonary edema
+585,8318674,Ara-C,acute renal failure
+586,8318674,Ara-C,weight gain
+587,8318674,Ara-C,shock
+588,8318674,Ara-C,leukocytosis
+589,8318674,Ara-C,metabolic acidosis
+590,8392553,epinephrine,cardiomyopathy
+591,8511251,cocaine,myocardial ischemia
+592,8511251,cocaine,coronary artery spasm
+593,8603459,doxorubicin,cardiotoxicity
+594,8659767,epinephrine,VT
+595,8667442,calcitriol,renal impairment
+596,8667442,sucralfate,peptic ulcer disease
+597,8667442,calcium,alkalosis
+598,8667442,alkali,renal impairment
+599,8667442,alkali,alkalosis
+600,8667442,calcium carbonate,alkalosis
+601,8667442,omeprazole,peptic ulcer disease
+602,8667442,calcitriol,hypercalcemic emergency
+603,8667442,alkali,hypercalcemic emergency
+604,8667442,calcitriol,alkalosis
+605,8667442,calcium,hypercalcemic emergency
+606,8667442,calcium carbonate,hypercalcemic emergency
+607,8667442,calcium carbonate,renal impairment
+608,8667442,calcium,renal impairment
+609,8748050,amitriptyline,encephalopathy
+610,8755612,DES,pituitary tumors
+611,8808730,CYP,cystitis
+612,8819482,ISO,myocardial ischemia
+613,8825380,PAN,nephropathy
+614,8829135,scopolamine,learning and post-training consolidation deficits
+615,8829135,apomorphine,amnesia
+616,8957205,CO2,hypercapnic
+617,8985298,HBsAg,hepatitis B
+618,8996419,OCs,VTE
+619,9061777,pilocarpine,neuronal death
+620,9061777,pilocarpine,status epilepticus
+621,9061777,pilocarpine,seizure
+622,9061777,MK-801,seizure
+623,9071336,folinic acid,neutropenia
+624,9071336,paclitaxel,neutropenia
+625,9071336,5-fluorouracil,neutropenia
+626,9125676,"d,l-sotalol",torsades de pointes
+627,9128918,haloperidol,hyperprolactinemia
+628,9132810,methotrexate,loss of myelination
+629,9132810,methotrexate,leukoencephalopathy
+630,9132810,methotrexate,necrosis
+631,9158667,ATRA,Thrombotic
+632,9158667,ATRA,acute renal failure
+633,9197951,DEP,manic
+634,9272404,ibuprofen,pain
+635,9323412,ondansetron,major depression disorder
+636,9382023,dobutamine,hypertension
+637,9428298,albuterol,cardiac dysrhythmias
+638,9538487,lithium,polyuria
+639,9538487,lithium,nephrogenic diabetes insipidus
+640,9538487,lithium,"hyperosmolar, nonketotic coma"
+641,9570197,cocaine,deterioration of LV systolic and diastolic performance
+642,9646784,heparin,alopecia
+643,9646784,heparin,osteoporosis
+644,9646784,heparin,thromboembolism
+645,9646784,heparin,thrombocytopenia
+646,9646784,heparin,allergic reactions
+647,9646784,heparin,eosinophilia
+648,9646784,heparin,skin reactions
+649,9725303,indinavir,ureteric stones
+650,9759693,sumatriptan,ischemic colitis
+651,9782254,L-DOPA,dyskinesias
+652,9831002,methylphenidate,neuroleptic malignant syndrome
+653,9869655,EE,intrahepatic cholestasis
+654,9881641,ACh,hypotension
+655,9881641,levcromakalim,hypotension
+656,9881641,helodermin,hypotension
+657,9889429,cyclosporin A,gingival hyperplasia
+658,9889429,cyclosporin A,hypertensive
+659,9889429,nifedipine,gingival hyperplasia
+660,10087562,Dubutamine,torsade de pointes
+661,10219427,PRC,pain
+662,10219427,PRC,macro-papular rash
+663,10219427,PRC,dyspnea
+664,10219427,PRC,loss of consciousness
+665,10327032,5-FU,hyperammonemic
+666,10327032,5-FU,encephalopathy
+667,10390729,morphine,hyperactivity
+668,10401555,scopolamine,impairment of memory
+669,10401555,scopolamine,impairment of learning
+670,10427794,meloxicam,hypersensitivity
+671,10427794,meloxicam,hepatic damage
+672,10462057,remoxipride,aplastic anemia
+673,10462057,benzene,aplastic anemia
+674,10510854,haloperidol,catalepsy
+675,10672628,haloperidol,catalepsy
+676,10677406,Dobutamine,left ventricular dysfunction
+677,10677406,Dobutamine,myocardial stunning
+678,10713017,fenfluramines,pulmonary hypertension
+679,10726030,heparins,skin reactions
+680,10726030,heparins,allergic reactions
+681,10726030,heparins,HITT
+682,10726030,heparins,hyperkalemia
+683,10726030,heparins,osteoporosis
+684,10726030,heparins,priapism
+685,10726030,heparins,hypoaldosteronism
+686,10726030,heparins,eosinophilia
+687,10726030,heparins,alopecia
+688,10764869,Tacrolimus,optic nerve toxicity
+689,10770468,lithium,hypercalcemia
+690,10933650,D-AmB,tubular necrosis
+691,10939760,sulfadiazine,renal calculi
+692,10939760,sulfadiazine,acute nephrotoxicity
+693,10960401,morphine,dizziness
+694,10960401,morphine,downbeating nystagmus
+695,10975596,isoproterenol,tachycardia
+696,10985896,doxorubicin,stomatitis
+697,10985896,doxorubicin,diarrhea
+698,10985896,doxorubicin,hand-foot syndrome
+699,10986547,Olanzapine,somnolence
+700,10986547,Olanzapine,weight gain
+701,11026989,tropicamide,Pupillary dilation
+702,11105626,isotretinoin,Taussig-Bing malformation
+703,11105626,isotretinoin,anotia
+704,11105626,isotretinoin,isotretinoin embryopathy
+705,11135381,Methoxamine,a significant rise in systolic blood pressure
+706,11135381,Methoxamine,headache
+707,11176729,lisinopril,renal dysfunction
+708,11176729,lisinopril,hyperkalemia
+709,11176729,lisinopril,hypotension
+710,11229942,ethanol,ventricular tachycardia
+711,11229942,Cocaine,ventricular tachycardia
+712,11229942,cocaethylene,decrease in cardiac output
+713,11299446,veralipride,Parkinson's disease
+714,11366874,Viracept,Bradycardia
+715,11380496,PTU,fever
+716,11380496,PTU,polyarthralgia
+717,11380496,PTU,oral ulcers
+718,11385188,cocaine,coronary artery disease
+719,11385188,cocaine,myocardial disease
+720,11395263,isoproterenol,myocardial infarction
+721,11401944,sotalol,QT prolongation
+722,11401944,sotalol,TdP
+723,11425091,cocaine,cyst
+724,11425091,cocaine,subependymal cyst
+725,11425091,cocaine,preterm infants
+726,11439380,thalidomide,peripheral neuropathy
+727,11474137,kanamycin,hearing loss
+728,11708428,PDN,anxiety
+729,11745287,doxorubicin,neutropenic
+730,11745287,doxorubicin,constipation
+731,11745287,carboplatin,neutropenic
+732,11745287,carboplatin,thrombocytopenia
+733,11745287,doxorubicin,mucositis
+734,11745287,carboplatin,emesis
+735,11745287,doxorubicin,weight loss
+736,11745287,carboplatin,fatigue
+737,11745287,doxorubicin,skin reactions
+738,11745287,doxorubicin,anemia
+739,11745287,doxorubicin,nausea
+740,11745287,carboplatin,skin reactions
+741,11745287,carboplatin,constipation
+742,11745287,doxorubicin,fatigue
+743,11745287,carboplatin,nausea
+744,11745287,doxorubicin,emesis
+745,11745287,carboplatin,mucositis
+746,11745287,carboplatin,weight loss
+747,11745287,doxorubicin,thrombocytopenia
+748,11745287,carboplatin,anemia
+749,11799346,ciprofloxacin,antibiomania
+750,11799346,Cotrimoxazole,antibiomania
+751,11799346,metronidazole,antibiomania
+752,11799346,isoniazid,antibiomania
+753,11799346,ofloxacin,antibiomania
+754,11799346,amoxicillin,antibiomania
+755,11799346,clarithromycin,antibiomania
+756,11799346,erythromycin,antibiomania
+757,11835460,levodopa,ocular dyskinesias
+758,11915580,GTN,headache
+759,11936424,PAN,proteinuria
+760,11936424,PAN,neprotic
+761,11988250,ibuprofen,Pulmonary hypertension
+762,11988250,ibuprofen,hypoxaemia
+763,12051122,vincristine,SIADH
+764,12051122,vincristine,hyponatremia
+765,12059909,CY,haemorrhagic
+766,12059909,CY,cystitis
+767,12119460,FA,vomitus
+768,12119460,FA,thrombocytopenia
+769,12119460,MMC,diarrhea
+770,12119460,FA,stomatitis
+771,12119460,MMC,thrombocytopenia
+772,12119460,5-FU,vomitus
+773,12119460,MMC,leukopenia
+774,12119460,MMC,HUS
+775,12119460,5-FU,diarrhea
+776,12119460,FA,diarrhea
+777,12119460,5-FU,HUS
+778,12119460,5-FU,stomatitis
+779,12119460,5-FU,leukopenia
+780,12119460,5-FU,thrombocytopenia
+781,12119460,FA,leukopenia
+782,12119460,MMC,vomitus
+783,12119460,MMC,stomatitis
+784,12119460,FA,HUS
+785,12119460,5-FU,hand-foot syndrome
+786,12119460,FA,hand-foot syndrome
+787,12119460,MMC,hand-foot syndrome
+788,12165618,indinavir,nephrotoxicity
+789,12165618,indinavir,hematuria
+790,12359538,cocaine,MI
+791,12372954,nicergoline,eosinophilia
+792,12372954,nicergoline,renal failure
+793,12372954,nicergoline,AIN
+794,12372954,nicergoline,fever
+795,12372954,nicergoline,arthralgia
+796,12452552,risperidone,NMS
+797,12452552,levomepromazine,NMS
+798,12487093,adrenaline,hypertension
+799,12498738,doxorubicin,cardiomyopathy
+800,12523489,amphetamine,decreased the locomotor activity
+801,12523489,cocaine,decreased the locomotor activity
+802,12523489,DMPX,decreased the locomotor activity
+803,12535818,amiodarone,bradyarrhythmia
+804,12559315,Indomethacin,mastocytosis
+805,12559315,Indomethacin,interstitial cystitis
+806,12644816,thalidomide,dizziness
+807,12644816,thalidomide,constipation
+808,12644816,thalidomide,rash
+809,12644816,thalidomide,drowsiness
+810,12644816,thalidomide,peripheral neuropathy
+811,12677626,levobupivacaine,grand mal seizures
+812,12699527,suxamethonium,muscle spasms
+813,12752472,pilocarpine,epilepsy
+814,12828076,paracetamol,acute liver failure
+815,12865514,levodopa,drug-induced dyskinesias
+816,12912689,carboplatin,abnormal ocular motility
+817,12912689,carboplatin,fibrosis
+818,12948256,ethambutol,optic neuropathy
+819,12950111,glycopyrrolate,headache
+820,12950111,glycopyrrolate,sore throat
+821,14616590,Disoprivan,thrombophlebitis
+822,14616590,Disoprivan,Pain
+823,14748761,VNR,cardiotoxic
+824,15018178,trimethoprim-sulfomethoxazole,hemolytic anemia
+825,15094729,Vigabatrin,visual field defects
+826,15096374,tacrolimus,papular rosacea
+827,15229250,MA,impaired memory performance
+828,15229250,MA,brain injury
+829,15265979,amiodarone,hepatomegaly
+830,15265979,amiodarone,hepatotoxicity
+831,15276093,Niacin extended-release/lovastatin,Flushing
+832,15282950,isoproterenol,necrosis
+833,15282950,isoproterenol,myocardial damage
+834,15321332,droperidol,psychological disturbance
+835,15366550,lithium,neurogenic DI
+836,15482540,ribavirin,hemolytic anemia
+837,15482540,interferon-alpha-2b,hemolytic anemia
+838,15605432,ADR,mitochondrial injury
+839,15609701,sotalol,Coronary vasospasm
+840,15614572,apomorphine,catalepsy
+841,15614572,haloperidol,catalepsy
+842,15625689,levodopa,dyskinetic
+843,15627798,gentamicin,tubulointerstitial nephritis
+844,15630069,olanzapine,insulin resistance
+845,15630069,clozapine,insulin resistance
+846,15815446,phenylephrine,hypertension
+847,15817013,warfarin,hemorrhage
+848,15859361,CE,angioedema
+849,15859361,P,skin reactions
+850,15859361,N,skin reactions
+851,15882284,aspirin,ESRD
+852,15953230,amisulpride,QT prolongation
+853,15953230,amisulpride,hypocalcaemia
+854,15987266,Pilo,status epilepticus
+855,15991002,pentylenetetrazole,anxiety
+856,15991002,caffeine,anxiety
+857,16034922,progestogens,gallbladder disease
+858,16034922,oestrogen,dementia
+859,16034922,oestrogen,venous thromboembolism
+860,16034922,oestrogen,cardiovascular disease
+861,16034922,oestrogen,gallbladder disease
+862,16034922,progestogens,venous thromboembolism
+863,16034922,oestrogen,stroke
+864,16034922,progestogens,cardiovascular disease
+865,16034922,progestogens,breast cancer
+866,16034922,progestogens,stroke
+867,16034922,progestogens,dementia
+868,16034922,oestrogen,breast cancer
+869,16083708,Amoxicillin-clavulanate,DILI
+870,16083708,Amoxicillin-clavulanate,jaundice
+871,16092435,ADR,myocardiopathy
+872,16112787,VCM,kidney damage
+873,16309808,mirtazapine,RLS
+874,16323982,CPA,hyperglyceridemic effect
+875,16323982,CPA,coronary arteriosclerosis
+876,16369751,5-FU,precordial pain
+877,16369751,5-FU,right bundle branch block
+878,16565833,DOX,cardiomyocyte damage
+879,16723784,Bpd,QT prolongation
+880,16723784,Bpd,Tdp
+881,16723784,Bpd,bradycardia
+882,16723784,Bpd,dizziness
+883,16723784,Bpd,fatigue
+884,16723784,potassium,Tdp
+885,16731636,Iso,LV hypertrophy
+886,16801510,methadone,Long QT syndrome
+887,16810074,NO,hypertension
+888,16867246,chlorpromazine,EPS
+889,16876986,pilocarpine,seizures
+890,16876986,pilocarpine,status epilepticus
+891,16880771,pergolide,impaired novel word learning
+892,16906379,minocycline,polyarteritis nodosa
+893,16911931,HBeAg,hepatitis B
+894,16920333,picrotoxin,seizure
+895,17028363,diclofenac,renal injury
+896,17028363,Chinese herbal,renal injury
+897,17035713,IFO,nephropathy
+898,17042797,pilocarpine,temporal lobe epilepsy
+899,17042797,pilocarpine,status epilepticus
+900,17069550,galantamine,headaches
+901,17151160,risperidone,Extrapyramidal symptom
+902,17151160,olanzapine,weight gain
+903,17151160,olanzapine,Extrapyramidal symptom
+904,17151160,risperidone,weight gain
+905,17159032,hydroxychloroquine,visual field defects
+906,17223814,cyclophosphamide,atrioventricular block
+907,17223814,Taxol,atrioventricular block
+908,17223814,epirubicin,atrioventricular block
+909,17255138,naproxen,AMI
+910,17255138,non-steroidal anti-inflammatory drugs,GI bleeding
+911,17255138,rofecoxib,GI bleeding
+912,17255138,naproxen,GI bleeding
+913,17255138,COX-2 inhibitors,AMI
+914,17255138,rofecoxib,AMI
+915,17255138,non-steroidal anti-inflammatory drugs,AMI
+916,17297207,quinine,PVC
+917,17346443,penicillamine,lichenoid dermatitis
+918,17351238,oxygen,drop in blood pressure
+919,17351238,GTN,drop in blood pressure
+920,17356399,cytarabine,cerebral vasospasm
+921,17356399,Vincristine,cerebral vasospasm
+922,17356399,Vincristine,weakness
+923,17356399,dexamethasone,weakness
+924,17356399,cytarabine,aphasia
+925,17356399,polyethylene glycol-asparaginase,visual hallucinations
+926,17356399,cytarabine,visual hallucinations
+927,17356399,dexamethasone,aphasia
+928,17356399,cytarabine,incontinence
+929,17356399,polyethylene glycol-asparaginase,weakness
+930,17356399,polyethylene glycol-asparaginase,incontinence
+931,17356399,dexamethasone,incontinence
+932,17356399,Vincristine,aphasia
+933,17356399,Vincristine,visual hallucinations
+934,17356399,dexamethasone,visual hallucinations
+935,17356399,Vincristine,incontinence
+936,17356399,cytarabine,weakness
+937,17356399,polyethylene glycol-asparaginase,aphasia
+938,17356399,polyethylene glycol-asparaginase,cerebral vasospasm
+939,17356399,dexamethasone,cerebral vasospasm
+940,17379047,HCTZ,hypokalemia
+941,17384765,succimer,cognitive deficits
+942,17384765,Pb,impairments in learning
+943,17384765,Pb,"impairments in attention, inhibitory control, and arousal regulation"
+944,17445520,caffeine,MDP
+945,17484470,propranolol,heart failure
+946,17496739,piperacillin/tazobactam,confusion
+947,17496739,piperacillin/tazobactam,GTCS
+948,17496739,piperacillin/tazobactam,tremor
+949,17543491,prilocaine,vocal cord paralysis
+950,17572393,BCNU,cortical dysplasia
+951,17828434,pilocarpine,seizures
+952,17879100,ibuprofen,acute renal failure
+953,17879100,ibuprofen,tubulo-interstitial injury
+954,17879217,rifampicin,acute renal failure
+955,17879217,rifampicin,glomerulonephritis
+956,17954033,HBeAg,chronic hepatitis B
+957,18025637,fluoxetine,retinal vein occlusion
+958,18025637,fluoxetine,hypertension
+959,18165598,bupivacaine,inflammation
+960,18165598,bupivacaine,postoperative pain
+961,18189308,CYP,bladder inflammation
+962,18340638,azathioprine,anemia
+963,18399341,bupivacaine,hypotension
+964,18422462,d4T,peripheral neuropathy
+965,18422462,NVP,rash
+966,18450790,thalidomide,cramps
+967,18450790,thalidomide,sensory axonal neuropathy
+968,18450790,thalidomide,paresthesias
+969,18801087,amiodarone,pulmonary lesion
+970,18801087,amiodarone,membranous glomerulonephritis
+971,18801087,amiodarone,hemosiderotic
+972,18945509,glibenclamide,CAD
+973,18987260,ADR,uraemia
+974,18987260,ADR,focal segmental glomerulosclerosis
+975,18987260,ADR,proteinuria
+976,19020118,tranexamic acid,renal failure
+977,19020118,tranexamic acid,seizures
+978,19108278,halothane,arrhythmias
+979,19108278,ouabain,ventricular tachycardia
+980,19108278,adrenaline,arrhythmias
+981,19139825,Topotecan,neutropenia
+982,19139825,Topotecan,lymphopenia
+983,19154241,lithium,hyperparathyroidism
+984,19154241,lithium,hypercalcemic
+985,19178808,propofol,hypotension
+986,19178808,remifentanil,hypotension
+987,19184102,VPA,obesity
+988,19184102,VPA,hyperinsulinemia
+989,19184102,VPA,NAFLD
+990,19184102,VPA,insulin resistance
+991,19263707,antithyroidmedications,parotiditis
+992,19263707,antithyroidmedications,Antineutrophil cytoplasmic antibody (ANCA)--associated vasculitis
+993,19263707,antithyroidmedications,arthritis
+994,19263707,carbimazole,parotiditis
+995,19263707,carbimazole,pyrexia
+996,19263707,antithyroidmedications,pyrexia
+997,19263707,carbimazole,arthritis
+998,19263707,carbimazole,Antineutrophil cytoplasmic antibody (ANCA)--associated vasculitis
+999,19293073,Aspirin,strokes
+1000,19293073,Aspirin,hemorrhagic
+1001,19293073,Aspirin,gastrointestinal bleeding
+1002,19338378,argatroban,bleeding
+1003,19392810,heroin,rhabdomyolysis
+1004,19392810,methadone,rhabdomyolysis
+1005,19392810,heroin,stroke
+1006,19392810,methadone,stroke
+1007,19419794,L-DOPA,dyskinesias
+1008,19447152,ouabain,bipolar disorder
+1009,19515070,acetaminophen,fulminant liver failure
+1010,19515070,acetaminophen,AKI
+1011,19531695,flecainide,delirium
+1012,19531695,paroxetine,delirium
+1013,19549709,RAD001,thrombocytopenia
+1014,19549709,RAD001,stomatitis
+1015,19549709,RAD001,anemia
+1016,19549709,RAD001,fatigue
+1017,19549709,RAD001,dyspnea
+1018,19553912,sirolimus,anemia
+1019,19655282,cocaine,chest pain
+1020,19655282,cocaine,myocardial ischemia
+1021,19715529,tacrolimus,Posterior reversible encephalopathy syndrome
+1022,19728177,acetaminophen,FHF
+1023,19728177,acetaminophen,intracranial hypertension
+1024,19728177,acetaminophen,cerebral edema
+1025,19815465,VGB,Bilateral visual field abnormalities
+1026,19815465,VGB,retinal toxicity
+1027,19841052,crack cocaine,HIV seroconversion
+1028,19914299,5-FU,memory deficits
+1029,19920070,PB,hepatomegaly
+1030,19967075,Gentamicin,nephropathy
+1031,20024739,alcohol,depression
+1032,20034406,pilocarpine,SE
+1033,20046642,BCNU,deterioration of short-term memory
+1034,20046642,BCNU,deterioration of learning
+1035,20046642,BCNU,cognitive dysfunction
+1036,20129423,carbamazepine,cardiogenic shock
+1037,20129423,carbamazepine,myocarditis
+1038,20129423,carbamazepine,fulminant eosinophilic
+1039,20129423,carbamazepine,hypersensitivity
+1040,20169779,levodopa,dyskinesia
+1041,20169779,"1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine",parkinsonian disability
+1042,20192893,CM,renal damage
+1043,20408947,acetaminophen,hepatotoxicity
+1044,20408947,acetaminophen,ALF
+1045,20447294,STZ,diabetic neuropathy
+1046,20447294,STZ,hyperalgesia
+1047,20447294,carrageenan,inflammation
+1048,20447294,carrageenan,hyperalgesia
+1049,20495512,heparin,HIT
+1050,20495512,heparin,thrombosis
+1051,20513036,Botox,ADSD
+1052,20566328,cocaine,cardiac dysfunction
+1053,20589632,trimethoprim,hemolytic anemia
+1054,20682692,STZ,diabetic nephropathy
+1055,20828385,temsirolimus,necrotic
+1056,20859899,potassium,bradycardia
+1057,20859899,spiranolactone,hyperkalemia
+1058,20859899,ramipril,hyperkalemia
+1059,20927253,alendronate,pain
+1060,20959502,nafcillin,interstitial nephritis
+1061,21195121,lindane,seizures
+1062,24055495,glucose,AD
+1063,24055495,STZ,AD
+1064,24055495,STZ,cognitive deficits
+1065,24055495,galactose,cognitive deficits

@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,incidence,increasing,patients,False
+1,patients,treated,atypical antipsychotic agents,False
+2,agents,affecting,glucose metabolism,False

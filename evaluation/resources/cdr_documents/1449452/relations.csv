@@ -1,0 +1,17 @@
+,Subject,Action,Object,Negation
+0,Digoxin,has,therapeutic,False
+1,Digoxin,has,ratio,False
+2,Digoxin,has,concentrations,False
+3,digoxin,has,effects,False
+4,effects,increasing,peripheral resistance,False
+5,effects,increasing,demands,False
+6,effects,causing,arrhythmias,False
+7,There,is,paucity,False
+8,digoxin,improves,symptoms,False
+9,trial,had,power,False
+10,power,evaluate,mortality,False
+11,analysis,shows,mortality,False
+12,there,is,possibility,False
+13,digoxin,increase,mortality,False
+14,digoxin,increase,myocardial infarction,False
+15,digoxin,considered,line,False

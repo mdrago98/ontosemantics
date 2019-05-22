@@ -1,0 +1,8 @@
+patient
+thalassemia
+desferrioxamine
+DFX
+patient
+renal insufficiency
+acute renal failure
+desferrioxamine

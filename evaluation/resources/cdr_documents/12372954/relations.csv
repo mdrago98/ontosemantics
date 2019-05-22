@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,We,report,case,False
+1,patient,admitted,fever,False
+2,patient,admitted,acute renal failure,False
+3,A 50-year-old patient,taking,lysine,False
+4,A 50-year-old patient,experienced,intermittent fever,False
+5,A 50-year-old patient,experienced,skin rash,False
+6,test,demonstrated,result,False
+7,Treatment,consisted,withdrawal,False

@@ -1,0 +1,24 @@
+,Subject,Action,Object,Negation
+0,cases,reported,literature,False
+1,order,quantify,incidence,False
+2,we,performed,meta,False
+3,trials,comparing,VNR,False
+4,trials,comparing,agents,False
+5,trials,comparing,VNR,False
+6,trials,comparing,drugs,False
+7,trials,comparing,treatment,False
+8,trials,searched,Medicine,False
+9,trials,searched,Medline,False
+10,trials,searched,1987,False
+11,trials,searched,Cochrane,False
+12,Outcomes,were,cardiac events,False
+13,deaths,reported,publication,False
+14,We,found,trials,False
+15,incidence,was,%,False
+16,There,was,difference,True
+17,it,reach,significance,True
+18,it,reach,number,True
+19,risk,was,trials,False
+20,trials,excluding,patients,False
+21,trials,including,patients,False
+22,risk,associated,VNR,False

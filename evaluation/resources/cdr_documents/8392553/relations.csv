@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,We,investigated,effects,False
+1,We,investigated,cardiomyopathy,False
+2,rats,died,days,False
+3,Treatment,prevented,death,False
+4,groups,treated,clentiazem,False
+5,Clentiazem,prevent,responses,True
+6,responses,seen,animals,False
+7,dose,attenuated,response,False

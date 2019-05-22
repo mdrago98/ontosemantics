@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,hepatotoxicity,is,cause,False
+1,Patients,consume,drug,False
+2,Patients,consume,intent,False

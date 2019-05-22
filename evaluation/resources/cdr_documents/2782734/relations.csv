@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,doses,produce,improvements,False
+1,purpose,investigate,treatment,False
+2,micrograms,randomized,crossover,False
+3,micrograms,randomized,crossover,False
+4,Treatment,had,effect,True
+5,There,were,increases,False
+6,pretreatment,displace,DRC,True
+7,DRC,attenuated,treatment,False
+8,treatment,compared,PI,False
+9,There,were,differences,False
+10,There,were,Glu,False
+11,Frequency,reduced,HDS,False
+12,severity,reduced,HDS,False

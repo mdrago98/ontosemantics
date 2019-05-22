@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,Succinylcholine,produces,adverse effects,False
+1,adverse effects,including,muscle fasciculation,False
+2,adverse effects,including,myalgia,False
+3,study,prevent,dose,False
+4,study,prevent,fasciculation,False
+5,study,prevent,myalgia,False

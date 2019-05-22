@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,We,report,case,False
+1,who,admitted,substernal chest pain,False
+2,who,admitted,electrocardiogram,False
+3,patient,took,zolmitriptan,False
+4,the patient,had,migraines,False
+5,the patient,taking,zolmitriptan,False
+6,the patient,taking,days,False
+7,the patient,taking,migraine headache,False
+8,There,was,evidence,True
+9,search,revealed,cases,False
+10,none,associated,TS,True

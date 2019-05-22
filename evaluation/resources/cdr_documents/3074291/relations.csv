@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,effects,compared,study,False
+1,patients,received,oxitropium,False
+2,patients,received,micrograms,False
+3,11,received,theophylline,False
+4,11,received,mg,False
+5,dipping,reduced,periods,False
+6,difference,noticed,placebo,False
+7,difference,noticed,results,False
+8,results,obtained,drug,False
+9,results,obtained,dosage,False
+10,subject,reported,side,False
+11,subjects,reporting,nausea,False
+12,subjects,reporting,theophylline,False
+13,Oxitropium,be,alternative,False

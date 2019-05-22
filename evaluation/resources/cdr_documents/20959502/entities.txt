@@ -1,0 +1,8 @@
+methicillin-sensitive Staphylococcus aureus
+MSSA
+bacteremia
+MSSA
+meningitis
+daptomycin
+serum
+cerebrospinal fluid (CSF)

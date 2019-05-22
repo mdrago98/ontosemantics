@@ -1,0 +1,21 @@
+,Subject,Action,Object,Negation
+0,who,had,episodes,False
+1,None,decompensated,liver disease,True
+2,Onset,varied,days,False
+3,level,ranged,microg%,False
+4,%,had,degrees,False
+5,levels,seen,patients,False
+6,levels,seen,patients,False
+7,onset,seen,patients,False
+8,onset,seen,patients,False
+9,patients,receiving,doses,False
+10,levels,returned,days,False
+11,levels,returned,management,False
+12,status,returned,days,False
+13,status,returned,management,False
+14,encephalopathy,occur,patients,False
+15,patients,receiving,infusion,False
+16,Azotemia,found,patients,False
+17,It,recognize,condition,False
+18,It,recognize,patients,False
+19,patients,receiving,infusion,False

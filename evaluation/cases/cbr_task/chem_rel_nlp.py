@@ -3,14 +3,15 @@ from multiprocessing.pool import ThreadPool
 from os import path, makedirs
 
 import plac
+from Bio import Entrez
 from biolinkmodel.datamodel import NamedThing
 from pandas import read_csv, DataFrame
 
 from cypher_engine.biolink_mapping import commit_sub_graph
 from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from cypher_engine.match import map_relations_with_ontology_terms
-from preprocessor.extensions.svo import Relation
-from preprocessor.spacy_factory import MedicalSpacyFactory
+from nlp_processor.extensions.svo import Relation
+from nlp_processor.spacy_factory import MedicalSpacyFactory
 from scripts.generate_knowledge import generate_doc_details, get_document_subgraph, sort_terms
 from scripts.get_nouns import read_and_parse
 from src.bioengine import logger
@@ -34,7 +35,9 @@ def main(cdr_rel, out):
     frame = read_csv(cdr_rel)
     ids = list(set(frame['pmid']))
     nlp = MedicalSpacyFactory.factory()
+    Entrez.email = 'mattdrago9@gmail.com'
     documents, authors = read_and_parse(id_list=ids, nlp=nlp)
+
     for pubmed_id, doc in documents.items():
         out_dir = path.join(out, pubmed_id)
         if not path.exists(out_dir):
@@ -51,6 +54,9 @@ def main(cdr_rel, out):
                 file.write(f'{author}\n')
         with open(path.join(out_dir, 'doc.txt'), 'w') as file:
             file.write(doc.text)
+        with open(path.join(out_dir, 'entities.txt'), 'w') as file:
+            for entity in doc.ents:
+                file.write(f'{entity}\n')
     # pool = ThreadPool(8)
     # pool.starmap(map_abstracts, zip([doc[0] for doc in list(documents.items())],
     #                                 [doc[1] for doc in list(documents.items())],

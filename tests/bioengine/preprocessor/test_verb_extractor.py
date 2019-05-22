@@ -1,6 +1,6 @@
 from pymetamap import ConceptMMI
 
-from src.bioengine.preprocessor.verb_extractor import chunk_genia_output, meta_map_trigger_regex, \
+from src.bioengine.nlp_processor.verb_extractor import chunk_genia_output, meta_map_trigger_regex, \
     align_concepts_with_sentences
 from unittest import TestCase
 

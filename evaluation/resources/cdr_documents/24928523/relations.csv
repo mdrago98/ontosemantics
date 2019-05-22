@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,response,following,stem cell,False
+1,we,analyzed,safety,False
+2,we,analyzed,consolidation,False
+3,we,analyzed,efficacy,False
+4,VTD,consisted,bortezomib,False
+5,VTD,consisted,dose,False
+6,neutropenia,documented,patients,False
+7,thrombocytopenia,documented,patients,False
+8,reduction,required,case,True
+9,therapy,were,%,False
+10,Patients,had,probability,False
+11,Patients,had,consolidation,False
+12,probability,improving,VGPR,False
+13,probability,improving,consolidation,False

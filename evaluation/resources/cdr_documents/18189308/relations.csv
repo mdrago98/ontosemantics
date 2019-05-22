@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,studies,examined,expression,False
+1,studies,examined,regulation,False
+2,studies,examine,expression,False
+3,studies,examine,durations,False
+4,studies,examine,regulation,False
+5,receptor,bind,NGF,False
+6,receptor,bind,NGF,False
+7,number,increased,cystitis,False
+8,reaction,demonstrated,increases,False
+9,reaction,demonstrated,p75(NTR,False
+10,techniques,identify,bladder,False
+11,techniques,identify,DRG,False
+12,p75(NTR)-IR,increased,cystitis,False
+13,increases,encircling,DRG,False
+14,analyses,demonstrated,pericellular,False

@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Nefiracetam,is,pyrrolidone,False
+1,which,attenuates,learning,False
+2,which,attenuates,post,False
+3,we,evaluated,ability,False
+4,ability,attenuate,amnesia,False
+5,administration,produced,amnesic,True
+6,apomorphine,produced,amnesic,True
+7,administration,reversed,amnesia,False
+8,amnesia,induced,10h,False
+9,effects,mediated,concentrations,True
+10,nefiracetam,augments,processes,False
+11,nefiracetam,augments,stages,False

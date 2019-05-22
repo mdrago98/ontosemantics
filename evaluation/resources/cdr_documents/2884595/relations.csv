@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,We,studied,mortality,False
+1,We,studied,pertussis,False
+2,animals,died,injection,False
+3,animals,died,day,False
+4,Blockade,reduce,mortality,False
+5,Blockade,reduce,encephalopathy,False
+6,Blockade,reduce,mice,False
+7,histamine H1 receptors,reduce,mortality,False
+8,histamine H1 receptors,reduce,encephalopathy,False
+9,histamine H1 receptors,reduce,mice,False

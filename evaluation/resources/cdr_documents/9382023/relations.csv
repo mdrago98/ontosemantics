@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,response,defined,blood pressure,False
+1,response,occurred,patients,False
+2,Patients,had,history,False

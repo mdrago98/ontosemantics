@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,Clarithromycin,is,inhibitor,False
+1,case,is,interest,False
+2,developed,raised,biomarkers,False
+3,developed,raised,issues,False
+4,there,been,effect,True
+5,that,increase,risk,False
+6,medications,inhibit,CYP3A4 enzyme,False
+7,elevation,associated,rhabdomyolysis,False
+8,which,warrant,studies,False

@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,Amiodarone,is,drug,False
+1,herein,is,case,False
+2,herein,is,patient,False
+3,who,developed,lung,False
+4,who,developed,treatment,False
+5,mass,be,lung cancer,False
+6,lesion,composed,infiltrates,False
+7,macrophages,containing,myelinoid,False
+8,The lung mass,was,lesion,False
+9,lung tissue,distributed,hemosiderin deposition,False
+10,capillaries,seen,mass,False
+11,glomeruli,had,membrane,False
+12,case,highlights,possibility,False
+13,membranous glomerulonephritis,be,complication,False

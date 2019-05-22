@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,patient,developed,hemolytic anemia,False
+1,IgG antibody,detected,serum,False
+2,IgG antibody,detected,erythrocytes,False
+3,investigation,reveals,complexity,False

@@ -1,0 +1,28 @@
+patient
+label
+gemfibrozil
+lovastatin
+primary mixed hyperlipidemia
+atherosclerotic vascular disease
+lipid
+low-density lipoprotein
+LDL
+cholesterol
+high-density lipoprotein (HDL) cholesterol
+cholesterol
+HDL cholesterol
+gemfibrozil
+patient
+liver function
+714 creatine phosphokinase
+liver function
+gamma glutamyl transferase
+creatine phosphokinase
+cholesterol
+triglyceride
+LDL cholesterol
+cholesterol
+HDL cholesterol
+Myositis
+creatine phosphokinase
+rhabdomyolysis

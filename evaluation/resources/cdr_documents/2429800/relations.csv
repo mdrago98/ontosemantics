@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,effects,studied,patients,False
+1,histamine release,studied,patients,False
+2,Histamine release,occurred,patients,False
+3,Group,had,correlation,False
+4,dosing,prevented,fall,False
+5,changes,associated,d-tubocurarine,False
+6,H2-antagonists,provides,protection,False

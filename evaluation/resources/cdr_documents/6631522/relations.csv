@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,effects,studied,group,False
+1,lipid,compared,postmortem,False
+2,fall,observed,doxorubicin,False
+3,increase,observed,dose,False
+4,alteration,observed,control,False
+5,dogs,treated,doxorubicin,False
+6,changes,are,initiating,True
+7,changes,are,cardiotoxicity,True

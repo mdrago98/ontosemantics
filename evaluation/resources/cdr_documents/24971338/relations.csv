@@ -1,0 +1,26 @@
+,Subject,Action,Object,Negation
+0,Protocols,used,immunotherapy,False
+1,Protocols,used,transplantation,False
+2,mechanisms,underlying,protocols,False
+3,study,identify,pathways,False
+4,study,identify,rat,False
+5,study,identify,biomarkers,False
+6,study,identify,pathways,False
+7,study,identify,rat,False
+8,study,identify,biomarkers,False
+9,groups,tested,weeks,False
+10,control,followed,weeks,False
+11,lesions,analyzed,hematoxylin,False
+12,lesions,analyzed,eosin,False
+13,rats,presented,proteinuria,False
+14,rats,presented,markers,False
+15,rats,presented,NGAL,False
+16,rats,presented,serum,False
+17,rats,presented,urinary,False
+18,treatment,presented,absent kidney,False
+19,treatment,presented,TGF-β,False
+20,treatment,presented,NF-,False
+21,exposure,aggravated,damage,False
+22,exposure,aggravated,changes,False
+23,Conversion,prevented,damage,False
+24,NGAL,be,biomarker,False

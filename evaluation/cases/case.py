@@ -7,12 +7,14 @@ from biolinkmodel.datamodel import NamedThing
 from cypher_engine.connections import Connection
 from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from cypher_engine.match import map_relations_with_ontology_terms
+from dochandlers.page_objects.bioscientifica_page_object import BioScientificaPageObject
 from dochandlers.page_objects.nature_page_object import NaturePageObject
 from dochandlers.page_objects.oup_page_object import OUPPageObject
 from dochandlers.page_objects.pmc_page_object import PMCPageObject
 from dochandlers.page_objects.springer_page_object import SpringerPageObject
-from preprocessor.extensions.svo import Relation
-from preprocessor.spacy_factory import MedicalSpacyFactory
+from dochandlers.page_objects.wiley_page_object import WileyPageObject
+from nlp_processor.extensions.svo import Relation
+from nlp_processor.spacy_factory import MedicalSpacyFactory
 from scripts.generate_knowledge import sort_terms, generate_doc_details, get_document_subgraph
 
 logger = logging.getLogger(__name__)
@@ -46,11 +48,16 @@ def main(nlp: MedicalSpacyFactory, driver: Connection, pmc_pg):
 
 # [PMCPageObject('28974775', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5894887/'),
 #                 OUPPageObject('11238471', 'https://academic.oup.com/jcem/article/86/3/972/2847394'),
-#                 SpringerPageObject('14722654', 'https://link.springer.com/article/10.1007%2Fs00125-003-1313-3')]
+#                 SpringerPageObject('14722654', 'https://link.springer.com/article/10.1007%2Fs00125-003-1313-3'),
+#                 NaturePageObject('11742412', 'https://www.nature.com/articles/414799a')]
 if __name__ == '__main__':
     nlp = MedicalSpacyFactory.factory()
     driver = KnowledgeGraphConnection()
-    pmc_list = [NaturePageObject('11742412', 'https://www.nature.com/articles/414799a')]
+    # pmc_list = [WileyPageObject('1', '/home/drago/Downloads', True),
+    #     BioScientificaPageObject('21498522', 'https://jme.bioscientifica.com/view/journals/jme/47/1/R1.xml')]
+    pmc_list = [BioScientificaPageObject('21498522', 'https://jme.bioscientifica.com/view/journals/jme/47/1/R1.xml'),
+                WileyPageObject('12829233', '/home/drago/Downloads/johnston2003.html', True)
+                ]
     pool = ThreadPool(10)
     pool.starmap(main, zip(repeat(nlp), repeat(KnowledgeGraphConnection), pmc_list))
 

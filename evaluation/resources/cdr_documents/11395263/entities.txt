@@ -1,0 +1,11 @@
+ethanol
+isoproterenol
+myocardial infarction
+rats
+lipid metabolism
+serum
+heart tissue
+Oral
+isoproterenol
+myocardial infarction
+rats

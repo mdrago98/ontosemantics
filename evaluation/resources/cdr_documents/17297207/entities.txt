@@ -1,0 +1,58 @@
+malaria
+patient
+jaundice
+arrhythmia
+premature ventricular contraction
+quinine
+man
+fever
+chill
+vomiting
+jaundice
+patient
+blood pressure
+pulse rate
+Plasmodium falciparum
+bilirubin
+bilirubin
+bilirubin
+potassium
+Patient
+malaria
+jaundice
+quinine
+dextrose
+patient
+vomitus
+diarrhea
+hearing
+quinine
+patient
+premature ventricular contraction
+PVC
+trigemini
+sinoatrial block
+lidocaine
+dextrose
+potassium
+aspartate
+Quinine
+quinine
+patient
+PVC
+potassium
+condition
+Quinine
+quinidine
+alkaloid
+pro
+arrhythmias
+arrhythmia
+PVC
+quinine
+pro
+heart diseases
+electrolyte disorder
+vomiting
+diarrhea
+malaria

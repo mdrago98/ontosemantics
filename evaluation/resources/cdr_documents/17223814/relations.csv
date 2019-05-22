@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,woman,presented,latissimus dorsi flap,False
+1,A 47-year-old woman,received,chemotherapy,False
+2,A 47-year-old woman,received,epirubicin,False
+3,A 47-year-old woman,maintained,level,False
+4,degree,diagnosed,electrocardiogram,False
+5,atrioventricular block,diagnosed,electrocardiogram,False
+6,pacing,instituted,period,False
+7,guidelines,been,case,True
+8,chemotherapy,exhibit,cardiotoxicity,False
+9,that,develop,years,False
+10,who,received,chemotherapy,False
+11,who,received,time,False
+12,patients,have,electrocardiogram,False

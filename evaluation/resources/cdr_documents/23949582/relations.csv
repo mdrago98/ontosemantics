@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,Ifosfamide,is,nitrogen mustard,False
+1,side effect,raises,requirement,False
+2,requirement,minimize,effect,False
+3,IFO,administrated,lymphocytes,False
+4,action,reduces,frequency,False
+5,action,reduces,comparison,False
+6,IFO,acting,concentration,False
+7,Mesna,reduces,genotoxicity,False
+8,Mesna,acts,inhibitory,False

@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,Pilocarpine,reproduces,sequelae,False
+1,model,studying,mechanisms,False
+2,effects,manipulating,activity,False
+3,seizures,produced,rats,False
+4,animals,pretreated,microinjections,False
+5,doses,resulted,seizures,False
+6,doses,resulted,status epilepticus,False
+7,monitoring,revealed,reduction,False
+8,analysis,revealed,damage,False
+9,which,observed,pilocarpine,False
+10,which,observed,doses,False
+11,doses,exceeding,kg,False
+12,injections,augment,seizures,True
+13,acid,suppressed,appearance,False
+14,Microinjections,prevent,development,False

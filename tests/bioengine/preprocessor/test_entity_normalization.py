@@ -4,8 +4,8 @@ import spacy
 from benepar.spacy_plugin import BeneparComponent
 from nose_parameterized import parameterized, param
 
-from preprocessor.entity_normalization import get_base_word, remove_stop_words, convert_parenthesis, remove_punctuation
-from preprocessor.extensions import BecasNamedEntity
+from nlp_processor.entity_normalization import get_base_word, remove_stop_words, convert_parenthesis, remove_punctuation
+from nlp_processor.extensions import BiologicalNamedEntity
 
 
 class TestEntityNormalization(TestCase):
@@ -16,7 +16,7 @@ class TestEntityNormalization(TestCase):
         """
         # Emulate the medical spacy component
         cls.nlp = spacy.load('en_coref_sm', disable=['ner'])
-        cls.nlp.add_pipe(BecasNamedEntity(cls.nlp))
+        cls.nlp.add_pipe(BiologicalNamedEntity(cls.nlp))
         cls.nlp.add_pipe(BeneparComponent("benepar_en2"))
         stopword_loc = '../../resources/stopwords.txt'
         with open(stopword_loc) as stop_word_file:

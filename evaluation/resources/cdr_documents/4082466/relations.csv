@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,neonates,suffered,generalized seizures,False
+1,neonates,suffered,course,False
+2,Two neonates,received,morphine,False
+3,Two neonates,received,doses,False
+4,who,received,hr,False
+5,neonates,had,seizures,True
+6,convulsions,stopped,cessation,False
+7,morphine,exceed,micrograms,True
+8,morphine,exceed,neonates,True
