@@ -1,4 +1,3 @@
-import neuralcoref
 import spacy
 from benepar.spacy_plugin import BeneparComponent
 from spacy.tokens import Doc, Span
@@ -40,10 +39,11 @@ class MedicalSpacyFactory(SpacyI):
         if config is None:
             config = Config().get_property('spacy')
         disable = config['pipeline']['disable'] if 'disable' in config['pipeline'] else []
-        nlp = spacy.load('en_coref_sm', disable=disable)
+        nlp = spacy.load('xx_ent_wiki_sm', disable=disable)
         for stop_word in MedicalSpacyFactory._load_stop():
             lexeme = nlp.vocab[stop_word]
             lexeme.is_stop = True
+        # nlp.vocab.vectors.from_glove("/home/drago/thesis/BioSentVec_PubMed_MIMICIII-bigram_d700.bin")
         if enable_ner:
             nlp.add_pipe(BiologicalNamedEntity(nlp))
         if enable_benepar:
