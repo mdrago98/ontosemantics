@@ -1,9 +1,17 @@
 ,Subject,Action,Object,Negation
-0,doxorubicin,be,agent,False
-1,damage,results,formation,False
-2,Reactive oxygen species,affect,cardiac myocytes,False
-3,cells,have,antioxidant,False
-4,monohydroxyethylrutoside,showed,cardioprotection,False
-5,monohydroxyethylrutoside,showed,iron chelating,False
-6,interval,be,influence,False
-7,aim,investigate,effect,False
+0,anthracyclin doxorubicin,continues,cardiotoxicity,False
+1,cardiac damage,results,formation,False
+2,cardiac damage,results,free radicals,False
+3,cardiac damage,results,DOX,False
+4,Reactive oxygen species,affect,myocytes,False
+5,Reactive oxygen species,affect,antioxidant defense system,False
+6,cells,affect,myocytes,False
+7,cells,affect,antioxidant defense system,False
+8,cells,seem,antioxidant defense system,False
+9,semisynthetic flavonoid monohydroxyethylrutoside,showed,cardioprotection,False
+10,semisynthetic flavonoid monohydroxyethylrutoside,showed,cardiotoxicity,False
+11,semisynthetic flavonoid monohydroxyethylrutoside,showed,radical scavenging,False
+12,time interval,expected,monoHER,False
+13,time interval,expected,monoHER,False
+14,time interval,expected,cardioprotective effect,False
+15,time interval,expected,monoHER,False

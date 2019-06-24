@@ -1,10 +1,15 @@
 5-Hydroxytryptamine
+stimulation
 5-HT 2C receptors
-exerts
-neurotransmission
+tonic
+inhibitory
+influence
+dopaminergic neurotransmission
+activation
 5-HT 2A receptors
-neurotransmission
+stimulated
+DAergic neurotransmission
 antidepressant
 trazodone
-5-HT 2A/2C receptor
-antagonist
+5-HT
+receptor antagonist

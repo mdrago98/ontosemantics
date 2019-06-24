@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,role,investigated,mice,False
+1,Scopolamine,induced,amnesia,False
+2,Naloxone,attenuated,retention,False
+3,Naloxone,attenuated,peak,False
+4,effect,antagonized,morphine,False
+5,effect,antagonized,kg,False
+6,administration,attenuated,amnesia,False
+7,results,extend,findings,False
+8,findings,implicating,interaction,False
+9,mechanism,involving,pathway,False

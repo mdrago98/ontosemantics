@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,Effects,induce,rats,False
+1,Effects,induce,BS,False
+2,enzymes,involved,BS,False
+3,composition,analyzed,rats,False
+4,rats,treated,EE,False
+5,size,decreased,%,False
+6,synthesis,affected,rats,True
+7,Delta22-isomer,contributed,%,False
+8,Delta22-isomer,contributed,%,False
+9,reduction,found,rats,False
+10,rats,treated,EE,False
+11,Activity,decreased,rats,False
+12,levels,reduced,rats,False
+13,intrahepatic cholestasis,associated,inhibition,False

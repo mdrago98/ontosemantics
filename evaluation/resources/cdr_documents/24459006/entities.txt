@@ -1,8 +1,18 @@
+case
 fluconazole
 agranulocytosis
+thrombocytopenia
+recovery
+discontinuation
+therapy
 patient
+changes
 white blood cells
 platelets
+administration
 fluconazole
-recover
-blood dyscrasias
+discontinuation
+case
+drug-induced blood dyscrasias
+treatment
+drug

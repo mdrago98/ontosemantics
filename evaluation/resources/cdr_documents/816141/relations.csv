@@ -1,5 +1,14 @@
 ,Subject,Action,Object,Negation
-0,patient,developed,hemolytic anemia,False
-1,IgG antibody,detected,serum,False
-2,IgG antibody,detected,erythrocytes,False
-3,investigation,reveals,complexity,False
+0,patient,developed,renal disease,False
+1,patient,developed,Coombs-positive hemolytic anemia,False
+2,patient,developed,cephalothin therapy,False
+3,anti-cephalothin IgG antibody,detected,serum,False
+4,anti-cephalothin IgG antibody,detected,erythrocytes,False
+5,nonimmunologic binding,demonstrated,cephalothin-coated normal red cells,False
+6,serum proteins,demonstrated,cephalothin-coated normal red cells,False
+7,Skin tests,revealed,cephalothin,False
+8,patient,revealed,cephalothin,False
+9,patient,sensitized,cephalothin,False
+10,investigation,reveals,drug-induced hemolytic anemias,False
+11,investigation,reveals,complexity,False
+12,investigation,reveals,immune mechanisms,False

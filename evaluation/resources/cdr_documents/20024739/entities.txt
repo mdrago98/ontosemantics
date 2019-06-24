@@ -1,25 +1,69 @@
+evaluated
+association
+alcohol consumption
 depression
-HIV disease progression
+effects
+HIV disease
+progression
 women
 HIV
+study
 women
 HIV
-CD4+T-cell
-depression symptoms
+US
+cities
+participants
+physical examination
+medical record extraction
+venipuncture
+CD4+T-cell counts determination
+measurement
+depression
+symptoms
+self-report Center
+Epidemiological Studies-Depression Scale
+alcohol use assessment
+enrollment
+semiannually
+Multilevel random coefficient ordinal models
+multilevel models
+joint responses
+analysis
+association
+level
+alcohol use
+CD4+ T-cell
+counts
+participants
+stratified
+antiretroviral therapy
+ART
+association
+alcohol
+CD4+ T-cell
+statistical significance
+association
+alcohol consumption
+depression
+significant
 Depression
-joint
-CD4+
-T-cell
-CD4+
-T-cell
-reach
-depression
-Depression
-CD4+
-T-cell
+negative
+CD4+ T-cell
+counts
+ART
+use
+findings
+alcohol consumption
+association
 depression
 depression
-HIV disease progression
-psychological
+associated with
+HIV disease
+findings
+provision
+alcohol use
+psychological resources
+improve
+health
 women
 HIV

@@ -1,6 +1,15 @@
 ,Subject,Action,Object,Negation
 0,dementia,documented,man,False
-1,who,had,history,False
-2,which,been,case,False
-3,mechanisms,include,central nervous system,False
-4,effect,mediated,hyperammonemia,False
+1,dementia,documented,epilepsy,False
+2,dementia,documented,history,False
+3,dementia,documented,decline,False
+4,dementia,documented,cognitive abilities,False
+5,dementia,documented,neuropsychological studies,False
+6,neuropsychological testing,revealed,drug,False
+7,neuropsychological testing,revealed,IQ,False
+8,neuropsychological testing,revealed,clinical recovery,False
+9,neuropsychological testing,revealed,intellectual capacity,False
+10,weeks,revealed,drug,False
+11,weeks,revealed,IQ,False
+12,weeks,revealed,clinical recovery,False
+13,weeks,revealed,intellectual capacity,False

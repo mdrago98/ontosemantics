@@ -1,13 +1,59 @@
 ,Subject,Action,Object,Negation
-0,Blood pressure,manipulated,min,False
-1,blood pressure,increased,mm,False
-2,blood pressure,increased,min,False
-3,injury,was,group,False
-4,which,was,turn,False
-5,gravity,was,group,False
-6,Blue,was,group,False
-7,which,was,turn,False
-8,study,supports,hypothesis,False
-9,interval,decreases,brain,False
-10,interval,decreases,edema,False
-11,hypertension,increases,risk,False
+0,effect,determined,middle cerebral artery occlusion,False
+1,effect,determined,rats,False
+2,effect,determined,phenylephrine-induced hypertension,False
+3,effect,determined,ischemic brain injury,False
+4,Blood pressure,manipulated,schedules,False
+5,Blood pressure,manipulated,reperfusion,False
+6,Blood pressure,manipulated,reperfusion,False
+7,Blood pressure,manipulated,reperfusion,False
+8,Blood pressure,manipulated,hypertension,False
+9,Blood pressure,manipulated,normotension,False
+10,Control,manipulated,schedules,False
+11,Control,manipulated,reperfusion,False
+12,Control,manipulated,reperfusion,False
+13,Control,manipulated,reperfusion,False
+14,Control,manipulated,hypertension,False
+15,Control,manipulated,normotension,False
+16,blood pressure,manipulated,schedules,False
+17,blood pressure,manipulated,reperfusion,False
+18,blood pressure,manipulated,reperfusion,False
+19,blood pressure,manipulated,reperfusion,False
+20,blood pressure,manipulated,hypertension,False
+21,blood pressure,manipulated,normotension,False
+22,Control,increased,reperfusion,False
+23,Control,increased,reperfusion,False
+24,Control,increased,hypertension,False
+25,Control,increased,normotension,False
+26,blood pressure,increased,reperfusion,False
+27,blood pressure,increased,reperfusion,False
+28,blood pressure,increased,hypertension,False
+29,blood pressure,increased,normotension,False
+30,brain injury,evaluated,rats,False
+31,brain injury,evaluated,group,False
+32,brain injury,evaluated,staining tissue,False
+33,brain injury,evaluated,"2,3,5-triphenyltetrazolium chloride",False
+34,brain injury,evaluated,microgravimetry,False
+35,study,supports,hypothesis,False
+36,study,supports,reperfusion,False
+37,study,supports,hypertension,False
+38,study,supports,brain injury,False
+39,study,supports,risk,False
+40,study,supports,vasogenic edema,False
+41,short interval,supports,hypothesis,False
+42,short interval,supports,reperfusion,False
+43,short interval,supports,hypertension,False
+44,short interval,supports,brain injury,False
+45,short interval,supports,risk,False
+46,short interval,supports,vasogenic edema,False
+47,hypertension,supports,hypothesis,False
+48,hypertension,supports,reperfusion,False
+49,hypertension,supports,hypertension,False
+50,hypertension,supports,brain injury,False
+51,hypertension,supports,risk,False
+52,hypertension,supports,vasogenic edema,False
+53,short interval,decreases,reperfusion,False
+54,short interval,decreases,hypertension,False
+55,short interval,decreases,brain injury,False
+56,hypertension,increases,risk,False
+57,hypertension,increases,vasogenic edema,False

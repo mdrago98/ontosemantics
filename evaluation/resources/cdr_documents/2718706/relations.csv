@@ -1,14 +1,33 @@
 ,Subject,Action,Object,Negation
-0,feasibility,using,labetalol,False
-1,feasibility,studied,adult,False
-2,patients,undergoing,ear,False
-3,arterial pressure,decreased,86,False
-4,concentration,was,vol%,False
-5,patients,received,fentanyl,False
-6,patients,received,d-tubocurarine,False
-7,dose,lowering,blood pressure,False
-8,conditions,regarding,bleeding,False
-9,conditions,estimated,manner,False
-10,concentration,rose,groups,False
-11,there,was,rebound phenomenon,True
-12,labetalol,induces,hypotension,False
+0,feasibility,studied,labetalol,False
+1,feasibility,studied,hypotensive agent,False
+2,feasibility,studied,combination,False
+3,feasibility,studied,inhalation anaesthetics,False
+4,feasibility,studied,patients,False
+5,feasibility,studied,middle-ear surgery,False
+6,halothane,studied,labetalol,False
+7,halothane,studied,hypotensive agent,False
+8,halothane,studied,combination,False
+9,halothane,studied,inhalation anaesthetics,False
+10,halothane,studied,patients,False
+11,halothane,studied,middle-ear surgery,False
+12,patients,received,fentanyl,False
+13,heart rate,was,hypotension,False
+14,operating conditions,estimated,bleeding,False
+15,operating conditions,estimated,groups,False
+16,serum creatinine concentration,rose,hypotension,False
+17,serum creatinine concentration,rose,groups,False
+18,serum creatinine concentration,rose,values,False
+19,serum creatinine concentration,rose,hypotension,False
+20,serum creatinine concentration,rose,level,False
+21,serum creatinine concentration,rose,groups,False
+22,results,indicate,hypotension,False
+23,results,indicate,tachycardia,False
+24,labetalol,indicate,hypotension,False
+25,labetalol,indicate,tachycardia,False
+26,hypertension,indicate,hypotension,False
+27,hypertension,indicate,tachycardia,False
+28,labetalol,induces,hypotension,False
+29,labetalol,induces,tachycardia,False
+30,hypertension,induces,hypotension,False
+31,hypertension,induces,tachycardia,False

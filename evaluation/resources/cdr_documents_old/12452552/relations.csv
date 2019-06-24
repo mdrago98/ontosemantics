@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,patient,developed,neuroleptic malignant syndrome,False
+1,patient,developed,administration,False
+2,intestinal bleeding,observed,episode,False
+3,NMS,complicated,intestinal bleeding,False

@@ -1,10 +1,16 @@
 Succinylcholine
+frequent
 adverse effects
 muscle fasciculation
 myalgia
+optimal
+dose
 rocuronium
-succinylcholine
-fasciculation
+prevent
+succinylcholine-induced fasciculation
 myalgia
+evaluated
+influence
 rocuronium
+speed
 succinylcholine

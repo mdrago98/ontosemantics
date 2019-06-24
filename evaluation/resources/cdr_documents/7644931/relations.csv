@@ -1,13 +1,36 @@
 ,Subject,Action,Object,Negation
-0,Paclitaxel,combined,carboplatin,False
-1,Carboplatin,given,target,False
-2,Carboplatin,given,concentration,False
-3,paclitaxel,escalated,patient,False
-4,paclitaxel,escalated,m2,False
-5,level,expanded,study,False
-6,level,achieved,m2,False
-7,level,achieved,modification,False
-8,level,achieved,toxicities,False
-9,effects,noted,dose,False
-10,effects,noted,responses,False
-11,Toxicities,compared,cohort,False
+0,Paclitaxel,combined,infusion,False
+1,Paclitaxel,combined,carboplatin,False
+2,Paclitaxel,combined,phase I/II study,False
+3,Paclitaxel,combined,patients,False
+4,Paclitaxel,combined,non-small cell lung cancer,False
+5,Carboplatin,given,area,False
+6,Carboplatin,given,concentration-time curve,False
+7,Carboplatin,given,Calvert formula,False
+8,paclitaxel,given,area,False
+9,paclitaxel,given,concentration-time curve,False
+10,paclitaxel,given,Calvert formula,False
+11,level,expanded,phase II study,False
+12,level,expanded,modification,False
+13,level,expanded,nonhematologic toxicities,False
+14,level,expanded,phase II study,False
+15,level,expanded,modification,False
+16,level,expanded,nonhematologic toxicities,False
+17,arthralgia,expanded,phase II study,False
+18,arthralgia,expanded,modification,False
+19,arthralgia,expanded,nonhematologic toxicities,False
+20,level,required,modification,False
+21,level,required,nonhematologic toxicities,False
+22,arthralgia,required,modification,False
+23,arthralgia,required,nonhematologic toxicities,False
+24,Therapeutic effects,noted,responses,False
+25,Therapeutic effects,noted,patients,False
+26,Toxicities,compared,cohort,False
+27,Toxicities,compared,patients,False
+28,Toxicities,compared,phase I trial,False
+29,Toxicities,compared,paclitaxel,False
+30,Carboplatin,appear,hematologic toxicities,True
+31,Carboplatin,appear,weeks,True
+32,paclitaxel/carboplatin combination,appear,hematologic toxicities,True
+33,paclitaxel/carboplatin combination,appear,weeks,True
+34,paclitaxel/carboplatin combination,dosed,weeks,False

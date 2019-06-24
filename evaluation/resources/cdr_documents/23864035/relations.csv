@@ -1,25 +1,16 @@
 ,Subject,Action,Object,Negation
-0,Bortezomib,is,therapy,False
-1,study,investigated,combination,False
-2,study,investigated,days,False
-3,study,investigated,salvage,False
-4,study,investigated,stem cell,False
-5,number,was,2,False
-6,percent,received,drugs,False
-7,drugs,included,line,False
-8,drugs,included,bort,False
-9,number,was,6,False
-10,%,achieved,response,False
-11,response,including,%,False
-12,response,including,%,False
-13,response,achieved,response,False
-14,durations,were,8,False
-15,which,occurred,%,False
-16,time,were,8.9,False
-17,time,were,months,False
-18,PFS,observed,patients,False
-19,patients,achieving,CR,False
-20,patients,receiving,bort,False
-21,patients,receiving,line,False
-22,dex,was,salvage,False
-23,dex,was,those,False
+0,retrospective study,investigated,combination,False
+1,retrospective study,investigated,bort,False
+2,retrospective study,investigated,days,False
+3,retrospective study,investigated,day,False
+4,retrospective study,investigated,bort,False
+5,retrospective study,investigated,salvage treatment,False
+6,retrospective study,investigated,patients,False
+7,retrospective study,investigated,R/R,False
+8,retrospective study,investigated,autologous stem cell transplantation,False
+9,grade III,occurred,patients,False
+10,grade III,occurred,treatment discontinuation,False
+11,PFS,observed,patients,False
+12,PFS,observed,CR,False
+13,PFS,observed,bort-dex,False
+14,PFS,observed,therapy,False

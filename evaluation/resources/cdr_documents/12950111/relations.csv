@@ -1,15 +1,10 @@
 ,Subject,Action,Object,Negation
-0,Gustatory hyperhidrosis,is,sweating,False
-1,sweating,associated,eating,False
-2,sweating,smelling,food,False
-3,options,include,drugs,False
-4,patients,treated,%,False
-5,patients,had,gustatory hyperhidrosis,False
-6,which,interfered,activities,False
-7,which,associated,hyperhidrosis,False
-8,sweating,eating,food,False
-9,incidents,eating,foods,False
-10,Adverse effects,included,dry mouth,False
-11,Adverse effects,included,sore throat,False
-12,Adverse effects,included,headache,False
-13,application,appeared,method,False
+0,Gustatory hyperhidrosis,is,facial sweating,False
+1,Gustatory hyperhidrosis,is,eating,False
+2,Gustatory hyperhidrosis,is,food,False
+3,patients,had,gustatory hyperhidrosis,False
+4,patients,had,social activities,False
+5,reduced,reduced,sweating,False
+6,Adverse effects,included,mildly dry mouth,False
+7,Adverse effects,included,patients,False
+8,Adverse effects,included,patient,False

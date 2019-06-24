@@ -1,0 +1,21 @@
+dipyridamole
+coronary artery disease
+body
+myocardial infarction
+anterior infarction
+inferior infarction
+INF-MI
+thoracic surface
+dipyridamole
+depression
+INF-MI
+depression
+INF-MI
+body
+depression
+dipyridamole
+dipyridamole
+myocardial ischemia
+myocardial blood flow
+dipyridamole
+coronary artery disease

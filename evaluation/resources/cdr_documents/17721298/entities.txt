@@ -1,4 +1,10 @@
+report
+cases
 corneal ulcers
+associated with
 drug abuse
 pathogenesis
 ulcers
+management
+patients
+reviewed

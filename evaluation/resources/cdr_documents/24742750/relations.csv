@@ -1,21 +1,51 @@
 ,Subject,Action,Object,Negation
-0,which,express,QT,False
-1,duration,be,tool,False
-2,tool,predict,channel,False
-3,there,is,report,True
-4,technique,predict,multichannel,False
-5,technique,predict,QT,False
-6,report,predict,multichannel,False
-7,report,predict,QT,False
-8,FPD,detect,QT,False
-9,concentration,shortened,FPDc,False
-10,blockers,prolonged,FPDc,False
-11,blockers,prolonged,manner,False
-12,which,cause,Torsade,False
-13,which,cause,practice,False
-14,blockers,cause,Torsade,False
-15,blockers,cause,practice,False
-16,blockers,produced,afterdepolarization,False
-17,CMs,predict,effects,False
-18,assay,detect,EAD,False
-19,assay,detect,TdP,False
+0,Field potential duration,reported,stem,False
+1,Field potential duration,reported,QT interval,False
+2,Field potential duration,reported,electrocardiogram,False
+3,Field potential duration,reported,K(+) channel,False
+4,Field potential duration,reported,effects,False
+5,Field potential duration,reported,QT interval,False
+6,technique,is,potential,False
+7,technique,is,QT,False
+8,technique,showing,potential,False
+9,technique,showing,QT,False
+10,technique,used,potential,False
+11,technique,used,QT,False
+12,FPD,is,study,False
+13,FPD,is,MEA,False
+14,FPD,is,hiPS-CMs,False
+15,FPD,is,QT,False
+16,FPD,is,multichannel blockers,False
+17,FPD,show,MEA,False
+18,FPD,show,hiPS-CMs,False
+19,FPD,show,QT,False
+20,FPD,show,multichannel blockers,False
+21,FPD,detect,MEA,False
+22,FPD,detect,hiPS-CMs,False
+23,FPD,detect,QT,False
+24,FPD,detect,multichannel blockers,False
+25,hiPS-CMs,seeded,MEA,False
+26,hiPS-CMs,seeded,drug exposure,False
+27,hiPS-CMs,seeded,vehicle,False
+28,IKr,prolonged,FPD,False
+29,Ca(2+) channel blockers,prolonged,FPD,False
+30,FPDc,prolonged,FPD,False
+31,Torsade de Pointes,reported,clinical practice,False
+32,Torsade de Pointes,reported,afterdepolarization,False
+33,Torsade de Pointes,cause,clinical practice,False
+34,Torsade de Pointes,cause,afterdepolarization,False
+35,Torsade de Pointes,produced,clinical practice,False
+36,Torsade de Pointes,produced,afterdepolarization,False
+37,hiPS-CMs,predict,MEA system,False
+38,hiPS-CMs,predict,effects of,False
+39,hiPS-CMs,predict,drug candidates,False
+40,hiPS-CMs,predict,QT interval,False
+41,study,shows,EAD,False
+42,study,shows,drugs,False
+43,study,shows,TdP,False
+44,assay,shows,EAD,False
+45,assay,shows,drugs,False
+46,assay,shows,TdP,False
+47,assay,help,EAD,False
+48,assay,help,drugs,False
+49,assay,help,TdP,False

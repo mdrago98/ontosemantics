@@ -1,15 +1,69 @@
 ,Subject,Action,Object,Negation
-0,purpose,compare,influence,False
-1,purpose,compare,control,False
-2,series,performed,WKY,False
-3,slope,determined,relationships,False
-4,slope,determined,phenylephrine,False
-5,Increases,occurred,LV,False
-6,ANP,cause,changes,True
-7,it,abolished,MAP,False
-8,CCB,reduced,WKY,False
-9,CCB,reduced,LV,False
-10,ANP + AVP,decreased,CCB,False
-11,ANP + AVP,decreased,MAP,False
-12,results,indicate,that,False
-13,AVP,exert,effects,False
+0,SHR,was,study,False
+1,SHR,was,influence,False
+2,SHR,was,central arginine vasopressin,False
+3,SHR,was,control,False
+4,SHR,was,arterial blood pressure,False
+5,SHR,was,normotensive,False
+6,SHR,compare,influence,False
+7,SHR,compare,central arginine vasopressin,False
+8,SHR,compare,control,False
+9,SHR,compare,arterial blood pressure,False
+10,SHR,compare,normotensive,False
+11,Sensitivity,determined,cardiac component,False
+12,Sensitivity,determined,baroreflex,False
+13,Sensitivity,determined,regression line,False
+14,Sensitivity,determined,relationships,False
+15,Sensitivity,determined,systolic arterial pressure,False
+16,Sensitivity,determined,phenylephrine,False
+17,CCB,measured,administration,False
+18,CCB,measured,vehicle,False
+19,Increases,occurred,MAP,False
+20,Increases,occurred,LV administration,False
+21,Increases,occurred,AVP,False
+22,Increases,occurred,WKY,False
+23,Increases,occurred,SHR,False
+24,ANP,cause,MAP,True
+25,ANP,cause,strains,True
+26,ANP,cause,vehicle,True
+27,ANP,cause,MAP,True
+28,ANP,cause,WKY,True
+29,CCB,reduced,WKY,False
+30,CCB,reduced,LV administration,False
+31,CCB,reduced,AVP,False
+32,CCB,reduced,hypotension,False
+33,administration,decreased,SHR,False
+34,administration,decreased,ANP,False
+35,administration,decreased,CCB,False
+36,administration,decreased,MAP,False
+37,results,indicate,differential effects,False
+38,results,indicate,blood pressure,False
+39,results,indicate,heart rate,False
+40,results,indicate,WKY,False
+41,results,indicate,interaction,False
+42,results,indicate,peptides,False
+43,results,indicate,blood pressure regulation,False
+44,results,indicate,level,False
+45,results,indicate,central nervous system,False
+46,AVP,indicate,differential effects,False
+47,AVP,indicate,blood pressure,False
+48,AVP,indicate,heart rate,False
+49,AVP,indicate,WKY,False
+50,AVP,indicate,interaction,False
+51,AVP,indicate,peptides,False
+52,AVP,indicate,blood pressure regulation,False
+53,AVP,indicate,level,False
+54,AVP,indicate,central nervous system,False
+55,AVP,applied,differential effects,False
+56,AVP,applied,blood pressure,False
+57,AVP,applied,heart rate,False
+58,AVP,applied,WKY,False
+59,AVP,applied,interaction,False
+60,AVP,applied,peptides,False
+61,AVP,applied,blood pressure regulation,False
+62,AVP,applied,level,False
+63,AVP,applied,central nervous system,False
+64,AVP,exert,differential effects,False
+65,AVP,exert,blood pressure,False
+66,AVP,exert,heart rate,False
+67,AVP,exert,WKY,False

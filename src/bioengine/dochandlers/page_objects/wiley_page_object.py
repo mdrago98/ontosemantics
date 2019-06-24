@@ -1,9 +1,7 @@
 from urllib.error import HTTPError
-from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 
 from src.bioengine.dochandlers.page_objects.page_object import PageObject
-from settings import Config
 from utils.citation_utils import strip_citations
 
 

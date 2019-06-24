@@ -1,10 +1,26 @@
 ,Subject,Action,Object,Negation
-0,deficiency,increase,sensitivity,False
-1,Iso,induced,increase,False
-2,Iso,induced,TGR,False
-3,LV hypertrophy,was,TGR,False
-4,LV hypertrophy,was,g,False
-5,LV hypertrophy,was,LV,False
-6,LV hypertrophy,was,body,False
-7,LV hypertrophy,associated,downregulation,False
-8,decrease,attenuated,TGR,False
+0,permanent deficiency,shown,brain renin-angiotensin system,False
+1,permanent deficiency,shown,sensitivity,False
+2,permanent deficiency,shown,baroreflex control,False
+3,permanent deficiency,shown,heart rate,False
+4,permanent deficiency,increase,brain renin-angiotensin system,False
+5,permanent deficiency,increase,sensitivity,False
+6,permanent deficiency,increase,baroreflex control,False
+7,permanent deficiency,increase,heart rate,False
+8,rats,used,low brain angiotensinogen,False
+9,LV hypertrophy,associated with,TGR,False
+10,LV hypertrophy,associated with,downregulation,False
+11,LV hypertrophy,associated with,beta-AR,False
+12,LV hypertrophy,associated with,LV beta-AR kinase-1,False
+13,LV hypertrophy,associated with,SD,False
+14,decrease,attenuated,heart rate,False
+15,decrease,attenuated,metoprolol,False
+16,decrease,attenuated,rats,False
+17,decrease,attenuated,TGR,False
+18,decrease,attenuated,SD,False
+19,results,indicate,cardiac inotropic response,False
+20,results,indicate,sympathetic outflow,False
+21,results,indicate,heart,False
+22,TGR,indicate,cardiac inotropic response,False
+23,TGR,indicate,sympathetic outflow,False
+24,TGR,indicate,heart,False

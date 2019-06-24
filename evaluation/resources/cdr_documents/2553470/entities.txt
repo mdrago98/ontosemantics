@@ -1,42 +1,73 @@
-N-methyl-D-aspartate (NMDA) receptor
-antagonist
-anticonvulsant
+MK-801
+noncompetitive N-methyl-D-aspartate
+anticonvulsant effects
 rats
-seizure
+seizure models
+coadministration
 lithium
 pilocarpine
+administration
+high dose
 pilocarpine
-anticonvulsant
-lithium
-pilocarpine
+results
+pretreatment
+MK-801
+effective
+dose-dependent
+anticonvulsant action
+lithium-pilocarpine model
 rats
+treated
 pilocarpine
-biochemical mechanisms
-seizures
-anticonvulsant
-lithium
-pilocarpine
+biochemical
+mechanisms
+models
+anticonvulsant effect
+MK-801
+lithium-pilocarpine model
 periods
 seizure
+activity
+observation
+in vivo
+in vitro
+MK-801
 binding
-agonist
+agonist-induced opening
+channel sites
 NMDA receptor
-seizures
+block seizures
+induced
 lithium
 pilocarpine
+administration
 anticonvulsants
 pilocarpine
 status epilepticus
+block
+lethality
 seizures
+Administration
+MK-801 30
 pilocarpine
 status epilepticus
-behavioral
-seizure
+reduced
+electrical
+behavioral seizure
+activity
+enhanced
+survival rate
+results
+activation
 NMDA receptors
 status epilepticus
-brain
-lithium
-pilocarpine
+brain damage
+lithium-pilocarpine model
+results
+nonconvulsive
+doses
 NMDA
 pilocarpine
+synergistic
 status epilepticus
+mortality

@@ -1,5 +1,7 @@
-NK1 receptors
-antagonists
+study
+function
+P2X3
+NK1 receptors antagonists
 cyclophosphamide
 cystitis
 rats

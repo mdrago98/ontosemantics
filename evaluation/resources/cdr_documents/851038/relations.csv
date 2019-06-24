@@ -1,6 +1,30 @@
 ,Subject,Action,Object,Negation
 0,Hypokalemia,observed,patients,False
-1,influence,studied,patients,False
-2,intake,cause,excretion,False
-3,effect,occurred,individuals,False
-4,results,indicate,correlation,False
+1,influence,studied,L-dopa,False
+2,influence,studied,excretion,False
+3,influence,studied,potassium,False
+4,influence,studied,patients,False
+5,influence,studied,hypokalemia,False
+6,influence,studied,determination,False
+7,influence,studied,renal plasma flow,False
+8,influence,studied,potassium,False
+9,influence,studied,potassium,False
+10,intake,found,excretion,False
+11,intake,found,potassium,False
+12,intake,found,hypokalemic,True
+13,intake,found,patients,False
+14,effect,prohibited,renal function,False
+15,effect,prohibited,administration,False
+16,effect,prohibited,peripheral dopa decarbodylase inhibitor,False
+17,effect,known,individuals,True
+18,effect,known,correlation,True
+19,effect,known,aldosterone,True
+20,effect,known,L-dopa,True
+21,results,known,individuals,True
+22,results,known,correlation,True
+23,results,known,aldosterone,True
+24,results,known,L-dopa,True
+25,effect,occurred,individuals,False
+26,results,indicate,correlation,False
+27,results,indicate,aldosterone,False
+28,results,indicate,L-dopa,False

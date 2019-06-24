@@ -1,2 +1,9 @@
 ,Subject,Action,Object,Negation
-0,131I,is,therapy,False
+0,cases,described,propylthiouracil-associated acute hepatitis,False
+1,cases,described,methimazole-associated hepatocellular necrosis,False
+2,cases,described,propylthiouracil-associated lupus-like syndrome,False
+3,literature,reviewed,antithyroid drug side effects,False
+4,literature,reviewed,occurrence,False
+5,literature,reviewed,thyroidectomy,False
+6,literature,reviewed,antithyroid drugs,False
+7,131I,concluded,hyperthyroidism,False

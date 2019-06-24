@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,feasibility,using,labetalol,False
+1,feasibility,studied,adult,False
+2,patients,undergoing,ear,False
+3,arterial pressure,decreased,86,False
+4,concentration,was,vol%,False
+5,patients,received,fentanyl,False
+6,patients,received,d-tubocurarine,False
+7,dose,lowering,blood pressure,False
+8,conditions,regarding,bleeding,False
+9,conditions,estimated,manner,False
+10,concentration,rose,groups,False
+11,there,was,rebound phenomenon,True
+12,labetalol,induces,hypotension,False

@@ -1,18 +1,59 @@
 ,Subject,Action,Object,Negation
 0,Cardiotoxicity,is,complication,False
-1,complication,occurring,treatment,False
-2,We,report,case,False
-3,herein,report,case,False
-4,who,had,colon cancer,False
-5,patient,referred,chemotherapy,False
-6,"a 70-year-old man with 5-FU-induced cardiotoxicity, in whom a high serum level of alpha-fluoro-beta-alanine (FBAL) was observed",had,history,True
-7,patient,received,infusion,False
-8,precordial pain,occurred,serum,False
-9,precordial pain,disappeared,discontinuation,False
-10,changes,disappeared,discontinuation,False
-11,S-1,has,inhibitory,False
-12,which,catalyzes,degradative,False
-13,which,catalyzes,FBAL,False
-14,value,measured,day,False
-15,patient,achieved,response,False
-16,patient,achieved,initiation,False
+1,Cardiotoxicity,is,5-fluorouracil,False
+2,Cardiotoxicity,is,malignancies,False
+3,patient,referred,liver,False
+4,patient,referred,chemotherapy,False
+5,patient,referred,affiliated hospital,False
+6,patient,referred,cardiac history,True
+7,patient,received,admission,False
+8,patient,received,5-FU,False
+9,patient,received,right bundle branch block,False
+10,patient,received,serum,False
+11,precordial pain,received,admission,False
+12,precordial pain,received,5-FU,False
+13,precordial pain,received,right bundle branch block,False
+14,precordial pain,received,serum,False
+15,precordial pain,occurred,right bundle branch block,False
+16,precordial pain,occurred,serum,False
+17,precordial pain,disappeared,discontinuation,False
+18,precordial pain,disappeared,5-FU,False
+19,precordial pain,considered,patient,False
+20,precordial pain,abandoned,patient,False
+21,precordial pain,abandoned,5-FU,False
+22,administration,abandoned,patient,False
+23,administration,abandoned,5-FU,False
+24,oral administration,instituted,S-1,False
+25,oral administration,instituted,5-FU,False
+26,oral administration,instituted,dihydropyrimidine dehydrogenase,False
+27,oral administration,instituted,degradative,False
+28,oral administration,instituted,5-FU,False
+29,oral administration,instituted,FBAL,False
+30,derivative,instituted,S-1,False
+31,derivative,instituted,5-FU,False
+32,derivative,instituted,dihydropyrimidine dehydrogenase,False
+33,derivative,instituted,degradative,False
+34,derivative,instituted,5-FU,False
+35,derivative,instituted,FBAL,False
+36,S-1,instituted,S-1,False
+37,S-1,instituted,5-FU,False
+38,S-1,instituted,dihydropyrimidine dehydrogenase,False
+39,S-1,instituted,degradative,False
+40,S-1,instituted,5-FU,False
+41,S-1,instituted,FBAL,False
+42,S-1,has,dihydropyrimidine dehydrogenase,False
+43,S-1,has,degradative,False
+44,S-1,has,5-FU,False
+45,S-1,has,FBAL,False
+46,concentration,decreased,day,False
+47,concentration,decreased,administration,False
+48,patient,achieved,partial response,False
+49,patient,achieved,months,False
+50,patient,achieved,initiation,False
+51,patient,achieved,S-1,False
+52,FBAL,suggests,case,False
+53,FBAL,suggests,review,False
+54,FBAL,suggests,literature,False
+55,FBAL,suggests,cardiotoxicity,False
+56,S-1,administered,patients,False
+57,S-1,administered,cardiotoxicity,False

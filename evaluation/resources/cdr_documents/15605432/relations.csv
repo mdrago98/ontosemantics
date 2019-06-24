@@ -1,14 +1,45 @@
 ,Subject,Action,Object,Negation
-0,cardiotoxicity,resulted,damage,False
-1,mice,treated,dose,False
-2,damage,using,image,False
-3,damage,showed,injury,False
-4,mitochondria,being,organelle,False
-5,adducts,showed,appearance,False
-6,adducts,showed,peak,False
-7,levels,increased,compartments,False
-8,levels,increased,hours,False
-9,ADR,induced,4HNE,False
-10,ADR,induced,time,False
-11,results,document,time,False
-12,mitochondria,are,site,False
+0,species,was,study,False
+1,species,was,time course,False
+2,species,was,damage products,False
+3,cardiotoxicity,was,study,False
+4,cardiotoxicity,was,time course,False
+5,cardiotoxicity,was,damage products,False
+6,species,determine,time course,False
+7,species,determine,damage products,False
+8,cardiotoxicity,determine,time course,False
+9,cardiotoxicity,determine,damage products,False
+10,species,resulted,time course,False
+11,species,resulted,damage products,False
+12,cardiotoxicity,resulted,time course,False
+13,cardiotoxicity,resulted,damage products,False
+14,B6C3 mice,treated with,single dose,False
+15,B6C3 mice,treated with,ADR,False
+16,Analysis,showed,immunogold electron microscopy,False
+17,Analysis,showed,appearance,False
+18,Analysis,showed,4HNE protein adducts,False
+19,Analysis,showed,mitochondria,False
+20,Analysis,showed,hours,False
+21,Analysis,showed,hours,False
+22,levels,increased,hours,False
+23,levels,increased,hours,False
+24,data,showed,adducts,False
+25,data,showed,mitochondria,False
+26,data,showed,time point,False
+27,ADR,showed,adducts,False
+28,ADR,showed,mitochondria,False
+29,ADR,showed,time point,False
+30,mitochondrial injury,showed,adducts,False
+31,mitochondrial injury,showed,mitochondria,False
+32,mitochondrial injury,showed,time point,False
+33,ADR,induced,adducts,False
+34,ADR,induced,mitochondria,False
+35,ADR,induced,time point,False
+36,mitochondrial injury,induced,adducts,False
+37,mitochondrial injury,induced,mitochondria,False
+38,mitochondrial injury,induced,time point,False
+39,results,document,nitrative damage,False
+40,oxidative damage,document,nitrative damage,False
+41,oxidative damage,precedes,nitrative damage,False
+42,mitochondria,suggests,mitochondrial injury,False
+43,mitochondria,suggests,intracellular injury,False

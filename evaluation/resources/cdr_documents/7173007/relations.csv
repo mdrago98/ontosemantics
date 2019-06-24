@@ -1,8 +1,15 @@
 ,Subject,Action,Object,Negation
-0,effects,receiving,one,False
-1,effects,evaluated,replies,False
-2,group,had,incidence,False
-3,group,had,incidence,False
-4,differences,occur,age,False
-5,differences,occur,years,False
-6,polyvidone,considered,contrast media,False
+0,Side effects,evaluated,hysterosalpingography,False
+1,Side effects,evaluated,Dimer-X,False
+2,Side effects,evaluated,patients,False
+3,Side effects,evaluated,media,False
+4,Side effects,evaluated,replies,False
+5,Side effects,evaluated,postal questionnaires,False
+6,Dimer-X group,had,incidence,False
+7,Dimer-X group,had,nausea,False
+8,group,had,incidence,False
+9,group,had,abdominal pain,False
+10,Vasurix polyvidone,considered,Hexabrix,False
+11,Vasurix polyvidone,considered,hysterosalpingography,False
+12,Hexabrix,considered,Hexabrix,False
+13,Hexabrix,considered,hysterosalpingography,False

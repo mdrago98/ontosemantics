@@ -1,45 +1,113 @@
-glial
+study
+glial activation
+post
+synaptic
+toxicity
+ICV
 Streptozotocin
 STZ
-memory impaired
+induced
+memory
+impaired
 rats
+experiment
 Memory deficit
-water
+Morris water maze test
+days
 STZ
+ICV
+administration
+STZ
+increased
 expression
+GFAP
 CD11b
 TNF-α
-glial
+glial activation
+neuroinflammation
+STZ
+increased
+level
 ROS
 nitrite
+Ca(2+)
+reduced
 mitochondrial
-free radical
+synaptosomal
+preparation
+free radical generation
+excitotoxicity
+Increased
 expression
+activity
 Caspase-3
+STZ
+treated
 rat
 apoptotic cell death
 hippocampus
 cortex
+STZ
+treatment
+decrease
 expression
+post
+synaptic markers
+CaMKIIα
 PSD-95
 expression
+synaptic markers
 synaptophysin
 SNAP-25
-Oral
+unaltered
+post
+synaptic
+neurotoxicity
+Oral treatment
 Memantine
 Ibuprofen
-glial
+daily
+days
+attenuated
+STZ
+induced
+glial activation
 apoptotic cell death
-rat brain
+post
+synaptic
+neurotoxicity
+rat
+brain
+experiment
 memory function
+affected
+days
+STZ
+treatment
+GFAP
 CD11b
 TNF-α
 ROS
 nitrite
-mitochondrial
+levels
+increased
+apoptotic marker
+synaptic markers
+mitochondrial activity
+Ca(2+)
+levels
+unaffected
+data
+neuroinflammatory
 oxidative stress
 apoptosis
 memory function
-glial
+study
+glial activation
+post
+synaptic
+neurotoxicity
+STZ
+induced
 memory impairment
 neuronal cell death

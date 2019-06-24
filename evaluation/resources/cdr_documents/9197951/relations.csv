@@ -1,5 +1,11 @@
 ,Subject,Action,Object,Negation
-0,who,was,subject,False
-1,study,evaluating,efficacy,False
-2,man,became,week,False
-3,changes,be,utility,False
+0,man,became,subject,False
+1,man,became,study,False
+2,man,became,efficacy,False
+3,man,became,medication diethylpropion,False
+4,man,became,week,False
+5,man,became,study drug,False
+6,changes,occurred,oscillation,False
+7,changes,occurred,days,False
+8,patient,occurred,oscillation,False
+9,patient,occurred,days,False

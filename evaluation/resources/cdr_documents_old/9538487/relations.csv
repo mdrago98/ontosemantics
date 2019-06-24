@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,history,treated,lithium,False
+1,man,admitted,coma,False
+2,"A 45-year-old man, with a 10-year history of manic depression treated with lithium",gave,year,False
+3,"A 45-year-old man, with a 10-year history of manic depression treated with lithium",remained,blood,False
+4,testing,indicated,nephrogenic diabetes insipidus,False
+5,man,developed,type 2 diabetes,False

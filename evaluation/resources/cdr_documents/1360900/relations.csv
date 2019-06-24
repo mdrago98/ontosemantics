@@ -1,3 +1,18 @@
 ,Subject,Action,Object,Negation
-0,mouse,accelerated,turnover,False
-1,systems,modulated,activation,False
+0,injection,accelerated,ethacrynic acid,False
+1,injection,accelerated,synthesis/turnover,False
+2,injection,accelerated,5-hydroxytryptamine,False
+3,injection,accelerated,synthesis,False
+4,injection,accelerated,gamma-aminobutyric acid,False
+5,injection,accelerated,mouse brain,False
+6,convulsive dose,accelerated,ethacrynic acid,False
+7,convulsive dose,accelerated,synthesis/turnover,False
+8,convulsive dose,accelerated,5-hydroxytryptamine,False
+9,convulsive dose,accelerated,synthesis,False
+10,convulsive dose,accelerated,gamma-aminobutyric acid,False
+11,convulsive dose,accelerated,mouse brain,False
+12,effects,antagonized,pretreatment,False
+13,effects,antagonized,glutamate/N-methyl-D-aspartate antagonist,False
+14,neurotransmitter systems,modulated,acid-induced convulsions,False
+15,neurotransmitter systems,modulated,activation,False
+16,neurotransmitter systems,modulated,brain,False

@@ -1,10 +1,54 @@
 ,Subject,Action,Object,Negation
-0,effect,studied,rats,False
-1,drugs,stimulating,NA receptors,False
-2,drugs,affect,ED50,False
-3,all antinociceptive agents,enhanced,catalepsy,False
-4,one,enhanced,it,False
-5,Pentazocine,decreased,brain,False
-6,results,discussed,light,False
-7,brain,plays,function,False
-8,NA,plays,function,False
+0,effect,studied,clonidine,False
+1,effect,studied,analgesia,False
+2,effect,studied,morphine,False
+3,effect,studied,morphine,False
+4,effect,studied,rats,False
+5,biochemical assays,performed,influence,False
+6,biochemical assays,performed,analgesics,False
+7,biochemical assays,performed,brain,False
+8,biochemical assays,performed,noradrenaline,False
+9,drugs,found,central NA receptors,False
+10,drugs,found,analgesic ED50,False
+11,drugs,found,antinociceptive agents,False
+12,drugs,found,catalepsy,False
+13,drugs,found,morphine,False
+14,drugs,failed,central NA receptors,False
+15,drugs,failed,analgesic ED50,False
+16,drugs,failed,antinociceptive agents,False
+17,drugs,failed,catalepsy,False
+18,drugs,failed,morphine,False
+19,Codeine catalepsy,increased,clonidine,False
+20,Codeine catalepsy,increased,naphazoline,False
+21,concentration,changed,NA,True
+22,concentration,changed,morphine,True
+23,concentration,changed,doses,True
+24,concentration,changed,codeine,True
+25,Pentazocine,decreased,brain,False
+26,Pentazocine,decreased,NA,False
+27,rate,altered,NA,True
+28,rate,altered,analgesics,True
+29,rate,altered,higher dose,True
+30,rate,altered,fentanyl,True
+31,rate,altered,NA,True
+32,rate,altered,brain,True
+33,disappearance,altered,NA,True
+34,disappearance,altered,analgesics,True
+35,disappearance,altered,higher dose,True
+36,disappearance,altered,fentanyl,True
+37,disappearance,altered,NA,True
+38,disappearance,altered,brain,True
+39,disappearance,diminished,NA,False
+40,disappearance,diminished,brain,False
+41,results,discussed,light of,False
+42,results,discussed,literature,False
+43,brain NA,suggested,rats,False
+44,brain NA,suggested,function,False
+45,brain NA,suggested,monoamines,False
+46,brain NA,suggested,behavioural activity,False
+47,brain NA,suggested,analgesics,False
+48,brain NA,plays,rats,False
+49,brain NA,plays,function,False
+50,brain NA,plays,monoamines,False
+51,brain NA,plays,behavioural activity,False
+52,brain NA,plays,analgesics,False

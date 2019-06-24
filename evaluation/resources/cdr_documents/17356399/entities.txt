@@ -1,16 +1,31 @@
 girl
+unusual
+reaction
+induction chemotherapy
 precursor B-cell acute lymphoblastic leukemia
+ALL
 patient
 acute encephalopathy
-behavioral
+behavioral changes
 aphasia
 incontinence
 visual hallucinations
-weakness
-cerebral vasospasm
-intrathecal
-cytarabine
+right-sided weakness
+diffuse cerebral vasospasm
+magnetic resonance angiography
+administration
+intrathecal cytarabine
 Vincristine
 dexamethasone
-polyethylene glycol
-asparaginase
+polyethylene glycol-asparaginase
+administered
+episode
+induction therapy
+Neurologic status
+baseline
+days
+acute
+event
+magnetic resonance angiography
+findings
+months

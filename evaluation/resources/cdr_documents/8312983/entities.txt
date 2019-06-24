@@ -1,18 +1,32 @@
+correlation
 serum
 tricyclic antidepressant
-central nervous system
+concentrations
+central nervous system side effects
+reports
+relationship
 serum
-serotonin
-reuptake
-inhibitors
+selective serotonin reuptake inhibitors
+SSRIs
+toxic effects
+cases
 serum
 citalopram
+elderly
+patients
+associated with
+increased
+somnolence
 movement
+difficulties
 cognitive disorders
 delirium
-blood
+high blood levels
+SSRIs
+report
 patient
-delirium
-serum
+acute hyperkinetic delirium
 fluoxetine
 fluoxetine
+desmethylfluoxetine
+concentration

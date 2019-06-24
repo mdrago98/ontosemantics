@@ -1,14 +1,40 @@
+report
 syncope
 bradycardia
 girl
+administration
+intranasal
 dexmedetomidine
 sedation
-voiding
-patient
+voiding cystourethrogram
+VCUG
+recovery
+period
+patient's
+consciousness
+vital signs
+presedation
+levels
 sedation
+area
 patient
+inciting
+event
 patient
+regained
+consciousness
+no injury
+primary abnormality
+persistent
 bradycardia
+admitted
+hospital
+telemetric observation
 bradycardia
-cardiac
+cardiac workup
+abnormality
+Unanticipated
+unreported
+outcomes
 sedatives
+administration

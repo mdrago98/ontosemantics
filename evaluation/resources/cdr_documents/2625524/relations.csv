@@ -1,13 +1,35 @@
 ,Subject,Action,Object,Negation
-0,pretreatment,preventing,effects,False
-1,effectiveness,studied,rats,False
-2,Haloperidol,prevent,seizures,False
-3,Haloperidol,decreased,incidence,False
-4,Haloperidol,decreased,doses,False
-5,lowering,reach,significance,True
-6,lowering,reach,dose,True
-7,data,suggest,role,False
-8,role,reducing,incidence,False
-9,haloperidol,demonstrated,ability,False
-10,ability,reduce,seizures,False
-11,ability,reducing,mortality,False
+0,effectiveness,studied,haloperidol,False
+1,effectiveness,studied,toxic effects,False
+2,effectiveness,studied,high doses,False
+3,effectiveness,studied,amphetamine,False
+4,effectiveness,studied,rats,False
+5,toxic effects,induced,model,False
+6,toxic effects,induced,intraperitoneal,False
+7,injection,induced,model,False
+8,injection,induced,intraperitoneal,False
+9,Haloperidol,failed,amphetamine-induced seizures,False
+10,Haloperidol,failed,mortality rate,False
+11,Haloperidol,failed,doses,False
+12,Haloperidol,decreased,incidence,False
+13,Haloperidol,decreased,cocaine-induced seizures,False
+14,Haloperidol,decreased,doses,False
+15,Haloperidol,decreased,mortality rate,False
+16,Haloperidol,decreased,statistical significance,False
+17,Haloperidol,decreased,dose,False
+18,lowering,decreased,incidence,False
+19,lowering,decreased,cocaine-induced seizures,False
+20,lowering,decreased,doses,False
+21,lowering,decreased,mortality rate,False
+22,lowering,decreased,statistical significance,False
+23,lowering,decreased,dose,False
+24,lowering,reach,mortality rate,True
+25,lowering,reach,statistical significance,True
+26,lowering,reach,dose,True
+27,data,suggest,dopamine blocker,False
+28,data,suggest,death,False
+29,data,suggest,amphetamine exposure,False
+30,data,suggest,incidence,False
+31,data,suggest,seizures,False
+32,haloperidol,demonstrated,cocaine-induced seizures,False
+33,haloperidol,demonstrated,mortality,False

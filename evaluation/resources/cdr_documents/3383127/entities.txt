@@ -1,10 +1,32 @@
 Cardiac symptoms
-colorectal carcinoma
+hypotension
+patients
+advanced colorectal carcinoma
+treated with
 cisplatin
+CDDP
 5-fluorouracil
 5-FU
+patients
+hypotension
+associated with
+severe
 left ventricular dysfunction
-Cardiac
-cardiac
+patients
+therapy
+Cardiac enzymes
+normal
+transient electrocardiographic
+EKG
+changes
+presentation
+cardiac evaluation
 hemodynamic
+echocardiographic
+scintigraphic
+patients
+manifestations
 5-FU
+cardiotoxicity
+CDDP
+pathophysiologic mechanisms

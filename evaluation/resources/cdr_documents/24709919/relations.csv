@@ -1,11 +1,27 @@
 ,Subject,Action,Object,Negation
-0,OIH,limit,use,False
-1,we,investigated,effects,False
-2,OIH,achieved,mice,False
-3,OIH,achieved,administration,False
-4,Rb1 ginsenosides,prevent,OIH,False
-5,Rb1 ginsenosides,prevent,test,False
-6,Rg1,showed,tendency,False
-7,tendency,aggravate,OIH,False
-8,tendency,aggravate,test,False
-9,ginsenoside Re,contribute,reversal,False
+0,Opioid-induced hyperalgesia,characterized,nociceptive sensitization,False
+1,Opioid-induced hyperalgesia,characterized,cessation,False
+2,OIH,limit,opioid analgesics,False
+3,OIH,limit,withdrawal,False
+4,OIH,limit,opioid,False
+5,OIH,achieved,mice,False
+6,OIH,achieved,subcutaneous administration,False
+7,OIH,achieved,morphine,False
+8,OIH,achieved,days,False
+9,OIH,achieved,day,False
+10,days,administered,withdrawal,False
+11,days,administered,Re,False
+12,days,administered,day,False
+13,mice,administered,withdrawal,False
+14,mice,administered,Re,False
+15,mice,administered,day,False
+16,mice,subjected,test day,False
+17,mice,subjected,thermal sensitivity test,False
+18,Rg1,failed,OIH,False
+19,Rg1,failed,test,False
+20,ginsenosides,failed,OIH,False
+21,ginsenosides,failed,test,False
+22,Rg1,showed,OIH,False
+23,Rg1,showed,writhing test,False
+24,data,suggested,reversal,False
+25,data,suggested,OIH,False

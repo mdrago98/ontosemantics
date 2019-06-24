@@ -1,7 +1,53 @@
 ,Subject,Action,Object,Negation
-0,SNP,authorized,use,False
-1,drugs,act,cardiovascular systems,False
-2,we,measured,parameters,False
-3,variables,returned,min,False
-4,Recoveries,shown,min,True
-5,ATP,act,pacemaker,False
+0,Adenosine triphosphate,administered,patients,False
+1,Adenosine triphosphate,administered,anesthesia,False
+2,SNP,authorized,clinical use,False
+3,SNP,authorized,USA,False
+4,SNP,authorized,countries,False
+5,SNP,authorized,Japan,False
+6,ATP,authorized,clinical use,False
+7,ATP,authorized,USA,False
+8,ATP,authorized,countries,False
+9,ATP,authorized,Japan,False
+10,ATP,used,countries,False
+11,ATP,used,Japan,False
+12,drugs,investigated,cardiovascular systems,False
+13,drugs,investigated,dogs,False
+14,drugs,investigated,procedure,False
+15,hearts,investigated,cardiovascular systems,False
+16,hearts,investigated,dogs,False
+17,hearts,investigated,procedure,False
+18,drugs,act,cardiovascular systems,False
+19,drugs,act,dogs,False
+20,drugs,act,procedure,False
+21,hearts,act,cardiovascular systems,False
+22,hearts,act,dogs,False
+23,hearts,act,procedure,False
+24,hearts,denervated,procedure,False
+25,ATP,administered,arterial pressure,False
+26,ATP,administered,control,False
+27,Hypotension,accompanied,ATP,False
+28,Hypotension,accompanied,decreases,False
+29,Hypotension,accompanied,mean pulmonary arterial pressure,False
+30,Hypotension,accompanied,ATP,False
+31,variables,accompanied,ATP,False
+32,variables,accompanied,decreases,False
+33,variables,accompanied,mean pulmonary arterial pressure,False
+34,variables,accompanied,ATP,False
+35,variables,returned,ATP,False
+36,hypotension,observed,SNP,False
+37,hypotension,observed,mean pulmonary arterial pressure,False
+38,hypotension,observed,oxygen content difference,False
+39,hypotension,observed,mixed venous blood,False
+40,left ventricular end-diastolic pressure,observed,SNP,False
+41,left ventricular end-diastolic pressure,observed,mean pulmonary arterial pressure,False
+42,left ventricular end-diastolic pressure,observed,oxygen content difference,False
+43,left ventricular end-diastolic pressure,observed,mixed venous blood,False
+44,heart rate,observed,SNP,False
+45,heart rate,observed,mean pulmonary arterial pressure,False
+46,heart rate,observed,oxygen content difference,False
+47,heart rate,observed,mixed venous blood,False
+48,Recoveries,shown,heart rate,True
+49,SNP,shown,heart rate,True
+50,ATP,act,pacemaker tissue,False
+51,ATP,act,heart,False

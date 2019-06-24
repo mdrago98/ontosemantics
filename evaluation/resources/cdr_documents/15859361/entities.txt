@@ -1,12 +1,18 @@
 Acetaminophen
 paracetamol
 Nimesulide
-analgesic
-antipyretic
-anti-inflammatory drugs
-hypersensitivity reactions
+N
+analgesic-antipyretic/anti-inflammatory drugs
+rate
+adverse hypersensitivity
+agents
 non-steroidal anti-inflammatory drugs
 NSAIDs
+reactions
 Celecoxib
 CE
-COX-2 enzyme
+drug
+selectivity
+affinity
+COX-2
+enzyme

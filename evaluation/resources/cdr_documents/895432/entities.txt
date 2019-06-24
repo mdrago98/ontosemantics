@@ -1,19 +1,73 @@
-isoproterenol
-myocardial infarction
+effect
+exercise
+severity
+isoproterenol-induced myocardial infarction
+male
 rats
 rats
-isoproterenol
+groups
+exercise-isoproterenol
 E-1
+exercise control
+EC
+groups
+daily
+days
+treadmill
+mph
+grade
+animals
+sedentary-isoproterenol (S-I)
+group
+sedentary
+animals
+sedentary control
+SC
+group
+sedentary
+experimental
+exercise
+period
+S-I
+E-I
+animals
+subcutaneous
+injection
 isoproterenol
-period, S
+Animals
+S-I group
+mortality
+effects of
 isoproterenol
-body
+animals
+E-I group
+Serum
+activity
+E-I animals
+animals
+S-I
+EC
+groups
 isoproterenol
-Serum CPK
+injection
 isoproterenol
+treated
+groups
+severity
+induced
+lesions
+changes
+heart weight
+heart weight
+body weight ratios
+results
+exercise
+reduced
+mortality
+associated with
+effects of
+large
+dosages
 isoproterenol
-heart
-heart
-body
-isoproterenol
+severity
 infarction

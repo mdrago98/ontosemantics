@@ -1,13 +1,21 @@
 ,Subject,Action,Object,Negation
-0,rats,develop,acute renal failure,False
-1,acute renal failure,following,injection,False
-2,aminoglycoside antibiotics,combined,dextran,False
-3,substances,inthe,TCA cycle,False
-4,substances,inthe,compounds,False
-5,responses,observed,effect,False
-6,degree,obtained,damages,False
-7,damages,induced,disparities,False
-8,Glucarates,had,ability,False
-9,ability,prevent,damage,False
-10,Rats,excreted,urine,False
-11,Rats,spared,lesions,False
+0,Dehydrated rats,develop,acute renal failure,False
+1,Dehydrated rats,develop,injection,False
+2,Dehydrated rats,develop,aminoglycoside antibiotics,False
+3,Dehydrated rats,develop,dextran,False
+4,Dose-responses,observed,protective effect,False
+5,Dose-responses,observed,D-Glucarates,False
+6,degree,obtained,fixed size,False
+7,degree,obtained,dose,False
+8,degree,obtained,protection,False
+9,degree,obtained,renal damages,False
+10,degree,obtained,antibiotics,False
+11,degree,obtained,administration doses,False
+12,degree,obtained,antibiotics,False
+13,D-Glucarates,had,renal damage,False
+14,Rats,excreted,acidic urine,False
+15,Rats,excreted,renal lesions,False
+16,Rats,excreted,monosaccharides,False
+17,effect,discussed,D-glucarates,False
+18,effect,discussed,nephrotoxicity,False
+19,effect,discussed,basic antibiotics,False

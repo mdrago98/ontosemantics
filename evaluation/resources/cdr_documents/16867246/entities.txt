@@ -1,10 +1,26 @@
 Extrapyramidal syndrome
 EPS
-typical antipsychotic drugs
+affected
+antipsychotic drugs
+affinity
 D2 receptor
+research groups
+positive
+relationship
+genetic variations
 DRD2 gene
+therapeutic response
 schizophrenia
-receptor expression
+patients
+variations
+receptor
+modulating
+receptor
+expression
+study
+evaluate
 DRD2
-chlorpromazine
+chlorpromazine-induced
 EPS
+schizophrenic
+patients

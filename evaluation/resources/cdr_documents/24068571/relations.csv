@@ -1,7 +1,3 @@
 ,Subject,Action,Object,Negation
-0,Postoperative delirium,is,complication,False
-1,Postoperative delirium,is,risk,False
-2,aim,assess,prevalence,False
-3,factors,admitted,monitoring,False
-4,factors,admitted,surgery,False
-5,outcome,identify,risk,False
+0,secondary outcome,is,risk factors,False
+1,secondary outcome,is,demographic data,False

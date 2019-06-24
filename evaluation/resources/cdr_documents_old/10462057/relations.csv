@@ -1,0 +1,25 @@
+,Subject,Action,Object,Negation
+0,antipsychotic agent,associated,acquired aplastic anemia,False
+1,We,examined,ability,False
+2,ability,induce,apoptosis,False
+3,Cells,treated,h,False
+4,DNA fragmentation,using,gel,False
+5,catechol,induced,apoptosis,False
+6,catechol,induced,manner,False
+7,metabolites,induced,apoptosis,False
+8,metabolites,induced,manner,False
+9,phenols,had,effect,True
+10,derivatives,had,effect,True
+11,necrosis,observed,cells,False
+12,cells,treated,NCQ436,False
+13,NCQ344,had,effect,False
+14,catechol,have,effects,False
+15,metabolites,have,effects,False
+16,phenol,induce,apoptosis,False
+17,remoxipride,induce,anemia,False
+18,remoxipride,induce,production,False
+19,benzene,induce,anemia,False
+20,benzene,induce,production,False
+21,ability,induce,apoptosis,False
+22,ability,induce,HBMP,False
+23,that,associated,remoxipride,False

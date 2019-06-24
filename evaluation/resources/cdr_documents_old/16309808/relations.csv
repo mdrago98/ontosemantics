@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,There,is,evidence,False
+1,evidence,suggest,role,False
+2,there,is,report,True
+3,Mirtazapine,associated,RLS,False
+4,Mirtazapine,associated,publications,False
+5,who,developed,RLS,False
+6,who,developed,mirtazapine,False
+7,patient,have,symptoms,False
+8,his,treated,mirtazapine,False
+9,symptoms,resolved,discontinuation,False
+10,relationship,support,effect,True
+11,mirtazapine,associated,RLS,False
+12,possibility,receiving,dopamine D2 receptor,False

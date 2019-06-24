@@ -1,5 +1,28 @@
 ,Subject,Action,Object,Negation
 0,studies,confirmed,incidence,False
-1,patients,treated,doses,False
-2,aims,measure,variations,False
-3,CLE,treated,thalidomide,False
+1,studies,confirmed,sensory axonal neuropathy,False
+2,studies,confirmed,patients,False
+3,studies,confirmed,doses,False
+4,studies,confirmed,thalidomide,False
+5,SAP,were,variations,False
+6,SAP,were,amplitude,False
+7,SAP,were,patients,False
+8,SAP,were,refractory cutaneous lupus erythematosus,False
+9,SAP,were,thalidomide,False
+10,SAP,were,findings,False
+11,SAP,were,potential,False
+12,SAP,were,thalidomide,False
+13,SAP,were,sensory fibres,False
+14,SAP,were,discontinuation,False
+15,SAP,were,treatment,False
+16,SAP,measure,variations,False
+17,SAP,measure,amplitude,False
+18,SAP,measure,patients,False
+19,SAP,measure,refractory cutaneous lupus erythematosus,False
+20,SAP,measure,thalidomide,False
+21,SAP,measure,findings,False
+22,SAP,measure,potential,False
+23,SAP,measure,thalidomide,False
+24,SAP,measure,sensory fibres,False
+25,SAP,measure,discontinuation,False
+26,SAP,measure,treatment,False

@@ -1,4 +1,16 @@
+patients
+treated
 hypertension
-blood pressure
+adequate blood pressure
 BP
+control
+multidrug regimens
 hypertension
+evaluate
+long-term
+efficacy
+tolerability
+higher
+doses
+combination
+anti-hypertensive therapies

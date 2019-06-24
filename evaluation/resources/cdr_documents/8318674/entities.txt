@@ -1,26 +1,48 @@
-Ara
+consecutive
+patients
+treated with
+high-dose
+Ara-C
 lymphomas
+institution
 syndrome
+perfusion
+characterized
+onset of
 fever
 diarrhea
+shock
 pulmonary edema
 acute renal failure
 metabolic acidosis
+weight gain
 leukocytosis
+bacteriological screening
+evidence
 infection
+Sequential
+biological assays
 IL-1
 IL-2
 TNF
 PAF
 Ara-C
+infusion
+patients
 syndrome
 TNF
 PAF
+activity
 serum
+cases
+controls
 TNF
 PAF
 development
 septic shock
-adult respiratory distress syndrome
+adult
+respiratory distress syndrome
+high-dose
 Ara-C
-release
+associated with
+cytokine release

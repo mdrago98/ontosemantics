@@ -1,14 +1,53 @@
 ,Subject,Action,Object,Negation
-0,There,is,evidence,False
-1,evidence,suggest,role,False
-2,there,is,report,True
-3,Mirtazapine,associated,RLS,False
-4,Mirtazapine,associated,publications,False
-5,who,developed,RLS,False
-6,who,developed,mirtazapine,False
-7,patient,have,symptoms,False
-8,his,treated,mirtazapine,False
-9,symptoms,resolved,discontinuation,False
-10,relationship,support,effect,True
-11,mirtazapine,associated,RLS,False
-12,possibility,receiving,dopamine D2 receptor,False
+0,symptoms,improved,RLS,False
+1,symptoms,improved,levodopa,False
+2,symptoms,improved,RLS,False
+3,agonists,improved,RLS,False
+4,agonists,improved,levodopa,False
+5,agonists,improved,RLS,False
+6,central dopamine D2 receptor antagonists,improved,RLS,False
+7,central dopamine D2 receptor antagonists,improved,levodopa,False
+8,central dopamine D2 receptor antagonists,improved,RLS,False
+9,central dopamine D2 receptor antagonists,induce,RLS,False
+10,domperidone,is,symptoms,False
+11,domperidone,is,RLS,False
+12,domperidone,regarding,symptoms,False
+13,domperidone,regarding,RLS,False
+14,domperidone,induce,symptoms,False
+15,domperidone,induce,RLS,False
+16,Mirtazapine,associated with,RLS,False
+17,Mirtazapine,associated with,publications,False
+18,comorbid,comorbid,postprandial dyspepsia,False
+19,comorbid,comorbid,RLS,False
+20,comorbid,comorbid,mirtazapine,False
+21,comorbid,added,postprandial dyspepsia,False
+22,comorbid,added,RLS,False
+23,comorbid,added,mirtazapine,False
+24,comorbid,added,domperidone therapy,False
+25,patient,started,symptoms,False
+26,patient,started,RLS,False
+27,patient,started,mirtazapine,False
+28,patient,started,discontinuation,False
+29,patient,started,mirtazapine,False
+30,symptoms,started,symptoms,False
+31,symptoms,started,RLS,False
+32,symptoms,started,mirtazapine,False
+33,symptoms,started,discontinuation,False
+34,symptoms,started,mirtazapine,False
+35,symptoms,resolved,discontinuation,False
+36,symptoms,resolved,mirtazapine,False
+37,relationship,support,mirtazapine,True
+38,relationship,support,RLS,True
+39,relationship,support,patient,True
+40,relationship,support,effect,True
+41,relationship,support,domperione,True
+42,relationship,support,mirtazapine-associated RLS,True
+43,physicians,be,RLS,False
+44,physicians,be,individuals,False
+45,physicians,be,dopamine D2 receptor antagonists,False
+46,mirtazapine,be,RLS,False
+47,mirtazapine,be,individuals,False
+48,mirtazapine,be,dopamine D2 receptor antagonists,False
+49,mirtazapine,associated with,RLS,False
+50,mirtazapine,associated with,individuals,False
+51,mirtazapine,associated with,dopamine D2 receptor antagonists,False

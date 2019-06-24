@@ -1,5 +1,42 @@
 ,Subject,Action,Object,Negation
-0,response,be,fragmentation,False
-1,changes,indicate,type,False
-2,correlate,is,formation,False
-3,sign,is,increase,False
+0,cyclophosphamide-induced cystitis,characterized,detachment,False
+1,cyclophosphamide-induced cystitis,characterized,submucosal edema,False
+2,cyclophosphamide-induced cystitis,characterized,damage,False
+3,cyclophosphamide-induced cystitis,characterized,microvascular bed,False
+4,changes,indicate,endothelial cells,False
+5,changes,indicate,stages,False
+6,changes,indicate,experiment,False
+7,changes,indicate,blood vessels,False
+8,changes,indicate,diameter,False
+9,changes,indicate,damage,False
+10,changes,indicate,damage,False
+11,changes,indicate,increase,False
+12,changes,indicate,permeability,False
+13,changes,indicate,gaps,False
+14,changes,indicate,connections,False
+15,changes,indicate,venules,False
+16,involvement,indicate,endothelial cells,False
+17,involvement,indicate,stages,False
+18,involvement,indicate,experiment,False
+19,involvement,indicate,blood vessels,False
+20,involvement,indicate,diameter,False
+21,involvement,indicate,damage,False
+22,involvement,indicate,damage,False
+23,involvement,indicate,increase,False
+24,involvement,indicate,permeability,False
+25,involvement,indicate,gaps,False
+26,involvement,indicate,connections,False
+27,involvement,indicate,venules,False
+28,correlate,indicate,endothelial cells,False
+29,correlate,indicate,stages,False
+30,correlate,indicate,experiment,False
+31,correlate,indicate,blood vessels,False
+32,correlate,indicate,diameter,False
+33,correlate,indicate,damage,False
+34,correlate,indicate,damage,False
+35,correlate,indicate,increase,False
+36,correlate,indicate,permeability,False
+37,correlate,indicate,gaps,False
+38,correlate,indicate,connections,False
+39,correlate,indicate,venules,False
+40,changes,prevented,mesna,False

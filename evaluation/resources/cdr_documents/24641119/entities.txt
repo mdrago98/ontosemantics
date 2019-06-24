@@ -1,13 +1,24 @@
+male
 patient
+maculopapular
 eruption
+flexural areas
 buttocks
-oral
-ketoconazole
+oral ketoconazole
 patient
-syndrome
-ketoconazole
-syndrome
-allergen
+diagnosed
+drug-induced baboon syndrome
+history
+sensitivity
+topical ketoconazole
+physical examination
+histopathological
+findings
+Baboon syndrome
+drug-
+contact allergen-related
 eruption
-ketoconazole
-syndrome
+flexural
+gluteal areas
+ketoconazole-induced baboon syndrome
+English literature

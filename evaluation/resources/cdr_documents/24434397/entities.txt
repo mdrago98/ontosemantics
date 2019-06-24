@@ -1,17 +1,42 @@
-chronic kidney disease stage 4
-severe anemia
+report
+lady
+chronic kidney disease
+chronic tubulointerstial disease
+admitted
+severe
+anemia
 menorrhagia
+deterioration
 renal function
-cells
+infused
+packed cells
+session
+hemodialysis
 Tranexamic acid
 TNA
-bleeding
+8-hourly
+administered
+control bleeding
+per vaginum
+dose
 TNA
-tonic clonic convulsions
+episode
+generalized
+tonic
 TNA
+discontinued
+Investigations
 patient
-central nervous system abnormalities
+biochemical
+structural central nervous system abnormalities
 convulsions
+dialytic support
+episodes
 convulsion
+dis-charge
+months
+follow-up
+precipitating
 convulsions
+overdose
 TNA

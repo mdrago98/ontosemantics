@@ -1,28 +1,56 @@
 woman
-hydroureteronephrosis
+right hydroureteronephrosis
 ureterovesical junction obstruction
+gross hematuria
+treated
+years
 cyclophosphamide
 cerebral vasculitis
+right nephroureterectomy
+control of
 bleeding
-pathology specimen
-carcinoma of the renal pelvis
+pathology
+specimen
+clinically occult
+invasive carcinoma
+renal pelvis
 cyclophosphamide
 hemorrhagic cystitis
-urine
-carcinoma
+urine cytologic abnormalities
+high grade carcinoma
+associated with
 carcinoma
 urinary tract
 carcinomas
 urinary bladder
-carcinoma of the prostate
-carcinoma of the renal pelvis
+carcinoma
+prostate
+association
+case
+carcinoma
+renal pelvis
+association
 cyclophosphamide
+treatment
 urinary tract cancer
+reported
+association
 cyclophosphamide
+treatment
+nonmalignant disease
+association
 tumor
+preexisting
 hydroureteronephrosis
 stasis
-upper urinary tract epithelium
+prolonged
+exposure of
+upper urinary tract
+epithelium
 cyclophosphamide
+Patients
+long-term
 cyclophosphamide
+treatment
+evaluated
 obstructive uropathy

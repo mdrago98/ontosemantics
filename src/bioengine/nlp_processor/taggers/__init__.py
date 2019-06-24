@@ -1,4 +1,4 @@
-from settings import Config
+from src.settings import Config
 from src.bioengine.nlp_processor.taggers.genia_tagger import GeniaTagger
 from src.bioengine.nlp_processor.taggers.metamap_tagger import MetaMapTagger
 from src.bioengine.nlp_processor.taggers.stanford_tagger import StanfordTagger

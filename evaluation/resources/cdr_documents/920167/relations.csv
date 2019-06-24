@@ -1,13 +1,28 @@
 ,Subject,Action,Object,Negation
-0,mothers,treated,warfarin,False
-1,mothers,treated,pregnancy,False
-2,section,done,replacement,False
-3,baby,died,pulmonary hemorrhage,False
-4,mother,had,infant,False
-5,baby,showed,embryopathy,False
-6,baby,showed,nasal,False
-7,baby,showed,stippled epiphyses,False
-8,hypoplasia,reported,infants,False
-9,mothers,treated,warfarin,False
-10,mothers,treated,trimester,False
-11,abortion,advised,alternative,False
+0,mothers,treated with,heart valve prosthesis,False
+1,mothers,treated with,warfarin,False
+2,mothers,treated with,pregnancy,False
+3,caesarean section,done,warfarin,False
+4,caesarean section,done,heparin,False
+5,replacement,done,warfarin,False
+6,replacement,done,heparin,False
+7,mother,had,infant,False
+8,mother,had,caesarean section,False
+9,baby,showed,warfarin-induced embryopathy,False
+10,baby,showed,nasal hypoplasia,False
+11,Nasal hypoplasia,reported,epiphyses,False
+12,Nasal hypoplasia,reported,infants,False
+13,Nasal hypoplasia,reported,mothers,False
+14,Nasal hypoplasia,reported,warfarin,False
+15,Nasal hypoplasia,reported,trimester,False
+16,association,reported,epiphyses,False
+17,association,reported,infants,False
+18,association,reported,mothers,False
+19,association,reported,warfarin,False
+20,association,reported,trimester,False
+21,therapeutic abortion,recommended,risks,False
+22,therapeutic abortion,recommended,mother,False
+23,therapeutic abortion,recommended,women,False
+24,therapeutic abortion,recommended,prosthetic cardiac valves,False
+25,therapeutic abortion,recommended,alternative,False
+26,therapeutic abortion,advised,alternative,False

@@ -1,12 +1,30 @@
+authors
 woman
+chronic
+severe
 heart failure
+secondary to
 dilated cardiomyopathy
+absence
+significant
 ventricular arrhythmias
+QT
+prolongation
 torsade de pointes
 ventricular tachycardia
+intermittent
 dobutamine
 torsade de pointes
 ventricular tachycardia
+intermittent
 dobutamine
+hypothesis
+fatal
 arrhythmias
-rhythm
+low doses
+patients
+significant
+rhythm disturbances
+mechanisms
+proarrhythmic
+Dubutamine

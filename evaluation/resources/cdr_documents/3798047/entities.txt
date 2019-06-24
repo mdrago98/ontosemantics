@@ -1,11 +1,34 @@
+consecutive
+patients
 rheumatoid arthritis
-methylprednisolone
-MP
+intravenous high-dose methylprednisolone
+consecutive
+days
+decline
 pulse rate
+observed
+day
+patients
 bradycardia
-heart
+associated with
+complaints
+substernal pressure
+Reversal
+normal
+heart rate
+day
+Electrocardiographic registrations
 sinus bradycardia
+cases
+changes
 plasma
+concentrations
+electrolytes
+observation
+patients
+high-dose MP
+High-dose
 MP
-MP
+contraindicated
+patients
 heart disease

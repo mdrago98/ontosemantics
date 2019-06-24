@@ -1,15 +1,36 @@
 ,Subject,Action,Object,Negation
-0,aminoglycosides,cause,damage,False
-1,trials,indicate,10,False
-2,risk,developing,acute renal failure,False
-3,risk,developing,therapy,False
-4,risk,ranges,8,False
-5,risk,is,%,False
-6,duration,increase,risk,False
-7,duration,increase,nephrotoxicity,False
-8,gender,increase,risk,False
-9,gender,increase,nephrotoxicity,False
-10,causes,have,effect,False
-11,models,developed,analyses,False
-12,analyses,identifying,patients,False
-13,analyses,identifying,risk,False
+0,epidemiology,understood,aminoglycoside-induced nephrotoxicity,True
+1,Experimental studies,indicate,volunteers,False
+2,Experimental studies,indicate,tubular damage,False
+3,Experimental studies,indicate,patients,False
+4,Experimental studies,indicate,tubular dysfunction,False
+5,aminoglycosides,indicate,volunteers,False
+6,aminoglycosides,indicate,tubular damage,False
+7,aminoglycosides,indicate,patients,False
+8,aminoglycosides,indicate,tubular dysfunction,False
+9,aminoglycosides,cause,tubular damage,False
+10,aminoglycosides,cause,patients,False
+11,aminoglycosides,cause,tubular dysfunction,False
+12,Clinical trials,indicate,aminoglycosides,False
+13,Clinical trials,indicate,patients,False
+14,Clinical trials,indicate,acute renal failure,False
+15,relative risk,indicate,aminoglycosides,False
+16,relative risk,indicate,patients,False
+17,relative risk,indicate,acute renal failure,False
+18,risk,indicate,aminoglycosides,False
+19,risk,indicate,patients,False
+20,risk,indicate,acute renal failure,False
+21,analysis,suggests,data,False
+22,analysis,suggests,therapy,False
+23,analysis,suggests,risk,False
+24,analysis,suggests,nephrotoxicity,False
+25,duration,suggests,data,False
+26,duration,suggests,therapy,False
+27,duration,suggests,risk,False
+28,duration,suggests,nephrotoxicity,False
+29,duration,increase,therapy,False
+30,duration,increase,risk,False
+31,duration,increase,nephrotoxicity,False
+32,Predictive models,developed,analyses,False
+33,Predictive models,developed,patients,False
+34,Predictive models,developed,high risk,False

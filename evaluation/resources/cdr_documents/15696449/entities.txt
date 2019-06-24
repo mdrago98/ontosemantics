@@ -1,7 +1,24 @@
+Patients
 primary systemic amyloidosis
-melphalan
-peripheral blood stem cell
-transplant
+AL
+poor prognosis
+Median survival time
+standard
+treatments
+months
+High-dose
+intravenous
+peripheral blood stem cell transplant
+PBSCT
+therapy
+treatment mortality
+authors
 development
 acute renal insufficiency
 melphalan
+conditioning
+study
+risk factors
+impact
+posttransplant
+mortality

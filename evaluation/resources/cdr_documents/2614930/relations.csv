@@ -1,8 +1,16 @@
 ,Subject,Action,Object,Negation
-0,male,admitted,chest pain,False
-1,An 80 year old diabetic male with evidence of peripheral and autonomic neuropathy,have,atrial flutter,False
-2,An 80 year old diabetic male with evidence of peripheral and autonomic neuropathy,have,rate,False
-3,An 80 year old diabetic male with evidence of peripheral and autonomic neuropathy,paced,rate,False
-4,nifedipine,induces,tachycardia,False
-5,nifedipine,induces,hearts,False
-6,hearts,deprived,drive,False
+0,male,admitted,evidence,False
+1,male,admitted,autonomic neuropathy,False
+2,male,admitted,chest pain,False
+3,nifedipine,found,atrial flutter,False
+4,nifedipine,found,ventricular rate,False
+5,nifedipine,found,divided doses,False
+6,nifedipine,found,rate,False
+7,nifedipine,have,atrial flutter,False
+8,nifedipine,have,ventricular rate,False
+9,nifedipine,have,divided doses,False
+10,nifedipine,have,rate,False
+11,nifedipine,slowed,divided doses,False
+12,nifedipine,slowed,rate,False
+13,nifedipine,induces,tachycardia,False
+14,nifedipine,induces,hearts,False

@@ -1,8 +1,38 @@
+retrospective
+case-controlled analysis
+patients
+admitted
+medical intensive care unit
+severe
+exacerbations
 asthma
+nebulized albuterol
+CNA
+intermittent
 albuterol
-intermittent albuterol
 INA
+treatments
+patients
 asthma
+CNA
+administered
+incidence
 cardiac dysrhythmias
-heart
+groups
+Symptomatic
+hypokalemia
+CNA
+patients
+higher
+heart rates
+treatment
+severity
+illness
+incidence
+intubation
+CNA
 INA
+profiles
+safety
+morbidity
+mortality

@@ -1,9 +1,13 @@
+evaluate
+morphologic
+changes
 rat
 urothelium
+induced
 indomethacin
-anti-inflammatory drug
-cystitis
-condition
+Nonsteroidal anti-inflammatory drug-induced cystitis
+under-reported condition
 tiaprofenic acid
 indomethacin
+associated with
 condition

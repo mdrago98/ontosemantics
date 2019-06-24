@@ -1,5 +1,11 @@
-pharmaceutical
+retrospective study
+pharmaceutical company's global safety database
+rate
+hyponatremia
 syndrome
-secretion of anti-diuretic hormone
+inappropriate
+secretion
+anti-diuretic hormone
 SIADH
-vincristine
+vincristine-treated patients
+at-risk population

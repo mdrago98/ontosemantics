@@ -1,15 +1,26 @@
 ,Subject,Action,Object,Negation
-0,who,had,evidence,False
-1,patients,included,study,False
-2,Five patients with idiopathic orthostatic hypotension who had physiologic and biochemical evidence of severe autonomic dysfunction,exhibited,plasma,False
-3,Five patients with idiopathic orthostatic hypotension who had physiologic and biochemical evidence of severe autonomic dysfunction,exhibited,plasma renin activity,False
-4,Treatment,administered,increases,False
-5,rises,ranging,11/6,False
-6,administration,elevated,blood,False
-7,administration,elevated,increases,False
-8,Treatment,continued,individuals,False
-9,Treatment,continued,months,False
-10,there,been,decrease,False
-11,measurements,demonstrated,increase,False
-12,change,following,propranolol,False
-13,propranolol,is,drug,False
+0,patients,included,idiopathic orthostatic hypotension,False
+1,patients,included,evidence,False
+2,patients,included,autonomic dysfunction,False
+3,patients,included,study,False
+4,Treatment,produced,propanolol,False
+5,Treatment,produced,increases,False
+6,Treatment,produced,upright blood pressure,False
+7,Treatment,produced,individuals,False
+8,hypertension,induced,patient,False
+9,hypertension,induced,propranolol,False
+10,Treatment,continued,individuals,False
+11,Treatment,continued,months,False
+12,Treatment,continued,persistence,False
+13,Treatment,continued,pressor,False
+14,Treatment,continued,degree,False
+15,Treatment,continued,response with,False
+16,Hemodynamic measurements,demonstrated,patients,False
+17,Hemodynamic measurements,demonstrated,increase,False
+18,Hemodynamic measurements,demonstrated,peripheral resistance,False
+19,Hemodynamic measurements,demonstrated,cardiac output,False
+20,Hemodynamic measurements,demonstrated,propranolol therapy,False
+21,studies,suggest,patients,False
+22,studies,suggest,idiopathic orthostatic hypotension,False
+23,propranolol,suggest,patients,False
+24,propranolol,suggest,idiopathic orthostatic hypotension,False

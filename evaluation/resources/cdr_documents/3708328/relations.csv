@@ -1,16 +1,53 @@
 ,Subject,Action,Object,Negation
-0,Pilocarpine,reproduces,sequelae,False
-1,model,studying,mechanisms,False
-2,effects,manipulating,activity,False
-3,seizures,produced,rats,False
-4,animals,pretreated,microinjections,False
-5,doses,resulted,seizures,False
-6,doses,resulted,status epilepticus,False
-7,monitoring,revealed,reduction,False
-8,analysis,revealed,damage,False
-9,which,observed,pilocarpine,False
-10,which,observed,doses,False
-11,doses,exceeding,kg,False
-12,injections,augment,seizures,True
-13,acid,suppressed,appearance,False
-14,Microinjections,prevent,development,False
+0,Pilocarpine,reproduces,rats,False
+1,Pilocarpine,reproduces,neuropathological sequelae,False
+2,Pilocarpine,reproduces,temporal lobe epilepsy,False
+3,Pilocarpine,reproduces,animal model,False
+4,Pilocarpine,reproduces,mechanisms,False
+5,Pilocarpine,reproduces,buildup,False
+6,Pilocarpine,reproduces,convulsive activity,False
+7,Pilocarpine,reproduces,generalization,False
+8,Pilocarpine,reproduces,seizures,False
+9,Pilocarpine,reproduces,forebrain,False
+10,effects of,investigated,study,False
+11,effects of,investigated,activity,False
+12,effects of,investigated,synaptic inhibition,False
+13,effects of,investigated,substantia nigra,False
+14,effects of,investigated,seizures,False
+15,effects of,investigated,pilocarpine,False
+16,effects of,investigated,rats,False
+17,Electroencephalographic,revealed,reduction,False
+18,Electroencephalographic,revealed,threshold,False
+19,Electroencephalographic,revealed,pilocarpine-induced convulsions,False
+20,monitoring,revealed,reduction,False
+21,monitoring,revealed,threshold,False
+22,monitoring,revealed,pilocarpine-induced convulsions,False
+23,injections,augment,isoniazid,True
+24,injections,augment,seizures,True
+25,injections,augment,pilocarpine,True
+26,D,suppressed,irreversible inhibitor,False
+27,D,suppressed,GABA transaminase,False
+28,D,suppressed,SNR,False
+29,D,suppressed,appearance,False
+30,D,suppressed,behavioral seizures,False
+31,D,suppressed,pilocarpine,False
+32,Microinjections,failed,gamma-vinyl-GABA,False
+33,Microinjections,failed,dorsal striatum,False
+34,Microinjections,failed,development,False
+35,Microinjections,failed,convulsions,False
+36,Microinjections,failed,pilocarpine,False
+37,results,demonstrate,pilocarpine-induced seizures,False
+38,results,demonstrate,rats,False
+39,results,demonstrate,regulation,False
+40,results,demonstrate,GABA-mediated synaptic inhibition,False
+41,results,demonstrate,substantia nigra,False
+42,threshold,demonstrate,pilocarpine-induced seizures,False
+43,threshold,demonstrate,rats,False
+44,threshold,demonstrate,regulation,False
+45,threshold,demonstrate,GABA-mediated synaptic inhibition,False
+46,threshold,demonstrate,substantia nigra,False
+47,threshold,subjected,pilocarpine-induced seizures,False
+48,threshold,subjected,rats,False
+49,threshold,subjected,regulation,False
+50,threshold,subjected,GABA-mediated synaptic inhibition,False
+51,threshold,subjected,substantia nigra,False

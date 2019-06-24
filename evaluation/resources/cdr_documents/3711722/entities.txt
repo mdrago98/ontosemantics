@@ -1,43 +1,71 @@
 Vasoactive intestinal polypeptide
 VIP
-coronary
-vasodilator
+systemic
+coronary vasodilator
+positive
+inotropic
+Myocardial levels
 VIP
+assayed
 development
 heart failure
+canine
+models
 cobalt cardiomyopathy
+induced
 dogs
-protein
-protein
-dogs
-doxorubicin
-heart failure
-protein
 VIP
-ventricular
-muscle
+radioimmunoassay
+decreased
+SD
+dogs
+doxorubicin-induced heart failure
+VIP
+decreased
+VIP
+content
+left ventricular muscle
+resected
 hearts
-heart
-transplant
+patients
+heart transplant
 papillary muscles
+patients
 rheumatic disease
 myxomatous degeneration
-mitral valve
+mitral valve prostheses
+myocardial
 VIP
+concentration
 hearts
+patients
 coronary disease
 patient
 transplant
-protein
+mitral prostheses
+patients
+transplantation
+ejection fraction
 VIP
-protein
+level
 hearts
 coronary artery disease
-protein
+average ejection fraction
+group
+VIP
+concentration
 hearts
+patients
 coronary disease
 hearts
+patients
 transplant
-catecholamines
+Myocardial catecholamines
+subjects
+weak
+correlation
 tissue
+concentrations
+VIP
 norepinephrine
+noted.(ABSTRACT TRUNCATED AT 250 WORDS

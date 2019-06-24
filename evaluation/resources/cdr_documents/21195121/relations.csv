@@ -1,13 +1,31 @@
 ,Subject,Action,Object,Negation
-0,Lindane,is,organochloride,False
-1,Lindane,is,scabicide,False
-2,Lindane,evokes,convulsions,False
-3,Nitric oxide,has,contradictor,False
-4,NAME,observed,epilepsy,False
-5,aim,determine,effects,False
-6,analyses,showed,increase,False
-7,rats,receiving,l,False
-8,rats,receiving,rats,False
-9,rats,pretreated,L,False
-10,results,support,conclusion,False
-11,NO,plays,role,True
+0,Lindane,is,organochloride pesticide,False
+1,Nitric oxide,has,epileptogenesis,False
+2,Nitric oxide,has,effects,False
+3,Nitric oxide,has,L-arginine,False
+4,Nitric oxide,has,epilepsy,False
+5,administration,increased,L-arginine,False
+6,administration,increased,convulsion,False
+7,administration,increased,convulsion,False
+8,administration,increased,lindane dose,False
+9,pretreatment,decreased,L-NAME,False
+10,pretreatment,decreased,convulsion,False
+11,pretreatment,decreased,convulsion,False
+12,pretreatment,decreased,injection,False
+13,pretreatment,decreased,convulsive dose,False
+14,pretreatment,decreased,lindane,False
+15,analyses,showed,increase,False
+16,analyses,showed,number,False
+17,analyses,showed,periods,False
+18,analyses,showed,EEG,False
+19,analyses,showed,rats,False
+20,analyses,showed,l-arginine,False
+21,analyses,showed,lindane,False
+22,analyses,showed,rats,False
+23,analyses,showed,L-NAME,False
+24,NO,support,convulsant,False
+25,NO,support,rat,False
+26,NO,support,lindane seizures,False
+27,NO,plays,convulsant,True
+28,NO,plays,rat,True
+29,NO,plays,lindane seizures,True

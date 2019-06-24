@@ -1,0 +1,19 @@
+,Subject,Action,Object,Negation
+0,agents,decrease,infection,False
+1,agents,decrease,burn,False
+2,agents,decrease,mortality,False
+3,phosphanilate,evaluated,burn,False
+4,it,was,application,False
+5,study,compared,concentrations,False
+6,concentration,identified,retention,False
+7,patients,given,pairs,False
+8,patients,given,period,False
+9,site,treated,each,False
+10,site,treated,0.25,False
+11,antimicrobial agent,used,treatment,False
+12,site,treated,AgSD,False
+13,There,was,relationship,False
+14,treatments,differed,AgSD,False
+15,formulations,prove,acceptable,False
+16,formulations,prove,wound,False
+17,system,needs,improvement,False

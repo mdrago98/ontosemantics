@@ -1,16 +1,44 @@
-finger
-tremor
-inversion
+method
+measurement
+finger tremor
+displacement-time curve
+test system
+amplitude
+inversion points
+displacement-time curves
+transferred
+graphical input equipment
+punched tape
+computer program
 periods
+amplitudes
 tremor
+oscillations
+calculated
+classified
+event
+frequency
 periods
-fenoterol
-hydrobromide
-HCl
-blind
+amplitudes
+actions
+fenoterol-hydrobromide
+ritodrin-HCl
+placebo
+healthy subjects
+intravenous
+infusion
+double-blind crossover study
+method
+therapeutic doses
+substances
 tremor
-periods
-fenoterol
-hydrobromide
+amplitude
+control level
+period
+amplitudes
+oscillations
+fenoterol-hydrobromide infusion
 tremor
-HCl
+amplitudes
+decreased
+ritodrin-HCl infusion

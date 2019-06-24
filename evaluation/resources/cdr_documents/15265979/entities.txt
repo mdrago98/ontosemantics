@@ -1,47 +1,86 @@
 Amiodarone
+efficacious
+antiarrhythmic agent
+hepatotoxicity
+patients
+mechanism
+unwanted effect
 mice
+administered
+doses
 amiodarone
+changes
 hepatic
+histology
 gene regulation
 Amiodarone
+induced
 hepatomegaly
-hepatocyte
-lipid
-serum
-triglycerides
+hepatocyte microvesicular lipid accumulation
+decrease
+serum triglycerides
 glucose
-hepatic
+Northern blot analysis
+hepatic RNA
+dose-dependent
+increase
 expression
+genes
 fatty acid oxidation
-lipoprotein
+lipoprotein assembly
 lipid transport
+genes
 peroxisome proliferator-activated receptor-alpha
 PPARalpha
-ligand
-nuclear hormone receptor transcription factor
+ligand-activated nuclear hormone receptor transcription factor
+induction
+genes
 hepatomegaly
 PPARalpha
+knockout
+PPARalpha-/-
 mice
+effects
 amiodarone
-PPARalpha
+dependent
+presence
+functional
+PPARalpha gene
+wild-type
 mice
-mice
+treatment
+PPARalpha-/- mice
 amiodarone
-body
+increased
+rate
+total body weight loss
 amiodarone
+activate
 human
 mouse
 PPARalpha
 expressed
 human
-hepatoma
-cells
+HepG2
+hepatoma cells
+effects
 amiodarone
+function
+receptor
+indirect
+results
 amiodarone
-hepatic
-lipid homeostasis
+disrupts
+hepatic lipid homeostasis
+increased
 expression
 PPARalpha
+genes
+toxic effect
+results
+mechanistic information
+hepatotoxic
+effects
 amiodarone
 PPARalpha
-amiodarone
+amiodarone-induced hepatotoxicity

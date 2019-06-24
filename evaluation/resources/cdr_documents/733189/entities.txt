@@ -1,17 +1,32 @@
-retinal artery
+cases
+bilateral retinal artery
 choriocapillaris
 occlusions
 blindness
-head and neck
-tissue
+head
+neck
 methylprednisolone acetate
+combination
 lidocaine
 epinephrine
 penicillin
-gaze palsy
+unilateral
+injection
+acute
+hazy
+sensorium
+superior gaze palsy
+pupillary abnormalities
 conjunctival hemorrhages
 edema
+Follow-up
+changes
 visual loss
+constricted
+visual fields
 optic nerve pallor
-vascular
+vascular attenuation
 chorioretinal atrophy
+literature
+reviewed
+causes

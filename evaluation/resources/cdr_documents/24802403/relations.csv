@@ -1,15 +1,39 @@
 ,Subject,Action,Object,Negation
-0,Cognitive impairment,diminishes,quality,False
-1,interventions,cause,effects,False
-2,there,is,need,False
-3,need,targeting,seizures,False
-4,need,targeting,cognition,False
-5,Oxidative stress,play,role,False
-6,antioxidants,have,potential,False
-7,Metformin,has,antioxidant,False
-8,study,evaluate,effects,False
-9,effects,observed,kindling,False
-10,mice,administered,dose,False
-11,Metformin,injected,dose,False
-12,metformin,suppressed,progression,False
-13,metformin,be,agent,False
+0,Cognitive impairment,diminishes,epilepsy,False
+1,Cognitive impairment,diminishes,quality of life,False
+2,comorbidity,diminishes,epilepsy,False
+3,comorbidity,diminishes,quality of life,False
+4,therapeutic interventions,cause,epilepsy,False
+5,therapeutic interventions,cause,cognitive effects,False
+6,Oxidative stress,considered,epileptogenesis,False
+7,Oxidative stress,considered,potential,False
+8,antioxidants,considered,epileptogenesis,False
+9,antioxidants,considered,potential,False
+10,antioxidants,have,potential,False
+11,Metformin,has,antioxidant properties,False
+12,study,designed,ameliorative effects,False
+13,study,designed,metformin,False
+14,study,designed,seizures,False
+15,study,designed,animals,False
+16,C57BL/6 mice,administered,subconvulsive dose,False
+17,C57BL/6 mice,administered,pentylenetetrazole,False
+18,C57BL/6 mice,administered,day,False
+19,C57BL/6 mice,administered,injections,False
+20,Metformin,injected,dose,False
+21,Metformin,injected,alternate-day,False
+22,metformin,found,progression,False
+23,metformin,found,kindling,False
+24,metformin,found,cognitive impairment,False
+25,metformin,found,brain,False
+26,metformin,suppressed,progression,False
+27,metformin,suppressed,kindling,False
+28,metformin,suppressed,cognitive impairment,False
+29,metformin,suppressed,brain,False
+30,study,concluded,treatment,False
+31,study,concluded,epilepsy,False
+32,study,concluded,cognitive impairment,False
+33,study,concluded,seizures,False
+34,metformin,concluded,treatment,False
+35,metformin,concluded,epilepsy,False
+36,metformin,concluded,cognitive impairment,False
+37,metformin,concluded,seizures,False

@@ -1,15 +1,26 @@
 man
-jaundice
+jaundice 2
+exposure to
 thiabendazole
 Cholestasis
-liver
-transplant
-liver
+liver transplant
+performed
+liver biopsy
+specimens
+hepatectomy
+specimen
+disappearance
 interlobular bile ducts
 fibrosis
-regeneration
-liver damage
+hepatocellular regeneration
+lobular architecture
+case
+idiosyncratic
+drug-induced liver damage
+target
+injury
 bile duct
 autoimmune
 pathogenesis
 bile duct
+destruction

@@ -1,4 +1,5 @@
 ,Subject,Action,Object,Negation
-0,Thrombocytopenia,is,disorder,False
-1,citations,reporting,results,False
-2,aim,demonstrate,course,False
+0,impact,understood,immune-mediated heparin-induced thrombocytopenia type II,True
+1,impact,understood,thrombocytopenia,True
+2,impact,understood,liver transplantation,True
+3,impact,understood,literature citations,True

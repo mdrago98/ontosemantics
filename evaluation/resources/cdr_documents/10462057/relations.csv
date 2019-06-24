@@ -1,25 +1,83 @@
 ,Subject,Action,Object,Negation
-0,antipsychotic agent,associated,acquired aplastic anemia,False
-1,We,examined,ability,False
-2,ability,induce,apoptosis,False
-3,Cells,treated,h,False
-4,DNA fragmentation,using,gel,False
-5,catechol,induced,apoptosis,False
-6,catechol,induced,manner,False
-7,metabolites,induced,apoptosis,False
-8,metabolites,induced,manner,False
-9,phenols,had,effect,True
-10,derivatives,had,effect,True
-11,necrosis,observed,cells,False
-12,cells,treated,NCQ436,False
-13,NCQ344,had,effect,False
-14,catechol,have,effects,False
-15,metabolites,have,effects,False
-16,phenol,induce,apoptosis,False
-17,remoxipride,induce,anemia,False
-18,remoxipride,induce,production,False
-19,benzene,induce,anemia,False
-20,benzene,induce,production,False
-21,ability,induce,apoptosis,False
-22,ability,induce,HBMP,False
-23,that,associated,remoxipride,False
+0,antipsychotic agent,associated with,aplastic anemia,False
+1,Cells,treated,compound,False
+2,Apoptosis,assessed,fluorescence microscopy,False
+3,catechol,induced,apoptosis,False
+4,catechol,induced,HL60,False
+5,catechol,induced,oxidation,False
+6,catechol,induced,pyrrolidine ring,False
+7,catechol,induced,no effect,False
+8,metabolites,induced,apoptosis,False
+9,metabolites,induced,HL60,False
+10,metabolites,induced,oxidation,False
+11,metabolites,induced,pyrrolidine ring,False
+12,metabolites,induced,no effect,False
+13,phenols,induced,apoptosis,False
+14,phenols,induced,HL60,False
+15,phenols,induced,oxidation,False
+16,phenols,induced,pyrrolidine ring,False
+17,phenols,induced,no effect,False
+18,phenols,had,oxidation,False
+19,phenols,had,pyrrolidine ring,False
+20,phenols,had,no effect,False
+21,necrosis,observed,cells,False
+22,necrosis,observed,NCQ436,False
+23,necrosis,observed,effect,False
+24,necrosis,observed,cell types,False
+25,necrosis,observed,apoptosis,False
+26,necrosis,observed,concentrations,False
+27,necrosis,observed,concentrations,False
+28,NCQ344,observed,cells,False
+29,NCQ344,observed,NCQ436,False
+30,NCQ344,observed,effect,False
+31,NCQ344,observed,cell types,False
+32,NCQ344,observed,apoptosis,False
+33,NCQ344,observed,concentrations,False
+34,NCQ344,observed,concentrations,False
+35,NCQ344,had,effect,False
+36,NCQ344,had,cell types,False
+37,NCQ344,had,apoptosis,False
+38,NCQ344,had,concentrations,False
+39,NCQ344,had,concentrations,False
+40,data,show,remoxipride,False
+41,data,show,toxic effects,False
+42,data,show,HL60,False
+43,data,show,apoptosis,False
+44,catechol,show,remoxipride,False
+45,catechol,show,toxic effects,False
+46,catechol,show,HL60,False
+47,catechol,show,apoptosis,False
+48,metabolites,show,remoxipride,False
+49,metabolites,show,toxic effects,False
+50,metabolites,show,HL60,False
+51,metabolites,show,apoptosis,False
+52,catechol,have,remoxipride,False
+53,catechol,have,toxic effects,False
+54,catechol,have,HL60,False
+55,catechol,have,apoptosis,False
+56,metabolites,have,remoxipride,False
+57,metabolites,have,toxic effects,False
+58,metabolites,have,HL60,False
+59,metabolites,have,apoptosis,False
+60,catechol,induce,apoptosis,False
+61,catechol,induce,HBMP cells,False
+62,Moran,induce,apoptosis,False
+63,Moran,induce,HBMP cells,False
+64,remoxipride,propose,aplastic anemia,False
+65,remoxipride,propose,production,False
+66,remoxipride,propose,reactive metabolites,False
+67,remoxipride,propose,NCQ436,False
+68,remoxipride,propose,apoptosis,False
+69,remoxipride,propose,HBMP cells,False
+70,remoxipride,propose,mechanism,False
+71,remoxipride,propose,aplastic anemia,False
+72,remoxipride,propose,remoxipride,False
+73,remoxipride,induce,aplastic anemia,False
+74,remoxipride,induce,production,False
+75,remoxipride,induce,reactive metabolites,False
+76,remoxipride,induce,NCQ436,False
+77,remoxipride,induce,apoptosis,False
+78,remoxipride,induce,HBMP cells,False
+79,remoxipride,induce,mechanism,False
+80,remoxipride,induce,aplastic anemia,False
+81,remoxipride,induce,remoxipride,False

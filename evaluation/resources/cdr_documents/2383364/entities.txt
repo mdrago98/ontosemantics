@@ -1,11 +1,72 @@
-antimicrobial
+Effective
+topical
+decrease
 infection
-Chlorhexidine
-antimicrobial agent
+mortality
+burn
+patients
+Chlorhexidine phosphanilate
+CHP
+broad-spectrum antimicrobial agent
+topical burn
+wound dressing
+cream
+clinical trials
 painful
+application
+study
+concentrations
+CHP
+tolerable
+concentration
+identified
 retention
 antimicrobial
+efficacy
+burn
+patients
+burns
+treated
+pairs
+treatments
+intervals
+period
+burn
+site
+treated with
+CHP
+concentrations
+vehicle
 silver sulphadiazine
+AgSD
+cream
 antimicrobial agent
-tolerance
-pharmaceutical
+topical treatment
+burn wounds
+site
+treated with
+AgSD cream
+relationship
+CHP
+concentration
+patients
+ratings
+pain
+analogue
+CHP
+cream
+AgSD
+pain tolerance
+treatments
+AgSD
+CHP
+creams
+satisfactory
+AgSD
+formulations
+CHP
+acceptable
+wound care
+vehicle system
+pharmaceutical improvement
+tolerable

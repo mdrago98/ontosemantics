@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
-0,Adriamycin,evoked,toxicity,False
-1,D-ribose,influence,ADR,True
+0,influence,studied,d-ribose,False
+1,influence,studied,adriamycin-induced myocardiopathy,False
+2,influence,studied,rats,False
+3,D-ribose,influence,doses,True
+4,D-ribose,influence,ADR,True

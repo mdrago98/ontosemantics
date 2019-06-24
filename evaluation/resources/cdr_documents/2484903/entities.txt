@@ -1,9 +1,19 @@
-propylthiouracil
-acute hepatitis
-methimazole
-hepatocellular necrosis
-propylthiouracil
-lupus-like syndrome
-antithyroid drug
+cases
+propylthiouracil-associated acute hepatitis
+fatal
+methimazole-associated hepatocellular necrosis
+propylthiouracil-associated lupus-like syndrome
+literature
+antithyroid drug side effects
+mechanisms
+occurrence
+reviewed
+efficacy
+complications
+thyroidectomy
+radioiodine
+compared
 antithyroid drugs
+131I
+therapy
 hyperthyroidism

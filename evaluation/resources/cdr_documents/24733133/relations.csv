@@ -1,4 +1,6 @@
 ,Subject,Action,Object,Negation
-0,who,developed,heparin-induced thrombocytopenia with thrombosis,False
-1,patient,treated,catheter-directed thrombolysis,False
-2,patient,treated,alteplase,False
+0,case,presented,oncology,False
+1,case,presented,heparin-induced thrombocytopenia,False
+2,case,presented,thrombosis,False
+3,case,presented,catheter-directed thrombolysis,False
+4,case,presented,alteplase,False

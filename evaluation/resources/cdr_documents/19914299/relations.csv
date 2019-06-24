@@ -1,16 +1,73 @@
 ,Subject,Action,Object,Negation
-0,who,treated,chemotherapy,False
-1,patients,experiencing,deteriorations,False
-2,agent,crosses,blood-brain barrier,False
-3,drug,reduce,cell proliferation,False
-4,drug,reduce,regions,False
-5,effects,tested,rats,False
-6,animals,treated,5-FU,False
-7,animals,had,reduction,False
-8,Animals,treated,5-FU,False
-9,ability,carry,OLR,False
-10,administration,improved,performance,False
-11,chemotherapy,caused,reduction,False
-12,Fluoxetine,had,effect,True
-13,5-FU,affect,cell proliferation,False
-14,5-FU,affect,working memory,False
+0,patients,described,systemic adjuvant chemotherapy,False
+1,patients,described,deteriorations,False
+2,patients,described,cognition,False
+3,chemotherapeutic agent,crosses,blood-brain barrier,False
+4,chemotherapeutic agent,crosses,brain function,False
+5,anti mitotic drug,reduce,cell proliferation,False
+6,anti mitotic drug,reduce,neurogenic regions,False
+7,anti mitotic drug,reduce,brain,False
+8,neurogenesis,indicate,SSRI,False
+9,neurogenesis,enhanced,SSRI,False
+10,effects of,tested,investigation,False
+11,effects of,tested,treatment,False
+12,effects of,tested,5-FU,False
+13,effects of,tested,Fluoxetine,False
+14,effects of,tested,5-FU,False
+15,effects of,tested,Lister hooded rats,False
+16,Behavioural effects,tested,context,False
+17,Behavioural effects,tested,5-FU,False
+18,Behavioural effects,tested,reduction,False
+19,Behavioural effects,tested,freezing time,False
+20,animals,tested,context,False
+21,animals,tested,5-FU,False
+22,animals,tested,reduction,False
+23,animals,tested,freezing time,False
+24,animals,using,context,False
+25,animals,using,5-FU,False
+26,animals,using,reduction,False
+27,animals,using,freezing time,False
+28,animals,showed,5-FU,False
+29,animals,showed,reduction,False
+30,animals,showed,freezing time,False
+31,animals,had,5-FU,False
+32,animals,had,reduction,False
+33,animals,had,freezing time,False
+34,group,tested,animals,False
+35,group,tested,spatial working memory test,False
+36,Animals,showed,5-FU,False
+37,Animals,showed,deficits,False
+38,Animals,showed,OLR,False
+39,Animals,showed,Fluoxetine,False
+40,Animals,showed,performance,False
+41,co administration,showed,5-FU,False
+42,co administration,showed,deficits,False
+43,co administration,showed,OLR,False
+44,co administration,showed,Fluoxetine,False
+45,co administration,showed,performance,False
+46,co administration,improved,Fluoxetine,False
+47,co administration,improved,performance,False
+48,5-FU chemotherapy,caused,reduction,False
+49,5-FU chemotherapy,caused,proliferating cells,False
+50,5-FU chemotherapy,caused,sub granular zone,False
+51,5-FU chemotherapy,caused,dentate gyrus,False
+52,reduction,eliminated,5-FU,False
+53,Fluoxetine,eliminated,5-FU,False
+54,Fluoxetine,had,proliferating cell number,False
+55,findings,suggest,cell proliferation,False
+56,findings,suggest,administration,False
+57,findings,suggest,Fluoxetine,False
+58,5-FU,suggest,cell proliferation,False
+59,5-FU,suggest,administration,False
+60,5-FU,suggest,Fluoxetine,False
+61,deficits,suggest,cell proliferation,False
+62,deficits,suggest,administration,False
+63,deficits,suggest,Fluoxetine,False
+64,5-FU,affect,cell proliferation,False
+65,5-FU,affect,administration,False
+66,5-FU,affect,Fluoxetine,False
+67,deficits,affect,cell proliferation,False
+68,deficits,affect,administration,False
+69,deficits,affect,Fluoxetine,False
+70,deficits,reversed,administration,False
+71,deficits,reversed,Fluoxetine,False

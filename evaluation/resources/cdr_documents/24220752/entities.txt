@@ -1,3 +1,7 @@
+frequency
+factors
 contrast-induced nephropathy
 CIN
+hospitalised
+patients
 cancer

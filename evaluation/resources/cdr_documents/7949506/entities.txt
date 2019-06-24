@@ -1,3 +1,10 @@
+report
+cases
+adverse interaction
 clonidine
 verapamil
+atrioventricular (AV)
+patients
+severe
+hypotension
 patient

@@ -1,21 +1,38 @@
+year-old
 woman
-coronary artery
-grafting
+history
+coronary artery bypass grafting
+prior
 myocardial infarction
-emergency
+emergency room
+loss of consciousness
 bradycardia
+hyperkalemia
+concentration
+serum potassium
+normal
+sinus rhythm
+restored
+correction
 serum
-potassium
-sinus
-rhythm
-serum
-potassium
+hyperkalemia
+doses
+spiranolactone
 aldosterone antagonist
+long-term
+intake
 ramipril
 ACE inhibitor
-electrolyte imbalance
+electrolyte
+imbalance
+acute
+life-threatening
 cardiac events
-ACE
-ARB
-potassium
-renal
+Clinicians
+hyperkalemia
+elderly
+patients
+ACE/ARB
+combination
+potassium sparing agents
+mild renal disturbance

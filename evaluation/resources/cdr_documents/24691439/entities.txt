@@ -1,45 +1,74 @@
+Administration
 glucocorticoids
+induces
 ocular hypertension
+patients
+untreated
+patients
 secondary glaucoma
 primary open-angle glaucoma
 POAG
 pathology
-glucocorticoid
-glaucoma
+glucocorticoid-induced glaucoma
+animal model
 murine
-glucocorticoid
+model
+glucocorticoid-induced glaucoma
 glaucoma
-glaucoma
-mice
-ocular
+features
+patients
+Treatment
+WT mice
+topical ocular
 dexamethasone
+elevation
 intraocular pressure
 IOP
+functional
+structural loss
 retinal ganglion cells
-degeneration
-glucocorticoid
-glaucoma
+axonal degeneration
+glucocorticoid-induced glaucoma
 human
-dexamethasone
-ocular hypertension
+patients
+dexamethasone-induced ocular hypertension
+associated with
+chronic
 trabecular meshwork
 TM
+patients
 withdrawal
 dexamethasone
+treatment
+elevated
 IOP
+ER stress
+animal model
 Dexamethasone
-transcriptional
+induced
+transcriptional factor
 CHOP
+marker
+chronic ER stress
+anterior
 tissues
-Chop
+Chop deletion
+reduced
+ER stress
 tissues
-dexamethasone
-ocular hypertension
+dexamethasone-induced ocular hypertension
+reduction
+ER stress
 TM
-dexamethasone
-ocular hypertension
-mice
-glucocorticoid
-ocular hypertension
-glucocorticoid
-glaucoma
+sodium 4-phenylbutyrate
+dexamethasone-induced ocular hypertension
+WT mice
+data
+ER stress
+glucocorticoid-induced ocular hypertension
+reducing
+ER stress
+potential
+therapeutic strategy
+treating
+glucocorticoid-induced glaucoma

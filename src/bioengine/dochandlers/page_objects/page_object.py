@@ -7,7 +7,7 @@ from abc import ABC, abstractmethod
 from urllib.request import Request, urlopen
 
 
-from settings import Config
+from src.settings import Config
 
 
 class PageObject(ABC):

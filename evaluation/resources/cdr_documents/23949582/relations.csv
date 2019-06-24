@@ -1,10 +1,33 @@
 ,Subject,Action,Object,Negation
-0,Ifosfamide,is,nitrogen mustard,False
+0,side effect,raises,IFO,False
 1,side effect,raises,requirement,False
-2,requirement,minimize,effect,False
-3,IFO,administrated,lymphocytes,False
-4,action,reduces,frequency,False
-5,action,reduces,comparison,False
-6,IFO,acting,concentration,False
-7,Mesna,reduces,genotoxicity,False
-8,Mesna,acts,inhibitory,False
+2,side effect,raises,co-administration,False
+3,side effect,raises,sodium 2-sulfanylethanesulfonate,False
+4,side effect,raises,effect,False
+5,IFO,administrated,lymphocytes,False
+6,Cytogenetic markers,recorded,sister chromatid exchanges,False
+7,conjunction,reduces,frequency,False
+8,conjunction,reduces,SCEs,False
+9,conjunction,reduces,SCEs,False
+10,IFO,reduces,frequency,False
+11,IFO,reduces,SCEs,False
+12,IFO,reduces,SCEs,False
+13,IFO,reduces,frequency,False
+14,IFO,reduces,SCEs,False
+15,IFO,reduces,SCEs,False
+16,concentrations,administered,Mesna,False
+17,concentrations,noted,Mesna,False
+18,concentrations,noted,PRI,False
+19,concentrations,noted,IFO,False
+20,concentrations,noted,concentration,False
+21,concentrations,noted,lymphocytes,False
+22,reductions,noted,Mesna,False
+23,reductions,noted,PRI,False
+24,reductions,noted,IFO,False
+25,reductions,noted,concentration,False
+26,reductions,noted,lymphocytes,False
+27,Mesna,reduces,genotoxicity,False
+28,Mesna,reduces,concentrations,False
+29,Mesna,reduces,inhibitory fashion,False
+30,Mesna,reduces,cytostatic action,False
+31,Mesna,reduces,drug,False

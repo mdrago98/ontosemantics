@@ -1,20 +1,80 @@
+Metolachlor
 herbicide
-carcinogen
+Group C carcinogen
+U.S. Environmental Protection Agency
+increased
 liver neoplasms
+female
 rats
-pesticide
+Epidemiologic studies
+health effects
+metolachlor
+Agricultural Health Study
+AHS
+prospective cohort study
+licensed private
+commercial
+pesticide applicators
+Iowa
+North Carolina
 cancer
-cancer
+incidence
+NC/IA
+applicators
+metolachlor
+Poisson regression
+evaluate
+relations
+metrics
+metolachlor
+lifetime days
+intensity-weighted lifetime days
+cancer incidence
+metolachlor
+incidence
 cancers
-cancers
+combined
+site-specific cancers
 liver cancer
-follicular
-cell lymphoma
+analyses
+workers
+elevations
+higher
+categories
+statistically significant
+trends
+lifetime
+intensity-weighted lifetime
+days
+metolachor
+positive
+statistically significant
+unexposed reference group
+pattern
+follicular cell lymphoma
 lymphoma
+subtypes
+increased
 lung cancer
+risk
+metolachlor
+cohort
+update
+association
+metolachlor
 liver cancer
-pesticide
+pesticide applicators
+finding
+echoes
+observation
+increased
 liver neoplasms
+animal studies
+findings
 liver cancer
-follicular
-cell lymphoma
+follicular cell lymphoma
+follow-up
+differentiate
+effects
+metolachlor
+factors

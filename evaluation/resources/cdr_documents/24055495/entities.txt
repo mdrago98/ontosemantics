@@ -1,51 +1,89 @@
+Basic
+clinical research
 dementia
-sporadic Alzheimer's disease
+sporadic
+Alzheimer's disease
 sAD
-insulin-receptor
-IR
+associated with
+dysfunction
+insulin-receptor (IR) system
+decreased
 glucose transport
-glucose transporter GLUT4
+glucose transporter
+GLUT4
+decreased
 glucose metabolism
 brain cells
+energy
 d-galactose
+C-4-epimer
 d-glucose
+transported
 brain
-insulin
+insulin-independent
 GLUT3 transporter
 metabolized
 glucose
 Leloir pathway
+parenteral
+daily
+injections
 galactose
-memory
-aging
-oral
-galactose
-oral
-galactose
+induce
+memory deterioration
+rodents
+generate
+animal
+aging model
+effects of
+oral galactose
+treatment
+cognitive functions
+tested
+investigated
+effects of
+continuous daily oral galactose
+treatment
 cognitive deficits
-streptozotocin
+streptozotocin-induced
+STZ-icv
 rat
+model
 sAD
-Water
-oral
-galactose
+Morris Water Maze
+Passive Avoidance test
+month
+oral galactose
+treatment
+STZ-icv
+administration
 development
-cognitive deficits
-oral
-galactose
+STZ-icv-induced cognitive deficits
+Beneficial effect
+oral galactose
 rat
-galactose
-oral
-galactose
+age
+galactose dose
+oral galactose
+administration
+appearance
 galactose
 blood
+increase
 galactose
+concentration
 cerebrospinal fluid
 oral
-galactose
-Oral
-galactose
+parenteral
+administration
+galactose dose
+Oral galactose
+exposure
 learning
 memory
+investigating
+improvement
 cognitive deficits
-glucose
+associated with
+glucose hypometabolism
+AD

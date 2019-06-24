@@ -1,6 +1,10 @@
 ,Subject,Action,Object,Negation
-0,endarterectomy,done,local anesthesia,False
-1,endarterectomy,become,technique,False
-2,complications,are,situations,False
-3,there,is,paralysis,False
-4,We,examined,effect,False
+0,carotid endarterectomy,done,neurologic monitoring,False
+1,carotid endarterectomy,done,local anesthesia,False
+2,carotid endarterectomy,become,neurologic monitoring,False
+3,carotid endarterectomy,become,local anesthesia,False
+4,carotid endarterectomy,become,technique,False
+5,carotid endarterectomy,become,centers,False
+6,vocal nerve palsies,described,local anesthetics,False
+7,complications,are,situations,False
+8,complications,are,contralateral paralysis,False

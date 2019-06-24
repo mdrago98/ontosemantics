@@ -1,18 +1,61 @@
+dialysis
+patients
+hypercalcemic
 calcium carbonate
-phosphate
+principal phosphate binder
+risk factors
+associated with
 development
 hypercalcemia
-intestinal
-calcium
-bone
+indirect
+parameters
+intestinal calcium reabsorption
+bone turnover
+rate
+patients
+results
+eucalcemic
+patients
+age
+sex
+length of time
+dialysis
+etiology
 renal disease
+hypercalcemic
+episodes
+peak calcium values
+patients
+hypercalcemic
+group
+significant
+increase
+mean
 calcium
-calcium
-calcium
+concentration
+months
+switch
+mean value
+months
+observation
+switch
+eucalcemic
+patients
+mean
+calcium values
 CaCO3
-calcium
+dosage
+calculated
+dietary calcium intake
+circulating
 vitamin D
 metabolites
+groups
+Physical activity index
+predialysis
 serum
-bicarbonate
+groups
+parameters
 bone
+rates
+groups.(ABSTRACT TRUNCATED AT 250 WORDS

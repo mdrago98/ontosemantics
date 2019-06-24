@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,We,evaluated,association,False
+1,study,included,women,False
+2,who,recruited,1993,False
+3,who,recruited,US,False
+4,participants,had,examination,False
+5,models,used,analysis,False
+6,models,used,analysis,False
+7,There,was,association,True
+8,association,reach,significance,True
+9,association,was,p<0.001,False
+10,Depression,had,effect,False
+11,Depression,had,time,False
+12,consumption,has,association,False
+13,depression,associated,HIV disease progression,False
+14,findings,have,implications,False

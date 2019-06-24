@@ -1,10 +1,25 @@
+report
+cases
+severe
+hypoxaemia
 ibuprofen
+administration
+randomised controlled trial
+prophylactic treatment
 patent ductus arteriosus
 ibuprofen
+premature infants
+weeks
 gestation
-pulmonary
-blood flow
-inhaled
-nitric oxide
-pulmonary
+Echocardiography
+severely
+decreased
+pulmonary blood flow
+Hypoxaemia
+inhaled nitric oxide therapy
+investigators
+trials
+pulmonary pressure
+hypoxaemia
+prophylactic administration
 ibuprofen

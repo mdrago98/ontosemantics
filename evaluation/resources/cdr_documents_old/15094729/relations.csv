@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,patients,have,changes,False
+1,patients,have,changes,False
+2,who,continue,seizure,False
+3,who,continue,medication,False
+4,changes,continue,medication,False

@@ -1,20 +1,33 @@
-antioxidant
+potential
+protective effect
+dietary antioxidant
 curcumin
-renal
+days
+renal injury
+induced
+maleate
+evaluated
+Tubular proteinuria
 oxidative stress
+induced
+injection
+maleate
 rats
-renal
-renal
-vascular resistance
+Maleate-induced renal injury
+increase
+renal vascular resistance
+urinary
 excretion
-protein
+total protein
 glucose
+sodium
 neutrophil gelatinase-associated lipocalin
 NGAL
 N-acetyl β-D-glucosaminidase
 NAG
 upregulation
-kidney
+kidney injury molecule (KIM)-1
+decrease
 renal blood flow
 claudin-2
 expression
@@ -22,32 +35,59 @@ necrosis
 apoptosis
 tubular cells
 Oxidative stress
+measuring
 oxidation
 lipids
 proteins
-renal Nrf2
+diminution
 renal
-LLC
-cells
+Nrf2
+levels
+Studies
+renal epithelial LLC-PK1 cells
 mitochondria
+isolated
 kidneys
+experimental groups
+Maleate
+induced
 cell damage
 reactive oxygen species
 ROS
-LLC
-cells
-oxygen
-ADP
+production
+LLC-PK1 cells
+culture
+maleate
+treatment
+reduced
+oxygen consumption
+ADP-stimulated
 mitochondria
-glutamate
+diminished
+respiratory control index
+malate/glutamate
+substrate
+activities
 complex I
 aconitase
+diminished
 curcumin
 curcumin
-nephropathy
+attenuate
+in vivo
+maleate-induced nephropathy
+in vitro
 cell damage
+in vivo
+protection
+prevention
 oxidative stress
-mitochondrial
-oxygen
-complex I
+preservation
+mitochondrial oxygen consumption
+activity
+respiratory complex I
+in vitro
+protection
+prevention
 ROS
+production

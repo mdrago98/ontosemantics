@@ -1,11 +1,23 @@
 ,Subject,Action,Object,Negation
-0,range,established,mechanistic,False
-1,We,undertook,analysis,False
-2,We,undertook,part,False
-3,persons,taking,tenofovir disoproxil fumarate,False
-4,criteria,classified,kidney,False
-5,criteria,had,features,False
-6,exposure,was,days,False
-7,incidence,was,patients,False
-8,that,reported,trials,False
-9,Cessation,associated,restoration,False
+0,potential,established,tenofovir,False
+1,potential,established,kidney syndromes,False
+2,potential,established,randomised clinical trials,False
+3,criteria,found,407,False
+4,criteria,found,analysed,False
+5,criteria,found,TDF-related kidney disease,False
+6,criteria,found,kidney tubular dysfunction,False
+7,criteria,found,features,False
+8,criteria,found,glomerular dysfunction,False
+9,criteria,found,Fanconi syndrome,False
+10,features,found,407,False
+11,features,found,analysed,False
+12,features,found,TDF-related kidney disease,False
+13,features,found,kidney tubular dysfunction,False
+14,features,found,features,False
+15,features,found,glomerular dysfunction,False
+16,features,found,Fanconi syndrome,False
+17,Cessation,associated with,TDF,False
+18,Cessation,associated with,restoration,False
+19,Cessation,associated with,kidney function,False
+20,Cessation,associated with,patients,False
+21,Cessation,associated with,report,False

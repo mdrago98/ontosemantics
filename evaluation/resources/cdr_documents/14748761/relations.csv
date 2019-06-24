@@ -1,24 +1,15 @@
 ,Subject,Action,Object,Negation
-0,cases,reported,literature,False
-1,order,quantify,incidence,False
-2,we,performed,meta,False
-3,trials,comparing,VNR,False
-4,trials,comparing,agents,False
-5,trials,comparing,VNR,False
-6,trials,comparing,drugs,False
-7,trials,comparing,treatment,False
-8,trials,searched,Medicine,False
-9,trials,searched,Medline,False
-10,trials,searched,1987,False
-11,trials,searched,Cochrane,False
-12,Outcomes,were,cardiac events,False
-13,deaths,reported,publication,False
-14,We,found,trials,False
-15,incidence,was,%,False
-16,There,was,difference,True
-17,it,reach,significance,True
-18,it,reach,number,True
-19,risk,was,trials,False
-20,trials,excluding,patients,False
-21,trials,including,patients,False
-22,risk,associated,VNR,False
+0,cases,reported,cardiac adverse reactions,False
+1,cases,reported,vinorelbine,False
+2,cases,reported,literature,False
+3,Randomized clinical trials,searched,VNR,False
+4,Randomized clinical trials,searched,drugs,False
+5,Randomized clinical trials,searched,treatment,False
+6,Randomized clinical trials,searched,cancer,False
+7,Randomized clinical trials,searched,Medline,False
+8,Randomized clinical trials,searched,Evidence-based Medicine Reviews databases,False
+9,Vinorelbine-related cardiac events,concern,patients,False
+10,Vinorelbine-related cardiac events,concern,clinical trials,False
+11,risk,seems,VNR,False
+12,risk,seems,chemotherapeutic agents,False
+13,risk,seems,indications,False

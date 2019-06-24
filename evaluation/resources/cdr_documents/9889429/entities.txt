@@ -1,21 +1,48 @@
+psoriatic
+patients
 hypertension
-cyclosporin A
+cyclosporin A therapy
+treated
+months
 calcium channel blocker
-release
+sustained-release
 nifedipine
-antihypertensive
-cyclosporin A
-blood
-nifedipine
+clinical
+antihypertensive effects
+adverse events
+treatment
+drugs
+patients
+subclinical
+hypertensive state
+cyclosporin A therapy
+systolic
+diastolic blood pressures
+patients
+decreased
+weeks
+nifedipine therapy
 blood pressure
+months
+adverse events
+combined therapy
 cyclosporin A
 nifedipine
-blood
-urea
-nitrogen
+increase
+blood urea
+nitrogen levels
+patients
 development
 gingival hyperplasia
-release
+patients
+findings
+sustained-release
 nifedipine
+hypertensive psoriatic
+patients
+long-term
+treatment
 cyclosporin A
+patients
+monitored
 gingival hyperplasia

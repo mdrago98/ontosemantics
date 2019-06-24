@@ -1,13 +1,28 @@
 ,Subject,Action,Object,Negation
-0,recognition,stimulated,research,False
-1,recognition,stimulated,use,False
-2,calcium channel,blocking,agents,False
-3,calcium channel,blocking,treatment,False
-4,applications,parallel,tissue,False
-5,calcium channel blockers,are,group,False
-6,that,exert,electrophysiologic,False
-7,nifedipine,controls,angina,False
-8,nifedipine,controls,hypertension,False
-9,members,studied,variety,False
-10,Additional members of this group of calcium channel blockers,offer,advantages,False
-11,which,encourages,compliance,False
+0,recognition,stimulated,calcium,False
+1,recognition,stimulated,pathogenesis,False
+2,recognition,stimulated,cardiovascular disease,False
+3,recognition,stimulated,research,False
+4,recognition,stimulated,calcium channel blocking agents,False
+5,recognition,stimulated,treatment,False
+6,recognition,stimulated,cardiovascular diseases,False
+7,efficacy,make,agents,False
+8,efficacy,make,therapeutic modalities,False
+9,Clinical applications,parallel,calcium channel blockers,False
+10,Clinical applications,parallel,tissue selectivity,False
+11,dosage,offers,nitrendipine,False
+12,dosage,offers,administration schedule,False
+13,dosage,offers,patient,False
+14,dosage,offers,therapy,False
+15,dosage,offers,hypertension,False
+16,coronary vasodilating properties,led,nisoldipine,False
+17,coronary vasodilating properties,led,investigation,False
+18,coronary vasodilating properties,led,agent,False
+19,coronary vasodilating properties,led,angina,False
+20,Selectivity,makes,treatment,False
+21,Selectivity,makes,subarachnoid hemorrhage,False
+22,nimodipine,makes,treatment,False
+23,nimodipine,makes,subarachnoid hemorrhage,False
+24,dihydropyridine calcium channel blockers,tolerated,adverse effects,False
+25,headache,tolerated,adverse effects,False
+26,headache,being,adverse effects,False

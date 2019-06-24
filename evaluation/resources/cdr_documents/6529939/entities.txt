@@ -1,15 +1,59 @@
-sinus
-rhythm
+Alternating sinus rhythm
+intermittent
+sinoatrial (S-A)
 woman
+treatment
 angina
 propranolol
+daily
+electrocardiogram
 alternation
-sinus
-sinus
+long
+short P-P intervals
+occasional
+pauses
+pauses
+short P-P intervals
+P-P intervals
+sinus cycle
+sinus cycles
 rhythm
-sinus
-sinus
+P-P interval
+long P-P intervals
+short P-P intervals
+duration
+pauses
+P-P interval
+sinus cycle
+regular
+sinus rhythm
+intermittent
+S-A block
+sinus rhythm
+sudden prolongation
+P-P interval
+alternative rhythm
+shape
+P waves
+P-R
+S-A conduction
+pathways
+conduction
+block
+P-P interval
+electrocardiographic features
+Atropine 1
+intravenously
+shortening
+P-P intervals
+changing
 rhythm
-sinus
+abnormal
 rhythm
-rhythm
+withdrawal
+propranolol
+drug
+S-A block
+evidence
+propranolol
+conduction disorder

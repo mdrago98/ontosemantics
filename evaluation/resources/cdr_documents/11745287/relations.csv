@@ -1,2 +1,6 @@
 ,Subject,Action,Object,Negation
-0,activity,tested,Phase,False
+0,activity,tested,combination,False
+1,activity,tested,carboplatin,False
+2,activity,tested,Phase II study,False
+3,activity,tested,patients,False
+4,activity,tested,cervical carcinoma,False

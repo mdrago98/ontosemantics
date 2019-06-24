@@ -1,20 +1,55 @@
+study
+evaluate
+potential
 alpha1-adrenoceptor
 agonist
+treatment
 urinary stress incontinence
-blind
+randomised
+double-blind
+placebo-controlled
+crossover study design
+incremental
+doses
+intravenous
+methoxamine
+placebo
+saline
+administered
+group
 women
 genuine stress incontinence
-urethral
+measuring
+urethral pressure
+MUP
 blood pressure
-heart
-blood pressure
-blood pressure
-heart
+heart rate
+symptomatic
+side effects
+Methoxamine
+evoked
+increases
+MUP
+diastolic blood pressure
+systolic blood pressure
+fall
+heart rate
+maximum
+dosage
+Systemic
+side effects
 piloerection
 headache
-cold
-extremities
-alpha1-adrenoceptor agonists
+cold extremities
+subjects
+results
+clinical
+usefulness
+peripherally acting
+alpha1-adrenoceptor
+agonists
+medical treatment
 stress incontinence
 piloerection
 cardiovascular
+side effects

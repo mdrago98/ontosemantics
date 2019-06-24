@@ -1,0 +1,12 @@
+indirect water-deprivation test
+reference standard
+diagnosis
+diabetes insipidus
+administer
+results
+inaccurate
+study
+indirect water-deprivation test
+detection
+plasma copeptin
+arginine vasopressin

@@ -1,7 +1,9 @@
 ,Subject,Action,Object,Negation
-0,who,have,Fanconi's anemia,False
-1,who,have,years,False
-2,an 11-year-old boy,readmitted,aplastic crisis,False
-3,which,be,hepatocellular carcinoma,False
-4,hepatic neoplasms,develop,patients,False
-5,peliosis,develop,patients,False
+0,case,reported,boy,False
+1,case,reported,Fanconi's anemia,False
+2,case,reported,years,False
+3,case,reported,androgens,False
+4,non-metastasizing hepatic neoplasms,contributes,patients,False
+5,non-metastasizing hepatic neoplasms,contributes,Fanconi's anemia,False
+6,non-metastasizing hepatic neoplasms,develop,patients,False
+7,non-metastasizing hepatic neoplasms,develop,Fanconi's anemia,False

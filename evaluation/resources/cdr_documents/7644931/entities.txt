@@ -1,16 +1,43 @@
 Paclitaxel
 Taxol
+Bristol-Myers Squibb Company
+NJ
+infusion
 carboplatin
+phase I/II study
+patients
 non-small cell lung cancer
 Carboplatin
-fixed
+fixed target
+area
+concentration-time curve
+Calvert formula
 paclitaxel
+escalated
 patient
+dose level I
+level
+phase II study
+level
+modification
+nonhematologic toxicities
 arthralgia
 sensory neuropathy
-regressions
+Therapeutic effects
+dose
+responses
+partial
+untreated
+patients
+Toxicities
+cohort
+patients
+phase I trial
 paclitaxel
+identical
+dose
 Carboplatin
-add
-paclitaxel
-carboplatin
+hematologic toxicities
+paclitaxel/carboplatin combination
+dosed
+weeks

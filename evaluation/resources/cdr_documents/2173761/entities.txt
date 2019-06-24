@@ -1,27 +1,75 @@
+effects of
+bolus administration
+cromakalim
+pinacidil
+large
 circumflex artery
-coronary arteries
+small coronary arteries
+systemic
 hemodynamics
-dogs
+investigated
+chronically
+instrumented
+conscious dogs
 nitroglycerin
 Nitroglycerin
-circumflex artery
+increased
+circumflex artery diameter
+CxAD
+simultaneously
+affecting
 cardiac
-hemodynamic
+systemic hemodynamic parameter
+cromakalim
+pinacidil
+doses
 nitroglycerin
-coronary
-blood flow
-heart
-coronary
-vascular resistance
-aortic
+doses
+dose-dependently
+increased
+CxAD
+coronary blood flow
+heart rate
+decreased
+coronary vascular resistance
+aortic pressure
+Cromakalim
+pinacidil
+increasing
+CxAD
 Vasodilation
-coronary vessels
-muscarinic receptors
+small coronary vessels
+hypotension
+induced
+cromakalim
+pinacidil
+beta adrenergic
+muscarinic receptors blockade
+drug-induced tachycardia
 circumflex artery
 blood flow
+constant
+increases
+CxAD
+induced
+cromakalim
+pinacidil
 nitroglycerin
+reduced
 nitroglycerin
-coronary arteries
-coronary arteries
+flow-independently dilates
+cromakalim
+pinacidil
+dilate
+small coronary arteries
+effect
+simultaneous
+beta adrenoceptors-mediated
+myocardial
 metabolic
-vasodilation
+mechanisms
+direct vasodilation
+flow dependency
+cromakalim- and
+increase
+CxAD

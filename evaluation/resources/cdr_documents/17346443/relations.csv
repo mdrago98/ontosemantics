@@ -1,12 +1,55 @@
 ,Subject,Action,Object,Negation
-0,Wilson's disease,is,disorder,False
-1,We,report,case,False
-2,presenting,showed,hypoperfusion,False
-3,penicillamine,interrupted,appearance,False
-4,zinc acetate,continue,treatment,False
-5,therapy,represented,treatment,False
-6,us,avoid,drugs,False
-7,observation,is,line,False
-8,most,develop,skin lesion,True
-9,factor,involved,drug response,False
-10,studies,needed,clarification,False
+0,99mTc-ECD-SPECT,report,Wilson's disease,False
+1,99mTc-ECD-SPECT,report,chronic liver disease,False
+2,99mTc-ECD-SPECT,report,patient,False
+3,99mTc-ECD-SPECT,report,levels,False
+4,99mTc-ECD-SPECT,report,state anxiety,False
+5,99mTc-ECD-SPECT,report,depression,False
+6,99mTc-ECD-SPECT,report,cortical hypoperfusion,False
+7,99mTc-ECD-SPECT,report,frontal lobes,False
+8,99mTc-ECD-SPECT,report,left frontal lobe,False
+9,99mTc-ECD-SPECT,showed,cortical hypoperfusion,False
+10,99mTc-ECD-SPECT,showed,frontal lobes,False
+11,99mTc-ECD-SPECT,showed,left frontal lobe,False
+12,penicillamine,interrupted,follow-up,False
+13,penicillamine,interrupted,patient,False
+14,penicillamine,interrupted,appearance,False
+15,penicillamine,interrupted,lichenoid dermatitis,False
+16,penicillamine,interrupted,treatment,False
+17,penicillamine,interrupted,patient,False
+18,penicillamine,interrupted,side-effects,False
+19,zinc acetate,interrupted,follow-up,False
+20,zinc acetate,interrupted,patient,False
+21,zinc acetate,interrupted,appearance,False
+22,zinc acetate,interrupted,lichenoid dermatitis,False
+23,zinc acetate,interrupted,treatment,False
+24,zinc acetate,interrupted,patient,False
+25,zinc acetate,interrupted,side-effects,False
+26,zinc acetate,permitted,treatment,False
+27,zinc acetate,permitted,patient,False
+28,zinc acetate,permitted,side-effects,False
+29,therapy,represented,zinc acetate,False
+30,therapy,represented,treatment,False
+31,therapy,represented,patient,False
+32,penicillamine-related side effects,represented,zinc acetate,False
+33,penicillamine-related side effects,represented,treatment,False
+34,penicillamine-related side effects,represented,patient,False
+35,safety,allowed,zinc acetate,False
+36,safety,allowed,chelating drugs,False
+37,safety,allowed,evidence,False
+38,safety,allowed,efficacy,False
+39,safety,allowed,drug,False
+40,safety,allowed,treatment,False
+41,safety,allowed,Wilson's disease,False
+42,observation,allowed,zinc acetate,False
+43,observation,allowed,chelating drugs,False
+44,observation,allowed,evidence,False
+45,observation,allowed,efficacy,False
+46,observation,allowed,drug,False
+47,observation,allowed,treatment,False
+48,observation,allowed,Wilson's disease,False
+49,genetic factor,involved,drug response,False
+50,studies,needed,clarification,False
+51,studies,needed,Wilson's disease therapy,False
+52,studies,needed,therapies,False
+53,studies,needed,phenotypes,False

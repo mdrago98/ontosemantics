@@ -1,24 +1,55 @@
+retrospective study
+toxicity
+associated with
+protocol
+lomustine
+CCNU
 cyclophosphamide
 CTX
 dogs
 lymphoma
-targeted
+CCNU
+administered
+PO
+targeted dosage
 body
+day
 CTX
-targeted
+administered
+PO
+targeted dosage
+days
 dogs
-antibiotics
+prophylactic antibiotics
+treatments
 dogs
+study
+Neutropenia
+principal toxic effect
+frequency
+grade 4 neutropenia
+treatment
+CCNU/CTX
+confidence interval
+mean body weight
+dogs
+grade 4 neutropenia
+mean body weight
+dogs
+grade 4 neutropenia
+dog
+hematologic
+hepatotoxicity
+dogs
+evidence
+renal
+toxicity
+hemorrhagic cystitis
+Adverse gastrointestinal effects
+findings
+dose
 CCNU
 CTX
-body
-dogs
-body
-dogs
-dog
-dogs
-renal toxicity
-hemorrhagic cystitis
-CTX
-tumor
-dogs
+days
+tolerable
+tumor-bearing dogs

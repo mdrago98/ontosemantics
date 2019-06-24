@@ -1,11 +1,67 @@
 ,Subject,Action,Object,Negation
-0,Effects,studied,dogs,False
-1,myocardial ischemia,studied,dogs,False
-2,periods,increased,heart,False
-3,periods,increased,rate,False
-4,which,resulted,decrease,False
-5,min,prevented,decrease,False
-6,min,prevented,32,False
-7,Diltiazem,prevented,decrease,False
-8,Diltiazem,prevented,34,False
-9,property,plays,role,False
+0,Effects,studied,CD-832,False
+1,Effects,studied,isoproterenol,False
+2,Effects,studied,dogs,False
+3,Effects,studied,coronary stenosis,False
+4,Effects,studied,left circumflex coronary artery,False
+5,Effects,studied,nifedipine,False
+6,findings,studied,CD-832,False
+7,findings,studied,isoproterenol,False
+8,findings,studied,dogs,False
+9,findings,studied,coronary stenosis,False
+10,findings,studied,left circumflex coronary artery,False
+11,findings,studied,nifedipine,False
+12,findings,compared,nifedipine,False
+13,periods,increased,coronary artery stenosis,False
+14,periods,increased,ISO,False
+15,periods,increased,heart rate,False
+16,periods,increased,decrease,False
+17,periods,increased,percentage,False
+18,periods,increased,epicardial electrocardiogram,False
+19,elevation,increased,coronary artery stenosis,False
+20,elevation,increased,ISO,False
+21,elevation,increased,heart rate,False
+22,elevation,increased,decrease,False
+23,elevation,increased,percentage,False
+24,elevation,increased,epicardial electrocardiogram,False
+25,elevation,resulted,decrease,False
+26,elevation,resulted,percentage,False
+27,elevation,resulted,epicardial electrocardiogram,False
+28,infusion,performed,stenosis,False
+29,infusion,performed,CD-832,False
+30,infusion,performed,ISO,False
+31,equihypotensive doses,performed,stenosis,False
+32,equihypotensive doses,performed,CD-832,False
+33,equihypotensive doses,performed,ISO,False
+34,equihypotensive doses,infused,CD-832,False
+35,equihypotensive doses,infused,ISO,False
+36,CD-832,reduced,increase,False
+37,CD-832,reduced,heart rate,False
+38,CD-832,reduced,ISO,False
+39,CD-832,prevented,nifedipine,False
+40,CD-832,prevented,decrease,False
+41,CD-832,prevented,percentage,False
+42,Diltiazem,prevented,decrease,False
+43,Diltiazem,prevented,percentage,False
+44,data,show,myocardial ischemia,False
+45,data,show,ISO,False
+46,data,show,stenosis,False
+47,data,show,CD-832,False
+48,data,show,CD-832,False
+49,CD-832,show,myocardial ischemia,False
+50,CD-832,show,ISO,False
+51,CD-832,show,stenosis,False
+52,CD-832,show,CD-832,False
+53,CD-832,show,CD-832,False
+54,negative chronotropic property,show,myocardial ischemia,False
+55,negative chronotropic property,show,ISO,False
+56,negative chronotropic property,show,stenosis,False
+57,negative chronotropic property,show,CD-832,False
+58,negative chronotropic property,show,CD-832,False
+59,CD-832,improves,myocardial ischemia,False
+60,CD-832,improves,ISO,False
+61,CD-832,improves,stenosis,False
+62,negative chronotropic property,suggest,CD-832,False
+63,negative chronotropic property,suggest,CD-832,False
+64,negative chronotropic property,plays,CD-832,False
+65,negative chronotropic property,plays,CD-832,False

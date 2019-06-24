@@ -1,14 +1,32 @@
 ,Subject,Action,Object,Negation
-0,myocardial infarction,seen,hours,False
-1,patients,entered,trial,False
-2,Lidocaine,prevent,sustained ventricular tachycardia,True
-3,there,was,reduction,False
-4,plasma,was,patients,False
-5,level,was,patients,False
-6,incidence,was,group,False
-7,hypotension,occurred,patients,False
-8,nine,received,lidocaine,False
-9,patients,died,asystole,False
-10,three,had,lidocaine,False
-11,We,advocate,administration,True
-12,We,advocate,hours,True
+0,patients,entered,myocardial infarction,False
+1,patients,entered,symptoms,False
+2,patients,entered,double-blind randomized trial,False
+3,patients,entered,lidocaine,False
+4,Lidocaine,prevent,dose,True
+5,Lidocaine,prevent,ventricular tachycardia,True
+6,Lidocaine,prevent,patients,True
+7,Lidocaine,prevent,arrhythmias,True
+8,Lidocaine,prevent,minutes,True
+9,Lidocaine,prevent,administration,True
+10,Lidocaine,prevent,lidocaine,True
+11,incidence,occurred,central nervous system side effects,False
+12,incidence,occurred,lidocaine group,False
+13,incidence,occurred,patients,False
+14,incidence,occurred,lidocaine,False
+15,incidence,occurred,asystole,False
+16,incidence,occurred,lidocaine,False
+17,hypotension,occurred,central nervous system side effects,False
+18,hypotension,occurred,lidocaine group,False
+19,hypotension,occurred,patients,False
+20,hypotension,occurred,lidocaine,False
+21,hypotension,occurred,asystole,False
+22,hypotension,occurred,lidocaine,False
+23,patients,occurred,central nervous system side effects,False
+24,patients,occurred,lidocaine group,False
+25,patients,occurred,patients,False
+26,patients,occurred,lidocaine,False
+27,patients,occurred,asystole,False
+28,patients,occurred,lidocaine,False
+29,patients,died,asystole,False
+30,patients,died,lidocaine,False

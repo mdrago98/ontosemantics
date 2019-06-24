@@ -1,18 +1,87 @@
 Hodgkin lymphoma
 HL
+chemosensitive
 malignancy
 relapse
-stem
-cell transplant
+high-dose chemotherapy
+autologous stem cell transplant
+treatment
+adequate
+disease control
+salvage chemotherapy
+Regimens
+inpatient administration
+toxicity
 Gemcitabine
 cisplatin
+activity
 HL
+toxicity
+first-line
+chemotherapeutics
+outpatient setting
+retrospective single-centre analysis
+patients
+relapsed
+refractory
 HL
+treated with
 gemcitabine
+day
+D8
+D15
 methylprednisolone
 cisplatin
+days
 GEM-P
-metabolic
-transplant
+Demographic
+survival
+response
+toxicity
+data
+eligible
+patients
+identified
+age
 GEM-P
+administered
+patients
+GEM-P
+second-line treatment
+third-line therapy
+Overall response rate
+ORR
+GEM-P
+cohort
+complete response
+CR
+partial response
+CR
+metabolic CR
+PET
+ORR
+second-line
+patients
+toxicities
+haematological
+neutropenia
+thrombocytopenia 51 %
+follow-up
+GEM-P
+years
+GEM-P
+progression-free survival
+confidence interval
+CI
+overall survival
+CI
+patients
+autologous transplant
+GEM-P
+salvage chemotherapy
+transplantation
+patients
+treatment
+relapsed
+refractory
 HL

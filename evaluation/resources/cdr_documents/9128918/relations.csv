@@ -1,11 +1,75 @@
 ,Subject,Action,Object,Negation
-0,system,inhibit,secretion,False
-1,responsiveness,lost,rats,False
-2,purpose,induce,hyperprolactinemia,False
-3,purpose,induce,rats,False
-4,concentrations,increased,%,False
-5,concentrations,increased,control,False
-6,months,produced,%,False
-7,There,was,change,True
-8,hyperprolactinemia,affects,TIDA,False
-9,decrease,associated,increases,False
+0,system,responds,elevations,False
+1,system,responds,serum,False
+2,system,responds,activity,False
+3,responsiveness,lost,aging rats,False
+4,responsiveness,lost,serum,False
+5,Hyperprolactinemia,induced,treatment,False
+6,Hyperprolactinemia,induced,haloperidol,False
+7,Hyperprolactinemia,induced,high-performance liquid chromatography,False
+8,Hyperprolactinemia,induced,neurotransmitter,False
+9,Hyperprolactinemia,induced,brain,False
+10,Palkovits' microdissection technique,induced,treatment,False
+11,Palkovits' microdissection technique,induced,haloperidol,False
+12,Palkovits' microdissection technique,induced,high-performance liquid chromatography,False
+13,Palkovits' microdissection technique,induced,neurotransmitter,False
+14,Palkovits' microdissection technique,induced,brain,False
+15,Palkovits' microdissection technique,used,high-performance liquid chromatography,False
+16,Palkovits' microdissection technique,used,neurotransmitter,False
+17,Palkovits' microdissection technique,used,brain,False
+18,concentrations,increased,months,False
+19,concentrations,increased,hyperprolactinemia,False
+20,concentrations,increased,median eminence,False
+21,concentrations,increased,control group,False
+22,months,produced,hyperprolactinemia,False
+23,months,produced,increase,False
+24,months,produced,DA,False
+25,months,produced,ME,False
+26,months,produced,control group,False
+27,DA response,lost,increase,False
+28,DA response,lost,serum,False
+29,DA response,lost,implantation,False
+30,DA response,lost,MMQ cells,False
+31,DA response,lost,kidney capsule,False
+32,hyperprolactinemia,lost,increase,False
+33,hyperprolactinemia,lost,serum,False
+34,hyperprolactinemia,lost,implantation,False
+35,hyperprolactinemia,lost,MMQ cells,False
+36,hyperprolactinemia,lost,kidney capsule,False
+37,hyperprolactinemia,followed,increase,False
+38,hyperprolactinemia,followed,serum,False
+39,hyperprolactinemia,followed,implantation,False
+40,hyperprolactinemia,followed,MMQ cells,False
+41,hyperprolactinemia,followed,kidney capsule,False
+42,medial preoptic area,was,levels,False
+43,medial preoptic area,was,DA,False
+44,medial preoptic area,was,arcuate nucleus,False
+45,medial preoptic area,was,decrease,False
+46,medial preoptic area,was,5-hydroxyindoleacetic acid,False
+47,medial preoptic area,was,AN,False
+48,medial preoptic area,was,6-months,False
+49,medial preoptic area,was,hyperprolactinemia,False
+50,medial preoptic area,was,DA,False
+51,medial preoptic area,was,AN,False
+52,medial preoptic area,was,9-months,False
+53,medial preoptic area,was,hyperprolactinemia,False
+54,results,demonstrate,TIDA,False
+55,results,demonstrate,duration,False
+56,results,demonstrate,hyperprolactinemia,False
+57,hyperprolactinemia,demonstrate,TIDA,False
+58,hyperprolactinemia,demonstrate,duration,False
+59,hyperprolactinemia,demonstrate,hyperprolactinemia,False
+60,effects,demonstrate,TIDA,False
+61,effects,demonstrate,duration,False
+62,effects,demonstrate,hyperprolactinemia,False
+63,hyperprolactinemia,affects,TIDA,False
+64,hyperprolactinemia,affects,duration,False
+65,hyperprolactinemia,affects,hyperprolactinemia,False
+66,effects,affects,TIDA,False
+67,effects,affects,duration,False
+68,effects,affects,hyperprolactinemia,False
+69,effects,vary,duration,False
+70,effects,vary,hyperprolactinemia,False
+71,age-related decrease,associated with,dopamine function,False
+72,age-related decrease,associated with,increases,False
+73,age-related decrease,associated with,PRL,False

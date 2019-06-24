@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
-0,birdshot retinochoroidopathy,report,treatment,False
-1,birdshot retinochoroidopathy,report,patients,False
+0,disease,report,treatment,False
+1,disease,report,intravitreal,False
+2,disease,report,patients,False
+3,disease,report,birdshot retinochoroidopathy,False
+4,disease,report,immunomodulatory therapy,False

@@ -1,4 +1,15 @@
 ,Subject,Action,Object,Negation
-0,5-Hydroxytryptamine,exerts,inhibitory,False
-1,activation,enhances,DAergic,False
-2,trazodone,is,antagonist,False
+0,5-Hydroxytryptamine,exerts,stimulation,False
+1,5-Hydroxytryptamine,exerts,5-HT 2C receptors,False
+2,5-Hydroxytryptamine,exerts,influence,False
+3,5-Hydroxytryptamine,exerts,dopaminergic neurotransmission,False
+4,5-Hydroxytryptamine,exerts,5-HT 2A receptors,False
+5,5-Hydroxytryptamine,exerts,DAergic neurotransmission,False
+6,activation,exerts,stimulation,False
+7,activation,exerts,5-HT 2C receptors,False
+8,activation,exerts,influence,False
+9,activation,exerts,dopaminergic neurotransmission,False
+10,activation,exerts,5-HT 2A receptors,False
+11,activation,exerts,DAergic neurotransmission,False
+12,activation,enhances,5-HT 2A receptors,False
+13,activation,enhances,DAergic neurotransmission,False

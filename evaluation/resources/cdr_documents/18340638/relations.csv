@@ -1,5 +1,9 @@
 ,Subject,Action,Object,Negation
-0,Azathioprine,used,drug,False
-1,effects,include,anemia,False
-2,anemia,result,erythrocyte,False
-3,which,characterized,erythrocyte,False
+0,Azathioprine,used,immunosuppressive drug,False
+1,side effects,include,azathioprine,False
+2,side effects,include,anemia,False
+3,side effects,include,bone marrow,False
+4,anemia,result,suicidal erythrocyte death,False
+5,anemia,result,exposure of,False
+6,anemia,result,phosphatidylserine,False
+7,anemia,result,erythrocyte surface,False

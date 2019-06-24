@@ -1,7 +1,5 @@
 ,Subject,Action,Object,Negation
-0,study,given,to,False
-1,effects,followed,h,False
-2,Adrenaline,caused,pressor,False
-3,arterial pressure,were,6,False
-4,levels,cause,pressor,False
-5,findings,are,support,False
+0,intra-arterial ambulatory monitoring,followed,haemodynamic effects,False
+1,infusions,followed,haemodynamic effects,False
+2,stress,cause,adrenaline,False
+3,levels,cause,adrenaline,False

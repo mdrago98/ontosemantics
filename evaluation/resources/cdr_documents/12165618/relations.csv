@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
-0,administration,associated,occurrence,False
-1,effects,restricted,use,False
+0,administration,associated with,indinavir,False
+1,administration,associated with,occurrence,False
+2,administration,associated with,adults,False
+3,side effects,restricted,protease inhibitor,False
+4,side effects,restricted,children,False

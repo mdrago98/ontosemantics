@@ -1,8 +1,18 @@
 ,Subject,Action,Object,Negation
-0,effect,is,dysguesia,False
+0,review,produced,literature,False
 1,review,produced,case,False
-2,We,report,case,False
-3,Condition,improved,stoppage,False
-4,Condition,improved,days,False
-5,amlodipine,cause,dysguesia,False
-6,we,describe,presentation,False
+2,case,report,female,False
+3,case,report,hypertension,False
+4,case,report,drug treatment,False
+5,case,report,amlodipine,False
+6,case,report,loss,False
+7,case,developed,female,False
+8,case,developed,hypertension,False
+9,case,developed,drug treatment,False
+10,case,developed,amlodipine,False
+11,case,developed,loss,False
+12,Condition,improved,stoppage,False
+13,Condition,improved,drug,False
+14,Condition,improved,days,False
+15,amlodipine,conclude,dysguesia,False
+16,amlodipine,cause,dysguesia,False

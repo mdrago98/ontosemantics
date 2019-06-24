@@ -1,4 +1,3 @@
-from io import TextIOWrapper
 from unittest import TestCase
 
 from biolinkmodel.datamodel import OrganismalEntity, Cell, CellularComponent, BiologicalProcess, MolecularActivity, \
@@ -7,8 +6,7 @@ from mock import patch
 from parameterized import parameterized, param
 
 from cypher_engine.biolink_mapping import is_gene_mention, get_mapping
-from cypher_engine.models import CL, Class, GO, MONDO
-from settings import Config
+from cypher_engine.models import Class, GO, MONDO
 
 
 class TestMapping(TestCase):

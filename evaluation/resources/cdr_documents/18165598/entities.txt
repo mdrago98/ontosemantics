@@ -1,11 +1,18 @@
 blocking
-local anesthetics
+nociceptive input
+surgical sites
+long-acting local anesthetics
 inflammation
+study
+proinflammatory
+effects
 bupivacaine
-prostaglandin E2
+local prostaglandin E2
 PGE2
-cyclooxygenase
-COX
+production
+cyclooxygenase (COX)
 gene expression
+increases
 postoperative pain
 human
+subjects

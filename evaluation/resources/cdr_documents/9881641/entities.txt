@@ -1,18 +1,45 @@
-basic 35-amino acid peptide
-salivary gland
+effects of
+helodermin
+35-amino acid peptide
+isolated
+venom
+lizard salivary gland
 arterial blood pressure
-heart
+heart rate
 rat
+activation
 ATP
+sensitive
+K+
+K(ATP)
+responses
+results
 vasoactive intestinal polypeptide
 VIP
+Helodermin
+hypotension
+dose-dependent
+potency
+duration
+VIP
+Hypotension
+induced
 peptides
+attenuated
 glibenclamide
+levcromakalim-produced
+decrease
 arterial blood pressure
 Oxyhemoglobin
+helodermin-induced hypotension
+duration
 acetylcholine
-glibenclamide
-arterial
-smooth muscle cells
+hypotension
+findings
+helodermin-produced hypotension
+activation
+glibenclamide-sensitive K+ channels
+arterial smooth muscle cells
 EDRF
-peptide
+endothelium-derived relaxing factor)/nitric oxide
+peptide-produced hypotension

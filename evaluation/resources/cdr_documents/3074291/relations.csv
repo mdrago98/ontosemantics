@@ -1,15 +1,24 @@
 ,Subject,Action,Object,Negation
-0,effects,compared,study,False
-1,patients,received,oxitropium,False
-2,patients,received,micrograms,False
-3,11,received,theophylline,False
-4,11,received,mg,False
-5,dipping,reduced,periods,False
-6,difference,noticed,placebo,False
-7,difference,noticed,results,False
-8,results,obtained,drug,False
-9,results,obtained,dosage,False
-10,subject,reported,side,False
-11,subjects,reporting,nausea,False
-12,subjects,reporting,theophylline,False
-13,Oxitropium,be,alternative,False
+0,effects of,compared,antimuscarinic drug,False
+1,effects of,compared,nocturnal asthma,False
+2,effects of,compared,placebo-controlled double-blind study,False
+3,samples,studied,oxitropium,False
+4,patients,studied,oxitropium,False
+5,patients,received,oxitropium,False
+6,Morning dipping,reduced,fall,False
+7,Morning dipping,reduced,peak flow,False
+8,Morning dipping,reduced,periods,False
+9,Morning dipping,reduced,placebo,False
+10,active drug,reduced,fall,False
+11,active drug,reduced,peak flow,False
+12,active drug,reduced,periods,False
+13,active drug,reduced,placebo,False
+14,no difference,reduced,fall,False
+15,no difference,reduced,peak flow,False
+16,no difference,reduced,periods,False
+17,no difference,reduced,placebo,False
+18,no difference,noticed,placebo,False
+19,Oxitropium,proves,theophylline,False
+20,Oxitropium,proves,nocturnal asthma,False
+21,Oxitropium,proves,titration,False
+22,Oxitropium,proves,dosage,False

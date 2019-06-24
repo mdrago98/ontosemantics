@@ -1,6 +1,6 @@
 ,Subject,Action,Object,Negation
-0,test,investigated,tool,False
-1,Macroprolactinemia,considered,studies,True
-2,we,aimed,value,False
-3,who,screened,macroprolactinemia,False
-4,years,tested,case,False
+0,Verapamil stimulation test,investigated,differential diagnosis,False
+1,Verapamil stimulation test,investigated,hyperprolactinemia,False
+2,Macroprolactinemia,considered,studies,True
+3,years,tested,hyperprolactinemia,False
+4,years,tested,case-control study,False

@@ -1,22 +1,52 @@
 Misoprostol
-indomethacin
-renal
+acutely
+indomethacin-induced renal dysfunction
+cirrhotic
+patients
+study
+prophylactic value
 misoprostol
+dose-dependent
+Parameters
 renal
 hemodynamics
-water
+tubular sodium
+water handling
+assessed
+clearance techniques
+cirrhotic
+patients
 oral
+combination
 indomethacin
+doses
 misoprostol
-renal
+200-micrograms dose
+abolish
+deleterious
+renal effects
 indomethacin
-renal
-hemodynamics
+800-micrograms dose
+worsening
+renal hemodynamics
 sodium retention
+changes
+maximal
+hour
+medications
+base-line levels
+results
 renal
+protective effects
 misoprostol
+dose-dependent
+apparent
 misoprostol
+prevent
 adverse effects
 indomethacin
 renal function
+chronic frequent dosing
+nonsteroidal anti-inflammatory therapy
+patients
 cirrhosis

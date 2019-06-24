@@ -27,7 +27,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/mdrago98/bioengine",
     packages=setuptools.find_packages(exclude=['resources*', 'docs*', 'tests*', 'evaluation*']),
-    install_requires=['cython', 'numpy', 'py2neo', 'spacy==2.0.18'],
+    # py_modules=['bioengine'],
+    install_requires=['cython', 'numpy', 'py2neo', 'spacy==2.1.4'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

@@ -1,7 +1,16 @@
+Treatment
+options
+pretreated
+advanced
 non-small-cell lung cancer
 NSCLC
-oral
-inhibitor
-mammalian target of rapamycin
+patients
+RAD001
+oral inhibitor
+mammalian
+target
+rapamycin
 mTOR
+phase I
+efficacy
 NSCLC

@@ -1,7 +1,8 @@
 ,Subject,Action,Object,Negation
-0,who,taking,minocycline,False
-1,who,taking,palmoplantar pustulosis,False
-2,who,taking,fever,False
-3,manifestations,met,American,False
-4,manifestations,met,criteria,False
-5,case,satisfying,criteria,False
+0,man,developed,minocycline,False
+1,man,developed,palmoplantar pustulosis,False
+2,man,developed,fever,False
+3,man,developed,elevated C-reactive protein,False
+4,manifestations,met,American College of Rheumatology 1990,False
+5,manifestations,met,classification,False
+6,manifestations,met,polyarteritis nodosa,False

@@ -1,12 +1,30 @@
-calcium channel antagonists
-anticonvulsant
-convulsions
-mice
-anticonvulsant
+S-312
+S-312-d
+S-312-l
+L-type calcium channel antagonists
+anticonvulsant effects
+audiogenic
+tonic
+DBA/2 mice
+ED50 values
+flunarizine
+anticonvulsant effects
+S-312-d
+higher
+doses
 clonic convulsions
+induced
+pentylenetetrazole
+bemegride
+no effects
 convulsions
+induced
 N-methyl-D-aspartate
+picrotoxin
+electroshock
 Slc
-mice
+ddY mice
+S-312-d
+therapy
 human
 epilepsy

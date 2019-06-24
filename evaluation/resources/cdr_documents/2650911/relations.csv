@@ -1,7 +1,35 @@
 ,Subject,Action,Object,Negation
-0,sites,demonstrated,diethylstilbesterol,False
-1,analysis,revealed,concentration,False
-2,which,peaked,h,False
-3,cells,bind,ligand,True
-4,report,documenting,preferential,False
-5,report,documenting,binding,False
+0,Estrogen binding sites,demonstrated,autoradiography,False
+1,Estrogen binding sites,demonstrated,transplantable,False
+2,Estrogen binding sites,demonstrated,hamsters,False
+3,renal carcinomas,demonstrated,autoradiography,False
+4,renal carcinomas,demonstrated,transplantable,False
+5,renal carcinomas,demonstrated,hamsters,False
+6,Radiolabelling,Radiolabelling,injection,False
+7,Radiolabelling,Radiolabelling,3H-17 beta estradiol,False
+8,Radiolabelling,increased,injection,False
+9,Radiolabelling,increased,3H-17 beta estradiol,False
+10,Radiolabelling,increased,nuclei,False
+11,Radiolabelling,increased,tumor cells,False
+12,Radiolabelling,increased,concentration,False
+13,Radiolabelling,increased,silver grains,False
+14,Radiolabelling,increased,nuclei,False
+15,Radiolabelling,increased,cytoplasm,False
+16,Radiolabelling,increased,cells,False
+17,stereologic analysis,increased,injection,False
+18,stereologic analysis,increased,3H-17 beta estradiol,False
+19,stereologic analysis,increased,nuclei,False
+20,stereologic analysis,increased,tumor cells,False
+21,stereologic analysis,increased,concentration,False
+22,stereologic analysis,increased,silver grains,False
+23,stereologic analysis,increased,nuclei,False
+24,stereologic analysis,increased,cytoplasm,False
+25,stereologic analysis,increased,cells,False
+26,stereologic analysis,revealed,concentration,False
+27,stereologic analysis,revealed,silver grains,False
+28,stereologic analysis,revealed,nuclei,False
+29,stereologic analysis,revealed,cytoplasm,False
+30,stereologic analysis,revealed,cells,False
+31,normal cells,appear,excretion,True
+32,normal cells,appear,estradiol,True
+33,normal cells,appear,ligand,True

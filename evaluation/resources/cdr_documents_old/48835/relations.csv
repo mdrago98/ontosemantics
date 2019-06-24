@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,effects,compared,men,False
+1,Eight,received,insulin,False
+2,eight,given,propranolol,False
+3,eight,given,insulin,False
+4,period,associated,increase,False
+5,period,associated,fall,False
+6,there,was,fall,False
+7,there,was,increase,False
+8,changes,occurred,insulin,False
+9,Hypertension,treated,beta,True
+10,drugs,cause,rise,False

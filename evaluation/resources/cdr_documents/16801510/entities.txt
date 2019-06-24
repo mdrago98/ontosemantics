@@ -1,6 +1,15 @@
-long QT syndrome
+Drug-induced long QT syndrome
+adverse drug reaction
 Methadone
+QT interval
+in vitro
+dose-dependent
+inpatient setting
+frequency
+QT interval
+prolongation
 methadone
-dependence
+treatment
+dose dependence
 cofactors
-drug interactions
+drug-drug interactions

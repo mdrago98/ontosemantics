@@ -1,6 +1,14 @@
 ,Subject,Action,Object,Negation
-0,woman,treated,infusion,False
-1,A 77-year-old woman with refractory multiple myeloma,presented,lethargy,False
-2,A 77-year-old woman with refractory multiple myeloma,presented,weakness,False
-3,lethargy,associated,hyponatremia,False
-4,Evaluation,revealed,syndrome of inappropriate secretion of antidiuretic hormone,False
+0,woman,treated with,multiple myeloma,False
+1,woman,treated with,vincristine,False
+2,woman,treated with,dexamethasone,False
+3,Evaluation,revealed,syndrome,False
+4,Evaluation,revealed,secretion,False
+5,Evaluation,revealed,antidiuretic hormone,False
+6,Evaluation,revealed,vincristine,False
+7,serum sodium levels,returned,vincristine,False
+8,serum sodium levels,returned,complication,False
+9,doxorubicin,returned,vincristine,False
+10,doxorubicin,returned,complication,False
+11,doxorubicin,produce,vincristine,True
+12,doxorubicin,produce,complication,True

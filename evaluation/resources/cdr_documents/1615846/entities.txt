@@ -1,28 +1,55 @@
-patient
-label
-gemfibrozil
-lovastatin
+retrospective
+observational study
+safety
+efficacy
+long-term
+open-label
+gemfibrozil-lovastatin treatment
+patients
 primary mixed hyperlipidemia
 atherosclerotic vascular disease
 lipid
-low-density lipoprotein
+low-density lipoprotein (
 LDL
 cholesterol
-high-density lipoprotein (HDL) cholesterol
-cholesterol
-HDL cholesterol
+high-density lipoprotein (
+cholesterol/HDL cholesterol
+diet
 gemfibrozil
+treatment
+Follow-up
+visits
+scheduled
+2-drug therapy
+weeks
+visits
 patient
-liver function
-714 creatine phosphokinase
-liver function
+batteries
+liver function tests
+creatine phosphokinase
+levels
+measured
+liver function tests
 gamma glutamyl transferase
+upper normal limit
 creatine phosphokinase
-cholesterol
-triglyceride
+levels
+upper normal limit
+2-drug therapy
+mean total cholesterol
+decreased
+triglyceride levels
+decreased
 LDL cholesterol
-cholesterol
-HDL cholesterol
+decreased
+cholesterol/HDL cholesterol ratio
+decreased
 Myositis
-creatine phosphokinase
+drug combination
+symptomatic
+patients
+concurrent
+high creatine phosphokinase
+patients
 rhabdomyolysis
+myoglobinuria.(ABSTRACT TRUNCATED AT 250 WORDS

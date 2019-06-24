@@ -1,25 +1,61 @@
 ,Subject,Action,Object,Negation
-0,mechanisms,mediate,cumulative,False
-1,mechanisms,mediate,cardiomyopathy,False
-2,oxidative stress,are,factors,False
-3,dysfunction,are,factors,False
-4,objective,test,hypothesis,False
-5,hypothesis,protects,dysfunction,False
-6,dysfunction,associated,toxicity,False
-7,liver mitochondria,isolated,rats,False
-8,rats,treated,weeks,False
-9,rats,treated,week,False
-10,Heart mitochondria,isolated,rats,False
-11,rats,exhibited,rates,False
-12,mitochondria,isolated,rats,False
-13,capacity,suppressed,mitochondria,False
-14,capacity,suppressed,rats,False
-15,activity,suppressed,mitochondria,False
-16,activity,suppressed,rats,False
-17,treatment,caused,decrease,False
-18,Coadministration,decreased,extent,False
-19,Carvedilol,prevented,decrease,False
-20,Carvedilol,affect,any,True
-21,parameters,measured,liver mitochondria,False
-22,protection,afford,advantage,False
-23,that,accompanies,doxorubicin,False
+0,mechanisms,suggested,irreversible cardiomyopathy,False
+1,mechanisms,suggested,doxorubicin,False
+2,evidence,indicates,pathogenic process,False
+3,oxidative stress,indicates,pathogenic process,False
+4,carvedilol,was,investigation,False
+5,carvedilol,was,hypothesis,False
+6,carvedilol,was,properties,False
+7,carvedilol,was,doxorubicin,False
+8,carvedilol,test,hypothesis,False
+9,carvedilol,test,properties,False
+10,carvedilol,test,doxorubicin,False
+11,carvedilol,protects,properties,False
+12,carvedilol,protects,doxorubicin,False
+13,mitochondria,isolated,rats,False
+14,mitochondria,isolated,weeks,False
+15,mitochondria,isolated,doxorubicin,False
+16,mitochondria,isolated,drugs,False
+17,Heart mitochondria,exhibited,doxorubicin-treated rats,False
+18,Heart mitochondria,exhibited,depressed rates,False
+19,Heart mitochondria,exhibited,state 3,False
+20,Mitochondrial calcium-loading capacity,suppressed,NADH-dehydrogenase,False
+21,Mitochondrial calcium-loading capacity,suppressed,cardiac mitochondria,False
+22,Mitochondrial calcium-loading capacity,suppressed,doxorubicin-treated rats,False
+23,treatment,caused,decrease,False
+24,treatment,caused,RCR,False
+25,treatment,caused,liver mitochondria,False
+26,treatment,caused,control,False
+27,treatment,caused,hepatic cytochrome oxidase activity,False
+28,Coadministration,decreased,carvedilol,False
+29,Coadministration,decreased,cellular vacuolization,False
+30,Coadministration,decreased,myocytes,False
+31,Coadministration,decreased,effect,False
+32,Coadministration,decreased,doxorubicin,False
+33,Coadministration,decreased,heart,False
+34,Carvedilol,prevented,decrease,False
+35,Carvedilol,prevented,respiratory complexes,False
+36,Carvedilol,prevented,heart mitochondria,False
+37,Carvedilol,prevented,doxorubicin,False
+38,Carvedilol,affect,parameters,True
+39,Carvedilol,affect,heart,True
+40,protection,concluded,carvedilol,False
+41,protection,concluded,damage,False
+42,protection,concluded,dose-limiting mitochondrial dysfunction,False
+43,protection,concluded,doxorubicin,False
+44,protection,concluded,cancer,False
+45,clinical,concluded,carvedilol,False
+46,clinical,concluded,damage,False
+47,clinical,concluded,dose-limiting mitochondrial dysfunction,False
+48,clinical,concluded,doxorubicin,False
+49,clinical,concluded,cancer,False
+50,protection,afford,carvedilol,False
+51,protection,afford,damage,False
+52,protection,afford,dose-limiting mitochondrial dysfunction,False
+53,protection,afford,doxorubicin,False
+54,protection,afford,cancer,False
+55,clinical,afford,carvedilol,False
+56,clinical,afford,damage,False
+57,clinical,afford,dose-limiting mitochondrial dysfunction,False
+58,clinical,afford,doxorubicin,False
+59,clinical,afford,cancer,False

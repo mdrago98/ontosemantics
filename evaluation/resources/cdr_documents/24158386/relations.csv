@@ -1,20 +1,23 @@
 ,Subject,Action,Object,Negation
-0,Hodgkin lymphoma,is,malignancy,False
-1,who,relapse,dose,False
-2,which,relies,disease,False
-3,Regimens,require,administration,False
-4,Gemcitabine,have,activity,False
-5,cisplatin,have,activity,False
-6,HL,treated,day,False
-7,cycles,administered,cycles,False
-8,patients,received,GEM,False
-9,patients,received,line,False
-10,patients,received,line,False
-11,rate,was,%,False
-12,CR,confirmed,metabolic,False
-13,CR,confirmed,line,False
-14,%,CR,PET,False
-15,up,was,years,False
-16,survival,was,%,False
-17,GEM-P,is,salvage,False
-18,GEM-P,is,treatment,False
+0,Regimens,require,inpatient administration,False
+1,Regimens,require,toxicity,False
+2,Gemcitabine,have,activity,False
+3,Gemcitabine,have,HL,False
+4,Gemcitabine,have,chemotherapeutics,False
+5,Gemcitabine,have,outpatient setting,False
+6,patients,included,retrospective single-centre analysis,False
+7,patients,included,relapsed,False
+8,HL,included,retrospective single-centre analysis,False
+9,HL,included,relapsed,False
+10,day,included,retrospective single-centre analysis,False
+11,day,included,relapsed,False
+12,patients,received,GEM-P,False
+13,patients,received,second-line treatment,False
+14,patients,received,third-line therapy,False
+15,Overall response rate,confirmed,GEM-P,False
+16,Overall response rate,confirmed,cohort,False
+17,Overall response rate,confirmed,CR,False
+18,Overall response rate,confirmed,metabolic CR,False
+19,Overall response rate,confirmed,PET,False
+20,Overall response rate,confirmed,patients,False
+21,follow-up,follow-up,GEM-P,False

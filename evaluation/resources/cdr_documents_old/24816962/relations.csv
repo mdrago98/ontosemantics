@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,Metronidazole,produce,complications,False
+1,it,is,scenario,True
+2,We,present,case,False
+3,encephalopathy,following,metronidazole,False
+4,brain,showed,intensity,False
+5,intensity,involving,nuclei,False

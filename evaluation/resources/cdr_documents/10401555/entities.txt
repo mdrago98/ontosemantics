@@ -1,38 +1,86 @@
 Nociceptin
-orphanin FQ
+orphanin
+FQ
+endogenous
 ligand
 orphan opioid receptor-like receptor 1
 ORL1
+functions
 central nervous system
 CNS
+nocistatin
+isolated
+precursor
 nociceptin
+nociceptin-induced allodynia
 hyperalgesia
 ORL1 receptors
+sequence homology
 opioid receptors
 hippocampus
 learning
 memory
-nociceptin
-orphanin FQ and nocistatin
+study
+investigate
+FQ
+nocistatin
+modulate
 impairment
 learning
 memory
+induced
 scopolamine
-muscarinic cholinergic receptor
-antagonist
+muscarinic cholinergic receptor antagonist
+spontaneous
 alternation
+Y-maze
+step-down type passive avoidance tasks
 mice
+nocistatin
+mouse-1
+i.c.v
+administered
+spontaneous
 alternation
+performance
+training session
+passive avoidance task
+no effect
+spontaneous
 alternation
+passive avoidance behaviours
 alternation
-retention
+shorter
+step-down latency
+retention test
+nociceptin
+mouse-1
 mice
+Administration
+nocistatin
+i.c.v
+spontaneous
 alternation
-scopolamine
-impairment
+performance
+training session
+passive avoidance task
+attenuated
+scopolamine-induced impairment
+spontaneous
 alternation
+passive
+avoidance behaviours
+results
+nocistatin
+biologically active
 peptide
+ameliorates
+impairments
+spontaneous
 alternation
+passive
+avoidance
+induced
 scopolamine
 peptides
 learning

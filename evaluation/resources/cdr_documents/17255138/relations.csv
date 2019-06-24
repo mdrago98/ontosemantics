@@ -1,4 +1,7 @@
 ,Subject,Action,Object,Negation
-0,risk,offset,benefit,False
-1,We,compare,risks,False
-2,patients,using,COX-2,False
+0,risk,offset,acute myocardial infarction,False
+1,risk,offset,COX-2 inhibitors,False
+2,risk,offset,non-steroidal anti-inflammatory drugs,False
+3,GI,offset,acute myocardial infarction,False
+4,GI,offset,COX-2 inhibitors,False
+5,GI,offset,non-steroidal anti-inflammatory drugs,False

@@ -1,13 +1,24 @@
 woman
-postoperative nausea and vomiting
-abdominal
+history
+postoperative
+vomiting
+abdominal hysterectomy 3
+months
 anaesthetic
-major depression
-serotonin
-antagonist
+ondansetron
+prophylaxis
+severe
+acute major depression disorder
+serotonin antagonist
+years
+self-limited
+puerperal
 depressive episode
 Anaesthesia
 propofol
+infusion
+avoidance
 serotonin antagonists
-nausea
-depression
+nausea-free postoperative course
+exacerbation
+depression disorder

@@ -1,4 +1,5 @@
 ,Subject,Action,Object,Negation
-0,options,are,patients,False
-1,RAD001,shown,phase,False
-2,RAD001,shown,NSCLC,False
+0,RAD001,shown,target,False
+1,RAD001,shown,rapamycin,False
+2,RAD001,shown,phase I,False
+3,RAD001,shown,NSCLC,False

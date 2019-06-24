@@ -1,0 +1,22 @@
+,Subject,Action,Object,Negation
+0,suspicion,is,entities,False
+1,suspicion,is,coexistence,False
+2,hyperglycemia,presented,male,False
+3,hyperglycemia,presented,type 2 diabetes mellitus,False
+4,hyperglycemia,presented,poor insulin control,False
+5,polyuric syndrome,presented,male,False
+6,polyuric syndrome,presented,type 2 diabetes mellitus,False
+7,polyuric syndrome,presented,poor insulin control,False
+8,Hypernatremia,elevated,urinary osmolality,False
+9,Hypernatremia,elevated,suspicion,False
+10,Hypernatremia,elevated,diabetes insipidus,False
+11,Hypernatremia,elevated,dehydration test,False
+12,Hypernatremia,elevated,desmopressin,False
+13,increase,diagnosed,osmolarity,False
+14,increase,diagnosed,central type,False
+15,diabetes insipidus,diagnosed,osmolarity,False
+16,diabetes insipidus,diagnosed,central type,False
+17,Nuclear Magnetic Resonance,showed,bright spot,False
+18,Nuclear Magnetic Resonance,showed,normal neurohypophysis,False
+19,Nuclear Magnetic Resonance,showed,diagnosis,False
+20,Nuclear Magnetic Resonance,showed,idiopathic form,False

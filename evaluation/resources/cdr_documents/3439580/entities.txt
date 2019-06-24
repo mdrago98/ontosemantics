@@ -1,22 +1,41 @@
 Hypertension
+finding
+patients
 neuroblastoma
+association
 Imipramine
+occurrence
+severe
 hypertension
-blood pressure
+blood pressure 190/160
 girl
 neuroblastoma
 Imipramine
+control
 behavior disorder
-patient
+patient's
 tumor
-hypertensive episode
-blood pressure
+recurring
+hypertensive
+episode
+no blood pressure
+elevation
+diagnosis
+discontinuation
 Imipramine
 relapse
+drug
+disease
 hypertension
-catecholamines
+mechanism
+reaction
+increased
+levels
+vasoactive catecholamines
+physiologic
 inactivation
 Imipramine
+urge extreme
 tricyclic antidepressants
 children
 neuroblastoma

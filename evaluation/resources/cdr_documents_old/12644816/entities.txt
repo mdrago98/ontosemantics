@@ -1,0 +1,42 @@
+thalidomide
+malignancies
+Thalidomide
+angiogenic
+bFGF
+IL-6
+label
+thalidomide
+men
+androgen
+prostate cancer
+prostate-specific antigen
+PSA
+urea
+serum bFGF
+men
+serum
+PSA
+men
+absolute PSA
+serum bFGF
+progressive disease
+men
+PSA
+bFGF
+men
+PSA
+growth
+Adverse effects
+constipation
+dizziness
+rash
+withdrawal
+men
+peripheral sensory neuropathy
+men
+men
+thalidomide
+peripheral neuropathy
+thalidomide
+development
+peripheral neuropathy

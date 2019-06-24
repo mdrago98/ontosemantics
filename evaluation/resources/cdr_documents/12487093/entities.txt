@@ -1,22 +1,43 @@
+asymmetrical
 breakdown
 blood-brain barrier
 BBB
+female
 rats
 Paw
-reaching
-Adrenaline
-hypertension
+preference
+assessed
+food reaching test
+Adrenaline-induced hypertension
 BBB
+evaluated
+triphenyltetrazolium
+TTC
+staining
 brain
 adrenaline
 rats
-brain
+brain sections
+staining
+TTC
 adrenaline
+infusion
+unstained areas
 left brain
-seizure
-breakdown
+right-pawed
+animals
+left-pawed
+animals
+seizure-induced breakdown
 BBB
-cerebral blood flow
+results
+asymmetric cerebral blood flow
 paw
+preference
 rats
+method
+results
+consistent with
+contralateral motor control
 cerebral hemisphere
+animals

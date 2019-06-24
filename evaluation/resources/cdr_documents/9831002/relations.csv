@@ -1,12 +1,3 @@
 ,Subject,Action,Object,Negation
-0,female,presented,neuroleptic malignant syndrome,False
-1,A 1-year-old female presented with neuroleptic malignant syndrome probably caused by methylphenidate,had,defects,False
-2,supratentorial brain,including,basal ganglia,False
-3,supratentorial brain,including,striatum,False
-4,supratentorial brain,including,multicystic encephalomalacia,False
-5,which,be,predisposing,False
-6,hypoxic-ischemic encephalopathy,be,predisposing,False
-7,factor,causing,neuroleptic malignant syndrome,False
-8,mechanism,accepted,pathogenesis,False
-9,methylphenidate,is,dopamine agonist,False
-10,methylphenidate,is,inhibition,False
+0,mechanism,accepted,pathogenesis,False
+1,mechanism,accepted,syndrome,False

@@ -1,17 +1,49 @@
-Hemodynamic
-histamine release
+Hemodynamic effects
+histamine
+bolus
+injection
 d-tubocurarine
-antagonists
+patients
+H1-
+H2-histamine antagonists
+placebo
+dosing
 d-tubocurarine
-blind
+randomized double-blind fashion
+groups
+group 1
+group 2
+placebo
+group 3
+placebo
+group
+plus
 chlorpheniramine
-Histamine release
+Histamine
+patients
+level
+minutes
 d-tubocurarine
+dosing
+Group 1
+negative
+correlation
 plasma
 histamine
+change
 systemic vascular resistance
+group 4
+dosing
 antagonists
 systemic vascular resistance
+data
 hemodynamic
+associated with
 d-tubocurarine
-histamine release
+dosing
+histamine
+dosing
+H1-
+H2-antagonists
+partial
+protection

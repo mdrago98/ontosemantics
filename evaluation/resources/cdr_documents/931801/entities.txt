@@ -1,35 +1,55 @@
-Dehydrated
-rats
+Dehydrated rats
 acute renal failure
+injection
 aminoglycoside antibiotics
 dextran
 antibiotics
-Oral
-acetyl
+Oral administration
+2,5-di-O-acetyl-D-glucaro-1,4
+6,3-dilactone
 rats
 renal failure
-kanamycin
-dextran
-glucarates
+induced
+kanamycin-dextran
+protective effect
+D-glucarates
 saccharic acid
-alcohols
+hexauronic acids
+hexaaldonic acids
+hexaaldose
+sugar alcohols
+substances
 TCA cycle
-Glucarates
-renal
-peptide
-antibiotics
+acidic compounds
+D-Glucarates
+effective
+renal damage
+peptide antibiotics
 aminoglycoside
-Glucarates
-D-glucarate
-fixed
-renal
+Dose-responses
+protective effect
+D-Glucarates
+fixed size
+dose
+degree
+protection
+renal damages
+induced
 antibiotics
+administration doses
 antibiotics
-Glucarates
-renal
+D-Glucarates
+prevent
+renal damage
+cure
 Rats
-urine
-renal
+excreted
+acidic urine
+spared
+renal lesions
 monosaccharides
-glucarates
-antibiotics
+reduction
+effect
+D-glucarates
+nephrotoxicity
+basic antibiotics

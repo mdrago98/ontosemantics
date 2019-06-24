@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,patient,undergoing,desferrioxamine,False
+1,patient,undergoing,compliance,False
+2,patient,administered,dosage,False
+3,which,caused,renal insufficiency,False
+4,decision,introduce,therapy,False
+5,decision,introduce,order,False
+6,order,remove,drug,False
+7,order,remove,therapy,False
+8,haemodialysis,suggested,therapy,False

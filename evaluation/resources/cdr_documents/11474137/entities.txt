@@ -1,27 +1,58 @@
+participation
 reactive oxygen species
-aminoglycoside
-aminoglycoside
+aminoglycoside-induced ototoxicity
+observations
+aminoglycoside-iron complexes
 formation
-superoxide
-radicals
+superoxide radicals
+in vitro
 antioxidants
+attenuate
+ototoxicity
+in vivo
 overexpression
 Cu/Zn-superoxide dismutase
 h-SOD1
 transgenic mice
+ototoxicity
+Immunocytochemistry
 expression
 h-SOD1
 inner ear
-tissues
-mice
+transgenic
+C57BL/6-TgN[SOD1]3Cje mice
+Transgenic
+nontransgenic littermates
 kanamycin
-body
+days
+day
 birth
-auditory brain stem responses
+Auditory thresholds
+evoked
+auditory
+responses
+month
 birth
+nontransgenic animals
+threshold
+kanamycin-treated group
+saline-injected controls
+transgenic group
 kanamycin
-kanamycin
+increased
+threshold
+controls
+effects
+protection
 overexpression
 superoxide dismutase
-oxidant
-aminoglycoside
+hypothesis
+oxidant stress
+aminoglycoside-induced ototoxicity
+results
+transgenic
+animals
+models
+investigate
+mechanisms
+prevention

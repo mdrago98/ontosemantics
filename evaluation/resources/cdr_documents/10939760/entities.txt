@@ -1,18 +1,40 @@
-Sulfadiazine
+Sulfadiazine acute
+nephrotoxicity
+reviving
 toxoplasmosis
-HIV
-person
+HIV-positive
+patients
+cases
+healthy person
+treatment
 sulfadiazine
 oliguria
 abdominal pain
 renal failure
-renal calculi
+multiple radiolucent renal calculi
+echography
+patients
 renal function
-lithiasis
-single functional kidney
-renal
+adequate
+hydration
+alcalinization
+nephrostomy tube
+patients
+ureteral lithiasis
+dialysis
+renal biopsy
+benign course
+Treatment
 sulfadiazine
+exquisite control
 renal function
-water
+increase
+water ingestion
+alcalinization
 urine
-person
+case
+healthy person
+literature
+cases
+detected
+prospective study

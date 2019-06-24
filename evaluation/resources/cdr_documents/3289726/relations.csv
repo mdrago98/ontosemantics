@@ -1,10 +1,28 @@
 ,Subject,Action,Object,Negation
 0,Etoposide,used,treatment,False
-1,agent,has,activity,False
-2,cancers,including,malignant glioma,False
-3,we,treated,glioma,False
-4,manifestations,included,confusion,False
-5,abnormalities,resolved,initiation,False
-6,scans,demonstrated,stability,False
-7,scans,demonstrated,peritumor,False
-8,complication,represent,toxicity,False
+1,Etoposide,used,solid tumors,False
+2,conjunction,used,high doses,False
+3,conjunction,has,high doses,False
+4,conjunction,has,activity,False
+5,conjunction,has,treatment-resistant cancers,False
+6,conjunction,has,malignant glioma,False
+7,agent,has,high doses,False
+8,agent,has,activity,False
+9,agent,has,treatment-resistant cancers,False
+10,agent,has,malignant glioma,False
+11,glioma,treated,recurrent,False
+12,glioma,occurred,patients,False
+13,glioma,occurred,recurrent,False
+14,neurologic deterioration,occurred,patients,False
+15,neurologic deterioration,occurred,recurrent,False
+16,clinical manifestations,included,confusion,False
+17,clinical manifestations,included,motor deficits,False
+18,clinical manifestations,included,seizure,False
+19,abnormalities,resolved,initiation,False
+20,brain scans,demonstrated,patients,False
+21,brain scans,demonstrated,stability,False
+22,brain scans,demonstrated,tumor size,False
+23,brain scans,demonstrated,pretransplant scans,False
+24,complication,appears,toxicity,False
+25,complication,appears,high-dose etoposide therapy,False
+26,complication,appears,malignant glioma,False

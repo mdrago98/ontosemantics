@@ -1,3 +1,23 @@
 ,Subject,Action,Object,Negation
-0,blood flow,studied,dogs,False
-1,work,reduced,SNP,False
+0,Coronary blood flow,studied,dogs,False
+1,Coronary blood flow,studied,sodium nitroprusside,False
+2,Coronary blood flow,studied,baseline,False
+3,cardiac work,studied,dogs,False
+4,cardiac work,studied,sodium nitroprusside,False
+5,cardiac work,studied,baseline,False
+6,pH,confirm,effects of,False
+7,pH,confirm,drug-induced hypotension,False
+8,pH,confirm,coronary blood flow,False
+9,pH,confirm,%,False
+10,pH,confirm,control,False
+11,pH,confirm,decrease,False
+12,hypotension,confirm,effects of,False
+13,hypotension,confirm,drug-induced hypotension,False
+14,hypotension,confirm,coronary blood flow,False
+15,hypotension,confirm,%,False
+16,hypotension,confirm,control,False
+17,hypotension,confirm,decrease,False
+18,hypotension,used,%,False
+19,hypotension,used,control,False
+20,hypotension,used,decrease,False
+21,Cardiac work,reduced,SNP,False

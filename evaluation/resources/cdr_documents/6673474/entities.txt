@@ -1,25 +1,42 @@
-Coronary
-blood flow
-cardiac
+Coronary blood flow
+cardiac work
 metabolism
 dogs
 sodium nitroprusside
 SNP
 trimetaphan
 TMP
+deliberate
+hypotension
+pressure
+decrease
+baseline
+effects of
 drug-induced hypotension
-coronary
-blood flow
+coronary blood flow
 aortic
-coronary sinus
-metabolic
+coronary sinus metabolic data
+pH
 pO2
+pCO2
 nitroprusside
-blood pressure
-trimetaphan
-blood pressure
-Cardiac
+hypotension
+mean blood pressure
+decrease
+control
+trimetaphan hypotension
+mean blood pressure
+decrease
+Cardiac work
+reduced
 SNP
-coronary
-blood
-pressure, blood gases
+hypotension
+Myocardial O2 consumption
+O2
+availability
+coronary perfusion
+invasive
+monitoring
+blood pressure
+blood gases
+ECG

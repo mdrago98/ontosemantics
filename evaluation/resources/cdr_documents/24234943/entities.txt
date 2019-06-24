@@ -1,3 +1,7 @@
-syndrome of inappropriate anti-diuretic hormone
+report
+syndrome
+anti-diuretic hormone
 SIADH
 secretion
+associated with
+desvenlafaxine

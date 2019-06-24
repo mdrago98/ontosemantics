@@ -1,16 +1,37 @@
+cases
+severe
+delayed
+neurologic
+toxicity
+administration
 intrathecal
 IT
+combination chemotherapy
+thiotepa
+TSPA
+cases
 axonal neuropathy
-lower extremities
-IT
-IT
-methotrexate
-IT
-cytosine arabinoside
-IT
+motor predominance
+extremities 1
+months
+IT chemotherapy
+administered
+Neurologic toxicities
+IT-methotrexate
+IT-cytosine arabinoside
+IT-TSPA
 axonal neuropathy
+administration
+agents
+TSPA
 IT
+agent
+combination
 MTX
-ara
+ara-C
+radiotherapy
+severe
+neurotoxicity
 complication
-IT
+toxicology research
+IT-TSPA

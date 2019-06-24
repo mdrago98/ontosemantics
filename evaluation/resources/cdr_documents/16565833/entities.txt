@@ -1,16 +1,35 @@
-doxorubicin
+cardiotoxicity
+anthracyclin doxorubicin
 DOX
-DOX
-cardiac
+effective
+chemotherapeutic agent
+DOX-induced
+cardiac damage
+results
 formation
-radicals
+free radicals
 DOX
 Reactive oxygen species
-cardiac myocytes
+cardiac
+myocytes
 cells
-antioxidant
-flavonoid
-DOX
-radical
+antioxidant defense system
+semisynthetic flavonoid monohydroxyethylrutoside
+monoHER
+cardioprotection
+DOX-induced
+cardiotoxicity
+radical scavenging
 iron chelating
+properties
+half-life
+monoHER
+time interval
+monoHER
 DOX
+influence
+cardioprotective effect
+monoHER
+study
+investigate
+effect

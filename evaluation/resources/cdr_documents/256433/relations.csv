@@ -1,20 +1,28 @@
 ,Subject,Action,Object,Negation
-0,patients,shown,response,False
-1,Tobramycin,given,to,False
-2,carbenicillin,given,dose,False
-3,There,were,episodes,False
-4,patients,receiving,chemotherapy,False
-5,rate,was,%,False
-6,Pneumonia,was,infection,False
-7,bacilli,were,organisms,False
-8,bacilli,were,%,False
-9,pathogen,was,Klebsiella pneumoniae,False
-10,Response,influenced,%,True
-11,episodes,associated,neutropenia,False
-12,failure,increase,response,False
-13,failure,increase,therapy,False
-14,Azotemia,was,side effect,False
-15,Azotemia,occurred,%,False
-16,azotemia,occurred,%,False
-17,regimen,showed,efficacy,False
-18,regimen,showed,renal toxicity,False
+0,rate,affected,infections,False
+1,rate,affected,cancer,False
+2,rate,affected,neutropenia,False
+3,patients,shown,neutropenia,False
+4,patients,shown,poor response,False
+5,patients,shown,antibiotics,False
+6,tobramycin,overcome,adverse effects,False
+7,tobramycin,overcome,neutropenia,False
+8,tobramycin,overcome,infusion,False
+9,tobramycin,overcome,carbenicillin,False
+10,tobramycin,given,infusion,False
+11,tobramycin,given,carbenicillin,False
+12,Tobramycin,given,dose,False
+13,Tobramycin,given,dose,False
+14,Pneumonia,cured,episodes,False
+15,infection,cured,episodes,False
+16,Gram-negative bacilli,cured,infections,False
+17,causative organisms,cured,infections,False
+18,Response,influenced,%,True
+19,Response,influenced,episodes,True
+20,Response,influenced,neutropenia,True
+21,failure,affected,therapy,False
+22,failure,affected,response,False
+23,Azotemia,was,side effect,False
+24,Azotemia,was,episodes,False
+25,antibiotic regimen,showed,therapeutic efficacy,False
+26,antibiotic regimen,showed,patients,False

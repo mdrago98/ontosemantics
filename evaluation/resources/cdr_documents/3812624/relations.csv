@@ -1,9 +1,13 @@
 ,Subject,Action,Object,Negation
-0,Downbeat nystagmus,associated,lesions,False
-1,We,recorded,eye movements,False
-2,We,recorded,downbeat nystagmus,False
-3,nystagmus,resolved,reduction,False
-4,investigations,including,resonance,False
-5,investigations,showed,evidence,True
-6,who,taking,medications,False
-7,consideration,given,to,False
+0,Downbeat nystagmus,associated with,structural lesions,False
+1,Downbeat nystagmus,associated with,craniocervical junction,False
+2,Downbeat nystagmus,associated with,manifestation,False
+3,Downbeat nystagmus,associated with,imbalance,False
+4,Neuroradiologic investigations,showed,magnetic resonance imaging scans,False
+5,Neuroradiologic investigations,showed,patients,False
+6,Neuroradiologic investigations,showed,intracranial abnormality,False
+7,investigation,given,patients,False
+8,investigation,given,downbeat nystagmus,False
+9,investigation,given,anticonvulsant medications,False
+10,investigation,given,reduction,False
+11,investigation,given,dose,False

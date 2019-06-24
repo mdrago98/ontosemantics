@@ -1,39 +1,87 @@
+study
 vancomycin
+(VCM)-induced
 oxidative stress
+promotes
+production
 reactive oxygen species
 ROS
+investigate
+erdosteine
+expectorant agent
 antioxidant
-kidney
-tissue
-VCM
-renal impairment
+properties
+kidney tissue
+VCM-induced renal impairment
 rats
 Rats
+groups
+sham
+VCM
+VCM
+erdosteine
+VCM
+administrated
+intraperitoneally
+days
+Erdosteine
+administered
 orally
+VCM
+administration
+control
 rats
-renal
-malondialdehyde
+increased
+renal malondialdehyde
 MDA
-N-acetyl-beta-d-glucosaminidase
+urinary N-acetyl-beta-d-glucosaminidase
 NAG
-renal
+marker
+renal tubular injury
 excretion
+decreased
 superoxide dismutase
 SOD
 catalase
-CAT
+Erdosteine administration
+VCM
+injections
+decreased
 renal
 MDA
+urinary
 NAG
 excretion
+increased
 SOD
-CAT
+activity
+CAT activity
 renal tissue
+VCM
+Erdosteine
+histopathological
+protection
+VCM-induced
+nephrotoxicity
 dilatation
-lumens
-epithelial cell
+tubular lumens
+epithelial cell vacuolization
 atrophy
+desquamation
 necrosis
-rats
+VCM-treated
+control
+erdosteine groups
+Erdosteine
+reduction
+tubular damage
+oxidative tubular damage
+VCM-induced
+nephrotoxicity
+modulation
 oxidative stress
-kidney
+erdosteine
+VCM-induced kidney damage
+biochemical
+histological
+levels

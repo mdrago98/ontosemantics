@@ -1,51 +1,128 @@
+study
+clinical efficacy
+incidence
 torsades de pointes
-torsades de pointes
-sotalol
-ventricular
+presumable risk factors
+torsades
+de pointes
+patients
+treated with
+l-sotalol
+sustained
+ventricular tachyarrhythmias
+consecutive
+patients
 coronary artery disease
 dilated cardiomyopathy
-sustained ventricular tachycardia
-ventricular fibrillation
-oral
-sotalol
-ventricular tachyarrhythmia
-oral
-sotalol
-sotalol
+inducible
 ventricular tachycardia
 ventricular fibrillation
+oral d
+l-sotalol
+induction
 ventricular tachyarrhythmia
 oral
-sotalol
+loading
+l-sotalol
+continuous electrocardiographic (
+ECG
+monitoring
+patients
+l-sotalol
+induction
+ventricular tachycardia
+ventricular fibrillation
+discharged
+drug
+followed up
+outpatient
+months
+Induction
 ventricular tachyarrhythmia
-sotalol
-torsades de pointes
 oral
-sotalol
-sinus
+l-sotalol
+patients
+ventricular tachyarrhythmia
+inducible
+patients
+patients
+l-sotalol
+patients
 torsades de pointes
-oral
-sotalol
+oral treatment
+l-sotalol
+ECG
+sinus-cycle length
+SCL
+QT
+QTc interval
+U wave
+clinical parameters
+patients
+risk
 torsades de pointes
+oral dose
+l-sotalol
+patients
+torsades de pointes
+Risk factors
+associated with
 development
 torsades de pointes
-ventricular tachycardia
-recurrence
+appearance
+U wave
+female
+gender
+dose-corrected changes
+SCL
+QT interval
+QTc interval
+follow-up
+patients
+nonfatal ventricular tachycardia recurrence
+patients
 died
+female
 patient
-cardiac disease
-torsades de pointes
-sotalol
+stable cardiac disease
+recurrent
+torsades
+de pointes
+years
+treatment
+l-sotalol
 Torsades de pointes
+treatment
+low
+doses
+oral d
+l-sotalol
+surface
+ECG
+cycle length
+QT
+QTc
+dose
 oral
-sotalol
-oral
-sotalol
+l-sotalol
+subgroup
+patients
+increased
+risk
 torsades de pointes
-sotalol
+ECG
+parameters
+application
+l-sotalol
+patients
+increased risk
 torsades de pointes
 Recurrence
-ventricular
+rates
+ventricular tachyarrhythmias
 suppression
 arrhythmia
-sotalol
+programmed stimulation
+programmed electrical stimulation
+l-sotalol
+prognostic value

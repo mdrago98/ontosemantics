@@ -1,26 +1,136 @@
 ,Subject,Action,Object,Negation
-0,We,are,way,False
-1,way,discovering,interpretation,False
-2,efforts,made,field,False
-3,form,found,mouse,False
-4,form,bear,resemblance,False
-5,Myopathy,have,much,False
-6,Myopathy,have,form,False
-7,authors,induced,myodystrophy,False
-8,authors,induced,rat,False
-9,diet,lacking,vitamin,False
-10,biopsies,performed,Orthopaedic,False
-11,results,obtained,departments,False
-12,results,using,steroids,False
-13,results,investigate,authors,False
-14,results,investigate,effects,False
-15,results,investigate,doses,False
-16,rats,rendered,myopathic,False
-17,"the beneficial effects of one anabolizing agent (Dianabol, CIBA)",obtained,changes,False
-18,"the beneficial effects of one anabolizing agent (Dianabol, CIBA)",found,changes,False
-19,which,maintained,characteristics,False
-20,that,treated,agent,True
-21,The authors,have,reservations,False
-22,dosage,carried,effects,True
-23,injury,occurs,stage,False
-24,agent,is,lack,True
+0,Myopathy,have,vitamin E,False
+1,Myopathy,have,viruses,False
+2,authors,induced,myodystrophy,False
+3,authors,induced,rat,False
+4,authors,induced,diet,False
+5,authors,induced,vitamin E.,False
+6,characteristics,confirmed,rat,False
+7,characteristics,confirmed,myopathy,False
+8,characteristics,confirmed,biopsies,False
+9,characteristics,confirmed,Orthopaedic Traumatological Centre,False
+10,results,encouraged,authoratative departments,False
+11,results,encouraged,patients,False
+12,results,encouraged,anabolizing steroids,False
+13,results,encouraged,authors,False
+14,results,encouraged,anabolizing agent,False
+15,results,encouraged,high doses,False
+16,results,encouraged,rats,False
+17,results,encouraged,diet,False
+18,results,encouraged,vitamin E.,False
+19,results,encouraged,body weight,False
+20,results,encouraged,days,False
+21,results,encouraged,dose,False
+22,results,encouraged,anabolizing agent,False
+23,results,encouraged,changes,False
+24,results,encouraged,muscle tissue,False
+25,results,encouraged,characteristics,False
+26,results,encouraged,control animals,False
+27,results,encouraged,anabolizing agent,False
+28,Dianabol,encouraged,authoratative departments,False
+29,Dianabol,encouraged,patients,False
+30,Dianabol,encouraged,anabolizing steroids,False
+31,Dianabol,encouraged,authors,False
+32,Dianabol,encouraged,anabolizing agent,False
+33,Dianabol,encouraged,high doses,False
+34,Dianabol,encouraged,rats,False
+35,Dianabol,encouraged,diet,False
+36,Dianabol,encouraged,vitamin E.,False
+37,Dianabol,encouraged,body weight,False
+38,Dianabol,encouraged,days,False
+39,Dianabol,encouraged,dose,False
+40,Dianabol,encouraged,anabolizing agent,False
+41,Dianabol,encouraged,changes,False
+42,Dianabol,encouraged,muscle tissue,False
+43,Dianabol,encouraged,characteristics,False
+44,Dianabol,encouraged,control animals,False
+45,Dianabol,encouraged,anabolizing agent,False
+46,increased,encouraged,authoratative departments,False
+47,increased,encouraged,patients,False
+48,increased,encouraged,anabolizing steroids,False
+49,increased,encouraged,authors,False
+50,increased,encouraged,anabolizing agent,False
+51,increased,encouraged,high doses,False
+52,increased,encouraged,rats,False
+53,increased,encouraged,diet,False
+54,increased,encouraged,vitamin E.,False
+55,increased,encouraged,body weight,False
+56,increased,encouraged,days,False
+57,increased,encouraged,dose,False
+58,increased,encouraged,anabolizing agent,False
+59,increased,encouraged,changes,False
+60,increased,encouraged,muscle tissue,False
+61,increased,encouraged,characteristics,False
+62,increased,encouraged,control animals,False
+63,increased,encouraged,anabolizing agent,False
+64,Dianabol,investigate,anabolizing agent,False
+65,Dianabol,investigate,high doses,False
+66,Dianabol,investigate,rats,False
+67,Dianabol,investigate,diet,False
+68,Dianabol,investigate,vitamin E.,False
+69,Dianabol,investigate,body weight,False
+70,Dianabol,anabolizing agent,anabolizing agent,False
+71,increased,increased,days,False
+72,increased,increased,dose,False
+73,increased,increased,anabolizing agent,False
+74,authors,conclude,efficacy,False
+75,authors,conclude,anabolizing steroids,False
+76,authors,conclude,myopathic disease,False
+77,authors,conclude,transfer,False
+78,authors,conclude,results,False
+79,authors,conclude,effects of,False
+80,authors,conclude,drug,False
+81,authors,conclude,virility,False
+82,authors,conclude,irreversible stage,False
+83,authors,conclude,regeneration,False
+84,authors,conclude,muscle tissue,False
+85,authors,conclude,vitamin E,False
+86,dosage,conclude,efficacy,False
+87,dosage,conclude,anabolizing steroids,False
+88,dosage,conclude,myopathic disease,False
+89,dosage,conclude,transfer,False
+90,dosage,conclude,results,False
+91,dosage,conclude,effects of,False
+92,dosage,conclude,drug,False
+93,dosage,conclude,virility,False
+94,dosage,conclude,irreversible stage,False
+95,dosage,conclude,regeneration,False
+96,dosage,conclude,muscle tissue,False
+97,dosage,conclude,vitamin E,False
+98,tissue injury,conclude,efficacy,False
+99,tissue injury,conclude,anabolizing steroids,False
+100,tissue injury,conclude,myopathic disease,False
+101,tissue injury,conclude,transfer,False
+102,tissue injury,conclude,results,False
+103,tissue injury,conclude,effects of,False
+104,tissue injury,conclude,drug,False
+105,tissue injury,conclude,virility,False
+106,tissue injury,conclude,irreversible stage,False
+107,tissue injury,conclude,regeneration,False
+108,tissue injury,conclude,muscle tissue,False
+109,tissue injury,conclude,vitamin E,False
+110,dosage,have,transfer,False
+111,dosage,have,results,False
+112,dosage,have,effects of,False
+113,dosage,have,drug,False
+114,dosage,have,virility,False
+115,dosage,have,irreversible stage,False
+116,dosage,have,regeneration,False
+117,dosage,have,muscle tissue,False
+118,dosage,have,vitamin E,False
+119,tissue injury,have,transfer,False
+120,tissue injury,have,results,False
+121,tissue injury,have,effects of,False
+122,tissue injury,have,drug,False
+123,tissue injury,have,virility,False
+124,tissue injury,have,irreversible stage,False
+125,tissue injury,have,regeneration,False
+126,tissue injury,have,muscle tissue,False
+127,tissue injury,have,vitamin E,False
+128,dosage,carried,effects of,True
+129,dosage,carried,drug,True
+130,dosage,carried,virility,True
+131,tissue injury,occurs,irreversible stage,False
+132,tissue injury,occurs,regeneration,False
+133,tissue injury,occurs,muscle tissue,False
+134,tissue injury,occurs,vitamin E,False

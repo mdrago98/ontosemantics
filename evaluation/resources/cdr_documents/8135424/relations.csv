@@ -1,3 +1,4 @@
 ,Subject,Action,Object,Negation
-0,Administration,unmask,seizures,False
-1,Administration,unmask,cocaine,False
+0,Administration,unmask,benzodiazepine antagonist,False
+1,Administration,unmask,seizures,False
+2,Administration,unmask,cocaine-benzodiazepine intoxication,False

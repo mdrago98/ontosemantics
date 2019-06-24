@@ -1,11 +1,31 @@
 patient
-skin rash
+diphenylhydantoin
+weeks
+generalized skin rash
+lymphadenopathy
 pure red cell aplasia
 withdrawal
+pharmacon
+symptoms
+spontaneously
 Skin rash
 complication
+diphenylhydantoin
+treatment
+benign
+malignant lymphadenopathy
 Pure red cell aplasia
-exerts
+associated with
+diphenylhydantoin medication
+patients
+mechanism
+diphenylhydantoin
+toxic effects
 patient
+ingestion
+diphenylhydantoin
+occurrence
 skin rash
+lymphadenopathy
 pure red cell aplasia
+connection

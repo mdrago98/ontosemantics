@@ -1,19 +1,38 @@
+authors
+case
+early
+days
 development
 torsade de pointes
 TdP
+associated with
 oral
-amiodarone
 TdP
+multiple
+exacerbating
+factors
+hypokalemia
 digoxin
+Transient
+prolongation
+QT
 bladder
 irrigation
+episode
 bradycardia
+exacerbates
+authors
+increased
+vagal tone
 bladder
 irrigation
-amiodarone
-amiodarone
-proarrhythmia
-amiodarone
+vagal maneuver
+amiodarone therapy
+amiodarone-induced proarrhythmia
+absence
+amiodarone therapy
 bladder
 irrigation
 TdP
+hypokalemia
+hypomagnesemia

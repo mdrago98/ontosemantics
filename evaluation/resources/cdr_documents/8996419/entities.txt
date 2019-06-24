@@ -1,10 +1,29 @@
+studies
+published
+incidence
 venous thromboembolism
 VTE
 women
 oral contraceptives
 OCs
-progestagens
+third-generation progestagens gestodene
 desogestrel
+users
 OCs
-progestagens
+second-generation progestagens
+confounding
+bias
+design
+studies
+affected
+findings
+study
+association
+risk
 VTE
+OC
+study design
+analysis
+bias
+confounding
+studies

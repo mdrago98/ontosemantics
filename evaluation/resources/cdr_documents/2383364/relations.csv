@@ -1,19 +1,40 @@
 ,Subject,Action,Object,Negation
-0,agents,decrease,infection,False
-1,agents,decrease,burn,False
-2,agents,decrease,mortality,False
-3,phosphanilate,evaluated,burn,False
-4,it,was,application,False
+0,Chlorhexidine phosphanilate,evaluated,wound dressing,False
+1,Chlorhexidine phosphanilate,evaluated,application,False
+2,clinical trials,evaluated,wound dressing,False
+3,clinical trials,evaluated,application,False
+4,clinical trials,reported,application,False
 5,study,compared,concentrations,False
-6,concentration,identified,retention,False
-7,patients,given,pairs,False
-8,patients,given,period,False
-9,site,treated,each,False
-10,site,treated,0.25,False
-11,antimicrobial agent,used,treatment,False
-12,site,treated,AgSD,False
-13,There,was,relationship,False
-14,treatments,differed,AgSD,False
-15,formulations,prove,acceptable,False
-16,formulations,prove,wound,False
-17,system,needs,improvement,False
+6,study,compared,CHP,False
+7,study,compared,retention,False
+8,study,compared,efficacy,False
+9,concentration,compared,concentrations,False
+10,concentration,compared,CHP,False
+11,concentration,compared,retention,False
+12,concentration,compared,efficacy,False
+13,concentration,determine,retention,False
+14,concentration,determine,efficacy,False
+15,concentration,identified,retention,False
+16,concentration,identified,efficacy,False
+17,patients,given,burns,False
+18,patients,given,pairs,False
+19,patients,given,treatments,False
+20,patients,given,intervals,False
+21,patients,given,period,False
+22,site,treated with,CHP,False
+23,site,treated with,topical treatment,False
+24,site,treated with,burn wounds,False
+25,site,treated with,AgSD cream,False
+26,cream,was,AgSD,False
+27,cream,was,pain tolerance,False
+28,cream,was,treatments,False
+29,cream,was,AgSD,False
+30,formulations,concluded,wound care,False
+31,formulations,concluded,pharmaceutical improvement,False
+32,vehicle system,concluded,wound care,False
+33,vehicle system,concluded,pharmaceutical improvement,False
+34,formulations,prove,wound care,False
+35,formulations,prove,pharmaceutical improvement,False
+36,vehicle system,prove,wound care,False
+37,vehicle system,prove,pharmaceutical improvement,False
+38,vehicle system,needs,pharmaceutical improvement,False

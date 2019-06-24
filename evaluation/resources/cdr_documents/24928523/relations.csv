@@ -1,15 +1,22 @@
 ,Subject,Action,Object,Negation
-0,response,following,stem cell,False
-1,we,analyzed,safety,False
-2,we,analyzed,consolidation,False
-3,we,analyzed,efficacy,False
+0,Consolidation therapy,adopted,patients,False
+1,Consolidation therapy,adopted,multiple myeloma,False
+2,Consolidation therapy,adopted,treatment response,False
+3,Consolidation therapy,adopted,autologous stem cell transplantation,False
 4,VTD,consisted,bortezomib,False
 5,VTD,consisted,dose,False
-6,neutropenia,documented,patients,False
-7,thrombocytopenia,documented,patients,False
-8,reduction,required,case,True
-9,therapy,were,%,False
-10,Patients,had,probability,False
-11,Patients,had,consolidation,False
-12,probability,improving,VGPR,False
-13,probability,improving,consolidation,False
+6,VTD,consisted,dose,False
+7,VTD,consisted,days,False
+8,VTD,consisted,thalidomide,False
+9,VTD,consisted,dose,False
+10,neutropenia,documented,patients,False
+11,neutropenia,documented,cytopenia,False
+12,neutropenia,documented,case,False
+13,reduction,documented,patients,False
+14,reduction,documented,cytopenia,False
+15,reduction,documented,case,False
+16,reduction,required,cytopenia,True
+17,reduction,required,case,True
+18,Patients,had,probability,False
+19,Patients,had,consolidation therapy,False
+20,Patients,had,consolidation therapy,False

@@ -1,13 +1,45 @@
+clinical
+evaluation
 etomidate
-fentanyl
+outpatient cystoscopy
+Unpremedicated
+patients
+fentanyl 1
 etomidate
 Anaesthesia
+maintained
+intermittent
 etomidate
-Venous
+doses
+Patients
+interviewed
+day
+questionnaire
+weeks
+trial
+discontinued
+cases
+unacceptable
+incidence
+side effects
+Venous pain
+patients
+redness
+pain
 swelling
+injection
+site
+cases
+weeks
 anaesthesia
-Skeletal
-movements
-upset
-Nausea and vomiting
+Skeletal movements
+patients
+experienced
+respiratory upset
+severe
+abandoning
+technique
+Nausea
+vomiting
+emergence
 psychoses

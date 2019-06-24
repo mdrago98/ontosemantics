@@ -1,10 +1,18 @@
 ,Subject,Action,Object,Negation
-0,studies,published,December,False
-1,incidence,was,women,False
-2,who,containing,oral contraceptives,False
-3,who,containing,generation,False
-4,women,containing,generation,False
-5,users,containing,generation,False
-6,confounding,affected,findings,False
-7,bias,affected,findings,False
-8,use,avoid,some,False
+0,studies,reported,venous thromboembolism,False
+1,studies,reported,women,False
+2,studies,reported,oral contraceptives,False
+3,studies,reported,third-generation progestagens gestodene,False
+4,studies,reported,users,False
+5,studies,reported,OCs,False
+6,studies,reported,second-generation progestagens,False
+7,incidence,reported,venous thromboembolism,False
+8,incidence,reported,women,False
+9,incidence,reported,oral contraceptives,False
+10,incidence,reported,third-generation progestagens gestodene,False
+11,incidence,reported,users,False
+12,incidence,reported,OCs,False
+13,incidence,reported,second-generation progestagens,False
+14,confounding,affected,design,False
+15,confounding,affected,studies,False
+16,confounding,affected,findings,False

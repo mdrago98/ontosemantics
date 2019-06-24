@@ -1,23 +1,43 @@
 woman
+subacute
+onset progressive
 confusion
 aggression
 auditory hallucinations
 delusions
+months
 patient
+admissions
+transient
+unilateral
 hemiparesis
 facial droop
 valproate
 hemiplegic migraine
 Valproate
-withdrawn
+admission
+cognitive abilities
+improved
+months
+follow-up
 Valproate
+levels
 withdrawal
+subtherapeutic
 patient
+normoammonaemic
+EEG
+inpatient stay
+changes
+consistent with
 encephalopathy
-N-methyl-D-aspartate (NMDA) receptor antibodies
+low titre N-methyl-D-aspartate
 patient
-valproate
-encephalopathy
-NMDA receptor
-encephalitis
-patient
+aetiologies
+valproate-induced encephalopathy
+NMDA receptor-associated encephalitis
+diagnostic dilemma
+combinatorial
+hypothesis
+patient's
+symptoms

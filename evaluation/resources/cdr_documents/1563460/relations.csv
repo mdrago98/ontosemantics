@@ -1,1 +1,6 @@
 ,Subject,Action,Object,Negation
+0,case,presented,thoracic hematomyelia,False
+1,case,presented,anticoagulant therapy,False
+2,Clinical features,discussed,cases,False
+3,high index,lead,suspicion,False
+4,high index,lead,diagnostic procedure,False

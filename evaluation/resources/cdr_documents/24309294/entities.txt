@@ -1,34 +1,69 @@
 Cholecystokinin-octapeptide
 CCK-8
-brain
-gut
-peptide
-exerts
+brain-gut peptide
+biological activities
 central nervous system
 CCK-8
-morphine
-amnesia
-spine
-CA1
+morphine-induced amnesia
+reversed
+spine density
+decreases
+CA1 region
 hippocampus
-morphine
+morphine-treated animals
+investigated
+effects of
 CCK-8
-long-term potentiation
+long-term
+potentiation
 LTP
-perforant path
-synapse
+lateral perforant path
+cell synapse
 rat
-dentate gyrus
 DG
+acute saline
+morphine-treated rats
+Population spikes
+PS
+evoked
+stimulation
+LPP
+DG region
+Acute
 morphine
-rats
-DG
-morphine
+treatment
+attenuated
 hippocampal
 LTP
 CCK-8
+restored
+amplitude
+PS
+attenuated
 morphine
+injection
+microinjection
 CCK-8
 hippocampal
 LTP
+saline-treated
 rats
+Pre-treatment
+CCK2 receptor antagonist
+L-365,260
+i.c.v
+effects of
+CCK-8
+CCK1 receptor
+L-364,718
+i.c.v
+CCK-8
+attenuates
+effect
+morphine
+hippocampal
+LTP
+CCK2 receptors
+ameliorative function
+CCK-8
+morphine-induced memory impairment

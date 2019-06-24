@@ -1,2 +1,6 @@
 ,Subject,Action,Object,Negation
-0,Tonic-clonic seizures,followed,injection,False
+0,Tonic-clonic seizures,followed,fluorescein,False
+1,Tonic-clonic seizures,followed,fundus angiography,False
+2,Tonic-clonic seizures,followed,male,False
+3,adverse reaction,recurred,precautions,False
+4,adverse reaction,recurred,re-exposure,False

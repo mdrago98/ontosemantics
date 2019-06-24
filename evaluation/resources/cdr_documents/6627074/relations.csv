@@ -1,11 +1,20 @@
 ,Subject,Action,Object,Negation
-0,Anticholinesterases,administered,attempt,False
-1,attempt,antagonize,neuromuscular blockade,False
-2,neuromuscular blockade,following,administration,False
-3,attempt,be,plasma cholinesterase,False
-4,attempt,be,plasma cholinesterase,False
-5,mg,given,min,False
-6,stimulation,was,II,False
-7,mg,produced,antagonism,False
-8,respiration,recommenced,min,False
-9,respiration,recommenced,succinylcholine,False
+0,Anticholinesterases,administered,neuromuscular blockade,False
+1,Anticholinesterases,administered,administration,False
+2,Anticholinesterases,administered,succinylcholine,False
+3,Anticholinesterases,administered,patient,False
+4,Anticholinesterases,administered,plasma cholinesterase,False
+5,train-of-four stimulation,produced,succinylcholine,False
+6,train-of-four stimulation,produced,phase II block,False
+7,train-of-four stimulation,produced,antagonism,False
+8,doses,antagonize,edrophonium,True
+9,doses,antagonize,block,True
+10,respiration,recommenced,succinylcholine administration,False
+11,anticholinesterases,concluded,neuromuscular function,False
+12,anticholinesterases,concluded,succinylcholine apnoea,False
+13,anticholinesterases,concluded,muscle,False
+14,anticholinesterases,concluded,phase II block,False
+15,anticholinesterases,are,neuromuscular function,False
+16,anticholinesterases,are,succinylcholine apnoea,False
+17,anticholinesterases,are,muscle,False
+18,anticholinesterases,are,phase II block,False

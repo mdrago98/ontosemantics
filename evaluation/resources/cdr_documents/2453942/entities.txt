@@ -1,22 +1,39 @@
 Lindane
 gamma-hexachlorocyclohexane
 organochlorine insecticide
+neurotoxic effects
 mechanism of action
 lindane
-antagonist
+non-competitive antagonist
 gamma-aminobutyric acid
+receptor
+effect
 lindane
+GABAergic
+dopaminergic systems
+measuring
+concentration
 GABA
 dopamine
 metabolites
-brain
+brain areas
+onset of
 seizures
-suffered
-convulsions
+animals
+tonic convulsions
 lindane
+administration
+concentration
 GABA
+decreased
+colliculi
+modifications
+concentration
 dopamine
+increased
 mesencephalon
 metabolite
+DOPAC
+increased
 mesencephalon
 striatum

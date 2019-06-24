@@ -1,14 +1,28 @@
 ,Subject,Action,Object,Negation
-0,hypertension,associated,oxidative stress,False
-1,Lactoferrin,is,iron-binding glycoprotein,False
-2,we,investigated,effect,False
-3,LF,given,day,False
-4,LF,given,reversal,False
-5,rats,received,days,False
-6,weight,used,marker,False
-7,Dexamethasone,increased,SBP,False
-8,Dexamethasone,increased,plasma,False
-9,LF,lowered,P,False
-10,LF,prevented,body,False
-11,administration,reduced,blood pressure,False
-12,administration,reduced,production,False
+0,Dexamethasone- (Dex-,associated with,oxidative stress,False
+1,hypertension,associated with,oxidative stress,False
+2,Wistar rats,treated by,Dex,False
+3,Wistar rats,treated by,days,False
+4,Oral bovine LF,given,day,False
+5,Oral bovine LF,given,reversal study,False
+6,rats,received,prevention study,False
+7,rats,received,days,False
+8,rats,received,LF,False
+9,rats,received,Dex,False
+10,rats,received,test period,False
+11,Systolic blood pressure,measured,tail-cuff method,False
+12,Thymus weight,used,marker,False
+13,Thymus weight,used,glucocorticoid activity,False
+14,Dexamethasone,increased,SBP,False
+15,LF,lowered,P,False
+16,LF,prevented,body weight loss,False
+17,LF,prevented,plasma,False
+18,Chronic administration,reduced,LF,False
+19,Chronic administration,reduced,blood pressure,False
+20,Chronic administration,reduced,ROS,False
+21,Chronic administration,reduced,Dex-induced hypertension,False
+22,Chronic administration,reduced,inhibition,False
+23,Chronic administration,reduced,oxidative stress,False
+24,Chronic administration,reduced,mechanism,False
+25,Chronic administration,reduced,antihypertensive action,False
+26,Chronic administration,reduced,LF,False

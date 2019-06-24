@@ -1,3 +1,6 @@
+authors
+treatment outcomes
 olanzapine
 risperidone
-schizophrenia
+patients
+first-episode schizophrenia spectrum disorders

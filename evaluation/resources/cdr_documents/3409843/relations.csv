@@ -1,2 +1,8 @@
 ,Subject,Action,Object,Negation
-0,Carbamazepine,is,drug,False
+0,case,reported,aplastic anemia,False
+1,case,reported,carbamazepine,False
+2,case,reported,woman,False
+3,physicians,be,side effects,False
+4,physicians,prevented,side effects,False
+5,physicians,prevented,clinical,False
+6,physicians,prevented,laboratory monitoring,False

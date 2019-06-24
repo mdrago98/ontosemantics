@@ -1,19 +1,61 @@
 ,Subject,Action,Object,Negation
 0,overdose,cause,hypertension,False
-1,We,studied,efficacy,False
-2,We,studied,treatment,False
-3,We,studied,safety,False
-4,Subjects,received,propranolol,False
-5,Subjects,received,mouth,False
-6,Subjects,received,hours,False
-7,diastolic,antagonized,increase,False
-8,pretreatment,antagonized,increase,False
-9,PPA,increased,stroke,False
-10,PPA,increased,62.5,False
-11,propranolol,reversed,effects,False
-12,Systemic vascular resistance,increased,1710,False
-13,PPA,increases,blood pressure,False
-14,propranolol,antagonizes,increase,False
-15,propranolol,antagonizes,pressor,False
-16,propranolol,enhances,pressor,False
-17,PPA,has,activity,False
+1,Subjects,received,propranolol,False
+2,Subjects,received,mouth,False
+3,Subjects,received,PPA,False
+4,Subjects,received,PPA,False
+5,pretreatment,antagonized,increase,False
+6,propranolol,decreased,PPA,False
+7,propranolol,decreased,blood pressure,False
+8,assessed,assessed,echocardiography,False
+9,Left ventricular function,showed,echocardiography,False
+10,Left ventricular function,showed,stroke,False
+11,assessed,showed,echocardiography,False
+12,assessed,showed,stroke,False
+13,PPA,showed,echocardiography,False
+14,PPA,showed,stroke,False
+15,PPA,increased,stroke,False
+16,propranolol,reversed,effects,False
+17,vascular resistance,increased,PPA,False
+18,PPA,conclude,blood pressure,False
+19,PPA,conclude,systemic vascular resistance,False
+20,PPA,conclude,increase,False
+21,PPA,conclude,effect,False
+22,PPA,conclude,PPA,False
+23,PPA,conclude,cardiac output,False
+24,propranolol,conclude,blood pressure,False
+25,propranolol,conclude,systemic vascular resistance,False
+26,propranolol,conclude,increase,False
+27,propranolol,conclude,effect,False
+28,propranolol,conclude,PPA,False
+29,propranolol,conclude,cardiac output,False
+30,PPA,increases,blood pressure,False
+31,PPA,increases,systemic vascular resistance,False
+32,PPA,increases,increase,False
+33,PPA,increases,effect,False
+34,PPA,increases,PPA,False
+35,PPA,increases,cardiac output,False
+36,propranolol,increases,blood pressure,False
+37,propranolol,increases,systemic vascular resistance,False
+38,propranolol,increases,increase,False
+39,propranolol,increases,effect,False
+40,propranolol,increases,PPA,False
+41,propranolol,increases,cardiac output,False
+42,propranolol,antagonizes,increase,False
+43,propranolol,antagonizes,effect,False
+44,propranolol,antagonizes,PPA,False
+45,propranolol,antagonizes,cardiac output,False
+46,propranolol,antagonizes,pressor effect,False
+47,propranolol,antagonizes,PPA,False
+48,propranolol,antagonizes,interaction,False
+49,propranolol,antagonizes,pressor,False
+50,propranolol,antagonizes,norepinephrine,False
+51,propranolol,antagonizes,pressor effect,False
+52,propranolol,antagonizes,PPA,False
+53,propranolol,antagonizes,interaction,False
+54,propranolol,antagonizes,pressor,False
+55,propranolol,antagonizes,norepinephrine,False
+56,propranolol,enhances,pressor,False
+57,propranolol,enhances,norepinephrine,False
+58,PPA,is,beta 2,False
+59,PPA,has,beta 2,False

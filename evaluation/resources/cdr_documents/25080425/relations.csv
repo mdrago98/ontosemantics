@@ -1,14 +1,43 @@
 ,Subject,Action,Object,Negation
-0,study,investigate,effects,False
-1,acute myocardial ischemia,induced,rats,False
-2,rats,focusing,regulation,False
-3,mechanism,underlying,drug effect,False
-4,rats,treated,betaine,False
-5,rats,treated,days,False
-6,rats,treated,kg,False
-7,injury,induced,rats,False
-8,injury,induced,days,False
-9,administration,reduced,level,False
-10,treatment,increased,expression,False
-11,pretreatment,attenuated,acute myocardial ischemia,False
-12,pretreatment,attenuated,regulation,False
+0,study,designed,effects,False
+1,study,designed,betaine,False
+2,study,designed,acute myocardial ischemia,False
+3,study,designed,rats,False
+4,study,designed,regulation,False
+5,study,designed,signal transducer,False
+6,study,designed,mechanism,False
+7,study,designed,drug effect,False
+8,Dawley rats,treated with,betaine,False
+9,Dawley rats,treated with,days,False
+10,Acute myocardial ischemic injury,induced,rats,False
+11,Acute myocardial ischemic injury,induced,injection,False
+12,Acute myocardial ischemic injury,induced,isoproterenol,False
+13,Acute myocardial ischemic injury,induced,days,False
+14,enzyme,analyzed,protein levels,False
+15,Oral administration,reduced,betaine,False
+16,Oral administration,reduced,level,False
+17,Oral administration,reduced,enzyme,False
+18,Oral administration,reduced,serum,False
+19,Oral administration,reduced,left ventricular remodeling,False
+20,Western blot analysis,showed,STAT3,False
+21,Western blot analysis,showed,betaine,False
+22,Western blot analysis,showed,myocardium,False
+23,isoproterenol-induced phosphorylation,showed,STAT3,False
+24,isoproterenol-induced phosphorylation,showed,betaine,False
+25,isoproterenol-induced phosphorylation,showed,myocardium,False
+26,isoproterenol-induced phosphorylation,maintained,STAT3,False
+27,isoproterenol-induced phosphorylation,maintained,betaine,False
+28,isoproterenol-induced phosphorylation,maintained,myocardium,False
+29,treatment,increased,ventricular expression,False
+30,treatment,increased,Bcl-2,False
+31,treatment,increased,level,False
+32,treatment,increased,Bax,False
+33,treatment,increased,increase,False
+34,treatment,increased,ratio,False
+35,treatment,increased,Bcl-2/Bax,False
+36,pretreatment,showed,isoproterenol-induced acute myocardial ischemia,False
+37,pretreatment,showed,regulation,False
+38,pretreatment,showed,STAT3,False
+39,pretreatment,attenuated,isoproterenol-induced acute myocardial ischemia,False
+40,pretreatment,attenuated,regulation,False
+41,pretreatment,attenuated,STAT3,False

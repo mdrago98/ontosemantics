@@ -1,19 +1,47 @@
 Etoposide
 VP-16
+treatment
 solid tumors
 hematologic malignancies
-autologous bone marrow
-cancers
+high doses
+conjunction
+autologous bone marrow transplantation
+agent
+activity
+treatment-resistant cancers
 malignant glioma
+patients
+treated
+recurrent
+resistant
 glioma
-etoposide
+sudden severe
+neurologic deterioration
+days
+initiation
+high-dose etoposide therapy
+clinical manifestations
 confusion
 papilledema
+somnolence
+exacerbation
+motor deficits
+increase
 seizure
-dexamethasone
-brain
-tumor
-edema
+activity
+abnormalities
+initiation
+high-dose
+intravenous
+patients
+computerized tomographic (
+CT
+brain scans
+stability
+tumor size
+peritumor edema
+pretransplant scans
 complication
-etoposide
+toxicity
+high-dose etoposide therapy
 malignant glioma

@@ -1,4 +1,4 @@
 ,Subject,Action,Object,Negation
-0,study,examined,role,False
-1,trigger,initiate,torsade de pointes,False
-2,trigger,initiate,QT,False
+0,study,examined,torsade de pointes,False
+1,study,examined,QT,False
+2,study,examined,dl-sotalol,False

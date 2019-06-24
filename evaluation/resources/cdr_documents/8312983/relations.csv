@@ -1,9 +1,17 @@
 ,Subject,Action,Object,Negation
-0,reports,exist,relationship,False
-1,concentration,associated,somnolence,False
-2,concentration,associated,movement,False
-3,cognitive disorders,linked,blood,True
-4,we,describe,patient,False
-5,we,describe,concentration,False
-6,we,describe,delirium,False
-7,delirium,connected,fluoxetine,False
+0,correlation,established,serum,False
+1,reports,exist,relationship,False
+2,reports,exist,selective serotonin reuptake inhibitors,False
+3,cognitive disorders,linked,delirium,True
+4,cognitive disorders,linked,high blood levels,True
+5,cognitive disorders,linked,SSRIs,True
+6,fluoxetine,describe,report,False
+7,fluoxetine,describe,patient,False
+8,fluoxetine,describe,acute hyperkinetic delirium,False
+9,fluoxetine,describe,serum,False
+10,concentration,describe,report,False
+11,concentration,describe,patient,False
+12,concentration,describe,acute hyperkinetic delirium,False
+13,concentration,describe,serum,False
+14,fluoxetine,connected,serum,False
+15,concentration,connected,serum,False

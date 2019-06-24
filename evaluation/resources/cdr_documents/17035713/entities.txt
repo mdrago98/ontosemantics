@@ -4,61 +4,95 @@ metabolite
 alkylating agent
 ifosfamide
 IFO
-renal
-tumor
+renal damage
+anti-tumor therapy
 IFO
-cell
+Depletion
+sulfhydryl
+SH
+groups
+cell culture
+animal
+clinical studies
+effect
 CAA
 human
-proximal tubule
-cells
+tubule cells
+primary culture
+hRPTEC
+investigated
+Toxicity
 CAA
-protein
-cell
+protein content
+cell number
 LDH
 release
-caspase-3 activity
-thiols
+trypan blue exclusion assay
+caspase-3
+activity
+Free thiols
+method
+Ellman
 CAA
-cell
+reduced
+hRPTEC cell number
 protein
+induced
+loss
+free
 intracellular
 thiols
+increase
 necrosis
+markers
 CAA
 acrolein
+inhibited
 cysteine proteases
 caspase-3
 caspase-8
-Caspase activation
+cathepsin B. Caspase
+activation
 cisplatin
+inhibited
 CAA
 cells
 fluorescent dyes
 targeting
 lysosomes
 CAA
-lysosomal
-lysosomal
-leakage
+induced
+increase
+lysosomal size
+lysosomal leakage
+effects of
 CAA
 cysteine protease
+activities
 thiols
-cell
+cell lysate
 Acidification
+reaction
 CAA
-thiol
+thiol donors
+attenuate
+effects
 CAA
 necrosis
+markers
 thiol
+depletion
 cysteine protease
 inhibition
-cells
+living cells
 CAA
-cellular
-protein
-protein
-thiols
+cellular protein
+non-protein thiols
+toxicity
+hRPTEC
+effect
+reduced
 acidification
-acidification
-nephropathy
+urinary acidification
+IFO nephropathy
+patients

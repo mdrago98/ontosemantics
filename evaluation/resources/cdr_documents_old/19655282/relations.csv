@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,patients,presenting,chest pain,False
+1,patients,admitted,hours,False
+2,strategy,be,chest pain,False
+3,coronary vasospasm,account,some,False
+4,CTA,identify,subset,False
+5,CTA,identify,discharge,False

@@ -1,14 +1,53 @@
 ,Subject,Action,Object,Negation
-0,Aconitine,is,diterpenoid,False
-1,content,derived,plants,False
-2,channels,have,roles,False
-3,reports,are,aconitine,False
-4,we,explored,importance,False
-5,lead,caused,arrhythmia,False
-6,lead,caused,rats,False
-7,we,performed,cytotoxicity,False
-8,we,performed,enzymes,False
-9,aconitine,resulted,injury,False
-10,we,performed,detection,False
-11,phosphorylation,found,tissues,False
-12,overload,causes,arrhythmia,False
+0,Aconitine,is,diterpenoid alkaloid,False
+1,Aconitine,is,content,False
+2,Aconitine,is,herbal aconitum plants,False
+3,evidence,indicates,cardiotoxicity,False
+4,evidence,indicates,aconitine,False
+5,voltage-dependent Na(+) channels,indicates,cardiotoxicity,False
+6,voltage-dependent Na(+) channels,indicates,aconitine,False
+7,voltage-dependent Na(+) channels,have,cardiotoxicity,False
+8,voltage-dependent Na(+) channels,have,aconitine,False
+9,overload,found,beating rhythm,False
+10,overload,found,rat,False
+11,overload,found,arrhythmia,False
+12,overload,found,rats,False
+13,overload,lead,beating rhythm,False
+14,overload,lead,rat,False
+15,overload,lead,arrhythmia,False
+16,overload,lead,rats,False
+17,results,showed,myocardial injury,False
+18,aconitine,showed,myocardial injury,False
+19,aconitine,resulted,myocardial injury,False
+20,expression analysis,demonstrated,Ca(2+),False
+21,expression analysis,demonstrated,handling,False
+22,expression analysis,demonstrated,Ca(2+),False
+23,expression analysis,demonstrated,expression regulation,False
+24,expression analysis,demonstrated,Ca(2+),False
+25,expression analysis,demonstrated,proteins,False
+26,aconitine,demonstrated,Ca(2+),False
+27,aconitine,demonstrated,handling,False
+28,aconitine,demonstrated,Ca(2+),False
+29,aconitine,demonstrated,expression regulation,False
+30,aconitine,demonstrated,Ca(2+),False
+31,aconitine,demonstrated,proteins,False
+32,aconitine,promoted,Ca(2+),False
+33,aconitine,promoted,expression regulation,False
+34,aconitine,promoted,Ca(2+),False
+35,aconitine,promoted,proteins,False
+36,expression analysis,revealed,apoptosis-related proteins,False
+37,expression,revealed,apoptosis-related proteins,False
+38,phosphorylation,found,MAPK,False
+39,phosphorylation,found,cardiac tissues,False
+40,ratio,found,MAPK,False
+41,ratio,found,cardiac tissues,False
+42,aconitine,suggest,Ca(2+),False
+43,aconitine,suggest,arrhythmia,False
+44,aconitine,suggest,apoptotic development,False
+45,aconitine,suggest,phosphorylation,False
+46,aconitine,suggest,P38 mitogen-activated protein kinase,False
+47,aconitine,aggravates,Ca(2+),False
+48,aconitine,aggravates,arrhythmia,False
+49,aconitine,aggravates,apoptotic development,False
+50,aconitine,aggravates,phosphorylation,False
+51,aconitine,aggravates,P38 mitogen-activated protein kinase,False

@@ -1,29 +1,81 @@
+lack
+data
 seizures
-cardiac
-cardiopulmonary
+cardiac surgery
+retrospective analysis
+collected
+data
+patients
+cardiopulmonary bypass
+January
 convulsive seizure
+transient
+episode
 brain function
-movements
+abnormal
+Multivariate regression analysis
+predictors
+postoperative
 seizures
+patients
+postoperative
 convulsive seizures
+Generalised
 focal seizures
+identified
+patients
+median
+IQR
+time
+surgery
 seizure
+Epileptiform
+findings
+electroencephalography
+patients
+predictors
+postoperative
 seizures
-cardiac
+age
+female
+redo cardiac surgery
 calcification
 ascending aorta
 congestive heart failure
-circulatory arrest
-aortic
+deep hypothermic circulatory arrest
+duration
+aortic cross-clamp
 tranexamic acid
+tested
+multivariate regression analysis
 tranexamic acid
+predictor
 seizures
+OR
+CI
+Patients
 convulsive seizures
+in-hospital mortality
+length of hospital stay
+compared
+patients
 convulsive seizures
+Mean
+IQR
+length of stay
+intensive care unit
+patients
 convulsive seizures
+patients
 seizures
 Convulsive seizures
-postoperative complication
-cardiac
+postoperative
+complication
+cardiac surgery
 tranexamic acid
+modifiable
+administration
+doses
+risk
+postoperative
 seizures

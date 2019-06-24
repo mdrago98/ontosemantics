@@ -1,6 +1,5 @@
-benzodiazepine
-antagonist
+Administration
+benzodiazepine antagonist
 flumazenil
 seizures
-cocaine
-benzodiazepine
+cocaine-benzodiazepine intoxication

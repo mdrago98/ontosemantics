@@ -1,61 +1,104 @@
 Lithium
+effective
+antipsychotic
 nephrogenic diabetes insipidus
 NDI
+patients
+decreased
+capacity
+concentrate
 urine
 lithium
-cAMP
-pathway
-urea
-water
+disrupting
+cAMP pathway
+chronically
+urea transporter
+UT-A1
+water channel
 AQP2
 expression
-medulla
+inner medulla
 Targeting
-signaling pathway
-PKC
-signaling
+alternative signaling pathway
+PKC-mediated signaling
+effective
+method
+treating
+lithium-induced polyuria
+PKC-alpha
+null mice
+PKCα
+KO
+strain-matched wild type
+treated with
 lithium
-polyuria
-PKC
-mice
-lithium
-mice
-urine
-urine
-PKCα KO
-mice
-urine
+days
+WT mice
+increased
+urine output
+lowered
+urine osmolality
+days
+treatment
+PKCα
+urine output
+concentration
+Western blot analysis
 AQP2
 expression
-medullary
-tissues
-mice
+medullary tissues
+days
+WT mice
 AQP2
-PKCα KO
+unchanged
+PKCα
+KO
+results
+UT-A1
 expression
+Animals
+treated with
 lithium
-Lithium
-mice
-urine
+weeks
+Lithium-treated WT mice
+increased
+urine output
+treated
+PKCα
+KO
+animals
+increase
+output
 AQP2
+UT-A1
 expression
-lithium
-PKCα KO
-mice
+lithium-treated
+WT animals
+treated
+PKCα
+KO mice
 AQP2
+reduced
+2-fold
+UT-A1
 expression
+Urinary sodium
 potassium
 calcium
-lithium
-lithium
-PKCα KO
-mice
+elevated
+lithium-fed WT
+PKCα
+data
+ablation
 PKCα
 AQP2
-UT-A1 protein expression
+UT-A1 protein
 localization
-lithium
+lithium-induced
 NDI
+prevents
 development
+severe
 polyuria
-lithium
+associated with
+lithium therapy

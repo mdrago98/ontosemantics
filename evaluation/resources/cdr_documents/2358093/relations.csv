@@ -1,10 +1,27 @@
 ,Subject,Action,Object,Negation
-0,safety,established,variety,False
-1,We,investigated,term,False
-2,review,treated,danazol,False
-3,review,treated,period,False
-4,age,was,years,False
-5,duration,was,months,False
-6,patients,experienced,reactions,False
-7,abnormalities,were,reactions,False
-8,danazol,be,term,False
+0,safety,established,months,False
+1,safety,established,danazol,False
+2,safety,exists,months,False
+3,safety,exists,danazol,False
+4,safety,exists,safety,False
+5,age,was,patients,False
+6,age,was,years,False
+7,age,was,therapy,False
+8,duration,was,patients,False
+9,duration,was,years,False
+10,duration,was,therapy,False
+11,patients,experienced,adverse reactions,False
+12,drug,discontinued,adverse reactions,False
+13,drug,discontinued,patients,False
+14,patient,died,sequelae,False
+15,patient,died,drug,False
+16,danazol,conclude,incidence,False
+17,danazol,conclude,adverse reactions,False
+18,danazol,conclude,long-term,False
+19,danazol,conclude,group,False
+20,danazol,conclude,patients,False
+21,danazol,proven,incidence,False
+22,danazol,proven,adverse reactions,False
+23,danazol,proven,long-term,False
+24,danazol,proven,group,False
+25,danazol,proven,patients,False

@@ -1,20 +1,29 @@
 ,Subject,Action,Object,Negation
-0,acetate,is,drug,False
-1,drug,designed,aim,False
-2,aim,improving,efficacy,False
-3,aim,improving,comparison,False
-4,aim,improving,safety,False
-5,We,studied,effects,False
-6,partial seizures,elicited,days,False
-7,partial seizures,elicited,changes,False
-8,animals,treated,threshold,False
-9,duration,was,39.5+/-8.4s,False
-10,duration,was,dose,False
-11,microperfusion,prevented,seizures,False
-12,microperfusion,prevented,%,False
-13,doses,suppress,seizures,True
-14,doses,suppress,reductions,True
-15,doses,suppress,administration,True
-16,doses,suppress,seizure,True
-17,adverse effects,observed,EEG,False
-18,patterns,including,wakefulness,False
+0,seizures,studied,effects of,False
+1,seizures,studied,eslicarbazepine acetate,False
+2,seizures,studied,whole-animal model,False
+3,seizures,studied,days,False
+4,seizures,studied,changes,False
+5,seizures,studied,threshold,False
+6,seizures,elicited,days,False
+7,seizures,elicited,changes,False
+8,seizures,elicited,threshold,False
+9,duration,was,animals,False
+10,duration,was,threshold,False
+11,duration,was,picrotoxin,False
+12,duration,was,seizures,False
+13,Pre-treatment,prevented,dose,False
+14,Pre-treatment,prevented,picrotoxin microperfusion,False
+15,Pre-treatment,prevented,seizures,False
+16,Pre-treatment,prevented,rats,False
+17,Lower doses,suppress,seizures,True
+18,Lower doses,suppress,administration,True
+19,Lower doses,suppress,seizures,True
+20,reductions,suppress,seizures,True
+21,reductions,suppress,administration,True
+22,reductions,suppress,seizures,True
+23,reductions,found,administration,False
+24,reductions,found,seizures,False
+25,adverse effects,observed,eslicarbazepine acetate,False
+26,adverse effects,observed,sleep/wakefulness cycle,False
+27,adverse effects,observed,doses,False

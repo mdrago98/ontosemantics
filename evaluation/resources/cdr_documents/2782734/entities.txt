@@ -1,28 +1,89 @@
+High
+doses
 inhaled
 salbutamol
-airway
+improvements
+airway response
+patients
 asthma
+associated with
+dose-dependent
+systemic
+beta-adrenoceptor responses
+study
+investigate
 tachyphylaxis
+prolonged
+treatment
+high dose
 inhaled
 salbutamol
 asthmatic
+patients
+FEV1
+predicted
+inhaled beta-agonists
+therapy
+treatment
+high dose
 inhaled
-agonists
-sole
+HDS
+daily
+low dose
 inhaled
 salbutamol
-inhaled
-salbutamol
-blind
-periods
-inhaled
-agonists
+LDS
+placebo
+PI
+metered-dose inhaler
+double-blind
+randomized crossover design
+run-in
+washout periods
+inhaled beta-agonists
 ipratropium bromide
+treatment
+dose-response curve
+DRC
+performed
 airway
+FEV1
+FEF25
+chronotropic
+HR
 tremor
 metabolic
+K
 Glu
+responses
+measured
+Treatment
+baseline
+dose-dependent
+FEV1
+FEF25
+pretreatment
+HDS
+DRC
+right
+DRC
+HR
+K
 Glu
+attenuated
+treatment
+HDS
+PI
+HDS
+LDS
+HR
 Glu
+responses
+Frequency
+severity
+subjective
 adverse effects
+reduced
+HDS
 tremor
+palpitations

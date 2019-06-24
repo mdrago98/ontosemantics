@@ -1,5 +1,14 @@
 ,Subject,Action,Object,Negation
-0,Lithium,are,mood,False
-1,valproate,are,mood,False
-2,drugs,influence,inositol metabolism,False
-3,lack,stem,contribution,False
+0,drugs,influence,inositol metabolism,False
+1,Lithium,inhibits,IMPase,False
+2,Lithium,inhibits,MIP synthase,False
+3,study,shows,lithium,False
+4,study,shows,pilocarpine-induced seizures model,False
+5,inhibition,shows,lithium,False
+6,inhibition,shows,pilocarpine-induced seizures model,False
+7,inhibition,replicate,lithium,True
+8,inhibition,replicate,pilocarpine-induced seizures model,True
+9,lack,stem,effects,False
+10,lack,stem,synthesis,False
+11,lack,stem,synthesis,False
+12,lack,stem,lithium,False

@@ -1,3 +1,5 @@
 ,Subject,Action,Object,Negation
-0,dysfunction,minimize,benefit,False
-1,patients,undergoing,angioplasty,False
+0,Renal dysfunction,minimize,iodinated contrast medium,False
+1,Renal dysfunction,minimize,interventional procedure,False
+2,Renal dysfunction,minimize,patients,False
+3,Renal dysfunction,minimize,renal angioplasty,False

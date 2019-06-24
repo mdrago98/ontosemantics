@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,patients,treated,months,False
+1,patients,treated,calcium channel blocker,False
+2,therapy,treated,months,False
+3,therapy,treated,calcium channel blocker,False
+4,Seven,exhibited,hypertensive,False
+5,Seven,exhibited,cyclosporin A,False
+6,pressures,decreased,weeks,False
+7,blood pressure,maintained,range,False
+8,blood pressure,maintained,months,False
+9,events,included,increase,False
+10,patients,monitored,gingival hyperplasia,False

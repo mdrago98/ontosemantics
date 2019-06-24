@@ -1,6 +1,6 @@
 import becas
 
-from settings import Config
+from src.settings import Config
 from src.bioengine.nlp_processor.taggers import Tagger
 from json import JSONDecoder
 

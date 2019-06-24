@@ -1,18 +1,68 @@
 ,Subject,Action,Object,Negation
-0,Taxol,are,salvage,False
-1,Paclitaxel,have,cytotoxicity,False
-2,"(Taxol; Bristol-Myers Squibb Company, Princeton, NJ)",performed,trial,False
-3,I,followed,m2,False
-4,I,followed,women,False
-5,Analysis,reported,patients,False
-6,Analysis,reported,minimum,False
-7,who,received,total,False
-8,cycles,associated,neutropenia,False
-9,neutropenia,requiring,hospitalization,False
-10,cycles,required,granulocyte colony-stimulating factor,False
-11,patient,required,platelet,False
-12,there,were,responses,False
-13,there,were,%,False
-14,there,were,responses,False
-15,concentrations,measured,completion,False
-16,TFL,is,regimen,False
+0,Paclitaxel,have,cytotoxicity,False
+1,Paclitaxel,have,MCF-7 cell lines,False
+2,days,performed,phase II trial,False
+3,days,performed,paclitaxel,False
+4,days,performed,day I,False
+5,days,performed,days,False
+6,days,performed,women,False
+7,days,performed,metastatic breast cancer,False
+8,days,followed,days,False
+9,days,followed,women,False
+10,days,followed,metastatic breast cancer,False
+11,Analysis,reported,patients,False
+12,Analysis,reported,months,False
+13,Analysis,reported,cycles,False
+14,Analysis,reported,TFL,False
+15,Analysis,reported,grade,False
+16,Analysis,reported,hospitalization,False
+17,Analysis,reported,patients,False
+18,Analysis,reported,granulocyte colony-stimulating factor,False
+19,Analysis,reported,neutropenia,False
+20,Analysis,reported,platelet transfusions,False
+21,cycles,reported,patients,False
+22,cycles,reported,months,False
+23,cycles,reported,cycles,False
+24,cycles,reported,TFL,False
+25,cycles,reported,grade,False
+26,cycles,reported,hospitalization,False
+27,cycles,reported,patients,False
+28,cycles,reported,granulocyte colony-stimulating factor,False
+29,cycles,reported,neutropenia,False
+30,cycles,reported,platelet transfusions,False
+31,cycles,reported,patients,False
+32,cycles,reported,months,False
+33,cycles,reported,cycles,False
+34,cycles,reported,TFL,False
+35,cycles,reported,grade,False
+36,cycles,reported,hospitalization,False
+37,cycles,reported,patients,False
+38,cycles,reported,granulocyte colony-stimulating factor,False
+39,cycles,reported,neutropenia,False
+40,cycles,reported,platelet transfusions,False
+41,patient,reported,patients,False
+42,patient,reported,months,False
+43,patient,reported,cycles,False
+44,patient,reported,TFL,False
+45,patient,reported,grade,False
+46,patient,reported,hospitalization,False
+47,patient,reported,patients,False
+48,patient,reported,granulocyte colony-stimulating factor,False
+49,patient,reported,neutropenia,False
+50,patient,reported,platelet transfusions,False
+51,cycles,associated with,grade,False
+52,cycles,associated with,hospitalization,False
+53,cycles,associated with,patients,False
+54,cycles,associated with,granulocyte colony-stimulating factor,False
+55,cycles,associated with,neutropenia,False
+56,cycles,associated with,grade,False
+57,cycles,associated with,hospitalization,False
+58,cycles,associated with,patients,False
+59,cycles,associated with,granulocyte colony-stimulating factor,False
+60,cycles,associated with,neutropenia,False
+61,cycles,required,patients,False
+62,cycles,required,granulocyte colony-stimulating factor,False
+63,cycles,required,neutropenia,False
+64,patient,required,platelet transfusions,False
+65,concentrations,measured,paclitaxel,False
+66,concentrations,measured,patients,False

@@ -1,15 +1,42 @@
 ,Subject,Action,Object,Negation
-0,Reperfusion,results,liver dysfunction,False
-1,pathophysiology,underlying,injury,False
-2,oxidants,associated,injury,False
-3,methods,assessing,oxidant,False
-4,methods,assessing,vivo,False
-5,Hepatic tissue,assayed,lipid peroxidation,False
-6,There,was,change,True
-7,glutathione,following,reperfusion,False
-8,There,was,increase,True
-9,lipid peroxidation,associated,injury,False
-10,increase,suggests,exposure,False
-11,stress,result,magnitude,False
-12,stress,result,injury,False
-13,measurement,be,indicator,False
+0,Reperfusion,results,ischemic intestine,False
+1,Reperfusion,results,plasma,False
+2,Reperfusion,results,reduction,False
+3,Reperfusion,results,bile flow,False
+4,Reperfusion,results,liver,False
+5,study,undertaken,hepatic injury,False
+6,study,undertaken,relative value,False
+7,study,undertaken,exposure,False
+8,oxidants,undertaken,hepatic injury,False
+9,oxidants,undertaken,relative value,False
+10,oxidants,undertaken,exposure,False
+11,oxidants,determine,hepatic injury,False
+12,oxidants,determine,relative value,False
+13,oxidants,determine,exposure,False
+14,oxidants,associated with,hepatic injury,False
+15,oxidants,associated with,relative value,False
+16,oxidants,associated with,exposure,False
+17,Rats,subjected,standardized intestinal ischemia-reperfusion injury,False
+18,Hepatic tissue,assayed,lipid peroxidation products,False
+19,Oxidized glutathione,increased,reperfusion,False
+20,increase,suggests,GSSG,False
+21,increase,suggests,hepatic tissue,False
+22,increase,suggests,intestinal reperfusion,False
+23,increase,suggests,exposure of,False
+24,increase,suggests,hepatocytes,False
+25,increase,suggests,oxidant stress,False
+26,oxidant stress,suggests,increase,False
+27,oxidant stress,suggests,products,False
+28,oxidant stress,suggests,lipid peroxidation,False
+29,oxidant stress,suggests,injury,False
+30,oxidant stress,suggests,hepatocyte cell membranes,False
+31,data,suggest,tissue,False
+32,data,suggest,oxidant stress,False
+33,data,suggest,measurement,False
+34,data,suggest,products,False
+35,data,suggest,lipid peroxidation,False
+36,measurement,suggest,tissue,False
+37,measurement,suggest,oxidant stress,False
+38,measurement,suggest,measurement,False
+39,measurement,suggest,products,False
+40,measurement,suggest,lipid peroxidation,False

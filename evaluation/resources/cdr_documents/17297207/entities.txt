@@ -1,58 +1,104 @@
+severe
 malaria
 patient
 jaundice
 arrhythmia
 premature ventricular contraction
 quinine
+infusion
 man
-fever
+years old
+admitted to
+hospital
+high fever
 chill
 vomiting
 jaundice
 patient
+conscious
 blood pressure
+mmHg
 pulse rate
+admission
+laboratory examination
 Plasmodium falciparum
+++++)
 bilirubin
-bilirubin
-bilirubin
+conjugated bilirubin
+unconjugated bilirubin
 potassium
 Patient
+diagnosed
+severe
 malaria
 jaundice
 quinine
+infusion
 dextrose
+hour
+day
 patient
 vomitus
 diarrhea
-hearing
+tinnitus
+loss of hearing
 quinine
+infusion
 patient
+palpitation
+electrocardiography
+ECG
+recording
 premature ventricular contraction
 PVC
 trigemini
+constant type
 sinoatrial block
+positive U wave
+treated with
 lidocaine
+intravenously
+infusion
 dextrose
-potassium
-aspartate
+hour
+potassium aspartate tablet
 Quinine
-quinine
+infusion
+discontinued
+sulfate quinine
+tablets
 patient
+frequency
 PVC
+reduced
+day
+ECG
+normal
 potassium
-condition
+level
+discharged
+day
 Quinine
 quinidine
-alkaloid
-pro
+chincona alkaloid
+anti-arrhythmic property
+pro-arrhythmic
 arrhythmias
+severe
 arrhythmia
 PVC
+Administration
+parenteral
 quinine
-pro
+observation
+pro-arrhythmic effect
+older
+patients
 heart diseases
+patients
 electrolyte disorder
+hypokalemia
 vomiting
 diarrhea
 malaria
+cases

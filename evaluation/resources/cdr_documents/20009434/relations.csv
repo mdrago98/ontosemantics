@@ -1,13 +1,20 @@
 ,Subject,Action,Object,Negation
-0,methotrexate,is,treatment,False
-1,We,report,case,False
-2,We,report,HD,False
-3,patient,was,boy,False
-4,who,received,liver,False
-5,a 3-year-old boy who had received a living-related liver transplantation for congenital biliary atresia,diagnosed,post-transplantation lymphoproliferative disorder,False
-6,a 3-year-old boy who had received a living-related liver transplantation for congenital biliary atresia,suffered,perforation,False
-7,therapy,caused,acute renal failure,False
-8,that,required,hemodialysis,False
-9,We,supposed,hypovolemia,False
-10,we,treat,patient,False
-11,we,treat,HD,False
+0,clearance,cause,toxicity,False
+1,patient,report,acute renal failure,False
+2,patient,report,HD-MTX,False
+3,patient,report,patient,False
+4,patient,report,ileostomy,False
+5,patient,report,boy,False
+6,patient,report,liver transplantation,False
+7,patient,report,congenital biliary atresia,False
+8,post-transplantation lymphoproliferative disorder,diagnosed,day,False
+9,post-transplantation lymphoproliferative disorder,diagnosed,transplantation,False
+10,post-transplantation lymphoproliferative disorder,diagnosed,PTLD,False
+11,therapy,caused,acute renal failure,False
+12,therapy,caused,hemodialysis,False
+13,intravascular hypovolemia,supposed,drainage,False
+14,intravascular hypovolemia,supposed,ileostoma,False
+15,intravascular hypovolemia,supposed,acute prerenal failure,False
+16,intravascular hypovolemia,caused,drainage,False
+17,intravascular hypovolemia,caused,ileostoma,False
+18,intravascular hypovolemia,caused,acute prerenal failure,False

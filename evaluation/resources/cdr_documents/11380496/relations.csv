@@ -1,7 +1,18 @@
 ,Subject,Action,Object,Negation
-0,Myeloperoxidase antineutrophil cytoplasmic antibody,reported,patients,False
-1,vasculitis,reported,patients,False
-2,who,treated,propylthiouracil,False
-3,there,been,studies,True
-4,we,address,parameters,False
-5,we,address,patients,False
+0,(MPO-ANCA)-positive vasculitis,reported,patients,False
+1,(MPO-ANCA)-positive vasculitis,reported,Graves' disease,False
+2,(MPO-ANCA)-positive vasculitis,reported,propylthiouracil,False
+3,appearance,suspected,MPO-ANCA,False
+4,appearance,suspected,cases,False
+5,appearance,suspected,PTU,False
+6,appearance,suspected,MPO-ANCA,False
+7,titres,suspected,MPO-ANCA,False
+8,titres,suspected,cases,False
+9,titres,suspected,PTU,False
+10,titres,suspected,MPO-ANCA,False
+11,PTU,suspected,MPO-ANCA,False
+12,PTU,suspected,cases,False
+13,PTU,suspected,PTU,False
+14,PTU,suspected,MPO-ANCA,False
+15,titres,decreased,MPO-ANCA,False
+16,PTU,decreased,MPO-ANCA,False

@@ -1,26 +1,46 @@
+Changes
+intragastric pressure
+administration
 suxamethonium
 children
+age
+pretreated
+physiological saline
 alfentanil
 Anaesthesia
+induced
 thiopentone
-muscle
-fasciculations
+incidence
+intensity
+muscle fasciculations
 suxamethonium
+control
 alfentanil
-muscle
-fasciculations
+group
+intragastric pressure
+muscle fasciculations
+control group
 SEM
 H2O
 alfentanil
+group
 SEM
 H2O
-muscle
-fasciculations
-muscle
-fasciculations
+increase
+intragastric pressure
+intensity
+muscle fasciculations
+regression line
+intragastric pressure
+increases
+muscle fasciculations
 suxamethonium
-children
+healthy children
 Alfentanil
-suxamethonium
-muscle
+inhibits
+incidence
+intensity
+suxamethonium-induced muscle
 fasciculations
+intragastric pressure
+control value

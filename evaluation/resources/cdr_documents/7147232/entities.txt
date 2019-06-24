@@ -2,44 +2,73 @@ Adenosine triphosphate
 ATP
 sodium nitroprusside
 SNP
+administered
+patients
+induce
+control hypotension
 anesthesia
 SNP
+clinical use
+USA
+UK
 ATP
+clinically
+countries
+Japan
+investigated
+drugs
 cardiovascular systems
 dogs
 hearts
+denervated
+procedure
 ATP
 dogs
 SNP
 dogs
+administered
+reduce
 arterial pressure
+control
+during
+induced
+hypotension
 cardiovascular
+parameters
+Hypotension
+induced
 ATP
-pulmonary
-arterial pressure
-venous pressure
-ventricular
+decreases
+mean pulmonary arterial pressure
+central venous pressure
+left ventricular end-diastolic pressure
 total peripheral resistance
-body
-oxygen
-heart
+rate pressure product
+total body oxygen consumption
+heart rate
+variables
+normal
 ATP
-Cardiac
+Cardiac output
+hypotension
 SNP
-pulmonary
-arterial pressure
-venous pressure
-ventricular
+decreases
+mean pulmonary arterial pressure
+central venous pressure
+left ventricular end-diastolic pressure
 total peripheral resistance
-oxygen content
+rate pressure product
+oxygen content difference
 arterial
 mixed venous blood
-heart
-cardiac
-heart
-ventricular
+heart rate
+cardiac output
+increased
+Recoveries
+heart rate
+left ventricular end-diastolic pressure
 SNP
 ATP
 SNP
-tissue
+pacemaker tissue
 heart

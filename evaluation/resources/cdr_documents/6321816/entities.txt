@@ -1,33 +1,55 @@
 vasopressin
+pressor agent
+hypertensive
+process
 Vasopressin
 pathogenesis
-salt
-hypertension
+DOCA-salt hypertension
+elevation
 blood pressure
 rats
-lithium
+lithium-treated
 diabetes insipidus
-salt
+DOCA-salt
+treatment
+Administration
 DDAVP
+antidiuretic action
+vasopressor
+increase
 blood pressure
+levels
+administration
 AVP
+pressor
+action
 vasopressin
 development
+model
 hypertension
+pressor
+responsiveness
 hormone
+initial stage
 hypertension
+Increased
 secretion
 vasopressin
 neurohypophysis
+promotes
+function
 hormone
+pathogenetic factor
 hypertension
-release
 vasopressin
 plasma osmolality
-angiotensin II
-receptor binding
-balance
+induced
+absence
+control
+angiotensin II forming
+receptor binding capacity
+sodium balance
 brain
 vasopressin
 human
-essential hypertension
+hypertension

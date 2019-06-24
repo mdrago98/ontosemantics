@@ -1,3 +1,4 @@
 ,Subject,Action,Object,Negation
-0,DOX,is,therapeutic,False
-1,impact,examined,model,False
+0,impact,examined,p53,False
+1,impact,examined,DOX,False
+2,impact,examined,juvenile model,False

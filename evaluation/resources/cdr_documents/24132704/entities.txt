@@ -1,19 +1,33 @@
 Diazinon
 organophosphorus insecticides
+agriculture
+exposure to
 diazinon
 lipid metabolism
+hypolipidemic
+effect
+crocin
+studies
 Extracellular signal-regulated kinase
 ERK
-pathways
 low-density lipoprotein receptor
 LDLr
 expression
-regulation of lipid metabolism
+study
+evaluate
+changes
+regulation
+lipid metabolism
 ERK
 LDLr
 expression
 liver
 rats
+exposed to
+subacute
+effect
+crocin
 diazinon
-diazinon
+induced
+disturbed
 cholesterol homeostasis

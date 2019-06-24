@@ -1,5 +1,17 @@
 ,Subject,Action,Object,Negation
-0,studies,be,antineoplastic agent,False
-1,studies,be,limiting,False
-2,studies,be,weeks,False
-3,We,develop,treatment,False
+0,studies,demonstrated,doxorubicin,False
+1,studies,demonstrated,platinum-resistant ovarian cancer,False
+2,studies,demonstrated,toxicity,False
+3,studies,demonstrated,standard dosing regimen,False
+4,dose,demonstrated,doxorubicin,False
+5,dose,demonstrated,platinum-resistant ovarian cancer,False
+6,dose,demonstrated,toxicity,False
+7,dose,demonstrated,standard dosing regimen,False
+8,hand-foot syndrome,demonstrated,doxorubicin,False
+9,hand-foot syndrome,demonstrated,platinum-resistant ovarian cancer,False
+10,hand-foot syndrome,demonstrated,toxicity,False
+11,hand-foot syndrome,demonstrated,standard dosing regimen,False
+12,dose,limiting,toxicity,False
+13,dose,limiting,standard dosing regimen,False
+14,hand-foot syndrome,limiting,toxicity,False
+15,hand-foot syndrome,limiting,standard dosing regimen,False

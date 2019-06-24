@@ -1,30 +1,70 @@
+intracerebroventricular
+ICV
+administration
 ouabain
 Na(+)/K(+)-ATPase inhibitor
 rats
+symptoms
 human
-mania
+bipolar mania
+Clinical studies
 bipolar disorder
-mitochondrial
+mitochondrial dysfunction
+investigated
 behavioral
+biochemical effects
+induced
+ICV
+administration
 ouabain
 rats
+effects
 ouabain
+injection
+days
+ICV
+administration
+concentrations
 locomotion
+measured
+open-field test
 thiobarbituric acid
+reactive substances
+TBARSs
 superoxide
+production
+measured
+submitochondrial particles
 prefrontal cortex
 hippocampus
 striatum
 amygdala
+findings
 ouabain
+induced
+hyperlocomotion
 rats
+response
+days
+ICV
+injection
+persistent
+increase
 rat
+spontaneous
 locomotion
-superoxide
+associated with
+increased
+TBARS
+levels
+superoxide generation
+submitochondrial particles
 prefrontal cortex
 striatum
 amygdala
-ouabain
-mania
+ouabain-induced mania-like behavior
+animal model
+hypothesis
+involvement
 oxidative stress
 bipolar disorder

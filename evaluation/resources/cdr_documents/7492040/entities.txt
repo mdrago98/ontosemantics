@@ -1,4 +1,5 @@
+evaluate
+safety
 lidocaine
-cocaine
-myocardial infarction
+cocaine-induced myocardial infarction
 MI

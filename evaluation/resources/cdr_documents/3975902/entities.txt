@@ -1,51 +1,80 @@
-Barium
+Barium-supplemented Long-Evans
+hooded
 rats
+persistent
 hypertension
+month
 barium
-mineral
-water
+mineral fortified water
+treatment
+Analysis
+in vivo
+myocardial
 excitability
+contractility
 metabolic
-barium
+characteristics
+months
+barium-induced disturbances
 cardiovascular system
-barium
+barium effect
 hypersensitivity
 cardiovascular system
-pentobarbital
-barbiturate
-anesthesia
-contractile
-barium
-rats
-rats
+sodium pentobarbital
+barbiturate anesthesia
+myocardial contractile indices
+depressed
+barium-exposed rats
+control-fed rats
+response
 ketamine
-anesthesia
+xylazine anesthesia
 cardiovascular
-pentobarbital
-barium
-rats
+actions
+sodium pentobarbital
+barium-treated rats
+anesthetic
+generalized anesthetic response
+myocardial
+pathophysiologic
 metabolic
+changes
+induced
 barium
-contractile
-cardiac muscle fibers
-barium
-rats
-energy metabolism
-barium
-rats
-contractile
+manifest
+anesthetic
+employed
+contractile element shortening
+cardiac muscle
+groups
+barium-treated rats
+control groups
+anesthetic regimen
+significant
+disturbances
+myocardial energy metabolism
+detected
+barium-exposed rats
+consistent with
+reduced
+contractile element shortening velocity
 excitability
 cardiac conduction system
+depressed
+atrioventricular nodal region
 hearts
-barium
-rats
-cardiac
+barium-exposed rats
+altered
+cardiac contractility
 excitability
-metabolic
+myocardial metabolic disturbances
 hypersensitivity
 cardiovascular system
-pentobarbital
-barium
-barium
+sodium pentobarbital
+cardiomyopathic disorder
+induced
+chronic barium exposure
+barium ingestion
 adverse effects
+mammalian
 cardiovascular system

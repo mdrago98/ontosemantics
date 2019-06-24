@@ -1,9 +1,10 @@
 ,Subject,Action,Object,Negation
-0,We,describe,case,False
-1,herein,describe,case,False
-2,that,occurred,initiation,False
-3,that,occurred,tetrabenazine,False
-4,patient,treated,tiapride,False
-5,patient,treated,adverse effects,False
-6,The patient,had,breast cancer,False
-7,Tetrabenazine,administered,combination,False
+0,patient,treated with,tiapride,False
+1,patient,treated with,adverse effects,False
+2,patient,treated with,administration,False
+3,patient,treated with,combination therapy,False
+4,combination therapy,had,breast cancer,False
+5,Tetrabenazine,administered,combination,False
+6,Tetrabenazine,administered,neuroleptic drugs,False
+7,Tetrabenazine,administered,patients,False
+8,Tetrabenazine,administered,general condition,False

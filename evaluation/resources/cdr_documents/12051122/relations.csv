@@ -1,3 +1,7 @@
 ,Subject,Action,Object,Negation
-0,study,determine,safety,False
-1,study,determine,reporting,False
+0,retrospective study,used,pharmaceutical company's global safety database,False
+1,retrospective study,used,rate,False
+2,retrospective study,used,hyponatremia,False
+3,retrospective study,used,secretion,False
+4,retrospective study,used,anti-diuretic hormone,False
+5,retrospective study,used,vincristine-treated patients,False

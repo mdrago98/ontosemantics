@@ -1,12 +1,17 @@
 ,Subject,Action,Object,Negation
-0,who,placed,beclomethasone,False
-1,seven,rechallenged,beclomethasone,False
-2,who,developed,hoarseness,False
-3,who,developed,Candidiasis,False
-4,patient,had,both,False
-5,%,had,recurrence,False
-6,We,conclude,recurrence,False
-7,patients,restarted,beclomethasone,False
-8,who,develop,hoarseness,False
-9,use,increase,risk,False
-10,risk,developing,hoarseness,False
+0,patients,developed,inhaled beclomethasone,False
+1,patients,developed,hoarseness,False
+2,adverse reactions,rechallenged,patients,False
+3,adverse reactions,rechallenged,inhaled beclomethasone,False
+4,Oral thrush,recur,patients,True
+5,Oral thrush,recur,hoarseness,True
+6,Oral thrush,recur,recurrence,True
+7,patients,conclude,inhaled beclomethasone,False
+8,patients,conclude,hoarseness,False
+9,patients,conclude,inhaled beclomethasone,False
+10,patients,conclude,hoarseness,False
+11,patients,restarted,inhaled beclomethasone,False
+12,patients,restarted,hoarseness,False
+13,patients,restarted,inhaled beclomethasone,False
+14,patients,restarted,hoarseness,False
+15,patients,re-challenged,hoarseness,True

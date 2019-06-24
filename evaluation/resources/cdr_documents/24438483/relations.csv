@@ -1,4 +1,26 @@
 ,Subject,Action,Object,Negation
-0,treatment,increase,doses,False
-1,content,alleviate,cardiotoxicity,False
-2,aim,investigate,effects,False
+0,Pre-treatment,shown,lipid emulsions,False
+1,Pre-treatment,shown,doses,False
+2,Pre-treatment,shown,bupivacaine,False
+3,Pre-treatment,shown,propofol,False
+4,Pre-treatment,shown,bupivacaine-induced cardiotoxicity,False
+5,lipid content,shown,lipid emulsions,False
+6,lipid content,shown,doses,False
+7,lipid content,shown,bupivacaine,False
+8,lipid content,shown,propofol,False
+9,lipid content,shown,bupivacaine-induced cardiotoxicity,False
+10,lipid content,increase,doses,False
+11,lipid content,increase,bupivacaine,False
+12,lipid content,increase,propofol,False
+13,lipid content,increase,bupivacaine-induced cardiotoxicity,False
+14,lipid content,alleviate,propofol,False
+15,lipid content,alleviate,bupivacaine-induced cardiotoxicity,False
+16,emulsions,is,study,False
+17,emulsions,is,effects of,False
+18,emulsions,is,propofol,False
+19,emulsions,is,intralipid,False
+20,emulsions,is,bupivacaine-induced cardiotoxicity,False
+21,emulsions,investigate,effects of,False
+22,emulsions,investigate,propofol,False
+23,emulsions,investigate,intralipid,False
+24,emulsions,investigate,bupivacaine-induced cardiotoxicity,False

@@ -1,49 +1,109 @@
-Platonia insignis
-medicine
+Garcinielliptone FC
+GFC
+isolated
+hexanic fraction seed extract
+species
+Platonia
+folk medicine
+treat
 skin diseases
 humans
+animals
+seed decoction
+treat
 diarrheas
+inflammatory diseases
+GFC
+effects
 central nervous system
+rodents
+study
+evaluate
+GFC
+effects
+doses
 seizure
-anticonvulsant
+parameters
+anticonvulsant activity
+effects
 amino acid
+γ-aminobutyric acid
 GABA
 glutamine
 aspartate
 glutathione
-acetylcholinesterase
-AChE
+levels
+acetylcholinesterase (
 mice
 hippocampus
 seizures
+GFC
+increased
+latency
 seizure
-mice
+doses
+seized mice
 GABA
+content
 mice
 hippocampus
+treated
+GFC75
 P400
-mice
+increase
+compared
+seized mice
 aspartate
 glutamine
 glutamate
+levels
+detected
+decrease
 mice
 hippocampus
-mice
-Hippocampus
-mice
+treated
+GFC75
 P400
+compared
+seized mice
+Hippocampus mice
+treated
+GFC75
+P400
+increase
 AChE
-mice
-exert
-anticonvulsant
-pilocarpine
-status epilepticus
+activity
+seized mice
+results
+GFC
+anticonvulsant activity
+reduce
+frequency
+installation
+pilocarpine-induced status epilepticus
+increase
+latency
 seizure
-anticonvulsant
+decrease
+mortality rate
+animals
+data
+GFC
+influence
+epileptogenesis
+promote
+anticonvulsant actions
 pilocarpine
+model
+modulating
 GABA
 glutamate
+contents
 AChE
+activity
 mice
 hippocampus
-anticonvulsant
+compound
+neuronal
+protection
+anticonvulsant agent

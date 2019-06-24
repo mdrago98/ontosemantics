@@ -1,62 +1,104 @@
-cardiomyopathy
+cytopathic
+mechanisms
+dose-limiting
+cumulative
+irreversible cardiomyopathy
 doxorubicin
+evidence
 oxidative stress
-mitochondrial
+mitochondrial dysfunction
+factors
+pathogenic process
+investigation
+hypothesis
 carvedilol
-beta-adrenergic receptor
-antagonist
+nonselective beta-adrenergic receptor antagonist
 antioxidant
+properties
 cardiac
 hepatic
 mitochondrial
-bioenergetic
+associated with
+subchronic
 doxorubicin
+toxicity
 Heart
-liver mitochondria
+liver
+mitochondria
+isolated
 rats
+treated
+weeks
 doxorubicin
 carvedilol
+combination
+drugs
 Heart mitochondria
-doxorubicin
-rats
+isolated
+doxorubicin-treated rats
+depressed rates
+state 3
 respiration
-protein
-cardiac
-mitochondria
+O/min/mg protein
+lower
+respiratory control ratio
+RCR
+cardiac mitochondria
+isolated
+saline-treated
 rats
-Mitochondrial
-calcium
+Mitochondrial calcium-loading capacity
+activity
 NADH-dehydrogenase
-cardiac
-mitochondria
-doxorubicin
-rats
+suppressed
+cardiac mitochondria
+doxorubicin-treated rats
 Doxorubicin
+treatment
+decrease
+RCR
 liver mitochondria
+control
 rats
 inhibition
-hepatic
-cytochrome oxidase activity
+hepatic cytochrome oxidase activity
+Coadministration
 carvedilol
-cellular
-cardiac myocytes
+decreased
+cellular vacuolization
+cardiac
+myocytes
+prevented
+inhibitory
+effect
 doxorubicin
 mitochondrial
-respiration
 heart
 liver
 Carvedilol
+decrease
 mitochondrial
+loading
 inhibition
+respiratory complexes
 heart mitochondria
 doxorubicin
 Carvedilol
+parameters
+measured
 heart
 liver mitochondria
+protection
 carvedilol
-cardiac
-tissue
-mitochondrial
+structural
+functional
+cardiac tissue
+damage
+clinical
+dose-limiting mitochondrial dysfunction
 cardiomyopathy
+long-term
 doxorubicin
+therapy
 cancer
+patients

@@ -1,44 +1,84 @@
+Acute
+treatment
 metformin
+protective effect
 myocardial infarction
 suppression
 inflammatory responses
+activation
 AMP-activated protein kinase
 AMPK
+study
+effect
+chronic
+pre-treatment
 metformin
-cardiac
+cardiac dysfunction
 toll-like receptor 4
 TLR4
 myocardial infarction
 AMPK
+assessed
+Male
 Wistar rats
+groups
+normal control
+groups
+injected
 isoproterenol
+chronic
+pre-treatment
 metformin
+days
 Isoproterenol
+injected
+subcutaneously
+days
+induce
 acute myocardial infarction
 Isoproterenol
-ventricular
+decreased
+left ventricular systolic pressure
+myocardial contractility indexed
+LVdp/dtmax
+LVdp/dtmin
 left ventricular dysfunction
+groups
+treated with
+50mg/kg
 metformin
-isoproterenol
+Metfromin
+isoproterenol-induced elevation
+levels
 TLR4
 mRNA
-differentiation
-protein
+myeloid differentiation protein 88
+MyD88
 tumor necrosis factor-alpha
 TNF-α
 interleukin 6
 IL-6
 heart tissues
+changes
 serum
 TNF-α
 IL-6
-AMPK
+doses
+effective
+Phosphorylated AMPKα
+p-AMPK
 myocardium
+elevated
 metformin
+Chronic pre-treatment
 metformin
-myocardial infarction
-cardiac
+post-myocardial infarction
+cardiac dysfunction
+suppresses
 inflammatory responses
 inhibition
 TLR4
-myocardium
+activities
+mechanism
+target
+infarcted myocardium

@@ -1,18 +1,76 @@
+evaluate
+efficacy
+time-course of action
+predictors
+response
+topical
 capsaicin
-post-herpetic neuralgia
+patients
+chronic post-herpetic neuralgia
 PHN
-capsaicin
-capsaicin
-burning sensations
+median duration
+months
+treated with
+capsaicin cream
+weeks
+therapy
+patients
+pain
+visual analogue scale
+VAS
+verbal outcome scale
+follow-up
+investigation
+months
+study
+patients
+improved
+patients
+improved
+trial
+discontinued
+therapy
+side-effects
+intolerable
+capsaicin-induced burning sensations
 mastitis
-patient
+decrease
+VAS
+ratings
+significant
+weeks
+continuous
+application
+responders
+improved
+follow-up
+application
+Treatment effect
+patient's
+age
+duration
 localization
 PHN
+trigeminal
+involvement
+excluded
 sensory disturbance
-capsaicin
-burning
-analgesic
+pain character
+Treatment response
+incidence
+time-course
+severity
+capsaicin-induced burning
+controlled trials
+long-term
+results
+non-randomized study
+analgesic effect
 capsaicin
 PHN
-metabolism
+interference
+neuropeptide metabolism
+morphological
+changes
 degeneration
+nociceptive afferents

@@ -1,6 +1,30 @@
 ,Subject,Action,Object,Negation
-0,PRC,described,frequency,False
-1,authors,report,observations,False
-2,tests,revealed,reactions,False
-3,tests,revealed,patch,False
-4,tests,are,favour,False
+0,injection,described,years,False
+1,injection,described,contrast materials,False
+2,injection,described,frequency,False
+3,authors,report,observations,False
+4,authors,report,patients,False
+5,authors,report,delayed reactions,False
+6,authors,report,PRC,False
+7,intradermoreactions,report,observations,False
+8,intradermoreactions,report,patients,False
+9,intradermoreactions,report,delayed reactions,False
+10,intradermoreactions,report,PRC,False
+11,intradermoreactions,studied,PRC,False
+12,biphasic reaction,appeared,angiography,False
+13,biphasic reaction,appeared,venous route,False
+14,biphasic reaction,appeared,reaction,False
+15,biphasic reaction,appeared,generalised sensation,False
+16,biphasic reaction,appeared,heat,False
+17,biphasic reaction,appeared,injection,False
+18,dyspnea,appeared,angiography,False
+19,dyspnea,appeared,venous route,False
+20,dyspnea,appeared,reaction,False
+21,dyspnea,appeared,generalised sensation,False
+22,dyspnea,appeared,heat,False
+23,dyspnea,appeared,injection,False
+24,skin tests,revealed,hours,False
+25,skin tests,revealed,IDR,False
+26,skin tests,revealed,patch tests,False
+27,skin tests,revealed,PRC,False
+28,skin tests,revealed,structures,False

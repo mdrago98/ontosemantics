@@ -1,15 +1,40 @@
+efficacy
+denopamine
 orally
-beta 1-adrenoceptor
+active beta 1-adrenoceptor
 agonist
+improving
 cardiac failure
+assessed
 dog
-heart
-lung
+heart-lung preparations
 Cardiac functions
+depressed
 pentobarbital
-cardiac
-ventricular
-cardiac
-heart
+mean value
+SD
+cardiac output
+maximum
+rate
+left ventricular pressure
+LV dP/dt max
+reduced
+controls
+improved
+denopamine
+dose-dependent
+denopamine
+restoration
+cardiac performance
+associated with
+increase
+heart rate
 arrhythmias
+induced
+doses
+denopamine
+results
+clinical trials
+denopamine
+treatment
 cardiac failure

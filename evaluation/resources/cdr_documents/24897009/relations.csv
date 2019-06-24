@@ -1,4 +1,3 @@
 ,Subject,Action,Object,Negation
-0,We,characterize,findings,False
-1,who,developed,visual loss,False
-2,case,demonstrates,vulnerability,False
+0,Ethambutol,known,optic neuropathy,False
+1,Ethambutol,known,axonal polyneuropathy,False

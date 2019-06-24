@@ -1,8 +1,10 @@
 ,Subject,Action,Object,Negation
-0,We,present,resonance,False
-1,who,had,hemolytic anemia,False
-2,girl,resulting,cerebral anoxia,False
-3,imaging,revealed,cortical laminar necrosis,False
-4,imaging,revealed,border,False
-5,cortical laminar necrosis,is,entity,False
-6,there,are,reports,False
+0,Magnetic Resonance imaging,revealed,cortical laminar necrosis,False
+1,Magnetic Resonance imaging,revealed,arterial border zones,False
+2,Magnetic Resonance imaging,revealed,cerebral hemispheres,False
+3,Magnetic Resonance imaging,revealed,subcortical white matter,False
+4,Magnetic Resonance imaging,revealed,left cerebral hemisphere,False
+5,cortical laminar necrosis,are,adulthood,False
+6,cortical laminar necrosis,are,conditions,False
+7,cortical laminar necrosis,are,energy depletions,False
+8,cortical laminar necrosis,are,children,False

@@ -1,12 +1,23 @@
 ,Subject,Action,Object,Negation
-0,effects,compared,men,False
-1,Eight,received,insulin,False
-2,eight,given,propranolol,False
-3,eight,given,insulin,False
-4,period,associated,increase,False
-5,period,associated,fall,False
-6,there,was,fall,False
-7,there,was,increase,False
-8,changes,occurred,insulin,False
-9,Hypertension,treated,beta,True
-10,drugs,cause,rise,False
+0,effects,compared,hypoglycaemia,False
+1,effects,compared,beta-blockade,False
+2,effects,compared,men,False
+3,period,associated with,insulin-group,False
+4,period,associated with,hypoglycaemia,False
+5,period,associated with,increase,False
+6,period,associated with,heart-rate,False
+7,period,associated with,diastolic blood-pressure,False
+8,changes,occurred,insulin-group,True
+9,changes,occurred,propranolol-insulin group,True
+10,Hypertension,treated with,diabetics,True
+11,Hypertension,treated with,hypoglycaemia,True
+12,Hypertension,treated with,beta-blockers,True
+13,Hypertension,treated with,blood-pressure,True
+14,Hypertension,treated with,patients,True
+15,drugs,treated with,diabetics,True
+16,drugs,treated with,hypoglycaemia,True
+17,drugs,treated with,beta-blockers,True
+18,drugs,treated with,blood-pressure,True
+19,drugs,treated with,patients,True
+20,drugs,cause,blood-pressure,False
+21,drugs,cause,patients,False

@@ -1,9 +1,25 @@
 ,Subject,Action,Object,Negation
-0,effects,studied,group,False
-1,lipid,compared,postmortem,False
-2,fall,observed,doxorubicin,False
-3,increase,observed,dose,False
-4,alteration,observed,control,False
-5,dogs,treated,doxorubicin,False
-6,changes,are,initiating,True
-7,changes,are,cardiotoxicity,True
+0,effects of,determined,serial treatment,False
+1,effects of,determined,doxorubicin,False
+2,effects of,determined,dynamic myocardial scintigraphy,False
+3,effects of,determined,[omega-I-131]heptadecanoic acid,False
+4,effects of,determined,group,False
+5,effects of,determined,mongrel dogs,False
+6,lipid,compared,postmortem,False
+7,lipid,compared,group,False
+8,lipid,compared,control dogs,False
+9,fall,observed,LV function,False
+10,fall,observed,doxorubicin,False
+11,increase,observed,I-131,False
+12,increase,observed,cumulative dose,False
+13,alteration,observed,myocardial lipids,False
+14,alteration,observed,control dogs,False
+15,alteration,observed,doxorubicin,False
+16,findings,suggest,alteration,False
+17,findings,suggest,myocardial dynamic imaging,False
+18,findings,suggest,I-131,False
+19,findings,suggest,doxorubicin,False
+20,changes,suggest,alteration,False
+21,changes,suggest,myocardial dynamic imaging,False
+22,changes,suggest,I-131,False
+23,changes,suggest,doxorubicin,False

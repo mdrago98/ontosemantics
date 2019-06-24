@@ -1,0 +1,20 @@
+,Subject,Action,Object,Negation
+0,Diagnosis,challenging,pregnancy,False
+1,urinary frequency,challenging,pregnancy,False
+2,standard water deprivation test,recommended,pregnancy,True
+3,standard water deprivation test,recommended,risk,True
+4,standard water deprivation test,recommended,complications,True
+5,Treatment,depends,diagnosis,False
+6,Treatment,depends,desmopressin,False
+7,Treatment,depends,medication,False
+8,Treatment,depends,AVP-deficient diabetes insipidus,False
+9,Treatment,depends,treatment,False
+10,Treatment,depends,disease,False
+11,nephrogenic diabetes insipidus,depends,diagnosis,False
+12,nephrogenic diabetes insipidus,depends,desmopressin,False
+13,nephrogenic diabetes insipidus,depends,medication,False
+14,nephrogenic diabetes insipidus,depends,AVP-deficient diabetes insipidus,False
+15,nephrogenic diabetes insipidus,depends,treatment,False
+16,nephrogenic diabetes insipidus,depends,disease,False
+17,nephrogenic diabetes insipidus,requires,treatment,False
+18,nephrogenic diabetes insipidus,requires,disease,False

@@ -1,8 +1,23 @@
-herbicides
+S-53482
+S-23121
+N-phenylimide herbicides
+embryolethality
 teratogenicity
 ventricular septal defects
-ribs
+wavy ribs
 growth retardation
 rats
+conventional
 oral
+developmental
+toxicity
+study
+investigate
+compounds
+induce
+developmental
+toxicity
+dermal route
+occupational exposure
 human
+health risks

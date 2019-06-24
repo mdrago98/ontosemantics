@@ -1,10 +1,50 @@
 ,Subject,Action,Object,Negation
-0,Bepridil,induced,bradycardia,False
-1,Bepridil,induced,effect,False
-2,amplitude,falling,71,False
-3,which,fell,1.85,False
-4,which,fell,38,False
-5,which,fell,98.7,False
-6,beats,sustained,min,False
-7,bepridil,reduces,heart,False
-8,which,results,flattening,False
+0,Bepridil,induced,prophylactic treatment,False
+1,Bepridil,induced,anginal attacks,False
+2,Bepridil,induced,bradycardia,False
+3,mechanisms,induced,prophylactic treatment,False
+4,mechanisms,induced,anginal attacks,False
+5,mechanisms,induced,bradycardia,False
+6,perfusion,caused,bepridil,False
+7,perfusion,caused,life-support medium,False
+8,perfusion,caused,sino-atrial tissue,False
+9,perfusion,caused,rabbit,False
+10,perfusion,caused,reduction,False
+11,perfusion,caused,action potential,False
+12,perfusion,caused,KCl,False
+13,perfusion,caused,doses,False
+14,perfusion,caused,concentrations,False
+15,perfusion,caused,sinus activity,False
+16,effect,caused,bepridil,False
+17,effect,caused,life-support medium,False
+18,effect,caused,sino-atrial tissue,False
+19,effect,caused,rabbit,False
+20,effect,caused,reduction,False
+21,effect,caused,action potential,False
+22,effect,caused,KCl,False
+23,effect,caused,doses,False
+24,effect,caused,concentrations,False
+25,effect,caused,sinus activity,False
+26,blockade,caused,bepridil,False
+27,blockade,caused,life-support medium,False
+28,blockade,caused,sino-atrial tissue,False
+29,blockade,caused,rabbit,False
+30,blockade,caused,reduction,False
+31,blockade,caused,action potential,False
+32,blockade,caused,KCl,False
+33,blockade,caused,doses,False
+34,blockade,caused,concentrations,False
+35,blockade,caused,sinus activity,False
+36,blockade,set,sinus activity,False
+37,injection,caused,bepridil,False
+38,injection,caused,dose,False
+39,injection,caused,dogs,False
+40,injection,caused,ablation,False
+41,injection,caused,extrinsic cardiac afferent nerve supply,False
+42,injection,caused,medullo-adrenalectomy,False
+43,injection,caused,reduction,False
+44,injection,caused,heart rate,False
+45,bepridil,concluded,heart rate,False
+46,bepridil,concluded,sinus node,False
+47,bepridil,reduces,heart rate,False
+48,bepridil,reduces,sinus node,False

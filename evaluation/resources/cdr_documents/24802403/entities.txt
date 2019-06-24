@@ -1,32 +1,65 @@
 Cognitive impairment
+severe
+comorbidity
 epilepsy
+quality of life
+therapeutic interventions
 epilepsy
+untoward
+cognitive effects
+agents
 targeting
 seizures
-cognition
+cognition deficits
 Oxidative stress
+epileptogenesis
 cognitive deficits
 antioxidants
 antiepileptic
+potential
 Metformin
+prescribed
 antidiabetic
-oral
-antioxidant
+antioxidant properties
+study
+evaluate
+ameliorative effects
 metformin
 seizures
 cognitive impairment
 brain
 oxidative stress
-kindling
-mice
+markers
+pentylenetetrazole-induced kindling
+animals
+Male
+C57BL/6 mice
+administered
+subconvulsive dose
+pentylenetetrazole
+day
+injections
 Metformin
+injected
+intraperitoneally
+dose
+alternate-day
+PTZ
 metformin
+suppressed
+progression
 kindling
+ameliorated
 cognitive impairment
+decreased
 brain
 oxidative stress
+study
 metformin
+agent
+treatment
 epilepsy
-medicine
+protective medicine
 cognitive impairment
+induced
 seizures

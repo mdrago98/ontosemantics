@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,SNP,authorized,use,False
+1,drugs,act,cardiovascular systems,False
+2,we,measured,parameters,False
+3,variables,returned,min,False
+4,Recoveries,shown,min,True
+5,ATP,act,pacemaker,False

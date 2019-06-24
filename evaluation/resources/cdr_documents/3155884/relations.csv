@@ -1,8 +1,49 @@
 ,Subject,Action,Object,Negation
-0,ISO,investigated,rats,False
-1,fibrosis,analyzed,correlation,False
-2,content,estimated,rats,False
-3,activity,explain,resistance,False
-4,reversion,excludes,possibility,False
-5,treatment,excludes,possibility,False
-6,streptozotocin,causes,ISO,False
+0,ISO,given,injection,False
+1,ISO,given,insulin,False
+2,ISO,given,fibrosis,False
+3,ISO,given,myocardium,False
+4,ISO,given,fall,False
+5,ISO,given,blood glucose,False
+6,ISO,given,insulin treatment,False
+7,ISO,given,injection,False
+8,ISO,given,insulin,False
+9,ISO,given,fibrosis,False
+10,ISO,given,myocardium,False
+11,ISO,given,fall,False
+12,ISO,given,blood glucose,False
+13,ISO,given,insulin treatment,False
+14,correlation,given,injection,False
+15,correlation,given,insulin,False
+16,correlation,given,fibrosis,False
+17,correlation,given,myocardium,False
+18,correlation,given,fall,False
+19,correlation,given,blood glucose,False
+20,correlation,given,insulin treatment,False
+21,ISO,induced,fibrosis,False
+22,ISO,induced,myocardium,False
+23,correlation,appeared,fall,False
+24,correlation,appeared,blood glucose,False
+25,correlation,appeared,insulin treatment,False
+26,content,estimated,catecholamines,False
+27,content,estimated,day,False
+28,sympathetic nervous system activity,explain,down regulation,False
+29,sympathetic nervous system activity,explain,myocardial beta-adrenergic receptors,False
+30,sympathetic nervous system activity,explain,catecholamine resistance,False
+31,reversion,excludes,insulin treatment,False
+32,reversion,excludes,ISO,False
+33,reversion,excludes,insulin effect,False
+34,reversion,excludes,catecholamine,False
+35,reversion,excludes,rats,False
+36,streptozotocin,excludes,insulin treatment,False
+37,streptozotocin,excludes,ISO,False
+38,streptozotocin,excludes,insulin effect,False
+39,streptozotocin,excludes,catecholamine,False
+40,streptozotocin,excludes,rats,False
+41,streptozotocin,causes,ISO,False
+42,streptozotocin,causes,insulin effect,False
+43,streptozotocin,causes,catecholamine,False
+44,streptozotocin,causes,rats,False
+45,phenomenon,elucidate,pathogenetic mechanisms,False
+46,phenomenon,elucidate,myocardial cell degeneration,False
+47,phenomenon,elucidate,patients,False

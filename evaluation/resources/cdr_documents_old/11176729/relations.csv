@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,inhibitors,reduces,mortality,False
+1,inhibitors,reduces,morbidity,False
+2,patients,receiving,agents,True
+3,doses,be,trials,False
+4,doses,be,trials,False
+5,study,examines,safety,False
+6,study,examines,tolerability,False

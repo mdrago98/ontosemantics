@@ -1,25 +1,33 @@
 ,Subject,Action,Object,Negation
-0,lovastatin,is,combination,False
-1,product,approved,treatment,False
-2,safety,dosed,therapy,False
-3,safety,dosed,patient,False
-4,dyslipidemia,requiring,drug,False
-5,total,enrolled,sites,False
-6,Patients,treated,tablet,False
-7,Patients,treated,weeks,False
-8,Patients,received,counseling,False
-9,that,provided,education,False
-10,points,were,study,False
-11,status,was,patients,False
-12,Compliance,was,%,False
-13,Compliance,was,patients,False
-14,patients,completing,study,False
-15,Patients,had,compliance,False
-16,Patients,had,event,False
-17,Flushing,was,event,False
-18,event,leading,%,False
-19,alanine aminotransferase,was,%,False
-20,increase,occurred,%,False
-21,mg,dosed,therapy,False
-22,mg,associated,compliance,False
-23,mg,associated,safety,False
+0,multicenter study,evaluated,safety,False
+1,multicenter study,evaluated,bedtime,False
+2,multicenter study,evaluated,therapy,False
+3,multicenter study,evaluated,treatment,False
+4,multicenter study,evaluated,clinical practice settings,False
+5,extended-release/lovastatin,evaluated,safety,False
+6,extended-release/lovastatin,evaluated,bedtime,False
+7,extended-release/lovastatin,evaluated,therapy,False
+8,extended-release/lovastatin,evaluated,treatment,False
+9,extended-release/lovastatin,evaluated,clinical practice settings,False
+10,Patients,treated with,1 tablet,False
+11,Patients,treated with,lovastatin,False
+12,Patients,treated with,weeks,False
+13,Patients,treated with,weeks,False
+14,Patients,received,dietary counseling,False
+15,Patients,received,education,False
+16,Patients,received,dyslipidemia,False
+17,patients,completing,study,False
+18,Patients,had,southeast,False
+19,Patients,had,endocrinologists,False
+20,Patients,had,compliance,False
+21,Flushing,was,adverse event,False
+22,Flushing,was,patients,False
+23,Flushing,was,discontinuation,False
+24,Incidence,was,aspartate aminotransferase,False
+25,upper limit of,was,aspartate aminotransferase,False
+26,increase,occurred,creatine phosphokinase,False
+27,increase,occurred,patients,False
+28,increase,occurred,drug-induced myopathy,False
+29,upper limit,occurred,creatine phosphokinase,False
+30,upper limit,occurred,patients,False
+31,upper limit,occurred,drug-induced myopathy,False

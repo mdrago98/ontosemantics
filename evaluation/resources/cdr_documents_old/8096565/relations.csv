@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,tightness,reported,%,False
+1,We,describe,woman,False
+2,We,describe,acute myocardial infarction,False
+3,We,describe,cluster headache,False
+4,patient,had,history,True
+5,The patient,recovered,complications,False

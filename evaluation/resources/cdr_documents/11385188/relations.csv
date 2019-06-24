@@ -1,8 +1,20 @@
 ,Subject,Action,Object,Negation
-0,Findings,detected,patients,False
-1,Findings,detected,controls,False
-2,left,demonstrated,patients,False
-3,filling,detected,%,False
-4,coronary artery,is,cocaine,False
-5,ECG,warranted,patients,False
-6,echocardiography,warranted,patients,False
+0,users,determine,prevalence,False
+1,users,determine,heart disease,False
+2,users,determine,cocaine,False
+3,users,determine,resting,False
+4,Doppler echocardiography,determine,prevalence,False
+5,Doppler echocardiography,determine,heart disease,False
+6,Doppler echocardiography,determine,cocaine,False
+7,Doppler echocardiography,determine,resting,False
+8,users,underwent,resting,False
+9,Doppler echocardiography,underwent,resting,False
+10,Doppler echocardiography,resting,resting,False
+11,Findings,detected,coronary artery disease,False
+12,Findings,detected,patients,False
+13,Decreased left ventricular systolic function,demonstrated,patients,True
+14,Decreased left ventricular systolic function,demonstrated,controls,True
+15,left ventricular filling,detected,patients,False
+16,left ventricular filling,detected,controls,False
+17,coronary artery,conclude,cocaine,False
+18,ECG,warranted,patients,False

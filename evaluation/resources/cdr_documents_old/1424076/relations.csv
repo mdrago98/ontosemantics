@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,woman,treated,infusion,False
+1,A 77-year-old woman with refractory multiple myeloma,presented,lethargy,False
+2,A 77-year-old woman with refractory multiple myeloma,presented,weakness,False
+3,lethargy,associated,hyponatremia,False
+4,Evaluation,revealed,syndrome of inappropriate secretion of antidiuretic hormone,False

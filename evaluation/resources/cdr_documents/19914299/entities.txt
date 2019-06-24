@@ -1,41 +1,90 @@
 Cancer
-adjuvant
+patients
+treated with
+systemic adjuvant chemotherapy
+deteriorations
 cognition
+chemotherapeutic agent
 5-fluorouracil
 5-FU
+crosses
 blood-brain barrier
 brain function
+anti mitotic drug
+reduce
 cell proliferation
+neurogenic regions
+adult
 brain
 hippocampal
+dependent
 neurogenesis
 cognition
+enhanced
 SSRI
 antidepressant
 Fluoxetine
+investigation
+behavioural
+effects of
+chronic
+treatment
 5-FU
+weeks
 Fluoxetine
+combination
 5-FU
-rats
-conditioned emotional response test
+tested
+adult
+Lister hooded rats
+Behavioural effects
+emotional response test
 CER
+animals
+treated with
 5-FU
+reduction
+freezing time
+controls
+group
+animals
 hippocampal
-working memory
+spatial working memory test
+object location recognition test
+OLR
+Animals
+treated
 5-FU
+deficits
+OLR
+task
+co administration
 Fluoxetine
-5-FU
-cells
-granular
+improved
+performance
+5-FU chemotherapy
+reduction
+proliferating cells
+sub granular zone
 dentate gyrus
+compared
+controls
+reduction
 Fluoxetine
+co administered
 5-FU
 Fluoxetine
-cell
+proliferating cell number
 behaviour
+findings
 5-FU
+negatively
 cell proliferation
 hippocampal
+dependent
 working memory
+deficits
+simultaneous
+administration
 antidepressant
 Fluoxetine

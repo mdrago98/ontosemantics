@@ -1,12 +1,21 @@
 ,Subject,Action,Object,Negation
 0,boy,given,halothane,False
-1,which,lasted,minutes,False
-2,An 11-year-old boy,suffered,myalgia,False
-3,myalgia,lasting,week,False
-4,An 11-year-old boy,have,plasma cholinesterase,False
-5,rigidity,occur,suxamethonium,False
-6,rigidity,occur,patients,False
-7,rigidity,occur,pretreatment,False
-8,myalgia,occur,suxamethonium,False
-9,myalgia,occur,patients,False
-10,myalgia,occur,pretreatment,False
+1,boy,given,induction,False
+2,boy,given,anaesthesia,False
+3,anaesthesia,occurred,minutes,False
+4,anaesthesia,lasted,minutes,False
+5,case,shows,suxamethonium,False
+6,case,shows,patients,False
+7,case,shows,cholinesterase,False
+8,case,shows,pretreatment,False
+9,case,shows,pancuronium,False
+10,jaw rigidity,shows,suxamethonium,False
+11,jaw rigidity,shows,patients,False
+12,jaw rigidity,shows,cholinesterase,False
+13,jaw rigidity,shows,pretreatment,False
+14,jaw rigidity,shows,pancuronium,False
+15,jaw rigidity,occur,suxamethonium,False
+16,jaw rigidity,occur,patients,False
+17,jaw rigidity,occur,cholinesterase,False
+18,jaw rigidity,occur,pretreatment,False
+19,jaw rigidity,occur,pancuronium,False

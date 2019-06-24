@@ -1,4 +1,9 @@
 ,Subject,Action,Object,Negation
-0,exposure,interfere,lipid metabolism,False
-1,studies,revealed,role,False
-2,aim,evaluate,changes,False
+0,exposure to,shown,diazinon,False
+1,exposure to,shown,lipid metabolism,False
+2,exposure to,interfere,diazinon,False
+3,exposure to,interfere,lipid metabolism,False
+4,effect,established,crocin,False
+5,studies,revealed,low-density lipoprotein receptor,False
+6,effect,studied,crocin,False
+7,effect,studied,cholesterol homeostasis,False

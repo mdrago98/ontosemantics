@@ -1,8 +1,2 @@
 ,Subject,Action,Object,Negation
-0,Chest pain,poses,dilemma,False
-1,echocardiography,is,test,False
-2,test,evaluating,cardiac ischemia,False
-3,concern,regarding,administration,False
-4,we,conducted,pilot,False
-5,study,assess,safety,False
-6,study,assess,chest pain,False
+0,Chest pain,poses,diagnostic dilemma,False

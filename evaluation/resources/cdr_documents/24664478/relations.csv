@@ -1,16 +1,25 @@
 ,Subject,Action,Object,Negation
-0,who,received,chemotherapy,False
-1,woman,admitted,relapsed disease,False
-2,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,treated,induction,False
-3,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,developed,relapsed disease,False
-4,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,developed,involvement,False
-5,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,was,replacement,False
-6,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,tolerated,therapy,False
-7,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,received,cycle,False
-8,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,received,IT,False
-9,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,noted,lower extremities,False
-10,peripheral neuropathy,started,feet,False
-11,imaging,demonstrated,changes,False
-12,Nelarabine,be,cause,False
-13,Nelarabine,treated,care,False
-14,who,received,IT,False
+0,neurotoxicity,reported,patient,False
+1,woman,admitted,history of,False
+2,woman,admitted,T-cell lymphoblastic lymphoma,False
+3,woman,admitted,relapsed disease,False
+4,prophylaxis,re-induced,nelarabine,False
+5,prophylaxis,re-induced,days,False
+6,prophylaxis,re-induced,dose,False
+7,prophylaxis,re-induced,day,False
+8,prophylaxis,re-induced,central nervous system,False
+9,peripheral neuropathy,started,feet,False
+10,peripheral neuropathy,started,mid-thoracic region,False
+11,peripheral neuropathy,started,distal upper extremities,False
+12,magnetic resonance imaging,demonstrated,spine,False
+13,magnetic resonance imaging,demonstrated,changes,False
+14,magnetic resonance imaging,demonstrated,C2 to,False
+15,magnetic resonance imaging,demonstrated,subacute combined degeneration,False
+16,Nelarabine,felt,symptoms,False
+17,neuropathy,stabilized,improvement,False
+18,neuropathy,stabilized,allogeneic transplant,False
+19,reduced-intensity,stabilized,improvement,False
+20,reduced-intensity,stabilized,allogeneic transplant,False
+21,reduced-intensity,showed,improvement,False
+22,reduced-intensity,showed,allogeneic transplant,False
+23,reduced-intensity,received,allogeneic transplant,False

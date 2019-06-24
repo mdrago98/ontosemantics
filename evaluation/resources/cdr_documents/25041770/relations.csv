@@ -1,10 +1,12 @@
 ,Subject,Action,Object,Negation
-0,Clarithromycin,is,inhibitor,False
-1,case,is,interest,False
-2,developed,raised,biomarkers,False
-3,developed,raised,issues,False
-4,there,been,effect,True
-5,that,increase,risk,False
-6,medications,inhibit,CYP3A4 enzyme,False
-7,elevation,associated,rhabdomyolysis,False
-8,which,warrant,studies,False
+0,patient,developed,cardiac biomarkers,False
+1,patient,developed,cardiac issues,False
+2,patient,developed,rhabdomyolysis,False
+3,Clinicians,need,medications,False
+4,Clinicians,need,risk,False
+5,Clinicians,need,myopathy,False
+6,Clinicians,need,CYP3A4,False
+7,elevation,suggests,rhabdomyolysis,False
+8,elevation,suggests,studies,False
+9,elevation,associated with,rhabdomyolysis,False
+10,elevation,associated with,studies,False

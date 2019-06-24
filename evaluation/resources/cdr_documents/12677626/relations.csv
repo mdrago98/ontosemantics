@@ -1,5 +1,7 @@
 ,Subject,Action,Object,Negation
-0,Central nervous system,following,administration,False
-1,Central nervous system,is,complication,False
-2,toxicity,is,complication,False
-3,We,describe,cases,False
+0,Levobupivacaine,developed,bupivacaine,False
+1,Levobupivacaine,developed,cardiac safety profile,False
+2,Levobupivacaine,developed,bupivacaine,False
+3,enantiomer,developed,bupivacaine,False
+4,enantiomer,developed,cardiac safety profile,False
+5,enantiomer,developed,bupivacaine,False

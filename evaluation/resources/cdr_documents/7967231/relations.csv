@@ -1,6 +1,32 @@
 ,Subject,Action,Object,Negation
-0,S-312-d,showed,effects,False
-1,values,were,18.4,False
-2,effects,observed,clonic convulsions,False
-3,effects,observed,convulsions,False
-4,S-312-d,be,therapy,False
+0,S-312,showed,anticonvulsant effects,False
+1,S-312,showed,DBA/2 mice,False
+2,S-312,showed,flunarizine,False
+3,ED50 values,showed,anticonvulsant effects,False
+4,ED50 values,showed,DBA/2 mice,False
+5,ED50 values,showed,flunarizine,False
+6,anticonvulsant effects,observed,S-312-d,False
+7,anticonvulsant effects,observed,doses,False
+8,anticonvulsant effects,observed,clonic convulsions,False
+9,anticonvulsant effects,observed,pentylenetetrazole,False
+10,anticonvulsant effects,observed,S-312-d,False
+11,anticonvulsant effects,observed,doses,False
+12,anticonvulsant effects,observed,clonic convulsions,False
+13,anticonvulsant effects,observed,pentylenetetrazole,False
+14,anticonvulsant effects,observed,convulsions,False
+15,anticonvulsant effects,observed,N-methyl-D-aspartate,False
+16,anticonvulsant effects,observed,Slc,False
+17,no effects,observed,S-312-d,False
+18,no effects,observed,doses,False
+19,no effects,observed,clonic convulsions,False
+20,no effects,observed,pentylenetetrazole,False
+21,no effects,observed,convulsions,False
+22,no effects,observed,N-methyl-D-aspartate,False
+23,no effects,observed,Slc,False
+24,ddY mice,observed,S-312-d,False
+25,ddY mice,observed,doses,False
+26,ddY mice,observed,clonic convulsions,False
+27,ddY mice,observed,pentylenetetrazole,False
+28,ddY mice,observed,convulsions,False
+29,ddY mice,observed,N-methyl-D-aspartate,False
+30,ddY mice,observed,Slc,False

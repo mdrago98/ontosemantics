@@ -1,12 +1,82 @@
 Lenalidomide
 dexamethasone
-multiple myeloma
+RD
+standard of care
+relapsed/refractory
+RRMM
+published data
+efficacy
+safety
+real world
+RW
+International Society of Pharmacoeconomics
+Outcomes Research
+RRMM
+patients
+RD
+RW
+Objective response
+partial response
+rate
+complete response
+CR
+Median time
+response
+months
+Median time
+CR
+RD
+treatment
+months
+Quality of response
+therapies
+exposure to
 thalidomide
 bortezomib
+response
+months
+higher
+patients
+RD
+progression
+months
+Improvement
 humoral immunity
+responders
+patients
+stable disease
+Adverse events
+patients
 myelosuppression
+patients
+hospitalization
 Peripheral neuropathy
+patients
 deep vein thrombosis
+Dose reductions
+patients
+permanent discontinuation
+Median time
+treatment discontinuation
+months
+Performance status
+PS
 lenalidomide
-medullary
+dose
+predicted
+treatment discontinuation
+Extra-medullary relapses
+patients
+study
+RD
+effective
+RRMM
+RW
+durable responses
+patients
+treatment
+progression
+improves
 humoral immunity
+patients
+stable disease

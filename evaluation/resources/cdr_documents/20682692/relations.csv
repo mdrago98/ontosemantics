@@ -1,4 +1,53 @@
 ,Subject,Action,Object,Negation
-0,blockade,retard,progression,True
-1,EndoMT,contributes,mice,False
-2,blocking,reduces,development,False
+0,multicenter,showed,renin-angiotensin system,False
+1,multicenter,showed,patients,False
+2,multicenter,showed,type 1 diabetes,False
+3,multicenter,showed,progression,False
+4,multicenter,showed,nephropathy,False
+5,multicenter,showed,pathogenesis,False
+6,blockade,showed,renin-angiotensin system,False
+7,blockade,showed,patients,False
+8,blockade,showed,type 1 diabetes,False
+9,blockade,showed,progression,False
+10,blockade,showed,nephropathy,False
+11,blockade,showed,pathogenesis,False
+12,mechanism(s),showed,renin-angiotensin system,False
+13,mechanism(s),showed,patients,False
+14,mechanism(s),showed,type 1 diabetes,False
+15,mechanism(s),showed,progression,False
+16,mechanism(s),showed,nephropathy,False
+17,mechanism(s),showed,pathogenesis,False
+18,blockade,retard,renin-angiotensin system,True
+19,blockade,retard,patients,True
+20,blockade,retard,type 1 diabetes,True
+21,blockade,retard,progression,True
+22,blockade,retard,nephropathy,True
+23,blockade,retard,pathogenesis,True
+24,mechanism(s),retard,renin-angiotensin system,True
+25,mechanism(s),retard,patients,True
+26,mechanism(s),retard,type 1 diabetes,True
+27,mechanism(s),retard,progression,True
+28,mechanism(s),retard,nephropathy,True
+29,mechanism(s),retard,pathogenesis,True
+30,mechanism(s),suggesting,pathogenesis,False
+31,mechanism(s),involved,pathogenesis,False
+32,endothelial-mesenchymal-transition,demonstrated,development,False
+33,endothelial-mesenchymal-transition,demonstrated,renal interstitial fibrosis,False
+34,endothelial-mesenchymal-transition,demonstrated,microalbuminuria,False
+35,endothelial-mesenchymal-transition,demonstrated,mice,False
+36,endothelial-mesenchymal-transition,demonstrated,streptozotocin,False
+37,diabetes,demonstrated,development,False
+38,diabetes,demonstrated,renal interstitial fibrosis,False
+39,diabetes,demonstrated,microalbuminuria,False
+40,diabetes,demonstrated,mice,False
+41,diabetes,demonstrated,streptozotocin,False
+42,endothelial-mesenchymal-transition,contributes,development,False
+43,endothelial-mesenchymal-transition,contributes,renal interstitial fibrosis,False
+44,endothelial-mesenchymal-transition,contributes,microalbuminuria,False
+45,endothelial-mesenchymal-transition,contributes,mice,False
+46,endothelial-mesenchymal-transition,contributes,streptozotocin,False
+47,diabetes,contributes,development,False
+48,diabetes,contributes,renal interstitial fibrosis,False
+49,diabetes,contributes,microalbuminuria,False
+50,diabetes,contributes,mice,False
+51,diabetes,contributes,streptozotocin,False

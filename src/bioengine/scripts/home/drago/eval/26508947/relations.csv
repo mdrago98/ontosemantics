@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,Magnetic resonance imaging,failed,hypothalamic-pituitary system,False
+1,Magnetic resonance imaging,failed,posterior pituitary,False
+2,Magnetic resonance imaging,failed,patients,False
+3,Magnetic resonance imaging,failed,central diabetes insipidus,False
+4,condition,confirmed,water deprivation test,False
+5,condition,confirmed,type 2 diabetes mellitus,False
+6,patient,confirmed,water deprivation test,False
+7,patient,confirmed,type 2 diabetes mellitus,False
+8,patient,found,type 2 diabetes mellitus,False
+9,Computed tomographic scanning,revealed,lungs,False
+10,Computed tomographic scanning,revealed,costophrenic angles,False
+11,Lung biopsy,revealed,video-assisted thoracoscopic surgery,False
+12,Lung biopsy,revealed,pulmonary Langerhans cell histiocytosis,False
+13,year,had,quit smoking,False
+14,patient,had,quit smoking,False

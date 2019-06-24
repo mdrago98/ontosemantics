@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,effects,studied,group,False
+1,luteinizing hormone,studied,group,False
+2,patients,received,infusions,False
+3,hyperprolactinemia,found,response,False

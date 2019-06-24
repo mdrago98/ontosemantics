@@ -1,13 +1,27 @@
+multiparous
 woman
-psychological
+psychological health
+caesarean section
 labour
-patient
-analgesia
+Postoperatively
+patient-controlled analgesia device
+boluses
 diamorphine
 droperidol
-droperidol
+device
+anxious
+worsening
+bolus
+diagnosis
 psychological disturbance
+questioning
 patient
+history
 droperidol
+syringe
 diamorphine
-antiemetics
+unease
+dramatic
+extrapyramidal side effects
+dopaminergic antiemetics
+manifestations

@@ -1,20 +1,52 @@
 ,Subject,Action,Object,Negation
-0,Argatroban,is,thrombin inhibitor,False
-1,thrombin inhibitor,used,prophylaxis,False
-2,HIT,undergoing,intervention,False
-3,objective,summarize,considerations,False
-4,dose,is,min,False
-5,min,reduced,patients,False
-6,doses,needed,patients,False
-7,conditions,associated,hypoperfusion,False
-8,min,supports,aPTTs,False
-9,dose,is,min,False
-10,argatroban,investigated,patients,True
-11,Argatroban,prolongs,International,False
-12,approaches,monitoring,transition,False
-13,Major,is,%,False
-14,Major,is,%,False
-15,Argatroban,has,antidote,True
-16,familiarity,including,populations,False
-17,familiarity,facilitate,reduction,False
-18,harm,associated,thromboses,False
+0,reduced,reduced,patients,False
+1,reduced,reduced,hepatic impairment,False
+2,dose,adjusted,HIT,False
+3,dose,adjusted,patients,False
+4,dose,adjusted,hepatic impairment,False
+5,dose,adjusted,baseline,False
+6,reduced,adjusted,HIT,False
+7,reduced,adjusted,patients,False
+8,reduced,adjusted,hepatic impairment,False
+9,reduced,adjusted,baseline,False
+10,Contemporary experiences,indicate,patients,False
+11,Contemporary experiences,indicate,conditions,False
+12,Contemporary experiences,indicate,hepatic hypoperfusion,False
+13,Contemporary experiences,indicate,heart failure,False
+14,Contemporary experiences,indicate,renal dysfunction,False
+15,doses,indicate,patients,False
+16,doses,indicate,conditions,False
+17,doses,indicate,hepatic hypoperfusion,False
+18,doses,indicate,heart failure,False
+19,doses,indicate,renal dysfunction,False
+20,doses,needed,patients,False
+21,doses,needed,conditions,False
+22,doses,needed,hepatic hypoperfusion,False
+23,doses,needed,heart failure,False
+24,doses,needed,renal dysfunction,False
+25,argatroban,investigated,PCI,True
+26,argatroban,investigated,PCI,True
+27,argatroban,investigated,patients,True
+28,argatroban,investigated,age,True
+29,argatroban,investigated,glycoprotein IIb/IIIa,True
+30,lesser doses,investigated,PCI,True
+31,lesser doses,investigated,PCI,True
+32,lesser doses,investigated,patients,True
+33,lesser doses,investigated,age,True
+34,lesser doses,investigated,glycoprotein IIb/IIIa,True
+35,Argatroban,prolongs,International Normalized Ratio,False
+36,Argatroban,prolongs,argatroban-to-warfarin transition,False
+37,published approaches,prolongs,International Normalized Ratio,False
+38,published approaches,prolongs,argatroban-to-warfarin transition,False
+39,published approaches,published approaches,argatroban-to-warfarin transition,False
+40,published approaches,followed,argatroban-to-warfarin transition,False
+41,bleeding,is,argatroban,False
+42,bleeding,is,non-interventional setting,False
+43,Argatroban,has,antidote,True
+44,anticoagulation,has,antidote,True
+45,infusion,has,antidote,True
+46,familiarity,facilitate,healthcare professionals,False
+47,familiarity,facilitate,argatroban therapy,False
+48,familiarity,facilitate,HIT,False
+49,familiarity,facilitate,reduction,False
+50,familiarity,facilitate,HIT,False

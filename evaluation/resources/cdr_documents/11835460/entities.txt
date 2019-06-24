@@ -1,11 +1,15 @@
-Levodopa
-ocular
-dyskinesias
-limb
-dyskinesias
+Levodopa-induced ocular dyskinesias
+simultaneously
+limb peak-dose choreatic dyskinesias
 patient
+leftward
+deviations
+gaze
+peak effect
 levodopa
+severe
+dopaminergic denervation
 caudate nucleus
-levodopa
-ocular
-dyskinesias
+appearance
+levodopa-induce
+ocular dyskinesias

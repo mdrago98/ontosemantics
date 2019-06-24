@@ -3,15 +3,24 @@ SRC
 complication
 systemic sclerosis
 SSc
-renal
+severe
+temporary
+permanent renal replacement therapy
+high dose
 corticosteroid
+risk factor
 SRC
 thrombotic microangiopathy
+precipitated
 cyclosporine
+patients
 SSc
 patient
 SRC
+induced
 tacrolimus
 corticosteroids
+risk
 tacrolimus
+patients
 SSc

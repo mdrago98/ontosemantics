@@ -1,20 +1,47 @@
 ,Subject,Action,Object,Negation
 0,bupivacaine,precipitate,dysrhythmias,False
-1,epinephrine,precipitate,dysrhythmias,False
-2,circulating,potentiate,effects,False
-3,We,examined,dysrhythmogenicity,False
-4,dogs,received,micrograms.kg-1.min-1,False
-5,animals,responded,ventricular tachycardia,False
-6,animals,responded,min,False
-7,responders,received,kg,False
-8,epinephrine,caused,effects,False
-9,VT,appeared,dogs,False
-10,there,were,beats,False
-11,there,were,ectopies,False
-12,Epinephrine,shortened,QT,False
-13,dogs,received,micrograms.kg-1.min-1,False
-14,bupivacaine,injected,min,False
-15,Bupivacaine,antagonizes,epinephrine,False
-16,Bupivacaine,antagonizes,dogs,False
-17,There,is,evidence,True
-18,administration,enhances,dysrhythmogenicity,False
+1,bupivacaine,potentiate,dysrhythmias,False
+2,bupivacaine,potentiate,regional anesthesia,False
+3,bupivacaine,potentiate,dysrhythmogenic effects,False
+4,bupivacaine,potentiate,epinephrine,False
+5,bupivacaine,potentiate,dysrhythmias,False
+6,bupivacaine,potentiate,regional anesthesia,False
+7,bupivacaine,potentiate,dysrhythmogenic effects,False
+8,bupivacaine,potentiate,epinephrine,False
+9,bupivacaine,examined,dysrhythmogenicity,False
+10,bupivacaine,examined,administration,False
+11,bupivacaine,examined,epinephrine,False
+12,bupivacaine,examined,healthy dogs,False
+13,bupivacaine,examined,myocardial infarction,False
+14,bupivacaine,alters,dysrhythmogenicity,False
+15,bupivacaine,alters,administration,False
+16,bupivacaine,alters,epinephrine,False
+17,bupivacaine,alters,healthy dogs,False
+18,bupivacaine,alters,myocardial infarction,False
+19,conscious dogs,received,epinephrine,False
+20,animals,responded,ventricular tachycardia,False
+21,responders,received,bupivacaine,False
+22,responders,received,epinephrine,False
+23,epinephrine,caused,bupivacaine,False
+24,epinephrine,caused,prodysrhythmic effects,False
+25,epinephrine,caused,bupivacaine,False
+26,VT,appeared,dogs,False
+27,VT,appeared,sinoatrial beats,False
+28,Epinephrine,shortened,QT,False
+29,Epinephrine,shortened,bupivacaine,False
+30,halothane-anesthetized dogs,received,myocardial infarction,False
+31,halothane-anesthetized dogs,received,epinephrine,False
+32,VT,received,myocardial infarction,False
+33,VT,received,epinephrine,False
+34,bupivacaine,injected,epinephrine,False
+35,prodysrhythmic response,mitigated,dogs,False
+36,prodysrhythmic response,mitigated,epinephrine,False
+37,prodysrhythmic response,mitigated,bupivacaine,False
+38,Bupivacaine,antagonizes,epinephrine dysrhythmogenicity,False
+39,Bupivacaine,antagonizes,dogs,False
+40,Bupivacaine,antagonizes,VT,False
+41,Bupivacaine,antagonizes,postinfarct dysrhythmias,False
+42,administration,is,dysrhythmogenicity,False
+43,administration,is,epinephrine,False
+44,administration,enhances,dysrhythmogenicity,False
+45,administration,enhances,epinephrine,False

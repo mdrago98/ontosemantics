@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,PRC,described,frequency,False
+1,authors,report,observations,False
+2,tests,revealed,reactions,False
+3,tests,revealed,patch,False
+4,tests,are,favour,False

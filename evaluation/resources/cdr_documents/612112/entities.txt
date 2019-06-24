@@ -1,14 +1,53 @@
+investigation
+dosage
 etomidate
+maintain
 sleep
-local anesthesia
+adults
+surgery
+regional local anesthesia
+Premedication
 diazepam
 atropine
 sleep
+induced
+intermittent
+intravenous
+injections
 etomidate
 patient
 eyes
+request
+overall dose
 etomidate
+maintain
 sleep
+individual
+variation
+older
+patients
+less drug
+investigation
+discontinued
+patients
+frequency
+intensity
+side-effects
+pain
+myoclonia
+technique
+cases
 etomidate
-muscle
-movements
+hypnotic
+intravenous
+adults
+incidence
+myoclonia
+prolonged
+administration
+patients
+uncontrollable
+muscle movements
+complete
+recovery
+consciousness

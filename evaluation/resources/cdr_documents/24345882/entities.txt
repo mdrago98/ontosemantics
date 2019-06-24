@@ -1,21 +1,77 @@
+Concerns
+long-term
 methotrexate
 MTX
+neurotoxicity
+modifications
 intrathecal
-IT
 leucovorin
+rescue
+frequency
+systemic
 MTX
+administration
 children
 acute lymphoblastic leukemia
+study
+neurocognitive outcomes
+neuroradiologic
+evidence
 leukoencephalopathy
 children
+treated with
+intense
 central nervous system
-CNS
+therapy
+P9605
+CNS-directed
+treatment
+intensive consolidation
+P9201
 children
+Pediatric Oncology Group
 acute lymphoblastic leukemia
+years
+diagnosis
+evidence
 CNS leukemia
+diagnosis
+ACCL0131
+P9201
+P9605
+Magnetic resonance imaging scans
+standard neuropsychological tests
+years
+treatment
+P9605
+patients
 leukoencephalopathy
+compared
+P9201
+patients
+confidence interval
+confidence interval
+identified
+years
+treatment
+patients
+scored
+Verbal
+Performance IQ
 Children
+studies
+attention problems
+P9605
 children
+scored
+neurocognitive measures
+treated
+P9201
+measures
+measures
+concerns
+intensive
 MTX
+exposure
 CNS
 late effects

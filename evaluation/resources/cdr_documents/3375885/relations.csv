@@ -1,4 +1,14 @@
 ,Subject,Action,Object,Negation
-0,We,described,patient,False
-1,We,described,history,False
-2,renal disease,predisposed,patient,False
+0,hyperkalemia,described,patient,False
+1,hyperkalemia,described,rheumatoid arthritis,False
+2,hyperkalemia,described,mefenamic acid nephropathy,False
+3,hyperkalemia,described,indomethacin,False
+4,hyperkalemia,described,decline,False
+5,hyperkalemia,described,renal function,False
+6,hyperkalemia,caused,indomethacin,False
+7,renal disease,predisposed,patient,False
+8,renal disease,predisposed,type IV renal,False
+9,renal disease,predisposed,prostaglandin synthetase inhibitors,False
+10,fludrocortisone,added,nonsteroidal anti-inflammatory drug therapy,False
+11,fludrocortisone,added,hyperkalemia,False
+12,fludrocortisone,added,indomethacin therapy,False

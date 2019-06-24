@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,study,investigated,visual defects,False
+1,visual defects,associated,drug,False
+2,people,grouped,basis,False
+3,Groups,matched,respect,False
+4,patients,underwent,assessment,False
+5,constriction,observed,%,False
+6,patients,taking,VGB,False
+7,patients,taking,%,False
+8,who,took,VGB,False
+9,Assessment,revealed,responses,False
+10,Assessment,revealed,%,False
+11,abnormalities,are,population,False
+12,Assessment,identify,retinal toxicity,False
+13,retinal toxicity,associated,VGB,False

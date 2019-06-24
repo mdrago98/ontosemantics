@@ -1,25 +1,45 @@
+case
 acute renal failure
 occlusion
 renal vessels
 patient
 acute promyelocytic leukemia
 APL
+treated with
 all-trans-retinoic acid
 ATRA
 tranexamic acid
 acute renal failure
 APL
 patient
+treated
 ATRA
+thromboembolic
+complications
+associated with
 ATRA
 APL
+patients
+patients
 man
-signs and symptoms
+signs
+symptoms
 APL
+treatment protocol
 ATRA
+days
+treatment
 acute renal failure
+reversible
 remission
 APL
+therapy
+discontinued
 ATRA
+therapeutic choice
+patients
 APL
+procoagulant
+Thrombotic events
+low-dose
 heparin

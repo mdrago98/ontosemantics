@@ -1,25 +1,32 @@
+female
 neuroleptic malignant syndrome
 methylphenidate
-supratentorial brain
+defects
+supratentorial
 basal ganglia
 striatum
 multicystic encephalomalacia
+severe
+perinatal
 hypoxic-ischemic encephalopathy
+predisposing factor
 neuroleptic malignant syndrome
+dopaminergic blockade
+mechanism
 pathogenesis
 syndrome
 methylphenidate
 dopamine agonist
 inhibition
 dopamine
+dopaminergic systems
 brainstem
 midbrain
 spinal cord
 syndrome
-gamma-aminobutyric acid
-ergic
+gamma-aminobutyric acid-ergic deficiency
 diazepam
-gamma-aminobutyric acid
+gamma-aminobutyric acid-mimetic agent
 patient
 neuroleptic malignant syndrome
 methylphenidate

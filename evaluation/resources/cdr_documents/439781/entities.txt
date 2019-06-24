@@ -1,16 +1,31 @@
-oral
+dose
 indomethacin
 IDM
+sodium
+volume
+depleted
 rats
 plasma
 renin activity
-blood pressure
+PRA
+systolic blood pressure
+sodium
+repleted
+animals
 indomethacin
-blood pressure
+systolic blood pressure
 BP
-plasma renin activity
+plasma
+renin activity
+decreased
 indomethacin
 inhibition
-prostaglandin synthesis
+prostaglandin
+synthesis
 blood pressure
+effect
+stimulated
 renin-angiotensin system
+sodium
+volume
+depletion

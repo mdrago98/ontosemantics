@@ -1,38 +1,64 @@
 Cardiovascular diseases
 CVDs
-Solidago virgaurea
+health problem
+advanced
+developing countries
+world
+study
+investigate
+protective effect
+Solidago virgaurea extract
+isoproterenol-induced cardiotoxicity
+rats
+subcutaneous
+injection
 isoproterenol
 rats
-isoproterenol
-rats
-serum
-lactate dehydrogenase
+interval
+consecutive
+days
+increase
+serum lactate dehydrogenase
 creatine phosphokinase
 alanine transaminase
 aspartate transaminase
-angiotensin-converting enzyme
-cholesterol
+angiotensin-converting enzyme activities
+total cholesterol
 triglycerides
-serum
-fatty acid
-cardiac
-tissue
-malondialdehyde
+free serum fatty acid
+cardiac tissue malondialdehyde
 MDA
 nitric oxide
-glutathione and superoxide dismutase
-cardiac
-tissue
+decrease
+levels
+glutathione
+superoxide dismutase
+cardiac tissue
+normal control group
+Pretreatment
 S. virgaurea
+weeks
+dose
 isoproterenol
+injection
+alterations
 Captopril
 orally
 inhibitor
 angiotensin-converting enzyme
+cardioprotective drug
+positive control
+study
+data
+study
 S. virgaurea
-exerts
+protective effect
+decreasing
 MDA
-antioxidant
-isoproterenol
-rats
+level
+increasing
+antioxidant status
+isoproterenol-treated rats
+study
 S. virgaurea
+cardioprotective agent

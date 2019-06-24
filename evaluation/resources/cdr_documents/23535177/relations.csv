@@ -1,10 +1,57 @@
 ,Subject,Action,Object,Negation
-0,We,reported,subjects,False
-1,stimulation,enhanced,sensorimotor,False
-2,component,involved,induction,False
-3,function,involved,resurgence,False
-4,we,conducted,study,False
-5,study,looking,changes,False
-6,study,looking,sessions,False
-7,stimulation,had,effect,False
-8,signals,reaching,it,False
+0,cerebellar stimulation,reported,healthy subjects,False
+1,cerebellar stimulation,reported,sensorimotor plasticity,False
+2,cerebellar stimulation,reported,M1,False
+3,cerebellar stimulation,reported,paired associative stimulation,False
+4,cerebellar stimulation,enhanced,sensorimotor plasticity,False
+5,cerebellar stimulation,enhanced,M1,False
+6,cerebellar stimulation,enhanced,paired associative stimulation,False
+7,study,demonstrates,patients,False
+8,study,demonstrates,LIDs,False
+9,study,demonstrates,cerebellar stimulation,True
+10,plasticity,demonstrates,patients,False
+11,plasticity,demonstrates,LIDs,False
+12,plasticity,demonstrates,cerebellar stimulation,True
+13,plasticity,reinstated,patients,False
+14,plasticity,reinstated,LIDs,False
+15,plasticity,reinstated,cerebellar stimulation,True
+16,sensory component,involved,induction,False
+17,sensory component,involved,plasticity,False
+18,cerebellar sensory processing function,indicating,resurgence,False
+19,cerebellar sensory processing function,indicating,M1 plasticity,False
+20,cerebellar sensory processing function,involved,resurgence,False
+21,cerebellar sensory processing function,involved,M1 plasticity,False
+22,benefit,explore,restoration,False
+23,benefit,explore,sensorimotor plasticity,False
+24,benefit,explore,M1,False
+25,benefit,linked,restoration,False
+26,benefit,linked,sensorimotor plasticity,False
+27,benefit,linked,M1,False
+28,benefit,conducted,restoration,False
+29,benefit,conducted,sensorimotor plasticity,False
+30,benefit,conducted,M1,False
+31,benefit,conducted,study,False
+32,benefit,conducted,changes,False
+33,benefit,conducted,LIDs,False
+34,benefit,conducted,sessions,False
+35,inhibitory,conducted,restoration,False
+36,inhibitory,conducted,sensorimotor plasticity,False
+37,inhibitory,conducted,M1,False
+38,inhibitory,conducted,study,False
+39,inhibitory,conducted,changes,False
+40,inhibitory,conducted,LIDs,False
+41,inhibitory,conducted,sessions,False
+42,inhibitory,looking,changes,False
+43,inhibitory,looking,LIDs,False
+44,inhibitory,looking,sessions,False
+45,stimulation,had,resurgence,False
+46,stimulation,had,sensorimotor plasticity,False
+47,stimulation,had,M1,False
+48,results,suggest,cerebellar sensory processing function,False
+49,results,suggest,signals,False
+50,results,suggest,M1,False
+51,results,suggest,involuntary movements,False
+52,alterations,suggest,cerebellar sensory processing function,False
+53,alterations,suggest,signals,False
+54,alterations,suggest,M1,False
+55,alterations,suggest,involuntary movements,False

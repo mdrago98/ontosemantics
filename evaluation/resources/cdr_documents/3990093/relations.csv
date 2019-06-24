@@ -1,14 +1,53 @@
 ,Subject,Action,Object,Negation
-0,relationship,studied,puromycin aminonucleoside,False
-1,Wistar rats,received,PAN,False
-2,controls,received,saline,False
-3,hr,given,colloidal,False
-4,rats,given,colloidal,False
-5,glomerular sclerosis,found,7.6,False
-6,Glomeruli,contained,CC,False
-7,Glomeruli,contained,CC,False
-8,Glomeruli,contained,kidneys,False
-9,CC,localized,areas,False
-10,clearance,change,PAN,True
-11,localization,caused,injection,False
-12,analysis,showed,distribution,False
+0,relationship,studied,mesangial dysfunction,False
+1,relationship,studied,glomerular sclerosis,False
+2,Wistar rats,received,PAN,False
+3,Wistar rats,received,saline,False
+4,controls,received,PAN,False
+5,controls,received,saline,False
+6,controls,received,saline,False
+7,rats,given,colloidal carbon,False
+8,Glomeruli,contained,PAN,False
+9,Glomeruli,contained,CC,False
+10,Glomeruli,contained,glomeruli,False
+11,Glomeruli,contained,controls,False
+12,Glomeruli,contained,sclerosis,False
+13,Glomeruli,contained,CC,False
+14,Glomeruli,contained,non-sclerotic glomeruli,False
+15,Glomeruli,contained,kidneys,False
+16,clearance,change,mesangium,True
+17,clearance,change,PAN,True
+18,clearance,conclude,mesangium,False
+19,clearance,conclude,PAN,False
+20,clearance,conclude,lesions,False
+21,clearance,conclude,CC,False
+22,clearance,conclude,injection,False
+23,clearance,conclude,vulnerable areas,False
+24,localization,conclude,mesangium,False
+25,localization,conclude,PAN,False
+26,localization,conclude,lesions,False
+27,localization,conclude,CC,False
+28,localization,conclude,injection,False
+29,localization,conclude,vulnerable areas,False
+30,sclerosis,conclude,mesangium,False
+31,sclerosis,conclude,PAN,False
+32,sclerosis,conclude,lesions,False
+33,sclerosis,conclude,CC,False
+34,sclerosis,conclude,injection,False
+35,sclerosis,conclude,vulnerable areas,False
+36,localization,caused,lesions,False
+37,localization,caused,CC,False
+38,localization,caused,injection,False
+39,localization,caused,vulnerable areas,False
+40,sclerosis,caused,lesions,False
+41,sclerosis,caused,CC,False
+42,sclerosis,caused,injection,False
+43,sclerosis,caused,vulnerable areas,False
+44,Cluster analysis,showed,distribution,False
+45,Cluster analysis,showed,lesions,False
+46,Cluster analysis,showed,PAN,False
+47,Cluster analysis,showed,concordance,False
+48,Cluster analysis,showed,localization,False
+49,Cluster analysis,showed,mesangial areas,False
+50,Cluster analysis,showed,dysfunction,False
+51,Cluster analysis,showed,model,False

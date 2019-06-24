@@ -1,9 +1,35 @@
+patients
+month
+years
 epilepsy
 infantile spasms
+treated with
 clonazepam
+Disappearance
 seizures
+normalization
+abnormal
+EEG
+disappearance
 seizures
 Seizures
+patients
 generalized seizures
-partial seizures
+partial
+seizures
+Improvement
+abnormal
+EEG
+diffuse
+paroxysms
+focal paroxysms
+cases
+effective
+dosages
+infants
+schoolchildren
+statistically significant
+incidence
+side effects
+drowsiness
 ataxia

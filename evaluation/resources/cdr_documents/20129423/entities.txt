@@ -1,21 +1,36 @@
+severe
+adverse reactions
 carbamazepine
+haemopoietic system
 liver
 cardiovascular system
+fatal
 side effect
 carbamazepine
+necrotizing eosinophilic
 hypersensitivity
-myocarditis
-hypersensitivity
-myocarditis
+hypersensitivity myocarditis
+secondary to
+administration
 carbamazepine
-hypersensitivity
-myocarditis
+Acute hypersensitivity myocarditis
+suspected
+clinically
+diagnosis
+post-mortem
+Histology
+diffuse
 infiltration
 myocardium
 eosinophils
 lymphocytes
 myocyte
+damage
+Clinically
 death
 cardiogenic shock
+fatal
 carbamazepine
+induced
 myocarditis
+English literature

@@ -1,43 +1,77 @@
+permanent deficiency
 brain renin-angiotensin system
 RAS
-baroreflex
-heart
+increase
+sensitivity
+baroreflex control
+heart rate
+study
+involvement
 brain
 RAS
-cardiac
+cardiac reactivity
 beta-adrenoceptor
 beta-AR
 agonist
 isoproterenol
-Iso
+Transgenic
 rats
-brain
-angiotensinogen (TGR)
+low brain angiotensinogen
+TGR
+isolated
 hearts
-Iso
-ventricular
+induced
+increase
+left ventricular (LV) pressure
+maximal
 contraction
+dP/dt(max
+TGR
+Sprague-Dawley (SD
 rats
 LV hypertrophy
-Iso
+induced
+Iso treatment
+TGR
+SD
 rats
-body
+LV
 LV hypertrophy
+TGR
 rats
+associated with
 downregulation
 beta-AR
 upregulation
-LV beta-AR kinase-1 mRNA
+LV beta-AR kinase-1
+mRNA levels
+SD
 rats
-heart
-beta-AR
-antagonist
+decrease
+heart rate
+HR
+induced
+beta-AR antagonist
 metoprolol
+conscious
 rats
+attenuated
+TGR
+SD
 rats
+effect
+parasympathetic blockade
 atropine
+HR
+strains
+results
+TGR
+sensitive
 beta-AR
-agonist
-cardiac
+agonist-induced
+cardiac inotropic response
 hypertrophy
+chronically
+low
+sympathetic outflow
 heart

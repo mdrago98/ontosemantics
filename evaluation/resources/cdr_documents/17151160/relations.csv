@@ -1,2 +1,5 @@
 ,Subject,Action,Object,Negation
-0,authors,compared,treatment,False
+0,authors,compared,treatment outcomes,False
+1,authors,compared,olanzapine,False
+2,authors,compared,patients,False
+3,authors,compared,first-episode schizophrenia spectrum disorders,False

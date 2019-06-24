@@ -1,46 +1,103 @@
 antipsychotic agent
-amide
-acquired aplastic anemia
-pyrrolidine
+remoxipride
+(S)-(-)-3-bromo-N-[(1-ethyl-2-pyrrolidinyl)methyl]-2,6-dimethoxybenz amide
+associated with
+aplastic anemia
+remoxipride
+pyrrolidine ring
 metabolites
+aromatic ring
 metabolites
+parent compound
+induce
 apoptosis
 HL60 cells
-human bone marrow
-cells
+human
+bone marrow progenitor
 Cells
+treated
+compound
 Apoptosis
+assessed
+fluorescence microscopy
+Hoechst
 propidium iodide
-cell
-DNA fragmentation
+cell samples
+determination
+internucleosomal DNA fragmentation
+gel electrophoresis
 HL60 cell
-terminal deoxynucleotidyl transferase
-cells
+terminal deoxynucleotidyl transferase assay
+HBMP cells
 catechol
 hydroquinone
 metabolites
+NCQ436
+NCQ344
+induced
 apoptosis
 HL60
-cells
+HBMP cells
+time-
+concentration
+dependent
 phenols
+NCR181
+FLA873
+FLA797
+derivatives
 oxidation
-pyrrolidine
+pyrrolidine ring
+FLA838
+NCM001
+NCL118
+no effect
+No
 necrosis
 cells
-cell
+treated with
+NCQ436
+NCQ344
+biphasic
+effect
+cell types
+inducing
 apoptosis
+concentrations
 necrosis
+higher
+concentrations
+data
 catechol
 hydroquinone
 metabolites
+remoxipride
+toxic effects
 HL60
-cells
+HBMP cells
 apoptosis
 phenol
 metabolites
-benzene
+inactive
 catechol
 hydroquinone
 phenol
+induce
 apoptosis
-cells
+HBMP cells
+Moran
+remoxipride
+benzene
+induce
+aplastic anemia
+production
+reactive metabolites
+NCQ436
+NCQ344
+induce
+apoptosis
+HBMP cells
+mechanism
+aplastic anemia
+associated with
+remoxipride

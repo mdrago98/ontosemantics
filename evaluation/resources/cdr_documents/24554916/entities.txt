@@ -1,11 +1,17 @@
-phosphorus
-pesticide
-phosphorus
+Yellow phosphorus
+component
+pesticide pastes
+fireworks
+hepatotoxicity
+Poisoning
+yellow phosphorus
 acute hepatitis
-acute liver failure
-liver
-phosphorus
+acute
+liver transplantation
+case
+yellow phosphorus poisoning
 patient
+clinical features
 cholestasis
 cholestasis
-phosphorus
+yellow phosphorus hepatotoxicity

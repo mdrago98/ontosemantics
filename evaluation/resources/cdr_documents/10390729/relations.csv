@@ -1,7 +1,26 @@
 ,Subject,Action,Object,Negation
-0,effects,tested,Wistar rats,False
-1,4-aminopyridine,block,K(+)-channels,False
-2,quinine,attenuated,place,False
-3,test,measured,Animex,False
-4,blockers,prevented,hyperactivity,False
-5,results,suggest,involvement,False
+0,effects of,tested,motor activity,False
+1,effects of,tested,morphine,False
+2,effects of,tested,Wistar rats,False
+3,Quinine,known,ATP-sensitive K(+)-channels,False
+4,4-aminopyridine,known,ATP-sensitive K(+)-channels,False
+5,quinine,attenuated,method,False
+6,4-aminopyridine,attenuated,method,False
+7,K(+)-channel blockers,affected,motor activity test,False
+8,K(+)-channel blockers,affected,Animex-activity meter,False
+9,K(+)-channel blockers,affected,K(+)-channel blockers,False
+10,K(+)-channel blockers,affected,hypoactivity,False
+11,K(+)-channel blockers,affected,secondary hyperactivity,False
+12,K(+)-channel blockers,prevented,secondary hyperactivity,False
+13,K(+)-channels,suggest,involvement,False
+14,K(+)-channels,suggest,quinine-sensitive,True
+15,K(+)-channels,suggest,morphine,False
+16,blockade,suggested,K(+)-channels,False
+17,blockade,suggested,blockers,False
+18,blockade,suggested,hypoactivity,False
+19,blockade,suggested,quinine-,False
+20,morphine-induced hyperactivity,suggested,K(+)-channels,False
+21,morphine-induced hyperactivity,suggested,blockers,False
+22,morphine-induced hyperactivity,suggested,hypoactivity,False
+23,morphine-induced hyperactivity,suggested,quinine-,False
+24,morphine-induced hyperactivity,seems,quinine-,False

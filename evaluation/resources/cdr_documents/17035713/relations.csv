@@ -1,17 +1,38 @@
 ,Subject,Action,Object,Negation
-0,Chloroacetaldehyde,is,metabolite,False
-1,damage,following,tumor,False
-2,Depletion,reported,cell,False
-3,CAA,reduced,hRPTEC,False
-4,CAA,reduced,protein,False
-5,cells,stained,fluorescent dyes,False
-6,CAA,induced,increase,False
-7,effects,reproduced,cell,False
-8,which,slowed,reaction,False
-9,Acidification,attenuate,effects,False
-10,CAA,reacts,protein,False
-11,CAA,reacts,protein,False
-12,acidification,be,option,False
-13,option,prevent,IFO,False
-14,option,prevent,nephropathy,False
-15,option,prevent,patients,False
+0,Depletion,reported,sulfhydryl,False
+1,Depletion,reported,cell culture,False
+2,effect,investigated,CAA,False
+3,effect,investigated,tubule cells,False
+4,effect,investigated,primary culture,False
+5,Toxicity,determined,CAA,False
+6,Toxicity,determined,protein content,False
+7,Free thiols,measured,method,False
+8,Free thiols,measured,Ellman,False
+9,CAA,reduced,hRPTEC cell number,False
+10,CAA,reduced,loss,False
+11,CAA,reduced,thiols,False
+12,CAA,reduced,necrosis,False
+13,CAA,inhibited,cysteine proteases,False
+14,CAA,inhibited,cisplatin,False
+15,CAA,inhibited,CAA,False
+16,caspase-3,inhibited,cysteine proteases,False
+17,caspase-3,inhibited,cisplatin,False
+18,caspase-3,inhibited,CAA,False
+19,CAA,induced,cells,False
+20,CAA,induced,targeting,False
+21,CAA,induced,increase,False
+22,CAA,induced,lysosomal size,False
+23,effects of,reproduced,CAA,False
+24,effects of,reproduced,cysteine protease,False
+25,effects of,reproduced,cell lysate,False
+26,Acidification,attenuate,reaction,False
+27,Acidification,attenuate,CAA,False
+28,Acidification,attenuate,thiol donors,False
+29,Acidification,attenuate,effects,False
+30,Acidification,attenuate,CAA,False
+31,Acidification,attenuate,necrosis,False
+32,Acidification,attenuate,living cells,False
+33,CAA,reacts,cellular protein,False
+34,CAA,reacts,toxicity,False
+35,CAA,reacts,hRPTEC,False
+36,effect,reduced,acidification,False

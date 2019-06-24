@@ -1,18 +1,24 @@
+report
 encephalopathy
-amitriptyline
+amitriptyline therapy
 remission
 unipolar depression
 patient
+diagnosed
 neuroleptic malignant syndrome
 NMS
 serotonin syndrome
 SS
-dopamine
-serotonin
-imbalance
+symptoms
+dopamine/serotonin imbalance
 central nervous system
-NMS
-encephalopathy
+NMS-like encephalopathy
+association
 antidepressants
 NMS
 SS
+spectrum disorders
+induced
+drugs
+antidopaminergic
+serotonergic effects

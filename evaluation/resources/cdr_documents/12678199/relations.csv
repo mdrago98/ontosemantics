@@ -1,12 +1,25 @@
 ,Subject,Action,Object,Negation
 0,authors,present,case,False
-1,development,associated,amiodarone,False
-2,Consistent,occurred,context,False
-3,case,occurred,context,False
-4,factors,including,hypokalemia,False
-5,prolongation,prompted,episode,False
-6,exacerbates,acquired,TdP.,False
-7,tone,resulted,proarrhythmia,False
-8,irrigation,induce,TdP,True
-9,irrigation,induce,hypokalemia,True
-10,irrigation,induce,hypomagnesemia,True
+1,authors,present,development,False
+2,authors,present,torsade de pointes,False
+3,days,present,case,False
+4,days,present,development,False
+5,days,present,torsade de pointes,False
+6,prolongation,prompted,QT,False
+7,prolongation,prompted,bladder,False
+8,prolongation,prompted,episode,False
+9,exacerbates,prompted,QT,False
+10,exacerbates,prompted,bladder,False
+11,exacerbates,prompted,episode,False
+12,authors,speculate,bladder,False
+13,authors,speculate,amiodarone-induced proarrhythmia,False
+14,vagal tone,speculate,bladder,False
+15,vagal tone,speculate,amiodarone-induced proarrhythmia,False
+16,vagal tone,resulted,bladder,False
+17,vagal tone,resulted,amiodarone-induced proarrhythmia,False
+18,absence,induce,amiodarone therapy,True
+19,absence,induce,TdP,True
+20,absence,induce,hypokalemia,True
+21,irrigation,induce,amiodarone therapy,True
+22,irrigation,induce,TdP,True
+23,irrigation,induce,hypokalemia,True

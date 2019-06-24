@@ -1,6 +1,16 @@
 ,Subject,Action,Object,Negation
-0,that,have,affinity,False
-1,groups,reported,relationship,False
-2,receptor,modulating,receptor expression,False
-3,we,evaluate,role,False
-4,role,plays,EPS,False
+0,Extrapyramidal syndrome,affected,antipsychotic drugs,False
+1,Extrapyramidal syndrome,affected,affinity,False
+2,Extrapyramidal syndrome,affected,D2 receptor,False
+3,research groups,reported,relationship,False
+4,research groups,reported,genetic variations,False
+5,research groups,reported,DRD2 gene,False
+6,research groups,reported,patients,False
+7,research groups,reported,variations,False
+8,research groups,reported,receptor,False
+9,research groups,reported,receptor,False
+10,DRD2,evaluate,study,False
+11,DRD2,evaluate,EPS,False
+12,DRD2,evaluate,patients,False
+13,DRD2,plays,EPS,False
+14,DRD2,plays,patients,False

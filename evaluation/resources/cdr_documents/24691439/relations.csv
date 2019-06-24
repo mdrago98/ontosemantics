@@ -1,16 +1,51 @@
 ,Subject,Action,Object,Negation
-0,Administration,induces,ocular hypertension,False
-1,patients,develop,secondary glaucoma,False
-2,that,resembles,primary open-angle glaucoma,False
-3,we,developed,model,False
-4,that,exhibits,glaucoma,False
-5,that,observed,patients,False
-6,ocular hypertension,associated,ER,False
-7,withdrawal,reduced,stress,False
-8,Dexamethasone,induced,factor,False
-9,Dexamethasone,induced,segment,False
-10,deletion,reduced,ER,False
-11,deletion,reduced,tissues,False
-12,reduction,prevented,ocular hypertension,False
-13,reducing,has,potential,False
-14,strategy,treating,glaucoma,False
+0,Administration,induces,glucocorticoids,False
+1,Administration,induces,ocular hypertension,False
+2,Administration,induces,patients,False
+3,patients,develop,secondary glaucoma,False
+4,patients,develop,primary open-angle glaucoma,False
+5,pathology,understood,glucocorticoid-induced glaucoma,True
+6,pathology,understood,animal model,True
+7,Treatment,led,WT mice,False
+8,Treatment,led,dexamethasone,False
+9,Treatment,led,elevation,False
+10,Treatment,led,intraocular pressure,False
+11,Treatment,led,structural loss,False
+12,Treatment,led,retinal ganglion cells,False
+13,Treatment,led,patients,False
+14,dexamethasone-induced ocular hypertension,associated with,trabecular meshwork,False
+15,withdrawal,reduced,patients,False
+16,withdrawal,reduced,dexamethasone,False
+17,withdrawal,reduced,IOP,False
+18,withdrawal,reduced,animal model,False
+19,Dexamethasone,induced,CHOP,False
+20,Dexamethasone,induced,chronic ER stress,False
+21,Dexamethasone,induced,segment,False
+22,Dexamethasone,induced,ER stress,False
+23,Dexamethasone,induced,tissues,False
+24,Dexamethasone,induced,dexamethasone-induced ocular hypertension,False
+25,Chop deletion,induced,CHOP,False
+26,Chop deletion,induced,chronic ER stress,False
+27,Chop deletion,induced,segment,False
+28,Chop deletion,induced,ER stress,False
+29,Chop deletion,induced,tissues,False
+30,Chop deletion,induced,dexamethasone-induced ocular hypertension,False
+31,Chop deletion,reduced,ER stress,False
+32,Chop deletion,reduced,tissues,False
+33,Chop deletion,reduced,dexamethasone-induced ocular hypertension,False
+34,reduction,prevented,ER stress,False
+35,reduction,prevented,TM,False
+36,reduction,prevented,sodium 4-phenylbutyrate,False
+37,reduction,prevented,dexamethasone-induced ocular hypertension,False
+38,reduction,prevented,WT mice,False
+39,data,indicate,glucocorticoid-induced ocular hypertension,False
+40,data,indicate,ER stress,False
+41,data,indicate,potential,False
+42,data,indicate,therapeutic strategy,False
+43,data,indicate,glucocorticoid-induced glaucoma,False
+44,ER stress,indicate,glucocorticoid-induced ocular hypertension,False
+45,ER stress,indicate,ER stress,False
+46,ER stress,indicate,potential,False
+47,ER stress,indicate,therapeutic strategy,False
+48,ER stress,indicate,glucocorticoid-induced glaucoma,False
+49,ER stress,contributes,glucocorticoid-induced ocular hypertension,False

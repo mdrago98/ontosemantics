@@ -1,2 +1,5 @@
 ,Subject,Action,Object,Negation
-0,prednisone,produces,anxiety,False
+0,prednisone,assess,anxiety,False
+1,prednisone,assess,rats,False
+2,prednisone,produces,anxiety,False
+3,prednisone,produces,rats,False

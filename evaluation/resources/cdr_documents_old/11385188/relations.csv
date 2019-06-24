@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,Findings,detected,patients,False
+1,Findings,detected,controls,False
+2,left,demonstrated,patients,False
+3,filling,detected,%,False
+4,coronary artery,is,cocaine,False
+5,ECG,warranted,patients,False
+6,echocardiography,warranted,patients,False

@@ -1,7 +1,20 @@
 Total blindness
-evoked potentials
+transient
+tonic pupillary response
+denervation
+supersensitivity
+abnormal
+visual-evoked potentials
 man
 quinine sulfate
 leg cramps
-evoked potentials
+normal
+visual acuity
+transient
+tonic pupillary response
+denervation
+supersensitivity
+abnormal
+visual-evoked potentials
 quinine
+toxicity

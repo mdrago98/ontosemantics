@@ -1,23 +1,44 @@
 ,Subject,Action,Object,Negation
-0,patient,receiving,maintenance,False
-1,who,developed,hypercalcemia,False
-2,who,developed,bradyarrhythmia,False
-3,findings,conduct,authors,False
-4,findings,conduct,study,False
-5,findings,conduct,hypercalcemia,False
-6,that,presented,period,False
-7,hypercalcemias,associated,fluids,False
-8,authors,identified,patients,False
-9,which,included,patients,False
-10,which,included,patients,False
-11,patients,treated,mood,False
-12,findings,compared,those,False
-13,groups,differ,frequency,True
-14,there,were,differences,False
-15,Patients,resulting,diseases,False
-16,Patients,resulting,hypercalcemia,False
-17,Patients,resulting,patients,False
-18,Patients,had,frequencies,False
-19,Patients,had,mortality,False
-20,Patients,had,%,False
-21,Patients,had,contrast,False
+0,findings,prompted,bipolar patient,False
+1,findings,prompted,maintenance,False
+2,findings,prompted,hypercalcemia,False
+3,findings,prompted,authors,False
+4,findings,prompted,retrospective study,False
+5,findings,prompted,patients,False
+6,findings,prompted,lithium-associated hypercalcemia,False
+7,authors,identified,hypercalcemias,False
+8,authors,identified,intravenous fluids,False
+9,authors,identified,patients,False
+10,authors,identified,hypercalcemias,False
+11,authors,identified,malignancies,False
+12,authors,identified,lithium-associated hypercalcemia,False
+13,control groups,generated,patients,False
+14,control groups,generated,patients,False
+15,control groups,generated,anticonvulsant mood stabilizers,False
+16,C1,generated,patients,False
+17,C1,generated,patients,False
+18,C1,generated,anticonvulsant mood stabilizers,False
+19,findings,compared,patients,False
+20,findings,compared,group B,False
+21,findings,compared,patients,False
+22,findings,compared,groups,False
+23,C1,compared,patients,False
+24,C1,compared,group B,False
+25,C1,compared,patients,False
+26,C1,compared,groups,False
+27,groups,found,frequency,False
+28,groups,found,ECG,False
+29,groups,found,frequency,False
+30,groups,found,conduction,False
+31,groups,differ,frequency,True
+32,groups,differ,ECG,True
+33,Patients,had,hypercalcemia,False
+34,Patients,had,medical diseases,False
+35,Patients,had,lithium-associated hypercalcemia,False
+36,Patients,had,frequencies,False
+37,Patients,had,conduction,False
+38,Patients,had,group A,False
+39,Patients,had,mortality,False
+40,Patients,had,follow-up,False
+41,Patients,had,mortality,False
+42,Patients,had,groups,False

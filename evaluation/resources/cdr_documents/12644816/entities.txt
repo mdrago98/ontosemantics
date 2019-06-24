@@ -1,42 +1,87 @@
+antiangiogenic effects
 thalidomide
+assessed
+clinical trials
+patients
+solid
+haematological
 malignancies
 Thalidomide
-angiogenic
+activity
+angiogenic agents
 bFGF
+VEGF
 IL-6
-label
+open-label study
 thalidomide
+months
 men
-androgen
-prostate cancer
+androgen-independent prostate cancer
+study
+days
+days
+Patients
+measurement
 prostate-specific antigen
 PSA
 urea
+electrolytes
 serum bFGF
+VEGF
 men
+decline
 serum
 PSA
+treatment
 men
-absolute PSA
+treated
+months
+fall
+absolute
+PSA
+Increasing
+levels
 serum bFGF
+VEGF
+associated with
 progressive disease
 men
+fall
 PSA
+decline
 bFGF
+VEGF
+levels
 men
+rising
 PSA
-growth
+increase
+growth factors
 Adverse effects
 constipation
+morning drowsiness
 dizziness
 rash
 withdrawal
+study
 men
+Evidence
 peripheral sensory neuropathy
 men
+treatment
 men
+months
 thalidomide
+subclinical
+evidence
 peripheral neuropathy
+treatment
+repeat testing
+findings
 thalidomide
+patients
+failed
+therapy
+follow-up
 development
 peripheral neuropathy

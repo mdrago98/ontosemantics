@@ -1,53 +1,83 @@
 Acetaminophen
 APAP
+proximal
 tubular necrosis
+Fischer 344
+F344
 rats
 p-aminophenol
 PAP
 nephrotoxicant
 metabolite
 APAP
+F344
 rats
+study
 PAP
 formation
-APAP
-phosphate
-acylamidase
-inhibitor
+APAP-induced
+nephrotoxicity
+effect
+bis(p-nitrophenyl) phosphate
+BNPP
+acylamidase inhibitor
 APAP
 PAP
+nephrotoxicity
 metabolism
+BNPP
+reduced
 APAP
 deacetylation
-covalent
-binding
+covalent binding
+F344
 renal
-cortical
+Pretreatment
+animals
+BNPP
 APAP
 PAP
+administration
+reduction
 APAP
+nephrotoxicity
 PAP
+nephrotoxicity
+result
+disposition
 APAP
+acetylated
 metabolites
 plasma
-renal
-cortical
+renal cortical
 hepatic tissue
+BNPP
+pretreatment
+reduced
+fraction
 APAP
+excreted
 PAP
 APAP
+doses
+BNPP
 excretion
 APAP
-metabolites
+non-deacetylated metabolites
+BNPP
 excretion
 PAP
 metabolites
 PAP
-APAP
+doses
+BNPP-induced
+reduction
+APAP-induced
+nephrotoxicity
 inhibition
 APAP
 deacetylation
 PAP
 formation
-APAP
-renal tubular necrosis
+in vivo
+APAP-induced

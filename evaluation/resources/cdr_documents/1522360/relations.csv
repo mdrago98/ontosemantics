@@ -1,7 +1,4 @@
 ,Subject,Action,Object,Negation
-0,Renal failure,is,complication,False
-1,complication,associated,use,False
-2,acute renal failure,following,rifampin,False
-3,who,developed,hemolysis,False
-4,who,developed,acute renal failure,False
-5,acute renal failure,following,rifampin,False
+0,patients,reported,leprosy,False
+1,patients,reported,hemolysis,False
+2,patients,reported,rifampin,False

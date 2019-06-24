@@ -1,5 +1,8 @@
 ,Subject,Action,Object,Negation
 0,Nicotine,consumed,psychoactive drugs,False
-1,caffeine,consumed,psychoactive drugs,False
+1,studies,indicate,experimental animals,False
 2,studies,indicate,interactions,False
-3,studies,shown,interaction,False
+3,studies,shown,experimental animals,False
+4,studies,shown,interactions,False
+5,studies,shown,interaction,False
+6,studies,shown,anxiety responses,False

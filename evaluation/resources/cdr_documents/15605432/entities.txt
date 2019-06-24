@@ -1,31 +1,67 @@
-oxygen
+study
+elevated
+reactive oxygen (ROS)/nitrogen
+species
 RNS
 adriamycin
+cardiotoxicity
 cardiomyocyte
+quantitatively
+time course
+subcellular
 localization
-mice
+damage products
+in vivo
+B6C3 mice
+treated with
+single dose
 ADR
-4-hydroxy-2-nonenal
+Ultrastructural damage
+levels
+4-hydroxy-2-nonenal (4HNE)-protein
 3-nitrotyrosine
 3NT
-cardiomyocyte
+analyzed
+Quantitative
+computerized image techniques
+cardiomyocyte injury
 mitochondria
+extensively
+injured
+subcellular
 organelle
-4HNE
-protein
-4HNE
-protein
+Analysis
+4HNE protein
+immunogold electron microscopy
+appearance
+4HNE protein adducts
 mitochondria
+hours
+decline
+hours
 3NT
-compartments
+levels
+increased
+subcellular
+hours
+declined
+hours
+data
 ADR
-4HNE
-protein
+induced
+adducts
 mitochondria
-mitochondrial
+time point
+mitochondrial injury
+results
+document
+in vivo
 mitochondrial
 oxidative damage
-mitochondrial
+nitrative damage
+progressive
+mitochondrial injury
 mitochondria
+subcellular
 organelles
-intracellular
+intracellular injury

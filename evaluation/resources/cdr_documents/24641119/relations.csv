@@ -1,8 +1,8 @@
 ,Subject,Action,Object,Negation
 0,patient,presented,eruption,False
-1,patient,using,ketoconazole,False
-2,patient,diagnosed,baboon,False
-3,syndrome,based,history,False
-4,which,included,sensitivity,False
-5,syndrome,is,drug-,False
-6,that,involves,areas,False
+1,patient,presented,flexural areas,False
+2,patient,presented,oral ketoconazole,False
+3,patient,diagnosed,drug-induced baboon syndrome,False
+4,patient,diagnosed,history,False
+5,patient,diagnosed,sensitivity,False
+6,patient,diagnosed,topical ketoconazole,False

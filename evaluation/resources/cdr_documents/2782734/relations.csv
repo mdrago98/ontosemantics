@@ -1,14 +1,40 @@
 ,Subject,Action,Object,Negation
-0,doses,produce,improvements,False
-1,purpose,investigate,treatment,False
-2,micrograms,randomized,crossover,False
-3,micrograms,randomized,crossover,False
-4,Treatment,had,effect,True
-5,There,were,increases,False
-6,pretreatment,displace,DRC,True
-7,DRC,attenuated,treatment,False
-8,treatment,compared,PI,False
-9,There,were,differences,False
-10,There,were,Glu,False
-11,Frequency,reduced,HDS,False
-12,severity,reduced,HDS,False
+0,doses,produce,salbutamol,False
+1,doses,produce,improvements,False
+2,doses,produce,airway response,False
+3,doses,produce,patients,False
+4,doses,produce,asthma,False
+5,doses,produce,beta-adrenoceptor responses,False
+6,tachyphylaxis,was,study,False
+7,tachyphylaxis,was,treatment,False
+8,tachyphylaxis,was,salbutamol,False
+9,tachyphylaxis,investigate,treatment,False
+10,tachyphylaxis,investigate,salbutamol,False
+11,tachyphylaxis,occurs,treatment,False
+12,tachyphylaxis,occurs,salbutamol,False
+13,salbutamol,given,inhaled beta-agonists,False
+14,salbutamol,given,therapy,False
+15,salbutamol,given,treatment,False
+16,salbutamol,given,metered-dose inhaler,False
+17,salbutamol,given,randomized crossover design,False
+18,inhaled beta-agonists,withheld,run-in,False
+19,ipratropium bromide,withheld,run-in,False
+20,dose-response curve,performed,treatment,False
+21,airway,performed,treatment,False
+22,FEV1,performed,treatment,False
+23,K,performed,treatment,False
+24,responses,performed,treatment,False
+25,pretreatment,were,FEV1,False
+26,pretreatment,were,HDS,False
+27,pretreatment,were,DRC,False
+28,pretreatment,were,right,False
+29,pretreatment,displace,HDS,True
+30,pretreatment,displace,DRC,True
+31,pretreatment,displace,right,True
+32,DRC,attenuated,HR,False
+33,DRC,attenuated,treatment,False
+34,DRC,attenuated,HDS,False
+35,Frequency,reduced,adverse effects,False
+36,Frequency,reduced,HDS,False
+37,tremor,reduced,adverse effects,False
+38,tremor,reduced,HDS,False

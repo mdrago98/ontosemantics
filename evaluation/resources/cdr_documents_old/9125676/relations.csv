@@ -1,0 +1,33 @@
+,Subject,Action,Object,Negation
+0,study,evaluated,efficacy,False
+1,patients,treated,d,False
+2,patients,received,d,False
+3,patients,received,l,False
+4,sotalol,prevented,induction,False
+5,patients,discharged,drug,False
+6,ventricular tachyarrhythmia,remained,patients,False
+7,patients,tolerate,mg,True
+8,patients,had,torsades de pointes,False
+9,length,identified,patients,False
+10,length,identified,risk,False
+11,parameters,identified,patients,False
+12,parameters,identified,risk,False
+13,dose,was,patients,False
+14,sotalol,was,patients,False
+15,factors,associated,development,False
+16,factors,were,appearance,False
+17,patients,had,recurrence,False
+18,patient,had,torsades de pointes,False
+19,patient,had,l,False
+20,patient,had,years,False
+21,Torsades de pointes,occurred,treatment,False
+22,changes,identify,subgroup,False
+23,changes,identify,risk,False
+24,sotalol,identify,subgroup,False
+25,sotalol,identify,risk,False
+26,parameters,identify,patients,True
+27,parameters,identify,risk,True
+28,sotalol,identify,patients,True
+29,sotalol,identify,risk,True
+30,rates,are,suppression,False
+31,sotalol,be,value,False

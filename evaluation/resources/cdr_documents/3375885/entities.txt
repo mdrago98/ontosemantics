@@ -1,15 +1,21 @@
 patient
+severe
 rheumatoid arthritis
-nephropathy
+history
+mefenamic acid nephropathy
+hyperkalemia
 hypoaldosteronism
 indomethacin
 naproxen
+decline
 renal function
 renal disease
 patient
-type IV renal tubular acidosis
-prostaglandin synthetase
-inhibitors
-anti-inflammatory drug
+type IV renal
+acidosis
+prostaglandin synthetase inhibitors
+nonsteroidal anti-inflammatory drug therapy
 fludrocortisone
-indomethacin
+correcting
+hyperkalemia
+indomethacin therapy

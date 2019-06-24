@@ -1,14 +1,21 @@
 ,Subject,Action,Object,Negation
-0,woman,had,hematuria,False
-1,nephroureterectomy,required,control,False
-2,pathology specimen,contained,carcinoma of the renal pelvis,False
-3,ability,cause,hemorrhagic cystitis,False
-4,the ability of cyclophosphamide to cause hemorrhagic cystitis and urine cytologic abnormalities indistinguishable from high grade carcinoma is well known,associated,carcinoma,False
-5,carcinomas,reported,association,False
-6,carcinoma of the prostate,reported,association,False
-7,case,is,carcinoma of the renal pelvis,False
-8,carcinoma of the renal pelvis,reported,association,False
-9,It,is,urinary tract cancer,False
-10,urinary tract cancer,reported,association,False
-11,who,are,candidates,False
-12,Patients,evaluated,obstructive uropathy,False
+0,woman,had,right hydroureteronephrosis,False
+1,woman,had,ureterovesical junction obstruction,False
+2,woman,had,gross hematuria,False
+3,woman,had,years,False
+4,woman,had,cyclophosphamide,False
+5,woman,had,cerebral vasculitis,False
+6,right nephroureterectomy,required,control of,False
+7,right nephroureterectomy,required,bleeding,False
+8,specimen,contained,invasive carcinoma,False
+9,specimen,contained,renal pelvis,False
+10,carcinomas,reported,urinary bladder,False
+11,carcinomas,reported,prostate,False
+12,carcinomas,reported,association,False
+13,association,suggests,tumor,False
+14,association,suggests,hydroureteronephrosis,False
+15,association,suggests,exposure of,False
+16,association,suggests,epithelium,False
+17,association,suggests,cyclophosphamide,False
+18,Patients,evaluated,cyclophosphamide,False
+19,Patients,evaluated,obstructive uropathy,False

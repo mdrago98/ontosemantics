@@ -1,7 +1,15 @@
-dobutamine
-blood pressure
+dobutamine stress echocardiographic studies
+hypertensive response
+systolic blood pressure
 BP
-BP
+diastolic BP
+patients
+Patients
+response
+history of
 hypertension
-resting
+higher
+resting systolic
+diastolic BP
 dobutamine
+infusion

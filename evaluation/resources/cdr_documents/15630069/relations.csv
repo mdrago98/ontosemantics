@@ -1,4 +1,22 @@
 ,Subject,Action,Object,Negation
-0,incidence,increasing,patients,False
-1,patients,treated,atypical antipsychotic agents,False
-2,agents,affecting,glucose metabolism,False
+0,incidence,increasing,new-onset diabetes mellitus,False
+1,incidence,increasing,patients,False
+2,incidence,increasing,schizophrenia,False
+3,incidence,increasing,antipsychotic agents,False
+4,incidence,remains,new-onset diabetes mellitus,False
+5,incidence,remains,patients,False
+6,incidence,remains,schizophrenia,False
+7,incidence,remains,antipsychotic agents,False
+8,incidence,remains,glucose metabolism,False
+9,incidence,remains,risk factors,False
+10,incidence,remains,diabetes,False
+11,atypical agents,remains,new-onset diabetes mellitus,False
+12,atypical agents,remains,patients,False
+13,atypical agents,remains,schizophrenia,False
+14,atypical agents,remains,antipsychotic agents,False
+15,atypical agents,remains,glucose metabolism,False
+16,atypical agents,remains,risk factors,False
+17,atypical agents,remains,diabetes,False
+18,atypical agents,affecting,glucose metabolism,False
+19,atypical agents,affecting,risk factors,False
+20,atypical agents,affecting,diabetes,False

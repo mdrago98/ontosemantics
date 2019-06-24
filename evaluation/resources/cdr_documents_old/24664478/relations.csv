@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,who,received,chemotherapy,False
+1,woman,admitted,relapsed disease,False
+2,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,treated,induction,False
+3,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,developed,relapsed disease,False
+4,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,developed,involvement,False
+5,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,was,replacement,False
+6,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,tolerated,therapy,False
+7,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,received,cycle,False
+8,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,received,IT,False
+9,A 37-year-old Caucasian woman with a history of T-cell lymphoblastic lymphoma,noted,lower extremities,False
+10,peripheral neuropathy,started,feet,False
+11,imaging,demonstrated,changes,False
+12,Nelarabine,be,cause,False
+13,Nelarabine,treated,care,False
+14,who,received,IT,False

@@ -1,5 +1,5 @@
 ,Subject,Action,Object,Negation
-0,Little,known,role,False
-1,role,smoking,crack,False
-2,smoking,has,incidence,False
-3,use,become,risk,False
+0,cocaine,known,incidence,False
+1,cocaine,known,HIV infection,False
+2,cocaine,has,incidence,False
+3,cocaine,has,HIV infection,False

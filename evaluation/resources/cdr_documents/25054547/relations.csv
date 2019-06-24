@@ -1,15 +1,47 @@
 ,Subject,Action,Object,Negation
-0,Butyrylcholinesterase deficiency,characterized,use,False
-1,who,have,mutations,False
-2,who,have,BCHE gene,False
-3,we,report,case,False
-4,mutation,disrupts,triad,False
-5,activity,fit,genotype,False
-6,values,fit,genotype,False
-7,patient,has,amount,False
-8,analysis,showed,p,False
-9,BChE,displays,behavior,False
-10,simulations,showed,that,False
-11,simulations,showed,effect,False
-12,Val204Asp,is,disruption,False
-13,disruption,move,disruption,False
+0,Butyrylcholinesterase deficiency,characterized,apnea,False
+1,Butyrylcholinesterase deficiency,characterized,muscle relaxants,False
+2,Butyrylcholinesterase deficiency,characterized,patients,False
+3,Butyrylcholinesterase deficiency,characterized,mutations,False
+4,Butyrylcholinesterase deficiency,characterized,BCHE gene,False
+5,suxamethonium,characterized,apnea,False
+6,suxamethonium,characterized,muscle relaxants,False
+7,suxamethonium,characterized,patients,False
+8,suxamethonium,characterized,mutations,False
+9,suxamethonium,characterized,BCHE gene,False
+10,Inhibition studies,undertaken,catalytic triad,False
+11,Inhibition studies,undertaken,phenotype,False
+12,kinetic analysis,undertaken,catalytic triad,False
+13,kinetic analysis,undertaken,phenotype,False
+14,mutation,undertaken,catalytic triad,False
+15,mutation,undertaken,phenotype,False
+16,mutation,understand,catalytic triad,False
+17,mutation,disrupts,catalytic triad,False
+18,Electrophoretic analysis,showed,plasma,False
+19,Electrophoretic analysis,showed,proband,False
+20,Electrophoretic analysis,showed,amount,False
+21,Electrophoretic analysis,showed,tetrameric enzyme,False
+22,Electrophoretic analysis,showed,plasma,False
+23,patient,showed,plasma,False
+24,patient,showed,proband,False
+25,patient,showed,amount,False
+26,patient,showed,tetrameric enzyme,False
+27,patient,showed,plasma,False
+28,monomer,showed,plasma,False
+29,monomer,showed,proband,False
+30,monomer,showed,amount,False
+31,monomer,showed,tetrameric enzyme,False
+32,monomer,showed,plasma,False
+33,patient,has,amount,False
+34,patient,has,tetrameric enzyme,False
+35,patient,has,plasma,False
+36,monomer,has,amount,False
+37,monomer,has,tetrameric enzyme,False
+38,monomer,has,plasma,False
+39,Ala539Thr BChE,displays,behavior,False
+40,Ala539Thr BChE,displays,BTC,False
+41,Ala539Thr BChE,displays,substrate,False
+42,effect,showed,mutation p,False
+43,MD,showed,pre-denaturation state,False
+44,enzyme volume,showed,pre-denaturation state,False
+45,enzyme volume,increased,pre-denaturation state,False

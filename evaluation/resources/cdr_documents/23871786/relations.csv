@@ -1,15 +1,32 @@
 ,Subject,Action,Object,Negation
-0,Acetylcholinesterase,is,enzyme,False
-1,which,involved,behavior,False
-2,study,investigated,phenotypes,False
-3,study,investigated,AChE,False
-4,mice,exposed,period,False
-5,assay,using,EPM,False
-6,assay,using,test,False
-7,activity,measured,prefrontal cortex,False
-8,behavior,increased,mice,False
-9,activity,decreased,hippocampus,False
-10,difference,found,prefrontal cortex,False
-11,findings,showed,behavior,False
-12,which,associated,AChE,False
-13,which,associated,adult,False
+0,effects,established,Bisphenol A,False
+1,effects,established,neurodevelopment,False
+2,mice,exposed to,postnatal day,False
+3,mice,exposed to,BPA/kg diet,False
+4,mice,exposed to,day,False
+5,mice,exposed to,period,False
+6,mice,exposed to,days,False
+7,behavioral assay,performed,PND71,False
+8,elevated plus maze,performed,PND71,False
+9,activity,measured,prefrontal cortex,False
+10,anxiety-like behavior,indicated,mice,False
+11,anxiety-like behavior,indicated,BPA,False
+12,anxiety-like behavior,increased,mice,False
+13,anxiety-like behavior,increased,BPA,False
+14,activity,decreased,hippocampus,False
+15,activity,decreased,mice,False
+16,activity,decreased,BPA,False
+17,activity,decreased,control mice,False
+18,activity,decreased,prefrontal cortex,False
+19,findings,showed,anxiety-like behavior,False
+20,findings,showed,AChE,False
+21,findings,showed,hippocampus,False
+22,findings,showed,mice,False
+23,exposure,showed,anxiety-like behavior,False
+24,exposure,showed,AChE,False
+25,exposure,showed,hippocampus,False
+26,exposure,showed,mice,False
+27,exposure,increased,anxiety-like behavior,False
+28,exposure,increased,AChE,False
+29,exposure,increased,hippocampus,False
+30,exposure,increased,mice,False

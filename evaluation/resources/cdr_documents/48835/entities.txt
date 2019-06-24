@@ -1,20 +1,38 @@
 cardiovascular
+effects
 hypoglycaemia
+beta-blockade
+compared
+healthy
 men
 insulin
-insulin
+group
 propranolol
 insulin
-insulin
+insulin-group
+period
 hypoglycaemia
-heart
-blood
-propranolol
-insulin
-heart
-insulin
-propranolol
-insulin
+associated with
+increase
+heart-rate
+fall
+diastolic blood-pressure
+propranolol-insulin group
+fall
+heart-rate
+subjects
+increase
+diastolic pressure
+S-T/T
+changes
+insulin-group
+propranolol-insulin group
 Hypertension
+diabetics
 hypoglycaemia
-blood
+attacks
+treated with
+beta-blockers
+drugs
+blood-pressure
+patients

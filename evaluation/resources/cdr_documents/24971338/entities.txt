@@ -1,49 +1,91 @@
+Protocols
+conversion
 cyclosporin A
 CsA
 sirolimus
 SRL
-CsA
-nephropathy
-pathways
-CsA
-SRL
+immunotherapy
+transplantation
+prevent
+CsA-induced nephropathy
+molecular mechanisms
+protocols
+nuclear
+study
+molecular pathways
+putative
+biomarkers
+CsA-to-SRL
+conversion
 rat
+model
+animal groups
+tested
+weeks
+control
 CsA
 SRL
+conversion
 CsA
+weeks
 SRL
+weeks
 serum
-kidney
-tissue
+urinary
+kidney tissue
+gene
 protein expression
-Renal
-hematoxylin
-periodic acid
-SRL
+markers
+assessed
+Renal lesions
+analyzed
+hematoxylin and eosin
+periodic acid-Schiff
+Masson's trichrome stains
+SRL-treated
 rats
+proteinuria
+NGAL
 serum
+urinary
+markers
 renal impairment
+Short
 CsA
-absent kidney
+treatment
+absent
+kidney
 TGF-β
+NF- κβ
 mTOR
 PCNA
+TP53
 KIM-1
 CTGF
-protein
+gene
+protein changes
+Prolonged
 CsA
-renal
+exposure
+aggravated
+renal damage
+traditional
+markers
 serums
 TGF- β
 IL-7
-TBARs clearance, and kidney TGF-β
+TBARs
+clearance
+kidney
+TGF-β
 mTOR
 SRL
-CsA
-renal
-evolution
+CsA-induced renal damage evolution
+absent/mild grade
+NGAL
 serum
 urine
 biomarker
 CsA
+replacement
 SRL

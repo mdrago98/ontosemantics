@@ -1,32 +1,71 @@
 patient
 paraplegia
 intrathecal
+instillation
 methotrexate
+discribed
+cases
+unusual
 complication
+reviewed
+factors
+predispose
 development
 complication
+abnormal
+cerebrospinal
+dynamics
+presence
 central nervous system leukemia
-epidural
-leakage
+epidural cerebrospinal leakage
+elevated
 cerebrospinal fluid
+concentration
+abnormal
 cerebrospinal fluid
+dynamics
+inappropriately
 methotrexate
-body
+doses
+body surface area
+older
 children
+adults
+neurotoxic preservatives
 methotrexate
+preparations
+diluents
 methotrexate
+diluents
+unphysiologic
+pH
+ionic content
+osmolarity
 methotrexate
-folate deficiency
-cranial
+contaminants
+local folate deficiency
+cranial irradiation
 pathogenesis
-intrathecal
+intrathecal methotrexate
+toxicity
+incidence
+neurotoxicity
+reduced
+lower doses
 methotrexate
-methotrexate
+presence
 central nervous system leukemia
+older
 children
-epidural
-leakage
-methotrexate
+adults
+epidural leakage
+preservative-free methotrexate
+Elliott's B Solution
+concentration
 intrathecal
-methotrexate
+Periodic
+monitoring
+cerebruspinal
+levels
 development
+neurotoxicity

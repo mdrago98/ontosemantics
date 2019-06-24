@@ -1,5 +1,13 @@
 ,Subject,Action,Object,Negation
-0,Procaterol,studied,trial,False
-1,effect,found,terbutaline,False
-2,Procaterol,appeared,effective,False
-3,Procaterol,appeared,doses,False
+0,Procaterol,studied,cross-over trial,False
+1,Procaterol,studied,patients,False
+2,Procaterol,studied,bronchial asthma,False
+3,placebo-controlled,studied,cross-over trial,False
+4,placebo-controlled,studied,patients,False
+5,placebo-controlled,studied,bronchial asthma,False
+6,clinical effect,found,terbutaline,False
+7,Procaterol,appeared,doses,False
+8,Procaterol,appeared,drug,False
+9,regimen,appeared,doses,False
+10,regimen,appeared,drug,False
+11,regimen,appear,drug,False

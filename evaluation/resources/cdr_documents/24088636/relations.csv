@@ -1,12 +1,21 @@
 ,Subject,Action,Object,Negation
-0,drug,cause,adverse effect,False
-1,We,describe,case,False
-2,loss of vision,associated,therapy,False
-3,who,was,treatment,False
-4,treatment,including,linezolid,False
-5,treatment,including,ethambutol,False
-6,patient,presented,painless,False
-7,Color vision,was,examination,False
-8,Deterioration,occurred,withdrawal,False
-9,Discontinuation,resulted,improvement,False
-10,report,emphasizes,need,False
+0,systemic antimicrobials,implicated,adverse effects,False
+1,drug,cause,adverse effect,False
+2,patient,presented,anti-tuberculous drugs,False
+3,patient,presented,linezolid,False
+4,patient,presented,drug-resistant tuberculosis,False
+5,patient,presented,loss of vision,False
+6,patient,presented,eyes,False
+7,Color vision,revealed,optic disc edema,False
+8,Color vision,revealed,eyes,False
+9,examination,revealed,optic disc edema,False
+10,examination,revealed,eyes,False
+11,Deterioration,occurred,vision,False
+12,Deterioration,occurred,withdrawal,False
+13,Deterioration,occurred,ethambutol,False
+14,Discontinuation,resulted,linezolid,False
+15,Discontinuation,resulted,improvement,False
+16,Discontinuation,resulted,vision,False
+17,report,emphasizes,visual function,False
+18,report,emphasizes,patients,False
+19,report,emphasizes,linezolid,False

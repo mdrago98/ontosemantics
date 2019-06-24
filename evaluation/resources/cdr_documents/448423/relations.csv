@@ -1,10 +1,39 @@
 ,Subject,Action,Object,Negation
-0,agent,decrease,frequency,False
-1,reports,described,complications,False
-2,complications,included,deterioration,False
-3,complications,included,intracranial vascular,False
-4,patients,treated,EACA,False
-5,thrombi,observed,patients,False
-6,EACA,implicated,pathogenesis,True
-7,report,describes,infarction,False
-8,occlusion,occurred,EACA,False
+0,Epsilon aminocaproic acid,used,rebleeding,False
+1,Epsilon aminocaproic acid,used,patients,False
+2,Epsilon aminocaproic acid,used,subarachnoid hemorrhage,False
+3,agent,decrease,frequency,False
+4,agent,decrease,rebleeding,False
+5,agent,described,frequency,False
+6,agent,described,rebleeding,False
+7,agent,described,complications,False
+8,agent,described,EACA therapy,False
+9,reports,described,frequency,False
+10,reports,described,rebleeding,False
+11,reports,described,complications,False
+12,reports,described,EACA therapy,False
+13,complications,included,clinical deterioration,False
+14,complications,included,patients,False
+15,complications,included,SAH,False
+16,complications,included,patients,False
+17,complications,included,fibrinolytic syndromes,False
+18,complications,included,EACA,False
+19,intravascular fibrin thrombi,observed,patients,False
+20,intravascular fibrin thrombi,observed,fibrinolytic disorders,False
+21,intravascular fibrin thrombi,implicated,patients,True
+22,intravascular fibrin thrombi,implicated,fibrinolytic disorders,True
+23,intravascular fibrin thrombi,implicated,pathogenesis,True
+24,intravascular fibrin thrombi,implicated,fibrin thrombi,True
+25,intravascular fibrin thrombi,implicated,patients,True
+26,intravascular fibrin thrombi,implicated,intravascular coagulation,True
+27,EACA,implicated,patients,True
+28,EACA,implicated,fibrinolytic disorders,True
+29,EACA,implicated,pathogenesis,True
+30,EACA,implicated,fibrin thrombi,True
+31,EACA,implicated,patients,True
+32,EACA,implicated,intravascular coagulation,True
+33,occlusion,occurred,EACA,False
+34,occlusion,occurred,patient,False
+35,occlusion,occurred,SAH,False
+36,occlusion,occurred,SAH,False
+37,clinical event,characterized,hypertension,False

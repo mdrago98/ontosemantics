@@ -1,22 +1,61 @@
+patients
 idiopathic orthostatic hypotension
+physiologic
+biochemical
+evidence
+severe
 autonomic dysfunction
+study
+reduced
+plasma catecholamines
 plasma
-catecholamines
-plasma renin activity
+renin activity
+recumbent
+upright positions
 hypersensitivity
+pressor
+effects
+infused
 norepinephrine
+Treatment
 propanolol
-blood pressure
-oral
+intravenously
+increases
+supine
+upright blood pressure
+individuals
+Chronic
 propranolol
-blood
+elevated
+blood pressures
+individuals
+increases
+observed
 patient
 hypertension
+induced
 propranolol
-withdrawn
-Hemodynamic
-total peripheral resistance
-cardiac
+drug
+tolerated
+side effects
+Treatment
+individuals
+months
+persistence
+pressor
+effect
+decrease
+degree
+response with
+Hemodynamic measurements
+patients
+increase
+peripheral resistance
+cardiac output
+propranolol therapy
+studies
 propranolol
-propranolol
+drug
+patients
+severe
 idiopathic orthostatic hypotension

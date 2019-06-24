@@ -1,8 +1,28 @@
 ,Subject,Action,Object,Negation
-0,actions,studied,cats,False
-1,doses,caused,excitation,False
-2,death,associated,convulsions,False
-3,that,cause,loss,False
-4,cats,showed,actions,False
-5,Signs,included,excessive salivation,False
-6,there,is,excitability,False
+0,actions,studied,flurazepam,False
+1,actions,studied,cats,False
+2,High doses,caused,central excitation,False
+3,High doses,caused,clonic convulsions,False
+4,High doses,caused,general depression,False
+5,death,associated with,lethal dose,False
+6,death,associated with,convulsions,False
+7,rats,revealed,sensitivity,False
+8,rats,revealed,central depression,False
+9,rats,revealed,convulsions,False
+10,rats,revealed,doses,False
+11,rats,revealed,loss of consciousness,False
+12,cats,revealed,sensitivity,False
+13,cats,revealed,central depression,False
+14,cats,revealed,convulsions,False
+15,cats,revealed,doses,False
+16,cats,revealed,loss of consciousness,False
+17,Signs,included,FZP,False
+18,Signs,included,cats,False
+19,Signs,included,salivation,False
+20,interaction,shown,FZP,False
+21,interaction,shown,mice,False
+22,interaction,shown,FZP,False
+23,FZP,protected,function,False
+24,FZP,protected,dose,False
+25,FZP,protected,convulsions,False
+26,convulsions,emerged,doses,False

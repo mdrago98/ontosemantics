@@ -1,42 +1,101 @@
 Primary dysmenorrhea
 syndrome
+characterized
 painful
-uterine
-prostaglandins
+uterine contractility
+hypersecretion
+endometrial prostaglandins
 non-steroidal anti-inflammatory drugs
-myometrial
-cells
+treatment
+in vivo
+in vitro
+myometrial cells
+targets
+relaxant
+effects
 nitric oxide
 NO
+study
+efficacy
 glyceryl trinitrate
 GTN
 NO
 donor
+resolution
 primary dysmenorrhea
+comparison
 diclofenac
 DCF
+patients
+diagnosis
+severe
 primary dysmenorrhea
+consecutive
 menstrual cycles
+cross-over
+controlled design
+patients
+randomized
 DCF
+os
 GTN
+days
 menses
 menstrual cramps
+unendurable
+treatment
+Patients
 DCF
+transdermal
 GTN
+days
+cycle
+participants
 menstrual symptoms
+side-effects
+minutes
+dose
+medication
+day
+cycle
+drugs
+pain intensity score
+DPI
+outcome
+treatments
+reduced
+DPI
 GTN
 DCF
 DCF
+effective
+reducing
 pelvic pain
 GTN
+scores
+stable
+significantly higher
+DFC
 GTN
+DFC
 GTN
+DFC
 Low back pain
+drugs
 Headache
+increased
 GTN
 DCF
+patients
 GTN
 headache
+intolerable
+findings
 GTN
+reduced
+efficacy
+tolerability
+comparison
 DCF
+treatment
 primary dysmenorrhea

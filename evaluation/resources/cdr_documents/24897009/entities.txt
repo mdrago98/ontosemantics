@@ -1,10 +1,20 @@
 Ethambutol
+cause
 optic neuropathy
-polyneuropathy
+axonal polyneuropathy
+clinical
+neurophysiological
+neuroimaging
 man
 visual loss
 paresthesias
+weeks
+exposure to
+supratherapeutic dose
 ethambutol
+vulnerability
+anterior
 visual pathways
 peripheral nerves
 ethambutol
+toxicity

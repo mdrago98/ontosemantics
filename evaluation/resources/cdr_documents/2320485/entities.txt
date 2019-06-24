@@ -1,22 +1,44 @@
 Methyldopa
-antihypertensive
+antihypertensive medication
+generically
+trade
+Aldomet
+prescribed
+adult
+population
 children
-Methyldopa
 autoimmune hemolytic anemia
-methyldopa
-hemolytic anemia
+patients
+drug
+case
+methyldopa-induced hemolytic anemia
 boy
-emergency
-syncope
+emergency department
+near-syncope
 boy
-methyldopa
+treated with
+intravenous methyldopa
+trauma
+admission
+weeks
+presentation
+Evaluation
 hemoglobin
+3+ Coombs' test
 polyspecific anti-human globulin
+monospecific IgG
 reagents
-corticosteroid
+warm reacting
+autoantibody
+Transfusion
+corticosteroid therapy
+recovery
 patient
-Emergency
+Emergency physicians
+treating
 children
 syndrome
+diagnose
+treat
 autoimmune
-hemolytic anemias
+drug-induced hemolytic anemias

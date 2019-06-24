@@ -1,30 +1,56 @@
 piperacillin
+neurotoxicity
+associated with
 piperacillin
+unrecognized
+management
 woman
 end-stage renal disease
-peritoneal
-speech
+continuous ambulatory peritoneal dialysis
+CAPD
+slurred speech
 tremor
+bizarre behavior
+progressive
 mental confusion
+episodes
 generalized tonic-clonic seizure
 GTCS
-piperacillin
+doses
+piperacillin/tazobactam
 bronchiectasis
 secondary infection
-normal plasma
-ammonia
+laboratory data
+plasma electrolyte
+ammonia levels
 leukocytosis
+Neurologic examinations
 dysarthria
+bilateral
+Babinski sign
+Computed tomography
 brain
-antiepileptic
+electroencephalogram
+unremarkable
+antiepileptic agents
 GTCS
+episode
+dose
+piperacillin/tazobactam
+Brain magnetic resonance imaging
+acute infarction
+organic brain lesions
+Initiation
+high-flux hemodialysis
+reversed
+neurologic
+symptoms
+Piperacillin-induced encephalopathy
+uremic
+patients
+neurological manifestations
+CAPD
+removing
 piperacillin
-Brain
-infarction
-brain lesions
-neurologic symptoms
-Piperacillin
-encephalopathy
-piperacillin
-piperacillin
-encephalopathy
+hemodialysis
+piperacillin-induced encephalopathy

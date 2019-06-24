@@ -1,8 +1,15 @@
+report
+case
 methicillin-sensitive Staphylococcus aureus
 MSSA
 bacteremia
-MSSA
-meningitis
+suspected
+MSSA meningitis
+treated with
+high-dose
 daptomycin
+assessed
 serum
-cerebrospinal fluid (CSF)
+cerebrospinal fluid
+CSF
+concentrations

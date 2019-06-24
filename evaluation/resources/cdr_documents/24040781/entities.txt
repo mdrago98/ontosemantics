@@ -1,15 +1,34 @@
+Proteinuria
 complication
 transplant
-mammalian target of rapamycin inhibitors
+patients
+treated
+mammalian
+target
+rapamycin
+inhibitors
 mTOR-i
+clinical suspicion
+histological
+evidence
+investigate
+potential
+alternate
+diagnoses
+acute
+chronic rejection
 interstitial fibrosis
-atrophy
+tubular atrophy
+recurrent
+de novo
 glomerulopathy
+diagnosis
 amyloidosis
-renal
-transplant
+renal-transplant
 patient
-transplant
-monoclonal gammapathy of undetermined significance
+pre-transplant monoclonal gammapathy
+significance
+proteinuria
+conversion
 tacrolimus
 everolimus

@@ -1,0 +1,19 @@
+,Subject,Action,Object,Negation
+0,study,describes,delayed development,False
+1,DBA/2,injected,CY,False
+2,mice,injected,CY,False
+3,effect,assessed,days,False
+4,toxicity,caused,haemorrhagic cystitis,False
+5,that,repaired,days,False
+6,cystitis,characterized,lumen,False
+7,Mast cells,appeared,layers,False
+8,Mast cells,appeared,number,False
+9,microscopy,disclosed,absence,False
+10,vesicles,containing,granules,False
+11,vesicles,observed,cytoplasm,False
+12,cystitis,persisted,DBA/2,False
+13,cystitis,persisted,treatment,False
+14,toxicity,causes,bladder,False
+15,that,observed,C57BL/6,True
+16,pathology,resembles,interstitial cystitis,False
+17,pathology,resembles,humans,False

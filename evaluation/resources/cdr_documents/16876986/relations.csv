@@ -1,10 +1,31 @@
 ,Subject,Action,Object,Negation
 0,motor activity,has,benefits,False
-1,order,elucidate,problem,False
-2,we,studied,effect,False
-3,Wistar rats,subjected,pool,False
-4,it,occurred,observation,False
-5,parameters,showed,changes,False
-6,exercises,decrease,susceptibility,False
-7,changes,induced,seizures,False
-8,changes,ameliorate,course,False
+1,motor activity,has,physical condition,False
+2,motor activity,has,epilepsy,False
+3,Wistar rats,subjected,training,False
+4,Wistar rats,subjected,treadmill,False
+5,Wistar rats,subjected,pool,False
+6,seizures,induced,pilocarpine,False
+7,seizures,induced,control groups,False
+8,latency,measured,status epilepticus,False
+9,latency,measured,motor sign,False
+10,latency,measured,seizures,False
+11,latency,measured,observation,False
+12,period,measured,status epilepticus,False
+13,period,measured,motor sign,False
+14,period,measured,seizures,False
+15,period,measured,observation,False
+16,parameters,showed,changes,False
+17,parameters,showed,susceptibility,False
+18,parameters,showed,seizures,False
+19,parameters,showed,status epilepticus,False
+20,physical exercises,showed,changes,False
+21,physical exercises,showed,susceptibility,False
+22,physical exercises,showed,seizures,False
+23,physical exercises,showed,status epilepticus,False
+24,physical exercises,suggesting,susceptibility,False
+25,physical exercises,suggesting,seizures,False
+26,physical exercises,suggesting,status epilepticus,False
+27,physical exercises,decrease,susceptibility,False
+28,physical exercises,decrease,seizures,False
+29,physical exercises,decrease,status epilepticus,False

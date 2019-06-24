@@ -1,20 +1,46 @@
-Human corticotropin-releasing hormone
+Human
+corticotropin-releasing hormone
 hCRH
 thyrotropin-releasing hormone
 TRH
+stimulate
+ventilation
+administration
 humans
-blind
+placebo-controlled
+single-blind study
 peptides
+central chemosensitivity
+CO2-rebreathing tests
+healthy
 NaCl
 hCRH
 TRH
-NaCl
+administered
+subjects
+rebreathing manoeuvres
+CO2-response curves
+tests
+subject
 hCRH
+CO2-response curve
+left
 hCRH
+effect
 TRH
 hCRH
 TRH
+reduction
 CO2
+threshold
+CO2-response curves
+control group
+identical
+results
+additive effect
+releasing
 hormones
 hypercapnic
+ventilatory response
 humans
+central chemosensitivity

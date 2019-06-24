@@ -1,8 +1,13 @@
-lithium
-serum
-calcium
+reviews
+effect
+chronic
+lithium therapy
+serum calcium level
 parathyroid glands
 pathogenesis
-lithium
+treatment options
+lithium-treated
 patient
+recurrent
 hypercalcemia
+disease process

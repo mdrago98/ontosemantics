@@ -1,20 +1,62 @@
-visual defects
-antiepileptic
-vigabatrin
+study
+investigated
+visual
+defects
+associated with
+antiepileptic drug vigabatrin
 VGB
 people
 epilepsy
-antiepileptic
+grouped
+antiepileptic drug therapy
+current
+no exposure
 VGB
+Groups
+age
+gender
 seizure
-constriction
+frequency
+patients
+assessment
+electrophysiological function
+wide-field multifocal electroretinography
+conventional
+visual field testing
+static perimetry
+Bilateral
+visual field constriction
+patients
 VGB
+patients
 VGB
+patients
+no exposure
 VGB
-retinal
+Assessment
+retinal function
+abnormal
+responses
+current
 VGB
+users
+prior
 VGB
+users
+patients
+exposure to
 VGB
+Bilateral
+visual field abnormalities
+treated
 epilepsy
-retinal toxicity
+population
+drug history
+Assessment
+conventional
+static perimetry
+sensitive
+retinal
+toxicity
+associated with
 VGB

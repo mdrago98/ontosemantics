@@ -1,8 +1,71 @@
-human-induced pluripotent stem cell-derived cardiomyocytes
+Field potential duration
+FPD
+cardiomyocytes
 hiPS-CMs
+QT interval
+electrocardiogram
+K(+) channel
+Ca(2+) channel blocker
+effects
+QT interval
+technique
+multichannel blocker
+potential
+QT
+prolongation
+study
+FPD
 MEA
+Multielectrode array
 hiPS-CMs
+detect
+QT
+prolongation
+induced
+multichannel blockers
 hiPS-CMs
+seeded
 MEA
+FPD
+drug exposure
+vehicle
+drug concentration
 IKr
-IKs
+IKs blockers
+concentration-dependently
+prolonged
+FPD
+FPDc
+Ca(2+) channel blockers
+concentration-dependently
+FPDc
+multichannel blockers
+Amiodarone
+Paroxetine
+Terfenadine
+Citalopram
+prolonged
+FPDc
+concentration
+dependent
+IKr blockers
+Terfenadine
+Citalopram
+Torsade de Pointes
+TdP
+clinical practice
+afterdepolarization
+EAD
+hiPS-CMs
+MEA system
+FPDc
+effects of
+drug candidates
+QT interval
+study
+assay
+detect
+EAD
+drugs
+TdP
+potential

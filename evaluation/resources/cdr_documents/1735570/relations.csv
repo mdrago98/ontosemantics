@@ -1,11 +1,20 @@
 ,Subject,Action,Object,Negation
-0,We,studied,effects,False
-1,lesions,placed,microinjections,False
-2,restimulation,produce,pressor,False
-3,arterial pressure,decreased,rats,False
-4,group,showed,values,False
-5,differences,observed,sham,False
-6,differences,observed,groups,False
-7,neurons,play,role,False
-8,role,maintaining,hypertension,False
-9,role,maintaining,hypertensive,False
+0,unrestrained,studied,effects of,False
+1,unrestrained,studied,rostral ventrolateral medulla,False
+2,unrestrained,studied,mean arterial pressure,False
+3,unrestrained,studied,rats,False
+4,lesions,placed,microinjections,False
+5,lesions,placed,nl,False
+6,restimulation,failed,N-methyl-D-aspartic acid,False
+7,restimulation,failed,pressor response,False
+8,arterial pressure,decreased,day,False
+9,arterial pressure,decreased,rats,False
+10,arterial pressure,decreased,rats,False
+11,ganglionic blocker trimethaphan,caused,reductions,False
+12,ganglionic blocker trimethaphan,caused,mean arterial pressure,False
+13,ganglionic blocker trimethaphan,caused,sham groups,False
+14,trimethaphan-induced hypotension,accompanied,bradycardia,False
+15,trimethaphan-induced hypotension,accompanied,rats,False
+16,trimethaphan-induced hypotension,accompanied,rats,False
+17,neurons,appear,hypertension,False
+18,neurons,appear,rats,False

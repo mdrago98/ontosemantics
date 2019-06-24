@@ -1,6 +1,12 @@
 ,Subject,Action,Object,Negation
-0,Coronary heart disease,leading,causes,False
-1,cerebrovascular disease,leading,causes,False
-2,clinicians,discuss,aspirin,False
-3,clinicians,discuss,adults,False
-4,who,are,risk,False
+0,Coronary heart disease,leading,death,False
+1,Coronary heart disease,leading,United States,False
+2,U.S. Preventive Services Task Force,recommended,aspirin,False
+3,U.S. Preventive Services Task Force,recommended,adults,False
+4,U.S. Preventive Services Task Force,recommended,coronary heart disease,False
+5,clinicians,recommended,aspirin,False
+6,clinicians,recommended,adults,False
+7,clinicians,recommended,coronary heart disease,False
+8,clinicians,discuss,aspirin,False
+9,clinicians,discuss,adults,False
+10,clinicians,discuss,coronary heart disease,False

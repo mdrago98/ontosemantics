@@ -1,9 +1,20 @@
 Doxorubicin
 DOX
-cancer
+effective
+anti-cancer therapeutic
+associated with
+acute
+late-stage
+cardiotoxicity
 Children
-DOX
+sensitive
+DOX-induced
 heart failure
+impact
 p53
 inhibition
+acute
+late-stage
 DOX
+cardiotoxicity
+juvenile model

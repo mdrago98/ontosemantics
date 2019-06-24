@@ -1,46 +1,70 @@
 Cisplatin
-kidney
+treatment
+chemotherapies
+drug
+induce
+acute kidney injury
+negatively
 renal function
-serum
+serum levels
 creatinine
 urea
-acute tubular necrosis
+increase
+acute tubular necrosis score
+up-regulate
+cytokines
 IL-1β
 TNF-α
 kinin B2 receptor
-inflammation process
+associated with
+inflammation
+process
 regulation
-expression
+cytokine
+deletion
+improvement
 diabetic nephropathy
+status
 kinin B2 receptor
+cisplatin-induced acute kidney injury
+kinin B2 receptor
+knockout mice
 cisplatin
-kidney
-B2 receptor
-mice
+WT mice
+treated with
+B2 receptor antagonist
 cisplatin
-mice
-B2 receptor
-antagonist
-cisplatin
-B2 receptor
-mice
-mice
+administration
+B2 receptor-deficient mice
+sensitive
+drug
+WT mice
+reduced weight loss
+preservation
 kidney function
 down regulation
-acute tubular necrosis
-kinin B2 receptor
-antagonist
-serum
-creatinine
-blood
-urea
+inflammatory
+cytokines
+acute
+treatment
+kinin B2 receptor antagonist
+reduced
+levels
+serum creatinine
+blood urea
 cisplatin
+administration
+data
 kinin B2 receptor
-cisplatin
-kidney
+cisplatin-induced acute kidney injury
 necrotic process
 expression
+inflammatory
+cytokines
 renal function
-kinin B2 receptor
-antagonist
-cisplatin
+kinin B2 receptor antagonist
+treatment
+amelioration
+nephrotoxicity
+induced
+cisplatin therapy

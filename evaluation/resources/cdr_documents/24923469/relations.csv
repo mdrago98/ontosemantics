@@ -1,5 +1,11 @@
 ,Subject,Action,Object,Negation
-0,injury,occurs,%,False
-1,injury,occurs,%,False
-2,Acute kidney injury (AKI),increases,mortality,False
-3,there,is,association,False
+0,Acute kidney injury,occurs,Intensive Care Unit,False
+1,standard operating procedures,was,study,False
+2,standard operating procedures,was,adherence,False
+3,standard operating procedures,was,guidelines,False
+4,standard operating procedures,was,nephrotoxic antibiotics,False
+5,standard operating procedures,was,AKI,False
+6,standard operating procedures,is,adherence,False
+7,standard operating procedures,is,guidelines,False
+8,standard operating procedures,is,nephrotoxic antibiotics,False
+9,standard operating procedures,is,AKI,False

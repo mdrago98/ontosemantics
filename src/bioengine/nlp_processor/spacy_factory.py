@@ -1,13 +1,10 @@
 import spacy
-from benepar.spacy_plugin import BeneparComponent
-from spacy.tokens import Doc, Span
+from spacy.tokens import Doc
 
-from settings import Config
-from src.bioengine.nlp_processor.extensions import BiologicalNamedEntity
+from src.settings import Config
 from os.path import join
 
-from src.bioengine.nlp_processor.extensions.svo import get_noun_verb_chunks, \
-    get_noun_verb_noun_phrases_from_sentence
+from src.bioengine.nlp_processor.extensions.svo import get_noun_verb_chunks
 from abc import ABC, abstractmethod
 
 
@@ -39,15 +36,15 @@ class MedicalSpacyFactory(SpacyI):
         if config is None:
             config = Config().get_property('spacy')
         disable = config['pipeline']['disable'] if 'disable' in config['pipeline'] else []
-        nlp = spacy.load('xx_ent_wiki_sm', disable=disable)
-        for stop_word in MedicalSpacyFactory._load_stop():
-            lexeme = nlp.vocab[stop_word]
-            lexeme.is_stop = True
-        # nlp.vocab.vectors.from_glove("/home/drago/thesis/BioSentVec_PubMed_MIMICIII-bigram_d700.bin")
-        if enable_ner:
-            nlp.add_pipe(BiologicalNamedEntity(nlp))
-        if enable_benepar:
-            nlp.add_pipe(BeneparComponent("benepar_en2"))
+        nlp = spacy.load('en_core_sci_md')
+        # for stop_word in MedicalSpacyFactory._load_stop():
+        #     lexeme = nlp.vocab[stop_word]
+        #     lexeme.is_stop = True
+        # # nlp.vocab.vectors.from_glove("/home/drago/thesis/BioSentVec_PubMed_MIMICIII-bigram_d700.bin")
+        # if enable_ner:
+        #     nlp.add_pipe(BiologicalNamedEntity(nlp))
+        # if enable_benepar:
+        #     nlp.add_pipe(BeneparComponent("benepar_en2"))
         Doc.set_extension('noun_verb_chunks', getter=get_noun_verb_chunks, force=True)
         return nlp
 

@@ -1,12 +1,28 @@
+effects of
+6-hour
+infusion
 haloperidol
 serum prolactin
 luteinizing hormone
 LH
+levels
+group
+male
+subjects
+infusions
+study
 pituitary
+responses
 LH-releasing hormone
 LH-RH
-NaCl
+Control
+patients
+infusions
+NaCl solution
 haloperidol
+infusions
 hyperprolactinemia
-pituitary
+pituitary response
 LH-RH
+responses
+control subjects

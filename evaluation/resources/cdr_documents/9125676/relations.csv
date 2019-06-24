@@ -1,33 +1,76 @@
 ,Subject,Action,Object,Negation
-0,study,evaluated,efficacy,False
-1,patients,treated,d,False
-2,patients,received,d,False
-3,patients,received,l,False
-4,sotalol,prevented,induction,False
-5,patients,discharged,drug,False
-6,ventricular tachyarrhythmia,remained,patients,False
-7,patients,tolerate,mg,True
-8,patients,had,torsades de pointes,False
-9,length,identified,patients,False
-10,length,identified,risk,False
-11,parameters,identified,patients,False
-12,parameters,identified,risk,False
-13,dose,was,patients,False
-14,sotalol,was,patients,False
-15,factors,associated,development,False
-16,factors,were,appearance,False
-17,patients,had,recurrence,False
-18,patient,had,torsades de pointes,False
-19,patient,had,l,False
-20,patient,had,years,False
-21,Torsades de pointes,occurred,treatment,False
-22,changes,identify,subgroup,False
-23,changes,identify,risk,False
-24,sotalol,identify,subgroup,False
-25,sotalol,identify,risk,False
-26,parameters,identify,patients,True
-27,parameters,identify,risk,True
-28,sotalol,identify,patients,True
-29,sotalol,identify,risk,True
-30,rates,are,suppression,False
-31,sotalol,be,value,False
+0,study,evaluated,clinical efficacy,False
+1,study,evaluated,incidence,False
+2,study,evaluated,torsades de pointes,False
+3,study,evaluated,torsades,False
+4,study,evaluated,de pointes,False
+5,study,evaluated,patients,False
+6,study,evaluated,ventricular tachyarrhythmias,False
+7,patients,received,coronary artery disease,False
+8,patients,received,dilated cardiomyopathy,False
+9,patients,received,ventricular tachycardia,False
+10,patients,received,oral d,False
+11,patients,received,induction,False
+12,patients,received,ventricular tachyarrhythmia,False
+13,loading,performed,d,False
+14,patients,prevented,ventricular tachycardia,False
+15,patients,prevented,drug,False
+16,l-sotalol,prevented,ventricular tachycardia,False
+17,l-sotalol,prevented,drug,False
+18,induction,prevented,ventricular tachycardia,False
+19,induction,prevented,drug,False
+20,induction,discharged,ventricular tachycardia,False
+21,induction,discharged,drug,False
+22,Induction,prevented,ventricular tachyarrhythmia,False
+23,Induction,prevented,patients,False
+24,Induction,prevented,patients,False
+25,l-sotalol,prevented,ventricular tachyarrhythmia,False
+26,l-sotalol,prevented,patients,False
+27,l-sotalol,prevented,patients,False
+28,ventricular tachyarrhythmia,prevented,ventricular tachyarrhythmia,False
+29,ventricular tachyarrhythmia,prevented,patients,False
+30,ventricular tachyarrhythmia,prevented,patients,False
+31,patients,prevented,ventricular tachyarrhythmia,False
+32,patients,prevented,patients,False
+33,patients,prevented,patients,False
+34,ventricular tachyarrhythmia,remained,patients,False
+35,patients,remained,patients,False
+36,patients,had,torsades de pointes,False
+37,patients,had,oral treatment,False
+38,sinus-cycle length,identified,patients,False
+39,sinus-cycle length,identified,risk,False
+40,sinus-cycle length,identified,torsades de pointes,False
+41,Risk factors,were,development,False
+42,Risk factors,were,torsades de pointes,False
+43,patients,had,follow-up,False
+44,patients,had,nonfatal ventricular tachycardia recurrence,False
+45,patients,had,follow-up,False
+46,patients,had,nonfatal ventricular tachycardia recurrence,False
+47,patient,had,stable cardiac disease,False
+48,patient,had,torsades,False
+49,patient,had,de pointes,False
+50,patient,had,years,False
+51,patient,had,treatment,False
+52,Torsades de pointes,occurred,treatment,False
+53,Torsades de pointes,occurred,doses,False
+54,Torsades de pointes,occurred,oral d,False
+55,cycle length,identify,surface,False
+56,cycle length,identify,dose,False
+57,cycle length,identify,subgroup,False
+58,cycle length,identify,patients,False
+59,cycle length,identify,risk,False
+60,cycle length,identify,torsades de pointes,False
+61,l-sotalol,identify,surface,False
+62,l-sotalol,identify,dose,False
+63,l-sotalol,identify,subgroup,False
+64,l-sotalol,identify,patients,False
+65,l-sotalol,identify,risk,False
+66,l-sotalol,identify,torsades de pointes,False
+67,parameters,identify,application,True
+68,parameters,identify,patients,True
+69,parameters,identify,increased risk,True
+70,parameters,identify,torsades de pointes,True
+71,l-sotalol,identify,application,True
+72,l-sotalol,identify,patients,True
+73,l-sotalol,identify,increased risk,True
+74,l-sotalol,identify,torsades de pointes,True

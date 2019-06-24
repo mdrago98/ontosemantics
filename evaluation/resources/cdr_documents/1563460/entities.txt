@@ -1,3 +1,10 @@
-thoracic
-hematomyelia
-anticoagulant
+case
+thoracic hematomyelia
+secondary to
+anticoagulant therapy
+Clinical features
+cases
+high index
+suspicion
+diagnostic procedure
+decompressive surgery

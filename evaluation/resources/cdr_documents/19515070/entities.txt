@@ -1,29 +1,66 @@
-Liver
+Liver transplantation
+acutely
 ill
-fulminant liver failure
-kidney
+patients
+fulminant
+liver failure
+intraoperative
+postoperative
+risks
+increased
+presence
+concomitant
+acute kidney injury
+AKI
+intraoperative dialysis
 transplant
-anticoagulant
-pathways
-fulminant liver failure
+derangements
+procoagulant
+anticoagulant pathways
+fulminant
+liver failure
+difficulties
 anticoagulation
-anticoagulation
+dialysis
+operating room
+Systemic anticoagulation
+unsafe
+regional
 citrate
-anticoagulation
+absence
+functional
 liver
-citrate toxicity
-Citrate
+risk
+citrate
+toxicity
+Citrate dialysate
+dialysate
 citric acid
 anticoagulation
+patients
 heparin
-citrate
-acetaminophen
-fulminant liver failure
-liver
-citrate
+regional citrate
+female
+acetaminophen-induced fulminant
+liver failure
+AKI
+intraoperative
+dialytic
+liver transplantation
+anticoagulated
+citrate dialysate
+procedure
 patient
-citrate toxicity
+procedure
+signs
+citrate
+toxicity
+adequate
 anticoagulation
-Citrate
-liver
-fulminant liver failure
+patency
+dialysis circuit
+Citrate dialysate
+intradialytic support
+liver transplantation
+fulminant
+liver failure

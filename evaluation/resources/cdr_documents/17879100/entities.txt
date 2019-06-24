@@ -1,30 +1,59 @@
 Acute tubulo-interstitial nephritis
 ATIN
 acute renal failure
-interstitial
+insults
+immune complex-mediated tubulo-interstitial injury
+drugs
 non-steroidal anti-inflammatory drugs
 NSAIDs
+frequent
+cause
+entity
 ATIN
+under-diagnosed
+symptoms
+spontaneously
+medication
 boy
-acute renal failure
-aortic valve
+acute renal failure 2
+weeks
+aortic valve surgery
 aspirin
+surgery
 ibuprofen
 fever
-emergency
+week
+presentation
+emergency department feeling quite
 ill
-blood
-urea
-nitrogen
+blood urea nitrogen
+BUN
+concentration
 creatinine
-serum potassium of 8.7 mEq/l
-kidney
-infiltrate
+serum potassium
+Dialysis
+initiated
+kidney biopsy
+inflammatory infiltrate
+consistent with
 ATIN
-basement membrane
+tubular basement membrane
+TBM
 granular
+polyclonal IgG
+C3
+dialysis
+weeks
+treated
 steroids
+months
 renal
-NSAIDs
+disappearance
+proteinuria
+year
 ATIN
+deposits
 granular
+immune complex
+TBM
+glomeruli

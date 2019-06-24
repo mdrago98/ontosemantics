@@ -1,9 +1,22 @@
 ,Subject,Action,Object,Negation
-0,S-53482,are,N,False
+0,S-53482,are,N-phenylimide herbicides,False
 1,S-53482,are,embryolethality,False
-2,S-53482,are,teratogenicity,False
-3,S-53482,are,ventricular septal defects,False
-4,S-53482,are,growth retardation,False
-5,S-53482,are,ribs,False
-6,compounds,induce,toxicity,False
-7,compounds,induce,route,False
+2,S-53482,are,rats,False
+3,ventricular septal defects,are,N-phenylimide herbicides,False
+4,ventricular septal defects,are,embryolethality,False
+5,ventricular septal defects,are,rats,False
+6,ventricular septal defects,produced,embryolethality,False
+7,ventricular septal defects,produced,rats,False
+8,compounds,was,study,False
+9,compounds,was,toxicity,False
+10,compounds,was,dermal route,False
+11,compounds,was,occupational exposure,False
+12,compounds,was,health risks,False
+13,compounds,investigate,toxicity,False
+14,compounds,investigate,dermal route,False
+15,compounds,investigate,occupational exposure,False
+16,compounds,investigate,health risks,False
+17,compounds,induce,toxicity,False
+18,compounds,induce,dermal route,False
+19,compounds,induce,occupational exposure,False
+20,compounds,induce,health risks,False

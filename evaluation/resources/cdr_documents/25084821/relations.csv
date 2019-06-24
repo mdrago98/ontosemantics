@@ -1,7 +1,8 @@
 ,Subject,Action,Object,Negation
 0,Quetiapine,is,derivative,False
-1,which,has,risk,False
-2,risk,causing,blood dyscrasias,False
-3,There,are,case,False
-4,that,developed,neutropenia,False
-5,that,developed,treatment,False
+1,Quetiapine,is,clozapine,False
+2,Quetiapine,is,risk,False
+3,Quetiapine,is,blood dyscrasias,False
+4,risk factors,are,case reports,False
+5,risk factors,are,side effect,False
+6,risk factors,are,quetiapine,False

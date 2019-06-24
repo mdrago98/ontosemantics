@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,authors,present,case,False
+1,development,associated,amiodarone,False
+2,Consistent,occurred,context,False
+3,case,occurred,context,False
+4,factors,including,hypokalemia,False
+5,prolongation,prompted,episode,False
+6,exacerbates,acquired,TdP.,False
+7,tone,resulted,proarrhythmia,False
+8,irrigation,induce,TdP,True
+9,irrigation,induce,hypokalemia,True
+10,irrigation,induce,hypomagnesemia,True

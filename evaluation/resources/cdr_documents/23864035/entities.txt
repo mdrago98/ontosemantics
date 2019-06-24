@@ -1,10 +1,67 @@
-Bortezomib
+Bortezomib (bort)-dexamethasone
+dex
+effective
+therapy
+relapsed/refractory
 multiple myeloma
+MM
+retrospective study
+investigated
+combination
 bort
+days
+weeks
+dex
+day
+day
 bort
-stem cell
-bort
-bort
+salvage treatment
+patients
+MM
+autologous stem cell transplantation
+conventional chemotherapy
+therapy
+patients
+immunomodulatory drugs
+therapy
+bort-dex
+bort-dex cycles
+cycles
+intention-to-treat
+patients
+partial response
+CR
+partial response
+Median
+response
+time
+treatment-free interval
+months
+relevant
+adverse event
 peripheral neuropathy
-bort
+patients
+grade II
+grade III
+treatment discontinuation
+months
+median time
+progression
+progression-free survival
+PFS
+overall survival
+OS
+months
+Prolonged
+PFS
+OS
+patients
+CR
+bort-dex
+therapy
+Bort-dex
+effective
+salvage treatment
+MM
+patients
 relapse

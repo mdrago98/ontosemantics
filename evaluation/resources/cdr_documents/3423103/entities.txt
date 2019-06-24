@@ -1,21 +1,58 @@
+effects of
+microinjection
 clonidine
+region
+adjacent
+ventrolateral
+surface
 medulla oblongata
 cardiovascular function
-urethane
-rats
+assessed
+urethane-anesthetized rats
+Intramedullary
+administration
 clonidine
+saline vehicle
+dose-dependent
+decrease
 arterial pressure
-heart
+heart rate
+clonidine-induced hypotension
+antagonized
+spinal transection
+bilateral
+vagotomy
+clonidine-induced bradycardia
+antagonized
+bilateral
+vagotomy
+spinal transection
+destruction
+spinal 5-HT nerves
+bilateral
+spinal
+5,7-dihydroxytryptamine
+magnitude
+vasodepressor
+bradycardiac
+responses
 clonidine
-clonidine
-bradycardia
-5-HT
-nerves
-clonidine
+microinjected
+area near
+ventrolateral
+surface
 medulla oblongata
 rats
-pathway
+data
+bulbospinal serotonergic pathway
 development
-clonidine
+clonidine-induced hypotension
 bradycardia
+induced
+hypotension
+decrease
+sympathetic efferent activity
+induced
 bradycardia
+increase
+vagal efferent activity

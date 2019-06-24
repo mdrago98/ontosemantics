@@ -1,43 +1,88 @@
-delayed development
+study
+delayed
+development
+severe
 bladder
 pathology
+susceptible
+strain
 mice
+DBA/2
+resistant strain
+C57BL/6
+treated with
+dose
 cyclophosphamide
 CY
-mice
+Inbred DBA/2
+C57BL/6
+female
+injected
 CY
+effect
+drug
 bladder
+assessed
+days
+light microscopy
+staining procedures
+days
+conventional
+electron microscopy
 CY
+toxicity
 haemorrhagic cystitis
+strains
+repaired
+days
+days
 CY
+injection
+ulcerous
+non-ulcerous forms
 chronic cystitis
-mice
-mice
-cystitis
+DBA/2 mice
+C57BL/6 mice
+Delayed cystitis
 infiltration
+transepithelial passage
 lumen
 inflammatory cells
+exfoliation
 urothelium
 Mast cells
-muscular
-layers
+connective
+muscular layers
 bladder
-mice
-mice
+DBA/2 mice
+C57BL/6 mice
+untreated controls
+Electron microscopy
+absence
+discoidal vesicles
+cytoplasm
+surface cells
+abnormal
 vesicles
+dark granules
 cytoplasm
 cells
-vesicles
-cytoplasm
-cells
-layers
-cystitis
-mice
+epithelial layers
+Delayed cystitis
+DBA/2 mice
+treatment
+results
+delayed
+toxicity
 CY
-mice
+female
+DBA/2 mice
 bladder
 pathology
-mice
+C57BL/6 mice
 pathology
 interstitial cystitis
 humans
+animal model
+studies
+disease

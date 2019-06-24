@@ -1,36 +1,68 @@
+effects of
 progesterone
-bupivacaine
-rat heart
-myocyte
+treatment
+bupivacaine arrhythmogenicity
+beating
+rat
+heart
+cultures
+anesthetized
 rats
 bupivacaine
+concentration
 bupivacaine
-rat heart
+beating
+rat
+heart
 myocyte
-progesterone
-HCl
+cultures
+arrhythmic
+effect
+1-hour progesterone
+exposure
 myocyte
-contractile
-rhythm
+contractile rhythm
+concentration
 progesterone
+significant
+reduction
+AD50
 bupivacaine
 Estradiol
+treatment
+increased
+arrhythmogenicity
 bupivacaine
 myocyte
+cultures
 progesterone
 progesterone
-estradiol
-bupivacaine
+estradiol effects
+bupivacaine arrhythmogenicity
+potentiated
 epinephrine
-progesterone
+Chronic progesterone pretreatment
+days
+increase
 bupivacaine
-pentobarbital
-rats
+arrhythmogenicity
+intact
+pentobarbital-anesthetized rats
+decrease
 arrhythmia
-rats
+control nonprogesterone-treated rats
+mean +/-
+results
+study
 progesterone
+potentiate
 bupivacaine
-bupivacaine
-arrhythmia
+in vivo
+in vitro
+Potentiation
+bupivacaine arrhythmia
 myocyte
+cultures
+effect
 myocyte
+level

@@ -1,4 +1,8 @@
 ,Subject,Action,Object,Negation
-0,Apnea,occur,seizures,False
-1,Data,regarding,pattern,False
-2,we,generate,information,False
+0,Apnea,known,seizures,False
+1,Apnea,known,adults,False
+2,systematic studies,known,seizures,False
+3,systematic studies,known,adults,False
+4,systematic studies,are,adults,False
+5,Data,are,defects,False
+6,Data,are,interictal periods,False

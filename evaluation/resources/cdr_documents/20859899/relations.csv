@@ -1,10 +1,14 @@
 ,Subject,Action,Object,Negation
-0,woman,transferred,loss,False
-1,rhythm,restored,correction,False
-2,cause,be,doses,False
-3,cause,be,addition,False
-4,case,is,example,False
-5,example,causing,cardiac events,False
-6,patients,using,ARB,False
-7,patients,using,combination,False
-8,who,have,disturbance,False
+0,woman,transferred,history,False
+1,woman,transferred,coronary artery bypass grafting,False
+2,woman,transferred,emergency room,False
+3,woman,transferred,loss of consciousness,False
+4,woman,transferred,bradycardia,False
+5,woman,transferred,hyperkalemia,False
+6,myocardial infarction,transferred,history,False
+7,myocardial infarction,transferred,coronary artery bypass grafting,False
+8,myocardial infarction,transferred,emergency room,False
+9,myocardial infarction,transferred,loss of consciousness,False
+10,myocardial infarction,transferred,bradycardia,False
+11,myocardial infarction,transferred,hyperkalemia,False
+12,sinus rhythm,restored,correction,False

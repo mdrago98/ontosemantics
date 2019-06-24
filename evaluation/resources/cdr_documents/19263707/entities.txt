@@ -1,28 +1,48 @@
-thyroid
+Anti-thyroid drugs
 carbimazole
 propylthiouracil
 PTU
+prescribed
+treatment
 hyperthyroidism
+side effects
+antithyroid medications
 Antineutrophil cytoplasmic antibody
-vasculitis
+(ANCA)--associated vasculitis
 adverse effect
+antithyroidmedications
 patient
 Graves' disease
 ANCA
 carbimazole
+induced
 vasculitis
+episode
+vasculitic
 skin rash
-joint
-arthritis
+associated with
+joint arthritis
 pyrexia
 parotiditis
 renal
-pulmonary involvement
+pulmonary
+involvement
+neurological
+evaluation
+difficulty
 squatting
+position
+suspected
 myositis
 Carbimazole
 methimazole
+incidence
 ANCA
+side effects
+PUT
 ANCA
 carbimazole
+induced
 vasculitis
+case
+India

@@ -1,12 +1,12 @@
 ,Subject,Action,Object,Negation
-0,We,report,syncope,False
-1,We,report,girl,False
-2,We,report,bradycardia,False
-3,girl,following,administration,False
-4,patient,collapsed,inciting,True
-5,patient,regained,consciousness,False
-6,abnormality,was,bradycardia,False
-7,she,admitted,observation,False
-8,bradycardia,lasted,~2,False
-9,workup,revealed,abnormality,True
-10,we,expand,use,False
+0,patient,collapsed,sedation,False
+1,patient,collapsed,inciting,True
+2,patient,regained,consciousness,False
+3,no injury,regained,consciousness,False
+4,bradycardia,lasted,abnormality,True
+5,cardiac workup,lasted,abnormality,True
+6,cardiac workup,revealed,abnormality,True
+7,outcomes,Unanticipated,sedatives,False
+8,outcomes,Unanticipated,administration,False
+9,outcomes,witnessed,sedatives,False
+10,outcomes,witnessed,administration,False

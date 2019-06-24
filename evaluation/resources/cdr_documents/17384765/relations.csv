@@ -1,7 +1,35 @@
 ,Subject,Action,Object,Negation
-0,pressure,prescribe,chelation,False
-1,pressure,prescribe,blood,False
-2,chelation,improves,outcomes,False
-3,agents,have,adverse effects,False
-4,that,affect,brain development,False
-5,that,affect,absence,False
+0,studies,evaluated,cognitive outcomes,False
+1,studies,evaluated,children,False
+2,studies,evaluated,adverse effects,False
+3,studies,evaluated,brain development,False
+4,studies,evaluated,absence,False
+5,studies,evaluated,Pb,False
+6,chelation,evaluated,cognitive outcomes,False
+7,chelation,evaluated,children,False
+8,chelation,evaluated,adverse effects,False
+9,chelation,evaluated,brain development,False
+10,chelation,evaluated,absence,False
+11,chelation,evaluated,Pb,False
+12,agents,evaluated,cognitive outcomes,False
+13,agents,evaluated,children,False
+14,agents,evaluated,adverse effects,False
+15,agents,evaluated,brain development,False
+16,agents,evaluated,absence,False
+17,agents,evaluated,Pb,False
+18,chelation,improves,cognitive outcomes,False
+19,chelation,improves,children,False
+20,chelation,improves,adverse effects,False
+21,chelation,improves,brain development,False
+22,chelation,improves,absence,False
+23,chelation,improves,Pb,False
+24,agents,improves,cognitive outcomes,False
+25,agents,improves,children,False
+26,agents,improves,adverse effects,False
+27,agents,improves,brain development,False
+28,agents,improves,absence,False
+29,agents,improves,Pb,False
+30,agents,have,adverse effects,False
+31,agents,have,brain development,False
+32,agents,have,absence,False
+33,agents,have,Pb,False

@@ -1,10 +1,46 @@
 ,Subject,Action,Object,Negation
-0,that,was,month,False
-1,Analysis,revealed,disturbances,False
-2,aspect,was,hypersensitivity,False
-3,velocity,was,groups,False
-4,disturbances,detected,rats,False
-5,excitability,depressed,region,False
-6,characteristics,suggest,existence,False
-7,findings,represent,indication,False
-8,ingestion,have,adverse effects,False
+0,Barium-supplemented Long-Evans,characterized,hypertension,False
+1,Barium-supplemented Long-Evans,characterized,month,False
+2,Barium-supplemented Long-Evans,characterized,barium,False
+3,Barium-supplemented Long-Evans,characterized,treatment,False
+4,rats,characterized,hypertension,False
+5,rats,characterized,month,False
+6,rats,characterized,barium,False
+7,rats,characterized,treatment,False
+8,mineral fortified water,characterized,hypertension,False
+9,mineral fortified water,characterized,month,False
+10,mineral fortified water,characterized,barium,False
+11,mineral fortified water,characterized,treatment,False
+12,Analysis,revealed,excitability,False
+13,Analysis,revealed,months,False
+14,Analysis,revealed,barium-induced disturbances,False
+15,Analysis,revealed,cardiovascular system,False
+16,actions,revealed,response,False
+17,actions,revealed,ketamine,False
+18,actions,revealed,sodium pentobarbital,False
+19,actions,revealed,barium-treated rats,False
+20,actions,revealed,anesthetic,False
+21,actions,revealed,generalized anesthetic response,False
+22,actions,linked,sodium pentobarbital,False
+23,actions,linked,barium-treated rats,False
+24,actions,linked,anesthetic,False
+25,actions,linked,generalized anesthetic response,False
+26,pathophysiologic,manifest,barium,False
+27,pathophysiologic,manifest,anesthetic,False
+28,changes,manifest,barium,False
+29,changes,manifest,anesthetic,False
+30,disturbances,detected,myocardial energy metabolism,False
+31,disturbances,detected,barium-exposed rats,False
+32,disturbances,detected,contractile element shortening velocity,False
+33,excitability,depressed,cardiac conduction system,False
+34,excitability,depressed,atrioventricular nodal region,False
+35,excitability,depressed,hearts,False
+36,excitability,depressed,barium-exposed rats,False
+37,cardiac contractility,suggest,cardiovascular system,False
+38,cardiac contractility,suggest,sodium pentobarbital,False
+39,cardiac contractility,suggest,cardiomyopathic disorder,False
+40,cardiac contractility,suggest,chronic barium exposure,False
+41,barium ingestion,represent,adverse effects,False
+42,barium ingestion,represent,cardiovascular system,False
+43,barium ingestion,have,adverse effects,False
+44,barium ingestion,have,cardiovascular system,False

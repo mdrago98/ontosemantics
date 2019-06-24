@@ -1,12 +1,18 @@
+Neuroinflammation
 seizures
+epileptogenesis
 CCR2
+chemokine receptor
 CCL2
-monocyte
-infiltration
+interaction
+monocyte infiltration
+neuroinflammatory cascade
 brain pathologies
 CCR2
 CCL2
 expression
 status epilepticus
 SE
+induced
 pilocarpine
+injection

@@ -1,2 +1,7 @@
+compared
+efficacy
+safety
 olanzapine
-mania
+placebo
+treatment
+acute bipolar mania

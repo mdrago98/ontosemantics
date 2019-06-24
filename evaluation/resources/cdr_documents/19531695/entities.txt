@@ -1,3 +1,5 @@
-delirium
-drug interaction with
+case
+flecainide-induced delirium
+associated with
+pharmacokinetic drug interaction
 paroxetine

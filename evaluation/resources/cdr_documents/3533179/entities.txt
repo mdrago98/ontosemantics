@@ -1,42 +1,99 @@
-bone marrow
+Patients
+bone marrow transplantation
+immunosuppressed
+dose
 cyclophosphamide
 CYA
-patient
+patient's weight
+high doses
 CYA
+cardiotoxicity
+risk factors
 development
-body
+cardiotoxicity
+chemotherapeutic agent
+toxicity
+dose
+retrospectively
+calculated
+dose
 CYA
+patients
 transplanted
+institution
+incidence
 CYA
-body
+cardiotoxicity
+correlated
+dose
+patients
 CYA
-grafting
+days
+preparation
+marrow grafting
 transplants
 aplastic anemia
 Wiskott-Aldrich syndrome
-severe combined immunodeficiency syndrome
-symptoms and signs
+immunodeficiency syndrome
+patients
+symptoms
+signs
+consistent with
 CYA
+cardiotoxicity
+doses
 CYA
+patients
 died
 congestive heart failure
+dose
 CYA
-body
+body surface area
+calculated
+patients
+patients
+groups
+daily
 CYA
+dose
+Group 1
 CYA
+Group 2
 CYA
+Cardiotoxicity
 CYA
+patients
+Group 1
+patients
+Group 2
 Congestive heart failure
 death
+patients
+Group 1 v 6/52
+patients
+Group 2
+rate
 engraftment
-evaluable
+patients
+groups
 CYA
+cardiotoxicity
 CYA
-body
+dosage
+body surface area
+patients
 aplastic anemia
 immunodeficiencies
-bone marrow
-grafting
+bone marrow grafting
 CYA
+dose
+days
+incidence
+cardiotoxicity
+patients
 CYA
-body
+dosage
+weight
+study
+drug toxicity
+dose

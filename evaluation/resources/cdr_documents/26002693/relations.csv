@@ -1,12 +1,28 @@
 ,Subject,Action,Object,Negation
-0,exposures,associated,chronic myeloid leukemia,False
-1,CML,has,association,False
-2,chemicals,shown,capacity,True
-3,metabolites,tested,reality,False
-4,order,conduct,testing,False
-5,order,conduct,regard,False
-6,We,used,radiation,False
-7,radiation,develop,control,False
-8,Results,described,translocations,False
-9,agent,induce,t(9:22,False
-10,that,required,studies,False
+0,Epidemiological studies,suggest,"1,3-butadiene",False
+1,Epidemiological studies,suggest,humans,False
+2,Epidemiological studies,suggest,chronic myeloid leukemia,False
+3,exposures,suggest,"1,3-butadiene",False
+4,exposures,suggest,humans,False
+5,exposures,suggest,chronic myeloid leukemia,False
+6,exposures,associated with,humans,False
+7,exposures,associated with,chronic myeloid leukemia,False
+8,CML,has,association,False
+9,CML,has,ionizing radiation,False
+10,CML,has,associations,False
+11,CML,has,chemical exposures,False
+12,reports,has,association,False
+13,reports,has,ionizing radiation,False
+14,reports,has,associations,False
+15,reports,has,chemical exposures,False
+16,reports,questioned,associations,False
+17,reports,questioned,chemical exposures,False
+18,chemicals,shown,capacity,True
+19,"1,3-butadiene metabolites",proposed,epidemiological reports,False
+20,reality,proposed,epidemiological reports,False
+21,"1,3-butadiene metabolites",tested,epidemiological reports,False
+22,reality,tested,epidemiological reports,False
+23,agent,demonstrate,frequencies,False
+24,agent,induce,frequencies,False
+25,Conditions,discussed,studies,False
+26,Conditions,discussed,"1,3-butadiene",False

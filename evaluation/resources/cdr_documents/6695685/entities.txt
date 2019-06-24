@@ -1,10 +1,31 @@
+study
+frequency
+atrioventricular (AV)
+accelerated
+junctional
+patients
+oral verapamil
+Accelerated
+junctional
+AV
 dissociation
-junctional rhythms
-oral
-verapamil
-junctional rhythms
-AV dissociation
+frequent
+patients
+supraventricular tachyarrhythmias
+AV nodal reentry
 Verapamil
+administration
+patients
+asymptomatic
+increase
+activity
+junctional pacemakers
+patients
 chest pain syndromes
 verapamil
-junctional rhythms
+increased
+frequency
+junctional
+suppressed
+escape rhythms
+physiologically

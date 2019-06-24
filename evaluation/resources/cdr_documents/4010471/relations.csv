@@ -1,7 +1,21 @@
 ,Subject,Action,Object,Negation
 0,controversy,existed,years,False
-1,mice,derived,F2,False
-2,mice,derived,design,False
-3,Mice,had,alpha,False
-4,Mice,had,hippocampus,False
-5,Mice,had,mice,False
+1,controversy,existed,relevance,False
+2,controversy,existed,nicotinic receptor,False
+3,controversy,existed,alpha-bungarotoxin binding,False
+4,F2,Using,mice,False
+5,F2,Using,genetic design,False
+6,F2,Using,nicotine-induced seizures,False
+7,relationship,Using,mice,False
+8,relationship,Using,genetic design,False
+9,relationship,Using,nicotine-induced seizures,False
+10,F2,derived,genetic design,False
+11,relationship,found,nicotine-induced seizures,False
+12,Mice,had,effects,False
+13,Mice,had,nicotine,False
+14,Mice,had,hippocampus,False
+15,Mice,had,seizure,False
+16,binding sites,binding sites,mice,False
+17,binding sites,affected,mice,False
+18,binding sites,affected,treatment,False
+19,binding sites,affected,dithiothreitol,False

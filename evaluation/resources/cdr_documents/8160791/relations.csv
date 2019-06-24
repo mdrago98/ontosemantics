@@ -1,19 +1,74 @@
 ,Subject,Action,Object,Negation
-0,Studies,examine,nephropathy,False
-1,Studies,examine,mechanisms,False
-2,rats,induced,reduction,False
-3,reduction,observed,nephropathy,False
-4,contents,observed,nephropathy,False
-5,increase,observed,nephropathy,False
-6,Superoxide dismutase,lessened,decrement,False
-7,Superoxide dismutase,lessened,CIn,False
-8,increase,associated,improvement,False
-9,SOD,attenuate,damage,True
-10,DMTU,reduced,damage,False
-11,DMTU,reduced,lipid peroxidation,False
-12,DMTU,affect,hemodynamics,True
-13,DMTU,affect,substances,True
-14,SOD,affected,GM,False
-15,SOD,have,effects,False
-16,mechanisms,differ,SOD,False
-17,anions,play,role,False
+0,Studies,performed,mechanisms,False
+1,Studies,performed,protective effects,False
+2,Studies,performed,free radical scavengers,False
+3,Studies,performed,gentamicin,False
+4,Administration,induced,GM,False
+5,Administration,induced,days,False
+6,Administration,induced,rats,False
+7,Administration,induced,reduction,False
+8,Administration,induced,renal blood flow,False
+9,reduction,observed,"guanosine 3',5'-cyclic monophosphate",False
+10,reduction,observed,renal cortical renin,False
+11,reduction,observed,GM-mediated nephropathy,False
+12,increase,observed,"guanosine 3',5'-cyclic monophosphate",False
+13,increase,observed,renal cortical renin,False
+14,increase,observed,GM-mediated nephropathy,False
+15,Superoxide dismutase,lessened,CIn,False
+16,increase,associated with,rate,False
+17,increase,associated with,improvement,False
+18,increase,associated with,RBF,False
+19,increase,associated with,cGMP,False
+20,increase,associated with,renal renin,False
+21,increase,associated with,rate,False
+22,increase,associated with,improvement,False
+23,increase,associated with,RBF,False
+24,increase,associated with,cGMP,False
+25,increase,associated with,renal renin,False
+26,SOD,attenuate,tubular damage,True
+27,DMTU,reduced,tubular damage,False
+28,DMTU,reduced,renal hemodynamics,False
+29,SOD,affected,content,False
+30,SOD,affected,rats,False
+31,results,suggest,protective effects,False
+32,results,suggest,GM-mediated nephropathy,False
+33,results,suggest,protective effects,False
+34,results,suggest,SOD,False
+35,results,suggest,renal vasoconstriction,False
+36,SOD,suggest,protective effects,False
+37,SOD,suggest,GM-mediated nephropathy,False
+38,SOD,suggest,protective effects,False
+39,SOD,suggest,SOD,False
+40,SOD,suggest,renal vasoconstriction,False
+41,mechanisms,suggest,protective effects,False
+42,mechanisms,suggest,GM-mediated nephropathy,False
+43,mechanisms,suggest,protective effects,False
+44,mechanisms,suggest,SOD,False
+45,mechanisms,suggest,renal vasoconstriction,False
+46,superoxide anions,suggest,protective effects,False
+47,superoxide anions,suggest,GM-mediated nephropathy,False
+48,superoxide anions,suggest,protective effects,False
+49,superoxide anions,suggest,SOD,False
+50,superoxide anions,suggest,renal vasoconstriction,False
+51,SOD,have,protective effects,False
+52,SOD,have,GM-mediated nephropathy,False
+53,SOD,have,protective effects,False
+54,SOD,have,SOD,False
+55,SOD,have,renal vasoconstriction,False
+56,mechanisms,have,protective effects,False
+57,mechanisms,have,GM-mediated nephropathy,False
+58,mechanisms,have,protective effects,False
+59,mechanisms,have,SOD,False
+60,mechanisms,have,renal vasoconstriction,False
+61,superoxide anions,have,protective effects,False
+62,superoxide anions,have,GM-mediated nephropathy,False
+63,superoxide anions,have,protective effects,False
+64,superoxide anions,have,SOD,False
+65,superoxide anions,have,renal vasoconstriction,False
+66,mechanisms,differ,protective effects,False
+67,mechanisms,differ,SOD,False
+68,mechanisms,differ,renal vasoconstriction,False
+69,superoxide anions,differ,protective effects,False
+70,superoxide anions,differ,SOD,False
+71,superoxide anions,differ,renal vasoconstriction,False
+72,superoxide anions,play,renal vasoconstriction,False

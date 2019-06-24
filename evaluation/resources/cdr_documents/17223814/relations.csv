@@ -1,14 +1,24 @@
 ,Subject,Action,Object,Negation
-0,woman,presented,latissimus dorsi flap,False
-1,A 47-year-old woman,received,chemotherapy,False
-2,A 47-year-old woman,received,epirubicin,False
-3,A 47-year-old woman,maintained,level,False
-4,degree,diagnosed,electrocardiogram,False
-5,atrioventricular block,diagnosed,electrocardiogram,False
-6,pacing,instituted,period,False
-7,guidelines,been,case,True
-8,chemotherapy,exhibit,cardiotoxicity,False
-9,that,develop,years,False
-10,who,received,chemotherapy,False
-11,who,received,time,False
-12,patients,have,electrocardiogram,False
+0,woman,diagnosed,mastectomy,False
+1,woman,diagnosed,carcinoma,False
+2,woman,diagnosed,breast 6,False
+3,Mobitz type II atrioventricular block,diagnosed,electrocardiogram,False
+4,Mobitz type II atrioventricular block,diagnosed,peri-operative period,False
+5,evidence-based guidelines,discuss,case,False
+6,evidence-based guidelines,discuss,cardiotoxicity,False
+7,evidence-based guidelines,discuss,years,False
+8,chemotherapy,discuss,case,False
+9,chemotherapy,discuss,cardiotoxicity,False
+10,chemotherapy,discuss,years,False
+11,evidence-based guidelines,been,case,True
+12,evidence-based guidelines,been,cardiotoxicity,True
+13,evidence-based guidelines,been,years,True
+14,chemotherapy,been,case,True
+15,chemotherapy,been,cardiotoxicity,True
+16,chemotherapy,been,years,True
+17,chemotherapy,exhibit,cardiotoxicity,False
+18,chemotherapy,exhibit,years,False
+19,patients,suggest,chemotherapy,False
+20,patients,suggest,electrocardiogram,False
+21,patients,have,chemotherapy,False
+22,patients,have,electrocardiogram,False

@@ -1,24 +1,63 @@
 Takotsubo syndrome
 TS
-broken heart syndrome
+heart syndrome
 left ventricle
-cardiac
+apical ballooning
+elevated
+cardiac biomarkers
+electrocardiographic changes
 acute coronary syndrome
+ST-segment
+elevation
+T wave inversions
+pathologic Q waves
 woman
+medical history
 mitral valve prolapse
 migraines
+admitted
+hospital
 substernal chest pain
-coronary
+electrocardiogram
+ST-segment
+elevation
+II
+III
+aVF
+V5
+V6
+positive
+Emergent
+coronary angiogram
 coronary arteries
-left ventricular ejection
+reduced
+left ventricular ejection fraction
+wall motion abnormalities
+consistent with
 TS
+history
+retrospectively
 patient
 zolmitriptan
 migraines
-zolmitriptan
+event
+zolmitriptan 2
+days
+persistent
 migraine headache
+rides
 horses
+jumping
+limitations
+physical activity
+stress
 status migrainosus
+literature
+multiple
+cases
 coronary artery vasospasm
+secondary to
 zolmitriptan
+cases
+associated with
 TS

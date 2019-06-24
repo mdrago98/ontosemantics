@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,Methyldopa,is,medication,False
+1,that,prescribed,adult,False
+2,Methyldopa,causes,autoimmune hemolytic anemia,False
+3,who,take,drug,False
+4,We,report,case,False
+5,who,presented,syncope,False
+6,boy,treated,methyldopa,False
+7,boy,treated,trauma,False
+8,Evaluation,revealed,hemoglobin,False
+9,Transfusion,resulted,recovery,False
+10,corticosteroid,resulted,recovery,False
+11,physicians,treating,children,False
+12,physicians,be,order,False
+13,order,treat,it,False

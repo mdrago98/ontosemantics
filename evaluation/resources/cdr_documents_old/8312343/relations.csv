@@ -1,0 +1,24 @@
+,Subject,Action,Object,Negation
+0,years,underwent,heart,False
+1,Patients,managed,cyclosporine,False
+2,Patients,managed,azathioprine,False
+3,Steroids,given,to,False
+4,Steroids,given,rejection,False
+5,patients,received,maintenance,False
+6,patients,died,period,False
+7,There,been,deaths,True
+8,up,was,36,False
+9,survival,is,%,False
+10,survival,is,years,False
+11,%,treated,rejection,False
+12,Freedom,was,%,False
+13,Freedom,was,month,False
+14,Cytomegalovirus infections,treated,ganciclovir,False
+15,impairment,observed,children,False
+16,who,underwent,transplantation,False
+17,children,compared,control,False
+18,patients,undergone,catheterizations,False
+19,patients,undergone,sign,True
+20,Seizures,occurred,patients,False
+21,hypertension,treated,patients,False
+22,lymphoproliferative disorder,was,observed.(ABSTRACT,False

@@ -1,12 +1,37 @@
 ,Subject,Action,Object,Negation
-0,patients,treated,months,False
-1,patients,treated,calcium channel blocker,False
-2,therapy,treated,months,False
-3,therapy,treated,calcium channel blocker,False
-4,Seven,exhibited,hypertensive,False
-5,Seven,exhibited,cyclosporin A,False
-6,pressures,decreased,weeks,False
-7,blood pressure,maintained,range,False
-8,blood pressure,maintained,months,False
-9,events,included,increase,False
-10,patients,monitored,gingival hyperplasia,False
+0,patients,treated,hypertension,False
+1,patients,treated,cyclosporin A therapy,False
+2,patients,treated,months,False
+3,patients,treated,calcium channel blocker,False
+4,patients,treated,antihypertensive effects,False
+5,patients,treated,treatment,False
+6,patients,treated,drugs,False
+7,systolic,decreased,patients,False
+8,systolic,decreased,weeks,False
+9,systolic,decreased,nifedipine therapy,False
+10,systolic,decreased,months,False
+11,blood pressure,decreased,patients,False
+12,blood pressure,decreased,weeks,False
+13,blood pressure,decreased,nifedipine therapy,False
+14,blood pressure,decreased,months,False
+15,blood pressure,maintained,months,False
+16,adverse events,included,combined therapy,False
+17,adverse events,included,cyclosporin A,False
+18,adverse events,included,increase,False
+19,adverse events,included,blood urea,False
+20,adverse events,included,patients,False
+21,adverse events,included,gingival hyperplasia,False
+22,adverse events,included,patients,False
+23,findings,indicate,patients,False
+24,findings,indicate,treatment,False
+25,findings,indicate,cyclosporin A,False
+26,findings,indicate,gingival hyperplasia,False
+27,nifedipine,indicate,patients,False
+28,nifedipine,indicate,treatment,False
+29,nifedipine,indicate,cyclosporin A,False
+30,nifedipine,indicate,gingival hyperplasia,False
+31,patients,indicate,patients,False
+32,patients,indicate,treatment,False
+33,patients,indicate,cyclosporin A,False
+34,patients,indicate,gingival hyperplasia,False
+35,patients,monitored,gingival hyperplasia,False

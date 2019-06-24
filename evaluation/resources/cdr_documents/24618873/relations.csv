@@ -1,13 +1,18 @@
 ,Subject,Action,Object,Negation
 0,Pethidine,is,opioid,False
-1,that,gains,popularity,False
-2,opioid,acting,opioid-receptors,False
-3,relief,brings,side,False
-4,that,limit,utility,False
-5,effects,include,nausea,False
-6,who,need,term,False
-7,metabolite,resulting,irritability,False
-8,metabolite,resulting,seizure,False
-9,pethidine,causes,inhibitory,False
-10,we,highlight,inhibitory,False
-11,that,causes,dysmetria,False
+1,Pethidine,is,pain control,False
+2,Pethidine,is,opioid-receptors,False
+3,side effects,include,nausea,False
+4,pethidine,cause,patients,False
+5,pethidine,cause,renal,False
+6,pethidine,cause,pain control,False
+7,pethidine,cause,excitatory central nervous system,False
+8,pethidine,cause,metabolite,False
+9,pethidine,cause,irritability,False
+10,pethidine,causes,impacts,False
+11,pethidine,causes,CNS,False
+12,pethidine,causes,oculomotor function,False
+13,pethidine,causes,short term,False
+14,side effects,highlight,case report,False
+15,side effects,highlight,cerebellar structure,False
+16,side effects,reduced,cerebellar structure,False

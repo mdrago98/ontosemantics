@@ -1,13 +1,15 @@
 ,Subject,Action,Object,Negation
-0,patients,given,kg,False
-1,Anaesthesia,maintained,etomidate,False
-2,trial,discontinued,cases,False
-3,trial,discontinued,incidence,False
-4,pain,occurred,%,False
-5,%,had,redness,False
-6,%,had,cases,False
-7,cases,lasting,anaesthesia,False
-8,movements,occurred,%,False
-9,%,experienced,upset,False
-10,Nausea and vomiting,occurred,%,False
-11,%,disturbing,emergence,False
+0,evaluation,embarked,etomidate,False
+1,evaluation,embarked,outpatient cystoscopy,False
+2,Anaesthesia,maintained,etomidate,False
+3,Anaesthesia,maintained,doses,False
+4,trial,discontinued,cases,False
+5,trial,discontinued,incidence,False
+6,trial,discontinued,side effects,False
+7,Venous pain,occurred,patients,False
+8,Venous pain,occurred,injection,False
+9,Venous pain,occurred,cases,False
+10,Venous pain,occurred,weeks,False
+11,Venous pain,occurred,anaesthesia,False
+12,Skeletal movements,occurred,patients,False
+13,Nausea,occurred,emergence,False

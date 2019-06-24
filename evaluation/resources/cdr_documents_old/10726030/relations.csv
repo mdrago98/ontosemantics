@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,Heparin,prevent,clotting,False
+1,drugs,are,development,False
+2,heparin,treat,anticoagulant,False
+3,heparin,treat,episodes,False
+4,Bleeding,is,untoward,False
+5,bleeding,is,concern,False
+6,patients,receiving,heparin,False
+7,effects,include,heparin-induced thrombocytopenia,False
+8,effects,are,individual,False
+9,reports,dealing,heparin,False
+10,experience,define,incidence,False

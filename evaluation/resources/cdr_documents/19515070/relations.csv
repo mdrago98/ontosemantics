@@ -1,14 +1,35 @@
 ,Subject,Action,Object,Negation
-0,transplantation,carries,intraoperative,False
-1,transplantation,carries,risks,False
-2,derangements,lead,dialysis,False
-3,anticoagulation,is,absence,False
-4,dialysate,used,anticoagulation,False
-5,who,tolerate,heparin,True
-6,We,report,case,False
-7,who,underwent,support,False
-8,who,underwent,liver,False
-9,transplantation,anticoagulated,citrate,False
-10,patient,tolerated,procedure,False
-11,patient,tolerated,signs,False
-12,dialysate,is,alternative,False
+0,Liver transplantation,carries,patients,False
+1,Liver transplantation,carries,liver failure,False
+2,Liver transplantation,carries,risks,False
+3,intraoperative dialysis,increased,presence,False
+4,intraoperative dialysis,increased,acute kidney injury,False
+5,transplant,increased,presence,False
+6,transplant,increased,acute kidney injury,False
+7,derangements,lead,anticoagulant pathways,False
+8,derangements,lead,liver failure,False
+9,derangements,lead,difficulties,False
+10,derangements,lead,anticoagulation,False
+11,derangements,lead,dialysis,False
+12,derangements,lead,operating room,False
+13,Systemic anticoagulation,carries,absence,False
+14,Systemic anticoagulation,carries,liver,False
+15,Systemic anticoagulation,carries,risk,False
+16,Systemic anticoagulation,carries,citrate,False
+17,Citrate dialysate,used,citric acid,False
+18,Citrate dialysate,used,anticoagulation,False
+19,Citrate dialysate,used,patients,False
+20,Citrate dialysate,used,heparin,False
+21,dialysate,used,citric acid,False
+22,dialysate,used,anticoagulation,False
+23,dialysate,used,patients,False
+24,dialysate,used,heparin,False
+25,patient,tolerated,procedure,False
+26,patient,tolerated,signs,False
+27,patient,tolerated,citrate,False
+28,patient,tolerated,anticoagulation,False
+29,patient,tolerated,patency,False
+30,patient,tolerated,dialysis circuit,False
+31,Citrate dialysate,is,intradialytic support,False
+32,Citrate dialysate,is,liver transplantation,False
+33,Citrate dialysate,is,liver failure,False

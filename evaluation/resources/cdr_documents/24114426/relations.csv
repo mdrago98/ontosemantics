@@ -1,3 +1,5 @@
 ,Subject,Action,Object,Negation
-0,MDMA,is,drug,False
-1,results,investigating,effects,False
+0,Ecstasy,is,drug,False
+1,Ecstasy,is,abuse,False
+2,results,been,research,False
+3,results,been,psychological effects,False

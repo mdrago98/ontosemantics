@@ -1,17 +1,25 @@
+Intracerebroventricular
+injection
 ethacrynic acid
-mouse
-synthesis
+convulsive dose
+accelerated
+synthesis/turnover
 5-hydroxytryptamine
 5-HT
+suppressed
 synthesis
 gamma-aminobutyric acid
 acetylcholine
 mouse brain
-glutamate
-N-methyl-D-aspartate
-antagonist
-ethacrynic acid
-convulsions
-neurotransmitter
-neurons
+effects
+antagonized
+pretreatment
+glutamate/N-methyl-D-aspartate antagonist
+aminophosphonovaleric acid
+ethacrynic
+acid-induced convulsions
+neurotransmitter systems
+modulated
+activation
+glutaminergic
 brain

@@ -1,14 +1,24 @@
+patients
+severe
+life-threatening
+hyperkalemia
 renal insufficiency
+treatment
 acute gouty arthritis
 indomethacin
 complication
 inhibition
-prostaglandin synthesis
+prostaglandin
+synthesis
+consequent
+hyporeninemic hypoaidosteronism
 renal function
-potassium
-balance
+potassium balance
+patients
 indomethacin
-anti-inflammatory agents
+nonsteroidal anti-inflammatory agents
+patients
 diabetes mellitus
 renal disease
+prevent
 complication

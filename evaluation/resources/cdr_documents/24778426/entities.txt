@@ -1,4 +1,11 @@
 Cisplatin
 antineoplastic
+complications
 cisplatin
+dose-limiting
+nephrotoxicity
+toxicity
 mannitol
+nephroprotectant
+combination
+hydration

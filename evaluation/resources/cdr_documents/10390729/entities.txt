@@ -1,24 +1,47 @@
+effects of
 potassium
 quinine
 4-aminopyridine
+conditioned place
+biphasic
+changes
 motor activity
+induced
 morphine
+tested
 Wistar rats
 Quinine
-ATP
+block voltage-
+ATP-sensitive K(+)-channels
 4-aminopyridine
-voltage
+block voltage-sensitive K(+)-channels
+method
 quinine
-morphine
+attenuated
+morphine-induced
 4-aminopyridine
-motor activity
-morphine
+ineffective
+motor activity test
+measured
+Animex-activity meter
+K(+)-channel blockers
+morphine-induced
 hypoactivity
+K(+)-channel blockers
+morphine-induced
+secondary hyperactivity
+involvement
+quinine-sensitive
+K(+)-channels
 morphine
-quinine
-4-aminopyridine
-morphine
-morphine
+reward
+blockade
+K(+)-channels
+sensitive
+blockers
+prevent
+morphine-induced
 hypoactivity
-morphine
-4-aminopyridine
+morphine-induced hyperactivity
+quinine-
+4-aminopyridine-sensitive K(+)-channels

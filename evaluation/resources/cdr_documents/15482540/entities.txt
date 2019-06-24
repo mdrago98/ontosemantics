@@ -1,6 +1,8 @@
 Interferon
 ribavirin
+combination therapy
 chronic hepatitis C
 hemolytic anemia
-ribavirin
-anemia
+study
+factors
+ribavirin-induced anemia

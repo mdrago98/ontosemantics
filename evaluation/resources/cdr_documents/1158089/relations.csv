@@ -1,10 +1,55 @@
 ,Subject,Action,Object,Negation
-0,relationships,studied,rat,False
-1,relationship,observed,dose,False
-2,relationship,observed,dose,False
-3,relationship,observed,accumulation,False
-4,differences,observed,rats,False
-5,Accumulation,differ,rat,True
-6,secretion,accounted,%,False
-7,mechanisms,involved,production,False
-8,mechanisms,involved,response to tetracycline,False
+0,Dose-response relationships,studied,fatty liver,False
+1,Dose-response relationships,studied,tetracycline,False
+2,Dose-response relationships,studied,rat,False
+3,relationship,observed,rat,False
+4,relationship,observed,dose,False
+5,relationship,observed,tetracycline,False
+6,relationship,observed,triglyceride,False
+7,relationship,observed,provision,False
+8,relationship,observed,oleic acid,False
+9,relationship,observed,substrate,False
+10,relationship,observed,dose,False
+11,relationship,observed,tetracycline,False
+12,relationship,observed,triglyceride,False
+13,relationship,observed,liver,False
+14,relationship,observed,triglyceride,False
+15,relationship,observed,livers,False
+16,relationship,observed,rats,False
+17,Accumulation,differ,hepatic triglyceride,True
+18,Accumulation,differ,control values,True
+19,Accumulation,differ,doses,True
+20,Accumulation,differ,tetracycline,True
+21,Accumulation,differ,rat,True
+22,response,differ,hepatic triglyceride,True
+23,response,differ,control values,True
+24,response,differ,doses,True
+25,response,differ,tetracycline,True
+26,response,differ,rat,True
+27,hepatic secretion,accounted,triglyceride,False
+28,hepatic secretion,accounted,hepatic triglyceride,False
+29,hepatic secretion,accounted,production,False
+30,hepatic secretion,accounted,triglyceride-rich fatty liver,False
+31,hepatic secretion,accounted,tetracycline,False
+32,mechanisms,accounted,triglyceride,False
+33,mechanisms,accounted,hepatic triglyceride,False
+34,mechanisms,accounted,production,False
+35,mechanisms,accounted,triglyceride-rich fatty liver,False
+36,mechanisms,accounted,tetracycline,False
+37,response,accounted,triglyceride,False
+38,response,accounted,hepatic triglyceride,False
+39,response,accounted,production,False
+40,response,accounted,triglyceride-rich fatty liver,False
+41,response,accounted,tetracycline,False
+42,mechanisms,indicating,production,False
+43,mechanisms,indicating,triglyceride-rich fatty liver,False
+44,mechanisms,indicating,tetracycline,False
+45,response,indicating,production,False
+46,response,indicating,triglyceride-rich fatty liver,False
+47,response,indicating,tetracycline,False
+48,mechanisms,involved,production,False
+49,mechanisms,involved,triglyceride-rich fatty liver,False
+50,mechanisms,involved,tetracycline,False
+51,response,involved,production,False
+52,response,involved,triglyceride-rich fatty liver,False
+53,response,involved,tetracycline,False

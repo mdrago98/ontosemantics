@@ -1,17 +1,18 @@
 ,Subject,Action,Object,Negation
-0,We,evaluated,neuropathy,False
-1,trial,underwent,examinations,False
-2,trial,underwent,nerve conduction studies,False
-3,NCS,included,recording,False
-4,amplitudes,expressed,percentage,False
-5,mean,termed,SNAP,False
-6,decline,considered,significant,False
-7,Thalidomide,discontinued,patients,False
-8,Thalidomide,discontinued,lack,False
-9,24,remained,thalidomide,False
-10,24,remained,months,False
-11,8,remained,months,False
-12,3,remained,months,False
-13,patients,developed,neuropathy,False
-14,Neuropathy,be,complication,False
-15,index,monitor,peripheral neuropathy,False
+0,men,underwent,open-label trial,False
+1,men,underwent,thalidomide,False
+2,men,underwent,neurologic examinations,False
+3,men,underwent,intervals,False
+4,men,underwent,treatment,False
+5,NCS,included,recording,False
+6,NCS,included,sensory nerve action potentials,False
+7,NCS,included,median,False
+8,amplitudes,amplitudes,nerve,False
+9,amplitudes,expressed,nerve,False
+10,amplitudes,expressed,baseline,False
+11,decline,considered,SNAP index,False
+12,Thalidomide,discontinued,patients,False
+13,Thalidomide,discontinued,therapeutic response,False
+14,patients,developed,neuropathy,False
+15,Clinical symptoms,occurred,SNAP index,False
+16,SNAP index,used,peripheral neuropathy,False

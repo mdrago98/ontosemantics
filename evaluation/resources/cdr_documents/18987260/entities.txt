@@ -1,8 +1,12 @@
-antihypertensive
-angiotensin II type-1 receptor
+study
+investigate
+antihypertensive effects
+angiotensin II type-1 receptor blocker
 losartan
-renal disease progression
-rats
+down renal disease
+progression
+spontaneously hypertensive rats
+SHR
 adriamycin
 ADR
 nephropathy

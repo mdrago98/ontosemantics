@@ -1,2 +1,7 @@
 ,Subject,Action,Object,Negation
-0,meningitis,treated,dose,False
+0,concentrations,report,case,False
+1,concentrations,report,MSSA,False
+2,concentrations,report,MSSA meningitis,False
+3,concentrations,report,daptomycin,False
+4,concentrations,report,serum,False
+5,concentrations,assessed,serum,False

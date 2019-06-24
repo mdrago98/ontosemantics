@@ -1,10 +1,21 @@
+report
+contrast enhancement
 white matter
+T1-weighted magnetic resonance
+images
+patients
 disseminated necrotizing leukoencephalopathy
 acute lymphoblastic leukemia
-methotrexate
-base of the brain
+treated with
+high-dose methotrexate
+patients
+enhancement
+brain
 vertex
+Necropsy
+loss
 myelination
 necrosis
 white matter
+mechanisms
 leukoencephalopathy

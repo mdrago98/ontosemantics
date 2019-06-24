@@ -1,8 +1,30 @@
 ,Subject,Action,Object,Negation
-0,changes,studied,patients,False
-1,Patients,divided,groups,False
-2,electrocardiograms,distributed,thoracic surface,False
-3,depression,observed,%,False
-4,depression,observed,%,False
-5,there,were,differences,True
-6,increase,was,treadmill,False
+0,changes,studied,dipyridamole,False
+1,changes,studied,patients,False
+2,changes,studied,coronary artery disease,False
+3,changes,studied,exercise,False
+4,changes,studied,body surface mapping technique,False
+5,Patients,divided,groups,False
+6,Patients,divided,myocardial infarction,False
+7,Patients,divided,anterior infarction,False
+8,Patients,divided,inferior infarction,False
+9,patients,divided,groups,False
+10,patients,divided,myocardial infarction,False
+11,patients,divided,anterior infarction,False
+12,patients,divided,inferior infarction,False
+13,ischemic ST-segment depression,observed,dipyridamole,False
+14,ischemic ST-segment depression,observed,non-MI group,False
+15,ischemic ST-segment depression,observed,ANT-MI,False
+16,ischemic ST-segment depression,observed,INF-MI,False
+17,ischemic ST-segment depression,observed,total population,False
+18,depression,observed,non-MI group,False
+19,depression,observed,ANT-MI,False
+20,depression,observed,INF-MI,False
+21,data,suggest,distribution,False
+22,data,suggest,myocardial blood flow,False
+23,dipyridamole-induced myocardial ischemia,suggest,distribution,False
+24,dipyridamole-induced myocardial ischemia,suggest,myocardial blood flow,False
+25,dipyridamole-induced myocardial ischemia,caused,distribution,False
+26,dipyridamole-induced myocardial ischemia,caused,myocardial blood flow,False
+27,dipyridamole ECG test,conclude,assessment,False
+28,dipyridamole ECG test,conclude,coronary artery disease,False

@@ -1,9 +1,13 @@
 ,Subject,Action,Object,Negation
-0,man,operated,acute cholecystitis,False
-1,man,operated,methoxyflurane,False
-2,man,developed,syndrome,False
-3,man,developed,renal tubular acidosis,False
-4,Massive bleeding,appeared,surgery,False
-5,which,lasted,hours,False
-6,controls,performed,period,False
-7,controls,performed,surgery,False
+0,man,developed,acute cholecystitis,False
+1,man,developed,methoxyflurane anesthesia,False
+2,man,developed,hepatic insufficiency syndrome,False
+3,Massive bleeding,appeared,surgery,False
+4,recovery,confirmed,controls,False
+5,recovery,confirmed,period,False
+6,recovery,confirmed,year,False
+7,surgery,confirmed,controls,False
+8,surgery,confirmed,period,False
+9,surgery,confirmed,year,False
+10,surgery,performed,period,False
+11,surgery,performed,year,False

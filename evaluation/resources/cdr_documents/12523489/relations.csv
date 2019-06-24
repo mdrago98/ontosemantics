@@ -1,15 +1,79 @@
 ,Subject,Action,Object,Negation
-0,influence,examined,mice,False
-1,adenosine receptor agonists,decreased,locomotor,False
-2,adenosine receptor agonists,decreased,mice,False
-3,A2 receptors,involved,reaction,False
-4,CPA,reduced,cocaine,False
-5,which,influence,motility,True
-6,CGS,decreased,action,False
-7,results,suggest,involvement,False
-8,agonists,have,influence,False
-9,Caffeine,had,action,False
-10,CPT,show,influence,True
-11,adenosine receptor agonists,decreased,hyperactivity,False
-12,blockade,increased,action,False
-13,adenosine receptor agonists,reduce,locomotor,False
+0,influence,examined,adenosine receptor,False
+1,influence,examined,cocaine-and amphetamine-induced hyperactivity,False
+2,influence,examined,mice,False
+3,agonists,decreased,locomotor activity,False
+4,agonists,decreased,mice,False
+5,effects,decreased,locomotor activity,False
+6,effects,decreased,mice,False
+7,A2 receptors,seems,reaction,False
+8,A2 receptors,involved,reaction,False
+9,agonists,decreased,locomotor activity,False
+10,CPA,reduced,cocaine action,False
+11,CPA,reduced,doses,False
+12,CPA,reduced,motility,False
+13,CPA,reduced,action,False
+14,CPA,reduced,cocaine,False
+15,CPA,reduced,doses,False
+16,CPA,reduced,locomotor activity,False
+17,CPA,reduced,animals,False
+18,CGS,reduced,cocaine action,False
+19,CGS,reduced,doses,False
+20,CGS,reduced,motility,False
+21,CGS,reduced,action,False
+22,CGS,reduced,cocaine,False
+23,CGS,reduced,doses,False
+24,CGS,reduced,locomotor activity,False
+25,CGS,reduced,animals,False
+26,CGS,decreased,action,False
+27,CGS,decreased,cocaine,False
+28,CGS,decreased,doses,False
+29,CGS,decreased,locomotor activity,False
+30,CGS,decreased,animals,False
+31,agonists,suggest,involvement,False
+32,agonists,suggest,adenosine receptors,False
+33,agonists,suggest,action,False
+34,agonists,suggest,cocaine,False
+35,agonists,suggest,A1 receptors,False
+36,agonists,suggest,influence,False
+37,agonists,seem,A1 receptors,False
+38,agonists,seem,influence,False
+39,blockade,enhanced,A2 adenosine receptor,False
+40,blockade,enhanced,DMPX,False
+41,blockade,enhanced,locomotor activity,False
+42,blockade,enhanced,animals,False
+43,Caffeine,had,action,False
+44,effect,had,action,False
+45,receptor antagonist,show,influence,True
+46,receptor antagonist,show,test,True
+47,agonists,decreased,amphetamine-induced hyperactivity,False
+48,agonists,decreased,cocaine-induced hyperactivity,False
+49,blockade,increased,A2 adenosine receptors,False
+50,blockade,increased,adenosine receptors,False
+51,blockade,increased,action,False
+52,blockade,increased,amphetamine,False
+53,blockade,increased,locomotor activity test,False
+54,agonists,shown,adenosine receptor,False
+55,agonists,shown,amphetamine-induced hyperactivity,False
+56,A1,shown,adenosine receptor,False
+57,A1,shown,amphetamine-induced hyperactivity,False
+58,cocaine-induced hyperactivity,shown,adenosine receptor,False
+59,cocaine-induced hyperactivity,shown,amphetamine-induced hyperactivity,False
+60,A1 receptors,shown,adenosine receptor,False
+61,A1 receptors,shown,amphetamine-induced hyperactivity,False
+62,agonists,reduce,adenosine receptor,False
+63,agonists,reduce,amphetamine-induced hyperactivity,False
+64,A1,reduce,adenosine receptor,False
+65,A1,reduce,amphetamine-induced hyperactivity,False
+66,cocaine-induced hyperactivity,reduce,adenosine receptor,False
+67,cocaine-induced hyperactivity,reduce,amphetamine-induced hyperactivity,False
+68,A1 receptors,reduce,adenosine receptor,False
+69,A1 receptors,reduce,amphetamine-induced hyperactivity,False
+70,cocaine-induced hyperactivity,indicate,adenosine receptor,False
+71,cocaine-induced hyperactivity,indicate,amphetamine-induced hyperactivity,False
+72,A1 receptors,indicate,adenosine receptor,False
+73,A1 receptors,indicate,amphetamine-induced hyperactivity,False
+74,cocaine-induced hyperactivity,influenced,adenosine receptor,False
+75,cocaine-induced hyperactivity,influenced,amphetamine-induced hyperactivity,False
+76,A1 receptors,influenced,adenosine receptor,False
+77,A1 receptors,influenced,amphetamine-induced hyperactivity,False

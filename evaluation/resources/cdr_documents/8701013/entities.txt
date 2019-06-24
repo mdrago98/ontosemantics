@@ -1,14 +1,25 @@
 Famotidine
 histamine H2-receptor antagonist
+inpatient settings
+prevention
 stress ulcers
-H2-receptor
-antagonists
+cost
+H2-receptor antagonists
 delirium
+cases
+associated with
 famotidine
-famotidine
-delirium
+cases
+famotidine-associated delirium
+hospitalized
+patients
+cleared
+removal
 famotidine
 pharmacokinetics
 famotidine
+reviewed
 metabolism
+elderly population
 famotidine
+elderly persons

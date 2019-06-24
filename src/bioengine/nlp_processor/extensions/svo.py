@@ -7,7 +7,7 @@ Part = namedtuple('Part', 'adjectives nouns')
 
 
 SUBJECTS = ['nsubj', 'nsubjpass', 'csubj', 'csubjpass', 'agent', 'expl']
-OBJECTS = ['dobj', 'dative', 'attr', 'oprd', 'pobj']
+OBJECTS = ['dobj', 'dative', 'attr', 'oprd', 'pobj', 'nmod']
 ADJECTIVES = ['acomp', 'advcl', 'advmod', 'amod', 'appos', 'nn', 'nmod', 'ccomp', 'complm',
               'hmod', 'infmod', 'xcomp', 'rcmod', 'poss', ' possessive']
 COMPOUNDS = ['compound']
@@ -21,12 +21,17 @@ def get_noun_verb_chunks(doc: Doc):
     :param doc: A spacy document representation.
     :return: a list of noun verb chunks
     """
+    spans = list(doc.ents)
+    with doc.retokenize() as retokenizer:
+        for span in spans:
+            retokenizer.merge(span)
     chunks = []
     for sentence in doc.sents:
         chunks += get_noun_verb_noun_phrases_from_sentence(sentence)
     return chunks
 
 
+# [token for token in sentence if token.dep_ in SUBJECTS and token.ent_type_ == 'ENTITY']
 def get_noun_verb_noun_phrases_from_sentence(sentence: Span) -> list:
     """
     A function that returns a list of noun verb noun chunks
@@ -108,12 +113,12 @@ def get_subjects(root: Token) -> tuple:
     :return: a tuple containing the subjects and a flag for negation (True IFF negative)
     """
     negation = is_negative(root)
-    subjects = [token for token in root.lefts if token.dep_ in SUBJECTS and token.pos_ != 'DET']
-    if len(subjects) > 0:
-        subjects += get_subjects_from_conjunctions(subjects)
-    else:
-        found_subjects, negation = find_subjects(root)
-        subjects += found_subjects
+    subjects = [token for token in root.subtree if token.dep_ in SUBJECTS and token.ent_type_ == 'ENTITY']
+    # if len(subjects) > 0:
+    #     subjects += get_subjects_from_conjunctions(subjects)
+    # else:
+    #     found_subjects, negation = find_subjects(root)
+    #     subjects += found_subjects
     return subjects, negation
 
 
@@ -171,15 +176,15 @@ def get_dependencies(root) -> tuple:
     :return: a tuple containing the root and the dependencies
     """
     rights = list(root.rights)
-    objs = [tok for tok in rights if tok.dep_ in OBJECTS]
-    objs += get_objs_from_prepositions(rights)
-
-    potential_new_verb, potential_new_objs = get_obj_from_xcomp(rights)
-    if potential_new_verb is not None and potential_new_objs is not None and len(potential_new_objs) > 0:
-        objs += potential_new_objs
-        root = potential_new_verb
-    if len(objs) > 0:
-        objs += get_objs_from_conjunctions(objs)
+    objs = [token for token in root.subtree if token.dep_ in OBJECTS and token.ent_type_ == 'ENTITY']
+    # objs += get_objs_from_prepositions(rights)
+    #
+    # potential_new_verb, potential_new_objs = get_obj_from_xcomp(rights)
+    # if potential_new_verb is not None and potential_new_objs is not None and len(potential_new_objs) > 0:
+    #     objs += potential_new_objs
+    #     root = potential_new_verb
+    # if len(objs) > 0:
+    #     objs += get_objs_from_conjunctions(objs)
     return root, objs
 
 

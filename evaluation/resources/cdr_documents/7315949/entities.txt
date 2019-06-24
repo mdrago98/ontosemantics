@@ -1,22 +1,47 @@
+normal
 rats
 media
-arteries
+small arteries
+diameter
 intracellular
 vacuoles
 herniations
 smooth muscle cell
+hypothesis
 vasoconstriction
+increase
 vacuoles
+tested
 media
-artery
-branch
+saphenous artery
+distal branch
 vasoconstriction
+induced
 L-norepinephrine
-cell
-cell
-hernias
+cell-to-cell hernias
+minutes
+day
+reduced
+days
 vessel
+restored
+Triple
+stimulation
+day
+induced
+severe
+changes
 media
+findings
 smooth muscle cells
+susceptible
+damage
+course
+function
+experimental
+data
+medial
+changes
 arterial spasm
-Endothelial
+Endothelial changes
+experimental model

@@ -1,23 +1,58 @@
 Blood pressure
+effects
 levodopa
+parkinsonian
+patients
+stable
+fluctuating
+responses
 levodopa
+magnitude
 hypotensive
 levodopa
-fit
-hypotensive
-blood
+concentration
+dependent
+Emax model
+fluctuating
+responders
+responders
+hypotensive response
+Baseline
+blood pressures
+higher
+fluctuating
+patients
+higher
+baseline
 blood pressure
-hypotensive
+correlated
+hypotensive effects
+Antiparkinsonian
+effects
 levodopa
+temporally
+correlated
 blood pressure
 Phenylalanine
-amino acid
+neutral amino acid
+LNAA
 levodopa
 transport
 blood-brain barrier
+reduced
 hypotensive
+antiparkinsonian
+effects
 levodopa
 levodopa
-hypotensive
-hypotensive
+central hypotensive action
+motor effects
+fluctuating
+patients
+hypotensive effect
+baseline
 blood pressure
+fluctuating
+patients
+stable
+patients

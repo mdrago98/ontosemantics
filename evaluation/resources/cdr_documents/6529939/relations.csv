@@ -1,15 +1,24 @@
 ,Subject,Action,Object,Negation
-0,Alternating,observed,woman,False
-1,Alternating,observed,treatment,False
-2,electrocardiogram,showed,alternation,False
-3,intervals,representing,sinus,False
-4,rhythm,started,P,False
-5,intervals,ranged,s,False
-6,intervals,ranged,P,False
-7,There,were,changes,False
-8,second,having,0.12,False
-9,s,proposed,explanation,False
-10,s,proposed,features,False
-11,mg,resulted,shortening,False
-12,rhythm,disappeared,withdrawal,False
-13,propranolol,being,cause,False
+0,Alternating sinus rhythm,observed,woman,False
+1,Alternating sinus rhythm,observed,treatment,False
+2,Alternating sinus rhythm,observed,angina,False
+3,Alternating sinus rhythm,observed,propranolol,False
+4,electrocardiogram,showed,alternation,False
+5,electrocardiogram,showed,short P-P intervals,False
+6,pauses,preceded,short P-P intervals,False
+7,pauses,preceded,P-P intervals,False
+8,pauses,preceded,sinus cycle,False
+9,rhythm,started,sinus cycles,False
+10,rhythm,started,P-P interval,False
+11,duration,were,pauses,False
+12,S-A conduction,block,pathways,False
+13,S-A conduction,block,P-P interval,False
+14,block,block,pathways,False
+15,block,block,P-P interval,False
+16,block,proposed,P-P interval,False
+17,rhythm,disappeared,withdrawal,False
+18,rhythm,disappeared,propranolol,False
+19,drug,disappeared,withdrawal,False
+20,drug,disappeared,propranolol,False
+21,S-A block,disappeared,withdrawal,False
+22,S-A block,disappeared,propranolol,False

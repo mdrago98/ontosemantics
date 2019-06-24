@@ -1,58 +1,99 @@
 Pilocarpine
+intraperitoneally
 rats
+neuropathological sequelae
 temporal lobe epilepsy
+animal model
+mechanisms
+buildup
+convulsive activity
 pathways
+operative
+generalization
+propagation
 seizures
 forebrain
+study
+effects of
+manipulating
+activity
 gamma-aminobutyric acid
-inhibition
+synaptic inhibition
 substantia nigra
 seizures
 pilocarpine
 rats
+investigated
+animals
+pretreated
+microinjections
 isoniazid
 inhibitor
+activity
 GABA-synthesizing enzyme
 L-glutamic acid decarboxylase
 substantia nigra pars reticulata
 SNR
+bilaterally
+non-convulsant doses
 pilocarpine
-seizures
+severe
+motor limbic seizures
 status epilepticus
+Electroencephalographic
 behavioral
-pilocarpine
-convulsions
-forebrain
-seizure
-hippocampal formation
+monitoring
+reduction
+threshold
+pilocarpine-induced convulsions
+Morphological
+frontal forebrain
+sections
+light microscopy
+seizure-related damage
+hippocampal
+formation
 thalamus
 amygdala
 olfactory cortex
 substantia nigra
 neocortex
 pilocarpine
+doses
+Bilateral
+intrastriatal
+injections
 isoniazid
 seizures
 pilocarpine
-inhibitor
+irreversible inhibitor
 GABA transaminase
-vinyl
-GABA
+gamma-vinyl-GABA
+D
+L-4-amino-hex-5-enoic acid
 SNR
-behavioral
-seizures
+bilaterally
+suppressed
+appearance
+electrographic
+behavioral seizures
 pilocarpine
-brain
-vinyl
-GABA
+treatment
+animals
+occurrence
+brain damage
+Microinjections
+gamma-vinyl-GABA
 dorsal striatum
+bilaterally
+prevent
 development
 convulsions
 pilocarpine
-pilocarpine
-seizures
+results
+threshold
+pilocarpine-induced seizures
 rats
 regulation
-GABA
-inhibition
+GABA-mediated synaptic inhibition
 substantia nigra

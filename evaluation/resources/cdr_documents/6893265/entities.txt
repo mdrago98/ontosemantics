@@ -1,4 +1,7 @@
-propylthiouracil
-liver damage
+cases
+propylthiouracil-induced liver damage
+acute type of damage
+clinical
+histologic picture
 chronic active hepatitis
-remission
+spontaneous remission

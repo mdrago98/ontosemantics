@@ -1,11 +1,36 @@
 ,Subject,Action,Object,Negation
-0,benzodiazepine receptors,possessing,properties,False
-1,effect,evaluated,function,False
-2,abecarnil,increased,uptake,False
-3,agonist,showed,efficacy,False
-4,injection,decreased,kg,False
-5,drugs,antagonized,activity,False
-6,drugs,antagonized,increase,False
-7,we,studied,action,False
-8,abecarnil,produced,reduction,False
-9,kg,reduced,increase,False
+0,properties,possessing,anxiolytic,False
+1,effect,evaluated,rodents,False
+2,effect,evaluated,beta-carboline derivative isopropyl-6- benzyloxy-4-methoxymethyl-beta-carboline-3-carboxylate,False
+3,effect,evaluated,benzodiazepine receptors,False
+4,effect,evaluated,anxiolytic,False
+5,effect,evaluated,function,False
+6,effect,evaluated,(GABA)A,False
+7,properties,evaluated,rodents,False
+8,properties,evaluated,beta-carboline derivative isopropyl-6- benzyloxy-4-methoxymethyl-beta-carboline-3-carboxylate,False
+9,properties,evaluated,benzodiazepine receptors,False
+10,properties,evaluated,anxiolytic,False
+11,properties,evaluated,function,False
+12,properties,evaluated,(GABA)A,False
+13,abecarnil,increased,rat,False
+14,abecarnil,increased,[3H]GABA,False
+15,abecarnil,increased,binding,False
+16,abecarnil,increased,t-[35S]butylbicyclophosphorothionate,False
+17,injection,decreased,rats,False
+18,abecarnil,decreased,rats,False
+19,binding,measured,cerebral cortex,False
+20,drugs,antagonized,dose,False
+21,drugs,antagonized,activity,False
+22,drugs,antagonized,[35S]TBPS,False
+23,drugs,antagonized,isoniazide,False
+24,drugs,antagonized,[35S]TBPS,False
+25,drugs,antagonized,foot-shock stress,False
+26,pharmacological effects,correlate,biochemical,False
+27,pharmacological effects,studied,biochemical,False
+28,pharmacological effects,studied,action,False
+29,pharmacological effects,studied,abecarnil,False
+30,pharmacological effects,studied,[35S]TBPS binding,False
+31,pharmacological effects,studied,mice,False
+32,abecarnil,produced,animals,False
+33,abecarnil,produced,reduction,False
+34,abecarnil,produced,motor behavior,False

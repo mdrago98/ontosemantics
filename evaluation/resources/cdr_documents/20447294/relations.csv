@@ -1,2 +1,8 @@
 ,Subject,Action,Object,Negation
-0,study,determined,antihyperalgesic,False
+0,study,determined,antihyperalgesic effect,False
+1,study,determined,CNSB002,False
+2,study,determined,antioxidant properties,False
+3,study,determined,combinations,False
+4,study,determined,morphine,False
+5,study,determined,rat,False
+6,study,determined,inflammatory,False

@@ -1,11 +1,29 @@
+report
+female
 patient
 rheumatoid arthritis
-acute cytolytic hepatitis
-antiinflammatory drug
+acute
+cytolytic hepatitis
+meloxicam
+Belgium
+meloxicam
+nonsteroidal antiinflammatory
+selective action
+inducible form
 cyclooxygenase 2
-acute cytolytic hepatitis
+acute
+cytolytic hepatitis
+meloxicam
+administration
+associated with
 development
-antibodies
+antinuclear antibodies
 hypersensitivity
+mechanism
+meloxicam
 liver
+toxicity
+potential
+drug
+induce
 hepatic damage

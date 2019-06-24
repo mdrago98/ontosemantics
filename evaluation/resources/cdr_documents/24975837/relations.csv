@@ -1,14 +1,66 @@
 ,Subject,Action,Object,Negation
 0,treatment,adopted,chemotherapies,False
-1,drug,induce,kidney,False
-2,drug,induce,ability,False
-3,ability,affect,renal function,False
-4,kinin B2 receptor,associated,inflammation process,False
-5,deletion,resulted,improvement,False
-6,mice,challenged,cisplatin,False
-7,mice,treated,B2 receptor,False
-8,mice,treated,cisplatin,False
-9,treatment,reduced,levels,False
-10,treatment,reduced,cisplatin,False
-11,kinin B2 receptor,involved,kidney,False
-12,results,highlight,kinin B2 receptor,False
+1,treatment,adopted,acute kidney injury,False
+2,treatment,adopted,renal function,False
+3,treatment,adopted,serum levels,False
+4,treatment,adopted,creatinine,False
+5,treatment,adopted,acute tubular necrosis score,False
+6,treatment,adopted,cytokines,False
+7,drug,adopted,chemotherapies,False
+8,drug,adopted,acute kidney injury,False
+9,drug,adopted,renal function,False
+10,drug,adopted,serum levels,False
+11,drug,adopted,creatinine,False
+12,drug,adopted,acute tubular necrosis score,False
+13,drug,adopted,cytokines,False
+14,IL-1β,adopted,chemotherapies,False
+15,IL-1β,adopted,acute kidney injury,False
+16,IL-1β,adopted,renal function,False
+17,IL-1β,adopted,serum levels,False
+18,IL-1β,adopted,creatinine,False
+19,IL-1β,adopted,acute tubular necrosis score,False
+20,IL-1β,adopted,cytokines,False
+21,drug,induce,acute kidney injury,False
+22,drug,induce,renal function,False
+23,drug,induce,serum levels,False
+24,drug,induce,creatinine,False
+25,drug,induce,acute tubular necrosis score,False
+26,drug,induce,cytokines,False
+27,IL-1β,induce,acute kidney injury,False
+28,IL-1β,induce,renal function,False
+29,IL-1β,induce,serum levels,False
+30,IL-1β,induce,creatinine,False
+31,IL-1β,induce,acute tubular necrosis score,False
+32,IL-1β,induce,cytokines,False
+33,IL-1β,increase,acute tubular necrosis score,False
+34,IL-1β,increase,cytokines,False
+35,IL-1β,up-regulate,cytokines,False
+36,kinin B2 receptor,associated with,inflammation,False
+37,kinin B2 receptor,associated with,improvement,False
+38,kinin B2 receptor,associated with,status,False
+39,deletion,associated with,inflammation,False
+40,deletion,associated with,improvement,False
+41,deletion,associated with,status,False
+42,deletion,resulted,improvement,False
+43,deletion,resulted,status,False
+44,knockout mice,challenged,kinin B2 receptor,False
+45,knockout mice,challenged,cisplatin-induced acute kidney injury,False
+46,knockout mice,challenged,cisplatin,False
+47,WT mice,treated with,B2 receptor antagonist,False
+48,WT mice,treated with,cisplatin,False
+49,treatment,reduced,kinin B2 receptor antagonist,False
+50,treatment,reduced,levels,False
+51,treatment,reduced,serum creatinine,False
+52,treatment,reduced,cisplatin,False
+53,data,suggest,cisplatin-induced acute kidney injury,False
+54,data,suggest,necrotic process,False
+55,data,suggest,cytokines,False
+56,data,suggest,renal function,False
+57,kinin B2 receptor,suggest,cisplatin-induced acute kidney injury,False
+58,kinin B2 receptor,suggest,necrotic process,False
+59,kinin B2 receptor,suggest,cytokines,False
+60,kinin B2 receptor,suggest,renal function,False
+61,kinin B2 receptor,involved,cisplatin-induced acute kidney injury,False
+62,kinin B2 receptor,involved,necrotic process,False
+63,kinin B2 receptor,involved,cytokines,False
+64,kinin B2 receptor,involved,renal function,False

@@ -1,9 +1,7 @@
 ,Subject,Action,Object,Negation
-0,Famotidine,is,histamine H2-receptor antagonist,False
-1,histamine H2-receptor antagonist,used,settings,False
-2,cases,associated,famotidine,False
-3,authors,report,cases,False
-4,who,cleared,removal,False
-5,pharmacokinetics,reviewed,change,True
-6,implications,using,famotidine,False
-7,implications,using,persons,False
+0,cases,associated with,H2-receptor antagonists,False
+1,cases,associated with,delirium,False
+2,cases,associated with,famotidine,False
+3,pharmacokinetics,reviewed,famotidine,False
+4,pharmacokinetics,reviewed,metabolism,False
+5,pharmacokinetics,reviewed,elderly population,False

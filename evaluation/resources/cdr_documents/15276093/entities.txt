@@ -1,31 +1,83 @@
 Niacin
-release
-lovastatin
+extended-release/lovastatin
+combination
+treatment
 primary hypercholesterolemia
-dyslipidemia
+mixed dyslipidemia
+open-labeled
+multicenter study
+safety
+bedtime
 niacin
-release
-lovastatin
+extended-release/lovastatin
+dosed
+therapy
 patient
+compliance
+treatment
+clinical practice settings
+patients
+dyslipidemia
+drug intervention
+sites
+Patients
+treated with
+1 tablet
+niacin
+lovastatin
+nightly
+weeks
+tablets
+weeks
+Patients
+dietary counseling
+educational materials
+reminders
+education
 dyslipidemia
 niacin
-lovastatin
-dyslipidemia
+extended-release/lovastatin
+study
+compliance
+increases
+liver transaminases
+upper limit of
+clinical myopathy
+study status
+patients
+Compliance
 niacin
-release
-lovastatin
-liver
-myopathy
-niacin
-release
-lovastatin
+extended-release/lovastatin
+patients
+study
+Patients
+southeast
+endocrinologists
+compliance
+highest
+adverse event
+rates
 Flushing
+adverse event
+patients
+discontinuation
+Incidence
+increased
 aspartate aminotransferase
 alanine aminotransferase
+upper limit of
+increase
 creatine phosphokinase
+upper limit
+patients
 drug-induced myopathy
 Niacin
-release
-lovastatin
+dosed
+therapy
+associated with
+compliance
+safety
+incidences
+increased
 liver
-muscle
+muscle enzymes

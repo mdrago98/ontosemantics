@@ -1,9 +1,12 @@
 ,Subject,Action,Object,Negation
-0,Cardiac symptoms,including,hypotension,False
-1,Cardiac symptoms,developed,patients,False
-2,Cardiac symptoms,developed,colorectal carcinoma,False
-3,hypotension,associated,left ventricular dysfunction,False
-4,patients,required,therapy,False
-5,enzymes,remained,changes,False
-6,presentation,suggest,manifestations,False
-7,evaluation,suggest,manifestations,False
+0,hypotension,associated with,patients,False
+1,hypotension,associated with,left ventricular dysfunction,False
+2,Cardiac enzymes,remained,changes,False
+3,presentation,suggest,patients,False
+4,presentation,suggest,manifestations,False
+5,presentation,suggest,5-FU,False
+6,presentation,suggest,CDDP,False
+7,echocardiographic,suggest,patients,False
+8,echocardiographic,suggest,manifestations,False
+9,echocardiographic,suggest,5-FU,False
+10,echocardiographic,suggest,CDDP,False

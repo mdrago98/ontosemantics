@@ -1,11 +1,9 @@
 ,Subject,Action,Object,Negation
-0,statins,are,drugs,False
-1,drug-induced liver injury,associated,use,False
-2,man,reported,liver damage,False
-3,liver damage,beginning,treatment,False
-4,Patient,presented,complaints,False
-5,values,showed,creatine kinase,False
-6,values,showed,transaminases,False
-7,biochemistries,normalized,weeks,False
-8,weeks,stopping,fluvastatin,False
-9,possibility,taken,account,False
+0,statins,reported,drug-induced liver injury,False
+1,cases,reported,drug-induced liver injury,False
+2,Patient,presented,complaints,False
+3,Patient,presented,nausea,False
+4,laboratory values,showed,creatine kinase,False
+5,Testing,Testing,autoantibodies,False
+6,liver biochemistries,normalized,weeks,False
+7,liver biochemistries,normalized,fluvastatin,False

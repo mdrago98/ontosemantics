@@ -1,5 +1,7 @@
 maximum tolerated dose
 MTD
 carbetocin
+long-acting synthetic analogue
 oxytocin
-vaginal
+administered
+vaginal delivery

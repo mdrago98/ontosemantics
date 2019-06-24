@@ -1,35 +1,74 @@
+Cardiotoxicity
+rare
 complication
 5-fluorouracil
 5-FU
+treatment
 malignancies
 man
-5-FU
+cardiotoxicity
 serum
-fluoro
-beta-alanine
+alpha-fluoro-beta-alanine
+FBAL
 patient
-colon cancer
-metastases
+unresectable colon cancer
 liver
 lung
-cardiac
+chemotherapy
+affiliated hospital
+cardiac history
+admission
 patient
+intravenous
 5-FU
 precordial pain
 right bundle branch block
 serum
+FBAL
+concentration
 precordial pain
+electrocardiographic changes
+spontaneously
+discontinuation
 5-FU
 precordial pain
 patient
+cardiotoxicity
+administration
 5-FU
+oral administration
+S-1
+derivative
 5-FU
-oral
-5-FU
+week
+instituted
+S-1
+inhibitory
 dihydropyrimidine dehydrogenase
+degradative
 5-FU
+FBAL
 serum
+FBAL
+concentration
+decreased
+measured
+day
+S-1
+administration
 cardiac symptoms
 patient
-5-FU
-5-FU
+partial response
+months
+initiation
+S-1
+treatment
+case
+review
+literature
+FBAL
+cardiotoxicity
+S-1
+administered
+patients
+cardiotoxicity

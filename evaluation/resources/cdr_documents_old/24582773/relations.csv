@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,We,report,case,False
+1,case,suffering,affective disorder,False
+2,patient,had,personality disorder,True
+3,patient,presented,agitation,False
+4,patient,presented,explanation,False
+5,withdrawal,attribute,us,False
+6,withdrawal,attribute,agitation,False
+7,reintroduction,attribute,us,False
+8,reintroduction,attribute,agitation,False

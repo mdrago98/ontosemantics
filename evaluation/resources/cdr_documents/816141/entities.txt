@@ -1,21 +1,26 @@
 patient
 renal disease
-hemolytic anemia
-cephalothin
-cephalothin
-IgG antibody
-patient
+Coombs-positive hemolytic anemia
+cephalothin therapy
+anti-cephalothin IgG antibody
+detected
+patient's
 serum
+eluates
 erythrocytes
-binding
+nonimmunologic binding
+patient's
+serum proteins
+cephalothin-coated normal red cells
+Skin tests
+in vitro
+lymphocyte
+stimulation
 patient
-serum
-proteins
-cephalothin
-cells
-Skin
-lymphocyte stimulation
-patient
+sensitized
 cephalothin
 ampicillin
-hemolytic anemias
+investigation
+drug-induced hemolytic anemias
+complexity
+immune mechanisms

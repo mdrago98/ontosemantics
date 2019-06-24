@@ -1,39 +1,76 @@
+negative
+effects
 Bisphenol A
 BPA
 neurodevelopment
 behaviors
 Acetylcholinesterase
 AChE
+regulatory enzyme
+anxiety-like behavior
+investigated
 behavioral
+phenotypes
 AChE
-mice
+activity
+male mice
 BPA
+exposure
 puberty
 postnatal day
 PND
+male
 mice
-BPA
-behavioral
+exposed to
+BPA/kg diet
+day
+period
+days
+PND71
+behavioral assay
+elevated plus maze
+EPM
+light/dark test
 AChE
+activity
 prefrontal cortex
 hypothalamus
 cerebellum
 hippocampus
 behavioral
+anxiety-like behavior
+increased
 mice
+exposed to
 BPA
 AChE
+activity
+decreased
 hippocampus
 mice
 BPA
-mice
+control mice
 prefrontal cortex
 hypothalamus
 cerebellum
+findings
+pubertal
 BPA
+exposure
+increased
+anxiety-like behavior
+associated with
+decreased
 AChE
+activity
 hippocampus
+adult
+male
 mice
-signaling
+studies
+investigate
+cholinergic signaling
 hippocampus
-behaviors
+PBE
+induced
+anxiety-like behaviors

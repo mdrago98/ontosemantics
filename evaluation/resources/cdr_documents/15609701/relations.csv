@@ -1,6 +1,22 @@
 ,Subject,Action,Object,Negation
-0,man,referred,incessant,False
-1,duration,documented,ECG,False
-2,duration,documented,time,False
-3,duration,documented,days,False
-4,he,taking,diltiazem,False
+0,man,referred,left ventricular dysfunction,False
+1,man,referred,dilated cardiomyopathy,False
+2,man,referred,hospital,False
+3,man,referred,ventricular tachycardia,False
+4,VT,terminated,administration,False
+5,VT,terminated,nifekalant hydrochloride,False
+6,month,switching,nifekalant,False
+7,month,switching,sotalol,False
+8,month,documented,nifekalant,False
+9,month,documented,sotalol,False
+10,month,documented,elevation,False
+11,month,documented,ECG,False
+12,month,documented,days,False
+13,duration,documented,nifekalant,False
+14,duration,documented,sotalol,False
+15,duration,documented,elevation,False
+16,duration,documented,ECG,False
+17,duration,documented,days,False
+18,elevation,disappeared,chest discomfort,False
+19,elevation,disappeared,long-acting diltiazem,False
+20,Coronary vasospasm,induced,sotalol,False

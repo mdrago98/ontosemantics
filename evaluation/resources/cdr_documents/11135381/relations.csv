@@ -1,7 +1,33 @@
 ,Subject,Action,Object,Negation
-0,aim,evaluate,role,False
-1,Methoxamine,evoked,increases,False
-2,Methoxamine,evoked,MUP,False
-3,Methoxamine,evoked,blood pressure,False
-4,effects,including,piloerection,False
-5,effects,experienced,subjects,False
+0,doses,administered,methoxamine,False
+1,doses,administered,group,False
+2,doses,administered,women,False
+3,doses,administered,genuine stress incontinence,False
+4,doses,administered,urethral pressure,False
+5,Methoxamine,evoked,increases,False
+6,Methoxamine,evoked,MUP,False
+7,Methoxamine,evoked,systolic blood pressure,False
+8,Methoxamine,evoked,heart rate,False
+9,Methoxamine,evoked,dosage,False
+10,side effects,experienced,piloerection,False
+11,side effects,experienced,subjects,False
+12,results,indicate,alpha1-adrenoceptor,False
+13,results,indicate,medical treatment,False
+14,results,indicate,stress incontinence,False
+15,results,indicate,piloerection,False
+16,usefulness,indicate,alpha1-adrenoceptor,False
+17,usefulness,indicate,medical treatment,False
+18,usefulness,indicate,stress incontinence,False
+19,usefulness,indicate,piloerection,False
+20,peripherally acting,indicate,alpha1-adrenoceptor,False
+21,peripherally acting,indicate,medical treatment,False
+22,peripherally acting,indicate,stress incontinence,False
+23,peripherally acting,indicate,piloerection,False
+24,usefulness,limited,alpha1-adrenoceptor,False
+25,usefulness,limited,medical treatment,False
+26,usefulness,limited,stress incontinence,False
+27,usefulness,limited,piloerection,False
+28,peripherally acting,limited,alpha1-adrenoceptor,False
+29,peripherally acting,limited,medical treatment,False
+30,peripherally acting,limited,stress incontinence,False
+31,peripherally acting,limited,piloerection,False

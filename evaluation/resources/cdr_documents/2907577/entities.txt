@@ -1,24 +1,47 @@
-Adenosine
-antagonists
+Adenosine antagonists
+benefit
+ischaemic
+nephrotoxic models
 acute renal failure
 ARF
-adenosine
-antagonists
+study
+effects of
+alkylxanthines
+potencies
+adenosine antagonists
+8-phenyltheophylline
 theophylline
 enprofylline
 rats
 acute renal failure
+injections
 gentamicin
 Renal function
-plasma
-urea
+biochemical
+plasma urea
 creatinine
-urine
+functional
+urine analysis
+[3H]inulin
+[14C]p-aminohippuric acid
+clearances
+morphological
+degree
 necrosis
+indices
+drug treatments
+improvements
+measurements
 renal function
-exerted
+improvement
+drug treatment
+vehicle
 polyethylene glycol
 NaOH
+protective effect
+alkylxanthines
+study
 adenosine
-gentamicin
+pathophysiological
+gentamicin-induced
 ARF

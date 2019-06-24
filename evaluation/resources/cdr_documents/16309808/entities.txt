@@ -1,35 +1,61 @@
+evidence
+dopaminergic system
 restless legs syndrome
 RLS
+symptoms
 RLS
 levodopa
-dopamine agonists
-dopamine D2 receptor
-antagonists
+dopamine
+agonists
+central dopamine D2 receptor antagonists
+induce
+aggravate
 RLS
+symptoms
 domperidone
-dopamine D2 receptor
-antagonist
+peripheral
+dopamine D2 receptor antagonist
+induce
+aggravate
+symptoms
 RLS
 Mirtazapine
 noradrenergic
-antidepressant
+serotonergic antidepressant
+NaSSA
+associated with
+RLS
+publications
+authors report
+depressed
+patient
+comorbid
+postprandial dyspepsia
+RLS
+mirtazapine
+domperidone therapy
+patient
+symptoms
+RLS
+treated with
+mirtazapine
+RLS
+symptoms
+discontinuation
+mirtazapine
+temporal
+relationship
+mirtazapine
+symptoms
 RLS
 patient
-dyspepsia
-RLS
+effect
+domperione
+mirtazapine-associated RLS
+physicians
 mirtazapine
-domperidone
-patient
+associated with
 RLS
-mirtazapine
-RLS
-mirtazapine
-mirtazapine
-RLS
-patient
-mirtazapine
-RLS
-mirtazapine
-RLS
-dopamine D2 receptor
-antagonists
+individuals
+concomitant
+dopamine D2 receptor antagonists

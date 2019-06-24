@@ -1,20 +1,43 @@
 ,Subject,Action,Object,Negation
-0,we,examined,IGF,False
-1,I,is,alternative,False
-2,animals,received,rhIGF,False
-3,I,received,vehicle,False
-4,rats,received,vehicle,False
-5,I,improved,weight,False
-6,clearance,was,rhIGF,False
-7,improvement,associated,glomerular,True
-8,I,increased,receptor,False
-9,treatment,reduced,IGF,False
-10,mRNA,modify,gene,True
-11,administration,improves,growth,False
-12,administration,improves,term,False
-13,administration,improves,GFR,False
-14,I,improves,growth,False
-15,I,improves,term,False
-16,I,improves,GFR,False
-17,I,worsen,injury,True
-18,I,worsen,disease,True
+0,hGH,demonstrated,structural injury,False
+1,hGH,demonstrated,experimental model,False
+2,hGH,demonstrated,glomerular disease,False
+3,hGH,exacerbates,structural injury,False
+4,hGH,exacerbates,experimental model,False
+5,hGH,exacerbates,glomerular disease,False
+6,IGF-I,examined,treatment,False
+7,IGF-I,examined,growth failure,False
+8,IGF-I,examined,rats,False
+9,IGF-I,examined,chronic PAN nephropathy,False
+10,glomerulopathy,induced,injections,False
+11,glomerulopathy,induced,PAN,False
+12,Experimental animals,received,rhIGF-I,False
+13,Experimental animals,received,vehicle,False
+14,rats,received,rhIGF-I,False
+15,rats,received,vehicle,False
+16,rats,received,vehicle,False
+17,improvement,associated with,GFR,True
+18,improvement,associated with,glomerular hypertrophy,True
+19,administration,increased,rats,False
+20,administration,increased,PAN nephropathy,False
+21,administration,increased,rhIGF-I,False
+22,administration,increased,IGF-I,False
+23,administration,increased,IGF-I receptor,False
+24,treatment,reduced,gene expression,False
+25,treatment,reduced,IGF-I,False
+26,administration,conclude,rhIGF-I,False
+27,administration,conclude,growth,False
+28,administration,conclude,rats,False
+29,administration,conclude,chronic PAN nephropathy,False
+30,administration,conclude,rhGH,False
+31,administration,conclude,rhIGF-I,False
+32,administration,conclude,structural injury,False
+33,administration,conclude,disease model,False
+34,administration,improves,rhIGF-I,False
+35,administration,improves,growth,False
+36,administration,improves,rats,False
+37,administration,improves,chronic PAN nephropathy,False
+38,administration,improves,rhGH,False
+39,administration,improves,rhIGF-I,False
+40,administration,improves,structural injury,False
+41,administration,improves,disease model,False

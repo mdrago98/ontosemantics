@@ -1,3 +1,5 @@
 ,Subject,Action,Object,Negation
-0,times,administering,vincristine,False
-1,times,administering,therapy,False
+0,Vincristine,given,child,False
+1,Vincristine,given,leukaemia,False
+2,Vincristine,given,sensory,False
+3,Vincristine,given,encephalopathy,False

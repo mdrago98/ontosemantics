@@ -1,31 +1,58 @@
 Amiodarone
+anti-arrhythmic drug
+life-threatening
+tachycardia
 adverse effects
+autopsy
 valvular heart disease
 patient
-lung
+lung mass
+diameter
+proteinuria
+treatment
 amiodarone
-lung
+long time
+lung mass
+suspected
 lung cancer
-positron
-emission
-infiltrates
-alveolar
-alveolar
-macrophages
-amiodarone
+CT
+positron emission tomography
+histologically
+lesion
+lymphoplasmacytic infiltrates
+alveolar walls
+intra-alveolar accumulation
+foamy macrophages
+characteristic
+myelinoid bodies
+amiodarone-related lesion
 lung tissue
-hemosiderin deposition
-capillaries
-lung
+distributed
+hemosiderin
+deposition
+abnormally
+mass
+hemosiderotic
+lung portions
+mass
 kidneys
-membrane
+glomeruli
+membrane spikes
 swelling
-Autoimmune diseases, viral hepatitis
+podocytes
+subepithelial deposits
+hump-like
+Autoimmune diseases
+viral hepatitis
 malignant neoplasms
+diseases
+relationship
 membranous glomerulonephritis
-amiodarone
-pulmonary
+differential diagnosis
+amiodarone-related pulmonary lesion
 neoplasm
+radiologically
 membranous glomerulonephritis
 complication
 amiodarone
+treatment

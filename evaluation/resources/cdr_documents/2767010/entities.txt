@@ -1,11 +1,80 @@
-disodium phosphate
-ester
+ACC-9653
+disodium phosphate ester
 prodrug
 phenytoin
+physicochemical properties
+ACC-9653
+enzymatically
 phenytoin
-phenytoin
-anticonvulsant
+in vivo
+ACC-9653
+phenytoin sodium
+anticonvulsant activity
 seizures
+induced
 maximal electroshock
 MES
 mice
+i.p.
+oral
+administration
+ED50
+doses
+ACC-9653
+phenytoin sodium
+ACC-9653
+phenytoin sodium
+antiarrhythmic activity
+ouabain-induced ventricular tachycardia
+anesthetized
+dogs
+doses
+ACC-9653
+phenytoin sodium
+arrhythmia
+sinus rhythm
+phenytoin sodium
+in vitro
+antiarrhythmic activity
+strophanthidin-induced arrhythmias
+guinea
+pig
+right atria
+anesthetized dogs
+high dose
+ACC-9653
+infused
+responses
+equimolar
+dose
+phenytoin sodium
+ACC-9653
+phenytoin sodium
+treatments
+reductions
+diastolic blood pressure
+contractile force
+LVdP/dt
+maximum
+effects
+treatment
+maximum
+phenytoin sodium
+Acute
+toxicity
+ACC-9653
+phenytoin sodium
+mice
+rats
+rabbits
+dogs
+i.p.
+administration
+systemic
+agents
+equivalent
+doses
+local irritation
+ACC-9653
+phenytoin sodium
+i.m.

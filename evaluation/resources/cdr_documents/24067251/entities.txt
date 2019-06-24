@@ -1,26 +1,57 @@
+potential
 tenofovir
+kidney syndromes
+mechanistic
+randomised clinical trials
+pattern
 kidney
-syndromes
-kidney
-HIV
+involvement
+analysis
+Yellow Card records
+HIV-positive
+persons
 tenofovir disoproxil fumarate
 TDF
+antiretroviral therapy
+regimen
+Medicines
+Healthcare Products Regulatory Agency
+MHRA
+suspected
 kidney
 adverse effects
-kidney
-kidney
+criteria
+acute kidney injury
+kidney tubular dysfunction
+Fanconi syndrome
+Yellow Card records
+analysed
+criteria
+TDF-related kidney disease
+features
+kidney tubular dysfunction
+features
+glomerular dysfunction
 Fanconi syndrome
 TDF
-kidney disease
-kidney
-glomerular
-Fanconi syndrome
-TDF
-TDF
-kidney
+exposure
+days
+interquartile range
+incidence
+hospitalisation
+TDF kidney
 adverse effects
+patients
+features
 Fanconi syndrome
-kidney
-syndromes
+pattern
+kidney syndromes
+population series
+randomised clinical trials
+Cessation
 TDF
+associated with
+restoration
 kidney function
+patients
+report

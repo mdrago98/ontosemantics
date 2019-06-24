@@ -1,7 +1,15 @@
+assess
 pharmacokinetics
+efficacy
+tolerability
 oral
 levetiracetam
+administered
+adjunct
 phenobarbital
+treatment
 cats
+suspected
 idiopathic epilepsy
-label
+DESIGN-Open-label
+noncomparative clinical trial

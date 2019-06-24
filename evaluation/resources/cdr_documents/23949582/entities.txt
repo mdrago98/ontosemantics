@@ -1,23 +1,54 @@
 Ifosfamide
 IFO
+alkylating
 nitrogen mustard
+administrated
+antineoplasmic agent
+urotoxic action
 hemorrhagic cystitis
 side effect
 IFO
-2-sulfanylethanesulfonate
+requirement
+co-administration
+sodium 2-sulfanylethanesulfonate
+Mesna
+effect
 IFO
-rabbit
+Mesna
+administrated
+rabbit's
 lymphocytes
+in vivo
+in vitro
+Cytogenetic markers
 sister chromatid exchanges
 SCEs
-proliferation
+proliferation rate index
+PRI
+Mitotic Index
+Mesna's
+conjunction
 IFO
+frequency
 SCEs
 SCEs
+recordings
 IFO
+administered
+concentrations
+Mesna
+administered
+reductions
 PRI
 IFO
+concentration
 lymphocytes
-IFO
+Mesna
+reduces
+IFO's
 genotoxicity
-cytostatic
+administered
+concentrations
+inhibitory fashion
+cytostatic action
+drug

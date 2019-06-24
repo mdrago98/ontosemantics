@@ -1,20 +1,54 @@
 Epsilon aminocaproic acid
 EACA
+rebleeding
+patients
 subarachnoid hemorrhage
 SAH
-EACA
-intracranial vascular
-thrombosis
+agent
+decrease
+frequency
+rebleeding
+reports
+thrombotic
+complications
+EACA therapy
+complications
+clinical deterioration
+intracranial vascular thrombosis
+patients
 SAH
-capillary
-thrombi
-syndromes
+arteriolar
+capillary fibrin thrombi
+patients
+fibrinolytic syndromes
+treated with
 EACA
-fibrin
-thrombi
+thromboembolic
+phenomena
+intravascular fibrin thrombi
+patients
+fibrinolytic disorders
 EACA
 pathogenesis
-fibrin
-thrombi
-disseminated intravascular coagulation
+fibrin thrombi
+patients
+disseminated
+intravascular coagulation
 consumption coagulopathies
+subtotal infarction
+kidney
+thrombosis
+normal renal artery
+occlusion
+EACA
+therapy
+patient
+SAH
+histopathological
+documentation
+recurrent
+SAH
+clinical event
+hypertension
+abrupt
+neurological deterioration

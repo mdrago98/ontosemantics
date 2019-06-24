@@ -1,11 +1,29 @@
 ,Subject,Action,Object,Negation
-0,role,investigated,mice,False
-1,Scopolamine,induced,amnesia,False
-2,Naloxone,attenuated,retention,False
-3,Naloxone,attenuated,peak,False
-4,effect,antagonized,morphine,False
-5,effect,antagonized,kg,False
-6,administration,attenuated,amnesia,False
-7,results,extend,findings,False
-8,findings,implicating,interaction,False
-9,mechanism,involving,pathway,False
+0,Scopolamine,induced,amnesia,False
+1,Scopolamine,induced,latency,False
+2,Naloxone,attenuated,training,False
+3,Naloxone,attenuated,retention deficit,False
+4,Naloxone,attenuated,activity,False
+5,effect,antagonized,naloxone,False
+6,effect,antagonized,morphine,False
+7,effect,antagonized,opioid,False
+8,administration,attenuated,naloxone,False
+9,administration,attenuated,split dose,False
+10,administration,attenuated,scopolamine-induced amnesia,False
+11,Control experiments,indicated,pain sensitivity,False
+12,Control experiments,indicated,influence,False
+13,Control experiments,indicated,naloxone,False
+14,Control experiments,indicated,scopolamine-induced retention deficit,False
+15,increase,indicated,pain sensitivity,False
+16,increase,indicated,influence,False
+17,increase,indicated,naloxone,False
+18,increase,indicated,scopolamine-induced retention deficit,False
+19,increase,appear,pain sensitivity,False
+20,increase,appear,influence,False
+21,increase,appear,naloxone,False
+22,increase,appear,scopolamine-induced retention deficit,False
+23,results,extend,findings,False
+24,results,extend,interaction,False
+25,results,extend,memory processes,False
+26,mechanism,discussed,interaction,False
+27,mechanism,discussed,septo-hippocampal cholinergic pathway,False

@@ -1,13 +1,59 @@
-pyrrolidone
-scopolamine
-learning
+Nefiracetam
+novel
+pyrrolidone derivative
+attenuates
+scopolamine-induced learning
+post-training
+consolidation deficits
 apomorphine
-retention
+inhibits
+avoidance retention
+training
+post-training
+period
+evaluated
+nefiracetam
+attenuate
 amnesia
+induced
+dopaminergic agonism
+step-down passive avoidance
+employed
+nefiracetam
 apomorphine
+combination
+training
+post-training
+period
+consolidation
+Co-administration
+nefiracetam
 apomorphine
+training
+10h
+anti-amnesic effect
+administration
+nefiracetam
+training
+reversed
 amnesia
+induced
 apomorphine
-binding
+10h post-training time
+effects
+dopaminergic mechanism
+nefiracetam
+millimolar
+concentrations
+[3H]SCH 23390
+[3H]spiperone binding
+D1
 D2 dopamine receptor
+subtypes
+nefiracetam
+augments
+molecular processes
+early stages
+events
+consolidation
 memory

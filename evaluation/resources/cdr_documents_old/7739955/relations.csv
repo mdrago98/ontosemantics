@@ -1,0 +1,23 @@
+,Subject,Action,Object,Negation
+0,We,describe,resuscitation,False
+1,who,presented,acute circulatory failure,False
+2,one,had,eosinophilic myocarditis,False
+3,one,had,hemosiderosis,False
+4,hemosiderosis,resulting,cardiogenic shock,False
+5,patients,monitored,catheters,False
+6,patients,monitored,addition,False
+7,sheath,made,available,False
+8,need,terminate,cardiac dysrhythmias,False
+9,patients,developed,cardiocirculatory,False
+10,arrest,associated,hypotension,False
+11,wires,inserted,all,False
+12,wires,inserted,cardiopulmonary resuscitation,False
+13,patients,had,event,False
+14,patients,had,minutes,False
+15,one patient,converted,defibrillation,False
+16,one patient,converted,minutes,False
+17,minutes,initiating,CPR,False
+18,patients,suffering,myocardial dysfunction,False
+19,pacing,have,term,True
+20,cardiac pacing during resuscitative efforts in pediatric patients suffering from acute myocardial dysfunction,provide,time,False
+21,time,institute,modalities,False

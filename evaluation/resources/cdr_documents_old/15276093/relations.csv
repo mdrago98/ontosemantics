@@ -1,0 +1,25 @@
+,Subject,Action,Object,Negation
+0,lovastatin,is,combination,False
+1,product,approved,treatment,False
+2,safety,dosed,therapy,False
+3,safety,dosed,patient,False
+4,dyslipidemia,requiring,drug,False
+5,total,enrolled,sites,False
+6,Patients,treated,tablet,False
+7,Patients,treated,weeks,False
+8,Patients,received,counseling,False
+9,that,provided,education,False
+10,points,were,study,False
+11,status,was,patients,False
+12,Compliance,was,%,False
+13,Compliance,was,patients,False
+14,patients,completing,study,False
+15,Patients,had,compliance,False
+16,Patients,had,event,False
+17,Flushing,was,event,False
+18,event,leading,%,False
+19,alanine aminotransferase,was,%,False
+20,increase,occurred,%,False
+21,mg,dosed,therapy,False
+22,mg,associated,compliance,False
+23,mg,associated,safety,False

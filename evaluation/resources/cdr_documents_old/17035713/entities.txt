@@ -1,0 +1,64 @@
+Chloroacetaldehyde
+CAA
+metabolite
+alkylating agent
+ifosfamide
+IFO
+renal
+tumor
+IFO
+cell
+CAA
+human
+proximal tubule
+cells
+CAA
+protein
+cell
+LDH
+release
+caspase-3 activity
+thiols
+CAA
+cell
+protein
+intracellular
+thiols
+necrosis
+CAA
+acrolein
+cysteine proteases
+caspase-3
+caspase-8
+Caspase activation
+cisplatin
+CAA
+cells
+fluorescent dyes
+targeting
+lysosomes
+CAA
+lysosomal
+lysosomal
+leakage
+CAA
+cysteine protease
+thiols
+cell
+Acidification
+CAA
+thiol
+CAA
+necrosis
+thiol
+cysteine protease
+inhibition
+cells
+CAA
+cellular
+protein
+protein
+thiols
+acidification
+acidification
+nephropathy

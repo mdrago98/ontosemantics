@@ -1,3 +1,5 @@
 ,Subject,Action,Object,Negation
-0,Interferon,produces,hemolytic anemia,False
-1,ribavirin,produces,hemolytic anemia,False
+0,combination therapy,produces,chronic hepatitis C,False
+1,combination therapy,produces,hemolytic anemia,False
+2,study,conducted,factors,False
+3,study,conducted,ribavirin-induced anemia,False

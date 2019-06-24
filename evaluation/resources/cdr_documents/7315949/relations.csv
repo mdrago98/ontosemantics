@@ -1,10 +1,28 @@
 ,Subject,Action,Object,Negation
-0,media,contain,vacuoles,False
-1,vasoconstriction,increase,number,False
-2,vasoconstriction,produced,hernias,False
-3,vasoconstriction,produced,minutes,False
-4,stimulation,induced,changes,False
-5,data,discussed,relation,False
-6,changes,observed,instances,False
-7,that,developed,model,False
-8,changes,described,paper,False
+0,media,shown,rats,False
+1,media,shown,small arteries,False
+2,media,shown,diameter,False
+3,media,shown,vacuoles,False
+4,media,shown,herniations,False
+5,media,shown,smooth muscle cell,False
+6,vasoconstriction,increase,vacuoles,False
+7,hypothesis,tested,vacuoles,False
+8,vasoconstriction,tested,vacuoles,False
+9,vasoconstriction,produced,media,False
+10,vasoconstriction,produced,saphenous artery,False
+11,vasoconstriction,produced,L-norepinephrine,False
+12,vasoconstriction,produced,cell-to-cell hernias,False
+13,vasoconstriction,produced,minutes,False
+14,vessel,restored,days,False
+15,stimulation,induced,day,False
+16,stimulation,induced,changes,False
+17,stimulation,induced,media,False
+18,findings,suggest,damage,False
+19,findings,suggest,course,False
+20,findings,suggest,function,False
+21,smooth muscle cells,suggest,damage,False
+22,smooth muscle cells,suggest,course,False
+23,smooth muscle cells,suggest,function,False
+24,data,discussed,changes,False
+25,data,discussed,arterial spasm,False
+26,Endothelial changes,described,experimental model,False

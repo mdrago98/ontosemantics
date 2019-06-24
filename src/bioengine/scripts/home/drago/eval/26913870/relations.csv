@@ -1,0 +1,35 @@
+,Subject,Action,Object,Negation
+0,electrolyte homoeostasis,maintained,physiological conditions,False
+1,electrolyte homoeostasis,maintained,kidney,False
+2,electrolyte homoeostasis,maintained,body needs,False
+3,Insipidus,is,clinical syndrome,False
+4,Insipidus,is,water balance,False
+5,Insipidus,is,diuresis,False
+6,Insipidus,is,dilute urine,False
+7,Insipidus,described,Diabetes Mellitus,False
+8,Insipidus,described,Egypt,False
+9,Johann Peter Frank,described,patients,False
+10,Johann Peter Frank,described,nonsaccharine,False
+11,Johann Peter Frank,described,Diabetes,False
+12,milestone,was,posterior pituitary extracts,False
+13,milestone,was,Diabetes Insipidus,False
+14,Farini,was,posterior pituitary extracts,False
+15,Farini,was,Diabetes Insipidus,False
+16,Farini,used,posterior pituitary extracts,False
+17,Farini,used,Diabetes Insipidus,False
+18,evidence,indicated,disorder,False
+19,evidence,indicated,pituitary gland,False
+20,De Lange,observed,Diabetes Insipidus,False
+21,De Lange,observed,Diabetes,False
+22,De Lange,observed,treatment,False
+23,patients,observed,Diabetes Insipidus,False
+24,patients,observed,Diabetes,False
+25,patients,observed,treatment,False
+26,kidney,observed,Diabetes Insipidus,False
+27,kidney,observed,Diabetes,False
+28,kidney,observed,treatment,False
+29,patients,respond,Diabetes Insipidus,True
+30,kidney,established,Diabetes,False
+31,kidney,established,treatment,False
+32,kidney,had,Diabetes,False
+33,kidney,had,treatment,False

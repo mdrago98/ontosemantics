@@ -1,29 +1,90 @@
+Intradermal
+injections
 glutamate
 capsaicin
 human
+experimental
+pain models
 hyperalgesia
-pain disorders
+allodynia
+isolated
+clinical pain disorders
+study
+investigate
+reproducibility
+models
+healthy
+volunteers
+years
+years
+intradermal
+injections
 glutamate
 capsaicin
-volar
-forearm
-hyperalgesia
-strokes
-hyperalgesia
+volar forearm
+Magnitudes
+secondary pinprick hyperalgesia
+brush-evoked allodynia
+investigated
+von Frey filaments
+gauges 10
+brush strokes
+secondary hyperalgesia
+allodynia
+quantified
+injection
+identical
+experiments
+days
+Reproducibility
+volunteers
+inter- and
+intra-individual
+assessed
 intraclass correlation coefficient
 ICC
-hyperalgesia
+coefficient of variation
+CV
+Secondary pinprick hyperalgesia
+increase
+visual analogue scale
+VAS
+response
+Frey gauges
 glutamate
+injection
 capsaicin
-hyperalgesia
+secondary pinprick hyperalgesia
+detected
+Frey gauges
 Glutamate
+evoked
+VAS
+response
+von Frey gauges
 ICC
-strokes
+brush strokes
 ICC
 Capsaicin
-hyperalgesia
+injection
+secondary hyperalgesia
 ICC
+allodynia
 ICC
-hyperalgesia
+Intra-individual
+variability
+VAS
+response
+brush
+compared
+secondary hyperalgesia
+allodynia
 glutamate
 capsaicin
+hyperalgesic
+allodynic responses
+model
+research
+assessing
+modulation
+central phenomena

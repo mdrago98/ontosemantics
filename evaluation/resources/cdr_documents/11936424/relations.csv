@@ -1,11 +1,43 @@
 ,Subject,Action,Object,Negation
-0,administration,inhibited,glomerular,False
-1,groups,used,PAN,False
-2,which,killed,weeks,False
-3,BP,was,weeks,False
-4,Temocapril,attenuate,proteinuria,True
-5,Temocapril,attenuate,days,True
-6,index,was,%,False
-7,index,was,weeks,False
-8,There,was,correlation,False
-9,The ratio of glomerular tuft area to the area of Bowman's capsules (GT/BC) in the PAN group,was,temocapril,False
+0,chronic administration,was,study,False
+1,chronic administration,was,temocapril,False
+2,chronic administration,was,glomerular hypertrophy,False
+3,chronic administration,was,glomerulosclerosis,False
+4,chronic administration,was,rats,False
+5,proteinuria,was,study,False
+6,proteinuria,was,temocapril,False
+7,proteinuria,was,glomerular hypertrophy,False
+8,proteinuria,was,glomerulosclerosis,False
+9,proteinuria,was,rats,False
+10,chronic administration,determine,temocapril,False
+11,chronic administration,determine,glomerular hypertrophy,False
+12,chronic administration,determine,glomerulosclerosis,False
+13,chronic administration,determine,rats,False
+14,proteinuria,determine,temocapril,False
+15,proteinuria,determine,glomerular hypertrophy,False
+16,proteinuria,determine,glomerulosclerosis,False
+17,proteinuria,determine,rats,False
+18,chronic administration,reduced,temocapril,False
+19,chronic administration,inhibited,temocapril,False
+20,chronic administration,inhibited,glomerular hypertrophy,False
+21,chronic administration,inhibited,glomerulosclerosis,False
+22,chronic administration,inhibited,rats,False
+23,proteinuria,inhibited,temocapril,False
+24,proteinuria,inhibited,glomerular hypertrophy,False
+25,proteinuria,inhibited,glomerulosclerosis,False
+26,proteinuria,inhibited,rats,False
+27,Nephrosis,induced,injection,False
+28,Nephrosis,induced,PAN,False
+29,Nephrosis,induced,Sprague-Dawley (SD,False
+30,groups,used,PAN,False
+31,Temocapril,administered,rats,False
+32,Temocapril,administered,weeks,False
+33,systolic blood pressure,evaluated,time point,False
+34,morphometric image analysis,evaluated,time point,False
+35,ratio,increased,glomerular tuft area,False
+36,ratio,increased,Bowman's capsules,False
+37,ratio,increased,PAN,False
+38,ratio,increased,PAN/temocapril group,False
+39,temocapril,appears,renal progression,False
+40,temocapril,appears,renal function,False
+41,temocapril,appears,PAN,False

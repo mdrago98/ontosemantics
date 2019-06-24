@@ -2,7 +2,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 
 from src.bioengine.dochandlers.page_objects.page_object import PageObject
-from settings import Config
+from src.settings import Config
 
 import re
 

@@ -1,29 +1,157 @@
 ,Subject,Action,Object,Negation
-0,who,undergo,bone marrow,False
-1,cyclophosphamide,based,weight,False
-2,toxicity,correlates,dose,False
-3,we,calculated,dose,False
-4,patients,transplanted,institution,False
-5,incidence,correlated,dose,False
-6,who,receive,CYA,False
-7,who,receive,kg,False
-8,who,receive,days,False
-9,who,receive,preparation,False
-10,patients,receive,CYA,False
-11,patients,receive,kg,False
-12,patients,receive,days,False
-13,patients,receive,preparation,False
-14,patients,underwent,total,False
-15,Fourteen,had,symptoms and signs,False
-16,patients,had,symptoms and signs,False
-17,days,receiving,doses,False
-18,Six,died,congestive heart failure,False
-19,dose,calculated,patients,False
-20,patients,divided,groups,False
-21,groups,based,CYA,False
-22,Cardiotoxicity,occurred,1/32,False
-23,There,was,difference,True
-24,cardiotoxicity,correlates,CYA,False
-25,patients,based,weight,False
-26,study,reaffirms,principle,False
-27,toxicity,correlates,dose,False
+0,cardiotoxicity,occur,high doses,False
+1,cardiotoxicity,occur,CYA,False
+2,cardiotoxicity,occur,development,False
+3,cardiotoxicity,occur,cardiotoxicity,False
+4,risk factors,occur,high doses,False
+5,risk factors,occur,CYA,False
+6,risk factors,occur,development,False
+7,risk factors,occur,cardiotoxicity,False
+8,risk factors,described,development,True
+9,risk factors,described,cardiotoxicity,True
+10,toxicity,correlates,dose,False
+11,toxicity,calculated,dose,False
+12,toxicity,calculated,dose,False
+13,toxicity,calculated,CYA,False
+14,toxicity,calculated,patients,False
+15,toxicity,calculated,institution,False
+16,toxicity,calculated,CYA,False
+17,toxicity,calculated,dose,False
+18,incidence,calculated,dose,False
+19,incidence,calculated,dose,False
+20,incidence,calculated,CYA,False
+21,incidence,calculated,patients,False
+22,incidence,calculated,institution,False
+23,incidence,calculated,CYA,False
+24,incidence,calculated,dose,False
+25,incidence,transplanted,institution,False
+26,incidence,transplanted,CYA,False
+27,incidence,transplanted,dose,False
+28,incidence,determine,CYA,False
+29,incidence,determine,dose,False
+30,incidence,correlated,CYA,False
+31,incidence,correlated,dose,False
+32,patients,underwent,days,False
+33,patients,underwent,preparation,False
+34,patients,underwent,marrow grafting,False
+35,patients,underwent,transplants,False
+36,patients,underwent,aplastic anemia,False
+37,patients,had,symptoms,False
+38,patients,had,CYA,False
+39,patients,had,doses,False
+40,patients,had,CYA,False
+41,dose,calculated,CYA,False
+42,dose,calculated,body surface area,False
+43,dose,calculated,patients,False
+44,dose,calculated,groups,False
+45,dose,calculated,CYA,False
+46,patients,calculated,CYA,False
+47,patients,calculated,body surface area,False
+48,patients,calculated,patients,False
+49,patients,calculated,groups,False
+50,patients,calculated,CYA,False
+51,Group 1,calculated,CYA,False
+52,Group 1,calculated,body surface area,False
+53,Group 1,calculated,patients,False
+54,Group 1,calculated,groups,False
+55,Group 1,calculated,CYA,False
+56,Group 2,calculated,CYA,False
+57,Group 2,calculated,body surface area,False
+58,Group 2,calculated,patients,False
+59,Group 2,calculated,groups,False
+60,Group 2,calculated,CYA,False
+61,patients,divided,groups,False
+62,patients,divided,CYA,False
+63,Group 1,divided,groups,False
+64,Group 1,divided,CYA,False
+65,Group 2,divided,groups,False
+66,Group 2,divided,CYA,False
+67,Cardiotoxicity,occurred,CYA,False
+68,Cardiotoxicity,occurred,patients,False
+69,Cardiotoxicity,occurred,Group 1,False
+70,Cardiotoxicity,occurred,Group 2,False
+71,Congestive heart failure,caused,death,False
+72,Congestive heart failure,caused,patients,False
+73,Congestive heart failure,caused,Group 1 v 6/52,False
+74,Congestive heart failure,caused,patients,False
+75,Congestive heart failure,caused,Group 2,False
+76,cardiotoxicity,conclude,CYA,False
+77,cardiotoxicity,conclude,body surface area,False
+78,cardiotoxicity,conclude,aplastic anemia,False
+79,cardiotoxicity,conclude,bone marrow grafting,False
+80,cardiotoxicity,conclude,CYA,False
+81,cardiotoxicity,conclude,days,False
+82,cardiotoxicity,conclude,incidence,False
+83,cardiotoxicity,conclude,cardiotoxicity,False
+84,cardiotoxicity,conclude,patients,False
+85,cardiotoxicity,conclude,weight,False
+86,patients,conclude,CYA,False
+87,patients,conclude,body surface area,False
+88,patients,conclude,aplastic anemia,False
+89,patients,conclude,bone marrow grafting,False
+90,patients,conclude,CYA,False
+91,patients,conclude,days,False
+92,patients,conclude,incidence,False
+93,patients,conclude,cardiotoxicity,False
+94,patients,conclude,patients,False
+95,patients,conclude,weight,False
+96,dosage,conclude,CYA,False
+97,dosage,conclude,body surface area,False
+98,dosage,conclude,aplastic anemia,False
+99,dosage,conclude,bone marrow grafting,False
+100,dosage,conclude,CYA,False
+101,dosage,conclude,days,False
+102,dosage,conclude,incidence,False
+103,dosage,conclude,cardiotoxicity,False
+104,dosage,conclude,patients,False
+105,dosage,conclude,weight,False
+106,cardiotoxicity,correlates,CYA,False
+107,cardiotoxicity,correlates,body surface area,False
+108,cardiotoxicity,correlates,aplastic anemia,False
+109,cardiotoxicity,correlates,bone marrow grafting,False
+110,cardiotoxicity,correlates,CYA,False
+111,cardiotoxicity,correlates,days,False
+112,cardiotoxicity,correlates,incidence,False
+113,cardiotoxicity,correlates,cardiotoxicity,False
+114,cardiotoxicity,correlates,patients,False
+115,cardiotoxicity,correlates,weight,False
+116,patients,correlates,CYA,False
+117,patients,correlates,body surface area,False
+118,patients,correlates,aplastic anemia,False
+119,patients,correlates,bone marrow grafting,False
+120,patients,correlates,CYA,False
+121,patients,correlates,days,False
+122,patients,correlates,incidence,False
+123,patients,correlates,cardiotoxicity,False
+124,patients,correlates,patients,False
+125,patients,correlates,weight,False
+126,dosage,correlates,CYA,False
+127,dosage,correlates,body surface area,False
+128,dosage,correlates,aplastic anemia,False
+129,dosage,correlates,bone marrow grafting,False
+130,dosage,correlates,CYA,False
+131,dosage,correlates,days,False
+132,dosage,correlates,incidence,False
+133,dosage,correlates,cardiotoxicity,False
+134,dosage,correlates,patients,False
+135,dosage,correlates,weight,False
+136,patients,prepared,aplastic anemia,False
+137,patients,prepared,bone marrow grafting,False
+138,patients,prepared,CYA,False
+139,patients,prepared,days,False
+140,patients,prepared,incidence,False
+141,patients,prepared,cardiotoxicity,False
+142,patients,prepared,patients,False
+143,patients,prepared,weight,False
+144,dosage,prepared,aplastic anemia,False
+145,dosage,prepared,bone marrow grafting,False
+146,dosage,prepared,CYA,False
+147,dosage,prepared,days,False
+148,dosage,prepared,incidence,False
+149,dosage,prepared,cardiotoxicity,False
+150,dosage,prepared,patients,False
+151,dosage,prepared,weight,False
+152,dosage,calculated,weight,False
+153,study,reaffirms,dose,False
+154,drug toxicity,reaffirms,dose,False
+155,drug toxicity,correlates,dose,False

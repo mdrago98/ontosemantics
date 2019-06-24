@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,model,developed,rats,False
+1,Sprague-Dawley rats,received,injections,False
+2,Sprague-Dawley rats,received,days,False
+3,Sprague-Dawley rats,received,doses,False
+4,series,repeated,day,False
+5,animals,sacrificed,days,False
+6,The animals,developed,nephrotic syndrome,False
+7,The animals,developed,renal failure,False
+8,glomeruli,showed,changes,False
+9,studies,revealed,lack,False
+10,administration,enhances,toxicity,False
+11,administration,enhances,glomerulus,False
+12,rats,resulting,end-stage renal disease,False

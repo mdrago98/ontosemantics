@@ -1,11 +1,57 @@
 ,Subject,Action,Object,Negation
-0,dementia,associated,dysfunction,False
-1,dysfunction,followed,glucose transporter GLUT4,False
-2,which,transported,brain,False
-3,injections,generate,animal,False
-4,injections,generate,animal,False
-5,We,investigated,effects,False
-6,month,initiated,STZ,False
-7,dose,ranging,day,False
-8,exposure,have,effects,False
-9,cognitive deficits,associated,glucose,False
+0,clinical research,demonstrated,dysfunction,False
+1,clinical research,demonstrated,insulin-receptor (IR) system,False
+2,clinical research,demonstrated,glucose transport,False
+3,clinical research,demonstrated,glucose transporter,False
+4,clinical research,demonstrated,brain cells,False
+5,dementia,demonstrated,dysfunction,False
+6,dementia,demonstrated,insulin-receptor (IR) system,False
+7,dementia,demonstrated,glucose transport,False
+8,dementia,demonstrated,glucose transporter,False
+9,dementia,demonstrated,brain cells,False
+10,dementia,associated with,dysfunction,False
+11,dementia,associated with,insulin-receptor (IR) system,False
+12,dementia,associated with,glucose transport,False
+13,dementia,associated with,glucose transporter,False
+14,dementia,associated with,brain cells,False
+15,C-4-epimer,is,energy,False
+16,C-4-epimer,is,d-galactose,False
+17,C-4-epimer,is,brain,False
+18,C-4-epimer,is,GLUT3 transporter,False
+19,C-4-epimer,is,glucose,False
+20,C-4-epimer,is,Leloir pathway,False
+21,injections,induce,galactose,False
+22,injections,induce,memory deterioration,False
+23,injections,induce,rodents,False
+24,injections,induce,animal,False
+25,injections,induce,treatment,False
+26,injections,induce,cognitive functions,False
+27,effects of,induce,galactose,False
+28,effects of,induce,memory deterioration,False
+29,effects of,induce,rodents,False
+30,effects of,induce,animal,False
+31,effects of,induce,treatment,False
+32,effects of,induce,cognitive functions,False
+33,effects of,tested,treatment,True
+34,effects of,tested,cognitive functions,True
+35,STZ-icv,investigated,effects of,False
+36,STZ-icv,investigated,continuous daily oral galactose,False
+37,STZ-icv,investigated,cognitive deficits,False
+38,STZ-icv,investigated,rat,False
+39,STZ-icv,investigated,sAD,False
+40,STZ-icv,investigated,Morris Water Maze,False
+41,month,prevented,treatment,False
+42,month,prevented,STZ-icv,False
+43,month,prevented,development,False
+44,month,prevented,STZ-icv-induced cognitive deficits,False
+45,administration,led,appearance,False
+46,administration,led,galactose,False
+47,administration,led,blood,False
+48,exposure,have,improvement,False
+49,exposure,have,cognitive deficits,False
+50,exposure,have,glucose hypometabolism,False
+51,exposure,have,AD,False
+52,learning,have,improvement,False
+53,learning,have,cognitive deficits,False
+54,learning,have,glucose hypometabolism,False
+55,learning,have,AD,False

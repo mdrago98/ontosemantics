@@ -1,14 +1,57 @@
-glioblastoma multiforme
+Improving
+glioblastoma
+multiforme
 GBM
-radio
+treatment
+radio-chemotherapy
 Topotecan
-growth
-inhibition
+growth inhibition
 human
 glioma
 brain
+study
+assessed
+combination
+radiotherapy
+days
 topotecan
+days
+weeks
+adults
+histologically
+untreated
 GBM
+incidence
+non-hematological toxicities
+low
+grade 3-4
+hematological
+toxicities
+patients
 lymphopenia
+neutropenia
+Partial response
+stabilization
+rates
+progression
+weeks
+overall survival
+OS
+rate
+median
+OS
+weeks
 Topotecan
+combination
+radiotherapy
+tolerated
+response
+stabilization
+patients
+study
+increased
+benefits
+survival
+patients
+unresectable
 GBM

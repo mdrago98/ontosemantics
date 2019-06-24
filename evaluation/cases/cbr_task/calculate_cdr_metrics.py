@@ -15,7 +15,7 @@ def query() -> str:
     :return:
     """
     return """
-    MATCH (doc:Publication)<-[:located_in]-(subject:ChemicalSubstance)-[association]->(obj:Disease)-[:located_in]->(sec_doc:Publication)
+    MATCH (doc:Publication)<-[:located_in]-(subject)-[association:chemical_to_disease_or_phenotypic_feature_association]->(obj)-[:located_in]->(sec_doc:Publication)
     WHERE association.relation <> 'null' and obj.name <> 'null' and subject.name <> 'null' and doc.pmid in {pmids} and association.relation <> 'null' and type(association) <> 'could_refer_to' and type(association) <> 'located_in' and sec_doc.pmid = doc.pmid
     RETURN DISTINCT subject.name as subject, subject.synonym as subj_syn, association.relation as predicate, obj.name as obj, obj.synonym as disease_synonym, type(association) as rel_type, doc.pmid as pmid, doc.abstract as abstract
     """
@@ -56,7 +56,7 @@ def generate_metrics(tp: int, fn: int, fp: int):
     return [precision, recall, fscore]
 
 
-def main(cbr_task_csv, output='', k=200, iterations=5):
+def main(cbr_task_csv, output='', k=400, iterations=5):
     """
     Main entry point
     """

@@ -1,7 +1,14 @@
-leukoencephalopathy
-calcineurin
-inhibitor
+Posterior leukoencephalopathy
+neurotoxicity
+rare
+severe
 complication
+results
+treatment
 immunosuppressive agents
+administered
 liver
 kidney transplant
+pathophysiologic
+mechanisms
+disorder

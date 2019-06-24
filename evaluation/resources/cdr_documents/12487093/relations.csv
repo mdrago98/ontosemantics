@@ -1,8 +1,24 @@
 ,Subject,Action,Object,Negation
-0,breakdown,studied,rats,False
-1,hypertension,destroy,BBB,False
-2,which,using,triphenyltetrazolium,False
-3,sections,exhibited,staining,False
-4,there,were,areas,False
-5,results,obtained,breakdown,False
-6,cerebral blood flow,depending,paw,False
+0,breakdown,studied,blood-brain barrier,False
+1,breakdown,studied,rats,False
+2,preference,assessed,food reaching test,False
+3,Adrenaline-induced hypertension,used,BBB,False
+4,Adrenaline-induced hypertension,used,triphenyltetrazolium,False
+5,Adrenaline-induced hypertension,used,adrenaline,False
+6,Adrenaline-induced hypertension,used,rats,False
+7,Adrenaline-induced hypertension,used,staining,False
+8,Adrenaline-induced hypertension,used,TTC,False
+9,brain sections,used,BBB,False
+10,brain sections,used,triphenyltetrazolium,False
+11,brain sections,used,adrenaline,False
+12,brain sections,used,rats,False
+13,brain sections,used,staining,False
+14,brain sections,used,TTC,False
+15,brain sections,exhibited,staining,False
+16,brain sections,exhibited,TTC,False
+17,results,explained,asymmetric cerebral blood flow,False
+18,results,explained,paw,False
+19,results,explained,rats,False
+20,method,suggested,contralateral motor control,False
+21,method,suggested,cerebral hemisphere,False
+22,method,suggested,animals,False

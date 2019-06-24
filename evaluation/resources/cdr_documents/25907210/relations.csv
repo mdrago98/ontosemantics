@@ -1,7 +1,10 @@
 ,Subject,Action,Object,Negation
-0,Diazinon,associated,lung cancer,False
-1,studies,examined,cancer,False
-2,We,evaluate,exposure,False
-3,We,evaluate,risk,False
-4,We,evaluate,cancer,False
-5,We,evaluate,information,False
+0,Diazinon,associated with,genotoxic properties,False
+1,Diazinon,associated with,lung cancer,False
+2,Diazinon,associated with,Agricultural Health Study,False
+3,Diazinon,associated with,risk,False
+4,epidemiological studies,associated with,genotoxic properties,False
+5,epidemiological studies,associated with,lung cancer,False
+6,epidemiological studies,associated with,Agricultural Health Study,False
+7,epidemiological studies,associated with,risk,False
+8,epidemiological studies,examined,risk,False

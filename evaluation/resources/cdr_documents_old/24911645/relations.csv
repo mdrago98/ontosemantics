@@ -1,0 +1,23 @@
+,Subject,Action,Object,Negation
+0,FC,isolated,Platonia insignis,False
+1,FC,isolated,hexanic,False
+2,Platonia insignis Mart,treat,folk,False
+3,Platonia insignis Mart,treat,skin diseases,False
+4,there,is,research,True
+5,study,evaluate,GFC,False
+6,study,evaluate,GFC,False
+7,study,determine,activity,False
+8,study,determine,activity,False
+9,study,determine,effects,False
+10,GFC,produced,latency,False
+11,GFC,produced,doses,False
+12,content,treated,GFC75,False
+13,levels,detected,decrease,False
+14,levels,detected,mice,False
+15,hippocampus,treated,GFC75,False
+16,hippocampus,compared,mice,False
+17,mice,treated,GFC75,False
+18,treated,showed,increase,False
+19,GFC,exert,activity,False
+20,GFC,influence,epileptogenesis,False
+21,This compound,considered,agent,False

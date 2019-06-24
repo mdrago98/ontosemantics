@@ -1,5 +1,20 @@
 ,Subject,Action,Object,Negation
-0,patient,developed,neuroleptic malignant syndrome,False
-1,patient,developed,administration,False
-2,intestinal bleeding,observed,episode,False
-3,NMS,complicated,intestinal bleeding,False
+0,patient,developed,chronic renal failure,False
+1,patient,developed,neuroleptic malignant syndrome,False
+2,patient,developed,administration,False
+3,patient,developed,risperidone,False
+4,intestinal bleeding,observed,symptoms,False
+5,intestinal bleeding,observed,NMS,False
+6,intestinal bleeding,observed,episode,False
+7,report,suggests,patient,False
+8,report,suggests,CRF,False
+9,report,suggests,intestinal bleeding,False
+10,report,suggests,complication,False
+11,NMS,suggests,patient,False
+12,NMS,suggests,CRF,False
+13,NMS,suggests,intestinal bleeding,False
+14,NMS,suggests,complication,False
+15,NMS,complicated,patient,False
+16,NMS,complicated,CRF,False
+17,NMS,complicated,intestinal bleeding,False
+18,NMS,complicated,complication,False

@@ -1,2 +1,7 @@
 ,Subject,Action,Object,Negation
-0,case,reported,patient,False
+0,case,reported,dissecting aneurysm,False
+1,case,reported,basilar artery,False
+2,case,reported,association,False
+3,case,reported,hypertension,False
+4,case,reported,patient,False
+5,case,reported,locked-in syndrome,False

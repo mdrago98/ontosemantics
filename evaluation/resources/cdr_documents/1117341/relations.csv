@@ -1,3 +1,7 @@
 ,Subject,Action,Object,Negation
-0,feeding,resulted,hyperglycemia,False
-1,compounds,included,norleucine,False
+0,chronic feeding,resulted,small amounts,False
+1,chronic feeding,resulted,diet weight,False
+2,chronic feeding,resulted,amino derivatives,False
+3,chronic feeding,resulted,caproate,False
+4,chronic feeding,resulted,hyperglycemia,False
+5,compounds,included,norleucine,False

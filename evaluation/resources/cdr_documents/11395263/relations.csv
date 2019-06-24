@@ -1,2 +1,12 @@
 ,Subject,Action,Object,Negation
-0,day(-1,prevented,myocardial infarction,False
+0,cardioprotective effect,investigated,ethanol extract,False
+1,cardioprotective effect,investigated,Picrorrhiza kurroa,False
+2,cardioprotective effect,investigated,isoproterenol-induced myocardial infarction,False
+3,cardioprotective effect,investigated,rats,False
+4,cardioprotective effect,investigated,lipid metabolism,False
+5,cardioprotective effect,investigated,serum,False
+6,Oral pre-treatment,prevented,PK,False
+7,Oral pre-treatment,prevented,days,False
+8,Oral pre-treatment,prevented,isoproterenol-induced myocardial infarction,False
+9,Oral pre-treatment,prevented,rats,False
+10,Oral pre-treatment,prevented,near normal status,False

@@ -1,6 +1,8 @@
 ,Subject,Action,Object,Negation
 0,Neuroinflammation,occurs,seizures,False
-1,CCR2,is,chemokine,False
-2,interaction,mediates,infiltration,False
-3,interaction,mediates,cascade,False
-4,cascade,triggered,brain pathologies,False
+1,Neuroinflammation,occurs,epileptogenesis,False
+2,interaction,mediates,monocyte infiltration,False
+3,interaction,mediates,neuroinflammatory cascade,False
+4,interaction,mediates,brain pathologies,False
+5,expression,examined,status epilepticus,False
+6,expression,examined,pilocarpine,False

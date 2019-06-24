@@ -1,12 +1,29 @@
 ,Subject,Action,Object,Negation
-0,We,report,case,False
-1,who,admitted,substernal chest pain,False
-2,who,admitted,electrocardiogram,False
-3,patient,took,zolmitriptan,False
-4,the patient,had,migraines,False
-5,the patient,taking,zolmitriptan,False
-6,the patient,taking,days,False
-7,the patient,taking,migraine headache,False
-8,There,was,evidence,True
-9,search,revealed,cases,False
-10,none,associated,TS,True
+0,Takotsubo syndrome,characterized,heart syndrome,False
+1,Takotsubo syndrome,characterized,apical ballooning,False
+2,Takotsubo syndrome,characterized,cardiac biomarkers,False
+3,Takotsubo syndrome,characterized,acute coronary syndrome,False
+4,elevation,characterized,heart syndrome,False
+5,elevation,characterized,apical ballooning,False
+6,elevation,characterized,cardiac biomarkers,False
+7,elevation,characterized,acute coronary syndrome,False
+8,II,report,woman,False
+9,II,report,medical history,False
+10,II,report,mitral valve prolapse,False
+11,II,report,hospital,False
+12,II,report,substernal chest pain,False
+13,II,report,elevation,False
+14,II,report,coronary arteries,False
+15,II,report,left ventricular ejection fraction,False
+16,II,report,wall motion abnormalities,False
+17,II,report,TS,False
+18,II,revealed,coronary arteries,False
+19,II,revealed,left ventricular ejection fraction,False
+20,II,revealed,wall motion abnormalities,False
+21,II,revealed,TS,False
+22,history,revealed,zolmitriptan,False
+23,history,revealed,migraines,False
+24,patient,revealed,zolmitriptan,False
+25,patient,revealed,migraines,False
+26,patient,took,zolmitriptan,False
+27,patient,took,migraines,False

@@ -1,16 +1,36 @@
 ,Subject,Action,Object,Negation
-0,basic 35-amino acid peptide,isolated,venom,False
-1,effects,examined,rat,False
-2,channels,involved,responses,False
-3,results,compared,those,False
-4,Helodermin,produced,hypotension,False
-5,Helodermin,produced,manner,False
-6,Helodermin,produced,potency,False
-7,Helodermin,produced,duration,False
-8,which,abolished,decrease,False
-9,Oxyhemoglobin,affect,hypotension,True
-10,Oxyhemoglobin,shortened,duration,False
-11,Oxyhemoglobin,shortened,hypotension,False
-12,which,exist,smooth muscle cells,False
-13,EDRF,play,role,True
-14,relaxing,play,role,True
+0,effects of,examined,helodermin,False
+1,effects of,examined,venom,False
+2,effects of,examined,lizard salivary gland,False
+3,effects of,examined,arterial blood pressure,False
+4,effects of,examined,rat,False
+5,effects of,examined,ATP,False
+6,effects of,examined,responses,False
+7,activation,examined,helodermin,False
+8,activation,examined,venom,False
+9,activation,examined,lizard salivary gland,False
+10,activation,examined,arterial blood pressure,False
+11,activation,examined,rat,False
+12,activation,examined,ATP,False
+13,activation,examined,responses,False
+14,activation,focusing,ATP,False
+15,activation,focusing,responses,False
+16,activation,involved,ATP,False
+17,activation,involved,responses,False
+18,results,compared,vasoactive intestinal polypeptide,False
+19,Helodermin,produced,hypotension,False
+20,Helodermin,produced,potency,False
+21,Helodermin,produced,VIP,False
+22,Hypotension,attenuated,peptides,False
+23,Hypotension,attenuated,glibenclamide,False
+24,Hypotension,attenuated,decrease,False
+25,Hypotension,attenuated,arterial blood pressure,False
+26,Oxyhemoglobin,affect,helodermin-induced hypotension,True
+27,Oxyhemoglobin,affect,duration,True
+28,Oxyhemoglobin,affect,hypotension,True
+29,findings,suggest,activation,False
+30,findings,suggest,arterial smooth muscle cells,False
+31,helodermin-produced hypotension,suggest,activation,False
+32,helodermin-produced hypotension,suggest,arterial smooth muscle cells,False
+33,EDRF,seem,peptide-produced hypotension,True
+34,endothelium-derived relaxing factor)/nitric oxide,seem,peptide-produced hypotension,True

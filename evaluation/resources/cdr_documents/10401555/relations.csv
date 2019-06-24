@@ -1,11 +1,81 @@
 ,Subject,Action,Object,Negation
-0,nociceptin,blocks,allodynia,False
-1,nociceptin,blocks,hyperalgesia,False
-2,which,display,degree,False
-3,ORL1 receptors,are,hippocampus,False
-4,orphanin FQ and nocistatin,modulate,impairment,False
-5,min,attenuated,impairment,False
-6,results,indicated,peptide,False
-7,peptides,play,roles,False
-8,peptides,play,learning,False
-9,peptides,play,memory,False
+0,nocistatin,isolated,precursor,False
+1,nocistatin,isolated,nociceptin,False
+2,nocistatin,isolated,nociceptin-induced allodynia,False
+3,ORL1 receptors,known,sequence homology,False
+4,ORL1 receptors,known,opioid receptors,False
+5,ORL1 receptors,known,hippocampus,False
+6,ORL1 receptors,known,learning,False
+7,study,designed,impairment,False
+8,study,designed,learning,False
+9,study,designed,scopolamine,False
+10,study,designed,alternation,False
+11,study,designed,Y-maze,False
+12,study,designed,mice,False
+13,FQ,designed,impairment,False
+14,FQ,designed,learning,False
+15,FQ,designed,scopolamine,False
+16,FQ,designed,alternation,False
+17,FQ,designed,Y-maze,False
+18,FQ,designed,mice,False
+19,FQ,investigate,impairment,False
+20,FQ,investigate,learning,False
+21,FQ,investigate,scopolamine,False
+22,FQ,investigate,alternation,False
+23,FQ,investigate,Y-maze,False
+24,FQ,investigate,mice,False
+25,FQ,modulate,impairment,False
+26,FQ,modulate,learning,False
+27,FQ,modulate,scopolamine,False
+28,FQ,modulate,alternation,False
+29,FQ,modulate,Y-maze,False
+30,FQ,modulate,mice,False
+31,nocistatin,administered,alternation,False
+32,nocistatin,administered,passive avoidance task,False
+33,nocistatin,administered,no effect,False
+34,nocistatin,administered,alternation,False
+35,nocistatin,administered,cent,False
+36,nocistatin,administered,retention test,False
+37,nocistatin,administered,nociceptin,False
+38,mouse-1,administered,alternation,False
+39,mouse-1,administered,passive avoidance task,False
+40,mouse-1,administered,no effect,False
+41,mouse-1,administered,alternation,False
+42,mouse-1,administered,cent,False
+43,mouse-1,administered,retention test,False
+44,mouse-1,administered,nociceptin,False
+45,mouse-1,administered,alternation,False
+46,mouse-1,administered,passive avoidance task,False
+47,mouse-1,administered,no effect,False
+48,mouse-1,administered,alternation,False
+49,mouse-1,administered,cent,False
+50,mouse-1,administered,retention test,False
+51,mouse-1,administered,nociceptin,False
+52,mouse-1,obtained,nociceptin,False
+53,Administration,attenuated,nocistatin,False
+54,Administration,attenuated,alternation,False
+55,Administration,attenuated,passive avoidance task,False
+56,Administration,attenuated,scopolamine-induced impairment,False
+57,Administration,attenuated,alternation,False
+58,results,indicated,impairments,False
+59,results,indicated,alternation,False
+60,results,indicated,scopolamine,False
+61,results,indicated,learning,False
+62,nocistatin,indicated,impairments,False
+63,nocistatin,indicated,alternation,False
+64,nocistatin,indicated,scopolamine,False
+65,nocistatin,indicated,learning,False
+66,peptides,indicated,impairments,False
+67,peptides,indicated,alternation,False
+68,peptides,indicated,scopolamine,False
+69,peptides,indicated,learning,False
+70,nocistatin,ameliorates,impairments,False
+71,nocistatin,ameliorates,alternation,False
+72,nocistatin,ameliorates,scopolamine,False
+73,nocistatin,ameliorates,learning,False
+74,peptides,ameliorates,impairments,False
+75,peptides,ameliorates,alternation,False
+76,peptides,ameliorates,scopolamine,False
+77,peptides,ameliorates,learning,False
+78,peptides,suggested,learning,False
+79,peptides,play,learning,False

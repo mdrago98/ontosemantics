@@ -1,19 +1,35 @@
+evaluated
+severity
+motor disability
 dyskinesias
-levodopa
+levodopa-responsive
+patients
 Parkinson's disease
-dopamine agonist
+acute
 apomorphine
+administration
 fluoxetine
+days
 fluoxetine
-apomorphine
+treatment
+improvement
+apomorphine-induced dyskinesias
+modification
+parkinsonian motor disability
 dyskinesias
-dyskinesias
+reduced
 lower limbs
-dyskinesias
-dyskinesias
+onset
+disappearance
+dystonic dyskinesias
+end-of-dose dyskinesias
 upper limbs
-dyskinesias
+choreic mid-dose dyskinesias
 brain
+serotoninergic transmission
 fluoxetine
-dopamine agonist
-dyskinesias
+levodopa-
+dopamine
+agonist-induced dyskinesias
+aggravating
+parkinsonian motor disability

@@ -1,8 +1,4 @@
 ,Subject,Action,Object,Negation
 0,Dexmedetomidine,used,sedatives,False
-1,propofol,used,sedatives,False
-2,Dexmedetomidine and propofol,allow,examinations,False
-3,agents,associated,side,False
-4,objective,compare,prevalence,False
-5,patients,receiving,dexmedetomidine,False
-6,patients,receiving,propofol,False
+1,Dexmedetomidine,used,neurocritical care,False
+2,Dexmedetomidine,used,neurologic examinations,False

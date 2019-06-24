@@ -1,12 +1,42 @@
 ,Subject,Action,Object,Negation
-0,Vasopressin,plays,role,False
-1,Vasopressin,plays,pathogenesis,False
-2,elevation,was,DOCA,True
-3,which,has,action,False
-4,effect,increase,blood pressure,False
-5,Administration,increase,blood pressure,False
-6,levels,observed,administration,False
-7,responsiveness,observed,stage,False
-8,secretion,promotes,function,False
-9,secretion,promotes,factor,False
-10,role,determined,essential hypertension,False
+0,Vasopressin,plays,pathogenesis,False
+1,Vasopressin,plays,DOCA-salt hypertension,False
+2,Vasopressin,plays,blood pressure,False
+3,Vasopressin,plays,rats,False
+4,Vasopressin,plays,diabetes insipidus,False
+5,Vasopressin,plays,DOCA-salt,False
+6,elevation,plays,pathogenesis,False
+7,elevation,plays,DOCA-salt hypertension,False
+8,elevation,plays,blood pressure,False
+9,elevation,plays,rats,False
+10,elevation,plays,diabetes insipidus,False
+11,elevation,plays,DOCA-salt,False
+12,Administration,failed,DDAVP,False
+13,Administration,failed,antidiuretic action,False
+14,Administration,failed,blood pressure,False
+15,Administration,failed,levels,False
+16,Administration,failed,administration,False
+17,Administration,failed,AVP,False
+18,action,appears,vasopressin,False
+19,action,appears,development,False
+20,action,appears,model,False
+21,action,appears,hypertension,False
+22,action,appears,hormone,False
+23,action,appears,initial stage,False
+24,action,appears,hypertension,False
+25,responsiveness,appears,vasopressin,False
+26,responsiveness,appears,development,False
+27,responsiveness,appears,model,False
+28,responsiveness,appears,hypertension,False
+29,responsiveness,appears,hormone,False
+30,responsiveness,appears,initial stage,False
+31,responsiveness,appears,hypertension,False
+32,responsiveness,observed,hormone,False
+33,responsiveness,observed,initial stage,False
+34,responsiveness,observed,hypertension,False
+35,secretion,promotes,vasopressin,False
+36,secretion,promotes,neurohypophysis,False
+37,secretion,promotes,function,False
+38,secretion,promotes,hormone,False
+39,secretion,promotes,pathogenetic factor,False
+40,secretion,promotes,hypertension,False

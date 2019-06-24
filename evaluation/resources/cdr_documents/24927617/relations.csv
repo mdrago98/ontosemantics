@@ -1,9 +1,25 @@
 ,Subject,Action,Object,Negation
-0,man,received,therapy,False
-1,man,received,ribavirin,False
-2,patient,received,simvastatin,False
-3,A 46-year old man with a chronic hepatitis C virus infection,developed,rhabdomyolysis,False
-4,creatine kinase,peaked,L,False
-5,patient,treated,saline,False
-6,Telaprevir,considered,agent,False
-7,concentration,increased,muscle,False
+0,man,received,chronic hepatitis C virus infection,False
+1,man,received,triple therapy,False
+2,man,received,ribavirin,False
+3,patient,received,simvastatin,False
+4,patient,admitted,antiviral therapy,False
+5,patient,admitted,hospital,False
+6,patient,admitted,rhabdomyolysis,False
+7,antiviral drugs,discontinued,admission,False
+8,antiviral drugs,discontinued,drug-drug interaction,False
+9,toxicity,discontinued,admission,False
+10,toxicity,discontinued,drug-drug interaction,False
+11,toxicity,suspected,drug-drug interaction,False
+12,Telaprevir,considered,causative agent,False
+13,Telaprevir,considered,interaction,False
+14,Telaprevir,considered,simvastatin,False
+15,concentration,increased,patient,False
+16,concentration,increased,concentration,False
+17,concentration,increased,statin,False
+18,concentration,increased,blood,False
+19,muscle toxicity,increased,patient,False
+20,muscle toxicity,increased,concentration,False
+21,muscle toxicity,increased,statin,False
+22,muscle toxicity,increased,blood,False
+23,telaprevir,illustrate,drug-drug interactions,False

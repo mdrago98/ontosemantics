@@ -1,10 +1,26 @@
 ,Subject,Action,Object,Negation
-0,There,are,reports,False
-1,There,are,side effect,False
-2,patients,treated,combination,False
-3,psychotropic drugs,adding,carbamazepine,False
-4,psychotropic drugs,increasing,dosage,False
-5,dosage,were,range,False
-6,asterixis,be,sign,False
-7,which,occur,dosage,False
-8,drugs,used,combination,False
+0,asterixis,present,patients,False
+1,asterixis,present,combination,False
+2,asterixis,present,psychotropic drugs,False
+3,asterixis,present,carbamazepine,False
+4,asterixis,present,treatment regimen,False
+5,asterixis,present,dosage,False
+6,asterixis,treated with,combination,False
+7,asterixis,treated with,psychotropic drugs,False
+8,asterixis,treated with,carbamazepine,False
+9,asterixis,treated with,treatment regimen,False
+10,asterixis,treated with,dosage,False
+11,asterixis,triggered,carbamazepine,False
+12,asterixis,triggered,treatment regimen,False
+13,asterixis,triggered,dosage,False
+14,asterixis,consider,neurotoxicity,False
+15,asterixis,consider,lithium,False
+16,asterixis,consider,combination,False
+17,asterixis,consider,CBZ,False
+18,drugs,consider,neurotoxicity,False
+19,drugs,consider,lithium,False
+20,drugs,consider,combination,False
+21,drugs,consider,CBZ,False
+22,drugs,used,lithium,False
+23,drugs,used,combination,False
+24,drugs,used,CBZ,False

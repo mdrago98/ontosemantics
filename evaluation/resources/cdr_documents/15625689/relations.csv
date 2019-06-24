@@ -1,14 +1,35 @@
 ,Subject,Action,Object,Negation
-0,abnormalities,known,centuries,False
-1,aspects,concerning,pathophysiology,False
-2,aim,characterize,dynamics,False
+0,Gastrointestinal abnormalities,known,Parkinson's disease,False
+1,Gastrointestinal abnormalities,known,centuries,False
+2,Gastrointestinal abnormalities,known,pathophysiology,False
 3,Patients,asked,dysphagia,False
-4,patients,showed,efficiency,False
-5,patients,have,OPSE,False
-6,who,using,dose,False
-7,Patients,had,OPSE,False
-8,Patients,had,trend,False
-9,which,explained,basis,False
-10,results,suggest,role,False
-11,results,suggest,phase,False
-12,dysphagia,is,predictor,True
+4,Patients,asked,Unified Parkinson's Disease Rating Scale Parts II,False
+5,Patients,asked,Hoehn,False
+6,Deglutition,assessed,modified barium swallow,False
+7,Deglutition,assessed,videofluoroscopy,False
+8,patients,showed,efficiency,False
+9,patients,showed,liquid food,False
+10,patients,showed,controls,False
+11,Dunnett,showed,efficiency,False
+12,Dunnett,showed,liquid food,False
+13,Dunnett,showed,controls,False
+14,patients,tended,OPSE,False
+15,patients,tended,Dunnett,False
+16,Patients,had,higher dose,False
+17,Patients,had,levodopa,False
+18,Patients,had,OPSE,False
+19,Patients,had,oral transit time,False
+20,Pearson's correlation,had,higher dose,False
+21,Pearson's correlation,had,levodopa,False
+22,Pearson's correlation,had,OPSE,False
+23,Pearson's correlation,had,oral transit time,False
+24,report,correlated,dysphagia,False
+25,report,correlated,PD,False
+26,report,correlated,variables,False
+27,dysphagia,suggest,levodopa,False
+28,dysphagia,suggest,oral phase,False
+29,dysphagia,suggest,deglutition,False
+30,dysphagia,suggest,deglutition,False
+31,dysphagia,suggest,PD,False
+32,dysphagia,confirm,deglutition,False
+33,dysphagia,confirm,PD,False

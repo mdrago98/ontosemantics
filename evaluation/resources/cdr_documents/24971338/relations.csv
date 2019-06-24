@@ -1,26 +1,50 @@
 ,Subject,Action,Object,Negation
-0,Protocols,used,immunotherapy,False
-1,Protocols,used,transplantation,False
-2,mechanisms,underlying,protocols,False
-3,study,identify,pathways,False
-4,study,identify,rat,False
-5,study,identify,biomarkers,False
-6,study,identify,pathways,False
-7,study,identify,rat,False
-8,study,identify,biomarkers,False
-9,groups,tested,weeks,False
-10,control,followed,weeks,False
-11,lesions,analyzed,hematoxylin,False
-12,lesions,analyzed,eosin,False
-13,rats,presented,proteinuria,False
-14,rats,presented,markers,False
-15,rats,presented,NGAL,False
-16,rats,presented,serum,False
-17,rats,presented,urinary,False
-18,treatment,presented,absent kidney,False
-19,treatment,presented,TGF-β,False
-20,treatment,presented,NF-,False
-21,exposure,aggravated,damage,False
-22,exposure,aggravated,changes,False
-23,Conversion,prevented,damage,False
-24,NGAL,be,biomarker,False
+0,Protocols,used,conversion,False
+1,Protocols,used,cyclosporin A,False
+2,Protocols,used,sirolimus,False
+3,Protocols,used,immunotherapy,False
+4,Protocols,used,transplantation,False
+5,Protocols,used,CsA-induced nephropathy,False
+6,Protocols,used,protocols,False
+7,molecular mechanisms,used,conversion,False
+8,molecular mechanisms,used,cyclosporin A,False
+9,molecular mechanisms,used,sirolimus,False
+10,molecular mechanisms,used,immunotherapy,False
+11,molecular mechanisms,used,transplantation,False
+12,molecular mechanisms,used,CsA-induced nephropathy,False
+13,molecular mechanisms,used,protocols,False
+14,molecular mechanisms,remain,protocols,False
+15,animal groups,tested,weeks,False
+16,animal groups,tested,weeks,False
+17,animal groups,tested,SRL,False
+18,animal groups,tested,weeks,False
+19,control,tested,weeks,False
+20,control,tested,weeks,False
+21,control,tested,SRL,False
+22,control,tested,weeks,False
+23,Renal lesions,analyzed,hematoxylin and eosin,False
+24,rats,presented,proteinuria,False
+25,rats,presented,markers,False
+26,rats,presented,renal impairment,False
+27,serum,presented,proteinuria,False
+28,serum,presented,markers,False
+29,serum,presented,renal impairment,False
+30,treatment,presented,gene,False
+31,exposure,aggravated,renal damage,False
+32,exposure,aggravated,markers,False
+33,exposure,aggravated,serums,False
+34,TGF- β,aggravated,renal damage,False
+35,TGF- β,aggravated,markers,False
+36,TGF- β,aggravated,serums,False
+37,NGAL,prevented,SRL,False
+38,NGAL,prevented,CsA-induced renal damage evolution,False
+39,NGAL,prevented,CsA,False
+40,NGAL,prevented,SRL,False
+41,serum,prevented,SRL,False
+42,serum,prevented,CsA-induced renal damage evolution,False
+43,serum,prevented,CsA,False
+44,serum,prevented,SRL,False
+45,NGAL,seems,CsA,False
+46,NGAL,seems,SRL,False
+47,serum,seems,CsA,False
+48,serum,seems,SRL,False

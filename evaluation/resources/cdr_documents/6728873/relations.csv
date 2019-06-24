@@ -1,19 +1,39 @@
 ,Subject,Action,Object,Negation
-0,effects,compared,adult,False
-1,C57BL/6J,determine,responses,False
-2,characteristics,scored,caffeine,False
-3,characteristics,scored,conditions,False
-4,Mice,received,IP,False
-5,doses,ranging,kg,False
-6,Loss,righting,ability,False
-7,Loss,scored,1,False
-8,Loss,scored,min,False
-9,Loss,scored,min,False
-10,Loss,scored,min,False
-11,death,occurred,min,False
-12,Animals,surviving,min,False
-13,tonic seizures,scored,min,False
-14,activity,measured,min,False
-15,activity,measured,caffeine,False
-16,differences,observed,strains,False
-17,responses,influenced,mammals,False
+0,effects,compared,caffeine,False
+1,effects,compared,males,False
+2,effects,compared,inbred mouse strains,False
+3,A/J,compared,caffeine,False
+4,A/J,compared,males,False
+5,A/J,compared,inbred mouse strains,False
+6,characteristics,scored,external stress,False
+7,characteristics,scored,caffeine,False
+8,characteristics,scored,animals,False
+9,characteristics,scored,experimental conditions,False
+10,Mice,received,IP,False
+11,Mice,received,volume/g,False
+12,Mice,received,saline carrier,False
+13,Mice,received,caffeine,False
+14,Mice,received,doses,False
+15,Loss,scored,min,False
+16,death,occurred,tonic seizures,False
+17,Animals,stressed,swim test,False
+18,Animals,stressed,degrees C water,False
+19,tonic seizures,stressed,swim test,False
+20,tonic seizures,stressed,degrees C water,False
+21,locomotor activity,measured,caffeine,False
+22,results,indicate,alkylxanthines,False
+23,results,indicate,mouse strain,False
+24,results,indicate,central nervous system,False
+25,results,indicate,compounds,False
+26,results,indicate,mammals,False
+27,toxic responses,indicate,alkylxanthines,False
+28,toxic responses,indicate,mouse strain,False
+29,toxic responses,indicate,central nervous system,False
+30,toxic responses,indicate,compounds,False
+31,toxic responses,indicate,mammals,False
+32,toxic responses,suggest,central nervous system,False
+33,toxic responses,suggest,compounds,False
+34,toxic responses,suggest,mammals,False
+35,toxic responses,influenced,central nervous system,False
+36,toxic responses,influenced,compounds,False
+37,toxic responses,influenced,mammals,False

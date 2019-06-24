@@ -1,4 +1,8 @@
 ,Subject,Action,Object,Negation
-0,Bromocriptine,implicated,case,False
-1,case,including,rechallenge,False
-2,case,suggests,relationship,False
+0,Myocardial infarction,reported,puerperium,False
+1,Bromocriptine,implicated,case reports,False
+2,Bromocriptine,implicated,myocardial infarction,False
+3,Bromocriptine,implicated,puerperium,False
+4,case,suggests,inadvertent,False
+5,case,suggests,relationship,False
+6,cardiac effects,acknowledged,bromocriptine,False

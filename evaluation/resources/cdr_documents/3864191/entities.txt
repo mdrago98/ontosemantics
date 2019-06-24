@@ -1,54 +1,103 @@
+examined
+potential
 prostaglandins
 development
 analgesic nephropathy
+Gunn strain
 rat
+homozygous
 Gunn rats
-unconjugated hyperbilirubinemia
+unconjugated
+hyperbilirubinemia
+absence
 glucuronyl transferase
 bilirubin
+deposition
 renal medulla
 papilla
 rats
+susceptible
 papillary necrosis
-analgesic
+analgesic administration
+homozygous
+phenotypically normal
+heterozygous
+animals
+groups
 rats
 rats
+treated
 aspirin
+day
+sham-treated
+week
+slices
 cortex
-medulla
+outer
+inner medulla
 kidney
+incubated
 buffer
-prostaglandin synthesis
+prostaglandin
+synthesis
+radioimmunoassay
 kidney
-prostaglandin synthesis
+examined
+histologically
+corticomedullary gradient
+prostaglandin
+synthesis
+groups
 PGE2
 synthesis
-medulla
+outer medulla
 cortex
-medulla
+inner medulla
 rats
 Aspirin
+treatment
+reduced
 PGE2
 synthesis
+regions
 medullary
 PGE2
+higher
 rats
-medulla
+PGF2
+alpha
+outer medulla
 rats
 aspirin
-renal
-prostaglandin synthesis
-renal
-aspirin
+administration
+renal prostaglandin
+synthesis
+evidence
+renal damage
+aspirin-treated
 rats
-serum
-creatinine
-medullary
-aspirin
-prostaglandin synthesis
+increased
+incidence
+severity
+hematuria
+increased
+serum creatinine
+increase
+histopathologic
+compared
+sham-treated
+aspirin-treated
+enhanced
+prostaglandin
+synthesis
+maintenance
 renal function
+morphological
+integrity
 inhibition
-prostaglandin synthesis
+prostaglandin
+synthesis
+pathological
 renal
-medullary
+deterioration
 renal function

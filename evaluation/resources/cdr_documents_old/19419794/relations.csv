@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,impairment,measured,lesioned,False
+1,lesion,produced,motor,False
+2,parameters,estimated,CPu,False
+3,mice,exhibited,MDA,False
+4,mice,exhibited,iNOS protein expression,False
+5,Treatment,resulted,dyskinesias,False
+6,lack,increased,severity,False
+7,activation,offers,neuroprotection,False

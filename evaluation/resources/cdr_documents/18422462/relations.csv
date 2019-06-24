@@ -1,14 +1,57 @@
 ,Subject,Action,Object,Negation
-0,we,examined,experiences,False
-1,who,received,minimum,False
-2,who,received,February,False
-3,who,received,HIV,False
-4,regimens,were,3TC,False
-5,anemia,observed,%,False
-6,therapy,associated,rash,False
-7,therapy,associated,d4T,False
-8,Anemia,occur,weeks,False
-9,hepatitis,occur,weeks,False
-10,weeks,initiating,HAART,False
-11,Frequent,warranted,countries,False
-12,monitoring,warranted,countries,False
+0,fixed-dose,determine,incidence,False
+1,fixed-dose,determine,adverse events,False
+2,fixed-dose,determine,antiretroviral therapy,False
+3,fixed-dose,determine,individuals,False
+4,fixed-dose,determine,South India,False
+5,generic highly,determine,incidence,False
+6,generic highly,determine,adverse events,False
+7,generic highly,determine,antiretroviral therapy,False
+8,generic highly,determine,individuals,False
+9,generic highly,determine,South India,False
+10,fixed-dose,examined,incidence,False
+11,fixed-dose,examined,adverse events,False
+12,fixed-dose,examined,antiretroviral therapy,False
+13,fixed-dose,examined,individuals,False
+14,fixed-dose,examined,South India,False
+15,fixed-dose,examined,experiences,False
+16,fixed-dose,examined,individuals,False
+17,fixed-dose,examined,months,False
+18,fixed-dose,examined,HAART,False
+19,fixed-dose,examined,HIV care referral center,False
+20,fixed-dose,examined,South India,False
+21,generic highly,examined,incidence,False
+22,generic highly,examined,adverse events,False
+23,generic highly,examined,antiretroviral therapy,False
+24,generic highly,examined,individuals,False
+25,generic highly,examined,South India,False
+26,generic highly,examined,experiences,False
+27,generic highly,examined,individuals,False
+28,generic highly,examined,months,False
+29,generic highly,examined,HAART,False
+30,generic highly,examined,HIV care referral center,False
+31,generic highly,examined,South India,False
+32,anemia,observed,patients,False
+33,anemia,observed,alanine aminotransferase,False
+34,anemia,observed,patients,False
+35,CD4,observed,patients,False
+36,CD4,observed,alanine aminotransferase,False
+37,CD4,observed,patients,False
+38,clinical jaundice,observed,patients,False
+39,clinical jaundice,observed,alanine aminotransferase,False
+40,clinical jaundice,observed,patients,False
+41,CD4,observed,patients,False
+42,CD4,observed,alanine aminotransferase,False
+43,CD4,observed,patients,False
+44,NVP therapy,associated with,patients,False
+45,NVP therapy,associated with,year,False
+46,NVP therapy,associated with,follow-up,False
+47,NVP therapy,associated with,rash,False
+48,NVP therapy,associated with,peripheral neuropathy,False
+49,Anemia,occur,weeks,False
+50,Anemia,occur,HAART,False
+51,monitoring,warranted,toxicities,False
+52,monitoring,warranted,developing countries,False
+53,HAART,warranted,toxicities,False
+54,HAART,warranted,developing countries,False
+55,HAART,developing countries,developing countries,False
