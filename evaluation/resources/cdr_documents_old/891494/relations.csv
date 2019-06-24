@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,encephalopathy,was,allergic reaction,False
+1,patient,presented,morbilliform,False
+2,patient,presented,DPH,False
+3,injection,had,effect,True
+4,patient,starting,DPH,False
+5,need,eliminating,DPH,False
+6,need,eliminating,regimen,False

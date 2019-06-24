@@ -1,39 +1,81 @@
+Severe
 nelarabine
+neurotoxicity
 patient
+concurrent
 intrathecal
 IT
+Caucasian
 woman
-T-cell
-lymphoblastic lymphoma
+history of
+T-cell lymphoblastic lymphoma
+admitted
 relapsed disease
-transplant
+treated with
+induction chemotherapy
+autologous transplant
 relapsed disease
+months
+leukemic
+involvement
 nelarabine
-IT
-cytarabine
+days
+dose
+IT cytarabine
+day
 central nervous system
 CNS
-renal
+prophylaxis
+treatment
+continuous renal replacement therapy
+sequelae
 tumor lysis syndrome
 TLS
+tolerated
+therapy
 remission
+recovered
 renal function
 nelarabine
 IT
+prophylaxis
+month
+week
+second cycle
 numbness
 lower extremities
+Predominantly
+sensory
+motor
 autonomic
 peripheral neuropathy
 feet
-thoracic region
-upper extremities
+ascended proximally
+mid-thoracic region
+distal upper extremities
+magnetic resonance imaging
+MRI
 spine
+changes
+C2 to
 subacute combined degeneration
 Nelarabine
+symptoms
 neuropathy
-transplant
+stabilized
+improvement
+reduced-intensity
+allogeneic transplant
 remission
 relapsed disease
+weeks
+treated with
+supportive care
+published
+severe
+neurotoxicity
 nelarabine
 patient
+concurrent
 IT
+chemotherapy

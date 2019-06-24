@@ -1,7 +1,18 @@
 Lamivudine
+treatment
 chronic hepatitis B
+patients
+studies
+YMDD motif
+mutants
+resistant
 hepatitis B virus
-lamivudine
-chronic hepatitis B
-lamivudine
-chronic hepatitis B
+natural genome
+lamivudine-untreated chronic hepatitis B
+patients
+rate
+YMDD motif
+mutants
+lamivudine-untreated chronic hepatitis B
+patients
+Iran

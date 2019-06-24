@@ -1,9 +1,25 @@
 ,Subject,Action,Object,Negation
-0,Cardiovascular diseases,are,health,False
-1,aim,investigate,effect,False
-2,aim,investigate,extract,False
-3,extract,prevented,alterations,False
-4,angiotensin-converting enzyme,used,drug,False
-5,Captopril,used,control,False
-6,extract,exerts,effect,False
-7,study,emphasizes,action,False
+0,injection,led,isoproterenol,False
+1,injection,led,rats,False
+2,injection,led,interval,False
+3,injection,led,days,False
+4,injection,led,increase,False
+5,injection,led,serum lactate dehydrogenase,False
+6,injection,led,levels,False
+7,injection,led,glutathione,False
+8,injection,led,cardiac tissue,False
+9,injection,led,normal control group,False
+10,Pretreatment,prevented,weeks,False
+11,Pretreatment,prevented,dose,False
+12,Pretreatment,prevented,isoproterenol,False
+13,Pretreatment,prevented,alterations,False
+14,Captopril,used,angiotensin-converting enzyme,False
+15,Captopril,used,cardioprotective drug,False
+16,Captopril,used,positive control,False
+17,Captopril,used,study,False
+18,data,suggest,study,False
+19,data,suggest,protective effect,False
+20,data,suggest,MDA,False
+21,data,suggest,antioxidant status,False
+22,data,suggest,isoproterenol-treated rats,False
+23,study,emphasizes,cardioprotective agent,False

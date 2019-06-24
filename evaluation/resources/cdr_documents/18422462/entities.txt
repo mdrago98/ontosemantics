@@ -1,44 +1,75 @@
-fixed
-HIV
-HIV
-HIV
-3TC
-d4T
+incidence
+clinically significant
+adverse events
+long-term
+fixed-dose
+generic highly
+antiretroviral therapy
+HAART
+HIV-infected
+individuals
+South India
+experiences
+HIV-infected
+individuals
+months
+generic
+HAART
+tertiary
+HIV care referral center
+South India
+regimens
+3TC + d4T +
 nevirapine
 NVP
 zidovudine
 AZT
 3TC
 NVP
-3TC
-d4T
+3TC + d4T +
 efavirenz
 EFV
 AZT
 3TC
 EFV
-CD4
+adverse events
+median
+CD4 at time
+event
 rash
 CD4
-cells
+cells/microL
 peripheral neuropathy
-cells
+Clinically significant
 anemia
 hemoglobin
+patients
 CD4
-cells
+cells/microL
 hepatitis
-jaundice
+clinical jaundice
 alanine aminotransferase
+patients
 CD4
-cells
+cells/microL
 Women
 lactic acidosis
 men
 immune reconstitution syndrome
-NVP
+patients
+year
+follow-up
+NVP therapy
+associated with
 rash
-d4T
+d4T therapy
 peripheral neuropathy
 Anemia
 hepatitis
+weeks
+HAART
+Frequent
+monitoring
+toxicities
+developing countries
+HAART

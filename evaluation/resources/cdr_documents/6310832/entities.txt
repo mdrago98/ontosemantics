@@ -1,72 +1,88 @@
 renal
 heart
-liver
-transplant
+liver transplant
+patients
 infection
 renal
+patients
 azathioprine
 Aza
 prednisone
+randomized trial
 immunosuppression
+renal transplant
+patients
 cyclosporine
 prednisone
-renal
-transplant
-cyclosporine
-prednisone
+randomized
 Aza
+patients
 infections
-infections
-cyclosporine
+nonviral infections
+randomized cyclosporine
+patients
 Heart
 liver
+patients
 infections
-cyclosporine
-renal
+cyclosporine renal
+patients
 infections
-Aza
-renal
-infectious
-deaths
-renal
-transplant
+Aza renal
+patients
+infectious deaths
+renal transplant
+patients
 cyclosporine
 Aza
 infection
-cardiac
-transplant
+cardiac transplant
 deaths
-liver
-transplant
+liver transplant
 deaths
 Renal
+patients
 cyclosporine
 bacteremias
+Analysis
 infection
 abdominal infections
 liver
-infections
-heart
+patients
+intrathoracic infections
+heart patients
 urinary tract infections
 renal
+patients
 Pulmonary infections
-cyclosporine
-renal
+cyclosporine-treated renal
+patients
+Aza-treated
+patients
 Aza
-Aza
+patients
 staphylococcal infections
-transplant
+transplant groups
+systemic
 fungal infections
-liver
-transplant
+liver transplant
+group
 Cytomegalovirus
 CMV
-antibody
+shedding
+serological
+antibody titer
 cyclosporine
+patients
 Aza
+patients
 cyclosporine
+patients
+symptoms
 CMV infection
+Serological evidence
 Epstein Barr Virus infection
 cyclosporine
+patients
 associated symptoms
 lymphoma

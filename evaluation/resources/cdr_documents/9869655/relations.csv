@@ -1,15 +1,62 @@
 ,Subject,Action,Object,Negation
-0,Effects,induce,rats,False
-1,Effects,induce,BS,False
-2,enzymes,involved,BS,False
-3,composition,analyzed,rats,False
-4,rats,treated,EE,False
-5,size,decreased,%,False
-6,synthesis,affected,rats,True
-7,Delta22-isomer,contributed,%,False
-8,Delta22-isomer,contributed,%,False
-9,reduction,found,rats,False
-10,rats,treated,EE,False
-11,Activity,decreased,rats,False
-12,levels,reduced,rats,False
-13,intrahepatic cholestasis,associated,inhibition,False
+0,Effects of,evaluated,17alpha-ethinylestradiol,False
+1,Effects of,evaluated,biosynthetic pathways,False
+2,Effects of,evaluated,bile salt,False
+3,Effects of,evaluated,rats,False
+4,Effects of,evaluated,enterohepatic circulation,False
+5,Effects of,evaluated,bile diversion,False
+6,Effects of,evaluated,BS,False
+7,composition,analyzed,BS,False
+8,composition,analyzed,cholesterol 7alpha-hydroxylase,False
+9,composition,analyzed,BS,False
+10,composition,analyzed,rats,False
+11,composition,analyzed,EE,False
+12,pool size,decreased,EE,False
+13,pool size,decreased,rats,False
+14,synthesis,decreased,EE,False
+15,synthesis,decreased,rats,False
+16,synthesis,affected,EE,True
+17,synthesis,affected,rats,True
+18,Synthesis,reduced,cholate,False
+19,Synthesis,reduced,rats,False
+20,Synthesis,reduced,chenodeoxycholate,False
+21,Delta22-isomer,contributed,beta-muricholate,False
+22,Delta22-isomer,contributed,pool,False
+23,Delta22-isomer,contributed,rats,False
+24,Delta22-isomer,contributed,bile,False
+25,Delta22-isomer,contributed,exhaustion,False
+26,Delta22-isomer,contributed,pool,False
+27,reduction,found,BS,False
+28,reduction,found,bile-diverted rats,False
+29,reduction,found,EE,False
+30,composition,found,BS,False
+31,composition,found,bile-diverted rats,False
+32,composition,found,EE,False
+33,Activity,decreased,CYP7A,False
+34,Activity,decreased,EE,False
+35,Activity,decreased,bile-diverted rats,False
+36,Activity,decreased,CYP27,False
+37,activity,decreased,CYP7A,False
+38,activity,decreased,EE,False
+39,activity,decreased,bile-diverted rats,False
+40,activity,decreased,CYP27,False
+41,activity,affected,CYP27,True
+42,mRNA levels,increased,sterol 12alpha-hydroxylase,False
+43,mRNA levels,increased,bile diversion,False
+44,mRNA levels,increased,EE,False
+45,study,shows,rats,False
+46,study,shows,inhibition,False
+47,study,shows,neutral pathway,False
+48,study,shows,bile salt,False
+49,intrahepatic cholestasis,shows,rats,False
+50,intrahepatic cholestasis,shows,inhibition,False
+51,intrahepatic cholestasis,shows,neutral pathway,False
+52,intrahepatic cholestasis,shows,bile salt,False
+53,intrahepatic cholestasis,associated with,rats,False
+54,intrahepatic cholestasis,associated with,inhibition,False
+55,intrahepatic cholestasis,associated with,neutral pathway,False
+56,intrahepatic cholestasis,associated with,bile salt,False
+57,impairment,contribute,enzymes,False
+58,impairment,contribute,BS,False
+59,impairment,contribute,EE,False
+60,impairment,contribute,BS,False

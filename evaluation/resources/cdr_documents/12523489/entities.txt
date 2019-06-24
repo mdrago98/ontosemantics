@@ -1,42 +1,92 @@
-adenosine receptor agonists
+influence
+adenosine receptor
+agonists
 antagonists
-cocaine
-amphetamine
+cocaine-and amphetamine-induced hyperactivity
 mice
-adenosine receptor agonists
+adenosine receptor
+agonists
+decreased
+locomotor activity
 mice
+effects
+dose-dependent
 adenosine A1
 A2 receptors
-adenosine receptor agonists
-A2A receptor
-agonist
-A1 receptor
-agonist
-A2/A1 receptor
-agonist
-cocaine
-cocaine
+reaction
+adenosine receptor
+agonists
+A2A receptor agonist
+N6-cyclopentyladenosine
+CPA
+A1 receptor agonist
+5'-N-ethylcarboxamidoadenosine
+NECA
+A2/A1 receptor agonist
+dose-dependently
+decreased
+cocaine-induced
+locomotor activity
+CPA
+reduced
+cocaine action
+doses
+influence
 motility
+CGS
+NECA
+decreased
+action
 cocaine
+doses
+decreased
+locomotor activity
+animals
+involvement
 adenosine receptors
+action
 cocaine
 agonists
 A1 receptors
-adenosine receptor
-cocaine
+influence
+blockade
+A2 adenosine receptor
+DMPX
+3,7-dimethyl-1-propargylxanthine
+cocaine-induced
+locomotor activity
+animals
 Caffeine
+action
+effect
 CPT
-antagonist
-adenosine receptor agonists
-amphetamine
-cocaine
-adenosine
+receptor antagonist
+influence
+test
+adenosine receptor
+agonists
+amphetamine-induced hyperactivity
+higher
+doses
+cocaine-induced hyperactivity
+blockade
+A2 adenosine receptors
+DMPX
+non-selective blockade
 adenosine receptors
 caffeine
+increased
+action
 amphetamine
-adenosine receptor agonists
-amphetamine
-cocaine
-adenosine receptor agonists
+locomotor activity test
+adenosine receptor
+agonists
+A1
+A2
+cocaine- and
+locomotor
+cocaine-induced hyperactivity
+adenosine receptor
+agonists
 A1 receptors
-amphetamine
+amphetamine-induced hyperactivity

@@ -1,11 +1,43 @@
 ,Subject,Action,Object,Negation
-0,antagonists,be,benefit,False
-1,antagonists,be,models,False
-2,effects,examined,rats,False
-3,effects,examined,injections,False
-4,rats,developing,acute renal failure,False
-5,treatments,produced,improvements,False
-6,improvement,was,result,False
-7,effect,noted,alkylxanthines,False
-8,alkylxanthines,tested,study,False
-9,adenosine,plays,role,False
+0,Adenosine antagonists,shown,nephrotoxic models,False
+1,Adenosine antagonists,shown,acute renal failure,False
+2,effects of,examined,study,False
+3,effects of,examined,alkylxanthines,False
+4,effects of,examined,potencies,False
+5,effects of,examined,adenosine antagonists,False
+6,effects of,examined,rats,False
+7,effects of,examined,acute renal failure,False
+8,effects of,examined,injections,False
+9,effects of,examined,gentamicin,False
+10,8-phenyltheophylline,examined,study,False
+11,8-phenyltheophylline,examined,alkylxanthines,False
+12,8-phenyltheophylline,examined,potencies,False
+13,8-phenyltheophylline,examined,adenosine antagonists,False
+14,8-phenyltheophylline,examined,rats,False
+15,8-phenyltheophylline,examined,acute renal failure,False
+16,8-phenyltheophylline,examined,injections,False
+17,8-phenyltheophylline,examined,gentamicin,False
+18,Renal function,assessed,biochemical,False
+19,Renal function,assessed,necrosis,False
+20,plasma urea,assessed,biochemical,False
+21,plasma urea,assessed,necrosis,False
+22,urine analysis,assessed,biochemical,False
+23,urine analysis,assessed,necrosis,False
+24,degree,assessed,biochemical,False
+25,degree,assessed,necrosis,False
+26,indices,assessed,biochemical,False
+27,indices,assessed,necrosis,False
+28,drug treatments,produced,improvements,False
+29,drug treatments,produced,measurements,False
+30,drug treatments,produced,renal function,False
+31,polyethylene glycol,exerted,vehicle,False
+32,adenosine,indicates,protective effect,False
+33,adenosine,indicates,alkylxanthines,False
+34,adenosine,indicates,study,False
+35,adenosine,indicates,ARF,False
+36,pathophysiological,indicates,protective effect,False
+37,pathophysiological,indicates,alkylxanthines,False
+38,pathophysiological,indicates,study,False
+39,pathophysiological,indicates,ARF,False
+40,adenosine,plays,ARF,False
+41,pathophysiological,plays,ARF,False

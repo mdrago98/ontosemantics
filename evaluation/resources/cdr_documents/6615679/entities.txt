@@ -1,21 +1,33 @@
 man
-pilocarpine
-nitrate
-timolol maleate
-eye
+treated with
+pilocarpine nitrate
+timolol
+maleate eye drops
 bradycardia
 hypotensive
-halothane
-anaesthesia
+halothane anaesthesia
 timolol
 pilocarpine
+identified
+collection
 urine
 Timolol
 pilocarpine
+detected
+sample
 plasma
+surgery
 plasma
+concentration
 timolol
-halothane
-anaesthesia
+consistent with
+partial
+beta-adrenoceptor blockade
+action
+enhanced
+halothane anaesthesia
+resultant
 bradycardia
+hypotension
 Pilocarpine
+contributory effect

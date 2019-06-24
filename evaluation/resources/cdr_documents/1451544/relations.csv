@@ -1,9 +1,13 @@
 ,Subject,Action,Object,Negation
-0,study,conducted,practice,False
-1,patients,entered,study,False
-2,effects,reported,%,False
-3,effects,were,headache,False
-4,there,was,evidence,True
-5,rates,were,%,False
-6,rates,were,%,False
-7,Dosage,increased,mg,False
+0,patients,entered,mild,False
+1,patients,entered,hypertension,False
+2,patients,entered,study,False
+3,Side effects,reported,patients,False
+4,Side effects,reported,withdrawal,False
+5,Side effects,reported,study,False
+6,Side effects,reported,patients,False
+7,side-effects,were,headache,False
+8,side-effects,were,studies,False
+9,side-effects,were,isradipine,False
+10,reductions,occurred,postural hypotension,False
+11,Normalization,were,weeks,False

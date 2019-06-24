@@ -1,46 +1,92 @@
+visualize
+structural deficits
 human
 brain
-methamphetamine
+associated with
+chronic methamphetamine
 MA
-abuse
+Studies
 human
+subjects
 MA
-cerebral
-metabolic
-brain
-brain
+chronically
+deficits
+dopaminergic
+serotonergic systems
+cerebral metabolic abnormalities
+magnetic resonance imaging
+MRI
+computational brain-mapping techniques
+pattern
+structural brain
+associated with
+chronic
 MA
-abuse
 human
+subjects
+deficits
 cognitive impairment
+high-resolution MRI
+surface-based computational image analyses
+map
+regional abnormalities
 cortex
 hippocampus
 white matter
 ventricles
 human
+subjects
 MA
-Cortical
+age-matched
+healthy controls
+Cortical maps
+gray-matter deficits
+cingulate
+limbic
+paralimbic cortices
 MA
+abusers
+control
 MA
+abusers
 hippocampal
-hypertrophy
-Hippocampal
+volumes
+control subjects
+significant
+white-matter hypertrophy
+Hippocampal deficits
+mapped
+correlated
 memory
-methamphetamine
-abuse
-cerebral
-impaired memory
+performance
+word-recall test
+MRI-based
+maps
+chronic
+methamphetamine abuse
+cerebral deterioration
+impaired
+memory performance
 MA
-temporal lobe
-metabolic
-limbic cortex
+damage
+medial temporal lobe
+metabolic studies
+cingulate-limbic cortex
+inducing
+neuroadaptation
 neuropil
+reduction
 cell death
-hypertrophy
+white-matter hypertrophy
 myelination
-glial
+adaptive glial
+changes
 gliosis
-brain
-MA
-abuse
-brain
+secondary to
+neuronal damage
+brain substrates
+symptoms
+MA abuse
+therapeutic
+targets
+drug-induced brain injury

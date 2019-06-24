@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,Changes,studied,children,False
+1,children,pretreated,saline,False
+2,Anaesthesia,induced,mg,False
+3,incidence,were,control,False
+4,intensity,were,control,False
+5,pressure,was,control,False
+6,pressure,increases,muscle,False
+7,fasciculations,caused,children,False
+8,micrograms,inhibits,incidence,False
+9,micrograms,inhibits,intensity,False
+10,kg-1,inhibits,incidence,False
+11,kg-1,inhibits,intensity,False
+12,pressure,remains,control,False

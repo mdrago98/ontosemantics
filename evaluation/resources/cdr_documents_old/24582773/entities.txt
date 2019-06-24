@@ -1,0 +1,23 @@
+patient
+suffering
+affective disorder
+antipsychotics
+zuclopenthixol
+lithium
+serum
+patient
+personality disorder
+antisocial
+substance abuse disorder
+quetiapine
+patient
+agitation
+aggressiveness
+personality disorder
+manic
+akathisia
+withdrawal
+quetiapine
+agitation
+agitation
+quetiapine

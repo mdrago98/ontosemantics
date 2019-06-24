@@ -1,5 +1,3 @@
 ,Subject,Action,Object,Negation
-0,Ifosfamide,is,alkylating agent,False
-1,cancers,including,testicular cancers,False
-2,Encephalopathy,reported,%,False
-3,patients,receiving,dose,False
+0,Encephalopathy,reported,patients,False
+1,Encephalopathy,reported,high-dose IV ifosfamide,False

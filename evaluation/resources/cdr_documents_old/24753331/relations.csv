@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,S-53482,are,N,False
+1,S-53482,are,embryolethality,False
+2,S-53482,are,teratogenicity,False
+3,S-53482,are,ventricular septal defects,False
+4,S-53482,are,growth retardation,False
+5,S-53482,are,ribs,False
+6,compounds,induce,toxicity,False
+7,compounds,induce,route,False

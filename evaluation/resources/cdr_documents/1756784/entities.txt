@@ -1,68 +1,123 @@
 substantia nigra
+gating function
+spread
 epileptic seizure
+activity
+models
+prolonged
 status epilepticus
-pars reticulata
+pars
 substantia nigra
 SNR
-suffers
+massive lesion
 metabolic
+hyperexcitation
+activated
 SNR
+study
 status epilepticus
+induced
+systemic
+injection
 pilocarpine
 rats
 neuropathology
+SNR
+investigated
+immunohistochemical techniques
+time-course
+changes
 neurons
 astrocytes
+Animals surviving
+days
+induction
 status epilepticus
-fixed
+perfusion-fixed
 brains
+immunohistochemical staining
+SNR
+Nissl-staining
 antibodies
-neuron
-calcium
-binding
-protein
+neuron-specific calcium-binding protein
 parvalbumin
+detect
+neuronal damage
+SNR
 Antibodies
-astroglia
-cytoskeletal
-protein
+astroglia-specific cytoskeletal protein
 glial fibrillary acidic protein
 GFAP
-glial
-calcium
-binding
-protein
+glial calcium-binding protein
 S-100 protein
+status
 astrocytes
-serum
-albumin
+Immunohistochemical staining
+serum-albumin
 immunoglobulins
 brain tissue
 indicator
 blood-brain barrier
-edema
-formation
-GFAP
+disturbances
+vasogenic edema
+Immunohistochemical staining
+loss
+GFAP-staining
+induction
 seizures
-S-100 protein
-parvalbumin
-distortion
-serum
-proteins
+oval
+SNR
+sparing
+medial
+lateral
+vacuolation
+S-100 protein staining
+parvalbumin-staining
+central
+SNR
+neuronal damage
+Nissl-staining
+neuronal distortion
+Staining
+serum-proteins
 forebrain
-edema
+vasogenic edema
+lesioned
+SNR
 glial
+neuronal markers
+massive lesion
+SNR
 astrocytes
-cells
-glial
+lesion
+increased
+size
+polymorphic phagocytotic cells
+invaded
+damaged area
+group
+animals
+surviving
+days
+paraffin-sections
+neuronal
+glial damage
+SNR
 pathology
+quality
 globus pallidus
 astrocytes
+damaged
 neurons
+SNR
+anatomical
+functional
+interrelationship
 neurons
 astrocytes
-cell
-suffer
+tight
+SNR
+cell elements
 metabolic disturbance
-neurotransmitter
-status epilepticus
+neurotransmitter dysfunction
+massive status epilepticus

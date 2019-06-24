@@ -1,15 +1,27 @@
+male
 patient
-suffering
-trigeminal neuralgia
+severe
+postzosteric trigeminal neuralgia
+intravenous
 biperiden
 lactate
+reaction
+characterized
 bradycardia
 dysarthria
 dysphagia
-heart
-back
-cardiac
+heart rate
+normal
+administration
+orciprenaline
+cardiac monitoring
+intensive care unit
 Bradycardia
+induced
 biperiden
-atropine
+speed
+injection
+dose-related
+dual effect
+atropine-like drugs
 muscarine receptors

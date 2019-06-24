@@ -1,11 +1,43 @@
-fixed
-timolol maleate
-blood pressure
-blood pressure
+postmarketing
+surveillance study
+safety
+efficacy
+fixed-ratio
 timolol
+maleate
+hydrochlorothiazide
+month
+hypertensive
+patients
+Data
+patients
+participating
+physicians
+Mean systolic blood pressure
+decreased
+mmHg
+mean diastolic blood pressure
+mmHg
+month
+timolol-hydrochlorothiazide therapy
+comparisons
+Age
+race
+sex
+influence
+decrease
 blood pressure
-antihypertensive
+antihypertensive effect
+drug
+patients
+severe
 hypertension
+patients
+adverse events
 fatigue
 dizziness
 weakness
+Treatment
+patients
+discontinued
+adverse events

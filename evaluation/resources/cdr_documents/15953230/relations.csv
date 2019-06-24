@@ -1,1 +1,5 @@
 ,Subject,Action,Object,Negation
+0,cases,reported,self-poisoning,False
+1,cases,reported,amisulpride,False
+2,prolongation,noted,cases,False
+3,prolongation,appeared,administration,False

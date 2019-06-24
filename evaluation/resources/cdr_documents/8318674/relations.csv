@@ -1,11 +1,23 @@
 ,Subject,Action,Object,Negation
-0,patients,treated,dose,False
-1,patients,treated,lymphomas,False
-2,Four,developed,syndrome,False
-3,Four,developed,perfusion,False
-4,screening,provide,evidence,False
-5,assays,performed,Ara-C,False
-6,patients,including,four,False
-7,who,developed,syndrome,False
-8,activity,found,serum,False
-9,Ara-C,associated,cytokine,False
+0,patients,developed,Ara-C,False
+1,patients,developed,lymphomas,False
+2,patients,developed,institution,False
+3,patients,developed,syndrome,False
+4,patients,developed,perfusion,False
+5,bacteriological screening,failed,evidence,False
+6,bacteriological screening,failed,infection,False
+7,biological assays,performed,IL-1,False
+8,biological assays,performed,Ara-C,False
+9,biological assays,performed,patients,False
+10,biological assays,performed,syndrome,False
+11,activity,found,serum,False
+12,activity,found,cases,False
+13,TNF,thought,development,False
+14,TNF,thought,septic shock,False
+15,TNF,hypothesize,development,False
+16,TNF,hypothesize,septic shock,False
+17,TNF,hypothesize,cytokine release,False
+18,Ara-C,hypothesize,development,False
+19,Ara-C,hypothesize,septic shock,False
+20,Ara-C,hypothesize,cytokine release,False
+21,Ara-C,associated with,cytokine release,False

@@ -1,12 +1,26 @@
 ,Subject,Action,Object,Negation
-0,administration,induces,growth,False
-1,treatment,produced,growth,True
-2,hybrid,exhibited,growth,False
-3,hybrid,exhibited,weeks,False
-4,hybrid,exhibited,mass,False
-5,mg,compared,8.6,False
-6,growth,exhibited,quantitative,False
-7,5,exhibited,phenotype,False
-8,36,were,F344,False
-9,phenotype,is,consequence,True
-10,pituitaries,were,massive,False
+0,Chronic administration,induces,estrogen,False
+1,Chronic administration,induces,Fischer 344,False
+2,Chronic administration,induces,growth,False
+3,Chronic administration,induces,hemorrhagic pituitary tumors,False
+4,weeks,caused,diethylstilbestrol,False
+5,weeks,caused,F344,False
+6,treatment,produced,growth,False
+7,treatment,produced,females,False
+8,treatment,produced,females,False
+9,treatment,produced,Brown Norway,False
+10,F1 hybrid,exhibited,F344,False
+11,F1 hybrid,exhibited,pituitary growth,False
+12,F1 hybrid,exhibited,weeks,False
+13,F1 hybrid,exhibited,DES,False
+14,F1 hybrid,exhibited,average mass,False
+15,pituitary growth,exhibited,additive inheritance,False
+16,pituitary growth,exhibited,additive inheritance,False
+17,pituitary growth,exhibited,epistatic inheritance,False
+18,phenotype,exhibited,additive inheritance,False
+19,phenotype,exhibited,epistatic inheritance,False
+20,phenotype,exhibited,F2,False
+21,phenotype,exhibited,phenotype,False
+22,phenotype,exhibited,F2,False
+23,phenotype,exhibited,extensive growth,False
+24,phenotype,indicating,extensive growth,False

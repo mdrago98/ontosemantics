@@ -1,12 +1,71 @@
 ,Subject,Action,Object,Negation
-0,Cortical dysplasia,is,malformation,False
-1,study,evaluate,alterations,False
-2,melatonin,given,delivery,False
-3,microscopy,carried,offspring,False
-4,findings,observed,cerebella,False
-5,findings,observed,control,False
-6,consistent,noted,cortical dysplasia,False
-7,There,was,increase,False
-8,immunoreactivity,indicating,maturation,False
-9,melatonin,reversed,changes,False
-10,there,were,differences,True
+0,study,designed,alterations,False
+1,study,designed,offspring,False
+2,study,designed,exposure to,False
+3,study,designed,"carmustine-[1,3-bis",False
+4,study,designed,effects of,False
+5,study,designed,melatonin,False
+6,study,designed,cortical dysplasia,False
+7,study,designed,biochemical analyses,False
+8,Wistar rats,assigned,groups,False
+9,intact-control,assigned,groups,False
+10,Rats,exposed,BCNU,False
+11,Rats,exposed,embryonic day,False
+12,Rats,exposed,delivery,False
+13,melatonin,exposed,BCNU,False
+14,melatonin,exposed,embryonic day,False
+15,melatonin,exposed,delivery,False
+16,melatonin,given,delivery,False
+17,Immuno/histochemistry,carried,offspring,False
+18,Immuno/histochemistry,carried,malondialdehyde,False
+19,levels,carried,offspring,False
+20,levels,carried,malondialdehyde,False
+21,levels,determined,malondialdehyde,False
+22,findings,observed,cerebella,False
+23,findings,observed,control groups,False
+24,findings,observed,embryonic development,False
+25,findings,observed,group,False
+26,findings,observed,cerebella,False
+27,findings,observed,control groups,False
+28,findings,observed,embryonic development,False
+29,findings,observed,group,False
+30,findings,noted,embryonic development,False
+31,findings,noted,group,False
+32,immunoreactivity,was,TUNEL positive cells,False
+33,immunoreactivity,was,BCNU-exposed group,False
+34,immunoreactivity,was,glial fibrillary acidic protein,False
+35,immunoreactivity,was,maturation,False
+36,immunoreactivity,was,changes,False
+37,melatonin,was,TUNEL positive cells,False
+38,melatonin,was,BCNU-exposed group,False
+39,melatonin,was,glial fibrillary acidic protein,False
+40,melatonin,was,maturation,False
+41,melatonin,was,changes,False
+42,immunoreactivity,observed,glial fibrillary acidic protein,False
+43,immunoreactivity,observed,maturation,False
+44,immunoreactivity,observed,changes,False
+45,melatonin,observed,glial fibrillary acidic protein,False
+46,melatonin,observed,maturation,False
+47,melatonin,observed,changes,False
+48,melatonin,reversed,changes,False
+49,data,suggest,animals,False
+50,data,suggest,BCNU,False
+51,data,suggest,pregnancy,False
+52,data,suggest,maturation,False
+53,data,suggest,offspring,False
+54,data,suggest,cerebellum,False
+55,data,suggest,effects,False
+56,data,suggest,BCNU,False
+57,exposure of,suggest,animals,False
+58,exposure of,suggest,BCNU,False
+59,exposure of,suggest,pregnancy,False
+60,exposure of,suggest,maturation,False
+61,exposure of,suggest,offspring,False
+62,exposure of,suggest,cerebellum,False
+63,exposure of,suggest,effects,False
+64,exposure of,suggest,BCNU,False
+65,exposure of,leads,animals,False
+66,exposure of,leads,BCNU,False
+67,exposure of,leads,pregnancy,False
+68,exposure of,leads,maturation,False
+69,exposure of,leads,offspring,False

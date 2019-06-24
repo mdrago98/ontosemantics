@@ -1,12 +1,30 @@
 ,Subject,Action,Object,Negation
-0,man,have,bradycardia,False
-1,man,have,respiratory failure,False
-2,Thyroid-stimulating hormone,be,mL,False
-3,0.8-1.8 ng/dL),received,fluids,False
-4,0.8-1.8 ng/dL),received,μg,False
-5,0.8-1.8 ng/dL),received,h,False
-6,improvement,occurred,h.,False
-7,patient,maintained,175,False
-8,ultrasound,showed,diffuse,False
-9,excretion,was,3657,False
-10,case,represents,case,False
+0,man,found,initiation,False
+1,man,found,amiodarone therapy,False
+2,man,found,atrial fibrillation,False
+3,weeks,found,initiation,False
+4,weeks,found,amiodarone therapy,False
+5,weeks,found,atrial fibrillation,False
+6,weeks,have,initiation,False
+7,weeks,have,amiodarone therapy,False
+8,weeks,have,atrial fibrillation,False
+9,Haemodynamic improvement,occurred,recovery,False
+10,Haemodynamic improvement,occurred,mental status,False
+11,Haemodynamic improvement,occurred,initiation,False
+12,Haemodynamic improvement,occurred,therapy,False
+13,Haemodynamic improvement,occurred,levothyroxine 175,False
+14,FT4,occurred,recovery,False
+15,FT4,occurred,mental status,False
+16,FT4,occurred,initiation,False
+17,FT4,occurred,therapy,False
+18,FT4,occurred,levothyroxine 175,False
+19,patient,occurred,recovery,False
+20,patient,occurred,mental status,False
+21,patient,occurred,initiation,False
+22,patient,occurred,therapy,False
+23,patient,occurred,levothyroxine 175,False
+24,patient,maintained,levothyroxine 175,False
+25,thyroid ultrasound,showed,heterogeneity,False
+26,case,represents,coma,False
+27,case,represents,history significant,False
+28,case,represents,subclinical thyroid disease,False

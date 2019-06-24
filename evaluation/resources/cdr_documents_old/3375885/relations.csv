@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,We,described,patient,False
+1,We,described,history,False
+2,renal disease,predisposed,patient,False

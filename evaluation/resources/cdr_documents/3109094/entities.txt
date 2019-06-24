@@ -1,34 +1,64 @@
-cyclophosphamide
-cystitis
+cyclophosphamide-induced cystitis
+characterized
 detachment
 urothelium
-edema
+severe
+submucosal edema
+damage
 microvascular bed
-muscle
-necroses
+focal muscle necroses
+primary attack
 cyclophosphamide
 metabolites
 fragmentation
 luminal membrane
-cellular
-urine
-cell membranes
-cells
+damages
+cellular barrier
+hypertonic urine
+lateral cell membranes
+superficial cells
 plasma membranes
+intermediate
 basal cells
+intercellular
 intracellular
 edema
 disintegration
 desmosomes
 hemidesmosomes
+progressive
 degeneration
 detachment
 epithelial cells
-membrane
+exposure
+splitting
+basal membrane
+morphological
+changes
 endothelial cells
+stages
+experiment
+involvement
 blood vessels
+diameter
+location-dependent
+damage
+damage
+mediator-induced
+increase
+permeability
+morphological
+correlate
 formation
-cell
+gaps
+interendothelial cell
+connections
 venules
-lysosomal
-cells
+changes
+mesna
+involvement
+increase
+specific
+granules
+lysosomal function
+superficial cells

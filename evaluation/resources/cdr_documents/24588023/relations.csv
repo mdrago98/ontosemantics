@@ -1,22 +1,36 @@
 ,Subject,Action,Object,Negation
-0,data,regarding,seizures,False
-1,we,undertook,analysis,False
-2,we,undertook,patients,False
-3,bypass,used,January,False
-4,convulsive seizure,defined,episode,False
-5,analysis,identify,predictors,False
-6,total,developed,convulsive seizures,False
-7,patients,developed,convulsive seizures,False
-8,focal seizures,identified,patients,False
-9,time,was,h,False
-10,time,was,h,False
-11,findings,seen,patients,False
-12,predictors,included,age,False
-13,tranexamic acid,was,predictor,False
-14,Patients,had,mortality,False
-15,Patients,had,length,False
-16,length,was,h,False
-17,h,compared,h,False
-18,Convulsive seizures,are,postoperative complication,False
-19,tranexamic acid,is,factor,False
-20,doses,exceeding,mg.kg(-1,False
+0,cardiopulmonary bypass,undertook,lack,False
+1,cardiopulmonary bypass,undertook,data,False
+2,cardiopulmonary bypass,undertook,seizures,False
+3,cardiopulmonary bypass,undertook,cardiac surgery,False
+4,cardiopulmonary bypass,undertook,retrospective analysis,False
+5,cardiopulmonary bypass,undertook,data,False
+6,cardiopulmonary bypass,undertook,patients,False
+7,cardiopulmonary bypass,undertook,January,False
+8,cardiopulmonary bypass,used,January,False
+9,convulsive seizure,defined,episode,False
+10,convulsive seizure,defined,brain function,False
+11,Multivariate regression analysis,performed,predictors,False
+12,Multivariate regression analysis,performed,seizures,False
+13,patients,developed,convulsive seizures,False
+14,focal seizures,identified,patients,False
+15,time,was,surgery,False
+16,seizure,was,surgery,False
+17,findings,seen,electroencephalography,False
+18,findings,seen,patients,False
+19,predictors,included,seizures,False
+20,predictors,included,age,False
+21,predictors,included,ascending aorta,False
+22,predictors,included,aortic cross-clamp,False
+23,Patients,had,convulsive seizures,False
+24,Patients,had,convulsive seizures,False
+25,length of stay,was,intensive care unit,False
+26,length of stay,was,patients,False
+27,length of stay,was,convulsive seizures,False
+28,length of stay,was,patients,False
+29,length of stay,was,seizures,False
+30,Convulsive seizures,are,complication,False
+31,Convulsive seizures,are,cardiac surgery,False
+32,tranexamic acid,weighed,doses,False
+33,tranexamic acid,weighed,risk,False
+34,tranexamic acid,weighed,seizures,False

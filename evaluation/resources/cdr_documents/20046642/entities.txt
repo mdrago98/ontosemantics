@@ -1,48 +1,111 @@
 Hippocampal
+integrity
+cognitive functions
+induction
 metallothionein
 MT
+ZnSO(4
 neuroprotection
+documented
+study
+effect
 MT
+induction
 carmustine
 hippocampal
 cognitive dysfunction
 rats
-albino
+male
+Wistar albino
 rats
+groups
+control group
+injected
+doses
+normal saline
+i.c.v
+BCNU
 solvent
+group
+administered
+ZnSO(4
+i.c.v
+BCNU
 solvent
+group
+BCNU
+injection
+normal saline
+i.c.v
+Fourth group
+ZnSO(4
+i.c.v
+BCNU
+data
+BCNU
+administration
+deterioration
 learning
-short-term memory
+short-term
 STM
-arm
-water
+radial arm water maze
+decreased
 hippocampal
 glutathione reductase
 GR
-reduced glutathione
+activity
+reduced
+glutathione
 GSH
-serum
-tumor necrosis factor-alpha
+content
+BCNU
+administration
+increased
+serum tumor necrosis factor-alpha
 TNFalpha
 hippocampal
 MT
 malondialdehyde
 MDA
-caspase-3 activity
+contents
+caspase-3
+activity
+histological
+ZnSO(4
+pretreatment
+BCNU-induced
 inhibition
 GR
+depletion
 GSH
+reduction
+levels
 MDA
 TNFalpha
+activity
 caspase-3
+histological
 hippocampus
 rats
+treated with
+ZnSO(4
+BCNU
+BCNU-treated
+animals
 MT
+induction
+BCNU-induced
 hippocampal
+toxicity
 GR
 inhibition
 GSH
+depletion
+increased
+levels
 TNFalpha
 MDA
-caspase-3 activity
+caspase-3
+activity
+preservation
 cognition

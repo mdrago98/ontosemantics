@@ -1,7 +1,11 @@
 ,Subject,Action,Object,Negation
-0,Metronidazole,produce,complications,False
-1,it,is,scenario,True
-2,We,present,case,False
-3,encephalopathy,following,metronidazole,False
-4,brain,showed,intensity,False
-5,intensity,involving,nuclei,False
+0,Metronidazole,produce,neurological complications,False
+1,patient,present,case,False
+2,patient,present,encephalopathy,False
+3,patient,present,intake,False
+4,brain,showed,signal intensity,False
+5,brain,showed,dentate nuclei,False
+6,brain,showed,cerebellum,False
+7,brain,showed,corpus callosum,False
+8,diagnosis,made,toxicity,False
+9,diagnosis,made,MRI,False

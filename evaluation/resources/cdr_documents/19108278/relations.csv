@@ -1,16 +1,24 @@
 ,Subject,Action,Object,Negation
-0,isomers,compared,activities.2,False
-1,-propranolol,had,hundredth,False
-2,which,attenuated,responses,False
-3,there,was,prolongation,False
-4,-Propranolol,had,effect,True
-5,isomers,possessed,potency,False
-6,muscle,taken,guinea,False
-7,isomers,exhibited,potencies,False
-8,isomers,exhibited,that,False
-9,isomers,exhibited,frog,False
-10,cats,anaesthetized,halothane,False
-11,dose,was,kg,False
-12,there,was,prolongation,False
-13,ventricular tachycardia,caused,cats,False
-14,ventricular tachycardia,caused,dogs,False
+0,optical isomers,compared,propranolol,False
+1,optical isomers,compared,antiarrhythmic activities.2,False
+2,(+)-propranolol,had,inotropic,False
+3,(+)-propranolol,had,isoprenaline,False
+4,(+)-propranolol,had,hundredth,False
+5,(+)-propranolol,had,(-)-propranolol,False
+6,metabolic responses,blocked,isoprenaline,False
+7,metabolic responses,blocked,dogs,False
+8,metabolic responses,blocked,circulating glucose,False
+9,metabolic responses,blocked,(-)-propranolol,False
+10,increase,blocked,isoprenaline,False
+11,increase,blocked,dogs,False
+12,increase,blocked,circulating glucose,False
+13,increase,blocked,(-)-propranolol,False
+14,isomers,possessed,propranolol,False
+15,isomers,possessed,depressant potency,False
+16,isomers,possessed,atrial muscle,False
+17,isomers,possessed,guinea-pigs.5,False
+18,isomers,exhibited,propranolol,False
+19,isomers,exhibited,potencies,False
+20,isomers,exhibited,frog nerve,False
+21,isomers,exhibited,level,False
+22,isomers,exhibited,procaine,False

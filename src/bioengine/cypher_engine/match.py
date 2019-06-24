@@ -16,6 +16,16 @@ from utils.pythonic_name import get_pythonic_name
 #                 match(node:Class)--(m:Class) where toLower(term) in node.synonym
 #                 return node, term, LABELS(node)"""
 
+WEIGHTS = {
+    'DOID': '3',
+    'CHEBI': '2',
+    'RO': '-1',
+    'GO': '4',
+    'CL': '3',
+    'FMA': '2',
+    'MONDO': '-1'
+}
+
 
 def get_mapping_query() -> str:
     """
@@ -45,7 +55,7 @@ def get_ontology_mapping(terms: list, driver: Connection) -> Table:
 
 
 def map_relations_with_ontology_terms(relations: list, entities: list = None,
-                                      driver: Connection = None, nlp=None) -> tuple:
+                                      driver: Connection = None, nlp=None, weights= None) -> tuple:
     """
     A method for mapping entities to ontology terms from relations
     :param pmid: of the  document from which relations where extracted
@@ -53,6 +63,8 @@ def map_relations_with_ontology_terms(relations: list, entities: list = None,
     :param entities: a list of named entities to query
     :param driver: a neo4j Driver abstraction
     """
+    if weights is None:
+        weights = WEIGHTS
     if entities is None:
         entities = []
     if driver is None:
@@ -74,7 +86,9 @@ def map_relations_with_ontology_terms(relations: list, entities: list = None,
             key = get_pythonic_name(key)
             setattr(graph_object, get_pythonic_name(key), item)
         document_repr = list(dict(filter(lambda value: row[1] in value[1], alternate_term_dict.items())).keys())[0]
-        term_ranking.update({graph_object.iri: row[3]})
+        score = int(weights[graph_object.ontology_prefix]) * int(row[3]) if \
+            graph_object.ontology_prefix in weights else int(row[3])
+        term_ranking.update({graph_object.iri: score})
         if document_repr in mapping:
             mapping[document_repr] += [graph_object]
         else:

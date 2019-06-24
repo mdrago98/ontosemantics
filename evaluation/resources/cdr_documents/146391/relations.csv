@@ -1,8 +1,11 @@
 ,Subject,Action,Object,Negation
-0,patient,taking,diphenylhydantoin,False
-1,patient,taking,weeks,False
-2,patient,developed,skin rash,False
-3,Skin rash,is,complication,False
-4,Pure red cell aplasia,associated,medication,False
-5,Pure red cell aplasia,reported,patients,False
-6,mechanism,exerts,effects,False
+0,patient,developed,diphenylhydantoin,False
+1,patient,developed,weeks,False
+2,patient,developed,generalized skin rash,False
+3,withdrawal,disappeared,pharmacon,False
+4,symptoms,disappeared,pharmacon,False
+5,Pure red cell aplasia,reported,diphenylhydantoin medication,False
+6,Pure red cell aplasia,reported,patients,False
+7,diphenylhydantoin,exerts,toxic effects,False
+8,mechanism,known,toxic effects,True
+9,diphenylhydantoin,known,toxic effects,True

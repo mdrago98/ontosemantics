@@ -1,18 +1,58 @@
 ,Subject,Action,Object,Negation
-0,We,compared,pharmacokinetics,False
-1,which,contain,soyabean,True
-2,which,contain,formulation,True
-3,volunteers,received,injection,False
-4,levels,measured,h,False
-5,h,following,drug,False
-6,parameters,assessed,induction,False
-7,parameters,assessed,emergence,False
-8,Patients,monitored,effects,False
-9,concentrations,differ,formulations,True
-10,induction,showed,differences,True
-11,variables,showed,differences,True
-12,times,showed,differences,True
-13,Pain,occurred,AM149,False
-14,thrombophlebitis,occurred,AM149,False
-15,formulations,had,pharmacokinetic,False
-16,formulations,had,profiles,False
+0,AM149 1,compared,pharmacokinetics,False
+1,AM149 1,compared,galenic formulation,False
+2,AM149 1,compared,propofol,False
+3,AM149 1,compared,soyabean oil,False
+4,AM149 1,compared,formulation,False
+5,AM149 1,compared,propofol,False
+6,Disoprivan 1%,compared,pharmacokinetics,False
+7,Disoprivan 1%,compared,galenic formulation,False
+8,Disoprivan 1%,compared,propofol,False
+9,Disoprivan 1%,compared,soyabean oil,False
+10,Disoprivan 1%,compared,formulation,False
+11,Disoprivan 1%,compared,propofol,False
+12,double-blind,received,cross-over study,False
+13,double-blind,received,bolus,False
+14,double-blind,received,mg.kg-1,False
+15,healthy volunteers,received,cross-over study,False
+16,healthy volunteers,received,bolus,False
+17,healthy volunteers,received,mg.kg-1,False
+18,levels,measured,drug administration,False
+19,levels,measured,three-compartment model,False
+20,parameters,included,induction,False
+21,parameters,included,injection,False
+22,Patients,monitored,side effects,False
+23,Patients,monitored,incidence,False
+24,Patients,monitored,thrombophlebitis,False
+25,Patients,monitored,treatment groups,False
+26,Patients,monitored,group,False
+27,study,monitored,side effects,False
+28,study,monitored,incidence,False
+29,study,monitored,thrombophlebitis,False
+30,study,monitored,treatment groups,False
+31,study,monitored,group,False
+32,data,monitored,side effects,False
+33,data,monitored,incidence,False
+34,data,monitored,thrombophlebitis,False
+35,data,monitored,treatment groups,False
+36,data,monitored,group,False
+37,patients,monitored,side effects,False
+38,patients,monitored,incidence,False
+39,patients,monitored,thrombophlebitis,False
+40,patients,monitored,treatment groups,False
+41,patients,monitored,group,False
+42,study,terminated,treatment groups,False
+43,study,terminated,group,False
+44,data,terminated,treatment groups,False
+45,data,terminated,group,False
+46,patients,terminated,treatment groups,False
+47,patients,terminated,group,False
+48,data,analysed,treatment groups,False
+49,data,analysed,group,False
+50,patients,analysed,treatment groups,False
+51,patients,analysed,group,False
+52,concentrations,differ,formulations,True
+53,induction,showed,treatment groups,False
+54,Pain,occurred,injection,False
+55,Pain,occurred,AM149,False
+56,formulations,had,pharmacodynamic profiles,False

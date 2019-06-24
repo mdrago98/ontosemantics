@@ -1,5 +1,3 @@
 ,Subject,Action,Object,Negation
-0,abuse,affects,Americans,False
-1,metabolite,formed,presence,False
-2,purpose,delineate,role,False
-3,model,simulating,abuse,False
+0,abuse,affects,cocaine,False
+1,abuse,affects,Americans,False

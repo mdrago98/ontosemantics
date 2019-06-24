@@ -1,28 +1,74 @@
 ,Subject,Action,Object,Negation
-0,Busulfan,be,animals,False
-1,Busulfan,be,humans,False
-2,We,report,study,False
-3,study,receiving,dose,False
-4,study,receiving,chemotherapy,False
-5,study,receiving,bone marrow,False
-6,Busulfan,given,p.o,False
-7,basis,results,doses,False
-8,patients,given,prophylaxis,True
-9,%,developed,seizures,False
-10,%,developed,days,False
-11,dose,taken,account,False
-12,there,was,difference,False
-13,patients,given,dose,False
-14,none,had,neurological symptoms,True
-15,ratio,was,1.39,False
-16,ratio,defined,children,False
-17,children,receiving,dose,False
-18,dose,calculated,basis,False
-19,dose,resulting,doses,False
-20,incidence,observed,adults,False
-21,studies,showed,clearance,False
-22,dose,approximate,exposure,False
-23,dose,approximate,inferences,False
-24,exposure,obtained,kg,False
-25,children,undergoing,bone marrow,False
-26,dose,reconsidered,basis,False
+0,Busulfan,known,animals,False
+1,Busulfan,known,children,False
+2,neurotoxicity,known,animals,False
+3,neurotoxicity,known,children,False
+4,neurotoxicity,remains,children,False
+5,age,report,retrospective study,False
+6,age,report,children,False
+7,age,report,busulfan,False
+8,age,report,combined chemotherapy,False
+9,age,report,bone marrow transplantation,False
+10,age,report,malignant solid tumors,False
+11,brain tumors,report,retrospective study,False
+12,brain tumors,report,children,False
+13,brain tumors,report,busulfan,False
+14,brain tumors,report,combined chemotherapy,False
+15,brain tumors,report,bone marrow transplantation,False
+16,brain tumors,report,malignant solid tumors,False
+17,Busulfan,given,doses,False
+18,Busulfan,given,days,False
+19,calculation,results,body surface area,False
+20,calculation,results,doses,False
+21,calculation,results,children,False
+22,calculation,results,patients,False
+23,patients,given,anticonvulsive prophylaxis,True
+24,patients,given,seizures,True
+25,patients,given,days,True
+26,patients,given,busulfan,True
+27,patients,given,dosing,True
+28,dose,was,neurotoxicity,False
+29,dose,was,patients,False
+30,patients,given,busulfan,False
+31,levels,measured,gas chromatographic-mass spectrometry assay,False
+32,levels,measured,plasma,False
+33,levels,measured,children,False
+34,levels,measured,central nervous system disease,False
+35,levels,measured,mg/m2,False
+36,levels,measured,clonazepam,False
+37,busulfan cerebrospinal fluid,measured,gas chromatographic-mass spectrometry assay,False
+38,busulfan cerebrospinal fluid,measured,plasma,False
+39,busulfan cerebrospinal fluid,measured,children,False
+40,busulfan cerebrospinal fluid,measured,central nervous system disease,False
+41,busulfan cerebrospinal fluid,measured,mg/m2,False
+42,busulfan cerebrospinal fluid,measured,clonazepam,False
+43,plasma ratio,measured,gas chromatographic-mass spectrometry assay,False
+44,plasma ratio,measured,plasma,False
+45,plasma ratio,measured,children,False
+46,plasma ratio,measured,central nervous system disease,False
+47,plasma ratio,measured,mg/m2,False
+48,plasma ratio,measured,clonazepam,False
+49,study,shows,children,False
+50,study,shows,clonazepam,False
+51,neurotoxicity,shows,children,False
+52,neurotoxicity,shows,clonazepam,False
+53,pharmacokinetic studies,showed,busulfan,False
+54,pharmacokinetic studies,showed,children,False
+55,pharmacokinetic studies,showed,adults,False
+56,pharmacokinetic studies,approximate,busulfan,False
+57,pharmacokinetic studies,approximate,children,False
+58,pharmacokinetic studies,approximate,adults,False
+59,pharmacokinetic studies,approximate,systemic exposure,False
+60,pharmacokinetic studies,approximate,16-mg/kg,False
+61,pharmacokinetic studies,approximate,inferences,False
+62,pharmacokinetic studies,approximate,anticancer,False
+63,dose,approximate,busulfan,False
+64,dose,approximate,children,False
+65,dose,approximate,adults,False
+66,dose,approximate,systemic exposure,False
+67,dose,approximate,16-mg/kg,False
+68,dose,approximate,inferences,False
+69,dose,approximate,anticancer,False
+70,dose,reconsidered,children,False
+71,dose,reconsidered,bone marrow transplantation,False
+72,dose,reconsidered,pharmacokinetic studies,False

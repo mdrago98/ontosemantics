@@ -1,5 +1,12 @@
 ,Subject,Action,Object,Negation
-0,report,describes,contrast,False
-1,which,developed,acute lymphoblastic leukemia,False
-2,acute lymphoblastic leukemia,treated,dose,False
-3,Necropsy,revealed,loss,False
+0,report,describes,contrast enhancement,False
+1,report,describes,white matter,False
+2,report,describes,images,False
+3,report,describes,patients,False
+4,report,describes,disseminated necrotizing leukoencephalopathy,False
+5,report,describes,acute lymphoblastic leukemia,False
+6,report,describes,high-dose methotrexate,False
+7,Necropsy,revealed,loss,False
+8,Necropsy,revealed,myelination,False
+9,Necropsy,revealed,white matter,False
+10,mechanisms,discussed,leukoencephalopathy,False

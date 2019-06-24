@@ -1,9 +1,20 @@
+study
+compare
+surgical conditions
 intraoperative bleeding
-blood pressure
-sinus
-laryngeal
-airway
+intraoperative blood pressure
+functional
+endoscopic sinus surgery
+FESS
+flexible
+laryngeal mask airway
+FRLMA
+endotracheal tube
+ETT
+controlled
+hypotension
 anesthesia
-propofol
-remifentanil
+induced
+propofol-remifentanil total
 anesthesia
+TIVA

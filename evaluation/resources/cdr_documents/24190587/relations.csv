@@ -1,5 +1,10 @@
 ,Subject,Action,Object,Negation
-0,Ecstasy,is,psychostimulant,False
-1,which,associated,dysfunction,False
+0,Ecstasy,is,psychostimulant drug,False
+1,Ecstasy,is,psychobiological dysfunction,False
 2,studies,suggest,changes,False
-3,less,known,term,False
+3,studies,suggest,neuroendocrine function,False
+4,studies,known,changes,False
+5,studies,known,neuroendocrine function,False
+6,studies,known,changes,False
+7,studies,known,functionality,False
+8,studies,known,users,False

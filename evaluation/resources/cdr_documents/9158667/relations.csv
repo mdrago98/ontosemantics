@@ -1,9 +1,25 @@
 ,Subject,Action,Object,Negation
-0,case,treated,all-trans-retinoic acid,False
-1,We,report,case,False
-2,patient,treated,ATRA,False
-3,case,supports,concern,False
-4,complications,associated,ATRA,False
-5,patients,presented,signs and symptoms,False
-6,"The patients, a 43-year-old man",developed,acute renal failure,False
-7,ATRA,is,choice,False
+0,case,described,acute renal failure,False
+1,case,described,occlusion,False
+2,case,described,renal vessels,False
+3,case,described,patient,False
+4,case,described,acute promyelocytic leukemia,False
+5,case,described,all-trans-retinoic acid,False
+6,tranexamic acid,described,acute renal failure,False
+7,tranexamic acid,described,occlusion,False
+8,tranexamic acid,described,renal vessels,False
+9,tranexamic acid,described,patient,False
+10,tranexamic acid,described,acute promyelocytic leukemia,False
+11,tranexamic acid,described,all-trans-retinoic acid,False
+12,patients,presented,signs,False
+13,patients,presented,APL,False
+14,patients,presented,treatment protocol,False
+15,patients,presented,ATRA,False
+16,therapy,developed,days,False
+17,therapy,developed,treatment,False
+18,therapy,developed,acute renal failure,False
+19,therapy,developed,remission,False
+20,therapy,developed,APL,False
+21,ATRA,conclude,patients,False
+22,ATRA,conclude,APL,False
+23,Thrombotic events,avoided,heparin,False

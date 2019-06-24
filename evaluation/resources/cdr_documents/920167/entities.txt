@@ -1,21 +1,38 @@
-heart valve
+mothers
+heart valve prosthesis
+treated with
 warfarin
+pregnancy
+caesarean section
+week
+replacement
 warfarin
 heparin
-died
+baby died
 cerebral
 pulmonary hemorrhage
+mother
+male
 infant
-warfarin
-embryopathy
-nasal
-hypoplasia
+caesarean section
+baby
+warfarin-induced embryopathy
+nasal hypoplasia
 stippled epiphyses
 chondrodysplasia punctata
-Nasal
-hypoplasia
-stippled epiphyses
+Nasal hypoplasia
+stippled
+epiphyses
+infants
+mothers
+treated with
 warfarin
-mother and fetus
+trimester
+association
+risks
+mother
+fetus
 women
-cardiac valves
+prosthetic cardiac valves
+therapeutic abortion
+alternative

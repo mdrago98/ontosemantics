@@ -1,38 +1,73 @@
+study
+investigate
+cardioprotective
+effects
 betaine
 acute myocardial ischemia
+experimentally
 rats
 regulation
-signal transducer and activator of transcription 3
+signal transducer
+activator
 STAT3
-pathways
+apoptotic pathways
+potential
+mechanism
 drug effect
-rats
+Male
+Dawley rats
+treated with
 betaine
 orally
+days
+Acute myocardial ischemic injury
+induced
 rats
+subcutaneous
+injection
 isoproterenol
+consecutive
+days
 Serum
-cardiac
+cardiac marker
+enzyme
+histopathological
 expression
-protein
-Oral
+protein levels
+Oral administration
 betaine
-cardiac
+reduced
+level
+cardiac marker
+enzyme
 serum
+prevented
 left ventricular remodeling
-isoproterenol
-phosphorylation
+Western blot analysis
+isoproterenol-induced phosphorylation
 STAT3
+enhanced
 betaine
+treatment
 myocardium
 betaine
-ventricular
-expression
+treatment
+increased
+ventricular expression
 Bcl-2
+reduced
+level
+Bax
+increase
+ratio
+Bcl-2/Bax
 betaine
+myocardial damage
+histopathological examination
 betaine
-isoproterenol
-acute myocardial ischemia
+pretreatment
+attenuated
+isoproterenol-induced acute myocardial ischemia
 regulation
 STAT3
-pathways
+apoptotic pathways

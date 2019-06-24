@@ -1,19 +1,38 @@
-ocular
+adverse ocular reactions
+patients
 isotretinoin
+drug
+treatment
+severe
 cystic acne
 Blepharoconjunctivitis
+subjective complaints
 dry eyes
 blurred vision
-lens
+contact lens
 intolerance
 photodermatitis
-ocular
+reversible
+side effects
+ocular adverse reactions
 papilledema
 pseudotumor cerebri
-opacities
-dark adaptation
+white
+gray subepithelial
+corneal opacities
+reversible
+drug
+discontinued
+cases
+decreased
+dark
+adaptation
+investigation
 Isotretinoin
+contraindicated
+pregnancy
 congenital abnormalities
+maternal
 microphthalmos
 orbital hypertelorism
 optic nerve hypoplasia

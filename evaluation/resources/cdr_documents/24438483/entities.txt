@@ -1,7 +1,16 @@
-lipid
+Pre-treatment
+lipid emulsions
+lethal
+doses
 bupivacaine
-lipid
+lipid content
 propofol
-bupivacaine
+bupivacaine-induced cardiotoxicity
+study
+investigate
+effects of
 propofol
-bupivacaine
+intralipid
+medialipid
+emulsions
+bupivacaine-induced cardiotoxicity

@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,patient,treated,regimens,False
+1,patient,treated,months,False
+2,Rifampicin,administered,thrice,False
+3,Rifampicin,administered,one,False
+4,Rifampicin,developed,side,False
+5,episode,was,acute renal failure,False
+6,patient,made,recovery,False

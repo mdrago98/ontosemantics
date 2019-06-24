@@ -1,15 +1,38 @@
 man
+severe
 left ventricular dysfunction
 dilated cardiomyopathy
-sustained ventricular tachycardia
+hospital
+symptomatic
+incessant
+ventricular tachycardia
 VT
-hydrochloride
-sustained VT
-sotalol
+administration
+nifekalant hydrochloride
+sustained
 VT
+alternate class III agent
 sotalol
+effective
+prevention
+VT
+month
+switching
+nifekalant
+sotalol
+duration
+ST
+elevation
+documented
+ECG
+monitoring
+consecutive
+days
+ST
+elevation
 chest discomfort
-diltiazem
+long-acting diltiazem
 Coronary vasospasm
-blocking
+induced
+beta-blocking
 sotalol

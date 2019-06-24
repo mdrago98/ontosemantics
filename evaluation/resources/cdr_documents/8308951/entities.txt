@@ -1,14 +1,18 @@
-hematoma
-warfarin
-coagulopathy
+case
+intercerebral hematoma
+warfarin-induced coagulopathy
 woman
-warfarin
-rat
-poison
-hands
+spread
+warfarin-type rat
+house weekly
+bare hands
+post
 Percutaneous absorption
 warfarin
 coagulopathy
-drug interaction with
+risk
+protective measures
+gloves
+adverse drug interaction
 piroxicam
 coagulopathy

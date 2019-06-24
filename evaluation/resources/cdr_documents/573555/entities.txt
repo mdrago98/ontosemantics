@@ -1,15 +1,31 @@
 Propranolol
-blocking
+beta-adrenergic blocking agent
+practice
 medicine
+pregnancy
+side effects
 fetus
+neonate
+patients
+pregnancies
+chronic
+propranolol
+administered
+patients
 pregnancies
 propranolol
-pregnancies
-propranolol
+therapy
+Maternal
 fetal
+neonatal
+complications
+drug-related complications
+maternal disease
+complications
 hypoglycemia
 hyperbilirubinemia
-polycythemia, neonatal apnea
+polycythemia
+neonatal apnea
 bradycardia
-propranolol
+chronic propranolol therapy
 Growth retardation

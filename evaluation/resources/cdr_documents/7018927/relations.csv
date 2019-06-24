@@ -1,5 +1,21 @@
 ,Subject,Action,Object,Negation
-0,effects,studied,group,False
-1,luteinizing hormone,studied,group,False
-2,patients,received,infusions,False
-3,hyperprolactinemia,found,response,False
+0,effects of,studied,infusion,False
+1,effects of,studied,haloperidol,False
+2,effects of,studied,serum prolactin,False
+3,effects of,studied,group,False
+4,effects of,studied,subjects,False
+5,levels,studied,infusion,False
+6,levels,studied,haloperidol,False
+7,levels,studied,serum prolactin,False
+8,levels,studied,group,False
+9,levels,studied,subjects,False
+10,study,carried,infusions,False
+11,study,carried,responses,False
+12,study,carried,LH-releasing hormone,False
+13,patients,received,infusions,False
+14,patients,received,0.9,False
+15,hyperprolactinemia,found,haloperidol,False
+16,hyperprolactinemia,found,pituitary response,False
+17,hyperprolactinemia,found,LH-RH,False
+18,hyperprolactinemia,found,responses,False
+19,hyperprolactinemia,found,control subjects,False

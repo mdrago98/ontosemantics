@@ -1,12 +1,34 @@
 ,Subject,Action,Object,Negation
-0,cases,following,treatment,False
-1,cases,observed,patients,False
-2,cases,had,outcome,False
-3,one,resulted,sequelae,False
-4,complication,occurred,patients,False
-5,patients,hospitalized,treatment,False
-6,type,be,regions,True
-7,This type of drug-induced complication,occurs,subjects,False
-8,subjects,presenting,load,False
-9,mechanisms,discussed,light,False
-10,subject,published,literature,False
+0,cases,observed,encephalitis,False
+1,cases,observed,treatment,False
+2,cases,observed,diethylcarbamazine,False
+3,cases,observed,Congolese,False
+4,cases,observed,Loa loa filariasis,False
+5,cases,had,outcome,False
+6,cases,had,sequelae,False
+7,complication,was,patients,False
+8,complication,was,DEC,False
+9,treatment,was,patients,False
+10,treatment,was,DEC,False
+11,therapeutic precautions,was,patients,False
+12,therapeutic precautions,was,DEC,False
+13,dose,was,patients,False
+14,dose,was,DEC,False
+15,complication,occurred,patients,False
+16,complication,occurred,DEC,False
+17,treatment,occurred,patients,False
+18,treatment,occurred,DEC,False
+19,therapeutic precautions,occurred,patients,False
+20,therapeutic precautions,occurred,DEC,False
+21,dose,occurred,patients,False
+22,dose,occurred,DEC,False
+23,treatment,hospitalized,DEC,False
+24,therapeutic precautions,hospitalized,DEC,False
+25,dose,hospitalized,DEC,False
+26,treatment,began,DEC,False
+27,therapeutic precautions,began,DEC,False
+28,dose,began,DEC,False
+29,therapeutic precautions,taken,DEC,False
+30,dose,taken,DEC,False
+31,mechanisms,discussed,observations,False
+32,mechanisms,discussed,literature,False

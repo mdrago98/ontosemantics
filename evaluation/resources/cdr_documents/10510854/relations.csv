@@ -1,6 +1,16 @@
 ,Subject,Action,Object,Negation
-0,system,modulated,manipulation,False
-1,atypical antipsychotic agents,based,structure,False
-2,7e,exhibits,reversal,False
-3,reversal,indicating,nature,False
-4,reversal,indicating,nature,False
+0,dopaminergic system,is,research,False
+1,dopaminergic system,is,development,False
+2,dopaminergic system,is,antipsychotic agents,False
+3,dopaminergic system,is,manipulation,False
+4,dopaminergic system,is,serotonergic system,False
+5,dopaminergic system,modulated,manipulation,False
+6,dopaminergic system,modulated,serotonergic system,False
+7,synthesis,described,antipsychotic agents,False
+8,synthesis,described,structure,False
+9,atypical,described,antipsychotic agents,False
+10,atypical,described,structure,False
+11,Compound 7e,showed,series,False
+12,Compound 7e,showed,affinities,False
+13,Compound 7e,showed,5-HT2A receptors,False
+14,Compound 7e,showed,D2 receptor,False

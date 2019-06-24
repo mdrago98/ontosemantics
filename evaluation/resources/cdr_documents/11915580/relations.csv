@@ -1,22 +1,58 @@
 ,Subject,Action,Object,Negation
-0,Primary dysmenorrhea,is,syndrome,False
-1,non-steroidal anti-inflammatory drugs,are,choice,False
-2,cells,are,targets,False
-3,aim,determine,efficacy,False
-4,total,studied,menstrual cycles,False
-5,patients,receive,DCF,False
-6,Patients,received,doses,False
-7,Patients,received,days,False
-8,participants,recorded,menstrual symptoms,False
-9,participants,recorded,times,False
-10,participants,recorded,dose,False
-11,participants,recorded,drugs,False
-12,participants,recorded,side,False
-13,difference,was,variable,False
-14,treatments,reduced,DPI,False
-15,scores,remained,min,False
-16,scores,remained,hour,False
-17,patients,using,GTN,False
-18,GTN,has,efficacy,False
-19,GTN,has,comparison,False
-20,GTN,has,tolerability,False
+0,myometrial cells,demonstrated,effects,False
+1,myometrial cells,demonstrated,nitric oxide,True
+2,cross-over,controlled design,controlled design,False
+3,cross-over,randomized,controlled design,False
+4,cross-over,randomized,DCF,False
+5,cross-over,randomized,days,False
+6,cross-over,randomized,menses,False
+7,patients,randomized,controlled design,False
+8,patients,randomized,DCF,False
+9,patients,randomized,days,False
+10,patients,randomized,menses,False
+11,menstrual cramps,randomized,controlled design,False
+12,menstrual cramps,randomized,DCF,False
+13,menstrual cramps,randomized,days,False
+14,menstrual cramps,randomized,menses,False
+15,menstrual cramps,receive,DCF,False
+16,menstrual cramps,receive,days,False
+17,menstrual cramps,receive,menses,False
+18,Patients,received,DCF,False
+19,Patients,received,mg/24,False
+20,Patients,received,days,False
+21,Patients,received,cycle,False
+22,participants,recorded,menstrual symptoms,False
+23,participants,recorded,dose,False
+24,participants,recorded,medication,False
+25,participants,recorded,day,False
+26,participants,recorded,cycle,False
+27,participants,recorded,drugs,False
+28,treatments,reduced,DPI,False
+29,GTN,reduced,DPI,False
+30,DCF,continued,pelvic pain,False
+31,DCF,continued,DFC,False
+32,scores,continued,pelvic pain,False
+33,scores,continued,DFC,False
+34,GTN,continued,pelvic pain,False
+35,GTN,continued,DFC,False
+36,scores,remained,DFC,False
+37,GTN,remained,DFC,False
+38,Low back pain,relieved,drugs,False
+39,Headache,increased,GTN,False
+40,patients,stopped,GTN,False
+41,headache,stopped,GTN,False
+42,findings,indicate,efficacy,False
+43,findings,indicate,comparison,False
+44,findings,indicate,DCF,False
+45,findings,indicate,treatment,False
+46,findings,indicate,primary dysmenorrhea,False
+47,GTN,indicate,efficacy,False
+48,GTN,indicate,comparison,False
+49,GTN,indicate,DCF,False
+50,GTN,indicate,treatment,False
+51,GTN,indicate,primary dysmenorrhea,False
+52,GTN,has,efficacy,False
+53,GTN,has,comparison,False
+54,GTN,has,DCF,False
+55,GTN,has,treatment,False
+56,GTN,has,primary dysmenorrhea,False

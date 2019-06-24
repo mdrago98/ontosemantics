@@ -1,11 +1,27 @@
 ,Subject,Action,Object,Negation
-0,use,associated,increase,False
-1,We,report,case,False
-2,case,arising,child,False
-3,who,developed,obesity,False
-4,who,developed,VPA,False
-5,data,revealed,hyperinsulinemia,False
-6,patient,showed,weight,False
-7,measurements,showed,normalization,False
-8,obesity,associated,development,False
-9,side effect,is,VPA,False
+0,Laboratory data,revealed,hyperinsulinemia,False
+1,Laboratory data,revealed,insulin resistance,False
+2,patient,showed,withdrawal,False
+3,patient,showed,VPA,False
+4,patient,showed,significant weight loss,False
+5,patient,showed,body mass index,False
+6,patient,showed,parameters,False
+7,patient,showed,normalization,False
+8,measurements,showed,withdrawal,False
+9,measurements,showed,VPA,False
+10,measurements,showed,significant weight loss,False
+11,measurements,showed,body mass index,False
+12,measurements,showed,parameters,False
+13,measurements,showed,normalization,False
+14,measurements,showed,normalization,False
+15,obesity,suggests,VPA,False
+16,obesity,suggests,development,False
+17,obesity,suggests,NAFLD,False
+18,obesity,suggests,VPA,False
+19,side effect,suggests,VPA,False
+20,side effect,suggests,development,False
+21,side effect,suggests,NAFLD,False
+22,side effect,suggests,VPA,False
+23,obesity,associated with,VPA,False
+24,obesity,associated with,development,False
+25,obesity,associated with,NAFLD,False

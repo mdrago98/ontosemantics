@@ -1,0 +1,44 @@
+fixed
+HIV
+HIV
+HIV
+3TC
+d4T
+nevirapine
+NVP
+zidovudine
+AZT
+3TC
+NVP
+3TC
+d4T
+efavirenz
+EFV
+AZT
+3TC
+EFV
+CD4
+rash
+CD4
+cells
+peripheral neuropathy
+cells
+anemia
+hemoglobin
+CD4
+cells
+hepatitis
+jaundice
+alanine aminotransferase
+CD4
+cells
+Women
+lactic acidosis
+men
+immune reconstitution syndrome
+NVP
+rash
+d4T
+peripheral neuropathy
+Anemia
+hepatitis

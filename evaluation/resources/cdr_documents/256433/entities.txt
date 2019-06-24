@@ -1,29 +1,69 @@
+cure
+rate
 infections
 cancer
+patients
+neutropenia
+patients
+severe
+neutropenia
+poor response
 antibiotics
 adverse effects
+neutropenia
 tobramycin
+continuous
+infusion
+intermittent
 carbenicillin
 Tobramycin
+dose
 carbenicillin
-infectious
+dose
+infectious episodes
 cancer
+patients
+myelosuppressive chemotherapy
+cure rate
 Pneumonia
 infection
+episodes
+cured
+Gram-negative bacilli
+causative organisms
 infections
+cured
+pathogen
 Klebsiella pneumoniae
 Escherichia coli
 Pseudomonas aeruginosa
-infections
+gram-negative bacillary infections
+Response
 neutrophil
+cure rate
+episodes
+associated with
+severe
+neutropenia
+failure
 neutrophil
+increase
+therapy
+affected
+response
 Azotemia
 side effect
+episodes
 azotemia
-serum
-creatinine
+serum creatinine
+BUN
 Azotemia
+duration
+therapy
 serum
-tobramycin
-antibiotic
+concentration
+antibiotic regimen
+therapeutic efficacy
+acceptable
 renal toxicity
+patients

@@ -1,34 +1,51 @@
+study
 regulation
-gentamicin
-nephropathy
+tubular transporters
+gentamicin-induced nephropathy
+Sprague-Dawley male
 rats
+subcutaneously
+injected
 gentamicin
+days
 expression
+tubular transporters
+immunoblotting
+immunohistochemistry
 mRNA
 protein expression
 OAT
-Gentamicin
-rats
-creatinine
+Gentamicin-treated rats
+decreased
+creatinine clearance
+increased
 plasma
-creatinine
+fractional
 excretion
-Urine
-urine
-water
+sodium
+increased
+Urine volume
+increased
+urine osmolality
+free water
+reabsorption
+decreased
+Immunoblotting
+immunohistochemistry
+decreased
 expression
 Na(+)/K(+)-ATPase
 NHE3
 NBC1
 AQP1
 kidney
-gentamicin
-rats
+gentamicin-treated rats
 expression
 OAT1
 OAT3
-Gentamicin
-nephropathy
+decreased
+Gentamicin-induced nephropathy
+decreased
 expression
 Na(+)/K(+)-ATPase
 NHE3

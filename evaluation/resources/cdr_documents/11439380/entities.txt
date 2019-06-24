@@ -1,29 +1,56 @@
-thalidomide
-neuropathy
+evaluated
+thalidomide-induced neuropathy
+electrodiagnostic studies
 men
-androgen
-prostate cancer
-label
+metastatic
+open-label trial
 oral
 thalidomide
+neurologic examinations
 nerve conduction studies
 NCS
+intervals
+treatment
 NCS
-sensory nerve
-action potentials
+recording
+sensory nerve action potentials
+SNAPs
+median
+radial
 ulnar
 sural nerves
 SNAP
+amplitudes
 nerve
 expressed
-SNAP
-SNAP
+baseline
+SNAP index
+decline
+SNAP index
+clinically significant
 Thalidomide
+discontinued
+patients
+therapeutic response
+patients
 thalidomide
+months
+months
+months
+patients
 neuropathy
-SNAP
+Clinical symptoms
+decline
+SNAP index
+concurrently
+Older age
+cumulative dose
+factors
 Neuropathy
 complication
 thalidomide
-SNAP
+older patients
+SNAP index
 peripheral neuropathy
+early
+detection

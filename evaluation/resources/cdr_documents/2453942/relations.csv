@@ -1,9 +1,17 @@
 ,Subject,Action,Object,Negation
-0,Lindane,is,organochlorine insecticide,False
-1,lindane,acts,antagonist,False
-2,We,studied,effect,False
-3,animals,suffered,tonic,False
-4,animals,suffered,18.3,False
-5,concentration,increased,mesencephalon,False
-6,that,increased,mesencephalon,False
-7,that,increased,striatum,False
+0,mechanism of action,understood,non-competitive antagonist,True
+1,mechanism of action,understood,(GABA)-A,True
+2,lindane,understood,non-competitive antagonist,True
+3,lindane,understood,(GABA)-A,True
+4,lindane,proposed,non-competitive antagonist,False
+5,lindane,proposed,(GABA)-A,False
+6,lindane,acts,non-competitive antagonist,False
+7,lindane,acts,(GABA)-A,False
+8,animals,suffered,tonic convulsions,False
+9,concentration,decreased,GABA,False
+10,concentration,decreased,colliculi,False
+11,concentration,decreased,modifications,False
+12,concentration,increased,dopamine,False
+13,concentration,increased,mesencephalon,False
+14,concentration,increased,metabolite,False
+15,concentration,increased,mesencephalon,False

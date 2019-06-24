@@ -1,3 +1,4 @@
 ,Subject,Action,Object,Negation
-0,We,studied,prevalence,False
-1,We,studied,predictors,False
+0,Chronic pulsatile levodopa therapy,leads,Parkinson's disease,False
+1,Chronic pulsatile levodopa therapy,leads,development,False
+2,Chronic pulsatile levodopa therapy,leads,motor fluctuations,False

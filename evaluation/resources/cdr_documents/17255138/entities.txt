@@ -1,12 +1,19 @@
+risk
 acute myocardial infarction
 AMI
-COX-2
-inhibitors
+COX-2 inhibitors
+gastrointestinal (
+GI
+non-selective (NS
 non-steroidal anti-inflammatory drugs
 NSAIDs
+compare
+risks
+hospitalization
 AMI
 GI bleeding
-COX-2
-inhibitors
-NSAIDs
+elderly
+patients
+COX-2 inhibitors
+NS-NSAIDs
 acetaminophen

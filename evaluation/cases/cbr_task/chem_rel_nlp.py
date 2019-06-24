@@ -1,34 +1,31 @@
 from itertools import repeat
-from multiprocessing.pool import ThreadPool
 from os import path, makedirs
 
 import plac
 from Bio import Entrez
-from biolinkmodel.datamodel import NamedThing
 from pandas import read_csv, DataFrame
 
 from cypher_engine.biolink_mapping import commit_sub_graph
-from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from cypher_engine.match import map_relations_with_ontology_terms
 from nlp_processor.extensions.svo import Relation
 from nlp_processor.spacy_factory import MedicalSpacyFactory
 from scripts.generate_knowledge import generate_doc_details, get_document_subgraph, sort_terms
-from scripts.get_nouns import read_and_parse
+from scripts.get_abstracts import read_and_parse
 from src.bioengine import logger
 
 
-def map_abstracts(pmid, doc, authors, driver):
-    abstract = doc.text
-    doc_relations = doc._.noun_verb_chunks
-    doc_relations = [
-        Relation(str(relation.effector), str(relation.relation), str(relation.effectee[1]), relation.negation)
-        for relation in doc_relations]
-    logger.info(f'mapping terms for {pmid}')
-    terms, alternate_term_dictionary, term_score = map_relations_with_ontology_terms(doc_relations)
-    detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmid, abstract, authors, [], terms)
-    terms = sort_terms(terms, term_score)
-    sub_graph, associations = get_document_subgraph(doc_relations, terms, pmid, publication)
-    commit_sub_graph(driver, sub_graph, detail_sub_graph, associations)
+# def map_abstracts(pmid, doc, authors, driver):
+#     abstract = doc.text
+#     doc_relations = doc._.noun_verb_chunks
+#     doc_relations = [
+#         Relation(str(relation.effector), str(relation.relation), str(relation.effectee[1]), relation.negation)
+#         for relation in doc_relations]
+#     logger.info(f'mapping terms for {pmid}')
+#     terms, alternate_term_dictionary, term_score = map_relations_with_ontology_terms(doc_relations)
+#     detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmid, abstract, authors, [], terms)
+#     terms = sort_terms(terms, term_score)
+#     sub_graph, associations = get_document_subgraph(doc_relations, terms, pmid, publication)
+#     commit_sub_graph(driver, sub_graph, detail_sub_graph, associations)
 
 
 def main(cdr_rel, out):

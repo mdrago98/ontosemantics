@@ -1,7 +1,4 @@
 ,Subject,Action,Object,Negation
-0,Cocaine,is,risk,False
-1,We,present,case,False
-2,We,present,alcohol,False
-3,We,present,cocaine,False
-4,infarctions,associated,heroin,False
-5,cardiac arrhythmia,were,causes,False
+0,Drug-related globus pallidus infarctions,associated with,heroin,False
+1,infarcts,reported,cocaine,True
+2,infarcts,reported,heroin,True

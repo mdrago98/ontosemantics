@@ -1,31 +1,66 @@
+feasibility
 labetalol
-blocking
-hypotensive
-inhalation
-anaesthetics
+alpha- and
+beta-adrenergic blocking agent
+hypotensive agent
+combination
+inhalation anaesthetics
 halothane
 enflurane
 isoflurane
-ear
-arterial pressure
+adult
+patients
+middle-ear surgery
+mean arterial pressure
+decreased
+mmHg
 halothane
+group
+mmHg
 enflurane
+E
+group
+mmHg
 isoflurane
-inspiratory
-gas
+I
+group
+H
+hypotension
+inspiratory gas
+E
+concentration
+mean I concentration
+patients
 fentanyl
 d-tubocurarine
+dose
 labetalol
-blood pressure
-heart
+lowering blood pressure
+groups
+hypotension
+heart rate
+stable
 bradycardia
+operating conditions
 bleeding
-blind
-serum
-creatinine
+double-blind
+groups
+hypotension
+serum creatinine concentration
+groups
+values
+hypotension
+postoperatively
+level
+groups
 isoflurane
-rebound phenomenon
+hypotension
 blood pressure
-heart
+heart rate
+results
 labetalol
-rebound hypertension
+hypotension
+compensatory
+tachycardia
+rebound
+hypertension

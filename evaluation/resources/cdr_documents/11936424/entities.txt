@@ -1,39 +1,86 @@
+study
+chronic administration
+temocapril
+long-acting non-SH group
 angiotensin converting enzyme
 ACE
 inhibitor
-glomerular
-hypertrophy
+reduced
+proteinuria
+inhibited
+glomerular hypertrophy
 glomerulosclerosis
-puromycin aminonucleoside
+chronic puromycin aminonucleoside
 PAN
+induced
+nephrotic
 rats
 Nephrosis
+induced
+injection
 PAN
-body
+body weight
+male
+Sprague-Dawley (SD
 rats
+groups
 PAN
-PAN
+group
+untreated controls
+Temocapril
+administered
 rats
-blood pressure
+killed
+weeks
+time point
+systolic blood pressure
 BP
-protein
-excretion
+urinary protein
 renal
-BP
+histopathological
+findings
+evaluated
+morphometric image analysis
+Systolic BP
 PAN
+group
+weeks
+PAN/temocapril group
+Urinary
 PAN
-protein
+group
+increased
+days
+decreased
+weeks
+weeks
+attenuate
+proteinuria
+days
+weeks
+glomerulosclerosis index
+GSI
+weeks
+weeks
+PAN
+group
+correlation
+urinary protein
 excretion
-PAN
-glomerulosclerosis
-PAN
-protein
-excretion
-glomerular
+GSI
+ratio
+glomerular tuft area
 Bowman's capsules
+GT/BC
 PAN
-PAN
-renal
+group
+increased
+PAN/temocapril group
+temocapril
+effective
+retarding
+renal progression
 renal function
 PAN
+neprotic
 rats

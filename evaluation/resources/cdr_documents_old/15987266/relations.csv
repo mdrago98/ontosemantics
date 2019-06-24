@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,GAP43,linked,mossy fiber sprouting,False
+1,GAP43,linked,models,False
+2,expression,correlates,MFS,False
+3,MFS,assessed,intensity,False
+4,MFS,assessed,layer,False
+5,MFS,assessed,densitometry,False
+6,MFS,assessed,extension,False
+7,which,inhibit,MFS,False
+8,intensity,inhibit,MFS,False

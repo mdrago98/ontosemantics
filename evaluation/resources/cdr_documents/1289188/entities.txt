@@ -1,8 +1,35 @@
 patient
-thalassemia
-desferrioxamine
+transfusion-dependent thalassemia
+home intravenous desferrioxamine
 DFX
+treatment
+implanted system
+poor compliance
+nightly subcutaneous therapy
+accidental
+malfunctioning
+infusion
 patient
+administered
+toxic dosage
+drug
 renal insufficiency
+progressive
+deterioration
+symptoms
+laboratory values
+adequate
+medical treatment
+decision
+haemodialytical therapy
+drug
+therapy
+reduce
+nephrotoxicity
+results
+haemodialysis
+therapy
+cases
+progressive
 acute renal failure
 desferrioxamine

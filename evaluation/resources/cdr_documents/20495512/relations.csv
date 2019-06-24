@@ -1,20 +1,49 @@
 ,Subject,Action,Object,Negation
-0,exposure,stimulates,formation,False
-1,which,triggers,release,False
-2,Thrombosis,comprise,hallmark,False
-3,thrombocytopenia,comprise,hallmark,False
-4,prevalence,varies,subgroups,False
-5,prevalence,varies,incidence,False
-6,HIT,acknowledged,predilection,False
-7,thrombosis,occurs,heparin,False
-8,that,incorporates,clues,False
-9,delay,result,outcomes,False
-10,treatment,mandates,cessation,False
-11,which,include,assays,False
-12,tests,have,more,False
-13,attention,paid,to,False
-14,who,exposed,course,False
-15,thrombin inhibitors,are,alternatives,False
-16,who,undergo,intervention,False
-17,history,undergo,intervention,False
-18,heparin,remains,one,False
+0,Heparin-induced thrombocytopenia,remains,outcomes,False
+1,exposure,begins,formation,False
+2,exposure,begins,heparin-platelet factor 4 antibodies,False
+3,exposure,begins,procoagulant platelet particles,False
+4,exposure,stimulates,formation,False
+5,exposure,stimulates,heparin-platelet factor 4 antibodies,False
+6,exposure,stimulates,procoagulant platelet particles,False
+7,Thrombosis,comprise,traits,False
+8,Thrombosis,comprise,HIT,False
+9,Thrombosis,comprise,vascular complications,False
+10,prevalence,varies,HIT,False
+11,prevalence,varies,subgroups,False
+12,prevalence,varies,incidence,False
+13,prevalence,varies,surgical,False
+14,prevalence,varies,medical populations,False
+15,HIT,acknowledged,predilection,False
+16,HIT,acknowledged,thrombosis,False
+17,HIT,acknowledged,heparin,False
+18,thrombosis,acknowledged,predilection,False
+19,thrombosis,acknowledged,thrombosis,False
+20,thrombosis,acknowledged,heparin,False
+21,thrombosis,suspected,heparin,False
+22,thrombosis,occurs,heparin,False
+23,delay,result,outcomes,False
+24,treatment,mandates,HIT,False
+25,treatment,mandates,cessation,False
+26,treatment,mandates,heparin,False
+27,treatment,mandates,antithrombotic therapy,False
+28,treatment,mandates,thrombin inhibitor,False
+29,heparin,remains,medications,False
+30,heparin,remains,potential,False
+31,heparin,remains,HIT,False
+32,heparin,remains,heparin,False
+33,heparin,practiced,medications,False
+34,heparin,practiced,potential,False
+35,heparin,practiced,HIT,False
+36,heparin,practiced,heparin,False
+37,heparin,practiced,platelet counts,False
+38,vigilance,practiced,medications,False
+39,vigilance,practiced,potential,False
+40,vigilance,practiced,HIT,False
+41,vigilance,practiced,heparin,False
+42,vigilance,practiced,platelet counts,False
+43,heparin,practiced,medications,False
+44,heparin,practiced,potential,False
+45,heparin,practiced,HIT,False
+46,heparin,practiced,heparin,False
+47,heparin,practiced,platelet counts,False

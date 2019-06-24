@@ -1,3 +1,3 @@
 ,Subject,Action,Object,Negation
-0,NSAIDs,involved,reactions,False
-1,Celecoxib,is,drug,False
+0,Acetaminophen,used,analgesic-antipyretic/anti-inflammatory drugs,False
+1,non-steroidal anti-inflammatory drugs,involved,reactions,False

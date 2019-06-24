@@ -1,2 +1,7 @@
 ,Subject,Action,Object,Negation
-0,objective,determine,risk,False
+0,objective,was,study,False
+1,objective,was,risk,False
+2,objective,was,lifetime,False
+3,objective,was,patients,False
+4,objective,was,methamphetamine,False
+5,association,studied,psychiatric co-morbidity,False

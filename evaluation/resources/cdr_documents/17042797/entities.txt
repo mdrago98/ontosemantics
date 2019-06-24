@@ -1,32 +1,58 @@
 status epilepticus
 rat
-granule cell
+dentate granule cell
 neurogenesis
+increases
 neurons
-hippocampal formation
-granule
-cells
+ectopically
+hilar region
+hippocampal
+formation
+ectopic hilar granule cells
+spontaneous
 seizures
 status epilepticus
-granule
-cells
-pilocarpine
-status epilepticus
+population
+quantified
+influence
+epileptogenesis
+quantify
+population
+ectopic
+stereology
+pilocarpine-induced status epilepticus
+hilar
 neurons
+immunoreactive
 Prox-1
-granule
-cell
-granule cell
+granule-cell-specific marker
+optical fractionator method
+size
+hilar
+ectopic
 status epilepticus
-behavioral
-seizures
-granule
-cells
-behavioral
-seizures
-granule cell
-axis
-granule
-cells
+stable
+size
+population
+correlated
+frequency
+behavioral seizures
+animals
+ectopic
+granule cells
+hilus
+behavioral seizures
+hilar
+ectopic
+systematically
+septotemporal axis
+associated with
+increase
+volume
+hilus
+results
+potential
+ectopic hilar granule cells
 pilocarpine
+model
 temporal lobe epilepsy

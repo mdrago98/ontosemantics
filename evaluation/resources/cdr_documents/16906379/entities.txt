@@ -5,13 +5,25 @@ fever
 myalgias
 polyneuropathy
 testicular pain
-C-reactive protein
+elevated C-reactive protein
 CRP
-myeloperoxidase- nor proteinase-3-antineutrophil cytoplasmic antibody
-met
+proteinase-3-antineutrophil
+cytoplasmic antibody
+positive
+manifestations
+American College of Rheumatology 1990
+classification
 polyarteritis nodosa
+Stopping
 minocycline
+amelioration
+symptoms
+normalization
 CRP
-minocycline
-vasculitis
+level
+minocycline-induced vasculitis
+criteria
+Differential diagnosis
+drug-induced disease
+patients
 classical polyarteritis nodosa

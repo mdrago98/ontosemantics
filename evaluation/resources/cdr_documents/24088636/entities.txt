@@ -1,30 +1,47 @@
-antimicrobials
+systemic antimicrobials
 ocular
 adverse effects
+multidrug therapy
+drug
 ocular
 adverse effect
-loss of vision
-linezolid
+progressive
+loss of
+associated with
+linezolid therapy
+male
 patient
-tuberculous
+treatment
+second-line
+anti-tuberculous drugs
 linezolid
 ethambutol
-extensively drug-resistant tuberculosis
+drug-resistant tuberculosis
 XDR-TB
+painless progressive
 loss of vision
 eyes
 Color vision
+defective
 fundus
+examination
 optic disc edema
 eyes
-Ethambutol
-toxic optic neuropathy
-ethambutol
-withdrawn
+Ethambutol-induced toxic optic neuropathy
+suspected
+tablet ethambutol
+Deterioration
 vision
 withdrawal
 ethambutol
+Discontinuation
 linezolid
+improvement
 vision
+report
+monitoring
 visual function
+patients
+long-term
 linezolid
+treatment

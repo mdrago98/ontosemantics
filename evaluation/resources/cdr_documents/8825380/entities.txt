@@ -1,7 +1,104 @@
+recombinant
 hGH
-renal
-puromycin aminonucleoside
+exacerbates
+renal functional
+structural injury
+chronic puromycin aminonucleoside
 PAN
-nephropathy
+experimental model
 glomerular disease
+recombinant
 human
+IGF-I
+treatment
+growth failure
+rats
+chronic PAN nephropathy
+glomerulopathy
+induced
+injections
+PAN
+Experimental animals
+rhIGF-I
+control
+rats
+vehicle
+rhIGF-I
+weight gain
+altering
+hematocrit
+blood pressure
+rats
+renal disease
+Urinary protein
+rhIGF-I
+treatment
+rats
+chronic PAN nephropathy
+inulin
+clearance
+higher
+rhIGF-I-treated rats
+body weight
+untreated
+PAN nephropathy
+animals
+improvement
+GFR
+associated with
+enhanced
+glomerular hypertrophy
+increased
+segmental glomerulosclerosis
+tubulointerstitial injury
+renal cortical malondialdehyde content
+rats
+PAN nephropathy
+administration
+rhIGF-I
+increased
+IGF-I
+GH receptor
+expression
+altering
+steady state
+IGF-I receptor
+mRNA
+rats
+intact
+kidneys
+rhIGF-I
+administration
+weight gain
+blood pressure
+proteinuria
+GFR
+glomerular planar area
+renal cortical malondialdehyde content
+glomerular
+tubulointerstitial damage
+untreated
+animals
+rhIGF-I
+treatment
+reduced
+steady state
+renal
+IGF-I
+mRNA
+gene expression
+IGF-I
+GH receptors
+administration
+rhIGF-I
+improves
+growth
+GFR
+rats
+chronic PAN nephropathy
+rhGH
+long-term
+rhIGF-I
+renal functional
+structural injury
+disease model

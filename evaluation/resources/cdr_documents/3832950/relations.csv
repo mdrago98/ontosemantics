@@ -1,11 +1,17 @@
 ,Subject,Action,Object,Negation
-0,patients,treated,clonazepam,False
-1,Disappearance,recognized,%,False
-2,Disappearance,recognized,%,False
-3,Seizures,disappeared,%,False
-4,Seizures,disappeared,generalized seizures,False
-5,Seizures,disappeared,%,False
-6,Improvement,noticed,%,False
-7,dosages,were,0.086,False
-8,difference,was,0.005,False
-9,incidence,was,%,False
+0,patients,treated with,epilepsy,False
+1,patients,treated with,infantile spasms,False
+2,patients,treated with,clonazepam,False
+3,month,treated with,epilepsy,False
+4,month,treated with,infantile spasms,False
+5,month,treated with,clonazepam,False
+6,Disappearance,recognized,seizures,False
+7,Disappearance,recognized,EEG,False
+8,Disappearance,recognized,disappearance,False
+9,Disappearance,recognized,seizures,False
+10,Seizures,disappeared,patients,False
+11,Seizures,disappeared,generalized seizures,False
+12,Seizures,disappeared,seizures,False
+13,Improvement,noticed,EEG,False
+14,Improvement,noticed,paroxysms,False
+15,Improvement,noticed,focal paroxysms,False

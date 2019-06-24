@@ -1,28 +1,94 @@
-cancer
-cardiac
+efficacious
+cancer treatments
+significant
+cardiac morbidity
+biomarkers
+functional
+indices
+early
+monitoring
+intervention
+study
 rat
+model
+progressive
 doxorubicin
 cardiomyopathy
-cardiac
-Wistar rats
+multiple
+cardiac magnetic resonance imaging
+MRI
+comprehensive
+characterization
+timecourse
+serological
+pathological
+functional
+toxicity
+Hannover Wistar rats
+dosed
 DOX
+weekly
+weeks
+week
+off-dosing
+recovery
+period
+Electron microscopy
 myocardium
-degeneration
+subcellular degeneration
 mitochondrial
-cardiomyocyte
-degeneration
-hypertrophy
-cytomegaly
-fibrosis
-cardiac
-left ventricular ejection
-cardiac
-reaching
+changes
+single dose
+Histopathological analysis
+progressive
+cardiomyocyte degeneration
+extensive
+vacuolation
+doses
+replacement fibrosis
+quantified
+Sirius red staining
+off-dosing
+Functional
+assessed
+cardiac MRI
+left ventricular ejection fraction
+LVEF
+cardiac output
+E/A ratio
+statistical significance
+doses
+clinical
+LV dysfunction
+weeks
+increases
+myocardial
+serological
 cardiac troponin I
 cTnI
+doses
+LVEF
+decline
 Troponin I
-gadolinium
+correlated
+delayed
+peak gadolinium contrast
+histopathological grading
 diastolic dysfunction
-cardiomyocyte
-degeneration
+subcellular
+cardiomyocyte degeneration
+marker
+progressive
+functional
+decline
+histopathological
+manifestations
+Myocardial contrast enhancement
+elevations
 cTnI
+indices
+clinical
+LV dysfunction
+evaluation
+predictive
+biomarkers

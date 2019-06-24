@@ -1,17 +1,40 @@
 ,Subject,Action,Object,Negation
-0,Vasoactive intestinal polypeptide,is,vasodilator,False
-1,that,have,properties,False
-2,VIP,decreased,35,False
-3,VIP,decreased,31,False
-4,patients,receiving,heart,False
-5,content,compared,papillary muscles,False
-6,patients,receiving,mitral valve,False
-7,concentration,found,hearts,False
-8,patient,receiving,transplant,False
-9,patient,receiving,prostheses,False
-10,patients,undergoing,transplantation,False
-11,patients,had,ejection,False
-12,%,had,VIP,False
-13,patients,receiving,transplant,False
-14,catecholamines,determined,subjects,False
-15,correlation,was,noted.(ABSTRACT,False
+0,Myocardial levels,assayed,VIP,False
+1,Myocardial levels,assayed,development,False
+2,Myocardial levels,assayed,heart failure,False
+3,Myocardial levels,assayed,models,False
+4,cobalt cardiomyopathy,induced,dogs,False
+5,VIP,induced,dogs,False
+6,VIP,decreased,dogs,False
+7,VIP,decreased,doxorubicin-induced heart failure,False
+8,content,compared,left ventricular muscle,False
+9,content,compared,hearts,False
+10,content,compared,patients,False
+11,content,compared,heart transplant,False
+12,content,compared,papillary muscles,False
+13,content,compared,patients,False
+14,content,compared,rheumatic disease,False
+15,content,compared,myxomatous degeneration,False
+16,content,compared,mitral valve prostheses,False
+17,concentration,found,hearts,False
+18,concentration,found,patients,False
+19,concentration,found,coronary disease,False
+20,concentration,found,transplant,False
+21,patient,found,hearts,False
+22,patient,found,patients,False
+23,patient,found,coronary disease,False
+24,patient,found,transplant,False
+25,patients,had,transplantation,False
+26,patients,had,ejection fraction,False
+27,hearts,had,coronary artery disease,False
+28,hearts,had,group,False
+29,hearts,had,VIP,False
+30,average ejection fraction,had,coronary artery disease,False
+31,average ejection fraction,had,group,False
+32,average ejection fraction,had,VIP,False
+33,Myocardial catecholamines,determined,subjects,False
+34,Myocardial catecholamines,determined,tissue,False
+35,Myocardial catecholamines,determined,VIP,False
+36,correlation,determined,subjects,False
+37,correlation,determined,tissue,False
+38,correlation,determined,VIP,False

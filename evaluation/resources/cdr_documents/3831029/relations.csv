@@ -1,7 +1,20 @@
 ,Subject,Action,Object,Negation
-0,efficacy,assessed,dog,False
-1,output,reduced,%,False
-2,output,reduced,%,False
-3,rate,reduced,%,False
-4,rate,reduced,%,False
-5,results,warrant,trials,False
+0,efficacy,assessed,denopamine,False
+1,efficacy,assessed,cardiac failure,False
+2,efficacy,assessed,dog,False
+3,SD,reduced,left ventricular pressure,False
+4,SD,reduced,controls,False
+5,SD,reduced,denopamine,False
+6,cardiac output,reduced,left ventricular pressure,False
+7,cardiac output,reduced,controls,False
+8,cardiac output,reduced,denopamine,False
+9,restoration,attained,micrograms,False
+10,restoration,attained,cardiac performance,False
+11,restoration,attained,increase,False
+12,restoration,attained,heart rate,False
+13,arrhythmias,induced,doses,False
+14,arrhythmias,induced,denopamine,False
+15,results,warrant,clinical trials,False
+16,results,warrant,denopamine,False
+17,results,warrant,treatment,False
+18,results,warrant,cardiac failure,False

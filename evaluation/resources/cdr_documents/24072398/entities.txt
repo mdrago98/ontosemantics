@@ -1,32 +1,77 @@
 Methamphetamine
 METH
+disruption
+monoaminergic system
 METH
 abuse
+negative
+emotional states
 depressive symptoms
 drug withdrawal
+acute
 METH
-behaviour
+depressive phenotype
+persistent
+monoaminergic deficits
+assessed
+depressive-like behaviour
 mice
+early
+long-term
 periods
 METH
+dose
 METH
-memory
+motor function
+procedural memory
 mice
+assessed
 swimming
-water
+speed
+escape latency
+cued
+version
+water maze
+task
 METH
+increased
+immobility time
+tail suspension test
+days
+post-administration
+depressive-like profile
+induced
 METH
-neurotransmission
+depletion
+frontostriatal dopaminergic
+serotonergic neurotransmission
+reduction
+levels
 dopamine
+DOPAC
 HVA
 tyrosine hydroxylase
 serotonin
+days
+post-administration
+neurochemical feature
 depression
+astroglial
+dysfunction
 cortex
-astrocytic
-protein
+striatal
+astrocytic protein marker
 glial fibrillary acidic protein
+transiently
+increased
+days
+findings
+high dose
 METH
-behaviour
+depressive-like behaviour
 mice
-homoeostasis
+associated with
+persistent
+disruption
+frontostriatal dopaminergic
+serotonergic homoeostasis

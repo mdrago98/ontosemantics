@@ -1,8 +1,13 @@
+influence
 d-ribose
-adriamycin
-myocardiopathy
+adriamycin-induced myocardiopathy
 rats
 Adriamycin
-cardiac
+cumulative dose
+evoked
+cardiac toxicity
 D-ribose
+multiple
+doses
 ADR
+cardiotoxicity

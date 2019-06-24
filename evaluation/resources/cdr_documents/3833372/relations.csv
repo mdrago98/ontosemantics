@@ -1,7 +1,15 @@
 ,Subject,Action,Object,Negation
-0,combination,containing,mg,False
-1,combination,containing,mg,False
-2,blood pressure,declined,month,False
-3,Age,have,influence,True
-4,effect,was,patients,False
-5,patients,experienced,total,False
+0,surveillance study,conducted,safety,False
+1,surveillance study,conducted,timolol,False
+2,surveillance study,conducted,hydrochlorothiazide,False
+3,surveillance study,conducted,month,False
+4,surveillance study,conducted,patients,False
+5,Data,collected,patients,False
+6,Data,collected,physicians,False
+7,Age,appeared,influence,True
+8,Age,appeared,decrease,False
+9,Age,appeared,blood pressure,False
+10,patients,experienced,adverse events,False
+11,patients,experienced,fatigue,False
+12,Treatment,discontinued,patients,False
+13,Treatment,discontinued,adverse events,False

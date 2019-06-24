@@ -1,8 +1,4 @@
 ,Subject,Action,Object,Negation
-0,Sumatriptan succinate,is,drug,False
-1,that,act,arteries,False
-2,drug,act,arteries,False
-3,responses,occur,circulations,False
-4,Cases,published,coronary vasospasm,False
-5,We,report,development,False
-6,patients,treated,sumatriptan,False
+0,responses,demonstrated,cranial circulation,False
+1,responses,demonstrated,coronary circulations,False
+2,Cases,published,coronary vasospasm,False

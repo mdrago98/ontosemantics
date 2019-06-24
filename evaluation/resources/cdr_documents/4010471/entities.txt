@@ -1,21 +1,41 @@
+controversy
+years
+physiological
+relevance
 nicotinic receptor
-binding
+alpha-bungarotoxin binding
 mice
-nicotine
-seizures
+F2
+backcross
+genetic design
+relationship
+nicotine-induced seizures
 alpha-bungarotoxin nicotinic receptor
+concentration
 Mice
-convulsant effects
+sensitive
+convulsant
+effects
 nicotine
-binding
+alpha-bungarotoxin
 hippocampus
 seizure
 mice
-binding
+binding sites
 seizure
+sensitive
+resistant
 mice
+affected
+treatment
 dithiothreitol
 trypsin
+heat
 seizure
+sensitive
+insensitive
+animals
 hippocampal
-binding
+nicotinic receptor
+concentration
+alpha-bungarotoxin binding

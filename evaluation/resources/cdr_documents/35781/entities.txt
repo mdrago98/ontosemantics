@@ -1,36 +1,71 @@
+effect
 clonidine
+naphazoline
+xylometazoline
 analgesia
+induced
 morphine
 codeine
 fentanyl
 pentazocine
+cataleptic effect
 morphine
+codine
 fentanyl
 rats
+biochemical assays
+influence
+analgesics
 brain
+concentration
+turnover
 noradrenaline
 NA
-NA receptors
-analgesic
+drugs
+central NA receptors
+analgesic ED50
+antinociceptive agents
+enhanced
 catalepsy
+induced
 morphine
 fentanyl
-Codeine
-catalepsy
+Codeine catalepsy
+increased
 clonidine
+decreased
+naphazoline
+xylometazoline
 brain
+concentration
 NA
 morphine
 fentanyl
+doses
 codeine
+enhanced
 Pentazocine
+dose-dependently
+decreased
 brain
+level
 NA
+rate
 NA
+turnover
+analgesics
+higher dose
 fentanyl
+disappearance
 NA
 brain
+diminished
+results
+light of
+literature
 rats
-brain
-NA
+brain NA
+function
 monoamines
+behavioural activity
+analgesics

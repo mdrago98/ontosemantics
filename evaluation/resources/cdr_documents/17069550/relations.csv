@@ -1,4 +1,4 @@
 ,Subject,Action,Object,Negation
-0,studies,reported,abnormalities,False
-1,purpose,assess,use,False
-2,purpose,assess,treatment,False
+0,Post-mortem studies,reported,abnormalities,False
+1,Post-mortem studies,reported,cholinergic system,False
+2,Post-mortem studies,reported,autism,False

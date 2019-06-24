@@ -1,8 +1,19 @@
 ,Subject,Action,Object,Negation
-0,effect,examined,isoproterenol,False
-1,level,increased,serum,False
-2,level,increased,heart,False
-3,decrease,observed,activity,False
-4,pretreatment,ameliorate,effect,False
-5,extract,ameliorate,effect,False
-6,extract,retained,activities,False
+0,Cardioprotective effect,examined,ethanolic extract,False
+1,Cardioprotective effect,examined,Terminalia chebula fruits,False
+2,Cardioprotective effect,examined,isoproterenol,False
+3,Cardioprotective effect,examined,myocardial damage,False
+4,Cardioprotective effect,examined,rats,False
+5,level,increased,isoproterenol,False
+6,level,increased,lipid peroxides,False
+7,level,increased,serum,False
+8,decrease,observed,activity,False
+9,decrease,observed,marker,False
+10,decrease,observed,increase,False
+11,decrease,observed,activity,False
+12,decrease,observed,serum,False
+13,Histopathological examination,carried,myocardial necrosis,False
+14,pretreatment,found,effect,False
+15,pretreatment,found,isoproterenol,False
+16,pretreatment,found,activities,False
+17,pretreatment,found,enzymes,False

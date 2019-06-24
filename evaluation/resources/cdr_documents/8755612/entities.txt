@@ -1,23 +1,79 @@
+Chronic administration
 estrogen
+Fischer 344
+F344
 rat
+induces
 growth
-pituitary tumors
+hemorrhagic pituitary tumors
+weeks
 diethylstilbestrol
 DES
+treatment
+female
+F344
 rat
+pituitaries
+mean +/-
+untreated
 rats
+hemorrhagic
 DES
+treatment
+no significant
 growth
+treated
+females
+untreated
+females
+morphological
+changes
+Brown Norway
+BN
 rat
-pituitary
-growth
+pituitaries
+F1 hybrid
+F344
+BN
+significant
+pituitary growth
+weeks
 DES
+treatment
+average mass
+untreated
 rats
-tumors
-hemoglobin
+F1 hybrid tumors
+hemorrhagic
+hemoglobin content
+outward
+appearance
+identical
+BN
 Expression
 growth
-DES
-pituitary
-growth
-growth
+morphological
+changes
+multiple genes
+DES-induced
+pituitary growth
+quantitative
+additive inheritance
+hemorrhagic
+phenotype
+recessive
+epistatic inheritance
+pituitaries
+hemorrhagic
+phenotype
+pituitaries
+F344
+hemorrhagic
+hemorrhagic
+phenotype
+extensive growth
+hemorrhagic
+pituitaries
+massive
+genes
+phenotypes

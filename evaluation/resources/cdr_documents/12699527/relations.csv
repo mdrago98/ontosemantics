@@ -1,14 +1,10 @@
 ,Subject,Action,Object,Negation
-0,which,cause,membrane,False
-1,We,describe,woman,False
-2,who,developed,muscle spasm,False
-3,who,developed,ventilation,False
-4,woman,following,injection,False
+0,Myotonia congenita,caused,defect,False
+1,Myotonia congenita,caused,chloride channel function,False
+2,Myotonia congenita,caused,membrane depolarisation,False
+3,muscle spasms,disappeared,problems,False
+4,surgery,disappeared,problems,False
 5,surgery,proceeded,problems,False
-6,a previously healthy 32-year-old woman who developed a life-threatening muscle spasm and secondary ventilation difficulties following a preoperative injection of suxamethonium,reported,symptoms,False
-7,symptoms,suggesting,condition,False
-8,Myotonia,found,examination,False
-9,Myotonia,found,EMG,False
-10,We,give,overview,False
-11,overview,including,malignant hyperthermia,False
-12,overview,including,considerations,False
+6,Myotonia,found,clinical examination,False
+7,patient,were,diagnosis,False
+8,patient,were,complication,False

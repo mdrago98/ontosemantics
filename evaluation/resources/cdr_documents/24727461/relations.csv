@@ -1,10 +1,34 @@
 ,Subject,Action,Object,Negation
 0,Oxidative stress,involved,processes,False
-1,processes,including,cancer,False
-2,Doxorubicin,causes,cardiotoxicity,False
-3,toxicity,ameliorated,antioxidant,False
-4,rats,bearing,breast tumors,False
-5,rats,divided,groups,False
-6,Hydroxytyrosol,improved,disturbances,False
-7,disturbances,reducing,percentage,False
-8,hydroxytyrosol,improve,mitochondrial electron transport chain,False
+1,Oxidative stress,involved,cancer,False
+2,Oxidative stress,involved,therapeutic effect,False
+3,Oxidative stress,involved,drugs,False
+4,Oxidative stress,involved,doxorubicin,False
+5,Doxorubicin,causes,cardiotoxicity,False
+6,Doxorubicin,causes,increases,False
+7,Doxorubicin,causes,oxidative stress,False
+8,chronic cardiac toxicity,investigate,antioxidant hydroxytyrosol,False
+9,chronic cardiac toxicity,investigate,rats,False
+10,chronic cardiac toxicity,investigate,breast cancer,False
+11,chronic cardiac toxicity,ameliorated,antioxidant hydroxytyrosol,False
+12,chronic cardiac toxicity,ameliorated,rats,False
+13,chronic cardiac toxicity,ameliorated,breast cancer,False
+14,rats,divided,breast tumors,False
+15,rats,divided,groups,False
+16,control,divided,breast tumors,False
+17,control,divided,groups,False
+18,Cardiac disturbances,analyzed,level,False
+19,Hydroxytyrosol,improved,cardiac disturbances,False
+20,Hydroxytyrosol,improved,doxorubicin,False
+21,Hydroxytyrosol,improved,mitochondria,False
+22,hydroxytyrosol,suggest,mitochondrial electron transport chain,False
+23,hydroxytyrosol,improve,mitochondrial electron transport chain,False
+24,study,demonstrates,rat,False
+25,study,demonstrates,doxorubicin,False
+26,study,demonstrates,oxidative damage,False
+27,hydroxytyrosol,demonstrates,rat,False
+28,hydroxytyrosol,demonstrates,doxorubicin,False
+29,hydroxytyrosol,demonstrates,oxidative damage,False
+30,hydroxytyrosol,protect,rat,False
+31,hydroxytyrosol,protect,doxorubicin,False
+32,hydroxytyrosol,protect,oxidative damage,False

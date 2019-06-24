@@ -1,5 +1,7 @@
 ,Subject,Action,Object,Negation
-0,infusion,be,toxicity,False
-1,folinic acid,be,toxicity,False
-2,order,improve,schedule,False
-3,we,initiated,study,False
+0,infusion,shown,5-fluorouracil,False
+1,infusion,shown,regimens,False
+2,infusion,shown,advanced gastric cancer,False
+3,infusion,shown,toxicity,False
+4,MMC,initiated,schedule,False
+5,MMC,initiated,phase II study,False

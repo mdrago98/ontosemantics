@@ -1,24 +1,68 @@
+compared
+effects of
+single doses
+atenolol
+cardioselective
+propranolol
+nonselective
+placebo
+isoproterenol-induced tachycardia
+experiments
+normal subjects
+Maximal
+exercise
+reduced
+placebo
 atenolol
 propranolol
-isoproterenol
-heart
-atenolol
-propranolol
-isoproterenol
+drugs
+effects
+isoproterenol tachycardia
 atropine
-Isoproterenol
-heart
+Isoproterenol sensitivity
+intravenous dose
+increased
+heart rate
+CD25
+increased
+placebo
 propranolol
 atenolol
+effects of
+significant
 atropine
+CD25
+unchanged
+placebo
 atenolol
+reduced
 propranolol
 atenolol
 propranolol
+sensitivity
+apparent
+Ka
+unchanged
 atropine
-beta 1-receptor activation
+data
+consistent with
+hypothesis
+exercise-induced tachycardia
+beta 1-receptor
+activation
+blocked
+cardioselective
+nonselective drugs
 isoproterenol
-beta 1- and beta 2-receptors
+activates
+beta
+beta 2-receptors
+cardioselective blockade
+beta 2-component
+blocked
+nonselective drug
 beta 2-receptors
 human
 heart
+physiologic
+pathologic

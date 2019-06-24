@@ -1,14 +1,39 @@
 ,Subject,Action,Object,Negation
-0,model,developed,rats,False
-1,Sprague-Dawley rats,received,injections,False
-2,Sprague-Dawley rats,received,days,False
-3,Sprague-Dawley rats,received,doses,False
-4,series,repeated,day,False
-5,animals,sacrificed,days,False
-6,The animals,developed,nephrotic syndrome,False
-7,The animals,developed,renal failure,False
-8,glomeruli,showed,changes,False
-9,studies,revealed,lack,False
-10,administration,enhances,toxicity,False
-11,administration,enhances,glomerulus,False
-12,rats,resulting,end-stage renal disease,False
+0,experimental model,developed,focal segmental glomerular sclerosis,False
+1,experimental model,developed,rats,False
+2,experimental model,developed,administration,False
+3,experimental model,developed,puromycin-aminonucleoside,False
+4,Sprague-Dawley rats,received,injections,False
+5,Sprague-Dawley rats,received,AMNS,False
+6,Sprague-Dawley rats,received,days,False
+7,weeks,received,injections,False
+8,weeks,received,AMNS,False
+9,weeks,received,days,False
+10,doses,received,injections,False
+11,doses,received,AMNS,False
+12,doses,received,days,False
+13,animals,sacrificed,days,False
+14,time-course curve,dropped,creatinine clearance,False
+15,time-course curve,dropped,control group,False
+16,AMNS,dropped,creatinine clearance,False
+17,AMNS,dropped,control group,False
+18,glomeruli,showed,FSGS,False
+19,ultrastructural studies,revealed,initial stage,False
+20,ultrastructural studies,revealed,particles,False
+21,ultrastructural studies,revealed,ruthenium red,False
+22,ultrastructural studies,revealed,lamina rara externa,False
+23,ultrastructural studies,revealed,cytoplasm,False
+24,administration,suggested,PS,False
+25,administration,suggested,toxicity,False
+26,administration,suggested,AMNS,False
+27,administration,suggested,glomerulus,False
+28,administration,suggested,FSGS,False
+29,administration,suggested,rats,False
+30,administration,suggested,end-stage renal disease,False
+31,administration,enhances,PS,False
+32,administration,enhances,toxicity,False
+33,administration,enhances,AMNS,False
+34,administration,enhances,glomerulus,False
+35,administration,enhances,FSGS,False
+36,administration,enhances,rats,False
+37,administration,enhances,end-stage renal disease,False

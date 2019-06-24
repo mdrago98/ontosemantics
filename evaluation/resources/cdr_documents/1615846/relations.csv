@@ -1,15 +1,35 @@
 ,Subject,Action,Object,Negation
-0,aim,assess,safety,False
-1,aim,assess,gemfibrozil,False
-2,aim,assess,efficacy,False
-3,%,had,atherosclerotic vascular disease,False
-4,targets,reached,low-density lipoprotein,True
-5,targets,reached,cholesterol,True
-6,targets,reached,diet,True
-7,visits,scheduled,average,False
-8,visits,scheduled,2-drug,False
-9,cholesterol,decreased,255,False
-10,levels,decreased,LDL cholesterol,False
-11,ratio,decreased,7.1,False
-12,Myositis,occurred,%,False
-13,patients,had,rhabdomyolysis,False
+0,observational study,was,retrospective,False
+1,observational study,was,safety,False
+2,observational study,was,gemfibrozil-lovastatin treatment,False
+3,observational study,was,patients,False
+4,observational study,was,primary mixed hyperlipidemia,False
+5,observational study,was,atherosclerotic vascular disease,False
+6,cholesterol,reached,diet,True
+7,cholesterol,given,diet,False
+8,treatment,given,diet,False
+9,visits,scheduled,2-drug therapy,False
+10,visits,scheduled,weeks,False
+11,visits,scheduled,visits,False
+12,visits,scheduled,patient,False
+13,visits,scheduled,liver function tests,False
+14,batteries,scheduled,2-drug therapy,False
+15,batteries,scheduled,weeks,False
+16,batteries,scheduled,visits,False
+17,batteries,scheduled,patient,False
+18,batteries,scheduled,liver function tests,False
+19,batteries,measured,liver function tests,False
+20,mean total cholesterol,decreased,2-drug therapy,False
+21,mean total cholesterol,decreased,2-drug therapy,False
+22,triglyceride levels,decreased,2-drug therapy,False
+23,LDL cholesterol,decreased,2-drug therapy,False
+24,cholesterol/HDL cholesterol ratio,decreased,2-drug therapy,False
+25,Myositis,occurred,drug combination,False
+26,Myositis,occurred,patients,False
+27,Myositis,occurred,high creatine phosphokinase,False
+28,Myositis,occurred,rhabdomyolysis,False
+29,patients,occurred,drug combination,False
+30,patients,occurred,patients,False
+31,patients,occurred,high creatine phosphokinase,False
+32,patients,occurred,rhabdomyolysis,False
+33,patients,had,rhabdomyolysis,False

@@ -1,4 +1,15 @@
 ,Subject,Action,Object,Negation
-0,ointment,used,treatment,False
-1,We,report,rosaceiform,False
-2,We,report,complication,False
+0,ointment,used,anti-inflammatory treatment,False
+1,ointment,used,sensitive areas,False
+2,ointment,used,face,False
+3,ointment,used,steroid-aggravated rosacea,False
+4,observations,used,anti-inflammatory treatment,False
+5,observations,used,sensitive areas,False
+6,observations,used,face,False
+7,observations,used,steroid-aggravated rosacea,False
+8,treatment,used,anti-inflammatory treatment,False
+9,treatment,used,sensitive areas,False
+10,treatment,used,face,False
+11,treatment,used,steroid-aggravated rosacea,False
+12,observations,indicate,steroid-aggravated rosacea,False
+13,treatment,indicate,steroid-aggravated rosacea,False

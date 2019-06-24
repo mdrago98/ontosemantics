@@ -1,19 +1,51 @@
+pressor
+response
+intracisternal
+injection
 carbachol
+anesthetized
 rats
+analyzed
+response
+reduced
+intravenous
+injection
 guanethidine
+hexamethonium
+phentolamine
+potentiated
+i.v.
 desmethylimipramine
 propranolol
+inhibited
 enlargement
 pulse pressure
+tachycardia
 carbachol
+pressor
 carbachol
+blocked
+i.c.
 atropine
+hexamethonium
+reduced
+i.c.
 chlorpromazine
+potentiated
+i.c.
 desmethylimipramine
+pressor
 carbachol
-cervical
-nerves
+unchanged
+sectioning
+bilateral
+cervical vagal nerves
+sectioning
 spinal cord
+pressor
+response
 carbachol
+ortral
+peripheral adrenergic mechanisms
 sympathetic trunk
 pathway

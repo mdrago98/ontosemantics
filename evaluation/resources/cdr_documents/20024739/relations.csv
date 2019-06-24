@@ -1,16 +1,28 @@
 ,Subject,Action,Object,Negation
-0,We,evaluated,association,False
-1,study,included,women,False
-2,who,recruited,1993,False
-3,who,recruited,US,False
-4,participants,had,examination,False
-5,models,used,analysis,False
-6,models,used,analysis,False
-7,There,was,association,True
-8,association,reach,significance,True
-9,association,was,p<0.001,False
-10,Depression,had,effect,False
-11,Depression,had,time,False
-12,consumption,has,association,False
-13,depression,associated,HIV disease progression,False
-14,findings,have,implications,False
+0,study,included,women,False
+1,study,included,HIV,False
+2,study,included,US,False
+3,participants,had,physical examination,False
+4,participants,had,CD4+T-cell counts determination,False
+5,participants,had,depression,False
+6,participants,had,self-report Center,False
+7,participants,had,Epidemiological Studies-Depression Scale,False
+8,participants,had,enrollment,False
+9,Multilevel random coefficient ordinal models,used,joint responses,False
+10,Multilevel random coefficient ordinal models,used,analysis,False
+11,participants,reach,alcohol,True
+12,participants,reach,statistical significance,True
+13,association,reach,alcohol,True
+14,association,reach,statistical significance,True
+15,Depression,had,CD4+ T-cell,False
+16,Depression,had,ART,False
+17,findings,suggest,association,False
+18,findings,suggest,depression,False
+19,alcohol consumption,suggest,association,False
+20,alcohol consumption,suggest,depression,False
+21,alcohol consumption,has,association,False
+22,alcohol consumption,has,depression,False
+23,findings,have,provision,False
+24,findings,have,health,False
+25,findings,have,women,False
+26,findings,have,HIV,False

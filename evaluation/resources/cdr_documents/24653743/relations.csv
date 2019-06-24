@@ -1,9 +1,34 @@
 ,Subject,Action,Object,Negation
-0,male,received,pilsicainide,False
-1,sodium channel blocker,convert,paroxysmal atrial fibrillation,False
-2,patient,developed,sudden cardiac death,False
-3,electrocardiogram,revealed,torsade de pointes,False
-4,drug,absorbed,gastrointestinal tract,False
-5,most,excreted,kidney,False
-6,which,produce,torsades de pointes,False
-7,drugs,including,pilsicainide,False
+0,male,received,oral pilsicainide,False
+1,male,received,kinetics,False
+2,male,received,atrial fibrillation,False
+3,male,received,sinus rhythm,False
+4,male,received,sudden cardiac death,False
+5,patient,received,oral pilsicainide,False
+6,patient,received,kinetics,False
+7,patient,received,atrial fibrillation,False
+8,patient,received,sinus rhythm,False
+9,patient,received,sudden cardiac death,False
+10,patient,developed,sudden cardiac death,False
+11,Holter electrocardiogram,revealed,torsade de pointes,False
+12,Holter electrocardiogram,revealed,QT intervals,False
+13,drug,absorbed,gastrointestinal tract,False
+14,drug,absorbed,kidney,False
+15,dose,was,pilsicainide,False
+16,renal function,been,pilsicainide,False
+17,renal function,been,pilsicainide,False
+18,renal function,been,torsades de pointes,False
+19,renal function,been,octogenarian,False
+20,dose,been,pilsicainide,False
+21,dose,been,pilsicainide,False
+22,dose,been,torsades de pointes,False
+23,dose,been,octogenarian,False
+24,concentration,been,pilsicainide,False
+25,concentration,been,pilsicainide,False
+26,concentration,been,torsades de pointes,False
+27,concentration,been,octogenarian,False
+28,oral administration,taken,class IC drugs,False
+29,oral administration,taken,pilsicainide,False
+30,oral administration,taken,atrial fibrillation,False
+31,oral administration,taken,drugs,False
+32,oral administration,taken,octogenarians,False

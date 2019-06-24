@@ -1,2 +1,10 @@
 ,Subject,Action,Object,Negation
-0,purpose,explore,function,False
+0,cystitis,is,study,False
+1,cystitis,is,function,False
+2,cystitis,is,P2X3,False
+3,cystitis,is,cyclophosphamide,False
+4,cystitis,is,rats,False
+5,cystitis,explore,function,False
+6,cystitis,explore,P2X3,False
+7,cystitis,explore,cyclophosphamide,False
+8,cystitis,explore,rats,False

@@ -1,10 +1,20 @@
-oral
-penicillin
-anaphylaxis
+case
+oral penicillin anaphylaxis
+terminology
+occurrence
+clinical manifestations
 pathogenesis
+prevention
+treatment
 anaphylaxis
-Emergency
+reviewed
+Emergency physicians
 oral
-penicillin
-anaphylaxis
+prevent
+prescribing
 antibiotic
+judiciously
+knowledgeably
+medical therapy
+life-threatening
+reaction

@@ -1,7 +1,25 @@
 ,Subject,Action,Object,Negation
-0,patients,presenting,chest pain,False
+0,patients,admitted,emergency departments,False
 1,patients,admitted,hours,False
-2,strategy,be,chest pain,False
-3,coronary vasospasm,account,some,False
-4,CTA,identify,subset,False
-5,CTA,identify,discharge,False
+2,patients,admitted,acute coronary syndrome,False
+3,patients,admitted,protocol,False
+4,patients,admitted,noninvasive testing,False
+5,patients,admitted,discharge,False
+6,cocaine-associated chest pain,admitted,emergency departments,False
+7,cocaine-associated chest pain,admitted,hours,False
+8,cocaine-associated chest pain,admitted,acute coronary syndrome,False
+9,cocaine-associated chest pain,admitted,protocol,False
+10,cocaine-associated chest pain,admitted,noninvasive testing,False
+11,cocaine-associated chest pain,admitted,discharge,False
+12,coronary computerized tomography angiography,shown,patients,False
+13,coronary computerized tomography angiography,shown,group,False
+14,coronary computerized tomography angiography,shown,patients,False
+15,coronary computerized tomography angiography,shown,low risk,False
+16,coronary computerized tomography angiography,shown,cardiac events,False
+17,coronary vasospasm,account,ischemia,False
+18,CTA,studied,patients,False
+19,CTA,studied,cocaine-associated chest pain,False
+20,CTA,studied,discharge,False
+21,CTA,identify,patients,False
+22,CTA,identify,cocaine-associated chest pain,False
+23,CTA,identify,discharge,False

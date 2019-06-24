@@ -1,4 +1,9 @@
 ,Subject,Action,Object,Negation
-0,acute hepatitis,induced,patient,False
-1,patient,tolerated,reverse transcriptase inhibitor,False
-2,Physicians,caring,patients,False
+0,case,presented,acute hepatitis,False
+1,case,presented,zidovudine,False
+2,case,presented,patient,False
+3,case,presented,AIDS,False
+4,patient,tolerated,alternative reverse transcriptase inhibitor,False
+5,Physicians,be,patients,False
+6,Physicians,be,AIDS,False
+7,Physicians,be,complication,False

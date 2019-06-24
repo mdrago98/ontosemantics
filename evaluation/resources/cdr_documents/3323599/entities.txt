@@ -1,16 +1,56 @@
-glomerular sclerosis
+experimental model
+focal segmental glomerular sclerosis
+FSGS
 rats
-puromycin
+administration
+puromycin-aminonucleoside
+AMNS
+protamine sulfate
+PS
+Male
 Sprague-Dawley rats
-body
-body
+uninephrectomized
+weeks
+daily
+injections
+subcutaneous
+AMNS
+intravenous PS
+doses
+days
+injections
+day
+intervals
+animals
+sacrificed
+days
 nephrotic syndrome
 renal failure
-creatinine
+time-course curve
+creatinine clearance
+significant
+control group
+AMNS
+PS
+saline
+injected
+glomeruli
+progressive
+FSGS
+ultrastructural studies
+initial stage
+particles
+perfused
 ruthenium red
 lamina rara externa
 epithelial cell
 cytoplasm
+administration
+PS
+toxicity
+AMNS
 glomerulus
+progressive
+FSGS
 rats
 end-stage renal disease

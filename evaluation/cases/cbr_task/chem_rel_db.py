@@ -1,25 +1,11 @@
-from itertools import repeat
-from multiprocessing.pool import ThreadPool
-from os import path, walk, scandir
+from os import path, scandir
 
 import plac
 from pandas import read_csv
 
-from cypher_engine.biolink_mapping import commit_sub_graph
 from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
-from cypher_engine.match import map_relations_with_ontology_terms
 from nlp_processor.extensions.svo import Relation
-from scripts.generate_knowledge import generate_doc_details, sort_terms, get_document_subgraph
-from src.bioengine import logger
-
-
-def map_abstracts(pmid, abstract, doc_relations, entities, authors, driver):
-    logger.info(f'mapping terms for {pmid}')
-    terms, alternate_term_dictionary, term_score = map_relations_with_ontology_terms(doc_relations)
-    detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmid, abstract, authors, entities, terms)
-    terms = sort_terms(terms, term_score)
-    sub_graph, associations = get_document_subgraph(doc_relations, terms, pmid, publication)
-    commit_sub_graph(driver, sub_graph, detail_sub_graph, associations, entity_sub_graph)
+from scripts.generate_knowledge import map_abstracts
 
 
 def main(in_dir):

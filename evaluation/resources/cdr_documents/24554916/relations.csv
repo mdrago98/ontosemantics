@@ -1,7 +1,17 @@
 ,Subject,Action,Object,Negation
-0,Poisoning,manifests,acute hepatitis,False
-1,which,need,liver,False
-2,We,present,case,False
-3,patient,presented,features,False
-4,poisoning,highlighting,fact,False
-5,cholestasis,be,feature,False
+0,Yellow phosphorus,known,pesticide pastes,False
+1,Yellow phosphorus,known,hepatotoxicity,False
+2,Poisoning,Poisoning,yellow phosphorus,False
+3,Poisoning,manifests,yellow phosphorus,False
+4,Poisoning,manifests,acute hepatitis,False
+5,Poisoning,manifests,liver transplantation,False
+6,cholestasis,present,case,False
+7,cholestasis,present,yellow phosphorus poisoning,False
+8,cholestasis,present,patient,False
+9,cholestasis,present,clinical features,False
+10,cholestasis,present,cholestasis,False
+11,cholestasis,present,yellow phosphorus hepatotoxicity,False
+12,cholestasis,presented,clinical features,False
+13,cholestasis,presented,cholestasis,False
+14,cholestasis,presented,yellow phosphorus hepatotoxicity,False
+15,cholestasis,highlighting,yellow phosphorus hepatotoxicity,False

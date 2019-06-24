@@ -1,4 +1,55 @@
 ,Subject,Action,Object,Negation
-0,assessment,allows,separation,False
-1,NSAIDs,produce,effects,False
-2,NSAIDs,produce,mechanisms,False
+0,assessment,wanted,central pain-related signal,False
+1,assessment,wanted,separation,False
+2,assessment,wanted,peripheral effects,False
+3,assessment,wanted,NSAIDs,False
+4,chemo-somatosensory evoked potential,wanted,central pain-related signal,False
+5,chemo-somatosensory evoked potential,wanted,separation,False
+6,chemo-somatosensory evoked potential,wanted,peripheral effects,False
+7,chemo-somatosensory evoked potential,wanted,NSAIDs,False
+8,negative mucosal potential,wanted,central pain-related signal,False
+9,negative mucosal potential,wanted,separation,False
+10,negative mucosal potential,wanted,peripheral effects,False
+11,negative mucosal potential,wanted,NSAIDs,False
+12,assessment,test,central pain-related signal,False
+13,assessment,test,separation,False
+14,assessment,test,peripheral effects,False
+15,assessment,test,NSAIDs,False
+16,chemo-somatosensory evoked potential,test,central pain-related signal,False
+17,chemo-somatosensory evoked potential,test,separation,False
+18,chemo-somatosensory evoked potential,test,peripheral effects,False
+19,chemo-somatosensory evoked potential,test,NSAIDs,False
+20,negative mucosal potential,test,central pain-related signal,False
+21,negative mucosal potential,test,separation,False
+22,negative mucosal potential,test,peripheral effects,False
+23,negative mucosal potential,test,NSAIDs,False
+24,assessment,allows,central pain-related signal,False
+25,assessment,allows,separation,False
+26,assessment,allows,peripheral effects,False
+27,assessment,allows,NSAIDs,False
+28,chemo-somatosensory evoked potential,allows,central pain-related signal,False
+29,chemo-somatosensory evoked potential,allows,separation,False
+30,chemo-somatosensory evoked potential,allows,peripheral effects,False
+31,chemo-somatosensory evoked potential,allows,NSAIDs,False
+32,negative mucosal potential,allows,central pain-related signal,False
+33,negative mucosal potential,allows,separation,False
+34,negative mucosal potential,allows,peripheral effects,False
+35,negative mucosal potential,allows,NSAIDs,False
+36,experimental conditions,created,effects,False
+37,experimental conditions,created,phasic,False
+38,experimental conditions,created,central,False
+39,NSAIDs,created,effects,False
+40,NSAIDs,created,phasic,False
+41,NSAIDs,created,central,False
+42,mechanisms,created,effects,False
+43,mechanisms,created,phasic,False
+44,mechanisms,created,central,False
+45,NSAIDs,observed,effects,False
+46,NSAIDs,observed,phasic,False
+47,NSAIDs,observed,central,False
+48,mechanisms,observed,effects,False
+49,mechanisms,observed,phasic,False
+50,mechanisms,observed,central,False
+51,mechanisms,produce,effects,False
+52,mechanisms,produce,phasic,False
+53,mechanisms,produce,central,False

@@ -1,9 +1,10 @@
 ,Subject,Action,Object,Negation
-0,total,occurred,patients,False
-1,who,received,isotretinoin,False
-2,photodermatitis,are,side,False
-3,reactions,include,papilledema,False
-4,cases,are,investigation,False
-5,Isotretinoin,contraindicated,pregnancy,False
-6,Isotretinoin,contraindicated,congenital abnormalities,False
-7,use,including,microphthalmos,False
+0,Blepharoconjunctivitis,are,dry eyes,False
+1,Blepharoconjunctivitis,are,side effects,False
+2,ocular adverse reactions,include,papilledema,False
+3,drug,include,papilledema,False
+4,cases,are,adaptation,False
+5,cases,are,investigation,False
+6,Isotretinoin,contraindicated,pregnancy,False
+7,Isotretinoin,contraindicated,congenital abnormalities,False
+8,Isotretinoin,contraindicated,microphthalmos,False

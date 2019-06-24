@@ -1,17 +1,53 @@
 ,Subject,Action,Object,Negation
 0,Methamphetamine,triggers,disruption,False
-1,states,including,depressive symptoms,False
-2,dosage,causes,monoaminergic,False
-3,we,assessed,behaviour,False
-4,we,assessed,mice,False
-5,we,assessed,term,False
-6,behaviour,following,METH,False
-7,METH,alter,motor,True
-8,METH,alter,memory,True
-9,escape,find,platform,False
-10,METH,increased,immobility,False
-11,depletion,observed,days,False
-12,findings,demonstrate,time,False
-13,dose,induces,behaviour,False
-14,dose,induces,mice,False
-15,mice,associated,disruption,False
+1,Methamphetamine,triggers,monoaminergic system,False
+2,Methamphetamine,triggers,emotional states,False
+3,Methamphetamine,triggers,depressive symptoms,False
+4,Methamphetamine,triggers,drug withdrawal,False
+5,METH,alter,motor function,True
+6,METH,alter,mice,True
+7,METH,alter,speed,True
+8,METH,alter,version,True
+9,METH,alter,water maze,True
+10,METH,increased,immobility time,False
+11,METH,increased,tail suspension test,False
+12,METH,increased,days,False
+13,depressive-like profile,accompanied,METH,False
+14,depressive-like profile,accompanied,depletion,False
+15,depressive-like profile,accompanied,frontostriatal dopaminergic,False
+16,depressive-like profile,accompanied,reduction,False
+17,depressive-like profile,accompanied,levels,False
+18,depressive-like profile,accompanied,dopamine,False
+19,days,accompanied,METH,False
+20,days,accompanied,depletion,False
+21,days,accompanied,frontostriatal dopaminergic,False
+22,days,accompanied,reduction,False
+23,days,accompanied,levels,False
+24,days,accompanied,dopamine,False
+25,post-administration,accompanied,METH,False
+26,post-administration,accompanied,depletion,False
+27,post-administration,accompanied,frontostriatal dopaminergic,False
+28,post-administration,accompanied,reduction,False
+29,post-administration,accompanied,levels,False
+30,post-administration,accompanied,dopamine,False
+31,days,indicated,reduction,False
+32,days,indicated,levels,False
+33,days,indicated,dopamine,False
+34,post-administration,indicated,reduction,False
+35,post-administration,indicated,levels,False
+36,post-administration,indicated,dopamine,False
+37,findings,demonstrate,METH,False
+38,findings,demonstrate,depressive-like behaviour,False
+39,findings,demonstrate,mice,False
+40,findings,demonstrate,disruption,False
+41,findings,demonstrate,frontostriatal dopaminergic,False
+42,high dose,demonstrate,METH,False
+43,high dose,demonstrate,depressive-like behaviour,False
+44,high dose,demonstrate,mice,False
+45,high dose,demonstrate,disruption,False
+46,high dose,demonstrate,frontostriatal dopaminergic,False
+47,high dose,induces,METH,False
+48,high dose,induces,depressive-like behaviour,False
+49,high dose,induces,mice,False
+50,high dose,induces,disruption,False
+51,high dose,induces,frontostriatal dopaminergic,False

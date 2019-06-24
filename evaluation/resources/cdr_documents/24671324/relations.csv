@@ -1,9 +1,17 @@
 ,Subject,Action,Object,Negation
-0,We,report,case,False
-1,who,suffered,necrotising fasciitis,False
-2,who,suffered,neutropenia,False
-3,who,suffered,combination,False
-4,"a 76-year-old man with Waldenström macroglobulinaemia who suffered necrotising fasciitis without neutropenia after the combination treatment with bortezomib, high-dose dexamethasone and rituximab",succumbed,h,False
-5,"a 76-year-old man with Waldenström macroglobulinaemia who suffered necrotising fasciitis without neutropenia after the combination treatment with bortezomib, high-dose dexamethasone and rituximab",succumbed,onset,False
-6,Physicians,recognise,possibility,False
-7,case,warrants,investigation,False
+0,Bortezomib,considered,bacterial infections,False
+1,Bortezomib,considered,patients,False
+2,Bortezomib,considered,B-cell malignancies,False
+3,information,limited,safety,False
+4,information,limited,regimen,False
+5,information,limited,patients,False
+6,Physicians,recognise,bacterial infections,False
+7,Physicians,recognise,bortezomib plus,False
+8,Physicians,recognise,patients,False
+9,Physicians,recognise,investigation,False
+10,case,recognise,bacterial infections,False
+11,case,recognise,bortezomib plus,False
+12,case,recognise,patients,False
+13,case,recognise,investigation,False
+14,case,believe,investigation,False
+15,case,warrants,investigation,False

@@ -1,19 +1,26 @@
 ,Subject,Action,Object,Negation
-0,who,underwent,LT,False
-1,who,underwent,January,False
-2,who,underwent,center,False
+0,laboratory data,analyzed,children,False
+1,laboratory data,analyzed,LT,False
+2,laboratory data,analyzed,center,False
 3,Patients,divided,seizures,False
-4,Patients,divided,seizures,False
-5,Seizures,occurred,children,False
-6,factors,associated,seizures,False
-7,factors,included,gender,False
-8,LT,included,gender,False
-9,analysis,showed,that,False
-10,level,was,risk,False
-11,factor,associated,seizures,False
-12,who,experienced,seizures,False
-13,children,survived,graft,False
-14,level,was,factor,False
-15,that,contributed,period,False
-16,PELD,be,risk,False
-17,scores,be,risk,False
+4,Seizures,occurred,children,False
+5,Univariate analysis,showed,seizures,False
+6,Univariate analysis,showed,LT,False
+7,Univariate analysis,showed,gender,False
+8,Univariate analysis,showed,surgery,False
+9,Univariate analysis,showed,surgery,False
+10,Univariate analysis,showed,surgery,False
+11,risk factors,showed,seizures,False
+12,risk factors,showed,LT,False
+13,risk factors,showed,gender,False
+14,risk factors,showed,surgery,False
+15,risk factors,showed,surgery,False
+16,risk factors,showed,surgery,False
+17,risk factors,included,seizures,False
+18,risk factors,included,LT,False
+19,risk factors,included,gender,False
+20,risk factors,included,surgery,False
+21,risk factors,included,surgery,False
+22,risk factors,included,surgery,False
+23,Multivariate analysis,showed,seizures,False
+24,level,showed,seizures,False

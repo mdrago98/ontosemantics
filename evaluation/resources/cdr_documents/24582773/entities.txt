@@ -1,23 +1,36 @@
+report
 patient
-suffering
-affective disorder
-antipsychotics
+schizo-affective disorder
+age
+years
+treated by
+combination
+first-generation antipsychotics
 zuclopenthixol
 lithium
-serum
+serum lithium=0.85 mEq/l
 patient
 personality disorder
-antisocial
-substance abuse disorder
+antisocial disorder
+no substance abuse disorder
+introduction
 quetiapine
 patient
+severe
 agitation
+environmental
+absence
+history of
 aggressiveness
 personality disorder
-manic
+diagnoses
+manic shift
 akathisia
 withdrawal
+reintroduction
 quetiapine
+weeks
+severe
 agitation
 agitation
 quetiapine

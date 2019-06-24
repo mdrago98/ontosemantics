@@ -1,13 +1,19 @@
 ,Subject,Action,Object,Negation
-0,We,compared,beta-receptor,False
-1,studies,using,model,False
-2,correlation,found,development,False
-3,attempt,suppress,development,False
-4,blockers,influenced,development,False
-5,It,suppress,ornithine decarboxylase activity,False
-6,there,was,effect,True
-7,propranolol,stop,changes,False
-8,investigations,provide,evidence,True
-9,propranolol,have,potency,False
-10,potency,prevent,isoproterenol,False
-11,potency,producing,heart hypertrophy,False
+0,studies,performed,experimental model,False
+1,studies,performed,isoproterenol-induced heart hypertrophy,False
+2,studies,performed,rats,False
+3,beta-blockers,influenced,development,False
+4,beta-blockers,influenced,hypertrophy,False
+5,propranolol,stop,myosin,False
+6,propranolol,stop,rat,False
+7,investigations,provide,evidence,True
+8,investigations,provide,potency,True
+9,investigations,provide,isoproterenol,True
+10,investigations,provide,heart hypertrophy,True
+11,propranolol,provide,evidence,True
+12,propranolol,provide,potency,True
+13,propranolol,provide,isoproterenol,True
+14,propranolol,provide,heart hypertrophy,True
+15,propranolol,have,potency,False
+16,propranolol,have,isoproterenol,False
+17,propranolol,have,heart hypertrophy,False

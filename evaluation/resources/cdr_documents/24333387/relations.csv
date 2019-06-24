@@ -1,16 +1,66 @@
 ,Subject,Action,Object,Negation
-0,Memory deficit,found,Morris,False
-1,STZ,causes,expression,False
-2,STZ,increased,level,False
-3,STZ,increased,nitrite,False
-4,preparation,illustrating,generation,False
-5,preparation,illustrating,excitotoxicity,False
-6,expression,observed,STZ,False
-7,activity,observed,STZ,False
-8,which,specify,apoptotic cell death,False
-9,treatment,showed,decrease,False
-10,treatment,showed,CaMKIIα,False
-11,expression,indicating,neurotoxicity,False
-12,experiment,set,2,False
-13,memory function,affected,STZ,True
-14,activation,are,factors,False
+0,Memory deficit,set,experiment,False
+1,Memory deficit,set,Morris water maze test,False
+2,Memory deficit,set,days,False
+3,STZ,set,experiment,False
+4,STZ,set,Morris water maze test,False
+5,STZ,set,days,False
+6,Memory deficit,found,Morris water maze test,False
+7,Memory deficit,found,days,False
+8,STZ,found,Morris water maze test,False
+9,STZ,found,days,False
+10,STZ,causes,expression,False
+11,STZ,causes,GFAP,False
+12,STZ,causes,glial activation,False
+13,STZ,increased,level,False
+14,STZ,increased,ROS,False
+15,STZ,increased,preparation,False
+16,STZ,increased,free radical generation,False
+17,expression,observed,Caspase-3,False
+18,expression,observed,rat,False
+19,expression,observed,apoptotic cell death,False
+20,expression,observed,hippocampus,False
+21,treatment,showed,decrease,False
+22,treatment,showed,synaptic markers,False
+23,treatment,showed,synaptic markers,False
+24,treatment,showed,post,False
+25,expression,showed,decrease,False
+26,expression,showed,synaptic markers,False
+27,expression,showed,synaptic markers,False
+28,expression,showed,post,False
+29,synaptophysin,showed,decrease,False
+30,synaptophysin,showed,synaptic markers,False
+31,synaptophysin,showed,synaptic markers,False
+32,synaptophysin,showed,post,False
+33,expression,remains,synaptic markers,False
+34,expression,remains,post,False
+35,synaptophysin,remains,synaptic markers,False
+36,synaptophysin,remains,post,False
+37,Oral treatment,attenuated,Memantine,False
+38,Oral treatment,attenuated,days,False
+39,Oral treatment,induced,Memantine,False
+40,Oral treatment,induced,days,False
+41,Oral treatment,induced,glial activation,False
+42,Oral treatment,induced,neurotoxicity,False
+43,Oral treatment,induced,rat,False
+44,STZ,induced,Memantine,False
+45,STZ,induced,days,False
+46,STZ,induced,glial activation,False
+47,STZ,induced,neurotoxicity,False
+48,STZ,induced,rat,False
+49,memory function,set,experiment,False
+50,memory function,set,days,False
+51,memory function,set,STZ,False
+52,affected,set,experiment,False
+53,affected,set,days,False
+54,affected,set,STZ,False
+55,memory function,affected,days,True
+56,memory function,affected,STZ,True
+57,affected,affected,days,True
+58,affected,affected,STZ,True
+59,data,indicates,apoptosis,False
+60,data,indicates,memory function,False
+61,study,suggests,neurotoxicity,False
+62,study,suggests,memory impairment,False
+63,glial activation,suggests,neurotoxicity,False
+64,glial activation,suggests,memory impairment,False

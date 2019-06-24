@@ -1,9 +1,11 @@
+Experimental studies
 apoptosis
-Fas
-Fas
-Ligand
-signaling
+Fas/Fas Ligand signaling system
 development
-acute liver failure
+acute
+study
+investigate
+soluble
 Fas
+patients
 acute liver failure

@@ -1,25 +1,45 @@
-beta-receptor
-beta 1-adrenoceptor blocking and beta 2-adrenoceptor
+compared
+potential
+beta-receptor blocker
+an-2-ol
+beta 1-adrenoceptor
+beta 2-adrenoceptor stimulating
 propranolol
-isoproterenol
-heart hypertrophy
+studies
+experimental model
+isoproterenol-induced heart hypertrophy
 rats
+correlation
 blood pressure
 development
+suppress
 development
 heart hypertrophy
-beta-receptor
+beta-receptor blockers
+beta-blockers
 development
 hypertrophy
-ornithine decarboxylase activity
+suppress
+increased
+ornithine decarboxylase
+activity
+beta-blockers
 hypertrophied
 hearts
-heart
+heart mass
 propranolol
-myosin
+B 24/76
+characteristic
+pattern
 hypertrophied
-rat heart
-beta-receptor
+rat
+heart
+investigations
+evidence
+beta-receptor blockers
 propranolol
+B
+potency
+prevent
 isoproterenol
 heart hypertrophy

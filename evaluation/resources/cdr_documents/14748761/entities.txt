@@ -1,32 +1,77 @@
-cardiac
+cases
+cardiac adverse reactions
 vinorelbine
 VNR
+literature
+quantify
+incidence
 cardiac events
+meta-analysis
+clinical trials
 VNR
+chemotherapeutic agents
+treatment
 malignancies
+Randomized clinical trials
 VNR
+drugs
+treatment
 cancer
-Medicine
+Medline
+Embase
+Evidence-based Medicine Reviews databases
+Cochrane library
+Outcomes
+severe
 cardiac events
-deaths
-cardiac event
-deaths
+toxic deaths
+cardiac event-related deaths
+publication
+trials
+patients
+treated
 VNR
+control
+patients
+incidence
 cardiac events
 VNR
+confidence interval
+CI
+risk
 cardiac events
 VNR
+drugs
+odds ratio
+CI
+risk
 VNR
 cardiac events
 vindesine
 VDS
+cardiotoxic drugs
 fluorouracil
 anthracyclines
 gemcitabine
 GEM
-reach
-cardiac
+statistical significance
+cases
+risk
+lower
+trials
+patients
+cardiac history
+higher
+trials
+patients
+pre-existing
 cardiac diseases
-Vinorelbine
-cardiac events
+Vinorelbine-related cardiac events
+treated
+patients
+clinical trials
+risk
+associated with
 VNR
+chemotherapeutic agents
+indications

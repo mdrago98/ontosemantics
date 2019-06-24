@@ -1,14 +1,15 @@
 ,Subject,Action,Object,Negation
-0,male,awoke,chest pain,False
-1,observations,were,limits,False
-2,his,administered,oxygen,False
-3,his,administered,face,False
-4,patient,experienced,drop,False
-5,There,was,deterioration,True
-6,There,are,case,False
-7,cause,be,Bezold,False
-8,which,decreases,outflow,False
-9,who,managing,patient,False
-10,that,recover,time,False
-11,syncopal episode,recover,time,False
-12,providers,consider,Bezold,False
+0,observations,administered,oxygen,False
+1,observations,administered,face mask,False
+2,patient,experienced,GTN,False
+3,patient,experienced,sudden drop,False
+4,patient,experienced,blood pressure,False
+5,patient,rectified,GTN,False
+6,patient,rectified,sudden drop,False
+7,patient,rectified,blood pressure,False
+8,patient,rectified,atropine sulphate,False
+9,Prehospital care providers,consider,patient,False
+10,Prehospital care providers,consider,syncopal,False
+11,Prehospital care providers,consider,time frame,False
+12,Prehospital care providers,consider,Bezold-Jarisch reflex,False
+13,Prehospital care providers,consider,patient,False

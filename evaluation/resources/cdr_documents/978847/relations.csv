@@ -1,4 +1,20 @@
 ,Subject,Action,Object,Negation
-0,atropine,reduced,i.c,False
-1,response,remained,sectioning,False
-2,sympathetic trunk,is,pathway,False
+0,response,analyzed,intracisternal,False
+1,response,analyzed,carbachol,False
+2,response,analyzed,rats,False
+3,injection,analyzed,intracisternal,False
+4,injection,analyzed,carbachol,False
+5,injection,analyzed,rats,False
+6,response,reduced,guanethidine,False
+7,response,reduced,i.v.,False
+8,injection,reduced,guanethidine,False
+9,injection,reduced,i.v.,False
+10,potentiated,reduced,guanethidine,False
+11,potentiated,reduced,i.v.,False
+12,potentiated,potentiated,i.v.,False
+13,carbachol,blocked,i.c.,False
+14,carbachol,remained,sectioning,False
+15,carbachol,remained,cervical vagal nerves,False
+16,carbachol,remained,sectioning,False
+17,carbachol,remained,spinal cord,False
+18,sympathetic trunk,is,pathway,False

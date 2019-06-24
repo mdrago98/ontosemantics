@@ -1,12 +1,21 @@
 ,Subject,Action,Object,Negation
 0,levodopa,examined,patients,False
 1,levodopa,examined,responses,False
-2,magnitude,was,concentration,False
-3,responders,demonstrated,response,False
-4,pressures,were,patients,False
-5,blood pressure,correlated,effects,False
-6,effects,correlated,blood pressure,False
-7,Phenylalanine,competing,levodopa,False
-8,levodopa,has,action,False
-9,that,parallels,motor,False
-10,blood pressure,fluctuating,patients,False
+2,levodopa,examined,levodopa,False
+3,responders,demonstrated,hypotensive response,False
+4,blood pressure,correlated,hypotensive effects,False
+5,effects,correlated,levodopa,False
+6,Phenylalanine,reduced,levodopa,False
+7,Phenylalanine,reduced,transport,False
+8,Phenylalanine,reduced,blood-brain barrier,False
+9,Phenylalanine,reduced,effects,False
+10,Phenylalanine,reduced,levodopa,False
+11,levodopa,conclude,central hypotensive action,False
+12,levodopa,conclude,motor effects,False
+13,levodopa,conclude,patients,False
+14,levodopa,has,central hypotensive action,False
+15,levodopa,has,motor effects,False
+16,levodopa,has,patients,False
+17,hypotensive effect,appears,baseline,False
+18,hypotensive effect,appears,patients,False
+19,hypotensive effect,appears,patients,False

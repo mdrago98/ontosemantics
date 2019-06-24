@@ -1,16 +1,25 @@
-nitro
-L-arginine
+NG-nitro-L-arginine (
+L-NOARG
 inhibitor
 nitric-oxide synthase
 NOS
 catalepsy
 mice
-tolerance
+effect
+rapid
+significant
+decrease
+days
+sub-chronic
+L-NOARG
+treatment
 Nitric oxide
 NO
-neurotransmission
+influence
+dopaminergic neurotransmission
 striatum
-Neuroleptic
+Neuroleptic drugs
 haloperidol
-dopamine receptors
+block dopamine receptors
 catalepsy
+rodents

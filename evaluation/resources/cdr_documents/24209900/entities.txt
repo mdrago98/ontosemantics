@@ -1,8 +1,11 @@
 Ifosfamide
 alkylating agent
+treatment
 cancers
 sarcomas
 lymphoma
+gynecologic
 testicular cancers
 Encephalopathy
-ifosfamide
+patients
+high-dose IV ifosfamide

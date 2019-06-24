@@ -1,23 +1,51 @@
+report
 sinus bradycardia
+induced
 metoprolol
+terbinafine
 drug-drug interaction
+management
+year-old
+Caucasian
 man
 metoprolol
-coronary artery disease
-oral
+stable coronary artery disease
+prescribed
+course
+oral terbinafine
 onychomycosis
-emergency
+day
+terbinafine therapy
+emergency room
+decrease
+global
 confusion
+falls
+electrocardiogram
 sinus bradycardia
-patient
+score
+Naranjo adverse drug reaction probability scale
+relationship
+patient's
 sinus bradycardia
 drug interaction
 metoprolol
-heart
+terbinafine
+heart rate
+ameliorated
+decrease
+dose
 metoprolol
 bisoprolol
-heart
+heart rate
+normal
+inhibiting
 cytochrome P450 2D6
+terbinafine
+decreased
+metoprolol's
+clearance
 metoprolol
-metoprolol
+accumulation
+clinically significant
 sinus bradycardia

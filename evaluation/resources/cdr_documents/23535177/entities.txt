@@ -1,20 +1,71 @@
+plasticity
 primary motor cortex
+M1
+patients
 Parkinson's disease
 PD
-levodopa
-dyskinesias
+levodopa-induced dyskinesias
+LIDs
 impaired
-cerebellar
+young
+healthy subjects
+inhibitory
+cerebellar stimulation
+sensorimotor plasticity
+M1
+induced
 paired associative stimulation
 PAS
-cerebellar
-cerebellar
-sensory processing
-cerebellar
-PAS
-cerebellar
-cerebellar
-sensory processing
+study
+deficient
+sensorimotor M1
+plasticity
+patients
+LIDs
+inhibitory
+cerebellar stimulation
+sham
+stimulation
+sensory component
+induction
+plasticity
+cerebellar sensory processing function
+resurgence
+M1 plasticity
+inhibitory
+cerebellar stimulation
+LIDs
+benefit
+restoration
+sensorimotor plasticity
+M1
+study
+changes
+LIDs
+PAS-induced
+plasticity
+sessions
+bilateral
+inhibitory
+sham
+stimulation
+sham
+stimulation
+antidyskinetic
+resurgence
+sensorimotor plasticity
+M1
+results
+alterations
+cerebellar sensory processing function
+secondary to
+abnormal
 basal ganglia
-reaching
-abnormal involuntary movements
+signals
+element
+maladaptive
+sensorimotor
+M1
+emergence
+abnormal
+involuntary movements

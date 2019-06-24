@@ -1,8 +1,11 @@
 Vincristine
+intrathecally
 child
 leukaemia
+sensory
 motor dysfunction
 encephalopathy
 death
+administering
 vincristine
-intrathecal
+intrathecal therapy

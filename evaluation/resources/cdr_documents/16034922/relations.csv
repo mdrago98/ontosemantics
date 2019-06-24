@@ -1,4 +1,7 @@
 ,Subject,Action,Object,Negation
-0,Hormone therapy (HT),used,management,False
-1,Hormone therapy (HT),used,prevention,False
-2,evidence,supporting,use,False
+0,Hormone therapy,used,menopausal symptoms,False
+1,evidence,used,management,False
+2,evidence,used,cardiovascular disease,False
+3,evidence,used,older women,False
+4,evidence,used,indications,False
+5,evidence,is,indications,False

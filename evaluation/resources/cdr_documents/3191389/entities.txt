@@ -1,29 +1,45 @@
-muscarinic cholinergic agonist
+muscarinic cholinergic
 pilocarpine
+induces
 rats
 seizures
 status epilepticus
+widespread
+damage
 forebrain
-non-steroidal anti-inflammatory drugs
-salicylate
+study
+investigate
+effect
+non-steroidal
+anti-inflammatory drugs
+sodium salicylate
 phenylbutazone
 indomethacin
 ibuprofen
+mefenamic acid
 seizures
 pilocarpine
+Pretreatment
 rats
-salicylate
+sodium salicylate
+ED50
 phenylbutazone
+non-convulsant dose
 pilocarpine
+convulsant
 Indomethacin
 ibuprofen
+modulate
 seizures
 pilocarpine
+Mefenamic acid
 seizures
 rats
-seizure
-brain
+brain damage
+induced
 pilocarpine
-non-steroidal anti-inflammatory drugs
-pilocarpine
-seizures
+results
+non-steroidal
+anti-inflammatory drugs
+differentially
+pilocarpine-induced seizures

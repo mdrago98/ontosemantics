@@ -1,5 +1,7 @@
 ,Subject,Action,Object,Negation
-0,reactions,observed,system,False
-1,side effect,necrotizing,myocarditis,False
-2,diagnosis,made,post,False
-3,myocarditis,reported,English,False
+0,adverse reactions,observed,carbamazepine,False
+1,adverse reactions,observed,haemopoietic system,False
+2,Histology,revealed,infiltration,False
+3,Histology,revealed,myocardium,False
+4,Histology,revealed,eosinophils,False
+5,Histology,revealed,myocyte,False

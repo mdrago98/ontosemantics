@@ -1,12 +1,97 @@
 ,Subject,Action,Object,Negation
-0,Wistar rats,received,DOX,False
-1,h,received,injections,False
-2,Animals,used,M0,False
-3,Animals,used,moment,False
-4,performance,carried,time,False
-5,dose,associated,DNA damage,False
-6,strand breaks,decreased,TAP,False
-7,study,showed,effect,False
-8,damage,associated,-0.98,False
-9,oxidative damage,associated,cardiotoxicity,False
-10,mechanisms,involved,toxicity,False
+0,mechanism,remains,doxorubicin,False
+1,Wistar rats,received,DOX,False
+2,Wistar rats,received,single dose,False
+3,Wistar rats,received,DOX,False
+4,Wistar rats,received,injections,False
+5,Wistar rats,received,DOX,False
+6,Wistar rats,received,injection,False
+7,Wistar rats,received,chronological effects,False
+8,rats,received,DOX,False
+9,rats,received,single dose,False
+10,rats,received,DOX,False
+11,rats,received,injections,False
+12,rats,received,DOX,False
+13,rats,received,injection,False
+14,rats,received,chronological effects,False
+15,rats,received,DOX,False
+16,rats,received,single dose,False
+17,rats,received,DOX,False
+18,rats,received,injections,False
+19,rats,received,DOX,False
+20,rats,received,injection,False
+21,rats,received,chronological effects,False
+22,injection,received,DOX,False
+23,injection,received,single dose,False
+24,injection,received,DOX,False
+25,injection,received,injections,False
+26,injection,received,DOX,False
+27,injection,received,injection,False
+28,injection,received,chronological effects,False
+29,M1,received,DOX,False
+30,M1,received,single dose,False
+31,M1,received,DOX,False
+32,M1,received,injections,False
+33,M1,received,DOX,False
+34,M1,received,injection,False
+35,M1,received,chronological effects,False
+36,rats,killed,single dose,False
+37,rats,killed,DOX,False
+38,rats,killed,injections,False
+39,rats,killed,DOX,False
+40,rats,killed,injection,False
+41,rats,killed,chronological effects,False
+42,rats,killed,single dose,False
+43,rats,killed,DOX,False
+44,rats,killed,injections,False
+45,rats,killed,DOX,False
+46,rats,killed,injection,False
+47,rats,killed,chronological effects,False
+48,injection,killed,single dose,False
+49,injection,killed,DOX,False
+50,injection,killed,injections,False
+51,injection,killed,DOX,False
+52,injection,killed,injection,False
+53,injection,killed,chronological effects,False
+54,M1,killed,single dose,False
+55,M1,killed,DOX,False
+56,M1,killed,injections,False
+57,M1,killed,DOX,False
+58,M1,killed,injection,False
+59,M1,killed,chronological effects,False
+60,rats,received,injections,False
+61,rats,received,DOX,False
+62,rats,received,injection,False
+63,rats,received,chronological effects,False
+64,injection,received,injections,False
+65,injection,received,DOX,False
+66,injection,received,injection,False
+67,injection,received,chronological effects,False
+68,M1,received,injections,False
+69,M1,received,DOX,False
+70,M1,received,injection,False
+71,M1,received,chronological effects,False
+72,injection,killed,injection,False
+73,M1,killed,injection,False
+74,Animals,used,M0,False
+75,Animals,used,acute study,False
+76,Cardiac total antioxidant performance,carried,time point,False
+77,morphology analyses,carried,time point,False
+78,Single dose,associated with,DOX,False
+79,Single dose,associated with,cardiac disarrangement,False
+80,strand breaks,associated with,DOX,False
+81,strand breaks,associated with,cardiac disarrangement,False
+82,chronological study,showed,effect,False
+83,chronological study,showed,cumulative dose,False
+84,chronological study,showed,body weight,False
+85,TAP,showed,effect,False
+86,TAP,showed,cumulative dose,False
+87,TAP,showed,body weight,False
+88,damage,associated with,TAP,False
+89,oxidative damage,suggest,cardiotoxicity,False
+90,oxidative damage,suggest,single dose,False
+91,oxidative damage,suggest,DOX,False
+92,oxidative damage,associated with,cardiotoxicity,False
+93,oxidative damage,associated with,single dose,False
+94,oxidative damage,associated with,DOX,False
+95,mechanisms,involved,toxicity,False

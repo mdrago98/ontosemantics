@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,Wistar rats,received,DOX,False
+1,h,received,injections,False
+2,Animals,used,M0,False
+3,Animals,used,moment,False
+4,performance,carried,time,False
+5,dose,associated,DNA damage,False
+6,strand breaks,decreased,TAP,False
+7,study,showed,effect,False
+8,damage,associated,-0.98,False
+9,oxidative damage,associated,cardiotoxicity,False
+10,mechanisms,involved,toxicity,False

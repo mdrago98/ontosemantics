@@ -1,5 +1,16 @@
 ,Subject,Action,Object,Negation
-0,physicians,be,order,False
-1,order,prevent,occurrence,False
-2,order,prescribing,antibiotic,False
-3,order,offer,therapy,False
+0,case,described,oral penicillin anaphylaxis,False
+1,case,described,anaphylaxis,False
+2,terminology,described,oral penicillin anaphylaxis,False
+3,terminology,described,anaphylaxis,False
+4,treatment,described,oral penicillin anaphylaxis,False
+5,treatment,described,anaphylaxis,False
+6,terminology,reviewed,anaphylaxis,False
+7,treatment,reviewed,anaphylaxis,False
+8,Emergency physicians,be,antibiotic,False
+9,Emergency physicians,be,medical therapy,False
+10,reaction,be,antibiotic,False
+11,reaction,be,medical therapy,False
+12,reaction,prevent,antibiotic,False
+13,reaction,prevent,medical therapy,False
+14,reaction,offer,medical therapy,False

@@ -1,23 +1,37 @@
-Estrogen
-binding
-renal
-carcinomas
-estradiol
+Estrogen binding sites
+autoradiography
+transplantable
+primary diethylstilbesterol
+induced
+renal carcinomas
+hamsters
+Radiolabelling
+in vivo
+injection
+3H-17 beta estradiol
+increased
 nuclei
 tumor cells
-silver
+stereologic analysis
+higher
+concentration
+reduced
+silver grains
 nuclei
 cytoplasm
 cells
-tubular excretion
+tubular
+excretion
 estradiol
-cells
+normal cells
 bind
 ligand
+published report
+in vivo
 binding
 estrogen
 nuclei
 cells
 estrogen
-renal
-carcinomas
+induced
+hamster renal carcinomas

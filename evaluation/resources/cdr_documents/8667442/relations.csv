@@ -1,10 +1,28 @@
 ,Subject,Action,Object,Negation
 0,Milk-alkali syndrome,described,context,False
-1,triad,remains,hallmark,False
-2,Milk-alkali syndrome,present,illness,False
-3,article,presents,patient,False
-4,who,treated,calcium carbonate,False
-5,calcitriol,resulting,admissions,False
-6,patient,treated,pamidronate,False
-7,patient,treated,second,False
-8,milk-alkali syndrome,presents,emergency,False
+1,Milk-alkali syndrome,described,treatment,False
+2,Milk-alkali syndrome,described,peptic ulcer disease,False
+3,Milk-alkali syndrome,described,calcium,False
+4,H-2 blockers,decreased,ulcer therapy,False
+5,H-2 blockers,decreased,milk-alkali syndrome,False
+6,frequency,decreased,ulcer therapy,False
+7,frequency,decreased,milk-alkali syndrome,False
+8,H-2 blockers,remains,ulcer therapy,False
+9,H-2 blockers,remains,milk-alkali syndrome,False
+10,H-2 blockers,remains,hypercalcemia,False
+11,H-2 blockers,remains,syndrome,False
+12,frequency,remains,ulcer therapy,False
+13,frequency,remains,milk-alkali syndrome,False
+14,frequency,remains,hypercalcemia,False
+15,frequency,remains,syndrome,False
+16,classic triad of,remains,ulcer therapy,False
+17,classic triad of,remains,milk-alkali syndrome,False
+18,classic triad of,remains,hypercalcemia,False
+19,classic triad of,remains,syndrome,False
+20,Milk-alkali syndrome,present,illness,False
+21,patient,treated with,intravenous pamidronate,False
+22,patient,treated with,admission,False
+23,milk-alkali syndrome,illustrates,intravenous pamidronate,False
+24,milk-alkali syndrome,illustrates,therapeutic tool,False
+25,milk-alkali syndrome,illustrates,emergency,False
+26,milk-alkali syndrome,presents,emergency,False

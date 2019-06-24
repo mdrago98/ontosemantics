@@ -1,7 +1,10 @@
+report
+case
 myocardial ischemia
+induced
 cocaine
 ischemia
+induced
 coronary artery spasm
 nitroglycerin
-calcium
-blocking
+calcium blocking agents

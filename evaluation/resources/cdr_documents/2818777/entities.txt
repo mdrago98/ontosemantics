@@ -1,7 +1,21 @@
+year
+female
+fatal
 hepatic failure
-phenytoin
-hepatic
-hepatocellular damage
+phenytoin administration
+multisystem
+clinical pattern
+manifestations
+hepatic injury
+hematologic
+biochemical
+pathologic features
+hepatocellular
 drug hypersensitivity
 patient
 phenytoin
+viral-like illness
+early recognition
+discontinuation
+drug
+mandatory

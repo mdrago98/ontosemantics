@@ -1,24 +1,65 @@
-medulla
-arterial pressure
-heart
+studied
+effects of
+chronic
+rostral ventrolateral medulla
+mean arterial pressure
+heart rate
+neurogenic tone
+conscious
+unrestrained
 rats
+lesions
+bilateral
+microinjections
 N-methyl-D-aspartic acid
+restimulation
 N-methyl-D-aspartic acid
-resting
+days
+postlesion
+pressor response
+day
+postlesion
+resting mean
 arterial pressure
+decreased
+lesioned
 rats
+compared
+sham
 rats
-heart
-ganglionic
-trimethaphan
-arterial pressure
-trimethaphan
+days
+lesioned
+values
+sham
+group
+No significant
+heart rate
+differences
+sham
+lesioned
+ganglionic blocker trimethaphan
+reductions
+mean arterial pressure
+lesioned
+sham groups
+trimethaphan-induced hypotension
 bradycardia
+lesioned
 rats
+tachycardia
+sham
 rats
-medulla
+day
+postlesion
+rostral ventrolateral medulla
 neurons
 hypertension
+conscious
+spontaneously
 rats
+Spinal
+suprabulbar structures
+recovery
 hypertension
+lesioned
 rats

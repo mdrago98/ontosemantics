@@ -1,17 +1,27 @@
+stable
+psychiatric outpatients
 hyperprolactinemia
-amenorrhea
-oligomenorrhea
-neuroleptic
+amenorrhea/oligomenorrhea
+associated with
+neuroleptic medications
+treated with
 bromocriptine
+dosages
 hyperprolactinemia
+restored
 menstruation
+patients
 woman
+worsened
 psychiatric symptoms
 bromocriptine
-menstrual irregularity
+discontinued
+patients
+menstrual
+irregularity
 bromocriptine
 bromocriptine
-neuroleptic
-hyperprolactinemia
-amenorrhea
-galactorrhea
+evaluated
+therapy
+neuroleptic-associated hyperprolactinemia
+amenorrhea/galactorrhea

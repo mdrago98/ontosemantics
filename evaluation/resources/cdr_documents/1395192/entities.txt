@@ -1,10 +1,17 @@
 Myocardial infarction
 puerperium
 Spasm
-coronary
+coronary dissection
 atheromatous
+etiology
 Bromocriptine
+case reports
 myocardial infarction
 puerperium
-cardiac
+case
+inadvertent
+rechallenge
+relationship
+serious
+cardiac effects
 bromocriptine

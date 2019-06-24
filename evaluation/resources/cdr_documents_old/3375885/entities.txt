@@ -1,0 +1,15 @@
+patient
+rheumatoid arthritis
+nephropathy
+hypoaldosteronism
+indomethacin
+naproxen
+renal function
+renal disease
+patient
+type IV renal tubular acidosis
+prostaglandin synthetase
+inhibitors
+anti-inflammatory drug
+fludrocortisone
+indomethacin

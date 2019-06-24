@@ -1,1 +1,9 @@
 ,Subject,Action,Object,Negation
+0,alterations,investigate,myocardial strain,False
+1,alterations,investigate,cardiac dysfunction,False
+2,alterations,investigate,patients,False
+3,alterations,investigate,epirubicin,False
+4,alterations,predict,myocardial strain,False
+5,alterations,predict,cardiac dysfunction,False
+6,alterations,predict,patients,False
+7,alterations,predict,epirubicin,False

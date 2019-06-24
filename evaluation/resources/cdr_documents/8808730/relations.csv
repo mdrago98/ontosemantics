@@ -1,15 +1,76 @@
 ,Subject,Action,Object,Negation
-0,techniques,examine,alterations,False
-1,irritant,eliminated,urine,False
-2,which,receive,afferent,False
-3,IR,changed,rats,True
-4,rats,receiving,CYP,False
-5,increase,occurred,L1,False
-6,change,detected,L2,False
-7,change,detected,L5,False
-8,cells,injected,bladder,False
-9,cells,exhibit,NOS,True
-10,cells,exhibit,control,True
-11,following,were,NOS,False
-12,changes,initiate,chemical,False
-13,that,alter,chemical,False
+0,Immunocytochemical techniques,used,alterations,False
+1,Immunocytochemical techniques,used,expression,False
+2,Immunocytochemical techniques,used,neuronal nitric oxide synthase,False
+3,Immunocytochemical techniques,used,bladder pathways,False
+4,Immunocytochemical techniques,used,chronic irritation,False
+5,Immunocytochemical techniques,used,urinary tract,False
+6,Immunocytochemical techniques,used,rat,False
+7,Chemical cystitis,induced,cyclophosphamide,False
+8,Chemical cystitis,induced,acrolein,False
+9,Chemical cystitis,induced,urine,False
+10,Injection,increased,CYP,False
+11,Injection,increased,perfusion,False
+12,Injection,increased,animals,False
+13,Injection,increased,Fos-immunoreactivity,False
+14,Injection,increased,neurons,False
+15,Injection,increased,dorsal commissure,False
+16,Injection,increased,spinal segments,False
+17,Injection,increased,inputs,False
+18,Injection,increased,bladder,False
+19,L1-L2,increased,CYP,False
+20,L1-L2,increased,perfusion,False
+21,L1-L2,increased,animals,False
+22,L1-L2,increased,Fos-immunoreactivity,False
+23,L1-L2,increased,neurons,False
+24,L1-L2,increased,dorsal commissure,False
+25,L1-L2,increased,spinal segments,False
+26,L1-L2,increased,inputs,False
+27,L1-L2,increased,bladder,False
+28,Fos-IR,changed,spinal cord,True
+29,Fos-IR,changed,rats,True
+30,Fos-IR,changed,CYP,True
+31,Fos-IR,changed,weeks,True
+32,administration,increased,bladder weight,False
+33,administration,increased,IR,False
+34,administration,increased,L6-S1,False
+35,increase,occurred,L1,False
+36,increase,occurred,L2,False
+37,Bladder afferent cells,exhibit,L6-S1,True
+38,Bladder afferent cells,exhibit,Fluorogold,True
+39,Bladder afferent cells,exhibit,bladder wall,True
+40,Bladder afferent cells,exhibit,NOS-IR,True
+41,Bladder afferent cells,exhibit,control animals,True
+42,Bladder afferent cells,exhibit,CYP,True
+43,Bladder afferent cells,exhibit,bladder,True
+44,L6,exhibit,L6-S1,True
+45,L6,exhibit,Fluorogold,True
+46,L6,exhibit,bladder wall,True
+47,L6,exhibit,NOS-IR,True
+48,L6,exhibit,control animals,True
+49,L6,exhibit,CYP,True
+50,L6,exhibit,bladder,True
+51,results,indicate,visceral sensory pathways,False
+52,results,indicate,chemical irritation,False
+53,results,indicate,afferent receptors,False
+54,results,indicate,urinary tract,False
+55,results,indicate,urinary tract,False
+56,results,indicate,chemical signals,False
+57,results,indicate,neurons,False
+58,changes,indicate,visceral sensory pathways,False
+59,changes,indicate,chemical irritation,False
+60,changes,indicate,afferent receptors,False
+61,changes,indicate,urinary tract,False
+62,changes,indicate,urinary tract,False
+63,changes,indicate,chemical signals,False
+64,changes,indicate,neurons,False
+65,changes,upregulated,visceral sensory pathways,False
+66,changes,upregulated,chemical irritation,False
+67,changes,upregulated,afferent receptors,False
+68,changes,upregulated,urinary tract,False
+69,changes,upregulated,urinary tract,False
+70,changes,upregulated,chemical signals,False
+71,changes,upregulated,neurons,False
+72,changes,initiate,urinary tract,False
+73,changes,initiate,chemical signals,False
+74,changes,initiate,neurons,False

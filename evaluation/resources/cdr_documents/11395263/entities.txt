@@ -1,11 +1,18 @@
-ethanol
-isoproterenol
-myocardial infarction
+cardioprotective effect
+ethanol extract
+Picrorrhiza kurroa
+rhizomes
+roots
+PK
+isoproterenol-induced myocardial infarction
 rats
 lipid metabolism
 serum
 heart tissue
-Oral
-isoproterenol
-myocardial infarction
+investigated
+Oral pre-treatment
+PK
+days
+isoproterenol-induced myocardial infarction
 rats
+near normal status

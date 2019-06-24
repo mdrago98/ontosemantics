@@ -1,15 +1,22 @@
 ,Subject,Action,Object,Negation
-0,Sleep,plays,role,False
-1,Sleep,plays,consolidation,False
+0,Sleep,plays,consolidation,False
+1,Sleep,plays,memory,False
 2,Sleep,plays,process,False
-3,Sleep,plays,integration,False
-4,process,called,memory,False
-5,We,extend,research,False
-6,we,assessed,performances,False
-7,users,demonstrated,memory,False
-8,finding,following,interference,False
-9,users,demonstrated,impairments,False
-10,users,demonstrated,domains,False
-11,tasks,recruiting,circuitry,False
-12,dysfunction,underlie,consolidation,False
-13,dysfunction,underlie,ecstasy,False
+3,studies,indicate,sleep-related impairments,False
+4,ecstasy users,indicate,sleep-related impairments,False
+5,Memory recall,evaluated,word pairs,False
+6,Memory recall,evaluated,period,False
+7,Memory recall,evaluated,sleep,False
+8,Memory recall,evaluated,interference,False
+9,Memory recall,evaluated,testing,False
+10,users,demonstrated,associative interference,False
+11,ecstasy users,demonstrated,impairments,False
+12,ecstasy users,demonstrated,tasks,False
+13,ecstasy users,demonstrated,domains,False
+14,ecstasy users,demonstrated,proactive interference memory,False
+15,ecstasy-associated dysfunction,suggest,fronto-temporal circuitry,False
+16,ecstasy-associated dysfunction,suggest,consolidation,False
+17,ecstasy-associated dysfunction,suggest,ecstasy,False
+18,ecstasy-associated dysfunction,underlie,fronto-temporal circuitry,False
+19,ecstasy-associated dysfunction,underlie,consolidation,False
+20,ecstasy-associated dysfunction,underlie,ecstasy,False

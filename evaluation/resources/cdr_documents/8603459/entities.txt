@@ -1,5 +1,79 @@
-doxorubicin
-moving
+laboratory animals
+histology
+doxorubicin-induced
+cardiotoxicity
+monitoring
+treatment
+animals
+method
+measure
+ECG
+values
 mice
+telemetry
+model
+investigated
+effect
+chronic
 doxorubicin
-moving
+administration
+ECG
+BALB/c mice
+efficacy
+ICRF-187
+protective agent
+ST
+week
+weekly
+doses
+doxorubicin
+weeks
+observation
+ECG
+control animals
+study
+sacrifice
+hearts
+doxorubicin-treated animals
+enlarged
+atria
+hypertrophic
+schedule
+toxicity
+investigate
+protective agents
+protection
+ICRF-187
+dose schedule
+toxicity
+weekly
+doses
+doxorubicin
+weeks
+observation
+schedule
+animals
+hearts
+normal
+sacrifice
+ICRF-187
+i.p.
+doxorubicin
+protection
+data
+histology
+results
+model
+sensitive
+monitoring
+development
+cardiotoxicity
+time
+findings
+model
+testing
+protectors
+doxorubicin-induced
+cardiotoxicity
+protection
+ICRF-187

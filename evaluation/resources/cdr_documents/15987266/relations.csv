@@ -1,10 +1,15 @@
 ,Subject,Action,Object,Negation
-0,GAP43,linked,mossy fiber sprouting,False
-1,GAP43,linked,models,False
-2,expression,correlates,MFS,False
-3,MFS,assessed,intensity,False
-4,MFS,assessed,layer,False
-5,MFS,assessed,densitometry,False
-6,MFS,assessed,extension,False
-7,which,inhibit,MFS,False
-8,intensity,inhibit,MFS,False
+0,GAP43,thought,mossy fiber sprouting,False
+1,GAP43,thought,experimental models,False
+2,GAP43,thought,epilepsy,False
+3,expression,investigate,MFS,False
+4,expression,correlates,MFS,False
+5,expression,assessed,MFS,False
+6,expression,assessed,intensity,False
+7,expression,assessed,GAP43-ir,False
+8,expression,assessed,inner molecular layer,False
+9,expression,assessed,dentate gyrus,False
+10,expression,assessed,rats,False
+11,expression,assessed,status epilepticus,False
+12,expression,assessed,pilocarpine,False
+13,expression,assessed,MFS,False

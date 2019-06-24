@@ -1,8 +1,8 @@
-from py2neo import Graph, cypher_escape, NodeMatcher, RelationshipMatch, Cursor
+from py2neo import Graph, NodeMatcher, RelationshipMatch
 
 from src.bioengine.cypher_engine.models import Class, ModelFactory
 from src.bioengine.cypher_engine.connections.connection import Connection
-from settings import Config
+from src.settings import Config
 
 
 class OntologyStoreConnection(Connection):

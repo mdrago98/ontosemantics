@@ -1,6 +1,11 @@
+case
+oncology
 patient
-heparin-induced thrombocytopenia with thrombosis
+heparin-induced thrombocytopenia
+thrombosis
 HITT
+treated with
 argatroban
 catheter-directed thrombolysis
 CDT
+alteplase

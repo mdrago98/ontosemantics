@@ -1,23 +1,31 @@
 ,Subject,Action,Object,Negation
-0,We,visualize,profile,False
-1,We,visualize,time,False
-2,brain,associated,abuse,False
-3,who,used,MA,False
-4,Studies,revealed,deficits,False
-5,we,determined,pattern,False
-6,alterations,associated,MA,False
-7,alterations,related,deficits,False
-8,We,map,analyses,False
-9,We,map,abnormalities,False
-10,We,map,cortex,False
-11,who,used,MA,False
-12,who,used,controls,False
-13,maps,revealed,matter,False
-14,deficits,averaging,control,False
-15,abusers,had,volumes,False
-16,abuse,causes,pattern,False
-17,MA,damage,temporal lobe,False
-18,hypertrophy,result,myelination,False
-19,hypertrophy,result,changes,False
-20,myelination,including,gliosis,False
-21,substrates,account,symptoms,False
+0,Studies,revealed,subjects,False
+1,Studies,revealed,deficits,False
+2,Studies,revealed,dopaminergic,False
+3,MA,revealed,subjects,False
+4,MA,revealed,deficits,False
+5,MA,revealed,dopaminergic,False
+6,Cortical maps,revealed,gray-matter deficits,False
+7,Cortical maps,revealed,paralimbic cortices,False
+8,Cortical maps,revealed,MA,False
+9,Cortical maps,revealed,control,False
+10,abusers,had,%,False
+11,abusers,had,control subjects,False
+12,Hippocampal deficits,mapped,memory,False
+13,Hippocampal deficits,mapped,word-recall test,False
+14,maps,suggest,cerebral deterioration,False
+15,maps,suggest,memory performance,False
+16,methamphetamine abuse,suggest,cerebral deterioration,False
+17,methamphetamine abuse,suggest,memory performance,False
+18,methamphetamine abuse,causes,cerebral deterioration,False
+19,methamphetamine abuse,causes,memory performance,False
+20,MA,damage,medial temporal lobe,False
+21,MA,damage,metabolic studies,False
+22,MA,damage,neuroadaptation,False
+23,white-matter hypertrophy,result,myelination,False
+24,white-matter hypertrophy,result,gliosis,False
+25,white-matter hypertrophy,result,neuronal damage,False
+26,brain substrates,help,symptoms,False
+27,brain substrates,help,MA abuse,False
+28,brain substrates,help,targets,False
+29,brain substrates,help,drug-induced brain injury,False

@@ -1,0 +1,4 @@
+,Subject,Action,Object,Negation
+0,risk,offset,benefit,False
+1,We,compare,risks,False
+2,patients,using,COX-2,False

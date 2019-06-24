@@ -1,31 +1,65 @@
-cardiopulmonary
+cardiopulmonary resuscitation
+patients
 acute circulatory failure
 myocardial dysfunction
+patients
+acute
 viral myocarditis
-carbamazepine
-eosinophilic myocarditis
-cardiac
-hemosiderosis
-cardiogenic shock
-venous
-arterial
-sterile
+carbamazepine-induced acute eosinophilic myocarditis
+cardiac hemosiderosis
+acute cardiogenic shock
+patients
+central venous
+arterial catheters
+routine
+noninvasive
+monitoring
+introducer sheath
+pacemaker
+sterile pacing wires
+patients
+resistant
 cardiac dysrhythmias
+patients
+cardiocirculatory arrest
+associated with
+hypotension
 dysrhythmias
-ventricular
+admission
+pediatric
+intensive care unit
+PICU
+Right ventricular pacemaker wires
 cardiopulmonary resuscitation
 CPR
-cardiac
+patients
+cardiac pacing
+temporary
 rhythm
-cardiac
+restoration
+cardiac output
+patients
+event
 cardiac arrest
+resulting in
 death
+minutes
 patient
-cardiac
-sinus
-rhythm
+cardiac pacing
+normal
+sinus rhythm
+electrical defibrillation
+initiating
 CPR
-cardiac
+cardiac pacing
+resuscitative
+pediatric
+patients
 suffering
-myocardial dysfunction
-hemodynamic
+acute myocardial dysfunction
+long-term
+temporary
+hemodynamic stability
+procedure
+institute
+therapeutic modalities

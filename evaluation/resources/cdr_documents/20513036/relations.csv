@@ -1,5 +1,7 @@
 ,Subject,Action,Object,Negation
-0,injections,are,standard,False
-1,adverse effects,include,period,False
-2,we,report,cases,False
-3,cases,following,Botox,False
+0,injections,are,thyroarytenoid muscles,False
+1,injections,are,standard of care,False
+2,injections,are,adductor spasmodic dysphonia,False
+3,adverse effects,include,period,False
+4,adverse effects,include,breathiness,False
+5,adverse effects,include,swallowing liquids,False

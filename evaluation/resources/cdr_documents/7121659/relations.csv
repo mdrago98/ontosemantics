@@ -1,6 +1,10 @@
 ,Subject,Action,Object,Negation
-0,correlation,found,severity,False
-1,correlation,found,dose,False
-2,Antibodies,be,IgM,False
-3,pattern,found,patients,False
-4,pattern,raised,possibility,False
+0,patients,described,acute renal failure,False
+1,patients,described,thrombopenia,False
+2,patients,described,reintroduction,False
+3,patients,described,rifampicin,False
+4,correlation,found,severity,False
+5,correlation,found,clinical manifestations,False
+6,correlation,found,patients,False
+7,Antibodies,suggested,patients,False
+8,Antibodies,suggested,hematological disorders,False

@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,Metolachlor,classified,Group,False
+1,Study,is,cohort,False
+2,study,including,pesticide,False
+3,The Agricultural Health Study (AHS),evaluated,cancer,False
+4,The Agricultural Health Study (AHS),evaluated,2010/2011,False
+5,The Agricultural Health Study (AHS),evaluated,applicators,False
+6,%,using,metolachlor,False
+7,applicators,using,metolachlor,False
+8,The Agricultural Health Study (AHS),evaluate,Poisson,False
+9,The Agricultural Health Study (AHS),evaluate,relations,False
+10,elevations,observed,categories,False
+11,trends,were,reference,False
+12,pattern,observed,cell lymphoma,False
+13,suggestion,confirmed,update,True
+14,suggestion,is,finding,False

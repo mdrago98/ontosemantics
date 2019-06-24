@@ -1,6 +1,21 @@
 ,Subject,Action,Object,Negation
-0,study,investigate,effect,False
-1,Pretreatment,converted,dose,False
-2,Indomethacin,modulate,seizures,False
-3,acid,prevented,seizures,False
-4,non-steroidal anti-inflammatory drugs,modulate,threshold,False
+0,pilocarpine,induces,rats,False
+1,pilocarpine,induces,damage,False
+2,pilocarpine,induces,forebrain,False
+3,study,designed,effect,False
+4,study,designed,anti-inflammatory drugs,False
+5,study,designed,seizures,False
+6,study,designed,pilocarpine,False
+7,Pretreatment,converted,rats,False
+8,Pretreatment,converted,sodium salicylate,False
+9,Pretreatment,converted,non-convulsant dose,False
+10,Pretreatment,converted,pilocarpine,False
+11,Indomethacin,failed,seizures,False
+12,Indomethacin,failed,pilocarpine,False
+13,Mefenamic acid,prevented,seizures,False
+14,Mefenamic acid,prevented,rats,False
+15,Mefenamic acid,prevented,brain damage,False
+16,Mefenamic acid,prevented,pilocarpine,False
+17,results,indicate,pilocarpine-induced seizures,False
+18,anti-inflammatory drugs,indicate,pilocarpine-induced seizures,False
+19,anti-inflammatory drugs,modulate,pilocarpine-induced seizures,False

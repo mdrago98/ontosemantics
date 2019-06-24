@@ -1,7 +1,16 @@
 ,Subject,Action,Object,Negation
-0,method,permitting,measurement,False
-1,method,permitting,displacement,False
-2,coordinates,transferred,input,False
-3,substances,raised,amplitude,False
-4,period,shortened,-20,False
-5,periods,calculated,oscillations,False
+0,periods,calculated,computer program,False
+1,periods,calculated,tremor,False
+2,frequency,determined,periods,False
+3,actions,tested,fenoterol-hydrobromide,False
+4,actions,tested,healthy subjects,False
+5,actions,tested,infusion,False
+6,actions,tested,double-blind crossover study,False
+7,actions,tested,method,False
+8,substances,raised,therapeutic doses,False
+9,substances,raised,tremor,False
+10,substances,raised,control level,False
+11,period,shortened,amplitudes,False
+12,period,shortened,oscillations,False
+13,amplitudes,decreased,fenoterol-hydrobromide infusion,False
+14,amplitudes,decreased,ritodrin-HCl infusion,False

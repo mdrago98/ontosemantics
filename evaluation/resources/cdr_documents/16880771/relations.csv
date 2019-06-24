@@ -1,17 +1,47 @@
 ,Subject,Action,Object,Negation
-0,dopamine,plays,role,False
+0,dopamine,plays,salience coding,False
 1,dopamine,plays,associative learning,False
-2,levodopa,increases,phasic,False
-3,levodopa,increases,neurotransmission,False
-4,mechanism,mediating,enhancement,False
-5,subjects,trained,vocabulary,False
-6,subjects,trained,design,False
-7,Subjects,received,dopamine-receptor,False
-8,Subjects,received,min,False
-9,Subjects,received,placebo,False
-10,Subjects,treated,pergolide,False
-11,Subjects,showed,responses,False
-12,occupation,learning,competition,False
-13,signaling,be,associative learning,False
-14,signaling,be,mechanism,False
-15,signaling,be,stroke,False
+2,Administration,enhances,dopamine precursor,False
+3,Administration,enhances,healthy subjects,False
+4,levodopa,increases,phasic,False
+5,levodopa,is,phasic,False
+6,levodopa,is,enhancement,False
+7,levodopa,is,learning,False
+8,mechanism,is,phasic,False
+9,mechanism,is,enhancement,False
+10,mechanism,is,learning,False
+11,dopaminergic stimulation,probed,associative learning,False
+12,dopaminergic stimulation,affects,associative learning,False
+13,healthy subjects,trained,vocabulary,False
+14,healthy subjects,trained,nouns,False
+15,healthy subjects,trained,course,False
+16,healthy subjects,trained,training,False
+17,healthy subjects,trained,placebo-controlled design,False
+18,randomized,trained,vocabulary,False
+19,randomized,trained,nouns,False
+20,randomized,trained,course,False
+21,randomized,trained,training,False
+22,randomized,trained,placebo-controlled design,False
+23,Subjects,received,dopamine-receptor agonist pergolide,False
+24,Subjects,received,training,False
+25,Subjects,received,training,False
+26,dopamine agonist,impaired,word learning,False
+27,dopamine agonist,impaired,placebo,False
+28,Subjects,showed,pergolide,False
+29,Subjects,showed,emotional responses,False
+30,Subjects,showed,PLACEBO,False
+31,findings,suggest,dopamine receptors,False
+32,findings,suggest,competition,False
+33,findings,suggest,dopamine,False
+34,occupation,suggest,dopamine receptors,False
+35,occupation,suggest,competition,False
+36,occupation,suggest,dopamine,False
+37,occupation,impairs,dopamine receptors,False
+38,occupation,impairs,competition,False
+39,occupation,impairs,dopamine,False
+40,signaling,seems,associative learning,False
+41,signaling,seems,healthy subjects,False
+42,dopamine,seems,associative learning,False
+43,dopamine,seems,healthy subjects,False
+44,dopamine,enhances,associative learning,False
+45,dopamine,enhances,healthy subjects,False

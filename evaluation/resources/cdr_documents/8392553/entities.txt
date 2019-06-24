@@ -1,43 +1,84 @@
-calcium
-antagonist
-epinephrine
-cardiomyopathy
+investigated
+effects of
+clentiazem
+1,5-benzothiazepine calcium antagonist
+epinephrine-induced cardiomyopathy
 rats
+chronic
 epinephrine
+infusion
 rats
 died
+days
+severe
+ischemic lesions
 fibrosis
 left ventricles
-epinephrine
+epinephrine-treated
 rats
-atrial
-ventricular
-papillary muscle
-contractile
+left atrial
+left ventricular papillary muscle
+contractile responses
 isoproterenol
+reduced
+responses
 calcium
-ventricular
+normal
+enhanced
+compared
+controls
+Left ventricular alpha
 beta adrenoceptor
-epinephrine
-death
-ventricular
+densities
+reduced
+compared
+controls
+Treatment
+clentiazem
+epinephrine-induced death
+attenuated
+ventricular ischemic
 fibrosis
-atrial
-ventricular
-papillary muscle
-contractile
+dose-dependent
+Left atrial
+left ventricular papillary muscle
+contractile responses
 isoproterenol
+reduced
+controls
+groups
+treated with
+clentiazem
 epinephrine
-atrial
-ventricular
+clentiazem
+left atrial responses
+enhanced
+left ventricular papillary
+responses
 isoproterenol
-epinephrine
+hand clentiazem
+epinephrine-induced
 down-regulation
+alpha
+beta adrenoceptors
+clentiazem
+infused
+decreased
+adrenergic receptor
+densities
 left ventricle
+enhanced
+responses
 calcium
-epinephrine
+epinephrine-treated animals
+high dose
+clentiazem
+attenuated
+response
 calcium
-epinephrine
-epinephrine
-cardiac
-pathway
+epinephrine-treated animals
+clentiazem
+attenuated
+epinephrine-induced cardiac injury
+effect
+adrenergic pathway

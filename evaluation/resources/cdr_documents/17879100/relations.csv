@@ -1,11 +1,14 @@
 ,Subject,Action,Object,Negation
-0,Acute tubulo-interstitial nephritis,is,cause,False
-1,acute renal failure,resulting,variety,False
-2,insults,including,injury,False
-3,drugs,are,cause,False
-4,We,report,boy,False
-5,who,developed,acute renal failure,False
-6,who,developed,surgery,False
-7,a 14-year-old boy who developed acute renal failure 2 weeks after aortic valve surgery,put,aspirin,False
-8,a 14-year-old boy who developed acute renal failure 2 weeks after aortic valve surgery,needed,dialysis,False
-9,a 14-year-old boy who developed acute renal failure 2 weeks after aortic valve surgery,needed,weeks,False
+0,ATIN,remains,entity,False
+1,symptoms,remains,entity,False
+2,medication,remains,entity,False
+3,aortic valve surgery,report,boy,False
+4,aortic valve surgery,report,acute renal failure 2,False
+5,aortic valve surgery,report,weeks,False
+6,aortic valve surgery,developed,acute renal failure 2,False
+7,aortic valve surgery,developed,weeks,False
+8,creatinine,presented,emergency department feeling quite,False
+9,creatinine,presented,ill,False
+10,creatinine,presented,blood urea nitrogen,False
+11,kidney biopsy,showed,inflammatory infiltrate,False
+12,kidney biopsy,showed,ATIN,False

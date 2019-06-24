@@ -1,31 +1,76 @@
 children
-heart
+aged
+months
+years
+age
+heart transplantation
+Indications
+transplantation
 idiopathic cardiomyopathy
 congenital heart disease
 repair
 hypertrophic cardiomyopathy
 valvular heart disease
-doxorubicin
-cardiomyopathy
+doxorubicin cardiomyopathy
+Patients
 cyclosporine
 azathioprine
+prophylaxis
 antilymphocyte globulin
 Steroids
+patients
+refractory rejection
 weaning
+attempted
+patients
+maintenance
 steroids
+patients
 died
+perioperative
+period
 died
-deaths
+months
+rejection
 infection
+follow-up
+months
+months
+Cumulative survival
+years
+patients
+years
+age
+rejection
+monitored
+noninvasively
+postoperative
+month
+patients
+treated
+rejection
+Freedom
 infections
+month
+year
 Cytomegalovirus infections
+treated
 ganciclovir
-impairment
+patients
 growth
 children
+transplantation
+control population
+patients
+annual
+catheterizations
 graft
 atherosclerosis
 Seizures
+patients
 hypertension
+treated
+patients
 patient
-lymphoproliferative disorder
+disabled
+no lymphoproliferative disorder

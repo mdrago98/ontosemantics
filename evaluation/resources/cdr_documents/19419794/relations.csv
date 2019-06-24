@@ -1,9 +1,25 @@
 ,Subject,Action,Object,Negation
-0,impairment,measured,lesioned,False
-1,lesion,produced,motor,False
-2,parameters,estimated,CPu,False
-3,mice,exhibited,MDA,False
-4,mice,exhibited,iNOS protein expression,False
-5,Treatment,resulted,dyskinesias,False
-6,lack,increased,severity,False
-7,activation,offers,neuroprotection,False
+0,Motor impairment,measured,CB1,False
+1,caudate-putamen,measured,CB1,False
+2,lesion,produced,6-OHDA,False
+3,lesion,produced,motor deterioration,False
+4,lesion,produced,CB1,False
+5,lesion,produced,loss,False
+6,lesion,produced,CPu,False
+7,parameters,estimated,CPu,False
+8,Treatment,resulted,L-DOPA+benserazide,False
+9,Treatment,resulted,dyskinesias,False
+10,Treatment,resulted,CB1,False
+11,Treatment,resulted,WT mice,False
+12,results,suggest,CB1 receptors,False
+13,results,suggest,neuroprotection,False
+14,results,suggest,dopaminergic lesion,False
+15,results,suggest,L-DOPA-induced dyskinesias,False
+16,activation,suggest,CB1 receptors,False
+17,activation,suggest,neuroprotection,False
+18,activation,suggest,dopaminergic lesion,False
+19,activation,suggest,L-DOPA-induced dyskinesias,False
+20,activation,offers,CB1 receptors,False
+21,activation,offers,neuroprotection,False
+22,activation,offers,dopaminergic lesion,False
+23,activation,offers,L-DOPA-induced dyskinesias,False

@@ -1,8 +1,22 @@
 ,Subject,Action,Object,Negation
-0,pain,occurs,negroes,False
-1,incidence,determined,study,False
-2,study,involving,total,False
-3,%,developed,scoline,False
-4,abolition,influence,occurrence,True
-5,preparation,used,chloride,False
-6,type,affected,incidence,False
+0,scoline pain,occurs,report,False
+1,scoline pain,occurs,Coxon,False
+2,scoline pain,occurs,African negroes,False
+3,incidence,determined,prospective study,False
+4,incidence,determined,patients,False
+5,out-patients,determined,prospective study,False
+6,out-patients,determined,patients,False
+7,out-patients,involving,patients,False
+8,abolition,influence,muscle fasciculations,True
+9,abolition,influence,0.075mg/kg,True
+10,abolition,influence,Fazadinium,True
+11,abolition,influence,occurrence,True
+12,abolition,influence,scoline pain,True
+13,Althesin,affected,induction agent,False
+14,Althesin,affected,suxamethonium,False
+15,Althesin,affected,incidence,False
+16,Althesin,affected,scoline pain,False
+17,chloride,affected,induction agent,False
+18,chloride,affected,suxamethonium,False
+19,chloride,affected,incidence,False
+20,chloride,affected,scoline pain,False

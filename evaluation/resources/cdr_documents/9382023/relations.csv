@@ -1,4 +1,9 @@
 ,Subject,Action,Object,Negation
-0,response,defined,blood pressure,False
-1,response,occurred,patients,False
-2,Patients,had,history,False
+0,hypertensive response,occurred,dobutamine stress echocardiographic studies,False
+1,hypertensive response,occurred,systolic blood pressure,False
+2,hypertensive response,occurred,patients,False
+3,Patients,had,response,False
+4,Patients,had,history of,False
+5,Patients,had,hypertension,False
+6,Patients,had,resting systolic,False
+7,Patients,had,dobutamine,False

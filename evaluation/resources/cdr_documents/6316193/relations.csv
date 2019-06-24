@@ -1,7 +1,39 @@
 ,Subject,Action,Object,Negation
-0,cholecystokinin octapeptide sulphate ester,enhanced,latency,False
-1,C-terminal tetrapeptide,was,centre,False
-2,analogues,showed,dose,False
-3,analogues,showed,inhibition,False
-4,peptide CCK-5-8,had,activity,False
-5,peptide CCK-5-8,had,comparison,False
+0,administration,enhanced,cholecystokinin octapeptide sulphate ester,False
+1,administration,enhanced,latency,False
+2,administration,enhanced,seizures,False
+3,administration,enhanced,picrotoxin,False
+4,administration,enhanced,mice,False
+5,Experiments,revealed,N-,False
+6,Experiments,revealed,CCK octapeptide molecule,False
+7,C-terminal tetrapeptide,revealed,N-,False
+8,C-terminal tetrapeptide,revealed,CCK octapeptide molecule,False
+9,analogues,showed,bell-shaped dose-effect curves,False
+10,analogues,showed,maximum,False
+11,analogues,showed,CCK-8-NS,False
+12,CCK-8-SE,showed,bell-shaped dose-effect curves,False
+13,CCK-8-SE,showed,maximum,False
+14,CCK-8-SE,showed,CCK-8-NS,False
+15,peptide CCK-5,had,anticonvulsant activity,False
+16,peptide CCK-5,had,octapeptides,False
+17,peptide CCK-5,had,reference drug,False
+18,peptide CCK-5,had,picrotoxin-induced seizures,False
+19,comparison,had,anticonvulsant activity,False
+20,comparison,had,octapeptides,False
+21,comparison,had,reference drug,False
+22,comparison,had,picrotoxin-induced seizures,False
+23,Experiments,demonstrated,analogues,False
+24,Experiments,demonstrated,CCK-5,False
+25,Experiments,demonstrated,beta-alanyl derivatives,False
+26,Experiments,demonstrated,CCK-5,False
+27,Experiments,demonstrated,CCK-8-SE,False
+28,effectiveness,demonstrated,analogues,False
+29,effectiveness,demonstrated,CCK-5,False
+30,effectiveness,demonstrated,beta-alanyl derivatives,False
+31,effectiveness,demonstrated,CCK-5,False
+32,effectiveness,demonstrated,CCK-8-SE,False
+33,effectiveness,enhanced,beta-alanyl derivatives,False
+34,effectiveness,enhanced,CCK-5,False
+35,effectiveness,enhanced,CCK-8-SE,False
+36,Hyp(SO3H)-Ac-CCK-2-8-SE,were,CCK-2,False
+37,Hyp(SO3H)-Ac-CCK-2-8-SE,were,CCK-8-SE,False

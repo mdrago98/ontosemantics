@@ -1,10 +1,46 @@
+Cases
+delayed
 hemolytic anemia
-artesunate
+treatment
+injectable artesunate
+World Health Organization
+first-line drug
+treatment
+severe
 malaria
-artesunate
+patients
+years
+age
+years
+age
+followed-up
+treatment
+injectable artesunate
+severe
 malaria
+hospitals
+health centers
+Democratic Republic
+Congo
 hemoglobin
 Hb
+measurements
+patients
+decrease
 Hb
+levels
+detected
+patients
+follow-up
+period
+patients
 Hb
+levels
+decreased
+follow-up
+visit
+cases
+delayed
 anemia
+clinically
+month

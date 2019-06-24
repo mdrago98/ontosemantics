@@ -1,4 +1,7 @@
 ,Subject,Action,Object,Negation
-0,symptoms,recognised,problem,False
-1,marmoset,used,model,False
-2,we,compare,time,False
+0,Neuropsychiatric symptoms,recognised,problem,False
+1,Neuropsychiatric symptoms,recognised,patients,False
+2,Neuropsychiatric symptoms,recognised,Parkinson's disease,False
+3,MPTP-lesioned marmoset,used,model,False
+4,MPTP-lesioned marmoset,used,neuropsychiatric symptoms,False
+5,MPTP-lesioned marmoset,used,PD,False

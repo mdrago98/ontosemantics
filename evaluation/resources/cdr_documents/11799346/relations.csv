@@ -1,21 +1,54 @@
 ,Subject,Action,Object,Negation
 0,authors,reviewed,cases,False
-1,reports,requested,World,False
-2,reports,found,literature,False
-3,There,were,clarithromycin,False
-4,WHO,reported,cases,False
-5,clarithromycin,implicated,cases,False
-6,Cotrimoxazole,involved,episodes,False
-7,Cases,be,clarithromycin,False
-8,Cases,be,associated,False
-9,Cases,be,ciprofloxacin,False
-10,analysis,demonstrated,risk,True
-11,Patients,have,risk,False
-12,risk,developing,mania,False
-13,risk,treated,antimicrobials,False
-14,research,determine,incidence,False
-15,factors,developing,manic episode,False
-16,who,have,affective disorders,False
-17,patients,have,affective disorders,False
-18,patient,taking,antibiotics,False
-19,authors,name,antibiomania,False
+1,authors,reviewed,reports,False
+2,authors,reviewed,antibiotic-induced mania,False
+3,Unpublished reports,requested,World Health Organization,False
+4,case,were,clarithromycin,False
+5,case,were,isoniazid,False
+6,case,were,erythromycin,False
+7,case,implicating,erythromycin,False
+8,WHO,reported,cases,False
+9,clarithromycin,implicated,cases,False
+10,clarithromycin,implicated,cases,False
+11,clarithromycin,implicated,cases,False
+12,Cotrimoxazole,involved,manic episodes,False
+13,Cases,showed,FDA,False
+14,Cases,showed,clarithromycin,False
+15,Cases,showed,development,False
+16,Cases,showed,mania,False
+17,Statistical analysis,demonstrated,data,True
+18,Statistical analysis,demonstrated,correlative risk,True
+19,Patients,have,risk,False
+20,Patients,have,mania,False
+21,Patients,have,antimicrobials,False
+22,physicians,be,effect,False
+23,research,required,incidence,False
+24,research,required,antimicrobial-induced mania,False
+25,patient,occurs,antibiotics,False
+26,patient,taking,antibiotics,False
+27,research,subsides,incidence,False
+28,research,subsides,antimicrobial-induced mania,False
+29,research,subsides,episode,False
+30,research,subsides,demographic populations,False
+31,research,subsides,patients,False
+32,research,subsides,affective disorders,False
+33,research,subsides,episode,False
+34,research,subsides,antibiotics,False
+35,relative risk factors,subsides,incidence,False
+36,relative risk factors,subsides,antimicrobial-induced mania,False
+37,relative risk factors,subsides,episode,False
+38,relative risk factors,subsides,demographic populations,False
+39,relative risk factors,subsides,patients,False
+40,relative risk factors,subsides,affective disorders,False
+41,relative risk factors,subsides,episode,False
+42,relative risk factors,subsides,antibiotics,False
+43,patient,subsides,incidence,False
+44,patient,subsides,antimicrobial-induced mania,False
+45,patient,subsides,episode,False
+46,patient,subsides,demographic populations,False
+47,patient,subsides,patients,False
+48,patient,subsides,affective disorders,False
+49,patient,subsides,episode,False
+50,patient,subsides,antibiotics,False
+51,authors,elected,syndrome,False
+52,authors,elected,antibiomania,False

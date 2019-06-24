@@ -1,2 +1,12 @@
-fluocinolone
+report
+treatment
+outcomes
+fluocinolone acetonide
+intravitreal
+implant
+patients
 birdshot retinochoroidopathy
+disease
+refractory
+intolerant
+immunomodulatory therapy

@@ -1,7 +1,11 @@
 ,Subject,Action,Object,Negation
 0,Lorazepam,used,frequency,False
 1,Lorazepam,used,sedative,False
-2,Concern,raised,regard,False
-3,Concern,raised,VLBW,False
-4,myoclonus,following,administration,False
-5,lorazepam,used,caution,False
+2,Lorazepam,used,newborn,False
+3,Concern,raised,safety,False
+4,Concern,raised,lorazepam,False
+5,Concern,raised,age group,False
+6,Concern,raised,very-low-birth-weight,False
+7,effects,discussed,drug,False
+8,effects,discussed,population,False
+9,Injectable lorazepam,used,VLBW infants,False

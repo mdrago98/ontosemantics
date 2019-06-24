@@ -1,21 +1,36 @@
 ,Subject,Action,Object,Negation
-0,patients,followed,infection,False
-1,patients,received,Aza,False
-2,others,received,cyclosporine,False
-3,others,received,prednisone,False
-4,patients,had,infections,False
-5,patients,had,P,False
+0,renal,followed,infection,False
+1,patients,followed,infection,False
+2,patients,received,azathioprine,False
+3,patients,received,randomized trial,False
+4,patients,received,immunosuppression,False
+5,patients,received,patients,False
 6,patients,had,infections,False
-7,patients,had,infections,False
-8,There,were,deaths,True
-9,infection,played,role,False
-10,infection,played,3,False
-11,patients,had,bacteremias,False
-12,Analysis,showed,preponderance,False
-13,Pulmonary infections,were,patients,False
-14,patients,had,staphylococcal infections,False
-15,fungal infections,occurred,liver,False
-16,%,had,symptoms,False
-17,evidence,found,%,False
-18,Three,had,associated symptoms,False
-19,one,developed,lymphoma,False
+7,patients,had,patients,False
+8,Heart,had,infections,False
+9,Heart,had,cyclosporine renal,False
+10,Heart,had,Aza renal,False
+11,patients,had,infections,False
+12,patients,had,cyclosporine renal,False
+13,patients,had,Aza renal,False
+14,infection,were,patients,False
+15,infection,were,cyclosporine,False
+16,infection,were,deaths,False
+17,infection,were,liver transplant,False
+18,infection,played,deaths,False
+19,infection,played,liver transplant,False
+20,patients,had,cyclosporine,False
+21,patients,had,bacteremias,False
+22,Analysis,showed,infection,False
+23,Analysis,showed,abdominal infections,False
+24,Analysis,showed,liver,False
+25,Analysis,showed,heart patients,False
+26,Analysis,showed,patients,False
+27,patients,had,staphylococcal infections,False
+28,patients,had,transplant groups,False
+29,patients,had,liver transplant,False
+30,shedding,occurred,antibody titer,False
+31,shedding,occurred,cyclosporine,False
+32,shedding,occurred,Aza,False
+33,Serological evidence,found,Epstein Barr Virus infection,False
+34,Serological evidence,found,cyclosporine,False

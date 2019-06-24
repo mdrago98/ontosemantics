@@ -1,5 +1,15 @@
 ,Subject,Action,Object,Negation
-0,Levodopa-induced ocular dyskinesias,occur,limb,False
-1,We,report,patient,False
-2,We,report,effect,False
-3,denervation,needed,appearance,False
+0,dopaminergic denervation,report,patient,False
+1,dopaminergic denervation,report,deviations,False
+2,dopaminergic denervation,report,gaze,False
+3,dopaminergic denervation,report,peak effect,False
+4,dopaminergic denervation,report,levodopa,False
+5,dopaminergic denervation,report,caudate nucleus,False
+6,dopaminergic denervation,report,appearance,False
+7,dopaminergic denervation,report,ocular dyskinesias,False
+8,dopaminergic denervation,hypothesize,caudate nucleus,False
+9,dopaminergic denervation,hypothesize,appearance,False
+10,dopaminergic denervation,hypothesize,ocular dyskinesias,False
+11,dopaminergic denervation,needed,caudate nucleus,False
+12,dopaminergic denervation,needed,appearance,False
+13,dopaminergic denervation,needed,ocular dyskinesias,False

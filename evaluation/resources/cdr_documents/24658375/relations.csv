@@ -1,8 +1,6 @@
 ,Subject,Action,Object,Negation
-0,retinoic acid,associated,adverse effects,False
-1,adverse effects,involving,organ systems,False
-2,organ systems,including,involvement,False
-3,We,present,case,False
-4,recognition,played,role,False
-5,role,making,diagnosis,False
-6,boy,facilitated,treatment,False
+0,All-trans retinoic acid,associated with,standard therapy,False
+1,All-trans retinoic acid,associated with,acute promyelocytic leukemia,False
+2,All-trans retinoic acid,associated with,adverse effects,False
+3,All-trans retinoic acid,associated with,organ systems,False
+4,All-trans retinoic acid,associated with,involvement,False

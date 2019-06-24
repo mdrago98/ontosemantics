@@ -1,38 +1,69 @@
+tuberoinfundibular dopaminergic
+TIDA
+inhibit
 prolactin
 PRL
 secretion
-serum PRL
-lost
-aging
-rats
+young
+system
+acute
+elevations
 serum
 PRL
+activity
+responsiveness
+lost
+aging rats
+chronically
+PRL
+levels
+study
+induce
 hyperprolactinemia
 rats
+extended
 periods
+effects
+dopaminergic systems
 brain
 Hyperprolactinemia
+induced
+treatment
 haloperidol
-dopamine receptor antagonist
+dopamine receptor
+antagonist
+Palkovits' microdissection technique
+high-performance liquid chromatography
+measure
 neurotransmitter
+concentrations
 brain
+months
 hyperprolactinemia
 dopamine
 DA
+concentrations
 median eminence
 ME
+increased
+control group
+months
 hyperprolactinemia
+increase
 DA
+concentrations
 ME
-DA
-lost
-haloperidol
+control group
+DA response
 hyperprolactinemia
+increase
 serum
 PRL
+levels
 implantation
 MMQ cells
 kidney capsule
+levels
 DA
 norepinephrine
 NE
@@ -49,17 +80,30 @@ substantia nigra
 SN
 zona incerta
 ZI
+decrease
 5-hydroxyindoleacetic acid
 5-HIAA
 AN
+6-months
 hyperprolactinemia
+increase
 DA
+concentrations
 AN
+9-months
 hyperprolactinemia
+results
 hyperprolactinemia
+TIDA
 neurons
+effects
+duration
+intensity
 hyperprolactinemia
+age-related decrease
 hypothalamic
-dopamine
+dopamine function
+associated with
+increases
 PRL
 secretion

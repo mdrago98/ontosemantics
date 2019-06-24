@@ -1,7 +1,17 @@
-early afterdepolarization
+study
+phase 2
 EAD
 torsade de pointes
 TdP
-sotalol
+QT
+prolongation
+induced
+dl-sotalol
+azimilide
+transmural dispersion of repolarization
+TDR
+transmural propagation
 EAD
+maintenance
 TdP
+evaluated

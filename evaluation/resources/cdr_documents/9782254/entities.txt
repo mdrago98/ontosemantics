@@ -1,14 +1,64 @@
+patients
+medically refractory
 Parkinson's disease
+stereotactic posteromedial
+treatment
 bradykinesia
 rigidity
-L-DOPA
+L-DOPA-induced dyskinesias
+patients
+pallidotomies
+Leksell Gamma Knife
+standard radiofrequency (
+Clinical assessment
+blinded ratings
+Unified
+Parkinson's Disease Rating Scale
+UPDRS
+scores
+pre-
+postoperatively
+follow-up time
+months
+patients
+year
+patients
 dyskinesias
-Parkinson's Disease
-dyskinesias
+symptoms
+pallidotomies
+Gamma Knife
+radiofrequency methods
+patients
+Gamma Knife
+radiofrequency groups
+improvements
 bradykinesia
 rigidity
+group
+Gamma Knife
+radiofrequency group
+statistically significant
+improvements
+UPDRS
+scores
 patient
-confused
+Gamma Knife group
+homonymous hemianopsia 9
+months
+treatment
+patients
+radiofrequency group
+transiently
+postoperatively
+complications
+Gamma Knife pallidotomy
+radiofrequency pallidotomy
+controlling
+symptoms
 Parkinson's disease
+technique
+patients
 anticoagulants
-bleeding
+bleeding diatheses
+systemic medical illnesses
+patients

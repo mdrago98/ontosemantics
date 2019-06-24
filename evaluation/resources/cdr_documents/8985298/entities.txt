@@ -1,25 +1,72 @@
 Lamivudine
+novel
 cytosine
-hepatitis B virus replication
-blind
-hepatitis B surface antigen
+analogue
+inhibitory
+effects
+hepatitis B virus
+in vitro
+in vivo
+single-blind
+placebo-controlled study
+effectiveness
+safety
+Chinese hepatitis B surface antigen
 HBsAg
+carriers
+Chinese
 HBsAg
+carriers
+randomized
+placebo
+patients
 lamivudine
 orally
+dosages
+patients
+dosage
+drug
+weeks
+patients
+monitored
+clinically
+biochemically
+serologically
+weeks
+drug treatment
+patients
 lamivudine
+decrease
 hepatitis B virus
-HBV
+placebo
 lamivudine
+effective
+induced
 suppression
-HBV
-HBV
+HBV DNA
+therapy
+HBV DNA values
+pretreatment
+levels
+weeks
+cessation
+therapy
 hepatitis B e antigen
+aminotransferase levels
+adverse events
 lamivudine
+effective
 suppression
-HBV
+HBV DNA
+Chinese
 HBsAg
+carriers
 suppression
+reversible
+Studies
+long-term
 lamivudine
+administration
+prolonged
 suppression
-HBV
+HBV DNA

@@ -1,14 +1,32 @@
 ,Subject,Action,Object,Negation
-0,effects,determined,subjects,False
-1,cortisol,determined,subjects,False
-2,patients,meeting,DSM,False
-3,Caffeine,produced,increases,False
-4,symptoms,correlated,plasma,False
-5,Caffeine,alter,plasma,True
-6,Caffeine,alter,subjects,True
-7,Caffeine,increased,plasma,False
-8,Caffeine,increased,patient,False
-9,Caffeine,increased,groups,False
-10,caffeine,is,adenosine receptor antagonist,False
-11,patients,have,abnormalities,False
-12,abnormalities,involving,adenosine,False
+0,effects of,determined,oral administration,False
+1,effects of,determined,caffeine,False
+2,effects of,determined,behavioral ratings,False
+3,effects of,determined,3-methoxy-4-hydroxyphenethyleneglycol (,False
+4,effects of,determined,healthy subjects,False
+5,effects of,determined,DSM-III criteria,False
+6,effects of,determined,agoraphobia,False
+7,effects of,determined,panic attacks,False
+8,Caffeine,produced,increases,False
+9,Caffeine,produced,subject-rated anxiety,False
+10,Caffeine,produced,patients,False
+11,symptoms,correlated,patients,True
+12,symptoms,correlated,plasma,False
+13,effects,reported,patients,False
+14,effects,reported,caffeine,False
+15,effects,reported,panic attacks,False
+16,Caffeine,alter,plasma,True
+17,Caffeine,alter,healthy subjects,True
+18,Caffeine,increased,plasma,False
+19,Caffeine,increased,patient,False
+20,caffeine,suggest,abnormalities,False
+21,caffeine,suggest,neuronal systems,False
+22,caffeine,suggest,adenosine,False
+23,patients,suggest,abnormalities,False
+24,patients,suggest,neuronal systems,False
+25,patients,suggest,adenosine,False
+26,patients,have,abnormalities,False
+27,patients,have,neuronal systems,False
+28,patients,have,adenosine,False
+29,Patients,benefit,anxiety disorders,False
+30,Patients,benefit,caffeine-containing foods,False

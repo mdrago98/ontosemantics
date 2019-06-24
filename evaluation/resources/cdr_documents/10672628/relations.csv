@@ -1,7 +1,12 @@
 ,Subject,Action,Object,Negation
-0,L-arginine,induces,mice,False
-1,effect,undergoes,tolerance,False
-2,Nitric oxide,influence,neurotransmission,False
-3,which,block,dopamine receptors,False
-4,drugs,cause,catalepsy,False
-5,drugs,cause,rodents,False
+0,NG-nitro-L-arginine (,induces,nitric-oxide synthase,False
+1,NG-nitro-L-arginine (,induces,catalepsy,False
+2,NG-nitro-L-arginine (,induces,mice,False
+3,effect,undergoes,decrease,False
+4,effect,undergoes,days,False
+5,effect,undergoes,L-NOARG,False
+6,Nitric oxide,shown,dopaminergic neurotransmission,False
+7,Nitric oxide,shown,striatum,False
+8,Neuroleptic drugs,cause,haloperidol,False
+9,Neuroleptic drugs,cause,catalepsy,False
+10,Neuroleptic drugs,cause,rodents,False

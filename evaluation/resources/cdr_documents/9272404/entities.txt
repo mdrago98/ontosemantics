@@ -1,7 +1,20 @@
-central pain
-somatosensory evoked potential
-mucosal
+test
+assessment
+central pain-related signal
+chemo-somatosensory evoked potential
+CSSEP
+peripheral signal
+negative mucosal potential
 NMP
 separation
+central
+peripheral effects
 NSAIDs
+experimental conditions
 NSAIDs
+effects
+phasic
+tonic pain
+central
+peripheral
+mechanisms

@@ -1,13 +1,21 @@
 ,Subject,Action,Object,Negation
-0,Rats,treated,ppm,False
-1,Rats,treated,diet,False
-2,lesion,associated,cardiac hypertrophy,False
-3,lesion,associated,dilatation,False
-4,lesion,associated,myocardial degeneration,False
+0,Rats,developed,ppm,False
+1,Rats,developed,diet,False
+2,Rats,developed,incidence,False
+3,Rats,developed,left atrial thrombosis,False
+4,lesion,associated with,cardiac hypertrophy,False
 5,Rats,died,cardiac hypertrophy,False
-6,Rats,died,acute,False
-7,Rats,died,chronic congestion,False
-8,percent,given,hydrochloride,False
-9,percent,given,nitrite,False
-10,rats,have,atrial thrombosis,True
-11,Sodium,have,effect,True
+6,Rats,died,chronic congestion,False
+7,Rats,died,lungs,False
+8,rats,had,rats,False
+9,rats,had,ppm,False
+10,rats,had,diet,False
+11,rats,had,thrombosis,False
+12,rats,had,atria,False
+13,rats,had,heart,False
+14,rats,had,laboratory,False
+15,rats,had,atrial thrombosis,False
+16,rats,have,laboratory,True
+17,rats,have,atrial thrombosis,True
+18,Sodium nitrite,appeared,quinacrine hydrochloride,False
+19,Sodium nitrite,appeared,effect,True

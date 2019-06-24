@@ -1,27 +1,54 @@
 cancer
-encephalopathy
+patients
+episodes
+transient
+hyperammonemic encephalopathy
+infusion
 5-fluorouracil
 5-FU
+identified
+patients
+decompensated
 liver disease
-encephalopathy
+hyperammonemic encephalopathy
+days
+days
+initiation
+chemotherapy
 Plasma
 ammonium
+level
+microg%
+episodes
+degrees
 azotemia
 bacterial infections
 infection
 periods
 dehydration
 plasma
-ammonium
 hyperammonemia
+patients
 bacterial infections
+patients
+doses
 5-FU
-plasma
-ammonium
-encephalopathy
+episodes
+plasma ammonium
+mental status
+normal
+days
+adequate
+management
+hyperammonemic encephalopathy
+patients
+infusion
 5-FU
 Azotemia
-body fluid
+body fluid insufficiency
 bacterial infections
+patients
 condition
+patients
+infusion
 5-FU

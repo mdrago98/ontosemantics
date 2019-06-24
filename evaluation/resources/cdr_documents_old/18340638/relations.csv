@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,Azathioprine,used,drug,False
+1,effects,include,anemia,False
+2,anemia,result,erythrocyte,False
+3,which,characterized,erythrocyte,False

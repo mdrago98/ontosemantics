@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
-0,We,report,infant,False
-1,fact,prescribing,vitamin A,False
+0,anotia,report,newborn infant,False
+1,anotia,report,multiple congenital anomalies,False
+2,anotia,report,exposure to,False
+3,anotia,report,isotretinoin,False
+4,anotia,report,trimester,False

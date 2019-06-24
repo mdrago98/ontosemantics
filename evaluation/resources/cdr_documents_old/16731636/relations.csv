@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,deficiency,increase,sensitivity,False
+1,Iso,induced,increase,False
+2,Iso,induced,TGR,False
+3,LV hypertrophy,was,TGR,False
+4,LV hypertrophy,was,g,False
+5,LV hypertrophy,was,LV,False
+6,LV hypertrophy,was,body,False
+7,LV hypertrophy,associated,downregulation,False
+8,decrease,attenuated,TGR,False

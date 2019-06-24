@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,authors,examined,effects,False
+1,injection,induced,tonic,False
+2,injection,induced,clonic seizure,False
+3,Scopolamine,prevented,development,False
+4,kg,prevented,development,False
+5,seizure,measured,EEG,False
+6,seizure,appeared,group,False
+7,Scopolamine,blocked,seizure,False
+8,treatment,augmented,seizure,False
+9,Pilocarpine,produced,death,False
+10,Pilocarpine,produced,hippocampus,False
+11,which,showed,changes,False
+12,scopolamine,protected,brain,False
+13,pyramidal cells,appeared,darker,False
+14,elevation,cause,brain,False

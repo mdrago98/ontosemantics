@@ -1,33 +1,70 @@
+aim
+patients
 panic disorder
 PD
-major depression with panic attacks
+patients
+depression
+panic attacks
 MDP
-Mental Disorders
+Diagnostic and Statistical Manual of Mental Disorders
+induction
 panic attacks
 oral
-caffeine
+patients
 PD
 MDP
-major depression
+depression
 panic attacks
+MD
+healthy volunteers
+patients
 psychotropic drug
-blind
+period
+randomized double-blind experiment
+occasions
+days
 caffeine
-caffeine
+caffeine-free
+administered
 coffee
-scales
+anxiety
+test
+patients
+PD
+patients
+MDP
+patients
+MD
+control subjects
+panic attack
+caffeine challenge test
+patients
 PD
 MDP
+sensitive
+caffeine
+patients
+MD
+healthy volunteers
 panic attack
-caffeine
-PD
-MDP
-caffeine
-panic attack
-caffeine
-heart
+caffeine-free solution intake
+patients
+MD
+lower
+heart rate
+response
+test
+groups
+2-way analysis of variance
+group
+Greenhouse-Geisser correction
+F(3,762
+data
+association
 panic attacks
+no matter
+associated with
 PD
 MDP
+hyperreactivity
 oral
-caffeine

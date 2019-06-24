@@ -1,12 +1,28 @@
+reports
 asterixis
 side effect
+treatment
+psychopharmacologic agents
+patients
+treated with
+combination
 psychotropic drugs
 asterixis
 carbamazepine
 CBZ
+treatment regimen
+increasing
+dosage
+dosage
 serum
 CBZ
 asterixis
+neurotoxicity
+low
+moderate
+dosage
+drugs
 lithium
 clozapine
+combination
 CBZ

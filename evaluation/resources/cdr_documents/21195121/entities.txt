@@ -1,22 +1,74 @@
 Lindane
-pesticide
+organochloride pesticide
+scabicide
 convulsions
+blockage
 GABA(A) receptors
 Nitric oxide
 NO
+gaseous
 neurotransmitter
+epileptogenesis
+effects
 L-arginine
+precursor
 NO
-NAME
-NOS inhibitor
+NOS
+L-NAME
+NOS
+inhibitor
 epilepsy
+models
+study
+effects of
 NO
 behavioral
-lindane
-epilepsy
-albino
-rats
+EEG
+characteristics
+lindane-induced epilepsy
+male
+Wistar albino
+administration
 L-arginine
+dose-dependent
+increased
 convulsion
+incidence
+severity
+latency time
 convulsion
+elicited
+lindane dose
+pretreatment
+L-NAME
+decreased
+convulsion
+incidence
+severity
+prolonged
+latency time
+convulsion
+injection
+convulsive dose
 lindane
+EEG
+analyses
+increase
+number
+duration
+ictal
+periods
+EEG
+rats
+l-arginine
+lindane
+decrease
+rats
+pretreated
+L-NAME
+NO
+endogenous
+convulsant
+rat
+model
+lindane seizures

@@ -1,21 +1,10 @@
 ,Subject,Action,Object,Negation
-0,who,had,episodes,False
-1,None,decompensated,liver disease,True
-2,Onset,varied,days,False
-3,level,ranged,microg%,False
-4,%,had,degrees,False
-5,levels,seen,patients,False
-6,levels,seen,patients,False
-7,onset,seen,patients,False
-8,onset,seen,patients,False
-9,patients,receiving,doses,False
-10,levels,returned,days,False
-11,levels,returned,management,False
-12,status,returned,days,False
-13,status,returned,management,False
-14,encephalopathy,occur,patients,False
-15,patients,receiving,infusion,False
-16,Azotemia,found,patients,False
-17,It,recognize,condition,False
-18,It,recognize,patients,False
-19,patients,receiving,infusion,False
+0,patients,identified,episodes,False
+1,patients,identified,hyperammonemic encephalopathy,False
+2,patients,identified,infusion,False
+3,patients,identified,5-fluorouracil,False
+4,level,ranged,microg%,False
+5,hyperammonemic encephalopathy,occur,patients,False
+6,hyperammonemic encephalopathy,occur,infusion,False
+7,hyperammonemic encephalopathy,occur,5-FU,False
+8,Azotemia,found,patients,False

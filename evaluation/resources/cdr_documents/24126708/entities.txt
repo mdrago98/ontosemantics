@@ -1,19 +1,50 @@
 Levodopa
+effective
+symptomatic therapy
 Parkinson's disease
-fluctuations
+chronic use
+chronic
+motor fluctuations
 dyskinesia
 visual hallucinations
 HOMER1
 protein
-glutamate
+function
+glutamate transmission
 pathogenesis
+complications
+study
 polymorphisms
-HOMER1 gene promoter region
-levodopa
+HOMER1 gene
+promoter region
+associated with
+occurrence
+chronic complications
+levodopa therapy
+patients
 idiopathic Parkinson's disease
+investigated
+Patients
+genotyped
+rs4704559
+rs10942891
+rs4704560
+allelic
+discrimination
+Taqman assays
+rs4704559 G allele
+associated with
+lower
+prevalence
 dyskinesia
+prevalence ratio
+confidence interval
+CI
 visual hallucinations
-HOMER1 rs4704559 G allele
+CI
+data
+HOMER1
+rs4704559 G allele
 development
 levodopa
 adverse effects

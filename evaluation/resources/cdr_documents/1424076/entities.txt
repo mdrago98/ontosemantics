@@ -1,15 +1,27 @@
 woman
+refractory
 multiple myeloma
+treated with
+continuous
+intravenous
 vincristine
 doxorubicin
+days
 oral
 dexamethasone
 lethargy
 weakness
-syndrome of inappropriate secretion of antidiuretic hormone
+associated with
+hyponatremia
+Evaluation
+syndrome
+inappropriate
+secretion
+antidiuretic hormone
 vincristine
-serum
+infusion
+serum sodium levels
 doxorubicin
-dexamethasone
+dexamethasone chemotherapy
 vincristine
 complication

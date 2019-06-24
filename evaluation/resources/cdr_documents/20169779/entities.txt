@@ -1,11 +1,27 @@
+Neuropsychiatric symptoms
+problem
+patients
 Parkinson's disease
 PD
-'sensitisation
+symptoms
+sensitisation
+repeated
 levodopa
+treatment
 dopamine
-levodopa
-MPTP
+disease state
+MPTP-lesioned marmoset
+model
+neuropsychiatric symptoms
 PD
-levodopa
-fluctuations
-behaviors
+patients
+compare
+time course
+levodopa-induced
+motor fluctuations
+neuropsychiatric-like behaviors
+relationship
+duration
+treatment
+onset of
+symptoms

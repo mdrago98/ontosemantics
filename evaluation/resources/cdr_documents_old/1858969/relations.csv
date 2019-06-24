@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,cases,following,treatment,False
+1,cases,observed,patients,False
+2,cases,had,outcome,False
+3,one,resulted,sequelae,False
+4,complication,occurred,patients,False
+5,patients,hospitalized,treatment,False
+6,type,be,regions,True
+7,This type of drug-induced complication,occurs,subjects,False
+8,subjects,presenting,load,False
+9,mechanisms,discussed,light,False
+10,subject,published,literature,False

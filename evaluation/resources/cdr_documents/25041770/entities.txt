@@ -1,18 +1,38 @@
 Clarithromycin
+documented
 cytochrome P450 3A4
 CYP3A4
 inhibitor
+adverse interaction
 simvastatin
+case
 rhabdomyolysis
+increase
+dose
 clarithromycin
 patient
-cardiac
-cardiac
+raised
+cardiac biomarkers
+cardiac issues
+phenomenon
 rhabdomyolysis
+effect
 rhabdomyolysis
+structure
+function
 cardiac muscle
+Clinicians
+concomitant
+medications
+increase
+risk
 myopathy
-CYP3A4 enzyme
+inhibit
+CYP3A4
+enzyme
 troponin
+elevation
+associated with
 statin
 rhabdomyolysis
+studies

@@ -1,13 +1,12 @@
 ,Subject,Action,Object,Negation
-0,patients,treated,combination,False
-1,patients,had,stage,False
-2,14,treated,chemotherapy,False
-3,17,have,treatment,True
-4,17,have,CPDD,True
-5,31,demonstrated,responses,False
-6,responses,lasting,months,False
-7,responses,were,19,False
-8,anemia,developing,%,False
-9,toxicity,necessitated,discontinuation,False
+0,patients,treated with,years,False
+1,patients,treated with,ovarian cancer,False
+2,patients,treated with,combination,False
+3,patients,treated with,cisplatinum,False
+4,patients,treated with,day,False
+5,patients,treated with,days,False
+6,patients,had,stage II,False
+7,toxicity,necessitated,discontinuation,False
+8,toxicity,necessitated,drug,False
+9,toxicity,necessitated,patients,False
 10,nephrotoxicity,observed,patients,False
-11,There,were,deaths,True

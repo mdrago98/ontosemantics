@@ -1,23 +1,45 @@
+effectiveness
 haloperidol
+pretreatment
+preventing
+toxic effects
+high doses
 amphetamine
 cocaine
 rats
+model
+toxic effects
+induced
+intraperitoneal
+injection
 amphetamine
-death
+death rate
 cocaine
-death
+death rate
 Haloperidol
-amphetamine
-seizures
+amphetamine-induced seizures
+mortality rate
+doses
 Haloperidol
-cocaine
-seizures
-reach
+decreased
+incidence
+cocaine-induced seizures
+doses
+lowering
+mortality rate
+statistical significance
+dose
+data
+central
 dopamine blocker
 haloperidol
 death
-amphetamine
+high-dose
+amphetamine exposure
+reducing
+incidence
 seizures
 haloperidol
-cocaine
-seizures
+reduce
+cocaine-induced seizures
+mortality

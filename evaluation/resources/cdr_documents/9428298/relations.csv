@@ -1,9 +1,14 @@
 ,Subject,Action,Object,Negation
-0,analysis,comparing,patients,False
-1,patients,admitted,exacerbations,False
-2,CNA,administered,mean,False
-3,patients,had,heart,False
-4,patients,had,treatment,False
-5,which,reflect,severity,False
-6,CNA,demonstrated,profiles,False
-7,CNA,demonstrated,regard,False
+0,case-controlled analysis,reported,patients,False
+1,case-controlled analysis,reported,medical intensive care unit,False
+2,case-controlled analysis,reported,exacerbations,False
+3,case-controlled analysis,reported,asthma,False
+4,case-controlled analysis,reported,nebulized albuterol,False
+5,patients,had,heart rates,False
+6,patients,had,treatment,False
+7,patients,had,severity,False
+8,patients,had,illness,False
+9,CNA,conclude,profiles,False
+10,CNA,conclude,safety,False
+11,CNA,demonstrated,profiles,False
+12,CNA,demonstrated,safety,False

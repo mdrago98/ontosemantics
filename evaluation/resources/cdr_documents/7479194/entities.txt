@@ -1,17 +1,45 @@
+population-based
+follow-up
 people
+prescribed
 trimethoprim-sulfamethoxazole
 TMP-SMZ
+prescribed
 trimethoprim
+prescribed
 cephalexin
+estimate
+risk
+serious
 liver
 blood
 skin
 renal disorders
-liver disease
+referral
+hospitalization
+associated with
+drugs
+results
+information
+office computers
+general practitioners
+United Kingdom
+review
+clinical records
+risk
+clinically
+idiopathic liver disease
+persons
+prescribed
 TMP-SMZ
+prescribed
 trimethoprim
+risk
+prescribed
 cephalexin
+patients
 blood disorders
+exposed to
 TMP-SMZ
 erythema multiforme
 Stevens-Johnson syndrome
@@ -19,5 +47,11 @@ TMP-SMZ
 toxic epidermal necrolysis
 patient
 cephalexin
-renal disease
+cases
+acute
+study drug
+risk
+diseases
+agents
+risk
 antibiotics

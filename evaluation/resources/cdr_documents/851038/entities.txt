@@ -1,21 +1,47 @@
+Hypokalemia
+severe
+L-dopa-treated
+parkinsonian
+patients
+influence
 L-dopa
-L-dopa
-renal excretion
-potassium
 renal
-plasma
-glomerular filtration
-plasma
-potassium
 excretion
 potassium
+patients
+hypokalemia
+normokalemic
+patients
+determination
+renal plasma flow
+glomerular filtration rate
+plasma
+concentration
+potassium
+sodium
+urinary
+excretion
+potassium
+sodium
 aldosterone
 L-Dopa
+intake
+increased
 excretion
 potassium
+sodium
+hypokalemic
+normokalemic
+patients
+effect
 renal function
-dopa
-inhibitor
+administration
+peripheral dopa decarbodylase inhibitor
+effect
+individuals
+results
+correlation
 aldosterone
-renal
+production
+renal effect
 L-dopa

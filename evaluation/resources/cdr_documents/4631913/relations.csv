@@ -1,11 +1,47 @@
 ,Subject,Action,Object,Negation
-0,challenge,caused,acute,False
-1,challenge,caused,spontaneous recovery,False
-2,cultures,became,challenge,False
-3,Leukocytosis,observed,monkeys,False
-4,inoculation,followed,days,False
-5,monkeys,given,vincristine,False
-6,sulfate,resulted,infection,False
-7,sulfate,resulted,11,False
-8,none,receiving,Pseudomonas,False
-9,monkeys,serve,model,False
+0,blood cultures,caused,rhesus monkeys,False
+1,blood cultures,caused,aeruginosa,False
+2,blood cultures,caused,acute illness,False
+3,blood cultures,caused,duration,False
+4,blood cultures,caused,recovery,False
+5,blood cultures,caused,monkeys,False
+6,blood cultures,caused,days,False
+7,blood cultures,became,days,False
+8,Leukocytosis,observed,monkeys,False
+9,inoculation,followed,vincristine sulfate,False
+10,inoculation,followed,leukopenia,False
+11,inoculation,followed,days,False
+12,inoculation,resulted,monkeys,False
+13,inoculation,resulted,vincristine sulfate 4,False
+14,inoculation,resulted,infection,False
+15,inoculation,resulted,monkeys,False
+16,inoculation,resulted,Pseudomonas,False
+17,studies,suggest,Pseudomonas sepsis,False
+18,studies,suggest,biological model,False
+19,studies,suggest,study,False
+20,studies,suggest,efficacy,False
+21,studies,suggest,antimicrobial agents,False
+22,antimetabolite-induced leukopenia,suggest,Pseudomonas sepsis,False
+23,antimetabolite-induced leukopenia,suggest,biological model,False
+24,antimetabolite-induced leukopenia,suggest,study,False
+25,antimetabolite-induced leukopenia,suggest,efficacy,False
+26,antimetabolite-induced leukopenia,suggest,antimicrobial agents,False
+27,monkeys,suggest,Pseudomonas sepsis,False
+28,monkeys,suggest,biological model,False
+29,monkeys,suggest,study,False
+30,monkeys,suggest,efficacy,False
+31,monkeys,suggest,antimicrobial agents,False
+32,antimetabolite-induced leukopenia,predisposes,Pseudomonas sepsis,False
+33,antimetabolite-induced leukopenia,predisposes,biological model,False
+34,antimetabolite-induced leukopenia,predisposes,study,False
+35,antimetabolite-induced leukopenia,predisposes,efficacy,False
+36,antimetabolite-induced leukopenia,predisposes,antimicrobial agents,False
+37,monkeys,predisposes,Pseudomonas sepsis,False
+38,monkeys,predisposes,biological model,False
+39,monkeys,predisposes,study,False
+40,monkeys,predisposes,efficacy,False
+41,monkeys,predisposes,antimicrobial agents,False
+42,monkeys,serve,biological model,False
+43,monkeys,serve,study,False
+44,monkeys,serve,efficacy,False
+45,monkeys,serve,antimicrobial agents,False

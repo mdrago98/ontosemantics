@@ -1,11 +1,10 @@
 ,Subject,Action,Object,Negation
-0,activity,referred,P11,False
-1,activity,studied,cats,False
-2,activity,studied,rats,False
-3,types,used,BaCl2,False
-4,types,used,chloroform,False
-5,compound,introduced,doses,False
-6,compound,manifests,activity,False
-7,compound,manifests,models,False
-8,arrhythmia,induced,90,False
-9,results,associated,beta,False
+0,antiarrhythmic activity,studied,"compound N-(trans-3-hydroxy-1,2,3,4-tetrahydro-2-naphthyl)-N-(3-oxo-3-phenyl-2-methylpropyl)-piperazine hydrochloride",False
+1,antiarrhythmic activity,studied,cats,False
+2,compound P11,introduced,doses,False
+3,compound,manifests,antiarrhythmic activity,False
+4,compound,manifests,models,False
+5,compound,manifests,arrhythmia,False
+6,compound,manifests,inhibition,False
+7,compound,manifests,arrhythmia,False
+8,compound,manifests,chloroform-adrenaline,False

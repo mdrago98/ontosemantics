@@ -1,10 +1,78 @@
-seizures
+risk factors
+new-onset seizures
+pediatric
+LT
+assess
+clinical
+long-term
+prognosis
+clinical
+laboratory data
+consecutive
 children
+LT
+center
+analyzed
+retrospectively
+Patients
 seizures
-seizures
+group
+non-seizures group
+Pre-operative
+intra-operative
+post-operative
+data
 Seizures
 children
-generalized tonic-clonic seizures
+incidence
+generalized
+tonic-clonic seizures
+LT
+Univariate analysis
+risk factors
+associated with
 seizures
-liver disease
-Child
+pediatric
+LT
+gender
+pediatric end-stage
+surgery
+Child-Pugh score
+surgery
+serum total bilirubin
+surgery
+TAC
+level
+Multivariate analysis
+TAC
+level
+risk factor
+associated with
+seizures
+children
+experienced
+seizures
+graft
+function
+seizure-free
+anti-epileptic drugs
+follow-up
+period
+months
+TAC
+level
+predominant
+seizures
+early
+post-operative
+period
+pediatric
+LT
+PELD
+Child-Pugh scores
+LT
+post-operative
+serum
+Tbil
+contributory risk factors
+TAC-related seizures

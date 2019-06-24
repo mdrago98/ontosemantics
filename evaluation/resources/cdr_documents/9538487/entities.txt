@@ -1,18 +1,28 @@
 man
+history
 manic depression
+treated
 lithium
-coma
+admitted
+hyperosmolar
+nonketotic coma
 polyuria
 polydipsia
+time urinalysis
+negative
 glucose
+recovery
 hyperglycaemia
-blood
-glucose
-water
+polyuric
+normal blood glucose
+concentrations
+water deprivation testing
 nephrogenic diabetes insipidus
-lithium
+lithium-induced
 man
 type 2 diabetes
-polyuria
+chronic polyuria
 nephrogenic diabetes insipidus
+precipitate
+hyperosmolar
 dehydration

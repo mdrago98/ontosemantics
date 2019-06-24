@@ -1,11 +1,14 @@
 ,Subject,Action,Object,Negation
-0,We,studied,mortality,False
-1,We,studied,pertussis,False
-2,animals,died,injection,False
+0,animals,died,treatment,False
+1,animals,died,injection,False
+2,animals,died,bovine serum albumin,False
 3,animals,died,day,False
-4,Blockade,reduce,mortality,False
-5,Blockade,reduce,encephalopathy,False
-6,Blockade,reduce,mice,False
-7,histamine H1 receptors,reduce,mortality,False
-8,histamine H1 receptors,reduce,encephalopathy,False
-9,histamine H1 receptors,reduce,mice,False
+4,animals,died,pertussis,False
+5,animals,died,pretreatment,False
+6,animals,died,cyproheptadine,False
+7,animals,died,BSA,False
+8,animals,died,day,False
+9,Blockade,reduce,histamine H1 receptors,False
+10,Blockade,reduce,mortality,False
+11,Blockade,reduce,pertussis,False
+12,Blockade,reduce,mice,False

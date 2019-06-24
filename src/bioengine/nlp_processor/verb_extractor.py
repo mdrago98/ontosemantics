@@ -174,14 +174,18 @@ def get_all_paths_root_leaf(root: Token, tree: dict) -> list:
 
 nlp = MedicalSpacyFactory.factory()
 
-corpus = "e.g. Red algae: Aqueous extracts of Gracilaria corticata and Sargassum oligocystum inhibited the " \
-         "proliferation of human leukemic cell lines. Both ethanol and methanol extracts of Gracilaria tenuistipitata " \
-         "reportedly had anti-proliferative effects on Ca9-22 oral cancer cells and were involved in cellular " \
-         "apoptosis, DNA damage, and oxidative stress. [example source: PMC3674937]"
+# corpus = "e.g. Red algae: Aqueous extracts of Gracilaria corticata and Sargassum oligocystum inhibited the " \
+#          "proliferation of human leukemic cell lines. Both ethanol and methanol extracts of Gracilaria tenuistipitata " \
+#          "reportedly had anti-proliferative effects on Ca9-22 oral cancer cells and were involved in cellular " \
+#          "apoptosis, DNA damage, and oxidative stress. [example source: PMC3674937]"
+
+corpus = """CASE SUMMARY:
+A 57-year old female with hyponatraemia. Her medications included desvenlafaxine, and symptoms included nausea, anxiety and confusion. The serum sodium at this time was 120 mmol/L, serum osmolality was 263 mosmol/kg, urine osmolality 410 mosmol/kg and urine sodium 63 mmol/L, consistent with a diagnosis of SIADH. Desvenlafaxine was ceased and fluid restriction implemented. After 4 days the sodium increased to 128 mmol/L and fluid restriction was relaxed. During her further 3 weeks inpatient admission the serum sodium ranged from 134 to 137 mmol/L during treatment with mirtazapine."""
 
 
 doc = nlp(corpus)
 sentences = [str(sentence) for sentence in doc.sents]
+doc._.noun_verb_chunks
 
 sent = list(doc.sents)[1]
 test = get_noun_verb_noun_phrases_from_sentence(sent)

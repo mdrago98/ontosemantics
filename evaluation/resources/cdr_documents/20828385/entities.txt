@@ -1,7 +1,60 @@
 Mantle cell lymphoma
 MCL
+rare
 aggressive
 B-cell non-Hodgkin's lymphoma
-remission
+Patients
+refractory
+conventional
+chemotherapy
+prognosis
+poor
+remission rate
+refractory
 MCL
+treated
+temsirolimus
 mTOR inhibitor
+refractory
+MCL
+tumor regression
+months
+temsirolimus
+treatment
+progression-free survival
+months
+lymph node biopsies
+months
+temsirolimus therapy
+biopsies
+temsirolimus
+inhibited
+tumor cell proliferation
+cell cycle arrest
+induce
+change
+apoptotic tumor cells
+cytostatic effect
+temsirolimus
+antiangiogenic effect
+decrease
+tumor microvessel density
+VEGF
+expression
+well-limited fibrotic areas
+post-necrotic tissue repair
+temsirolimus therapy
+temsirolimus
+reduced
+tumor
+cytostatic
+anti-angiogenic effects
+dual effect
+temsirolimus
+tumor tissue
+efficiency
+refractory
+MCL
+resistant
+conventional
+chemotherapy

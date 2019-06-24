@@ -1,14 +1,18 @@
 ,Subject,Action,Object,Negation
-0,Human corticotropin-releasing hormone,stimulate,ventilation,False
-1,Human corticotropin-releasing hormone,stimulate,i.v,False
-2,thyrotropin-releasing hormone,stimulate,ventilation,False
-3,thyrotropin-releasing hormone,stimulate,i.v,False
-4,peptides,altering,chemosensitivity,False
-5,tests,performed,volunteers,False
-6,NaCl,given,i.v,False
-7,micrograms,administered,i.v,False
-8,subjects,received,%,False
-9,curves,compared,subject,False
-10,shift,observed,hCRH,False
-11,hCRH,caused,reduction,False
-12,results,indicate,effect,False
+0,corticotropin-releasing hormone,known,ventilation,False
+1,peptides,aimed,single-blind study,False
+2,peptides,aimed,central chemosensitivity,False
+3,peptides,clarify,central chemosensitivity,False
+4,peptides,act,central chemosensitivity,False
+5,NaCl,given,hCRH,False
+6,NaCl,given,TRH,False
+7,CO2-response curves,compared,tests,False
+8,CO2-response curves,compared,subject,False
+9,effect,occurred,TRH,False
+10,hCRH,caused,reduction,False
+11,hCRH,caused,CO2,False
+12,results,indicate,additive effect,False
+13,results,indicate,hormones,False
+14,results,indicate,ventilatory response,False
+15,results,indicate,humans,False
+16,results,indicate,central chemosensitivity,False

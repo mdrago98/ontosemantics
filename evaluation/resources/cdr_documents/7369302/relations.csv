@@ -1,4 +1,6 @@
 ,Subject,Action,Object,Negation
-0,evoked potentials,developed,man,False
-1,evoked potentials,developed,use,False
-2,a 54-year-old man,recovered,acuity,False
+0,Total blindness,developed,tonic pupillary response,False
+1,Total blindness,developed,man,False
+2,Total blindness,developed,quinine sulfate,False
+3,Total blindness,developed,leg cramps,False
+4,tonic pupillary response,reported,quinine,True

@@ -1,26 +1,85 @@
+Acute
+toxic
+dosage-dependent
 behavioral
+effects
 caffeine
-mouse
-CBA
-mouse
-behavioral
+compared
+adult
+males
+inbred mouse strains
+A/J
+BALB/cJ
+CBA/J
+C3H/HeJ
+C57BL/6J
+DBA/2J
+SWR/J
+mouse strain
+behavioral responses
 caffeine
+doses
+phenotypic
+characteristics
+locomotor activity
+righting ability
 clonic seizure
+induction
+stress-induced lethality
 death
+external stress
+scored
 caffeine
+doses
+drug-naive
+animals
+rigidly constant
+experimental conditions
 Mice
-fixed
-body
+IP
+injections
+body weight
+physiological
+saline carrier
 caffeine
+doses
+Loss
+scored
+post
+dosing
+intervals
+animals
 clonic seizures
+severity
+drug administration
 tonic seizures
 death
-water
-death
+Animals
+stressed
+swim test
+degrees C water
+death-producing
 tonic seizures
+animals
+locomotor activity
+measured
 caffeine
+administration
 behavioral
+combination
+criteria
+toxic
 caffeine
+doses
+strains
+results
 behavioral
-mouse
+toxicity
+alkylxanthines
+mouse strain
+toxic responses
 central nervous system
+compounds
+genetically
+influenced
+mammals

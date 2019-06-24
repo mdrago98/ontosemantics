@@ -1,9 +1,24 @@
+year
+diabetic
+male
+evidence
+peripheral
 autonomic neuropathy
+admitted
 chest pain
 atrial flutter
-ventricular
+ventricular rate
+slowed
 nifedipine
+divided doses
+paced
+rate
 nifedipine
+induces
+tachycardia
+innervated
 hearts
 hearts
+compensatory
+sympathetic
 bradycardia

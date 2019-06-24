@@ -1,15 +1,31 @@
 Bortezomib
-dexamethasone
+high-dose
+dexamethasone-containing regimens
+tolerable
+severe
 bacterial infections
-B-cell
-malignancies
+patients
+B-cell malignancies
+information
+safety
+regimen
+elderly
+patients
 man
-macroglobulinaemia
-suffered
+Waldenström macroglobulinaemia
 necrotising fasciitis
+neutropenia
+combination treatment
 bortezomib
-dexamethasone
-antimicrobial
+high-dose dexamethasone
+rituximab
+intravenous
+Physicians
+fatal
 bacterial infections
-bortezomib
-dexamethasone
+bortezomib plus
+high-dose dexamethasone
+elderly
+patients
+case
+investigation

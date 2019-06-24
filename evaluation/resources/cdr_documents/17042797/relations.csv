@@ -1,15 +1,39 @@
 ,Subject,Action,Object,Negation
-0,dentate,Following,status epilepticus,False
-1,many,develop,region,False
-2,dentate,develop,region,False
-3,that,develop,status epilepticus,False
-4,the population,have,influence,False
-5,number,using,stereology,False
-6,number,using,times,False
-7,number,using,status epilepticus,False
-8,size,correlated,frequency,False
-9,animals,have,seizures,False
-10,population,vary,axis,True
-11,The hilar ectopic granule cell population,associated,increase,False
-12,results,provide,insight,False
-13,results,provide,role,False
+0,rat,increases,status epilepticus,False
+1,rat,increases,neurons,False
+2,rat,increases,hilar region,False
+3,rat,increases,hippocampal,False
+4,neurogenesis,increases,status epilepticus,False
+5,neurogenesis,increases,neurons,False
+6,neurogenesis,increases,hilar region,False
+7,neurogenesis,increases,hippocampal,False
+8,ectopic hilar granule cells,suggested,seizures,False
+9,ectopic hilar granule cells,suggested,status epilepticus,False
+10,ectopic hilar granule cells,contribute,seizures,False
+11,ectopic hilar granule cells,contribute,status epilepticus,False
+12,population,quantified,influence,True
+13,population,quantified,epileptogenesis,True
+14,size,indicate,status epilepticus,False
+15,size,appears,population,False
+16,size,appears,frequency,False
+17,size,appears,behavioral seizures,False
+18,size,appears,granule cells,False
+19,size,appears,hilus,False
+20,size,appears,behavioral seizures,False
+21,animals,appears,population,False
+22,animals,appears,frequency,False
+23,animals,appears,behavioral seizures,False
+24,animals,appears,granule cells,False
+25,animals,appears,hilus,False
+26,animals,appears,behavioral seizures,False
+27,animals,correlated,frequency,False
+28,animals,correlated,behavioral seizures,False
+29,animals,correlated,granule cells,False
+30,animals,correlated,hilus,False
+31,animals,correlated,behavioral seizures,False
+32,animals,have,granule cells,False
+33,animals,have,hilus,False
+34,animals,have,behavioral seizures,False
+35,results,provide,ectopic hilar granule cells,False
+36,results,provide,pilocarpine,False
+37,results,provide,temporal lobe epilepsy,False

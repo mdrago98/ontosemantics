@@ -1,3 +1,11 @@
 ,Subject,Action,Object,Negation
-0,rate,was,hours,False
-1,rate,was,monitoring,False
+0,heart rate,was,normal,False
+1,heart rate,was,administration,False
+2,heart rate,was,orciprenaline,False
+3,heart rate,was,cardiac monitoring,False
+4,heart rate,was,intensive care unit,False
+5,Bradycardia,attributed,biperiden,False
+6,Bradycardia,attributed,speed,False
+7,Bradycardia,attributed,injection,False
+8,Bradycardia,attributed,atropine-like drugs,False
+9,Bradycardia,attributed,muscarine receptors,False

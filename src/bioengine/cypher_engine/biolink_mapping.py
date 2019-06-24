@@ -6,10 +6,10 @@ from biolinkmodel.datamodel import AnatomicalEntityToAnatomicalEntityAssociation
     GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
     DiseaseOrPhenotypicFeatureAssociationToThingAssociation, OrganismalEntity, \
     ChemicalSubstance, NamedThing, Association, Disease, PhenotypicFeature, Cell, \
-    CellularComponent, BiologicalProcess, MolecularActivity, Gene
+    CellularComponent, BiologicalProcess, MolecularActivity
 from py2neo import Relationship, Node, Subgraph
 
-from settings import Config
+from src.settings import Config
 from src.bioengine.cypher_engine.models import Class
 from src.bioengine.utils.pythonic_name import get_pythonic_name
 
@@ -28,9 +28,9 @@ associations = {
 term_mapping = {
     OrganismalEntity: ['FMA', 'ZEBRAFISH_ANATOMICAL_ONTOLOGY', 'UBERON'],
     Cell: ['CL'],
-    CellularComponent: ['CellularComponent'],
-    BiologicalProcess: ['BiologicalProcess'],
-    MolecularActivity: ['MolecularFunction'],
+    CellularComponent: ['CellularComponent', 'cellular_component'],
+    BiologicalProcess: ['BiologicalProcess', 'biological_process'],
+    MolecularActivity: ['MolecularFunction', 'molecular_function'],
     Disease: ['DOID'],
     PhenotypicFeature: ['HUMAN_PHENOTYPE', 'CMPO'],
     ChemicalSubstance: ['CHEBI']
@@ -68,11 +68,11 @@ def get_mapping(term: Class, term_mapping_conf: dict = None) -> OrderedDict:
         term_mapping_conf = term_mapping
     mapping = {biolink_entity: requirements for biolink_entity, requirements in term_mapping_conf.items()
                if (term.ontology_prefix in requirements)
-               or (hasattr(term, 'annotation_has_obo_namespace')
-                   and term.annotation_has_obo_namespace in requirements)}
-    if len(mapping) is 0 and is_gene_mention(term.label):
-        mapping = {Gene: ['*']}
-    elif len(mapping) is 0:
+               or (hasattr(term, 'annotation_has_obo_namespace') and term.annotation_has_obo_namespace is not None
+                   and term.annotation_has_obo_namespace[0] in requirements)}
+    # if len(mapping) is 0 and is_gene_mention(term.label):
+    #     mapping = {Gene: ['*']}
+    if len(mapping) is 0:
         mapping = {NamedThing: ['*']}
     return OrderedDict(sorted(mapping.items(), key=lambda kv: (-len(kv[1]))))
 

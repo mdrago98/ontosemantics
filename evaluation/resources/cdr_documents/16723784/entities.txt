@@ -1,5 +1,7 @@
 Bepridil hydrochloride
 Bpd
+effective
+drug
 atrial fibrillation
 AF
 atrial flutter

@@ -1,15 +1,26 @@
 ,Subject,Action,Object,Negation
-0,outcomes,compared,children,False
-1,evidence,compared,children,False
-2,children,treated,central nervous system,False
-3,central nervous system,receiving,treatment,False
-4,central nervous system,receiving,consolidation,False
-5,total,enrolled,ACCL0131,False
-6,scans,performed,end,False
-7,tests,performed,end,False
-8,%,identified,end,False
-9,%,scored,85,False
-10,Children,had,attention,False
-11,children,scored,average,False
-12,children,scored,measures,False
-13,measures,treated,P9201,False
+0,Concerns,led,methotrexate,False
+1,Concerns,led,modifications,False
+2,Concerns,led,MTX,False
+3,Concerns,led,children,False
+4,Concerns,led,acute lymphoblastic leukemia,False
+5,neurocognitive outcomes,compared,study,False
+6,neurocognitive outcomes,compared,leukoencephalopathy,False
+7,neurocognitive outcomes,compared,children,False
+8,neurocognitive outcomes,compared,central nervous system,False
+9,neurocognitive outcomes,compared,intensive consolidation,False
+10,Magnetic resonance imaging scans,performed,≥2.6,False
+11,Magnetic resonance imaging scans,performed,treatment,False
+12,patients,developed,leukoencephalopathy,False
+13,patients,developed,years,False
+14,patients,developed,treatment,False
+15,Children,had,studies,False
+16,Children,had,attention problems,False
+17,Children,had,neurocognitive measures,False
+18,Children,had,P9201,False
+19,children,had,studies,False
+20,children,had,attention problems,False
+21,children,had,neurocognitive measures,False
+22,children,had,P9201,False
+23,children,scored,neurocognitive measures,False
+24,children,scored,P9201,False

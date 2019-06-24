@@ -1,15 +1,37 @@
 Myotonia congenita
 MC
+defect
 skeletal muscle
-chloride
-membrane
+chloride channel function
+sustained
+membrane depolarisation
+healthy
 woman
+life-threatening
 muscle spasm
+secondary ventilation
+preoperative
+injection
 suxamethonium
 muscle spasms
-condition
+spontaneously
+surgery
+problems
+symptoms
+myotonic condition
+Myotonia
+clinical examination
+EMG
+diagnosis
 MC
+genetically
 patient
+anaesthetist
+diagnosis
+lethal
 complication
-malignant hyperthermia
+ion channel disorders
+malignant
+hyperthermia
 anaesthetic
+considerations

@@ -1,13 +1,21 @@
 ,Subject,Action,Object,Negation
 0,Cimetidine,produces,decrease,False
-1,cimetidine,acts,histamine agonist,False
-2,We,investigated,effects,False
-3,changes,observed,cimetidine,False
-4,changes,observed,ICU,False
-5,patient,studied,days,False
-6,Each patient,received,cimetidine,False
-7,Each patient,received,mg,False
-8,arterial pressure,decreased,107.4,False
-9,systemic vascular resistance,decreased,minute,False
-10,activity,mediated,part,False
-11,activity,mediated,H1 receptor,False
+1,Cimetidine,produces,arterial pressure,False
+2,Cimetidine,produces,vasodilatation,False
+3,Cimetidine,produces,patients,False
+4,cimetidine,be,histamine agonist,False
+5,cimetidine,acts,histamine agonist,False
+6,patient,studied,days,False
+7,mean arterial pressure,decreased,non-pretreatment group,False
+8,systemic vascular resistance,decreased,eight-minute observation period,False
+9,haemodynamic change,seen,pretreatment,False
+10,H1 antagonist,conclude,hypotension,False
+11,H1 antagonist,conclude,iv,False
+12,H1 antagonist,conclude,cimetidine,False
+13,H1 antagonist,conclude,H1 receptor,False
+14,vasodilating activity,conclude,hypotension,False
+15,vasodilating activity,conclude,iv,False
+16,vasodilating activity,conclude,cimetidine,False
+17,vasodilating activity,conclude,H1 receptor,False
+18,vasodilating activity,mediated,cimetidine,False
+19,vasodilating activity,mediated,H1 receptor,False

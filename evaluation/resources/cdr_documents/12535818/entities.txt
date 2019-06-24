@@ -1,4 +1,9 @@
+study
 amiodarone
+patients
 atrial fibrillation
 AF
+increases
+risk
 bradyarrhythmia
+permanent pacemaker

@@ -1,16 +1,63 @@
 ,Subject,Action,Object,Negation
-0,authors,examined,effects,False
-1,injection,induced,tonic,False
-2,injection,induced,clonic seizure,False
-3,Scopolamine,prevented,development,False
-4,kg,prevented,development,False
-5,seizure,measured,EEG,False
-6,seizure,appeared,group,False
-7,Scopolamine,blocked,seizure,False
-8,treatment,augmented,seizure,False
-9,Pilocarpine,produced,death,False
-10,Pilocarpine,produced,hippocampus,False
-11,which,showed,changes,False
-12,scopolamine,protected,brain,False
-13,pyramidal cells,appeared,darker,False
-14,elevation,cause,brain,False
+0,authors,examined,anticonvulsant effects,False
+1,authors,examined,MK-801,False
+2,injection,induced,pilocarpine,False
+3,injection,induced,clonic seizure,False
+4,Scopolamine,prevented,development,False
+5,Scopolamine,prevented,pilocarpine-induced behavioral seizure,False
+6,electrical seizure,appeared,hippocampal,False
+7,electrical seizure,appeared,pilocarpine-treated group,False
+8,Scopolamine,blocked,pilocarpine-induced electrographic seizure,False
+9,Scopolamine,blocked,electrographic seizure,False
+10,Scopolamine,blocked,pilocarpine,False
+11,treatment,blocked,pilocarpine-induced electrographic seizure,False
+12,treatment,blocked,electrographic seizure,False
+13,treatment,blocked,pilocarpine,False
+14,treatment,augmented,electrographic seizure,False
+15,treatment,augmented,pilocarpine,False
+16,Brain damage,assessed,hippocampus,False
+17,Pilocarpine,produced,neuronal death,False
+18,Pilocarpine,produced,hippocampus,False
+19,Pentobarbital,protected,brain damage,False
+20,Pentobarbital,protected,pilocarpine,False
+21,Pentobarbital,protected,MK-801-treated group,False
+22,Pentobarbital,protected,hippocampus,False
+23,Pentobarbital,protected,normal,False
+24,pyramidal cells,protected,brain damage,False
+25,pyramidal cells,protected,pilocarpine,False
+26,pyramidal cells,protected,MK-801-treated group,False
+27,pyramidal cells,protected,hippocampus,False
+28,pyramidal cells,protected,normal,False
+29,pyramidal cells,appeared,MK-801-treated group,False
+30,pyramidal cells,appeared,hippocampus,False
+31,pyramidal cells,appeared,normal,False
+32,granule cells,affected,treatments,True
+33,granule cells,affected,dentate gyrus,True
+34,results,indicate,pilocarpine,False
+35,results,indicate,overstimulation,False
+36,results,indicate,glutamatergic transmission,False
+37,results,indicate,brain damage,False
+38,results,indicate,mechanism,False
+39,status epilepticus,indicate,pilocarpine,False
+40,status epilepticus,indicate,overstimulation,False
+41,status epilepticus,indicate,glutamatergic transmission,False
+42,status epilepticus,indicate,brain damage,False
+43,status epilepticus,indicate,mechanism,False
+44,elevation,indicate,pilocarpine,False
+45,elevation,indicate,overstimulation,False
+46,elevation,indicate,glutamatergic transmission,False
+47,elevation,indicate,brain damage,False
+48,elevation,indicate,mechanism,False
+49,status epilepticus,initiated,pilocarpine,False
+50,status epilepticus,initiated,overstimulation,False
+51,status epilepticus,initiated,glutamatergic transmission,False
+52,status epilepticus,cause,pilocarpine,False
+53,status epilepticus,cause,overstimulation,False
+54,status epilepticus,cause,glutamatergic transmission,False
+55,status epilepticus,cause,brain damage,False
+56,status epilepticus,cause,mechanism,False
+57,elevation,cause,pilocarpine,False
+58,elevation,cause,overstimulation,False
+59,elevation,cause,glutamatergic transmission,False
+60,elevation,cause,brain damage,False
+61,elevation,cause,mechanism,False

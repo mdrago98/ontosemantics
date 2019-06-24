@@ -1,4 +1,12 @@
 ,Subject,Action,Object,Negation
-0,We,describe,case,False
-1,patient,have,changes,False
-2,blood dyscrasias,occur,result,False
+0,patient,began,changes,False
+1,patient,began,white blood cells,False
+2,patient,began,administration,False
+3,patient,began,fluconazole,False
+4,patient,began,discontinuation,False
+5,case,highlights,treatment,False
+6,case,highlights,drug,False
+7,drug-induced blood dyscrasias,highlights,treatment,False
+8,drug-induced blood dyscrasias,highlights,drug,False
+9,drug-induced blood dyscrasias,occur,treatment,False
+10,drug-induced blood dyscrasias,occur,drug,False

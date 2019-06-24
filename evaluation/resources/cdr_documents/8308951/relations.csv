@@ -1,4 +1,14 @@
 ,Subject,Action,Object,Negation
-0,woman,spread,warfarin,False
-1,woman,spread,washing,True
-2,drug interaction with,exacerbated,coagulopathy,False
+0,case,presented,intercerebral hematoma,False
+1,case,presented,warfarin-induced coagulopathy,False
+2,woman,spread,house weekly,False
+3,woman,spread,bare hands,False
+4,Percutaneous absorption,reported,warfarin,False
+5,Percutaneous absorption,reported,coagulopathy,False
+6,Percutaneous absorption,reported,gloves,False
+7,protective measures,reported,warfarin,False
+8,protective measures,reported,coagulopathy,False
+9,protective measures,reported,gloves,False
+10,protective measures,used,gloves,True
+11,adverse drug interaction,exacerbated,piroxicam,False
+12,adverse drug interaction,exacerbated,coagulopathy,False

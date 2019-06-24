@@ -1,14 +1,33 @@
 blind
+crossover study
+infusions
 adrenaline
 noradrenaline
-dextrose
-arterial
+dextrose solution
+healthy volunteers
+random
+weeks
+intra-arterial ambulatory monitoring
+haemodynamic effects
+infusions
 Adrenaline
 noradrenaline
-arterial pressure
+delayed
+pressor
+postinfusion
+systolic
+diastolic arterial pressure
 SEM
-dextrose
+(2)%
+dextrose infusion
+ANOVA
+stress
+levels
 adrenaline
-adrenaline
-hypertension
+cause
+delayed
+protracted
+pressor
+findings
+adrenaline-hypertension hypothesis
 man

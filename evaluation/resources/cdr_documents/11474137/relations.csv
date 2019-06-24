@@ -1,21 +1,59 @@
 ,Subject,Action,Object,Negation
-0,participation,deduced,observations,False
-1,complexes,catalyze,formation,False
-2,antioxidants,attenuate,ototoxicity,False
-3,antioxidants,attenuate,vivo,False
-4,overexpression,protect,transgenic mice,False
-5,overexpression,protect,ototoxicity,False
-6,Immunocytochemistry,confirmed,expression,False
-7,littermates,received,kanamycin,False
-8,littermates,received,days,False
-9,littermates,received,birth,False
-10,days,beginning,day,False
-11,thresholds,tested,month,False
-12,kanamycin,increased,threshold,False
-13,kanamycin,increased,dB,False
-14,effects,were,kHz,False
-15,protection,supports,hypothesis,False
-16,results,suggest,animals,False
-17,results,suggest,models,False
-18,models,investigate,mechanisms,False
-19,models,investigate,strategies,False
+0,participation,deduced,reactive oxygen species,False
+1,participation,deduced,aminoglycoside-induced ototoxicity,False
+2,participation,deduced,observations,False
+3,participation,deduced,formation,False
+4,participation,deduced,superoxide radicals,False
+5,participation,deduced,ototoxicity,False
+6,aminoglycoside-iron complexes,deduced,reactive oxygen species,False
+7,aminoglycoside-iron complexes,deduced,aminoglycoside-induced ototoxicity,False
+8,aminoglycoside-iron complexes,deduced,observations,False
+9,aminoglycoside-iron complexes,deduced,formation,False
+10,aminoglycoside-iron complexes,deduced,superoxide radicals,False
+11,aminoglycoside-iron complexes,deduced,ototoxicity,False
+12,antioxidants,deduced,reactive oxygen species,False
+13,antioxidants,deduced,aminoglycoside-induced ototoxicity,False
+14,antioxidants,deduced,observations,False
+15,antioxidants,deduced,formation,False
+16,antioxidants,deduced,superoxide radicals,False
+17,antioxidants,deduced,ototoxicity,False
+18,aminoglycoside-iron complexes,catalyze,formation,False
+19,aminoglycoside-iron complexes,catalyze,superoxide radicals,False
+20,aminoglycoside-iron complexes,catalyze,ototoxicity,False
+21,antioxidants,catalyze,formation,False
+22,antioxidants,catalyze,superoxide radicals,False
+23,antioxidants,catalyze,ototoxicity,False
+24,antioxidants,attenuate,ototoxicity,False
+25,overexpression,hypothesized,Cu/Zn-superoxide dismutase,False
+26,overexpression,hypothesized,transgenic mice,False
+27,overexpression,hypothesized,ototoxicity,False
+28,overexpression,protect,Cu/Zn-superoxide dismutase,False
+29,overexpression,protect,transgenic mice,False
+30,overexpression,protect,ototoxicity,False
+31,Immunocytochemistry,confirmed,expression,False
+32,Immunocytochemistry,confirmed,h-SOD1,False
+33,Immunocytochemistry,confirmed,C57BL/6-TgN[SOD1]3Cje mice,False
+34,nontransgenic littermates,received,kanamycin,False
+35,nontransgenic littermates,received,days,False
+36,nontransgenic littermates,received,day,False
+37,nontransgenic littermates,received,birth,False
+38,Auditory thresholds,tested,brain,False
+39,Auditory thresholds,tested,month,False
+40,birth,tested,brain,False
+41,birth,tested,month,False
+42,kanamycin,increased,transgenic group,False
+43,kanamycin,increased,threshold,False
+44,kanamycin,increased,controls,False
+45,protection,supports,overexpression,False
+46,protection,supports,superoxide dismutase,False
+47,protection,supports,hypothesis,False
+48,protection,supports,aminoglycoside-induced ototoxicity,False
+49,oxidant stress,supports,overexpression,False
+50,oxidant stress,supports,superoxide dismutase,False
+51,oxidant stress,supports,hypothesis,False
+52,oxidant stress,supports,aminoglycoside-induced ototoxicity,False
+53,oxidant stress,plays,aminoglycoside-induced ototoxicity,False
+54,results,suggest,animals,False
+55,results,suggest,models,False
+56,results,suggest,mechanisms,False
+57,results,suggest,prevention,False

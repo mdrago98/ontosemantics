@@ -1,27 +1,54 @@
 cardiomyocytes
+synthesize
+DNA
+experimentally
+induced
 cardiac hypertrophy
+assessed
+adult
 mice
 Isoproterenol
-implantation
-mice
-heart
+osmotic
+minipump implantation
+adult
+C3Heb/FeJ mice
+increase
+heart weight
+increase
 cardiomyocyte
+area
+No
 DNA synthesis
+assessed
+autoradiographic analysis
+isolated
 cardiomyocytes
+control
 hypertrophic
 hearts
+survey
+inbred strains
 mice
 ventricular
 cardiomyocyte
+mononucleate
 cardiomyocyte
 terminal differentiation
-DNA synthesis
+genetic background
+capacity
+reactive DNA synthesis
 genetic regulation
 cardiac hypertrophy
+induced
+strains
 mice
-mouse
-atrial
+extremes
+nuclear number survey
+data
+adult
+mouse atrial
 ventricular
 cardiomyocytes
-isoproterenol
-cardiac hypertrophy
+DNA
+response
+isoproterenol-induced cardiac hypertrophy

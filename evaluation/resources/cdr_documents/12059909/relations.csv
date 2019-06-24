@@ -1,19 +1,69 @@
 ,Subject,Action,Object,Negation
-0,study,describes,delayed development,False
-1,DBA/2,injected,CY,False
-2,mice,injected,CY,False
-3,effect,assessed,days,False
-4,toxicity,caused,haemorrhagic cystitis,False
-5,that,repaired,days,False
-6,cystitis,characterized,lumen,False
-7,Mast cells,appeared,layers,False
-8,Mast cells,appeared,number,False
-9,microscopy,disclosed,absence,False
-10,vesicles,containing,granules,False
-11,vesicles,observed,cytoplasm,False
-12,cystitis,persisted,DBA/2,False
-13,cystitis,persisted,treatment,False
-14,toxicity,causes,bladder,False
-15,that,observed,C57BL/6,True
-16,pathology,resembles,interstitial cystitis,False
-17,pathology,resembles,humans,False
+0,study,describes,development,False
+1,study,describes,bladder,False
+2,study,describes,strain,False
+3,study,describes,mice,False
+4,study,describes,dose,False
+5,study,describes,cyclophosphamide,False
+6,Inbred DBA/2,injected,CY,False
+7,Inbred DBA/2,injected,drug,False
+8,Inbred DBA/2,injected,bladder,False
+9,Inbred DBA/2,injected,days,False
+10,Inbred DBA/2,injected,light microscopy,False
+11,Inbred DBA/2,injected,staining procedures,False
+12,Inbred DBA/2,injected,electron microscopy,False
+13,effect,injected,CY,False
+14,effect,injected,drug,False
+15,effect,injected,bladder,False
+16,effect,injected,days,False
+17,effect,injected,light microscopy,False
+18,effect,injected,staining procedures,False
+19,effect,injected,electron microscopy,False
+20,effect,assessed,drug,False
+21,effect,assessed,bladder,False
+22,effect,assessed,days,False
+23,effect,assessed,light microscopy,False
+24,effect,assessed,staining procedures,False
+25,effect,assessed,electron microscopy,False
+26,toxicity,caused,haemorrhagic cystitis,False
+27,toxicity,caused,strains,False
+28,toxicity,caused,days,False
+29,non-ulcerous forms,appeared,days,False
+30,non-ulcerous forms,appeared,CY,False
+31,non-ulcerous forms,appeared,chronic cystitis,False
+32,non-ulcerous forms,appeared,DBA/2 mice,False
+33,non-ulcerous forms,appeared,C57BL/6 mice,False
+34,Delayed cystitis,characterized,infiltration,False
+35,Delayed cystitis,characterized,lumen,False
+36,Delayed cystitis,characterized,inflammatory cells,False
+37,Delayed cystitis,characterized,urothelium,False
+38,Mast cells,appeared,muscular layers,False
+39,Mast cells,appeared,bladder,False
+40,Mast cells,appeared,DBA/2 mice,False
+41,Mast cells,appeared,C57BL/6 mice,False
+42,Electron microscopy,disclosed,absence,False
+43,Electron microscopy,disclosed,discoidal vesicles,False
+44,Electron microscopy,disclosed,cytoplasm,False
+45,Electron microscopy,disclosed,surface cells,False
+46,vesicles,observed,dark granules,False
+47,vesicles,observed,cytoplasm,False
+48,vesicles,observed,cells,False
+49,vesicles,observed,epithelial layers,False
+50,Delayed cystitis,persisted,DBA/2 mice,False
+51,Delayed cystitis,persisted,treatment,False
+52,results,indicate,CY,False
+53,results,indicate,DBA/2 mice,False
+54,results,indicate,pathology,False
+55,results,indicate,C57BL/6 mice,False
+56,toxicity,indicate,CY,False
+57,toxicity,indicate,DBA/2 mice,False
+58,toxicity,indicate,pathology,False
+59,toxicity,indicate,C57BL/6 mice,False
+60,toxicity,causes,CY,False
+61,toxicity,causes,DBA/2 mice,False
+62,toxicity,causes,pathology,False
+63,toxicity,causes,C57BL/6 mice,False
+64,pathology,resembles,humans,False
+65,pathology,resembles,animal model,False
+66,pathology,resembles,studies,False
+67,pathology,resembles,disease,False

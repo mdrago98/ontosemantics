@@ -1,27 +1,54 @@
+Antitumor activity
+cardiotoxicity
+nephrotoxicity
+induced
 doxorubicin
+LOU/M/WSL inbred
 rats
-IgM
-immunocytoma
+transplantable solid IgM immunocytoma
+Animals
 tumor
+diameter
+treated with
+iv injections
 doxorubicin
-body
-Tumor
-doxorubicin
+consecutive
+days
+injection
+weeks
+dose range
+Tumor regression
+disappearance
 tumor
-doxorubicin
-doxorubicin
-renal
-doxorubicin
+induced
+Histologic
+evidence
+cardiotoxicity
+scored
+grade III
+dose
+Light microscopic
+evidence
+renal damage
+dose
+albuminuria
 serum
-albumin
-doxorubicin
+group
 serum albumin
+decreased
+Ascites
 hydrothorax
-tumor
-rats
+simultaneously
+experiments
+non-tumor-bearing rats
+antitumor activity
+cardiotoxicity
+nephrotoxicity
+LOU/M/WSL
 rat
-renal
-serum
-albumin
+Albuminuria
+renal damage
+serum albumin
+ascites
 hydrothorax
 cardiomyopathy

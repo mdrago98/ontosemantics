@@ -1,17 +1,29 @@
+multicenter
+controlled trial
+early
+blockade
 renin-angiotensin system
+patients
 type 1 diabetes
+normoalbuminuria
+retard
+progression
 nephropathy
+mechanism(s)
 pathogenesis
+early
 diabetic nephropathy
-diabetic nephropathy
-endothelial
-transition
+endothelial-mesenchymal-transition
+EndoMT
 development
 renal interstitial fibrosis
 microalbuminuria
 mice
 streptozotocin
 diabetes
+study
 blocking
-development
+EndoMT
+reduces
+early development
 diabetic nephropathy

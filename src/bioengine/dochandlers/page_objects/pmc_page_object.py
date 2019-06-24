@@ -1,9 +1,8 @@
 from urllib.error import HTTPError
-from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 
 from src.bioengine.dochandlers.page_objects.page_object import PageObject
-from settings import Config
+from src.settings import Config
 from utils.citation_utils import strip_citations
 
 
@@ -64,7 +63,7 @@ class PMCPageObject(PageObject):
         A function that returns the abstract from the text
         :return: a string representing the abstract
         """
-        return self.soup.find('p', attrs={'id': 'P1'}).text
+        return ''.join(self.text[0:3])
 
     def get_text(self):
         """

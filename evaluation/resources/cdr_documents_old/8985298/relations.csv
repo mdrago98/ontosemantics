@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Lamivudine,is,cytosine,False
+1,that,has,inhibitory,False
+2,We,performed,study,False
+3,carriers,receive,placebo,False
+4,drug,given,weeks,False
+5,patients,monitored,drug,False
+6,patients,receiving,lamivudine,False
+7,patients,had,decrease,False
+8,25 mg of lamivudine was slightly less effective than 100 mg (P = .011) and 300 mg (P = .005),induced,%,False
+9,25 mg of lamivudine was slightly less effective than 100 mg (P = .011) and 300 mg (P = .005),induced,week,False
+10,values,returned,weeks,False
+11,There,was,change,True

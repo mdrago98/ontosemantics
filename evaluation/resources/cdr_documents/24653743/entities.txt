@@ -1,18 +1,38 @@
-oral
-pure
+male
+oral pilsicainide
 sodium channel blocker
-paroxysmal atrial fibrillation
-sinus
-rhythm
+slow recovery
+kinetics
+paroxysmal
+atrial fibrillation
+sinus rhythm
 patient
 sudden cardiac death
+days
+Holter electrocardiogram
+worn
 torsade de pointes
+prolonged
+QT intervals
+drug
 gastrointestinal tract
+excreted
 kidney
-patient
+patient's
 renal function
 impaired
+dose
+pilsicainide
+low
 plasma
+concentration
+pilsicainide
 torsades de pointes
-oral
+octogenarian
+oral administration
+class IC drugs
+pilsicainide
+effective
 atrial fibrillation
+drugs
+octogenarians

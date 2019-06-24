@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,male,presented,post,False
+1,A 10-year-old male with acute leukemia,developed,hemoglobinuria,False
+2,Drug-induced immune hemolytic anemia,suspected,antiglobulin,False
+3,studies,using,antiglobulin,False
+4,patient,recovered,recurrence,True
+5,causes,considered,patients,False
+6,hemolysis,is,transfusion reaction,True

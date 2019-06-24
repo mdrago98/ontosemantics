@@ -1,9 +1,20 @@
 ,Subject,Action,Object,Negation
-0,We,report,case,False
+0,patient,admitted,hospital,False
 1,patient,admitted,fever,False
-2,patient,admitted,acute renal failure,False
-3,A 50-year-old patient,taking,lysine,False
-4,A 50-year-old patient,experienced,intermittent fever,False
-5,A 50-year-old patient,experienced,skin rash,False
-6,test,demonstrated,result,False
-7,Treatment,consisted,withdrawal,False
+2,clinical symptoms,suggested,admission,False
+3,clinical symptoms,suggested,AIN,False
+4,clinical symptoms,suggested,pathologic findings,False
+5,clinical symptoms,suggested,renal biopsy,False
+6,arthralgia,suggested,admission,False
+7,arthralgia,suggested,AIN,False
+8,arthralgia,suggested,pathologic findings,False
+9,arthralgia,suggested,renal biopsy,False
+10,eosinophilia,suggested,admission,False
+11,eosinophilia,suggested,AIN,False
+12,eosinophilia,suggested,pathologic findings,False
+13,eosinophilia,suggested,renal biopsy,False
+14,lymphocyte transformation test,demonstrated,nicergoline,False
+15,Treatment,consisted,withdrawal,False
+16,Treatment,consisted,nicergoline,False
+17,renal function,consisted,withdrawal,False
+18,renal function,consisted,nicergoline,False

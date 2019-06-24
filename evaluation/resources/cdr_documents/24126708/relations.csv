@@ -1,7 +1,39 @@
 ,Subject,Action,Object,Negation
-0,Levodopa,is,therapy,False
-1,HOMER1,is,protein,False
-2,polymorphisms,associated,occurrence,False
-3,Patients,genotyped,rs4704559,False
-4,allele,associated,prevalence,False
-5,HOMER1 rs4704559 G allele,has,role,False
+0,Levodopa,is,symptomatic therapy,False
+1,Levodopa,is,Parkinson's disease,False
+2,Levodopa,is,motor fluctuations,False
+3,chronic use,is,symptomatic therapy,False
+4,chronic use,is,Parkinson's disease,False
+5,chronic use,is,motor fluctuations,False
+6,chronic use,lead,motor fluctuations,False
+7,study,investigates,HOMER1 gene,False
+8,study,investigates,occurrence,False
+9,study,investigates,chronic complications,False
+10,study,investigates,levodopa therapy,False
+11,polymorphisms,investigates,HOMER1 gene,False
+12,polymorphisms,investigates,occurrence,False
+13,polymorphisms,investigates,chronic complications,False
+14,polymorphisms,investigates,levodopa therapy,False
+15,polymorphisms,associated with,HOMER1 gene,False
+16,polymorphisms,associated with,occurrence,False
+17,polymorphisms,associated with,chronic complications,False
+18,polymorphisms,associated with,levodopa therapy,False
+19,Patients,genotyped,rs4704559,False
+20,Patients,genotyped,discrimination,False
+21,Patients,genotyped,Taqman assays,False
+22,rs4704559 G allele,associated with,prevalence,False
+23,rs4704559 G allele,associated with,dyskinesia,False
+24,prevalence ratio,associated with,prevalence,False
+25,prevalence ratio,associated with,dyskinesia,False
+26,confidence interval,associated with,prevalence,False
+27,confidence interval,associated with,dyskinesia,False
+28,CI,associated with,prevalence,False
+29,CI,associated with,dyskinesia,False
+30,CI,associated with,prevalence,False
+31,CI,associated with,dyskinesia,False
+32,data,suggest,development,False
+33,data,suggest,levodopa,False
+34,rs4704559 G allele,suggest,development,False
+35,rs4704559 G allele,suggest,levodopa,False
+36,rs4704559 G allele,has,development,False
+37,rs4704559 G allele,has,levodopa,False

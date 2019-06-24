@@ -1,13 +1,33 @@
+case
+Japanese
 woman
 neuroleptic malignant syndrome
+days
+initiation
+combination therapy
+tiapride
 tetrabenazine
 Huntington's disease
 patient
+treated with
+tiapride
 tetrabenazine
 adverse effects
+administration
+combination therapy
+advanced
 breast cancer
-neuroleptic malignant syndrome
-tetrabenazine
-Tetrabenazine
+combination therapy
+initiated
 neuroleptic
-condition
+malignant syndrome
+combination therapy
+tetrabenazine
+tiapride
+Tetrabenazine
+administered
+combination
+neuroleptic drugs
+patients
+worsening
+general condition

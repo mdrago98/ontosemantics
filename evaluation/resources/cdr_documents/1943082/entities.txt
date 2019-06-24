@@ -1,36 +1,69 @@
-intestine
-liver dysfunction
-release
+Reperfusion
+ischemic intestine
+results
+acute
+hepatocellular enzyme
 plasma
-bile
+reduction
+bile flow
+rate
 neutrophil
+sequestration
 liver
-hepatic
+pathophysiology
+acute hepatic injury
+study
 oxidants
-hepatic
+associated with
+hepatic injury
+relative value
+indirect
+assessing
 oxidant
+exposure
+in vivo
 Rats
-intestinal ischemia
+standardized intestinal ischemia-reperfusion injury
 Hepatic tissue
-lipid peroxidation
-reduced glutathione
+lipid peroxidation products
+oxidized
+reduced
+glutathione
 hepatic tissue
 glutathione
-intestinal ischemia
+intestinal ischemia-reperfusion injury
 Oxidized glutathione
 GSSG
-lipid peroxidation
+increased
+reperfusion
+products
+lipid
+associated with
+injury
+increase
 GSSG
 hepatic tissue
-intestinal
+intestinal reperfusion
+exposure of
 hepatocytes
-oxidant
+oxidant stress
+increase
+products
 lipid peroxidation
-oxidant
-hepatocyte
-cell membranes
+oxidant stress
+insufficient
+magnitude
+result
+irreversible
+injury
+hepatocyte cell membranes
+data
+measurement
 tissue
 GSSG
+sensitive
 indicator
-oxidant
+oxidant stress
+measurement
+products
 lipid peroxidation

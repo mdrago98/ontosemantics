@@ -1,28 +1,82 @@
+Endogenous
 dopamine
+salience coding
 associative learning
-dopamine precursor levodopa
-learning
-stroke
+Administration
+dopamine precursor
 levodopa
-neurotransmission
+enhances
 learning
+healthy subjects
+stroke
+patients
+levodopa
+increases
+phasic
+tonic
+dopaminergic neurotransmission
+mechanism
+enhancement
+learning
+probed
+tonic
+dopaminergic stimulation
 associative learning
-blind
-dopamine-receptor
-agonist
-pergolide
+healthy subjects
+trained
+vocabulary
+concrete
+nouns
+course
+consecutive
+training
+days
+prospective
+randomized
+double-blind
+placebo-controlled design
+Subjects
+tonically
+stimulating
+dopamine-receptor agonist pergolide
+placebo
+training
+training
+day
 dopamine agonist
 impaired
-learning
-learning
+word learning
+compared
+placebo
+learning decrement
+follow-up
+weeks
+post-training
+Subjects
+treated with
 pergolide
+emotional responses
+PLACEBO
+group
 pergolide
-learning
-inhibition
+degree
+learning inhibition
+findings
+tonic
+occupation
 dopamine receptors
+impairs
 learning
+competition
+phasic
 dopamine
+signals
+phasic
 signaling
+mechanism
 dopamine
+enhances
 associative learning
+healthy subjects
 stroke
+patients

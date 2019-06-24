@@ -1,4 +1,46 @@
 ,Subject,Action,Object,Negation
-0,injury,included,increase,False
-1,Studies,conducted,LLC,False
-2,treatment,reduced,oxygen,False
+0,protective effect,evaluated,curcumin,False
+1,protective effect,evaluated,days,False
+2,protective effect,evaluated,renal injury,False
+3,protective effect,evaluated,maleate,False
+4,Tubular proteinuria,induced,injection,False
+5,Tubular proteinuria,induced,maleate,False
+6,Tubular proteinuria,induced,rats,False
+7,Maleate-induced renal injury,included,increase,False
+8,Maleate-induced renal injury,included,renal vascular resistance,False
+9,Maleate-induced renal injury,included,total protein,False
+10,Maleate-induced renal injury,included,upregulation,False
+11,Maleate-induced renal injury,included,kidney injury molecule (KIM)-1,False
+12,Maleate-induced renal injury,included,renal blood flow,False
+13,Maleate-induced renal injury,included,necrosis,False
+14,Maleate-induced renal injury,included,tubular cells,False
+15,Maleate-induced renal injury,included,h.,False
+16,Maleate-induced renal injury,included,oxidation,False
+17,Maleate-induced renal injury,included,lipids,False
+18,Maleate-induced renal injury,included,Nrf2,False
+19,Studies,conducted,renal epithelial LLC-PK1 cells,False
+20,Studies,conducted,kidneys,False
+21,Studies,conducted,experimental groups,False
+22,Maleate,induced,cell damage,False
+23,Maleate,induced,LLC-PK1 cells,False
+24,Maleate,induced,culture,False
+25,treatment,reduced,oxygen consumption,False
+26,treatment,reduced,mitochondria,False
+27,treatment,reduced,malate/glutamate,False
+28,treatment,reduced,substrate,False
+29,activities,diminished,complex I,False
+30,curcumin,concluded,maleate-induced nephropathy,False
+31,protection,associated,prevention,False
+32,protection,associated,oxidative stress,False
+33,protection,associated,mitochondrial oxygen consumption,False
+34,protection,associated,respiratory complex I,False
+35,protection,associated,prevention,False
+36,protection,associated,ROS,False
+37,protection,associated,prevention,False
+38,protection,associated,oxidative stress,False
+39,protection,associated,mitochondrial oxygen consumption,False
+40,protection,associated,respiratory complex I,False
+41,protection,associated,prevention,False
+42,protection,associated,ROS,False
+43,protection,associated,prevention,False
+44,protection,associated,ROS,False

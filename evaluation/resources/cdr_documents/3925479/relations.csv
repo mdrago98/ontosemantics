@@ -1,9 +1,53 @@
 ,Subject,Action,Object,Negation
-0,Experiments,tested,evidence,False
-1,doses,induce,catalepsy,False
-2,doses,caused,enhancement,False
-3,blocker,disrupted,catalepsy,False
-4,injection,prevented,catalepsy,False
-5,findings,suggest,hypothesis,False
-6,activation,promote,catalepsy,False
-7,activation,promote,suppression,False
+0,Experiments,tested,mice,False
+1,Experiments,tested,evidence,False
+2,Experiments,tested,cholinergic systems,False
+3,Experiments,tested,catalepsy,False
+4,Experiments,tested,expression,False
+5,Experiments,tested,neuroleptic-induced catalepsy,False
+6,activation,tested,mice,False
+7,activation,tested,evidence,False
+8,activation,tested,cholinergic systems,False
+9,activation,tested,catalepsy,False
+10,activation,tested,expression,False
+11,activation,tested,neuroleptic-induced catalepsy,False
+12,mechanisms,tested,mice,False
+13,mechanisms,tested,evidence,False
+14,mechanisms,tested,cholinergic systems,False
+15,mechanisms,tested,catalepsy,False
+16,mechanisms,tested,expression,False
+17,mechanisms,tested,neuroleptic-induced catalepsy,False
+18,activation,promotes,cholinergic systems,False
+19,activation,promotes,catalepsy,False
+20,activation,promotes,expression,False
+21,activation,promotes,neuroleptic-induced catalepsy,False
+22,mechanisms,promotes,cholinergic systems,False
+23,mechanisms,promotes,catalepsy,False
+24,mechanisms,promotes,expression,False
+25,mechanisms,promotes,neuroleptic-induced catalepsy,False
+26,mechanisms,need,expression,False
+27,mechanisms,need,neuroleptic-induced catalepsy,False
+28,doses,induce,cholinomimetic,False
+29,doses,induce,catalepsy,False
+30,cholinergic receptors,induce,cholinomimetic,False
+31,cholinergic receptors,induce,catalepsy,False
+32,doses,caused,pilocarpine,False
+33,doses,caused,enhancement,False
+34,doses,caused,catalepsy,False
+35,doses,caused,dopaminergic blocker,False
+36,muscarinic receptor blocker,disrupted,haloperidol-induced catalepsy,False
+37,Intracranial injection,prevented,acetylcholine-synthesis inhibitor,False
+38,Intracranial injection,prevented,catalepsy,False
+39,Intracranial injection,prevented,haloperidol,False
+40,findings,suggest,hypothesis,False
+41,findings,suggest,neuroleptics,False
+42,findings,suggest,haloperidol,False
+43,catalepsy,suggest,hypothesis,False
+44,catalepsy,suggest,neuroleptics,False
+45,catalepsy,suggest,haloperidol,False
+46,catalepsy,mediated,neuroleptics,False
+47,catalepsy,mediated,haloperidol,False
+48,activation,promote,cholinergic systems,False
+49,activation,promote,catalepsy,False
+50,activation,promote,suppression,False
+51,activation,promote,dopaminergic systems,False

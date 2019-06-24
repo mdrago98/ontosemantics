@@ -1,25 +1,63 @@
+Toxic
+actions
+flurazepam
+FZP
 cats
 mice
 rats
+High doses
+apparent
+central excitation
 clonic convulsions
-depression
+superimposed
+general depression
+lethal dose
 death
+associated with
 convulsions
-depression
+sensitivity
+central depression
+excitation
 rats
 convulsions
+doses
+loss of consciousness
 cats
+excitatory
+Signs
+FZP
+toxocity
 cats
-excessive salivation
+excessive
+salivation
+apprehensive behavior
 retching
 muscle tremors
 convulsions
+interaction
+FZP
+pentylenetetrazol
+PTZ
+pretreating
 mice
+FZP
+PTZ
+function
+dose
+FZP
 convulsions
 death
+higher
+doses
 convulsions
+doses
+FZP
 convulsions
+results
+FZP
+clinical situations
+increased
+neural
 excitability
 epilepsy
-sedative
-drug withdrawal
+sedative-hypnotic drug

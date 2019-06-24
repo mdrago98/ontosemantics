@@ -1,18 +1,47 @@
 ,Subject,Action,Object,Negation
-0,histology,study,cardiotoxicity,False
-1,we,developed,method,False
-2,method,measure,ECG,False
-3,method,moving,mice,False
-4,method,moving,telemetry,False
-5,we,investigated,effect,False
-6,interval,widened,+,False
-7,ms,given,i.v,False
-8,ECG,change,study,True
-9,schedule,exerted,toxicity,False
-10,toxicity,investigate,agents,False
-11,protection,using,dose,False
-12,protection,using,doses,False
-13,doses,given,i.v,False
-14,hearts,appeared,normal,False
-15,hearts,appeared,sacrifice,False
-16,findings,result,model,False
+0,histology,used,laboratory animals,False
+1,histology,used,cardiotoxicity,False
+2,doses,given,week,False
+3,doses,given,doxorubicin,False
+4,ECG,change,control animals,True
+5,ECG,change,study,True
+6,schedule,exerted,toxicity,False
+7,schedule,exerted,protective agents,False
+8,schedule,determined,toxicity,False
+9,schedule,determined,protective agents,False
+10,schedule,determined,ICRF-187,False
+11,schedule,determined,dose schedule,False
+12,schedule,determined,toxicity,False
+13,schedule,determined,doxorubicin,False
+14,schedule,determined,observation,False
+15,protection,determined,toxicity,False
+16,protection,determined,protective agents,False
+17,protection,determined,ICRF-187,False
+18,protection,determined,dose schedule,False
+19,protection,determined,toxicity,False
+20,protection,determined,doxorubicin,False
+21,protection,determined,observation,False
+22,doses,determined,toxicity,False
+23,doses,determined,protective agents,False
+24,doses,determined,ICRF-187,False
+25,doses,determined,dose schedule,False
+26,doses,determined,toxicity,False
+27,doses,determined,doxorubicin,False
+28,doses,determined,observation,False
+29,hearts,appeared,schedule,False
+30,hearts,appeared,sacrifice,False
+31,i.p.,appeared,schedule,False
+32,i.p.,appeared,sacrifice,False
+33,data,confirmed,histology,False
+34,results,indicate,development,False
+35,results,indicate,cardiotoxicity,False
+36,results,indicate,time,False
+37,model,indicate,development,False
+38,model,indicate,cardiotoxicity,False
+39,model,indicate,time,False
+40,findings,result,model,False
+41,findings,result,testing,False
+42,findings,result,protectors,False
+43,findings,result,cardiotoxicity,False
+44,findings,result,protection,False
+45,findings,result,ICRF-187,False

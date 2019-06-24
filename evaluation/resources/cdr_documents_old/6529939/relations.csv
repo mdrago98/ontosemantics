@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,Alternating,observed,woman,False
+1,Alternating,observed,treatment,False
+2,electrocardiogram,showed,alternation,False
+3,intervals,representing,sinus,False
+4,rhythm,started,P,False
+5,intervals,ranged,s,False
+6,intervals,ranged,P,False
+7,There,were,changes,False
+8,second,having,0.12,False
+9,s,proposed,explanation,False
+10,s,proposed,features,False
+11,mg,resulted,shortening,False
+12,rhythm,disappeared,withdrawal,False
+13,propranolol,being,cause,False

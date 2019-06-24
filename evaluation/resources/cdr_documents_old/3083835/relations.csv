@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,physicians,be,order,False
+1,order,prevent,occurrence,False
+2,order,prescribing,antibiotic,False
+3,order,offer,therapy,False

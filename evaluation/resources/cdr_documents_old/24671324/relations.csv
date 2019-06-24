@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,We,report,case,False
+1,who,suffered,necrotising fasciitis,False
+2,who,suffered,neutropenia,False
+3,who,suffered,combination,False
+4,"a 76-year-old man with Waldenström macroglobulinaemia who suffered necrotising fasciitis without neutropenia after the combination treatment with bortezomib, high-dose dexamethasone and rituximab",succumbed,h,False
+5,"a 76-year-old man with Waldenström macroglobulinaemia who suffered necrotising fasciitis without neutropenia after the combination treatment with bortezomib, high-dose dexamethasone and rituximab",succumbed,onset,False
+6,Physicians,recognise,possibility,False
+7,case,warrants,investigation,False

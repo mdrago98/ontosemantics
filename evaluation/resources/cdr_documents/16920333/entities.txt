@@ -1,21 +1,54 @@
-acetate
-antiepileptic
-carbamazepine
+Eslicarbazepine acetate
+BIA
+S-(-)-10-acetoxy-10,11-dihydro-5H-dibenzo/b
+f/azepine-5-carboxamide
+antiepileptic drug
+Phase III clinical trials
+improving
+efficacy
+safety
+comparison
+structurally
+drugs carbamazepine
 CBZ
 oxcarbazepine
 OXC
+effects of
 oral
-acetate
-partial seizures
-seizure
+eslicarbazepine acetate
+whole-animal model
+partial
 seizures
+elicited
+days
+changes
+threshold
 seizure
+patterns
+animals
+treated with
+threshold
+doses
+picrotoxin
+seizures
+average
+seizure
+duration
+Pre-treatment
+dose
+picrotoxin microperfusion
 seizures
 rats
+Lower doses
+suppress
 seizures
+administration
+reductions
 seizures
-seizure
+duration
+seizure number
 adverse effects
-acetate
-behavioral
-sleep
+eslicarbazepine acetate
+behavioral/EEG
+sleep/wakefulness cycle
+doses

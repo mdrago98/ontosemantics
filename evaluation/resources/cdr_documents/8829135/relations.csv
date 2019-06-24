@@ -1,13 +1,46 @@
 ,Subject,Action,Object,Negation
-0,Nefiracetam,is,pyrrolidone,False
-1,which,attenuates,learning,False
-2,which,attenuates,post,False
-3,we,evaluated,ability,False
-4,ability,attenuate,amnesia,False
-5,administration,produced,amnesic,True
-6,apomorphine,produced,amnesic,True
-7,administration,reversed,amnesia,False
-8,amnesia,induced,10h,False
-9,effects,mediated,concentrations,True
-10,nefiracetam,augments,processes,False
-11,nefiracetam,augments,stages,False
+0,Nefiracetam,is,pyrrolidone derivative,False
+1,Nefiracetam,is,scopolamine-induced learning,False
+2,apomorphine,inhibits,avoidance retention,False
+3,apomorphine,inhibits,training,False
+4,apomorphine,evaluated,avoidance retention,False
+5,apomorphine,evaluated,training,False
+6,apomorphine,evaluated,nefiracetam,False
+7,apomorphine,evaluated,amnesia,False
+8,apomorphine,evaluated,dopaminergic agonism,False
+9,apomorphine,employed,training,False
+10,apomorphine,employed,consolidation,False
+11,apomorphine,given,training,False
+12,apomorphine,given,consolidation,False
+13,Co-administration,produced,nefiracetam,False
+14,Co-administration,produced,training,False
+15,Co-administration,produced,anti-amnesic effect,True
+16,administration,reversed,nefiracetam,False
+17,administration,reversed,training,False
+18,administration,reversed,amnesia,False
+19,administration,reversed,apomorphine,False
+20,administration,reversed,10h post-training time,False
+21,effects,mediated,dopaminergic mechanism,True
+22,effects,mediated,nefiracetam,True
+23,effects,mediated,concentrations,True
+24,effects,mediated,[3H]SCH 23390,True
+25,effects,mediated,D1,True
+26,subtypes,mediated,dopaminergic mechanism,True
+27,subtypes,mediated,nefiracetam,True
+28,subtypes,mediated,concentrations,True
+29,subtypes,mediated,[3H]SCH 23390,True
+30,subtypes,mediated,D1,True
+31,subtypes,failed,[3H]SCH 23390,False
+32,subtypes,failed,D1,False
+33,subtypes,displace,[3H]SCH 23390,False
+34,subtypes,displace,D1,False
+35,nefiracetam,suggested,molecular processes,False
+36,nefiracetam,suggested,early stages,False
+37,nefiracetam,suggested,events,False
+38,nefiracetam,suggested,consolidation,False
+39,nefiracetam,suggested,memory,False
+40,nefiracetam,augments,molecular processes,False
+41,nefiracetam,augments,early stages,False
+42,nefiracetam,augments,events,False
+43,nefiracetam,augments,consolidation,False
+44,nefiracetam,augments,memory,False

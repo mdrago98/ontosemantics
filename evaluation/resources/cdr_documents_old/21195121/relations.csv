@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Lindane,is,organochloride,False
+1,Lindane,is,scabicide,False
+2,Lindane,evokes,convulsions,False
+3,Nitric oxide,has,contradictor,False
+4,NAME,observed,epilepsy,False
+5,aim,determine,effects,False
+6,analyses,showed,increase,False
+7,rats,receiving,l,False
+8,rats,receiving,rats,False
+9,rats,pretreated,L,False
+10,results,support,conclusion,False
+11,NO,plays,role,True

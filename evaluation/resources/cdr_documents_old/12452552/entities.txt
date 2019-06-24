@@ -1,0 +1,14 @@
+patient
+chronic renal failure
+CRF
+neuroleptic malignant syndrome
+NMS
+risperidone
+levomepromazine
+NMS
+intestinal bleeding
+NMS
+patient
+CRF
+intestinal bleeding
+complication

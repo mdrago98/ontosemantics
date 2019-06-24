@@ -1,48 +1,78 @@
+Studies
+performed
+mechanisms
+protective effects
 free radical scavengers
 gentamicin
 nephropathy
+Administration
 GM
+days
 rats
+induced
+reduction
 renal blood flow
 RBF
-inulin
+inulin clearance
 CIn
+tubular damage
+reduction
+urinary
 guanosine 3',5'-cyclic monophosphate
 cGMP
 excretion
-renal
-cortical
-renin
+increase
+renal cortical renin
 endothelin-1
-GM
-nephropathy
+contents
+GM-mediated nephropathy
 Superoxide dismutase
 SOD
-GM
+dimethylthiourea
+DMTU
+lessened
+GM-induced
 CIn
-SOD
+SOD-induced
+increase
 glomerular filtration
+rate
+associated with
+improvement
 RBF
+increase
+urinary
 cGMP
 excretion
+decrease
 renal renin
 endothelin-1
+content
 SOD
+attenuate
+tubular damage
+DMTU
+reduced
+tubular damage
 lipid peroxidation
-renal
-hemodynamics
+renal hemodynamics
+vasoactive substances
 SOD
+DMTU
 renal
-cortical
-GM
-GM
+cortical GM
+content
+GM-treated
 rats
+results
 SOD
-GM
-nephropathy
+DMTU
+protective effects
+GM-mediated nephropathy
+mechanisms
+protective effects
 SOD
-superoxide
-anions
-GM
-renal
-vasoconstriction
+DMTU
+superoxide anions
+GM-induced
+renal vasoconstriction

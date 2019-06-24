@@ -1,0 +1,13 @@
+,Subject,Action,Object,Negation
+0,Rats,treated,ppm,False
+1,Rats,treated,diet,False
+2,lesion,associated,cardiac hypertrophy,False
+3,lesion,associated,dilatation,False
+4,lesion,associated,myocardial degeneration,False
+5,Rats,died,cardiac hypertrophy,False
+6,Rats,died,acute,False
+7,Rats,died,chronic congestion,False
+8,percent,given,hydrochloride,False
+9,percent,given,nitrite,False
+10,rats,have,atrial thrombosis,True
+11,Sodium,have,effect,True

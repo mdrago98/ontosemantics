@@ -1,30 +1,79 @@
+mechanism
 doxorubicin
+(DOX)-induced
+cardiotoxicity
 Wistar rats
 DOX
+injections
+intraperitoneally
+experimental
 rats
+killed
+single dose
 DOX
-body
+body weight
 DOX
+acute
 rats
+injections
 DOX
-body
-Cardiac
-antioxidant
+killed
+injection
+M0
+week
+injection
+M1
+M2
+M3
+M4
+chronological effects
+Animals
+M0
+acute study
+Cardiac total antioxidant performance
+TAP
 DNA damage
+morphology analyses
+time point
+Single dose
 DOX
-cardiac
+associated with
+increased
+cardiac disarrangement
 necrosis
 DNA damage
 strand breaks
 SBs
-pyrimidines
-body
+oxidized pyrimidines
+decreased
+TAP
+chronological study
+effect
+cumulative dose
+body weight
 necrosis
+TAP
+DNA SBs
+DNA
 SBs
-SBs
+damage
+associated with
+TAP
 necrosis
 oxidative damage
+associated with
+acute
+cardiotoxicity
+induced
+single dose
 DOX
+Increased
 resistance
 oxidative stress
+multiple dose
 DOX
+mechanisms
+acute
+toxicity
+chronic
+toxicity

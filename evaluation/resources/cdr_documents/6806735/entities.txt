@@ -1,12 +1,53 @@
+years
+patients
 ovarian cancer
+treated with
+combination
 cisplatinum
 CPDD
 adriamycin
 cyclophosphamide
+day
 hexamethylmelamine
 HMM
+daily
+days
+course
+monthly
+patients
+stage II
+stage III
+stage IV disease
+patients
+treated with
+chemotherapy
+radiation
+chemotherapy
+radiation
+treatment
 CPDD
+combination
+cases
+objective
+responses
+months
+responses
+partial
+cases
+Hematologic toxicity
+moderate
 anemia
+patients
+Gastrointestinal side effects
 CPDD
 HMM
-deaths
+gastrointestinal
+toxicity
+discontinuation
+drug
+patients
+Severe
+nephrotoxicity
+patients
+reversible
+drug-related deaths

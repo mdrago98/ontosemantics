@@ -1,0 +1,10 @@
+,Subject,Action,Object,Negation
+0,agent,decrease,frequency,False
+1,reports,described,complications,False
+2,complications,included,deterioration,False
+3,complications,included,intracranial vascular,False
+4,patients,treated,EACA,False
+5,thrombi,observed,patients,False
+6,EACA,implicated,pathogenesis,True
+7,report,describes,infarction,False
+8,occlusion,occurred,EACA,False

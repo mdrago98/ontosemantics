@@ -1,13 +1,39 @@
 ,Subject,Action,Object,Negation
-0,nanosphere,incorporating,amphotericin B,False
-1,We,compared,toxicity,False
-2,toxicity,using,cultures,False
-3,study,following,infusion,False
-4,Incubation,resulted,damage,False
-5,urea,increased,rats,False
-6,concentrations,increased,rats,False
-7,rats,given,iv,False
-8,damage,given,dose,False
-9,examination,showed,tubular necrosis,False
-10,examination,showed,rats,False
-11,incorporation,attenuates,nephrotoxicity,False
+0,B-sodium deoxycholate,compared,toxicity,False
+1,B-sodium deoxycholate,compared,NS-718,False
+2,B-sodium deoxycholate,compared,Fungizone,False
+3,B-sodium deoxycholate,compared,renal cell cultures,False
+4,B-sodium deoxycholate,compared,biochemical analysis,False
+5,B-sodium deoxycholate,compared,histopathological study,False
+6,B-sodium deoxycholate,compared,kidney,False
+7,B-sodium deoxycholate,compared,amphotericin B,False
+8,B-sodium deoxycholate,compared,formulation,False
+9,B-sodium deoxycholate,compared,rats,False
+10,D-AmB,compared,toxicity,False
+11,D-AmB,compared,NS-718,False
+12,D-AmB,compared,Fungizone,False
+13,D-AmB,compared,renal cell cultures,False
+14,D-AmB,compared,biochemical analysis,False
+15,D-AmB,compared,histopathological study,False
+16,D-AmB,compared,kidney,False
+17,D-AmB,compared,amphotericin B,False
+18,D-AmB,compared,formulation,False
+19,D-AmB,compared,rats,False
+20,Incubation,resulted,NS-718,False
+21,Incubation,resulted,damage,False
+22,Incubation,resulted,rats,False
+23,Incubation,resulted,iv,False
+24,Incubation,resulted,dose,False
+25,Incubation,resulted,NS-718,False
+26,results,suggest,amphotericin B,False
+27,results,suggest,lipid nanospheres,False
+28,results,suggest,NS-718,False
+29,results,suggest,nephrotoxicity,False
+30,incorporation,suggest,amphotericin B,False
+31,incorporation,suggest,lipid nanospheres,False
+32,incorporation,suggest,NS-718,False
+33,incorporation,suggest,nephrotoxicity,False
+34,incorporation,attenuates,amphotericin B,False
+35,incorporation,attenuates,lipid nanospheres,False
+36,incorporation,attenuates,NS-718,False
+37,incorporation,attenuates,nephrotoxicity,False

@@ -1,18 +1,36 @@
-Terminalia chebula
-body
+Cardioprotective effect
+ethanolic extract
+Terminalia chebula fruits
 isoproterenol
-body
+induced
+myocardial damage
 rats
 isoproterenol
 rats
-lipid
-peroxides
+level
+lipid peroxides
+increased
 serum
 heart
+significant
+decrease
+activity
+myocardial
+marker
+enzymes
+concomitant
+increase
+activity
 serum
+Histopathological examination
 myocardial necrosis
 T. chebula
+extract
+pretreatment
+ameliorate
+effect
 isoproterenol
-lipid
-peroxide
-formation
+lipid peroxide
+activities
+diagnostic marker
+enzymes

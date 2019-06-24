@@ -1,0 +1,18 @@
+,Subject,Action,Object,Negation
+0,Cardiotoxicity,is,complication,False
+1,complication,occurring,treatment,False
+2,We,report,case,False
+3,herein,report,case,False
+4,who,had,colon cancer,False
+5,patient,referred,chemotherapy,False
+6,"a 70-year-old man with 5-FU-induced cardiotoxicity, in whom a high serum level of alpha-fluoro-beta-alanine (FBAL) was observed",had,history,True
+7,patient,received,infusion,False
+8,precordial pain,occurred,serum,False
+9,precordial pain,disappeared,discontinuation,False
+10,changes,disappeared,discontinuation,False
+11,S-1,has,inhibitory,False
+12,which,catalyzes,degradative,False
+13,which,catalyzes,FBAL,False
+14,value,measured,day,False
+15,patient,achieved,response,False
+16,patient,achieved,initiation,False

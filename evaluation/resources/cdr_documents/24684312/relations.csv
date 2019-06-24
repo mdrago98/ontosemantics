@@ -1,12 +1,31 @@
 ,Subject,Action,Object,Negation
-0,injections,are,hyperalgesia,False
-1,injections,are,allodynia,False
-2,aim,investigate,reproducibility,False
-3,Areas,quantified,injection,False
-4,hyperalgesia,observed,increase,False
-5,hyperalgesia,detected,von,False
-6,Glutamate,evoked,VAS,False
-7,injection,was,hyperalgesia,False
-8,variability,was,VAS,False
-9,glutamate,yield,responses,False
-10,capsaicin,yield,responses,False
+0,hyperalgesia,mimic,clinical pain disorders,False
+1,volunteers,range,years,False
+2,volunteers,range,injections,False
+3,volunteers,range,glutamate,False
+4,volunteers,range,volar forearm,False
+5,Magnitudes,investigated,secondary pinprick hyperalgesia,False
+6,Magnitudes,investigated,von Frey filaments,False
+7,experiments,performed,days,False
+8,Reproducibility,assessed,volunteers,False
+9,Reproducibility,assessed,intraclass correlation coefficient,False
+10,inter- and,assessed,volunteers,False
+11,inter- and,assessed,intraclass correlation coefficient,False
+12,Secondary pinprick hyperalgesia,observed,increase,False
+13,Secondary pinprick hyperalgesia,observed,response,False
+14,Secondary pinprick hyperalgesia,observed,glutamate,False
+15,secondary pinprick hyperalgesia,detected,capsaicin,False
+16,secondary pinprick hyperalgesia,detected,von,False
+17,Glutamate,evoked,VAS,False
+18,Glutamate,evoked,von Frey gauges,False
+19,glutamate,yield,hyperalgesic,False
+20,glutamate,yield,research,False
+21,glutamate,yield,modulation,False
+22,glutamate,yield,central phenomena,False
+23,model,yield,hyperalgesic,False
+24,model,yield,research,False
+25,model,yield,modulation,False
+26,model,yield,central phenomena,False
+27,model,suited,research,False
+28,model,suited,modulation,False
+29,model,suited,central phenomena,False

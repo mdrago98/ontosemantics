@@ -1,42 +1,87 @@
-biochemical mechanisms
+Dose-response relationships
+biochemical
+sex
+experimental
 fatty liver
+induced
 tetracycline
+intact
 rat
-rat liver
+isolated
+perfused
 rat
+liver
+in vitro
+intact
+male
+female
+rat
+relationship
+dose
 tetracycline
 hepatic
+accumulation
 triglyceride
+provision
+adequate
 oleic acid
-liver
+substrate
+isolated
+perfused
+relationship
+dose
 tetracycline
+accumulation
 triglyceride
 liver
 depression
 triglyceride
 livers
+male
+female
 rats
+female
+male
 rats
+base line
+control
 hepatic
+concentration
 triglyceride
+output
 triglyceride
-hepatic
-triglyceride
+Accumulation
+hepatic triglyceride
+control values
+response
+doses
 tetracycline
+male
+female
+pregnant
 rat
 livers
 livers
+female
+pregnant female
 rats
+resistant
+effects of
 tetracycline
 depression
 triglyceride
+experimental conditions
+sexes
+altered
+disposition
 tetracycline
 oleic acid
-hepatic
-secretion
+Depressed
+hepatic secretion
 triglyceride
-hepatic
-triglyceride
-triglyceride
-fatty liver
-response to tetracycline
+hepatic triglyceride
+mechanisms
+production
+triglyceride-rich fatty liver
+response
+tetracycline

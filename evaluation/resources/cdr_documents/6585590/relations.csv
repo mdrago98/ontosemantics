@@ -1,18 +1,24 @@
 ,Subject,Action,Object,Negation
-0,activity,studied,rats,False
-1,rats,bearing,IgM,False
-2,mm,treated,iv,False
-3,mm,treated,days,False
-4,regression,observed,kg,False
-5,disappearance,induced,kg,False
-6,evidence,scored,grade,False
-7,evidence,observed,dose,False
-8,evidence,seen,dose,False
-9,which,resulted,albuminuria,False
-10,which,resulted,serum,False
-11,that,received,kg,False
-12,level,decreased,33.6,False
-13,experiments,performed,rats,False
-14,activity,studied,M,False
-15,ascites,were,consequence,True
-16,hydrothorax,were,consequence,True
+0,Antitumor activity,studied,doxorubicin,False
+1,Antitumor activity,studied,LOU/M/WSL inbred,False
+2,Antitumor activity,studied,transplantable solid IgM immunocytoma,False
+3,dose range,treated with,iv injections,False
+4,dose range,treated with,doxorubicin,False
+5,dose range,treated with,days,False
+6,dose range,treated with,injection,False
+7,dose range,treated with,weeks,False
+8,dose range,followed,injection,False
+9,dose range,followed,weeks,False
+10,disappearance,induced,tumor,False
+11,evidence,observed,cardiotoxicity,False
+12,evidence,observed,grade III,False
+13,evidence,observed,dose,False
+14,evidence,seen,renal damage,False
+15,evidence,seen,dose,False
+16,evidence,seen,albuminuria,False
+17,experiments,performed,non-tumor-bearing rats,False
+18,antitumor activity,studied,LOU/M/WSL,False
+19,Albuminuria,led,renal damage,False
+20,Albuminuria,led,cardiomyopathy,False
+21,ascites,led,renal damage,False
+22,ascites,led,cardiomyopathy,False

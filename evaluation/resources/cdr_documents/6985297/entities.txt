@@ -1,24 +1,76 @@
 Bepridil
+novel
+active compound
+prophylactic treatment
 anginal attacks
+induced
+persistent
 bradycardia
+anti-tachycardial effect
+mechanisms
+investigated
+in vitro
+in vivo
+In vitro
+perfusion
 bepridil
-atrial
-tissue
+life-support medium
+isolated
+sino-atrial tissue
 rabbit
 heart
+reduction
 action potential
 AP
+spike frequency
 KCl
-sinus
-Bepridil
+microelectrodes
+doses
+effect
+dose-dependent
+concentrations
+blockade
+sinus activity
+dose
+induced
+concomitant
+reduction
 AP
+amplitude
+falling
+maximum systolic depolarization velocity
+phase 0
+maximum diastolic depolarization velocity
+phase 4
+In vivo
+injection
 bepridil
+dose
+anaesthetized
 dogs
-cardiac
-afferent nerve supply
-heart
+ablation
+extrinsic cardiac afferent nerve supply
+bilateral
+medullo-adrenalectomy
+reduction
+heart rate
 bepridil
-heart
+reduces
+heart rate
 sinus node
+effect
+results
+flattening
+phase 0
+phase 4
+longer
 AP
-potassium
+duration
+increase
+time constants
+slow inward ionic currents
+increased
+time constant
+deactivation
+outward potassium current
+Ip

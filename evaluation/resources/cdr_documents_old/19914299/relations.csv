@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,who,treated,chemotherapy,False
+1,patients,experiencing,deteriorations,False
+2,agent,crosses,blood-brain barrier,False
+3,drug,reduce,cell proliferation,False
+4,drug,reduce,regions,False
+5,effects,tested,rats,False
+6,animals,treated,5-FU,False
+7,animals,had,reduction,False
+8,Animals,treated,5-FU,False
+9,ability,carry,OLR,False
+10,administration,improved,performance,False
+11,chemotherapy,caused,reduction,False
+12,Fluoxetine,had,effect,True
+13,5-FU,affect,cell proliferation,False
+14,5-FU,affect,working memory,False

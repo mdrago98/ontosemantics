@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,effects,determined,subjects,False
+1,cortisol,determined,subjects,False
+2,patients,meeting,DSM,False
+3,Caffeine,produced,increases,False
+4,symptoms,correlated,plasma,False
+5,Caffeine,alter,plasma,True
+6,Caffeine,alter,subjects,True
+7,Caffeine,increased,plasma,False
+8,Caffeine,increased,patient,False
+9,Caffeine,increased,groups,False
+10,caffeine,is,adenosine receptor antagonist,False
+11,patients,have,abnormalities,False
+12,abnormalities,involving,adenosine,False

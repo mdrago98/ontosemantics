@@ -1,0 +1,20 @@
+,Subject,Action,Object,Negation
+0,Hodgkin lymphoma,is,malignancy,False
+1,who,relapse,dose,False
+2,which,relies,disease,False
+3,Regimens,require,administration,False
+4,Gemcitabine,have,activity,False
+5,cisplatin,have,activity,False
+6,HL,treated,day,False
+7,cycles,administered,cycles,False
+8,patients,received,GEM,False
+9,patients,received,line,False
+10,patients,received,line,False
+11,rate,was,%,False
+12,CR,confirmed,metabolic,False
+13,CR,confirmed,line,False
+14,%,CR,PET,False
+15,up,was,years,False
+16,survival,was,%,False
+17,GEM-P,is,salvage,False
+18,GEM-P,is,treatment,False

@@ -1,10 +1,16 @@
 ,Subject,Action,Object,Negation
-0,We,report,woman,False
-1,who,developed,acute renal failure,False
-2,woman,following,use,False
-3,that,contained,anthraquinone,False
-4,pill,extracted,Rhizoma,False
-5,pathology,was,that,False
-6,recovery,occurred,cessation,False
-7,nephropathy,considered,patients,False
-8,who,present,renal failure,False
+0,Nephropathy,reported,Chinese herbs,False
+1,Nephropathy,reported,aristolochic acids,False
+2,renal injury,aggravated,intake,False
+3,renal injury,aggravated,non-steroidal anti-inflammatory drug,False
+4,recovery,occurred,cessation,False
+5,recovery,occurred,slimming pills,False
+6,mild interstitial fibrosis,occurred,cessation,False
+7,mild interstitial fibrosis,occurred,slimming pills,False
+8,relationship,remains,anthraquinone-containing herbal agent,False
+9,relationship,considered,anthraquinone-containing herbal agent,False
+10,relationship,considered,patients,False
+11,relationship,considered,renal failure,False
+12,phytotherapy-associated interstitial nephropathy,considered,anthraquinone-containing herbal agent,False
+13,phytotherapy-associated interstitial nephropathy,considered,patients,False
+14,phytotherapy-associated interstitial nephropathy,considered,renal failure,False

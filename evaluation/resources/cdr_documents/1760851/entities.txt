@@ -1,55 +1,101 @@
 rat
+model
+evaluate
+general acute
+toxicity
+cardiotoxicity
 doxorubicin
 DOX
-N-(2-hydroxypropyl)methacrylamide
-HPMA
+free drug
 copolymer
-HPMA
-copolymers
+conjugates
+HPMA copolymers
 DOX
-peptide
+covalently bound
+peptide linkages
+non-biodegradable
 Gly-Gly
+degradable
 lysosomal proteinases
-Gly
-Phe
-Leu
-Gly
+Gly-Phe-Leu-Gly
+biodegradable
+conjugate
 galactosamine
+residue
 targeted
 liver
-polymer
+weeks
+i.v.
+administration
+free
 DOX
-body
-body
-polymer
+animals
+transient
+reduction
+body weight
+maximal
+reduction
+body weight
+animals
+polymer-bound DOX
+free
 DOX
-DOX
-mixture
+parent
 HPMA
 copolymer
-DOX
+free DOX
+study
+weeks
 deaths
-DOX
-mixture
+cardiotoxicity
+animals
+free DOX
 HPMA
 copolymer
-DOX
+free DOX
+cases
+histological
+changes
 heart
+consistent with
+DOX-induced
+cardiotoxicity
+Sequential
+measurements
+cardiac output
+surviving
+animals
+free
 DOX
-cardiac
-DOX
-mixture
 HPMA
 copolymer
-DOX
-heart
-rats
+free DOX
+reduction
+function
+week
+drug administration
+heart rate
+animals
+measured
+age-matched
+Animals
 HPMA
 copolymer
+conjugates
 DOX
-cardiac
+cardiac output
+study
+histological change
 heart
+animals
 DOX
 HPMA
 copolymer
-heart
+conjugates
+killed
+study
+animals
+increase
+heart rate
+weeks
+drug administration

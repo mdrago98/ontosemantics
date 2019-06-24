@@ -1,10 +1,22 @@
 ,Subject,Action,Object,Negation
-0,chemotherapy,including,thiotepa,False
-1,cases,developed,axonal neuropathy,False
-2,cases,developed,lower extremities,False
-3,cases,developed,months,False
-4,toxicities,described,IT,False
-5,axonal neuropathy,following,administration,False
-6,TSPA,is,IT,False
-7,combination,cause,neurotoxicity,False
-8,complication,indicates,need,False
+0,cases,presented,toxicity,False
+1,cases,presented,administration,False
+2,cases,presented,combination chemotherapy,False
+3,cases,presented,thiotepa,False
+4,cases,developed,axonal neuropathy,False
+5,cases,developed,motor predominance,False
+6,cases,developed,extremities 1,False
+7,cases,developed,months,False
+8,IT chemotherapy,developed,axonal neuropathy,False
+9,IT chemotherapy,developed,motor predominance,False
+10,IT chemotherapy,developed,extremities 1,False
+11,IT chemotherapy,developed,months,False
+12,Neurologic toxicities,described,IT-methotrexate,False
+13,axonal neuropathy,described,administration,True
+14,axonal neuropathy,described,agents,True
+15,TSPA,cause,MTX,False
+16,TSPA,cause,neurotoxicity,False
+17,combination,cause,MTX,False
+18,combination,cause,neurotoxicity,False
+19,complication,indicates,toxicology research,False
+20,complication,indicates,IT-TSPA,False

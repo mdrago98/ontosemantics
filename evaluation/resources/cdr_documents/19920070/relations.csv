@@ -1,22 +1,47 @@
 ,Subject,Action,Object,Negation
-0,disruption,interferes,signals,False
-1,signaling,interferes,signals,False
-2,study,investigates,role,False
-3,mice,given,PB,False
-4,mice,given,days,False
-5,Livers,harvested,2,False
-6,Livers,harvested,days,False
-7,There,were,cells,False
-8,There,were,day,False
-9,response,come,days,False
-10,mice,proliferate,day,False
-11,mice,showed,expression,False
-12,genes,involved,proliferation,False
-13,genes,involved,time,False
-14,genes,involved,PB,False
-15,proteins,communicate,machinery,False
-16,machinery,dividing,cells,False
-17,machinery,dividing,ILK,False
-18,machinery,regulate,proliferation,False
-19,machinery,regulate,termination,False
-20,Lack,imparts,response,False
+0,disruption,demonstrated,(ECM)/integrin signaling,False
+1,disruption,demonstrated,elimination,False
+2,disruption,demonstrated,integrin-linked kinase,False
+3,disruption,demonstrated,hepatocytes,False
+4,disruption,demonstrated,signals,False
+5,disruption,demonstrated,termination,False
+6,disruption,demonstrated,liver regeneration,False
+7,disruption,interferes with,(ECM)/integrin signaling,False
+8,disruption,interferes with,elimination,False
+9,disruption,interferes with,integrin-linked kinase,False
+10,disruption,interferes with,hepatocytes,False
+11,disruption,interferes with,signals,False
+12,disruption,interferes with,termination,False
+13,disruption,interferes with,liver regeneration,False
+14,study,investigates,ILK,False
+15,study,investigates,liver enlargement,False
+16,study,investigates,phenobarbital,False
+17,liver-/- mice,given,PB,False
+18,liver-/- mice,given,days,False
+19,Livers,harvested,days,False
+20,Livers,harvested,PB,False
+21,liver,was,hepatocyte-specific ILK/liver-/- mice,False
+22,body weight ratio,was,hepatocyte-specific ILK/liver-/- mice,False
+23,increase,expected,WT mice,False
+24,increase,expected,literature,False
+25,increase,expected,day,False
+26,proliferative response,come,WT animals,False
+27,proliferative response,come,days,False
+28,Hepatocytes,continued,ILK/liver-/- mice,False
+29,Hepatocytes,continued,day,False
+30,ILK/liver-/- mice,showed,expression,False
+31,ILK/liver-/- mice,showed,genes,False
+32,ILK/liver-/- mice,showed,hepatocyte,False
+33,ILK/liver-/- mice,showed,time points,False
+34,ILK/liver-/- mice,showed,PB,False
+35,ECM proteins,communicate,signaling machinery,False
+36,ECM proteins,communicate,dividing cells,False
+37,ECM proteins,communicate,ILK,False
+38,ECM proteins,communicate,hepatocyte,False
+39,ECM proteins,communicate,proliferative response,False
+40,Lack,imparts,ILK,False
+41,Lack,imparts,hepatocytes,False
+42,Lack,imparts,proliferative response,False
+43,Lack,imparts,stimuli,False
+44,Lack,imparts,liver regeneration,False
+45,Lack,imparts,PB,False

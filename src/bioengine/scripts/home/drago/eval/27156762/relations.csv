@@ -1,0 +1,39 @@
+,Subject,Action,Object,Negation
+0,Neurohypophyseal diabetes insipidus,characterized,polyuria,False
+1,Neurohypophyseal diabetes insipidus,characterized,deficiency,False
+2,Neurohypophyseal diabetes insipidus,characterized,antidiuretic hormone,False
+3,genetic forms,underlie,patients,False
+4,genetic forms,underlie,disorder,False
+5,disease,transmitted,families,False
+6,recessive forms,transmitted,families,False
+7,phenotypes,caused,mutations,False
+8,precursor,retained,transfected cells,False
+9,precursor,retained,mutations,False
+10,precursor,retained,endoplasmic reticulum,False
+11,precursor,retained,aggregates,False
+12,Autopsy studies,suggest,humans,False
+13,Autopsy studies,suggest,toxicity,False
+14,Autopsy studies,suggest,neurons,False
+15,Autopsy studies,suggest,cell death,False
+16,phenotype,suggest,humans,False
+17,phenotype,suggest,toxicity,False
+18,phenotype,suggest,neurons,False
+19,phenotype,suggest,cell death,False
+20,mechanisms,suggest,humans,False
+21,mechanisms,suggest,toxicity,False
+22,mechanisms,suggest,neurons,False
+23,mechanisms,suggest,cell death,False
+24,phenotype,results,toxicity,False
+25,phenotype,results,neurons,False
+26,phenotype,results,cell death,False
+27,mechanisms,results,toxicity,False
+28,mechanisms,results,neurons,False
+29,mechanisms,results,cell death,False
+30,mechanisms,remain,cell death,False
+31,transmission,results,AVP,False
+32,transmission,results,biologic activity,False
+33,transmission,results,locus,False
+34,Genetic neurohypophyseal diabetes insipidus,termed,context,False
+35,Genetic neurohypophyseal diabetes insipidus,termed,diabetes mellitus,False
+36,Genetic neurohypophyseal diabetes insipidus,termed,mutations,False
+37,Genetic neurohypophyseal diabetes insipidus,termed,wolframin,False

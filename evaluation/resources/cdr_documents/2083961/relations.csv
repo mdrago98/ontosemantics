@@ -1,8 +1,12 @@
 ,Subject,Action,Object,Negation
-0,patient,treated,regimens,False
-1,patient,treated,months,False
-2,Rifampicin,administered,thrice,False
-3,Rifampicin,administered,one,False
-4,Rifampicin,developed,side,False
-5,episode,was,acute renal failure,False
-6,patient,made,recovery,False
+0,patient,treated with,pulmonary tuberculosis,False
+1,patient,treated with,regimens,False
+2,patient,treated with,antituberculosis,False
+3,patient,treated with,months,False
+4,Rifampicin,administered,drug regimen,False
+5,Rifampicin,administered,side effects,False
+6,Rifampicin,administered,nausea,False
+7,Rifampicin,administered,chills,False
+8,patient,seen,authors,False
+9,patient,seen,report,False
+10,patient,made,recovery,False

@@ -1,12 +1,18 @@
 Central nervous system
-cardiac
+cardiac toxicity
+administration
 local anesthetics
 complication
-anesthesia
+regional anesthesia
 Levobupivacaine
-pure
+S(-)
+enantiomer
 bupivacaine
-cardiac
+cardiac safety profile
 bupivacaine
+cases
 grand mal seizures
+accidental
+intravascular
+injection
 levobupivacaine

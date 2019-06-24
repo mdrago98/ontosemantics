@@ -1,7 +1,11 @@
 ,Subject,Action,Object,Negation
-0,We,evaluated,severity,False
-1,there,was,%,False
-2,dyskinesias,reduced,lower limbs,False
-3,dyskinesias,reduced,onset,False
-4,dyskinesias,reduced,disappearance,False
-5,transmission,reduce,levodopa-,False
+0,dyskinesias,reduced,lower limbs,False
+1,dyskinesias,reduced,onset,False
+2,dyskinesias,reduced,dystonic dyskinesias,False
+3,dyskinesias,reduced,choreic mid-dose dyskinesias,False
+4,serotoninergic transmission,suggest,fluoxetine,False
+5,serotoninergic transmission,suggest,agonist-induced dyskinesias,False
+6,serotoninergic transmission,suggest,parkinsonian motor disability,False
+7,serotoninergic transmission,reduce,fluoxetine,False
+8,serotoninergic transmission,reduce,agonist-induced dyskinesias,False
+9,serotoninergic transmission,reduce,parkinsonian motor disability,False

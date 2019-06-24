@@ -1,2 +1,9 @@
 ,Subject,Action,Object,Negation
-0,patients,seen,exercise,False
+0,pharmacological stress,determine,left ventricular dysfunction,False
+1,pharmacological stress,determine,patients,False
+2,pharmacological stress,determine,coronary artery disease,False
+3,pharmacological stress,determine,exercise,False
+4,pharmacological stress,leads,left ventricular dysfunction,False
+5,pharmacological stress,leads,patients,False
+6,pharmacological stress,leads,coronary artery disease,False
+7,pharmacological stress,leads,exercise,False

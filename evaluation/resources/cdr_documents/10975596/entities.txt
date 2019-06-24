@@ -1,33 +1,72 @@
 hemodynamic
+antiadrenergic
 dronedarone
+noniodinated compound
 amiodarone
 amiodarone
-oral
-rest
-dogs
-healed myocardial infarction
+prolonged
+oral administration
+sympathetic stimulation
+conscious dogs
+healed
+myocardial infarction
 dogs
 orally
 dronedarone
 amiodarone
-Heart
-arterial pressure
+placebo twice daily
+days
+washout
+consecutive
+treatments
+Heart rate
+HR
+mean arterial pressure
 MBP
-ventricular
-left ventricular ejection
+positive rate
+increase
+left ventricular pressure
+LVdP/dt
+echocardiographically
+left ventricular ejection fraction
+LVEF
+fractional shortening
+FS
+chronotropic response
 isoproterenol
-Resting
+exercise-induced
+sympathetic stimulation
+baseline
+posttreatment
+Resting values
+LVEF
+FS
+LVdP/dt
 MBP
+unchanged
+drug
+dosing regimen
 resting
+HR
+significantly
+dose-dependently
 dronedarone
+lesser extent
 amiodarone
 dronedarone
 amiodarone
-isoproterenol
+exercise-induced tachycardia
+highest dose
+decreased
+isoproterenol-induced tachycardia
 dronedarone
 amiodarone
-resting
-left ventricular function
+level
+antiadrenergic
+impair
+resting left ventricular function
 dronedarone
-arrhythmias
+treatment
+prevention
+clinical arrhythmias
 left ventricular function

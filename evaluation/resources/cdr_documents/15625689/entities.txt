@@ -1,24 +1,66 @@
+Gastrointestinal abnormalities
 Parkinson's disease
 PD
+centuries
+pathophysiology
+study
 oropharyngeal
+dynamics
 PD
-levodopa
-dyskinesia
+patients
+levodopa-induced dyskinesia
+dyskinetic
+nondyskinetic
+patients
+control group
+Patients
 dysphagia
-Parkinson's Disease
+evaluated
+Unified Parkinson's Disease Rating Scale Parts II
+III
+Hoehn
 Deglutition
-barium
-oropharyngeal
-swallowing
+assessed
+modified barium swallow
+videofluoroscopy
+Nondyskinetic
+patients
+dyskinetic ones
+oropharyngeal swallowing
+efficiency
+OPSE
+liquid food
+controls
+Dunnett
+Dyskinetic
+patients
+OPSE
+nondyskinetic
+Dunnett
+Patients
+higher dose
 levodopa
-oral
+OPSE
+oral transit time
+Pearson's correlation
+report
 dysphagia
 PD
-swallowing
+severity
+parameters
+correlated
+videofluoroscopic
+variables
+study
+dyskinetic
+patients
+swallowing function
+levodopa dose
 levodopa
-levodopa
-oral
+oral phase
 deglutition
 dysphagia
+predictor
 deglutition
+alterations
 PD

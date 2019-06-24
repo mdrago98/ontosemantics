@@ -1,10 +1,16 @@
 ,Subject,Action,Object,Negation
-0,woman,presented,onset,False
-1,patient,had,number,False
-2,Valproate,withdrawn,admission,False
-3,abilities,improved,months,False
-4,EEG,undertaken,stay,False
-5,EEG,showed,changes,False
-6,N-methyl-D-aspartate (NMDA) receptor antibodies,were,patient,False
-7,aetiologies,present,dilemma,False
-8,We,present,hypothesis,False
+0,patient,had,months,False
+1,patient,had,admissions,False
+2,patient,had,hemiparesis,False
+3,patient,had,facial droop,False
+4,patient,had,valproate,False
+5,patient,had,hemiplegic migraine,False
+6,Valproate,withdrawn,admission,False
+7,Valproate,withdrawn,months,False
+8,Valproate,withdrawn,follow-up,False
+9,EEG,showed,inpatient stay,False
+10,EEG,showed,changes,False
+11,EEG,showed,encephalopathy,False
+12,EEG,showed,patient,False
+13,aetiologies,present,valproate-induced encephalopathy,False
+14,aetiologies,present,diagnostic dilemma,False

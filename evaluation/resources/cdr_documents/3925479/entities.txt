@@ -1,26 +1,49 @@
+Experiments
 mice
+evidence
+activation
+cholinergic systems
+promotes
 catalepsy
+cholinergic
+mechanisms
+intact
 expression
-neuroleptic
-catalepsy
+neuroleptic-induced catalepsy
+doses
 cholinomimetic
 pilocarpine
+induce
 catalepsy
+peripheral
+cholinergic receptors
+blocked
+Low
+doses
 pilocarpine
+enhancement
 catalepsy
+induced
+dopaminergic blocker
 haloperidol
-muscarinic receptor
+muscarinic receptor blocker
 atropine
-haloperidol
+disrupted
+haloperidol-induced catalepsy
+Intracranial injection
+acetylcholine-synthesis inhibitor
+hemicholinium
 catalepsy
-Intracranial
-acetylcholine
-synthesis
-inhibitor
-catalepsy
+induced
 haloperidol
+findings
+hypothesis
 catalepsy
 neuroleptics
 haloperidol
+intrinsic central
+activation
+cholinergic systems
 catalepsy
 suppression
+dopaminergic systems

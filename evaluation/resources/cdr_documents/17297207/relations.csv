@@ -1,19 +1,48 @@
 ,Subject,Action,Object,Negation
-0,there,was,case,False
-1,who,presented,arrhythmia,False
-2,examination,showed,Plasmodium falciparum,False
-3,Patient,diagnosed,malaria,False
-4,patient,had,vomitus,False
-5,patient,felt,palpitation,False
-6,patient,felt,recording,False
-7,trigemini,treated,mg,False
-8,level,was,meq,False
-9,3.52 meq/L Patient,discharged,day,False
-10,3.52 meq/L Patient,discharged,condition,False
-11,Quinine,is,chincona,False
-12,that,has,property,False
-13,that,cause,arrhythmias,False
-14,arrhythmias,including,arrhythmia,False
-15,Administration,done,effect,False
-16,who,have,heart diseases,False
-17,electrolyte disorder,vomiting,malaria,False
+0,man,admitted to,hospital,False
+1,man,admitted to,high fever,False
+2,laboratory examination,showed,admission,False
+3,laboratory examination,showed,Plasmodium falciparum,False
+4,laboratory examination,showed,malaria,False
+5,laboratory examination,showed,jaundice,False
+6,laboratory examination,showed,quinine,False
+7,laboratory examination,showed,dextrose,False
+8,Patient,showed,admission,False
+9,Patient,showed,Plasmodium falciparum,False
+10,Patient,showed,malaria,False
+11,Patient,showed,jaundice,False
+12,Patient,showed,quinine,False
+13,Patient,showed,dextrose,False
+14,Patient,diagnosed,malaria,False
+15,Patient,diagnosed,jaundice,False
+16,Patient,diagnosed,quinine,False
+17,Patient,diagnosed,dextrose,False
+18,patient,had,vomitus,False
+19,patient,felt,quinine,False
+20,patient,felt,palpitation,False
+21,patient,felt,premature ventricular contraction,False
+22,sinoatrial block,felt,quinine,False
+23,sinoatrial block,felt,palpitation,False
+24,sinoatrial block,felt,premature ventricular contraction,False
+25,sinoatrial block,showed,premature ventricular contraction,False
+26,infusion,discontinued,tablets,False
+27,patient,reduced,PVC,False
+28,frequency,reduced,PVC,False
+29,patient,discharged,PVC,False
+30,patient,discharged,day,False
+31,frequency,discharged,PVC,False
+32,frequency,discharged,day,False
+33,level,discharged,PVC,False
+34,level,discharged,day,False
+35,Quinine,is,quinidine,False
+36,Quinine,is,chincona alkaloid,False
+37,Quinine,is,anti-arrhythmic property,False
+38,Quinine,is,arrhythmias,False
+39,Quinine,is,arrhythmia,False
+40,Quinine,is,PVC,False
+41,Administration,done,quinine,False
+42,Administration,done,observation,False
+43,Administration,done,patients,False
+44,Administration,done,heart diseases,False
+45,Administration,done,electrolyte disorder,False
+46,Administration,done,malaria,False

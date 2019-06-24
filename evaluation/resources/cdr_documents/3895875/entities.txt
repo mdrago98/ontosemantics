@@ -1,26 +1,59 @@
+patients
+suspected
 myocardial infarction
-blind
+symptoms
+double-blind randomized trial
 lidocaine
+placebo
+administration
+drug
+incidence
 ventricular fibrillation
-sustained ventricular tachycardia
+sustained
+ventricular tachycardia
+patients
 acute myocardial infarction
 Lidocaine
-sustained ventricular tachycardia
+dose
+intravenously
+sustained
+ventricular tachycardia
+reduction
+patients
+warning
 arrhythmias
+minutes
+administration
 lidocaine
 plasma
 lidocaine
+level
+minutes
+administration
+patients
 myocardial infarction
-infarction
+significantly higher
+patients
+acute infarction
 plasma
 lidocaine
-blocking
-blocking
-central nervous system
+level
+patients
+beta-blocking agents
+patients
+beta blocking agents
+incidence
+central nervous system side effects
+lidocaine group
+hypotension
+patients
 lidocaine
-lidocaine
+patients
 died
 asystole
 lidocaine
+administration
 lidocaine
+prophylactically
+suspected
 myocardial infarction

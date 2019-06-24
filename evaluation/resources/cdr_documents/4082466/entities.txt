@@ -1,12 +1,28 @@
-suffered
+neonates
 generalized seizures
+intravenous
 morphine sulfate
-analgesia
+post-operative analgesia
 morphine
+doses
+micrograms/kg/hr larger
+group
+neonates
+micrograms/kg/hr
 seizures
 Plasma
+concentrations
 morphine
+neonates
+excessive
 seizures
 convulsions
+cessation
 morphine
+reoccur
+months
+post-operative
+intravenous
 morphine
+micrograms/kg/ml
+neonates

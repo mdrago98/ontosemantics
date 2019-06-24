@@ -1,7 +1,99 @@
 Butyrylcholinesterase deficiency
+prolonged
 apnea
 muscle relaxants
 suxamethonium
+mivacurium
+patients
+mutations
 BCHE gene
-prolonged neuromuscular block
+prolonged
+neuromuscular block
+administration
 suxamethonium
+discovery
+novel
+BCHE
+c.695T
+p.
+Inhibition studies
+kinetic analysis
+molecular dynamics
+mutation
+disrupts
+catalytic triad
+silent
+phenotype
+activity
+patient
+butyrylthiocholine
+BTC
+benzoylcholine
+values
+dibucaine
+fluoride
+heterozygous
+silent
+genotype
+Electrophoretic analysis
+plasma
+BChE
+proband
+mother
+patient
+reduced
+amount
+tetrameric enzyme
+plasma
+BChE
+components
+monomer
+dimer
+monomer-albumin conjugate
+Kinetic analysis
+p
+Val204Asp/p
+Asp70Gly-p
+Ala539Thr BChE
+Michaelian
+behavior
+BTC
+substrate
+catalytic parameters
+BTC
+atypical
+enzyme
+low
+Vmax
+consistent with
+absence
+activity
+suxamethonium
+Molecular dynamic (MD)
+effect
+mutation p
+Val204Asp
+disruption
+hydrogen bonding
+Gln223
+Glu441
+Ser198
+His438
+disruption
+catalytic triad
+functionality
+substrate
+MD
+enzyme volume
+increased
+pre-denaturation state
+reduced
+concentration
+p
+Ala204Asp/p
+Asp70Gly-p
+Ala539Thr tetrameric enzyme
+plasma
+non-detectable
+fast moving-bands
+electrophoresis gels

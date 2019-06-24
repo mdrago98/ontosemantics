@@ -1,13 +1,41 @@
 ,Subject,Action,Object,Negation
 0,Acetaminophen,produces,tubular necrosis,False
-1,Acetaminophen,produces,rats,False
+1,Acetaminophen,produces,Fischer 344,False
 2,p-aminophenol,identified,metabolite,False
-3,formation,is,step,False
-4,BNPP,reduced,APAP,False
-5,Pretreatment,resulted,reduction,False
-6,pretreatment,reduced,fraction,False
-7,pretreatment,reduced,APAP,False
-8,fraction,excreted,PAP,False
-9,BNPP,alter,excretion,True
-10,formation,accounts,part,False
-11,formation,accounts,renal tubular necrosis,False
+3,p-aminophenol,identified,APAP,False
+4,p-aminophenol,identified,F344,False
+5,formation,was,study,False
+6,formation,was,nephrotoxicity,False
+7,formation,determine,nephrotoxicity,False
+8,effect,determined,bis(p-nitrophenyl) phosphate,False
+9,effect,determined,APAP,False
+10,nephrotoxicity,determined,bis(p-nitrophenyl) phosphate,False
+11,nephrotoxicity,determined,APAP,False
+12,BNPP,reduced,APAP,False
+13,Pretreatment,resulted,animals,False
+14,Pretreatment,resulted,BNPP,False
+15,Pretreatment,resulted,APAP,False
+16,Pretreatment,resulted,reduction,False
+17,Pretreatment,resulted,APAP,True
+18,pretreatment,reduced,fraction,False
+19,pretreatment,reduced,APAP,False
+20,pretreatment,reduced,PAP,False
+21,pretreatment,reduced,APAP,False
+22,BNPP,alter,excretion,True
+23,BNPP,alter,APAP,True
+24,BNPP,alter,non-deacetylated metabolites,True
+25,BNPP,alter,excretion,True
+26,BNPP,alter,PAP,True
+27,BNPP,alter,PAP,True
+28,BNPP,alter,excretion,True
+29,BNPP,alter,APAP,True
+30,BNPP,alter,non-deacetylated metabolites,True
+31,BNPP,alter,excretion,True
+32,BNPP,alter,PAP,True
+33,BNPP,alter,PAP,True
+34,BNPP,alter,excretion,False
+35,BNPP,alter,PAP,False
+36,BNPP,alter,PAP,False
+37,reduction,appears,nephrotoxicity,False
+38,reduction,appears,inhibition,False
+39,reduction,appears,APAP,False

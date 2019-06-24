@@ -1,14 +1,33 @@
+Male
 rats
-noradrenaline
-neurotoxin
+noradrenaline neurotoxin DSP4
+days
+injection
 D-amphetamine
+hyperactivity
+induced
 D-amphetamine
-amphetamine
-stereotypies
-amphetamine
-noradrenaline
-blocking
+DSP4
+pretreatment
+increased
+rearings
+amphetamine-induced stereotypies
+blocked
+pretreatment
+DSP4
+reduction
+amphetamine hyperactivity
+induced
+DSP4
+blocked
+pretreatment
+noradrenaline-uptake blocking agent
 desipramine
-noradrenergic
+neurotoxic action
+DSP4
+involvement
+noradrenergic neurones
+locomotor
+stimulant
 amphetamine
 rat

@@ -1,10 +1,28 @@
+patients
 acute renal failure
+thrombopenia
 hemolysis
+induced
+reintroduction
 rifampicin
+correlation
+severity
+clinical manifestations
+total dose
+patients
 patient
-antibodies
+antirifampicin antibodies
+detected
 Antibodies
-IgM
+IgM class
+detected
+patients
 hematological disorders
-acute tubular necrosis
-vascular
+non-specific
+biopsied
+patients
+ischemic origin
+vascular-mediated damage
+patients
+triggering
+immunoallergic mechanism

@@ -1,10 +1,26 @@
+male
 patient
+bacteriologically
 pulmonary tuberculosis
+treated with
+regimens
+antituberculosis
+drugs
+months
 Rifampicin
+administered
+drug regimen
+untoward
+side effects
 nausea
 vomiting
-fever with chills
+fever
+chills
 rigors
+episode
 acute renal failure
 patient
+authors
+report
 patient
+recovery

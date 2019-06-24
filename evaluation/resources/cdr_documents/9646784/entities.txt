@@ -1,12 +1,18 @@
-anticoagulant
+anticoagulant drugs
 development
 heparin
+drug
 anticoagulation
+clinical effects
 heparin
-heparin
+meritorious
+side effects
+untoward effects
+heparin therapy
 heparin-induced thrombocytopenia
-heparin
-osteoporosis
+heparin-associated osteoporosis
 eosinophilia
-skin
-reactions, allergic reactions
+skin reactions
+allergic reactions
+thrombocytopenia
+alopecia

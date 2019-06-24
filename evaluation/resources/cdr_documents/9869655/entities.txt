@@ -1,65 +1,110 @@
-ethinylestradiol
-biosynthetic
-pathways
+Effects of
+17alpha-ethinylestradiol
+EE
+neutral
+biosynthetic pathways
 bile salt
-BS
 synthesis
+evaluated
 rats
+intact
 enterohepatic circulation
 rats
-bile
+long-term
+bile diversion
+induce
 BS
 synthesis
 bile salt
+composition
 synthesis
 BS
-hepatic
-expression
+in vivo
+hepatic activities
+expression levels
 cholesterol 7alpha-hydroxylase
+CYP7A
 sterol 27-hydroxylase
 CYP27
+enzymes
 BS
 synthesis
+analyzed
 rats
+treated with
+EE
+days
+vehicle
 BS
+pool size
+decreased
 BS
 synthesis
+EE
+intact
 rats
 Synthesis
 cholate
+reduced
+EE-treated
 rats
 chenodeoxycholate
+increased
+identified
+Delta22-isomer
+beta-muricholate
+pool
+control
+EE-treated
 rats
+detected
 bile
 exhaustion
+pool
+reduction
 BS
 synthesis
-bile
-rats
+bile-diverted rats
+treated with
+EE
+biliary
 BS
-bile
-rats
+composition
+Activity
+CYP7A
+decreased
+EE
+intact
+bile-diverted rats
+activity
 CYP27
 Hepatic
 mRNA
-bile
-rats
-CYP27 mRNA
+CYP7A
+EE
+bile-diverted rats
+CYP27
 mRNA
+EE
+mRNA levels
 sterol 12alpha-hydroxylase
-lithocholate
-bile
-ethinylestradiol
+lithocholate 6beta-hydroxylase
+increased
+bile diversion
+suppressed
+EE
+study
 intrahepatic cholestasis
 rats
+associated with
 inhibition
-pathway
+neutral pathway
 bile salt
-BS
 synthesis
 impairment
+enzymes
 BS
-biosynthetic
-pathways
+biosynthetic pathways
+EE
 BS
 synthesis

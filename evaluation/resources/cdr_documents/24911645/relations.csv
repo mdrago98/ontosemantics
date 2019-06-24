@@ -1,23 +1,83 @@
 ,Subject,Action,Object,Negation
-0,FC,isolated,Platonia insignis,False
-1,FC,isolated,hexanic,False
-2,Platonia insignis Mart,treat,folk,False
-3,Platonia insignis Mart,treat,skin diseases,False
-4,there,is,research,True
-5,study,evaluate,GFC,False
-6,study,evaluate,GFC,False
-7,study,determine,activity,False
-8,study,determine,activity,False
-9,study,determine,effects,False
-10,GFC,produced,latency,False
-11,GFC,produced,doses,False
-12,content,treated,GFC75,False
-13,levels,detected,decrease,False
-14,levels,detected,mice,False
-15,hippocampus,treated,GFC75,False
-16,hippocampus,compared,mice,False
-17,mice,treated,GFC75,False
-18,treated,showed,increase,False
-19,GFC,exert,activity,False
-20,GFC,influence,epileptogenesis,False
-21,This compound,considered,agent,False
+0,seed decoction,used,folk medicine,False
+1,seed decoction,used,skin diseases,False
+2,seed decoction,used,humans,False
+3,seed decoction,used,inflammatory diseases,False
+4,seed decoction,used,inflammatory diseases,False
+5,γ-aminobutyric acid,aimed,GFC,False
+6,γ-aminobutyric acid,aimed,doses,False
+7,γ-aminobutyric acid,aimed,seizure,False
+8,γ-aminobutyric acid,aimed,anticonvulsant activity,False
+9,γ-aminobutyric acid,aimed,amino acid,False
+10,γ-aminobutyric acid,aimed,mice,False
+11,γ-aminobutyric acid,aimed,seizures,False
+12,γ-aminobutyric acid,evaluate,GFC,False
+13,γ-aminobutyric acid,evaluate,doses,False
+14,γ-aminobutyric acid,evaluate,seizure,False
+15,γ-aminobutyric acid,evaluate,anticonvulsant activity,False
+16,γ-aminobutyric acid,evaluate,amino acid,False
+17,γ-aminobutyric acid,evaluate,mice,False
+18,γ-aminobutyric acid,evaluate,seizures,False
+19,γ-aminobutyric acid,determine,anticonvulsant activity,False
+20,γ-aminobutyric acid,determine,amino acid,False
+21,γ-aminobutyric acid,determine,mice,False
+22,γ-aminobutyric acid,determine,seizures,False
+23,GFC,produced,latency,False
+24,GFC,produced,seizure,False
+25,GFC,produced,doses,False
+26,GFC,produced,seized mice,False
+27,content,showed,mice,False
+28,content,showed,GFC75,False
+29,content,showed,increase,False
+30,content,showed,seized mice,False
+31,levels,detected,aspartate,False
+32,levels,detected,decrease,False
+33,levels,detected,mice,False
+34,levels,detected,GFC75,False
+35,levels,detected,seized mice,False
+36,Hippocampus mice,showed,GFC75,False
+37,Hippocampus mice,showed,increase,False
+38,Hippocampus mice,showed,AChE,False
+39,Hippocampus mice,showed,seized mice,False
+40,results,indicate,anticonvulsant activity,False
+41,results,indicate,frequency,False
+42,results,indicate,installation,False
+43,results,indicate,pilocarpine-induced status epilepticus,False
+44,results,indicate,increase,False
+45,results,indicate,latency,False
+46,results,indicate,seizure,False
+47,results,indicate,mortality rate,False
+48,results,indicate,animals,False
+49,GFC,indicate,anticonvulsant activity,False
+50,GFC,indicate,frequency,False
+51,GFC,indicate,installation,False
+52,GFC,indicate,pilocarpine-induced status epilepticus,False
+53,GFC,indicate,increase,False
+54,GFC,indicate,latency,False
+55,GFC,indicate,seizure,False
+56,GFC,indicate,mortality rate,False
+57,GFC,indicate,animals,False
+58,GFC,exert,anticonvulsant activity,False
+59,GFC,exert,frequency,False
+60,GFC,exert,installation,False
+61,GFC,exert,pilocarpine-induced status epilepticus,False
+62,GFC,exert,increase,False
+63,GFC,exert,latency,False
+64,GFC,exert,seizure,False
+65,GFC,exert,mortality rate,False
+66,GFC,exert,animals,False
+67,data,suggest,epileptogenesis,False
+68,data,suggest,anticonvulsant actions,False
+69,data,suggest,pilocarpine,False
+70,data,suggest,GABA,False
+71,data,suggest,mice,False
+72,GFC,suggest,epileptogenesis,False
+73,GFC,suggest,anticonvulsant actions,False
+74,GFC,suggest,pilocarpine,False
+75,GFC,suggest,GABA,False
+76,GFC,suggest,mice,False
+77,GFC,influence,epileptogenesis,False
+78,GFC,influence,anticonvulsant actions,False
+79,GFC,influence,pilocarpine,False
+80,GFC,influence,GABA,False
+81,GFC,influence,mice,False

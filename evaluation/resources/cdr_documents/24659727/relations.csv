@@ -1,18 +1,43 @@
 ,Subject,Action,Object,Negation
-0,study,describes,toxicity,False
-1,toxicity,associated,protocol,False
-2,CCNU,administered,PO,False
-3,CCNU,administered,dosage,False
-4,CTX,administered,PO,False
-5,CTX,administered,dosage,False
-6,dosage,divided,days,False
-7,dosage,divided,4,False
-8,dogs,received,antibiotics,False
-9,treatments,given,to,False
-10,dogs,included,study,False
-11,Neutropenia,was,effect,False
-12,neutropenia,was,%,False
-13,that,develop,neutropenia,True
-14,dog,developed,hematologic,False
-15,dogs,had,evidence,False
-16,wk,is,dogs,False
+0,retrospective study,describes,toxicity,False
+1,retrospective study,describes,protocol,False
+2,retrospective study,describes,lomustine,False
+3,retrospective study,describes,dogs,False
+4,retrospective study,describes,lymphoma,False
+5,CCNU,administered,targeted dosage,False
+6,CCNU,administered,day,False
+7,CCNU,administered,PO,False
+8,CCNU,administered,targeted dosage,False
+9,CCNU,administered,days,False
+10,CCNU,administered,prophylactic antibiotics,False
+11,CTX,administered,targeted dosage,False
+12,CTX,administered,day,False
+13,CTX,administered,PO,False
+14,CTX,administered,targeted dosage,False
+15,CTX,administered,days,False
+16,CTX,administered,prophylactic antibiotics,False
+17,dogs,administered,targeted dosage,False
+18,dogs,administered,day,False
+19,dogs,administered,PO,False
+20,dogs,administered,targeted dosage,False
+21,dogs,administered,days,False
+22,dogs,administered,prophylactic antibiotics,False
+23,CTX,administered,PO,False
+24,CTX,administered,targeted dosage,False
+25,CTX,administered,days,False
+26,CTX,administered,prophylactic antibiotics,False
+27,dogs,administered,PO,False
+28,dogs,administered,targeted dosage,False
+29,dogs,administered,days,False
+30,dogs,administered,prophylactic antibiotics,False
+31,dogs,targeted dosage,targeted dosage,False
+32,dogs,targeted dosage,days,False
+33,dogs,targeted dosage,prophylactic antibiotics,False
+34,dogs,divided,days,False
+35,dogs,divided,prophylactic antibiotics,False
+36,dogs,received,prophylactic antibiotics,False
+37,treatments,given,dogs,False
+38,treatments,given,study,False
+39,dog,developed,hepatotoxicity,False
+40,dogs,had,evidence,False
+41,dogs,had,toxicity,False

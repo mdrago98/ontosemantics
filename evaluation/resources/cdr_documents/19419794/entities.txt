@@ -1,35 +1,63 @@
-impairment
+Motor impairment
 dopamine
 DA
+neuronal activity
 proenkephalin
 PENK
 gene expression
-putamen
-L-
-DOPA+benserazide
-mice
-mice
+caudate-putamen
+CPu
+6-OHDA-lesioned
+treated (
+CB1
+KO
+WT mice
+lesion
+induced
+6-OHDA
+severe
+motor deterioration
+CB1
+KO mice
+loss
 DA
-neurons
-PENK gene expression
+increased
+PENK gene
+CPu
+Oxidative/nitrosative
+neuroinflammatory
+parameters
+CPu
 cingulate cortex
 Cg
-mice
+CB1
 MDA
-iNOS protein expression
+levels
+iNOS
+protein expression
+CPu
 Cg
-mice
-L-
-DOPA+benserazide
+WT mice
+Treatment
+L-DOPA+benserazide
+weeks
+severe
 dyskinesias
-mice
-cannabinoid CB1 receptors
-impairment
-DA
-L-DOPA
-dyskinesias
+CB1
+KO
+WT mice
+cannabinoid
+CB1 receptors
+increased
+severity
+motor impairment
+DA lesion
+reduced
+L-DOPA-induced dyskinesias
+results
+activation
 CB1 receptors
 neuroprotection
+dopaminergic lesion
 development
-L-DOPA
-dyskinesias
+L-DOPA-induced dyskinesias

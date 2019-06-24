@@ -1,10 +1,22 @@
+studies
+liposomal
 doxorubicin
+Doxil
 antineoplastic agent
-platinum
-ovarian cancer
+platinum-resistant ovarian cancer
+dose
+toxicity
+standard dosing regimen
+weeks
+severe
+erythrodysesthesia
 hand-foot syndrome
 stomatitis
+liposomal
 doxorubicin
-patient
-platinum
-paclitaxel
+treatment regimen
+document
+level
+activity
+patient population
+platinum/paclitaxel-refractory disease

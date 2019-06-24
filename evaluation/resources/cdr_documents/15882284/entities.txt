@@ -1,7 +1,14 @@
+Studies
+association
+long-term
 aspirin
 analgesic
 nonsteroidal anti-inflammatory drugs
 NSAIDs
 end-stage renal disease
 ESRD
+association
+case-control study
+incident
+cases
 ESRD

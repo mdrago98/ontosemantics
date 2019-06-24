@@ -1,11 +1,11 @@
 ,Subject,Action,Object,Negation
-0,drugs,prescribed,treatment,False
-1,vasculitis,is,adverse effect,False
-2,We,report,patient,False
-3,who,developed,vasculitis,False
-4,skin rash,associated,arthritis,False
-5,"a vasculitic skin rash associated with large joint arthritis, pyrexia and parotiditis but no renal or pulmonary involvement",referred,evaluation,False
-6,"a vasculitic skin rash associated with large joint arthritis, pyrexia and parotiditis but no renal or pulmonary involvement",had,difficulty,False
-7,difficulty,squatting,position,False
-8,Carbimazole,have,incidence,False
-9,case,reported,India,False
+0,Anti-thyroid drugs,prescribed,carbimazole,False
+1,Anti-thyroid drugs,prescribed,treatment,False
+2,Anti-thyroid drugs,prescribed,hyperthyroidism,False
+3,episode,characterized,skin rash,False
+4,episode,characterized,joint arthritis,False
+5,Carbimazole,have,incidence,False
+6,Carbimazole,have,ANCA,False
+7,Carbimazole,have,PUT,False
+8,carbimazole,induced,vasculitis,False
+9,carbimazole,induced,India,False

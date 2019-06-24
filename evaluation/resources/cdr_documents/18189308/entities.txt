@@ -1,21 +1,87 @@
 nerve growth factor
 NGF
-voiding
-altered sensation
+increased
+voiding frequency
+altered
+sensation
 urinary bladder
+studies
 expression
 regulation
 tyrosine kinase receptors
 Trks
-micturition
-reflexes
+micturition reflexes
 urinary bladder inflammation
+studies
 expression
 regulation
+receptor
 bind
 NGF
+p75(NTR
 bladder inflammation
+induced
 cyclophosphamide
 CYP
-CYP
+CYP-induced cystitis
+increased
+expression
+superficial lateral
+medial dorsal horn
+L1-L2
+L6-S1 spinal segments
+p75(NTR)-immunoreactive
+cells
+lumbosacral dorsal root ganglia
+DRG
+increased
+CYP-induced cystitis
+acute
+intermediate
+chronic
+Quantitative
+real-time polymerase chain reaction
+increases
+p75(NTR
+mRNA
+DRG
+intermediate
+chronic
+CYP-induced cystitis
+Retrograde dye-tracing techniques
+Fastblue
+presumptive bladder
+lumbosacral
+DRG
+bladder
+afferent cells
+DRG
+p75(NTR)-IR
+increased
 cystitis
+increases
+p75(NTR)-IR
+DRG
+cell bodies
+increases
+pericellular
+DRG cells
+p75(NTR)-IR
+DRG
+increased
+Confocal analyses
+pericellular p75(NTR)-IR
+glial marker
+glial fibrillary acidic protein
+GFAP
+studies
+p75(NTR
+expression
+micturition reflexes
+constitutively
+modified
+bladder inflammation
+functional significance
+p75(NTR
+expression
+micturition reflexes

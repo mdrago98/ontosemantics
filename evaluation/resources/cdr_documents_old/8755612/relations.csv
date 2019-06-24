@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,administration,induces,growth,False
+1,treatment,produced,growth,True
+2,hybrid,exhibited,growth,False
+3,hybrid,exhibited,weeks,False
+4,hybrid,exhibited,mass,False
+5,mg,compared,8.6,False
+6,growth,exhibited,quantitative,False
+7,5,exhibited,phenotype,False
+8,36,were,F344,False
+9,phenotype,is,consequence,True
+10,pituitaries,were,massive,False

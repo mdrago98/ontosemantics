@@ -1,34 +1,67 @@
 ,Subject,Action,Object,Negation
-0,substantia nigra,has,gating,False
-1,function,controlling,spread,False
-2,pars reticulata,suffers,lesion,False
-3,which,arise,derangement,False
-4,which,arise,hyperexcitation,False
-5,derangement,developing,SNR,False
-6,Animals,surviving,20,False
-7,brains,processed,staining,False
-8,staining,detect,damage,False
-9,antibodies,detect,damage,False
-10,Antibodies,assess,status,False
-11,staining,taken,indicator,False
-12,immunoglobulins,taken,indicator,False
-13,staining,indicated,loss,False
-14,staining,indicated,min,False
-15,staining,indicated,induction,False
-16,focus,situated,center,False
-17,there,was,vacuolation,False
-18,staining,changed,damage,False
-19,staining,visualized,distortion,False
-20,Staining,occurred,manner,False
-21,Staining,occurred,hours,False
-22,edema,covered,SNR,False
-23,markers,indicated,lesion,False
-24,astrocytes,surrounding,lesion,False
-25,astrocytes,increased,size,False
-26,cells,invaded,area,False
-27,sections,confirmed,damage,False
-28,pathology,found,globus pallidus,False
-29,astrocytes,damaged,parallel,False
-30,interrelationship,is,SNR,False
-31,elements,suffer,metabolic disturbance,False
-32,elements,suffer,dysfunction,False
+0,substantia nigra,has,gating function,False
+1,substantia nigra,has,spread,False
+2,substantia nigra,has,activity,False
+3,status epilepticus,induced,study,False
+4,status epilepticus,induced,injection,False
+5,status epilepticus,induced,pilocarpine,False
+6,status epilepticus,induced,rats,False
+7,neuropathology,investigated,SNR,False
+8,neuropathology,investigated,immunohistochemical techniques,False
+9,neuropathology,investigated,time-course,False
+10,neuropathology,investigated,changes,False
+11,neuropathology,investigated,neurons,False
+12,Nissl-staining,served,neuron-specific calcium-binding protein,False
+13,Nissl-staining,served,neuronal damage,False
+14,Nissl-staining,served,SNR,False
+15,Antibodies,used,astroglia-specific cytoskeletal protein,False
+16,Antibodies,used,status,False
+17,Antibodies,used,astrocytes,False
+18,Immunohistochemical staining,taken,serum-albumin,False
+19,Immunohistochemical staining,taken,brain tissue,False
+20,Immunohistochemical staining,taken,indicator,False
+21,Immunohistochemical staining,taken,disturbances,False
+22,Immunohistochemical staining,indicated,loss,False
+23,Immunohistochemical staining,indicated,GFAP-staining,False
+24,Immunohistochemical staining,indicated,induction,False
+25,Immunohistochemical staining,indicated,seizures,False
+26,Immunohistochemical staining,indicated,SNR,False
+27,parvalbumin-staining,changed,SNR,False
+28,parvalbumin-staining,changed,neuronal damage,False
+29,parvalbumin-staining,changed,neuronal distortion,False
+30,Nissl-staining,changed,SNR,False
+31,Nissl-staining,changed,neuronal damage,False
+32,Nissl-staining,changed,neuronal distortion,False
+33,Nissl-staining,visualized,neuronal distortion,False
+34,Staining,Staining,serum-proteins,False
+35,Staining,occurred,serum-proteins,False
+36,Staining,occurred,forebrain,False
+37,vasogenic edema,covered,SNR,False
+38,glial,indicated,massive lesion,False
+39,glial,indicated,SNR,False
+40,astrocytes,increased,lesion,False
+41,astrocytes,increased,size,False
+42,astrocytes,increased,damaged area,False
+43,polymorphic phagocytotic cells,increased,lesion,False
+44,polymorphic phagocytotic cells,increased,size,False
+45,polymorphic phagocytotic cells,increased,damaged area,False
+46,polymorphic phagocytotic cells,invaded,damaged area,False
+47,paraffin-sections,confirmed,group,False
+48,paraffin-sections,confirmed,animals,False
+49,paraffin-sections,confirmed,days,False
+50,paraffin-sections,confirmed,glial damage,False
+51,paraffin-sections,confirmed,SNR,False
+52,pathology,found,quality,False
+53,pathology,found,globus pallidus,False
+54,astrocytes,damaged,neurons,False
+55,astrocytes,damaged,SNR,False
+56,astrocytes,proposed,neurons,False
+57,astrocytes,proposed,SNR,False
+58,astrocytes,proposed,neurons,False
+59,astrocytes,proposed,SNR,False
+60,interrelationship,proposed,neurons,False
+61,interrelationship,proposed,SNR,False
+62,interrelationship,proposed,neurons,False
+63,interrelationship,proposed,SNR,False
+64,cell elements,suffer,metabolic disturbance,False
+65,cell elements,suffer,massive status epilepticus,False

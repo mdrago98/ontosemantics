@@ -1,0 +1,14 @@
+,Subject,Action,Object,Negation
+0,myocardial infarction,seen,hours,False
+1,patients,entered,trial,False
+2,Lidocaine,prevent,sustained ventricular tachycardia,True
+3,there,was,reduction,False
+4,plasma,was,patients,False
+5,level,was,patients,False
+6,incidence,was,group,False
+7,hypotension,occurred,patients,False
+8,nine,received,lidocaine,False
+9,patients,died,asystole,False
+10,three,had,lidocaine,False
+11,We,advocate,administration,True
+12,We,advocate,hours,True

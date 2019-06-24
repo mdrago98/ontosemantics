@@ -1,3 +1,9 @@
 ,Subject,Action,Object,Negation
-0,branch retinal vein occlusion,associated,secondary hypertension,False
-1,agents,cause,hypertension,False
+0,case,described,branch retinal vein occlusion,False
+1,case,described,secondary hypertension,False
+2,ophthalmologists,are,hypertension,False
+3,ophthalmologists,are,drugs,False
+4,agents,are,hypertension,False
+5,agents,are,drugs,False
+6,agents,cause,hypertension,False
+7,agents,cause,drugs,False

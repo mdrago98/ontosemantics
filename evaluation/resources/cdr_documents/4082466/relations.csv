@@ -1,10 +1,15 @@
 ,Subject,Action,Object,Negation
 0,neonates,suffered,generalized seizures,False
-1,neonates,suffered,course,False
-2,Two neonates,received,morphine,False
-3,Two neonates,received,doses,False
-4,who,received,hr,False
-5,neonates,had,seizures,True
-6,convulsions,stopped,cessation,False
-7,morphine,exceed,micrograms,True
-8,morphine,exceed,neonates,True
+1,neonates,suffered,morphine sulfate,False
+2,neonates,suffered,post-operative analgesia,False
+3,convulsions,ruled,seizures,False
+4,convulsions,ruled,cessation,False
+5,convulsions,ruled,morphine,False
+6,convulsions,ruled,months,False
+7,convulsions,stopped,cessation,False
+8,convulsions,stopped,morphine,False
+9,convulsions,stopped,months,False
+10,morphine,suggested,micrograms/kg/ml,False
+11,morphine,suggested,neonates,False
+12,morphine,exceed,micrograms/kg/ml,True
+13,morphine,exceed,neonates,True

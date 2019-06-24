@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,case,treated,all-trans-retinoic acid,False
+1,We,report,case,False
+2,patient,treated,ATRA,False
+3,case,supports,concern,False
+4,complications,associated,ATRA,False
+5,patients,presented,signs and symptoms,False
+6,"The patients, a 43-year-old man",developed,acute renal failure,False
+7,ATRA,is,choice,False

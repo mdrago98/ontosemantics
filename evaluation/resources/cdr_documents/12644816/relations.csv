@@ -1,24 +1,91 @@
 ,Subject,Action,Object,Negation
-0,effects,assessed,trials,False
-1,agents,including,bFGF,False
-2,We,undertook,label,False
-3,study,using,thalidomide,False
-4,study,using,mg,False
-5,study,using,months,False
-6,study,using,men,False
-7,time,was,days,False
-8,Patients,underwent,measurement,False
+0,antiangiogenic effects,assessed,thalidomide,False
+1,antiangiogenic effects,assessed,clinical trials,False
+2,antiangiogenic effects,assessed,patients,False
+3,antiangiogenic effects,assessed,malignancies,False
+4,Thalidomide,blocks,activity,False
+5,Thalidomide,blocks,angiogenic agents,False
+6,Thalidomide,blocks,bFGF,False
+7,Patients,underwent,measurement,False
+8,Patients,underwent,prostate-specific antigen,False
 9,men,showed,decline,False
-10,decline,sustained,treatment,False
-11,men,treated,months,False
-12,levels,associated,progressive disease,False
-13,who,demonstrated,fall,False
-14,men,showed,decline,False
-15,men,showed,increase,False
-16,Adverse effects,included,constipation,False
-17,Evidence,found,men,False
-18,who,completed,months,False
-19,evidence,found,four,False
-20,thalidomide,be,option,False
-21,who,failed,forms,False
-22,up,maintained,development,False
+10,men,showed,serum,False
+11,men,showed,treatment,False
+12,levels,associated with,serum bFGF,False
+13,levels,associated with,progressive disease,False
+14,levels,associated with,men,False
+15,levels,associated with,fall,False
+16,levels,associated with,PSA,False
+17,levels,associated with,decline,False
+18,levels,associated with,bFGF,False
+19,levels,associated with,PSA,False
+20,levels,associated with,increase,False
+21,levels,associated with,growth factors,False
+22,levels,associated with,serum bFGF,False
+23,levels,associated with,progressive disease,False
+24,levels,associated with,men,False
+25,levels,associated with,fall,False
+26,levels,associated with,PSA,False
+27,levels,associated with,decline,False
+28,levels,associated with,bFGF,False
+29,levels,associated with,PSA,False
+30,levels,associated with,increase,False
+31,levels,associated with,growth factors,False
+32,men,associated with,serum bFGF,False
+33,men,associated with,progressive disease,False
+34,men,associated with,men,False
+35,men,associated with,fall,False
+36,men,associated with,PSA,False
+37,men,associated with,decline,False
+38,men,associated with,bFGF,False
+39,men,associated with,PSA,False
+40,men,associated with,increase,False
+41,men,associated with,growth factors,False
+42,levels,showed,men,False
+43,levels,showed,fall,False
+44,levels,showed,PSA,False
+45,levels,showed,decline,False
+46,levels,showed,bFGF,False
+47,levels,showed,PSA,False
+48,levels,showed,increase,False
+49,levels,showed,growth factors,False
+50,men,showed,men,False
+51,men,showed,fall,False
+52,men,showed,PSA,False
+53,men,showed,decline,False
+54,men,showed,bFGF,False
+55,men,showed,PSA,False
+56,men,showed,increase,False
+57,men,showed,growth factors,False
+58,men,showed,PSA,False
+59,men,showed,increase,False
+60,men,showed,growth factors,False
+61,Adverse effects,included,constipation,False
+62,Adverse effects,included,withdrawal,False
+63,Adverse effects,included,study,False
+64,Adverse effects,included,men,False
+65,Evidence,found,peripheral sensory neuropathy,False
+66,Evidence,found,men,False
+67,Evidence,found,treatment,False
+68,evidence,found,men,False
+69,evidence,found,months,False
+70,evidence,found,thalidomide,False
+71,evidence,found,peripheral neuropathy,False
+72,evidence,found,treatment,False
+73,evidence,found,repeat testing,False
+74,findings,indicate,patients,False
+75,findings,indicate,therapy,False
+76,findings,indicate,development,False
+77,findings,indicate,peripheral neuropathy,False
+78,thalidomide,indicate,patients,False
+79,thalidomide,indicate,therapy,False
+80,thalidomide,indicate,development,False
+81,thalidomide,indicate,peripheral neuropathy,False
+82,follow-up,indicate,patients,False
+83,follow-up,indicate,therapy,False
+84,follow-up,indicate,development,False
+85,follow-up,indicate,peripheral neuropathy,False
+86,follow-up,provided,development,False
+87,follow-up,provided,peripheral neuropathy,False
+88,follow-up,maintained,development,False
+89,follow-up,maintained,peripheral neuropathy,False

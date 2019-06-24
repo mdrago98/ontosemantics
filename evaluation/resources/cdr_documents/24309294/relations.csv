@@ -1,13 +1,55 @@
 ,Subject,Action,Object,Negation
-0,which,is,brain,False
-1,Cholecystokinin-octapeptide,exerts,range,False
-2,CCK-8,alleviated,amnesia,False
-3,we,investigated,effects,False
-4,we,investigated,perforant path,False
-5,spikes,recorded,DG,False
-6,treatment,attenuated,LTP,False
-7,treatment,attenuated,CCK-8,False
-8,rats,augmented,LTP,False
-9,treatment,reversed,effects,False
-10,CCK-8,attenuates,effect,False
-11,CCK-8,attenuates,CCK2,False
+0,Cholecystokinin-octapeptide,exerts,biological activities,False
+1,Cholecystokinin-octapeptide,exerts,central nervous system,False
+2,CCK-8,reported,morphine-induced amnesia,False
+3,CCK-8,reported,CA1 region,False
+4,CCK-8,reported,hippocampus,False
+5,CCK-8,reported,morphine-treated animals,False
+6,spine density,reported,morphine-induced amnesia,False
+7,spine density,reported,CA1 region,False
+8,spine density,reported,hippocampus,False
+9,spine density,reported,morphine-treated animals,False
+10,CCK-8,alleviated,morphine-induced amnesia,False
+11,CCK-8,alleviated,CA1 region,False
+12,CCK-8,alleviated,hippocampus,False
+13,CCK-8,alleviated,morphine-treated animals,False
+14,spine density,alleviated,morphine-induced amnesia,False
+15,spine density,alleviated,CA1 region,False
+16,spine density,alleviated,hippocampus,False
+17,spine density,alleviated,morphine-treated animals,False
+18,spine density,decreases,CA1 region,False
+19,spine density,decreases,hippocampus,False
+20,spine density,decreases,morphine-treated animals,False
+21,Population spikes,recorded,stimulation,False
+22,Population spikes,recorded,LPP,False
+23,Population spikes,recorded,DG region,False
+24,treatment,attenuated,hippocampal,False
+25,treatment,attenuated,amplitude,False
+26,treatment,attenuated,PS,False
+27,treatment,attenuated,morphine,False
+28,microinjection,augmented,CCK-8,False
+29,microinjection,augmented,hippocampal,False
+30,microinjection,augmented,rats,False
+31,Pre-treatment,reversed,CCK2 receptor antagonist,False
+32,Pre-treatment,reversed,effects of,False
+33,Pre-treatment,reversed,CCK-8,False
+34,"L-365,260",reversed,CCK2 receptor antagonist,False
+35,"L-365,260",reversed,effects of,False
+36,"L-365,260",reversed,CCK-8,False
+37,"L-364,718",reversed,CCK2 receptor antagonist,False
+38,"L-364,718",reversed,effects of,False
+39,"L-364,718",reversed,CCK-8,False
+40,CCK-8,demonstrate,effect,False
+41,CCK-8,demonstrate,morphine,False
+42,CCK-8,demonstrate,hippocampal,False
+43,CCK-8,demonstrate,CCK2 receptors,False
+44,CCK-8,demonstrate,ameliorative function,False
+45,CCK-8,demonstrate,CCK-8,False
+46,CCK-8,demonstrate,morphine-induced memory impairment,False
+47,CCK-8,attenuates,effect,False
+48,CCK-8,attenuates,morphine,False
+49,CCK-8,attenuates,hippocampal,False
+50,CCK-8,attenuates,CCK2 receptors,False
+51,CCK-8,attenuates,ameliorative function,False
+52,CCK-8,attenuates,CCK-8,False
+53,CCK-8,attenuates,morphine-induced memory impairment,False

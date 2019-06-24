@@ -1,43 +1,104 @@
+study
+compare
+influence
 central arginine vasopressin
 AVP
 atrial natriuretic peptide
 ANP
+control
 arterial blood pressure
-heart
+MAP
+heart rate
+HR
+normotensive
+WKY
+spontaneously hypertensive
+SHR
 rats
+experiments
+WKY
+SHR
+chronically
+instrumented
 lateral ventricle
 LV
 arterial
-venous
+venous catheters
+MAP
+HR
+monitored
+injections
+vehicle
 AVP
 ANP
-cardiac
+Sensitivity
+cardiac component
 baroreflex
+CCB
 expressed
-arterial pressure
+regression line
+relationships
+systolic arterial pressure
+SAP
+HR
+period
+HRp
 phenylephrine
 hypertension
 sodium nitroprusside
+hypotension
+CCB
+administration
+vehicle
 AVP
 ANP
 peptides
-LV
+Increases
+MAP
+LV administration
+AVP
+WKY
+SHR
+ANP
+MAP
+strains
+vehicle
+AVP-induced
+MAP
+increase
+WKY
+SHR
+CCB
+reduced
+WKY
+SHR
+LV administration
+AVP
+SN-induced
+hypotension
+SHR
+WKY
+administration
+ANP
 AVP
 ANP
 AVP
-LV
+decreased
+CCB
+Phe-induced
+MAP
+elevation
+results
 AVP
-SN
 ANP
-AVP
-ANP + AVP
-Phe
-AVP
-ANP
-exert
+differential effects
 blood pressure
-baroreflex
-heart
+baroreflex control
+heart rate
+WKY
+SHR
+interaction
 peptides
 blood pressure regulation
+level
 central nervous system

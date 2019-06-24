@@ -1,20 +1,53 @@
 ,Subject,Action,Object,Negation
-0,patients,respond,way,False
-1,patients,respond,way,False
-2,criteria,respond,way,False
-3,We,selected,patients,False
-4,We,selected,PD,False
-5,patients,had,psychotropic drug,True
-6,experiment,performed,occasions,False
-7,caffeine,administered,coffee,False
-8,solution,administered,coffee,False
-9,total,had,panic attack,False
-10,total,had,caffeine,False
-11,%,had,panic attack,False
-12,%,had,caffeine,False
-13,%,had,panic attack,False
-14,%,had,caffeine,False
-15,panic attack,observed,solution,False
-16,patients,had,heart,False
-17,there,is,association,False
-18,matter,associated,PD,False
+0,aim,was,panic disorder,False
+1,aim,was,depression,False
+2,aim,was,panic attacks,False
+3,aim,was,Diagnostic and Statistical Manual of Mental Disorders,False
+4,aim,was,induction,False
+5,aim,was,panic attacks,False
+6,patients,was,panic disorder,False
+7,patients,was,depression,False
+8,patients,was,panic attacks,False
+9,patients,was,Diagnostic and Statistical Manual of Mental Disorders,False
+10,patients,was,induction,False
+11,patients,was,panic attacks,False
+12,patients,observe,panic disorder,False
+13,patients,observe,depression,False
+14,patients,observe,panic attacks,False
+15,patients,observe,Diagnostic and Statistical Manual of Mental Disorders,False
+16,patients,observe,induction,False
+17,patients,observe,panic attacks,False
+18,patients,respond,panic disorder,False
+19,patients,respond,depression,False
+20,patients,respond,panic attacks,False
+21,patients,respond,Diagnostic and Statistical Manual of Mental Disorders,False
+22,patients,respond,induction,False
+23,patients,respond,panic attacks,False
+24,patients,had,psychotropic drug,True
+25,patients,had,period,False
+26,panic attack,observed,caffeine-free solution intake,False
+27,patients,had,MD,False
+28,patients,had,heart rate,False
+29,patients,had,test,False
+30,patients,had,groups,False
+31,patients,had,Greenhouse-Geisser correction,False
+32,2-way analysis of variance,had,MD,False
+33,2-way analysis of variance,had,heart rate,False
+34,2-way analysis of variance,had,test,False
+35,2-way analysis of variance,had,groups,False
+36,2-way analysis of variance,had,Greenhouse-Geisser correction,False
+37,"F(3,762",had,MD,False
+38,"F(3,762",had,heart rate,False
+39,"F(3,762",had,test,False
+40,"F(3,762",had,groups,False
+41,"F(3,762",had,Greenhouse-Geisser correction,False
+42,data,suggest,panic attacks,False
+43,data,suggest,no matter,False
+44,data,suggest,PD,False
+45,associated with,suggest,panic attacks,False
+46,associated with,suggest,no matter,False
+47,associated with,suggest,PD,False
+48,associated with,is,panic attacks,False
+49,associated with,is,no matter,False
+50,associated with,is,PD,False
+51,associated with,associated with,PD,False

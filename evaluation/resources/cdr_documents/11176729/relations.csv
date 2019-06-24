@@ -1,8 +1,32 @@
 ,Subject,Action,Object,Negation
-0,inhibitors,reduces,mortality,False
-1,inhibitors,reduces,morbidity,False
-2,patients,receiving,agents,True
-3,doses,be,trials,False
-4,doses,be,trials,False
-5,study,examines,safety,False
-6,study,examines,tolerability,False
+0,Treatment,reduces,angiotensin-converting enzyme,False
+1,Treatment,reduces,mortality,False
+2,Treatment,reduces,patients,False
+3,Treatment,reduces,chronic heart failure,False
+4,Treatment,reduces,agents,False
+5,Treatment,reduces,doses,False
+6,Treatment,reduces,trials,False
+7,Treatment,reduces,concerns,False
+8,Treatment,reduces,safety,False
+9,Treatment,reduces,agents,False
+10,Treatment,reduces,recommended doses,False
+11,patients,reduces,angiotensin-converting enzyme,False
+12,patients,reduces,mortality,False
+13,patients,reduces,patients,False
+14,patients,reduces,chronic heart failure,False
+15,patients,reduces,agents,False
+16,patients,reduces,doses,False
+17,patients,reduces,trials,False
+18,patients,reduces,concerns,False
+19,patients,reduces,safety,False
+20,patients,reduces,agents,False
+21,patients,reduces,recommended doses,False
+22,patients,receiving,agents,True
+23,patients,receiving,doses,True
+24,patients,receiving,trials,True
+25,patients,receiving,concerns,True
+26,patients,receiving,safety,True
+27,patients,receiving,agents,True
+28,patients,receiving,recommended doses,True
+29,study,examines,safety,False
+30,study,examines,CHF,False

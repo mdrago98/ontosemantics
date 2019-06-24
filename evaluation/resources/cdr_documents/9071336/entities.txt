@@ -2,25 +2,62 @@
 folinic acid
 paclitaxel
 Taxol
+Bristol-Myers Squibb Company
+NJ
+effective
+salvage therapies
 metastatic breast cancer
+patients
 Paclitaxel
 5-fluorouracil
 cytotoxicity
 MCF-7 cell lines
+phase II trial
 paclitaxel
+day I
 folinic acid
 5-fluorouracil
+days
+days
+TFL
 women
 metastatic breast cancer
+Analysis
+patients
+months
+follow-up
+cycles
+TFL
+cycles
+associated with
+grade
+neutropenia
+hospitalization
+cycles
+patients
 granulocyte colony-stimulating factor
+neutropenia
 patient
-platelet
-evaluable
-evaluable
+platelet transfusions
+Grade 3/4 nonhematologic toxicities
+patients
+response
+complete
+responses
+partial
+response
+patients
 doxorubicin
+exposure
 doxorubicin
 Plasma
 paclitaxel
+concentrations
+measured
 paclitaxel
+infusion
+patients
 TFL
+active
+regimen
 metastatic breast cancer

@@ -1,0 +1,21 @@
+,Subject,Action,Object,Negation
+0,Loss,is,hallmark,False
+1,hypertension,involves,mechanisms,False
+2,hypertension,involves,addition,False
+3,Rats,treated,inhibitor,False
+4,Rats,treated,weeks,False
+5,arterial pressure,was,119,False
+6,arteries,removed,measurement,False
+7,cava,removed,measurement,False
+8,contraction,reduced,arteries,False
+9,contraction,reduced,%,False
+10,pressure,elevated,LNNA,True
+11,pressure,elevated,weeks,True
+12,tempol,change,pressure,True
+13,blockade,caused,fall,False
+14,Hg,compared,control,False
+15,arteries,had,levels,False
+16,deficiency,increases,stress,False
+17,deficiency,increases,vessels,False
+18,deficiency,increases,activity,False
+19,impact,make,contribution,True

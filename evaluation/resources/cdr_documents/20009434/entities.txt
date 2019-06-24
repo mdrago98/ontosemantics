@@ -1,26 +1,45 @@
-methotrexate
-MTX
+High-dose methotrexate
+HD-MTX
+treatment
 Burkitt lymphoma
 hepatic
-renal toxicity
+renal
+toxicity
+clearance
+delayed
 acute renal failure
-MTX
+HD-MTX
+therapy
 patient
+ileostomy
 patient
 boy
-liver
+received
+living-related
+liver transplantation
 congenital biliary atresia
+day
+transplantation
+diagnosed
 PTLD
 post-transplantation lymphoproliferative disorder
-malignant lymphoma
-suffered
-ileal
-MTX
+Burkitt-type malignant lymphoma
+induction therapy
+ileal perforation
+ileostomy
+HD-MTX
+therapy
 acute renal failure
+hemodialysis
+intravascular hypovolemia
 drainage
+ileostoma
 acute prerenal failure
+recovery
 renal function
+treat
 patient
-MTX
+HD-MTX therapy
 drainage
-nutrition
+ileostoma
+parenteral

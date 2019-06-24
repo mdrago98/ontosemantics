@@ -1,14 +1,28 @@
+studied
+mortality
 pertussis
+immunization
 mouse
+treatment
+animals
 died
+injection
 bovine serum albumin
 BSA
+day
 pertussis
+immunization
+pretreatment
 cyproheptadine
 mianserin
 chlorpheniramine
+animals
 died
+BSA
+day
+Blockade
 histamine H1 receptors
+mortality
 pertussis
 encephalopathy
 mice

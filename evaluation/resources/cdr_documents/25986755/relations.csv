@@ -1,13 +1,64 @@
 ,Subject,Action,Object,Negation
-0,prenatal caffeine exposure,induce,intrauterine growth retardation,False
-1,IUGR,is,risk,False
-2,PCE,induce,glomerulosclerosis,False
-3,PCE,induce,mechanisms,False
-4,study,demonstrate,induction,False
-5,study,demonstrate,induction,False
-6,model,established,age,False
-7,kidneys,exhibited,glomerulosclerosis,False
-8,kidneys,displayed,Bowman's space,False
-9,kidneys,displayed,glomerular,False
-10,Observation,revealed,damage,False
-11,PCE,induce,dysplasia,False
+0,study,indicated,intrauterine growth retardation,False
+1,study,indicated,offspring,False
+2,caffeine exposure,indicated,intrauterine growth retardation,False
+3,caffeine exposure,indicated,offspring,False
+4,caffeine exposure,induce,intrauterine growth retardation,False
+5,caffeine exposure,induce,offspring,False
+6,research,suggested,glomerulosclerosis,False
+7,IUGR,suggested,glomerulosclerosis,False
+8,PCE,induce,glomerulosclerosis,False
+9,model,established,IUGR,False
+10,model,established,PCE,False
+11,model,established,age,False
+12,model,established,week,False
+13,results,revealed,PCE,False
+14,results,revealed,glomerulosclerosis,False
+15,results,revealed,levels,False
+16,results,revealed,serum creatinine,False
+17,kidneys,revealed,PCE,False
+18,kidneys,revealed,glomerulosclerosis,False
+19,kidneys,revealed,levels,False
+20,kidneys,revealed,serum creatinine,False
+21,kidneys,exhibited,PCE,False
+22,kidneys,exhibited,glomerulosclerosis,False
+23,kidneys,exhibited,levels,False
+24,kidneys,exhibited,serum creatinine,False
+25,gene expression,reduced,offspring,False
+26,gene expression,reduced,PCE,False
+27,expression ratio,reduced,offspring,False
+28,expression ratio,reduced,PCE,False
+29,kidneys,displayed,PCE,False
+30,kidneys,displayed,Bowman's space,False
+31,kidneys,displayed,cortex,False
+32,Observation,revealed,electronic microscope,False
+33,Observation,revealed,structural damage,False
+34,Observation,revealed,podocytes,False
+35,Observation,revealed,podocyte,False
+36,Observation,revealed,q-PCR,False
+37,level,revealed,electronic microscope,False
+38,level,revealed,structural damage,False
+39,level,revealed,podocytes,False
+40,level,revealed,podocyte,False
+41,level,revealed,q-PCR,False
+42,level,detected,podocyte,False
+43,level,detected,q-PCR,False
+44,protein expressions,inhibited,kidneys,False
+45,protein expressions,inhibited,PCE,False
+46,protein expressions,inhibited,repression,False
+47,protein expressions,inhibited,gene expression,False
+48,results,demonstrated,dysplasia,False
+49,results,demonstrated,kidneys,False
+50,results,demonstrated,offspring,False
+51,results,demonstrated,AT2R,False
+52,results,demonstrated,glomerulosclerosis,False
+53,PCE,demonstrated,dysplasia,False
+54,PCE,demonstrated,kidneys,False
+55,PCE,demonstrated,offspring,False
+56,PCE,demonstrated,AT2R,False
+57,PCE,demonstrated,glomerulosclerosis,False
+58,PCE,induce,dysplasia,False
+59,PCE,induce,kidneys,False
+60,PCE,induce,offspring,False
+61,PCE,induce,AT2R,False
+62,PCE,induce,glomerulosclerosis,False

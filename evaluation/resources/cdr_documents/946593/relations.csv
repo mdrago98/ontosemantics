@@ -1,6 +1,33 @@
 ,Subject,Action,Object,Negation
-0,who,developed,paraplegia,False
-1,patient,following,instillation,False
-2,doses,based,body,False
-3,methotrexate,used,administration,False
-4,ml,used,administration,False
+0,patient,discribed,instillation,False
+1,patient,discribed,methotrexate,False
+2,cases,reviewed,complication,False
+3,factors,appear,development,False
+4,factors,appear,complication,False
+5,factors,appear,presence,False
+6,factors,appear,central nervous system leukemia,False
+7,factors,appear,dynamics,False
+8,factors,appear,children,False
+9,factors,appear,neurotoxic preservatives,False
+10,factors,appear,methotrexate,False
+11,factors,appear,methotrexate,False
+12,factors,appear,pH,False
+13,dynamics,appear,development,False
+14,dynamics,appear,complication,False
+15,dynamics,appear,presence,False
+16,dynamics,appear,central nervous system leukemia,False
+17,dynamics,appear,dynamics,False
+18,dynamics,appear,children,False
+19,dynamics,appear,neurotoxic preservatives,False
+20,dynamics,appear,methotrexate,False
+21,dynamics,appear,methotrexate,False
+22,dynamics,appear,pH,False
+23,incidence,reduced,neurotoxicity,False
+24,incidence,reduced,lower doses,False
+25,incidence,reduced,methotrexate,False
+26,incidence,reduced,presence,False
+27,incidence,reduced,central nervous system leukemia,False
+28,incidence,reduced,children,False
+29,incidence,reduced,epidural leakage,False
+30,preservative-free methotrexate,used,Elliott's B Solution,False
+31,preservative-free methotrexate,used,concentration,False

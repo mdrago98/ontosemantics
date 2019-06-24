@@ -1,24 +1,56 @@
 ,Subject,Action,Object,Negation
-0,investigation,determine,dosage,False
-1,dosage,maintain,sleep,False
-2,dosage,maintain,sleep,False
-3,adults,undergoing,surgery,False
-4,adults,undergoing,local anesthesia,False
-5,patient,open,eyes,False
-6,patient,open,request,False
-7,etomidate,maintain,sleep,False
-8,etomidate,maintain,sleep,False
-9,variation,occurred,patients,False
-10,patients,requiring,drug,False
-11,investigation,discontinued,patients,False
-12,investigation,discontinued,frequency,False
-13,investigation,discontinued,intensity,False
-14,investigation,discontinued,pain,False
-15,investigation,discontinued,myoclonia,False
-16,technique,abandoned,cases,False
-17,The investigation,considered,unlikely,False
-18,etomidate,be,incidence,False
-19,etomidate,be,hypnotic,False
-20,etomidate,be,technique,False
-21,movements,persisted,minutes,False
-22,movements,persisted,recovery,False
+0,investigation,undertaken,dosage,False
+1,investigation,undertaken,etomidate,False
+2,investigation,undertaken,sleep,False
+3,investigation,undertaken,adults,False
+4,investigation,undertaken,surgery,False
+5,investigation,undertaken,regional local anesthesia,False
+6,Premedication,given,diazepam,False
+7,Premedication,given,injections,False
+8,Premedication,given,eyes,False
+9,Premedication,given,request,False
+10,sleep,given,diazepam,False
+11,sleep,given,injections,False
+12,sleep,given,eyes,False
+13,sleep,given,request,False
+14,patient,given,diazepam,False
+15,patient,given,injections,False
+16,patient,given,eyes,False
+17,patient,given,request,False
+18,sleep,induced,injections,False
+19,patient,given,eyes,False
+20,patient,given,request,False
+21,patient,open,eyes,False
+22,patient,open,request,False
+23,overall dose,required,sleep,False
+24,overall dose,required,patients,False
+25,overall dose,required,less drug,False
+26,variation,required,sleep,False
+27,variation,required,patients,False
+28,variation,required,less drug,False
+29,variation,maintain,sleep,False
+30,variation,maintain,patients,False
+31,variation,maintain,less drug,False
+32,variation,occurred,patients,False
+33,variation,occurred,less drug,False
+34,investigation,discontinued,patients,False
+35,investigation,discontinued,frequency,False
+36,investigation,discontinued,side-effects,False
+37,investigation,discontinued,cases,False
+38,technique,discontinued,patients,False
+39,technique,discontinued,frequency,False
+40,technique,discontinued,side-effects,False
+41,technique,discontinued,cases,False
+42,technique,caused,cases,False
+43,technique,abandoned,cases,False
+44,etomidate,considered,adults,False
+45,etomidate,considered,incidence,False
+46,etomidate,considered,myoclonia,False
+47,etomidate,considered,administration,False
+48,etomidate,prove,adults,False
+49,etomidate,prove,incidence,False
+50,etomidate,prove,myoclonia,False
+51,etomidate,prove,administration,False
+52,muscle movements,persisted,patients,False
+53,muscle movements,persisted,recovery,False
+54,muscle movements,persisted,consciousness,False

@@ -1,8 +1,6 @@
 ,Subject,Action,Object,Negation
-0,necrotising glomerulonephritis,reported,complication,False
-1,patients,receiving,treatment,False
-2,We,describe,case,False
-3,who,developed,acute renal failure,False
-4,patient,treated,rifampicin,False
-5,patient,review,literature,False
-6,patient,regarding,complication,False
+0,Segmental necrotising glomerulonephritis,reported,complication,False
+1,Segmental necrotising glomerulonephritis,reported,rifampicin,False
+2,Segmental necrotising glomerulonephritis,reported,patients,False
+3,Segmental necrotising glomerulonephritis,reported,treatment,False
+4,Segmental necrotising glomerulonephritis,reported,tuberculosis,False

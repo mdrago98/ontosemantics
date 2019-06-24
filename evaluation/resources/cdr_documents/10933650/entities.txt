@@ -1,30 +1,58 @@
-lipid
+NS-718
+lipid nanosphere
 amphotericin B
-amphotericin B
-sodium deoxycholate
-AmB
-renal cell
+pathogenic fungi
+low
+toxicity
+toxicity
+NS-718
+Fungizone
+amphotericin
+B-sodium deoxycholate
+D-AmB
+in vitro
+renal cell cultures
+in vivo
+biochemical analysis
+histopathological study
 kidney
+pharmacokinetic study
 amphotericin B
+intravenous
+formulation
 rats
+Incubation
+NS-718
+damage
+cultured
 human
-renal
-epithelial cells
-Serum
-blood
-urea
-creatinine
+D-AmB.
+Serum blood urea
+creatinine concentrations
+increased
 rats
-AmB
+infusion
+D-AmB 3
+dose
+NS-718
+Histopathological
 kidney
 tubular necrosis
-AmB
-rats
-rats
+D-AmB-treated rats
+NS-718-treated rats
 Amphotericin B
+concentrations
 kidney
+NS-718-treated
 rats
-AmB
-rats
+D-AmB-treated
+in vitro
+in vivo
+results
+incorporation
 amphotericin B
-lipid
+lipid nanospheres
+NS-718
+attenuates
+nephrotoxicity
+amphotericin

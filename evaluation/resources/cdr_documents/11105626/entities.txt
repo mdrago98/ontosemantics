@@ -1,7 +1,12 @@
-infant
+report
+newborn infant
 multiple congenital anomalies
 anotia
 Taussig-Bing malformation
+exposure to
 isotretinoin
-vitamin A
+trimester
+prescribing
+vitamin A-containing drugs
 women
+childbearing

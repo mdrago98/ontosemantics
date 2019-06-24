@@ -1,28 +1,57 @@
+Intraperitoneal
+administration
 cholecystokinin octapeptide sulphate ester
 CCK-8-SE
-cholecystokinin octapeptide
+nonsulphated cholecystokinin octapeptide
 CCK-8-NS
+enhanced
+latency
 seizures
+induced
+picrotoxin
 mice
+Experiments
+N-
+C-terminal fragments
 C-terminal tetrapeptide
 CCK-5-8
-CCK
+active centre
+CCK octapeptide molecule
+analogues
 CCK-8-SE
 CCK-8-NS
-caerulein
+dose
+caerulein dose
+bell-shaped dose-effect curves
 inhibition
 CCK-8-NS
-peptide CCK-5-8
-anticonvulsant
+peptide CCK-5
+anticonvulsant activity
+comparison
+octapeptides
+doses
+reference drug
 diazepam
-seizures
+picrotoxin-induced seizures
+mortality
+maximum
+effect
 peptides
+tested
 diazepam
-CCK-5-8
-alanyl
-CCK-5-8
+Experiments
+analogues
+derivatives
+CCK-5
+effectiveness
+beta-alanyl derivatives
+CCK-5
+enhanced
+equipotent
 CCK-8-SE
-CCK-2-8 analogues, Ser(SO3H)7-Ac-CCK-2-8-SE
+CCK-2
+analogues
+Ser(SO3H)7-Ac-CCK-2-8-SE
 Thr(SO3H)7-Ac-CCK-2-8-SE
-CCK-2-8-SE
+Hyp(SO3H)-Ac-CCK-2-8-SE
 CCK-8-SE

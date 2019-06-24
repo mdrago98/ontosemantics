@@ -1,15 +1,28 @@
 ,Subject,Action,Object,Negation
-0,Amiodarone,is,drug,False
-1,herein,is,case,False
-2,herein,is,patient,False
-3,who,developed,lung,False
-4,who,developed,treatment,False
-5,mass,be,lung cancer,False
-6,lesion,composed,infiltrates,False
-7,macrophages,containing,myelinoid,False
-8,The lung mass,was,lesion,False
-9,lung tissue,distributed,hemosiderin deposition,False
-10,capillaries,seen,mass,False
-11,glomeruli,had,membrane,False
-12,case,highlights,possibility,False
-13,membranous glomerulonephritis,be,complication,False
+0,lung mass,suspected,CT,False
+1,lung mass,suspected,lymphoplasmacytic infiltrates,False
+2,lung mass,suspected,alveolar walls,False
+3,lung mass,suspected,foamy macrophages,False
+4,lung mass,suspected,myelinoid bodies,False
+5,lesion,suspected,CT,False
+6,lesion,suspected,lymphoplasmacytic infiltrates,False
+7,lesion,suspected,alveolar walls,False
+8,lesion,suspected,foamy macrophages,False
+9,lesion,suspected,myelinoid bodies,False
+10,lesion,composed,lymphoplasmacytic infiltrates,False
+11,lesion,composed,alveolar walls,False
+12,lesion,composed,foamy macrophages,False
+13,lesion,composed,myelinoid bodies,False
+14,lung tissue,distributed,hemosiderin,False
+15,lung tissue,distributed,mass,False
+16,lung tissue,distributed,mass,False
+17,glomeruli,had,kidneys,False
+18,glomeruli,had,membrane spikes,False
+19,glomeruli,had,podocytes,False
+20,Autoimmune diseases,found,relationship,True
+21,Autoimmune diseases,found,membranous glomerulonephritis,True
+22,differential diagnosis,highlights,amiodarone-related pulmonary lesion,False
+23,differential diagnosis,highlights,amiodarone,False
+24,membranous glomerulonephritis,highlights,amiodarone-related pulmonary lesion,False
+25,membranous glomerulonephritis,highlights,amiodarone,False
+26,membranous glomerulonephritis,suggests,amiodarone,False

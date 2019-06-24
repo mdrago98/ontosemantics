@@ -1,14 +1,16 @@
 ,Subject,Action,Object,Negation
-0,We,conducted,follow,False
-1,who,prescribed,trimethoprim-sulfamethoxazole,False
-2,study,estimate,risk,False
-3,renal disorders,resulting,referral,False
-4,risk,associated,drugs,False
-5,results,based,information,False
-6,information,recorded,office,False
-7,persons,prescribed,"5.2/100,000",False
-8,risk,was,"2.0/100,000",False
-9,patients,experienced,blood disorders,False
-10,case,occurred,patient,False
-11,who,took,cephalexin,False
-12,risk,is,agents,False
+0,results,based,information,False
+1,results,based,office computers,False
+2,results,based,general practitioners,False
+3,results,based,United Kingdom,False
+4,results,based,review,False
+5,results,based,clinical records,False
+6,patients,experienced,blood disorders,False
+7,patients,experienced,TMP-SMZ,False
+8,patients,experienced,erythema multiforme,False
+9,patients,experienced,TMP-SMZ,False
+10,cases,occurred,study drug,False
+11,risk,conclude,diseases,False
+12,risk,conclude,agents,False
+13,risk,conclude,risk,False
+14,risk,conclude,antibiotics,False

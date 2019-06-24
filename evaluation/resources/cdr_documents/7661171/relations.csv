@@ -1,10 +1,16 @@
 ,Subject,Action,Object,Negation
-0,Misoprostol,counteract,dysfunction,False
-1,Parameters,assessed,patients,False
-2,dose,resulted,worsening,False
-3,changes,were,hour,False
-4,changes,were,medications,False
-5,ability,prevent,adverse effects,False
-6,ability,confirmed,dosing,False
-7,it,avoid,therapy,False
-8,it,avoid,cirrhosis,False
+0,Misoprostol,shown,indomethacin-induced renal dysfunction,False
+1,Misoprostol,shown,patients,False
+2,prophylactic value,was,study,False
+3,prophylactic value,was,misoprostol,False
+4,prophylactic value,determine,misoprostol,False
+5,Parameters,assessed,hemodynamics,False
+6,Parameters,assessed,clearance techniques,False
+7,Parameters,assessed,patients,False
+8,Parameters,assessed,combination,False
+9,Parameters,assessed,indomethacin,False
+10,Parameters,assessed,misoprostol,False
+11,800-micrograms dose,resulted,worsening,False
+12,800-micrograms dose,resulted,renal hemodynamics,False
+13,results,suggest,misoprostol,False
+14,protective effects,suggest,misoprostol,False

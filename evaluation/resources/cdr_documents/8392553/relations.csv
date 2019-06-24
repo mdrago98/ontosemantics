@@ -1,9 +1,49 @@
 ,Subject,Action,Object,Negation
-0,We,investigated,effects,False
-1,We,investigated,cardiomyopathy,False
-2,rats,died,days,False
-3,Treatment,prevented,death,False
-4,groups,treated,clentiazem,False
-5,Clentiazem,prevent,responses,True
-6,responses,seen,animals,False
-7,dose,attenuated,response,False
+0,rats,died,epinephrine,False
+1,rats,died,days,False
+2,rats,died,left ventricles,False
+3,ischemic lesions,died,epinephrine,False
+4,ischemic lesions,died,days,False
+5,ischemic lesions,died,left ventricles,False
+6,ischemic lesions,observed,left ventricles,False
+7,responses,left atrial,rats,False
+8,responses,left atrial,contractile responses,False
+9,responses,left atrial,isoproterenol,False
+10,responses,left atrial,calcium,False
+11,responses,left atrial,controls,False
+12,compared,left atrial,rats,False
+13,compared,left atrial,contractile responses,False
+14,compared,left atrial,isoproterenol,False
+15,compared,left atrial,calcium,False
+16,compared,left atrial,controls,False
+17,compared,compared,controls,False
+18,Treatment,prevented,clentiazem,False
+19,Treatment,prevented,epinephrine-induced death,False
+20,contractile responses,reduced,isoproterenol,False
+21,contractile responses,reduced,groups,False
+22,contractile responses,reduced,clentiazem,False
+23,contractile responses,reduced,epinephrine,False
+24,contractile responses,reduced,left atrial responses,False
+25,contractile responses,reduced,isoproterenol,False
+26,clentiazem,reduced,isoproterenol,False
+27,clentiazem,reduced,groups,False
+28,clentiazem,reduced,clentiazem,False
+29,clentiazem,reduced,epinephrine,False
+30,clentiazem,reduced,left atrial responses,False
+31,clentiazem,reduced,isoproterenol,False
+32,clentiazem,restored,left atrial responses,False
+33,clentiazem,restored,isoproterenol,False
+34,clentiazem,resulted,densities,False
+35,clentiazem,resulted,left ventricle,False
+36,high dose,prevent,responses,True
+37,high dose,prevent,calcium,True
+38,high dose,prevent,epinephrine-treated animals,True
+39,high dose,prevent,clentiazem,True
+40,high dose,prevent,response,True
+41,high dose,prevent,calcium,True
+42,high dose,attenuated,clentiazem,False
+43,high dose,attenuated,response,False
+44,high dose,attenuated,calcium,False
+45,clentiazem,attenuated,epinephrine-induced cardiac injury,False
+46,clentiazem,attenuated,effect,False
+47,clentiazem,attenuated,adrenergic pathway,False

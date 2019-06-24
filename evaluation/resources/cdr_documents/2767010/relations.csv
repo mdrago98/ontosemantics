@@ -1,12 +1,30 @@
 ,Subject,Action,Object,Negation
-0,disodium phosphate,is,prodrug,False
-1,ACC-9653,have,activity,False
-2,sodium,have,activity,False
-3,seizures,induced,mice,False
-4,mice,following,i.p,False
-5,doses,were,kg,False
-6,ACC-9653,have,activity,False
-7,sodium,have,activity,False
-8,treatments,produced,reductions,False
-9,effects,occurred,time,False
-10,studies,carried,mice,False
+0,ACC-9653,converted,phenytoin,False
+1,ACC-9653,have,anticonvulsant activity,False
+2,ACC-9653,have,seizures,False
+3,ACC-9653,have,maximal electroshock,False
+4,ACC-9653,have,mice,False
+5,oral,have,anticonvulsant activity,False
+6,oral,have,seizures,False
+7,oral,have,maximal electroshock,False
+8,oral,have,mice,False
+9,phenytoin sodium,have,ACC-9653,False
+10,phenytoin sodium,have,antiarrhythmic activity,False
+11,phenytoin sodium,have,ouabain-induced ventricular tachycardia,False
+12,phenytoin sodium,have,dogs,False
+13,phenytoin sodium,displayed,antiarrhythmic activity,False
+14,phenytoin sodium,displayed,strophanthidin-induced arrhythmias,False
+15,phenytoin sodium,displayed,guinea,False
+16,high dose,infused,anesthetized dogs,False
+17,high dose,infused,ACC-9653,False
+18,high dose,infused,dose,False
+19,high dose,infused,phenytoin sodium,False
+20,responses,infused,anesthetized dogs,False
+21,responses,infused,ACC-9653,False
+22,responses,infused,dose,False
+23,responses,infused,phenytoin sodium,False
+24,responses,compared,dose,False
+25,responses,compared,phenytoin sodium,False
+26,treatments,produced,reductions,False
+27,treatments,produced,diastolic blood pressure,False
+28,effects,occurred,treatment,False

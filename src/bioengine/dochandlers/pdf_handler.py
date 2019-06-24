@@ -5,7 +5,7 @@ from pyocr import pyocr, builders
 from PIL import Image as Pil
 from wand.image import Image
 from pkg_resources import resource_string as resource
-from settings import Config
+from src.settings import Config
 from os import path
 
 

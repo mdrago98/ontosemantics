@@ -1,3 +1,7 @@
 ,Subject,Action,Object,Negation
-0,apoptosis,play,role,False
-1,aim,investigate,form,False
+0,Experimental studies,suggested,Fas/Fas Ligand signaling system,False
+1,Experimental studies,suggested,development,False
+2,apoptosis,suggested,Fas/Fas Ligand signaling system,False
+3,apoptosis,suggested,development,False
+4,apoptosis,play,Fas/Fas Ligand signaling system,False
+5,apoptosis,play,development,False

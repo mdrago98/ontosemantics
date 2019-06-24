@@ -1,30 +1,74 @@
-antibiotic
-manic
-antibiotic
-mania
-antimicrobial
-mania
+authors
+reviewed
+cases
+antibiotic-induced manic
+MEDLINE
+PsychLit
+reports
+antibiotic-induced mania
+Unpublished reports
+World Health Organization
+WHO
+Food and Drug Administration
+FDA
+antimicrobial-induced mania
+literature
+cases
 clarithromycin
 isoniazid
+case
 erythromycin
 amoxicillin
+WHO
+cases
 clarithromycin
+cases
 ciprofloxacin
+cases
 ofloxacin
+cases
+Cotrimoxazole
 metronidazole
 erythromycin
-manic
+manic episodes
+Cases
+FDA
 clarithromycin
 ciprofloxacin
+associated with
 development
 mania
+Statistical analysis
+data
+statistical
+correlative risk
+Patients
+increased
+risk
 mania
+treated with
 antimicrobials
-antimicrobial
-mania
-antimicrobial
-manic episode
+statistically significant
+risk
+physicians
+effect
+reversibility
+research
+incidence
+antimicrobial-induced mania
+relative risk factors
+antimicrobial-induced
+manic
+episode
+demographic populations
+incidence
+patients
+persistent
 affective disorders
+episode
 patient
 antibiotics
+authors
+elected
 syndrome
+antibiomania

@@ -1,13 +1,45 @@
-aminoglycoside
+epidemiology
+aminoglycoside-induced nephrotoxicity
+Experimental studies
+healthy
 human
+volunteers
 aminoglycosides
+proximal
+tubular damage
+patients
 glomerular
+tubular dysfunction
+Clinical trials
 aminoglycosides
 ill
+patients
+relative risk
 acute renal failure
+therapy
+risk
+analysis
+data
+duration
+therapy
 plasma
 aminoglycoside
+levels
 liver disease
-creatinine
+advanced age
+creatinine clearance
+female
+gender
+increase
+risk
+nephrotoxicity
 acute renal failure
-aminoglycoside
+shock
+additive effect
+Predictive models
+analyses
+patients
+high risk
+models
+pathophysiology
+aminoglycoside-induced nephrotoxicity

@@ -1,14 +1,13 @@
 ,Subject,Action,Object,Negation
-0,Hypertension,is,finding,False
-1,Hypertension,described,association,True
-2,We,report,occurrence,False
-3,who,given,Imipramine,False
-4,girl,control,behavior disorder,False
-5,tumor,recurring,time,False
-6,her,had,blood pressure,True
-7,her,had,none,False
-8,none,following,discontinuation,False
-9,her,was,relapse,False
-10,drug,caused,hypertension,False
-11,mechanism,be,levels,False
-12,we,urge,caution,False
+0,tumor,determined,episode,False
+1,tumor,recurring,episode,False
+2,drug,believe,elevation,False
+3,drug,believe,diagnosis,False
+4,drug,believe,Imipramine,False
+5,drug,believe,relapse,False
+6,drug,believe,hypertension,False
+7,drug,caused,hypertension,False
+8,mechanism,believed,reaction,False
+9,mechanism,believed,vasoactive catecholamines,False
+10,mechanism,believed,inactivation,False
+11,mechanism,believed,Imipramine,False

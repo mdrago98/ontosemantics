@@ -1,27 +1,52 @@
+experiments
 naloxone
-scopolamine
-retention
-deficit
+scopolamine-induced retention deficit
+passive
+avoidance
+investigated
 mice
 Scopolamine
-methyl
-scopolamine
+methyl scopolamine
+induced
 amnesia
+latency
+duration
 Naloxone
-retention
-deficit
+injected
+training
+attenuated
+retention deficit
+activity
+effect
 naloxone
+antagonized
 morphine
+opioid
+specificity
 naloxone
+Post-training
+administration
 naloxone
-scopolamine
-amnesia
+split dose
+attenuated
+scopolamine-induced amnesia
+Control experiments
+increase
+pain sensitivity
+pre-training
 naloxone
+induced
+aversive state
+post-training
 naloxone
+influence
 naloxone
-scopolamine
-retention
-deficit
-memory
-hippocampal
-pathway
+scopolamine-induced retention deficit
+results
+findings
+cholinergic-opioid
+interaction
+memory processes
+mechanism
+interaction
+septo-hippocampal cholinergic pathway

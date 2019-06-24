@@ -1,9 +1,39 @@
+cases
 encephalitis
+treatment
 diethylcarbamazine
 DEC
-Loa loa
-filariasis
+Congolese
+patients
+Loa loa filariasis
+cases
+fatal
+outcome
+severe
+sequelae
 complication
+patients
+hospitalized
+treatment
+therapeutic precautions
+initial
+dose
 DEC
-complication
+dose
+increases
+anti-allergic treatment
+drug-induced complication
+highly endemic regions
+subjects
+microfilarial
+relationship
+occurrence
 encephalitis
+decrease
+microfilaremia
+pathophysiological
+mechanisms
+observations
+comments
+published
+literature

@@ -1,38 +1,64 @@
-anticonvulsant
+authors
+anticonvulsant effects
+MK-801
+pilocarpine-induced seizure
+Intraperitoneal
+injection
 pilocarpine
-seizure
-pilocarpine
+induced
+tonic
 clonic seizure
 Scopolamine
 pentobarbital
+prevented
 development
-pilocarpine
-behavioral
-seizure
-seizure
+pilocarpine-induced behavioral seizure
+MK-801
+electrical seizure
+measured
 hippocampal
-pilocarpine
+EEG
+pilocarpine-treated group
 Scopolamine
 pentobarbital
+blocked
+pilocarpine-induced electrographic seizure
+MK-801
+treatment
+electrographic seizure
+induced
 pilocarpine
-seizure
-seizure
-pilocarpine
-Brain
+Brain damage
+assessed
 hippocampus
+microscopically
 Pilocarpine
-death
+neuronal death
 hippocampus
+pyknotic
 Pentobarbital
 scopolamine
-brain
+MK-801
+brain damage
 pilocarpine
+MK-801-treated group
 pyramidal cells
 hippocampus
-granule
-cells
+darker
+normal
+treatments
+granule cells
 dentate gyrus
+affected
+results
 status epilepticus
+induced
 pilocarpine
-brain
-NMDA receptor
+cholinergic
+overstimulation
+glutamatergic transmission
+elevation
+brain damage
+excitatory
+NMDA
+mechanism

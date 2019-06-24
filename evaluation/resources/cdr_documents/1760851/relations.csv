@@ -1,27 +1,52 @@
 ,Subject,Action,Object,Negation
-0,model,evaluate,toxicity,False
-1,model,evaluate,cardiotoxicity,False
-2,DOX,bound,peptide,False
-3,that,were,Gly-Gly,False
-4,conjugate,containing,galactosamine,False
-5,administration,showed,reduction,False
-6,animals,showed,reduction,False
-7,weight,seen,animals,False
-8,that,received,DOX,False
-9,that,received,DOX,False
-10,deaths,observed,animals,False
-11,that,received,DOX,False
-12,investigations,revealed,changes,False
-13,that,received,DOX,False
-14,measurements,showed,reduction,False
-15,function,beginning,week,False
-16,that,given,HPMA,False
-17,conjugates,containing,DOX,False
-18,Animals,exhibited,change,True
-19,change,observed,heart,False
-20,that,received,DOX,False
-21,that,received,form,False
-22,animals,killed,end,False
-23,animals,shown,increase,False
-24,animals,shown,drug,False
-25,increase,beginning,weeks,False
+0,model,used,toxicity,False
+1,model,used,doxorubicin,False
+2,model,used,free drug,False
+3,model,used,N-(2-hydroxypropyl)methacrylamide,False
+4,conjugate,used,galactosamine,False
+5,conjugate,used,liver,False
+6,residue,used,galactosamine,False
+7,residue,used,liver,False
+8,residue,targeted,liver,False
+9,administration,showed,DOX,False
+10,administration,showed,reduction,False
+11,administration,showed,body weight,False
+12,animals,showed,DOX,False
+13,animals,showed,reduction,False
+14,animals,showed,body weight,False
+15,deaths,observed,study,False
+16,deaths,observed,cardiotoxicity,False
+17,deaths,observed,animals,False
+18,deaths,observed,free DOX,False
+19,deaths,observed,HPMA,False
+20,deaths,observed,cases,False
+21,deaths,observed,changes,False
+22,deaths,observed,heart,False
+23,deaths,observed,cardiotoxicity,False
+24,measurements,showed,cardiac output,False
+25,measurements,showed,animals,False
+26,measurements,showed,DOX,False
+27,measurements,showed,HPMA,False
+28,measurements,showed,reduction,False
+29,measurements,showed,function,False
+30,measurements,showed,week,False
+31,drug administration,showed,cardiac output,False
+32,drug administration,showed,animals,False
+33,drug administration,showed,DOX,False
+34,drug administration,showed,HPMA,False
+35,drug administration,showed,reduction,False
+36,drug administration,showed,function,False
+37,drug administration,showed,week,False
+38,drug administration,beginning,week,False
+39,Animals,exhibited,HPMA,False
+40,Animals,exhibited,DOX,False
+41,Animals,exhibited,cardiac output,False
+42,Animals,exhibited,study,False
+43,histological change,observed,heart,False
+44,histological change,observed,animals,False
+45,histological change,observed,DOX,False
+46,histological change,observed,HPMA,False
+47,histological change,observed,study,False
+48,animals,shown,increase,False
+49,animals,shown,heart rate,False
+50,animals,shown,weeks,False

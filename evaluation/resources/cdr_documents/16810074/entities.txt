@@ -1,27 +1,106 @@
-endothelial cell
-nitric oxide
+Loss
+endothelial cell-derived nitric oxide
 NO
 hypertension
-arterial
+arterial dysfunction
+Experimental
 hypertension
+removal
 NO
-arterial
-vasodilator
+mechanisms
+decreased
+arterial vasodilator activity
+augmented
 endothelin-1
 ET-1
 release
-sympathetic nervous system
+increased
+sympathetic nervous system activity
+elevated
 tissue
 oxidative stress
-venous
-smooth muscle
-nitro
-L-arginine
+increased
+venous smooth muscle
+venomotor
+Nomega-nitro-L-arginine
+LNNA
 hypertension
+mechanisms
 Rats
-NO synthase
-inhibitor
-drinking
-water
+treated with
+NO synthase inhibitor
+LNNA
+drinking water
+weeks
 arterial pressure
+conscious
 rats
+control
+LNNA
+rats
+Carotid arteries
+vena cava
+measurement
+isometric contraction
+contraction
+norepinephrine
+reduced
+arteries
+LNNA
+control rats
+contraction
+ET-1
+reduced
+control
+Maximum
+contraction
+vena cava
+norepinephrine
+control
+reduced
+response
+ET-1
+Mean
+circulatory filling pressure
+in vivo
+venomotor tone
+LNNA
+hypertension
+weeks
+LNNA
+superoxide scavenger
+tempol
+IV
+arterial pressure
+control rats
+dose-dependent
+decrease
+LNNA
+rats
+ganglionic blockade
+hexamethonium
+LNNA
+hypertensive
+rats
+control rats
+Carotid arteries
+vena cava
+sympathetic ganglia
+LNNA
+rats
+higher
+basal levels
+superoxide
+compared
+control
+rats
+data
+NO deficiency
+increases
+oxidative stress
+sympathetic activity
+arterial
+venous vessels
+impact
+veins
+hypertension

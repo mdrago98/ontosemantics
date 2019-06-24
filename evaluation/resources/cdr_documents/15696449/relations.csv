@@ -1,9 +1,10 @@
 ,Subject,Action,Object,Negation
-0,Patients,have,prognosis,False
-1,time,is,months,False
-2,melphalan,be,therapy,False
-3,PBSCT,be,therapy,False
+0,Patients,have,primary systemic amyloidosis,False
+1,Patients,have,poor prognosis,False
+2,Median survival time,is,treatments,False
+3,treatment mortality,appears,peripheral blood stem cell transplant,False
 4,authors,noted,development,False
-5,authors,noted,melphalan,False
-6,study,examine,risk,False
-7,study,examine,impact,False
+5,authors,noted,acute renal insufficiency,False
+6,authors,noted,melphalan,False
+7,study,undertaken,risk factors,False
+8,study,undertaken,mortality,False

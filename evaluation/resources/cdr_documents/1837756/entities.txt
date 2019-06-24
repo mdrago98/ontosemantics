@@ -1,21 +1,53 @@
 Antidepressants
-serotonin
-reuptake
-inhibitors
+associated with
+paranoid reactions
+psychiatric patients
+cases
+paranoid exacerbation
+serotonin reuptake inhibitors
 fluoxetine
 amitriptyline
+cases
+history
+paranoid
+symptomatology
+concomitant
+occurrence
+depressive
 psychotic symptoms
-depressive disorders
+Complicated depressive disorders
+atypicality
+course
+symptomatology
+chronicity
 psychosis
-psychosis
-serotonin
-reuptake
-inhibitors
+bipolarity
+secondary onset
+primary psychosis
+vulnerability
+paranoid
+exacerbations
+associated with
+serotonin reuptake inhibitors
+pharmacology
+neurobiology
 paranoia
-5HT3 receptor
-dopamine release, beta-noradrenergic receptor downregulation
-GABAB receptor upregulation
-basal ganglia
-serotonin
-reuptake
+cryptic
+mechanisms
+5HT3
+dopamine
+beta-noradrenergic receptor
+downregulation
+GABAB receptor
+upregulation
+ventral basal ganglia
+lateral orbitofrontal
+anterior cingulate circuits
+phenomenon
+cases
+paranoid
+exacerbations
+serotonin reuptake blockers
+patients
+neurobiological
 paranoia

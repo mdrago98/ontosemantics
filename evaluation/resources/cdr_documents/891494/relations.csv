@@ -1,8 +1,39 @@
 ,Subject,Action,Object,Negation
-0,encephalopathy,was,allergic reaction,False
-1,patient,presented,morbilliform,False
-2,patient,presented,DPH,False
-3,injection,had,effect,True
-4,patient,starting,DPH,False
-5,need,eliminating,DPH,False
-6,need,eliminating,regimen,False
+0,case,described,phenytoin,False
+1,case,described,seizures,False
+2,concentration,presented,DPH,False
+3,concentration,presented,morbilliform rash,False
+4,concentration,presented,DPH,False
+5,patient,presented,DPH,False
+6,patient,presented,morbilliform rash,False
+7,patient,presented,DPH,False
+8,protidogram,presented,DPH,False
+9,protidogram,presented,morbilliform rash,False
+10,protidogram,presented,DPH,False
+11,injection,presented,DPH,False
+12,injection,presented,morbilliform rash,False
+13,injection,presented,DPH,False
+14,authors,conclude,patient,False
+15,authors,conclude,DPH,False
+16,authors,conclude,increase,False
+17,authors,conclude,seizures,False
+18,authors,conclude,EEG,False
+19,authors,conclude,physician,False
+20,authors,conclude,DPH,False
+21,authors,conclude,therapeutic regimen,False
+22,concentrations,conclude,patient,False
+23,concentrations,conclude,DPH,False
+24,concentrations,conclude,increase,False
+25,concentrations,conclude,seizures,False
+26,concentrations,conclude,EEG,False
+27,concentrations,conclude,physician,False
+28,concentrations,conclude,DPH,False
+29,concentrations,conclude,therapeutic regimen,False
+30,concentrations,alert,patient,False
+31,concentrations,alert,DPH,False
+32,concentrations,alert,increase,False
+33,concentrations,alert,seizures,False
+34,concentrations,alert,EEG,False
+35,concentrations,alert,physician,False
+36,concentrations,alert,DPH,False
+37,concentrations,alert,therapeutic regimen,False

@@ -1,13 +1,49 @@
 ,Subject,Action,Object,Negation
-0,experiments,study,effect,False
-1,There,were,differences,True
-2,apigenin,prevent,amnesia,True
-3,that,step,compartment,True
-4,that,step,time,True
-5,rats,retested,weeks,False
-6,s,retested,weeks,False
-7,decline,observed,weeks,False
-8,loss,found,acquisition,False
-9,animals,treated,apigenin,False
-10,apigenin,delays,term,False
-11,that,implicate,action,True
+0,experiments,performed,effect,False
+1,experiments,performed,flavonoid apigenin,False
+2,experiments,performed,acquisition,False
+3,experiments,performed,h,False
+4,experiments,performed,step-through passive avoidance task,False
+5,experiments,performed,Wistar rats,False
+6,apigenin,prevent,amnesia,True
+7,apigenin,prevent,scopolamine,True
+8,apigenin,prevent,acquisition,True
+9,rats,retested,compartment,False
+10,rats,retested,cut-off time,False
+11,rats,retested,weeks,False
+12,decline,observed,saline,False
+13,decline,observed,avoidance response,False
+14,decline,observed,weeks,False
+15,decline,observed,weeks,False
+16,decline,observed,acquisition,False
+17,decline,observed,passive avoidance task,False
+18,memory loss,observed,saline,False
+19,memory loss,observed,avoidance response,False
+20,memory loss,observed,weeks,False
+21,memory loss,observed,weeks,False
+22,memory loss,observed,acquisition,False
+23,memory loss,observed,passive avoidance task,False
+24,memory loss,found,weeks,False
+25,memory loss,found,acquisition,False
+26,memory loss,found,passive avoidance task,False
+27,data,suggest,forgetting,False
+28,data,suggest,h,False
+29,data,suggest,fear memory,False
+30,data,suggest,apigenin,False
+31,data,suggest,mechanisms,False
+32,data,suggest,action,False
+33,data,suggest,muscarinic cholinergic system,False
+34,apigenin,suggest,forgetting,False
+35,apigenin,suggest,h,False
+36,apigenin,suggest,fear memory,False
+37,apigenin,suggest,apigenin,False
+38,apigenin,suggest,mechanisms,False
+39,apigenin,suggest,action,False
+40,apigenin,suggest,muscarinic cholinergic system,False
+41,apigenin,delays,forgetting,False
+42,apigenin,delays,h,False
+43,apigenin,delays,fear memory,False
+44,apigenin,delays,apigenin,False
+45,apigenin,delays,mechanisms,False
+46,apigenin,delays,action,False
+47,apigenin,delays,muscarinic cholinergic system,False

@@ -1,3 +1,18 @@
 ,Subject,Action,Object,Negation
-0,asparaginase,administered,episode,False
-1,status,returned,days,False
+0,girl,described,reaction,False
+1,girl,described,induction chemotherapy,False
+2,girl,described,precursor B-cell acute lymphoblastic leukemia,False
+3,patient,developed,acute encephalopathy,False
+4,patient,developed,behavioral changes,False
+5,patient,developed,diffuse cerebral vasospasm,False
+6,patient,developed,magnetic resonance angiography,False
+7,patient,developed,administration,False
+8,patient,developed,intrathecal cytarabine,False
+9,Vincristine,administered,episode,False
+10,Vincristine,administered,induction therapy,False
+11,Neurologic status,returned,baseline,False
+12,Neurologic status,returned,days,False
+13,Neurologic status,returned,event,False
+14,findings,returned,baseline,False
+15,findings,returned,days,False
+16,findings,returned,event,False

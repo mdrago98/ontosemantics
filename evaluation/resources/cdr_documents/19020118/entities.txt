@@ -1,2 +1,10 @@
-postoperative complications
+aim
+investigate
+postoperative
+complications
+mortality
+administration
+aprotinin
 tranexamic acid
+unselected
+cohort

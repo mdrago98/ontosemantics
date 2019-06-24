@@ -1,11 +1,37 @@
+prevalence
 heart disease
+outpatient
+chronic
+users
 cocaine
-cocaine
+users
+age-matched
+controls
 resting
+exercise electrocardiography
+ECG
+Doppler echocardiography
+Findings
 coronary artery disease
-ventricular
+detected
+patients
+controls
+Decreased left ventricular systolic function
+patients
+controls
 resting
-ventricular
+peak
+abnormal
+left ventricular filling
+detected
+patients
+controls
 coronary artery
 myocardial disease
-cocaine
+young
+chronic
+users
+screening
+ECG
+echocardiography
+patients

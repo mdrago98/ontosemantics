@@ -1,13 +1,49 @@
 ,Subject,Action,Object,Negation
-0,ability,synthesize,DNA,False
-1,ability,synthesize,response,False
-2,ability,assessed,adult,False
-3,Isoproterenol,delivered,FeJ,False
-4,Isoproterenol,resulted,%,False
-5,Isoproterenol,resulted,%,False
-6,DNA synthesis,observed,control,False
-7,number,ranged,%,False
-8,cardiac hypertrophy,induced,strains,False
-9,mice,comprising,extremes,False
-10,cardiomyocytes,synthesize,DNA,True
-11,cardiomyocytes,synthesize,response,True
+0,Isoproterenol,resulted,minipump implantation,False
+1,Isoproterenol,resulted,C3Heb/FeJ mice,False
+2,Isoproterenol,resulted,increase,False
+3,Isoproterenol,resulted,heart weight,False
+4,Isoproterenol,resulted,cardiomyocyte,False
+5,assessed,assessed,autoradiographic analysis,False
+6,assessed,assessed,cardiomyocytes,False
+7,DNA synthesis,observed,autoradiographic analysis,False
+8,DNA synthesis,observed,cardiomyocytes,False
+9,DNA synthesis,observed,hearts,False
+10,assessed,observed,autoradiographic analysis,False
+11,assessed,observed,cardiomyocytes,False
+12,assessed,observed,hearts,False
+13,survey,revealed,inbred strains,False
+14,survey,revealed,mice,False
+15,survey,revealed,mononucleate,False
+16,survey,revealed,genetic background,False
+17,terminal differentiation,revealed,inbred strains,False
+18,terminal differentiation,revealed,mice,False
+19,terminal differentiation,revealed,mononucleate,False
+20,terminal differentiation,revealed,genetic background,False
+21,terminal differentiation,ranged,mononucleate,False
+22,terminal differentiation,ranged,genetic background,False
+23,terminal differentiation,suggesting,genetic background,False
+24,terminal differentiation,influenced,genetic background,False
+25,capacity,determine,reactive DNA synthesis,False
+26,capacity,determine,genetic regulation,False
+27,capacity,induced,reactive DNA synthesis,False
+28,capacity,induced,genetic regulation,False
+29,capacity,induced,strains,False
+30,capacity,induced,mice,False
+31,capacity,induced,extremes,False
+32,capacity,induced,nuclear number survey,False
+33,cardiac hypertrophy,induced,reactive DNA synthesis,False
+34,cardiac hypertrophy,induced,genetic regulation,False
+35,cardiac hypertrophy,induced,strains,False
+36,cardiac hypertrophy,induced,mice,False
+37,cardiac hypertrophy,induced,extremes,False
+38,cardiac hypertrophy,induced,nuclear number survey,False
+39,data,indicate,DNA,False
+40,data,indicate,response,False
+41,data,indicate,isoproterenol-induced cardiac hypertrophy,False
+42,cardiomyocytes,indicate,DNA,False
+43,cardiomyocytes,indicate,response,False
+44,cardiomyocytes,indicate,isoproterenol-induced cardiac hypertrophy,False
+45,cardiomyocytes,synthesize,DNA,True
+46,cardiomyocytes,synthesize,response,True
+47,cardiomyocytes,synthesize,isoproterenol-induced cardiac hypertrophy,True

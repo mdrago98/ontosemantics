@@ -1,18 +1,25 @@
 Sumatriptan succinate
 serotonin-1
 agonist
-intracranial
-arteries
-cranial
-circulation
+antimigraine
+constricting
+intracranial arteries
+vasopressor
+responses
+cranial circulation
+systemic
 pulmonary
-coronary
-circulations
+coronary circulations
+Cases
+published
 coronary vasospasm
 myocardial ischemia
 myocardial infarction
 sumatriptan
 development
+cases
 ischemic colitis
+patients
 migraine
+treated
 sumatriptan

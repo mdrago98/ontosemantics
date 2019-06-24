@@ -1,23 +1,46 @@
+investigation
+neurotoxicity
 theophylline
+advanced pregnancy
 Sprague-Dawley rats
+days
+pregnant
+nonpregnant
 rats
+age
+strain
+infusions
 aminophylline
+maximal
 seizures
+minutes
 Theophylline
+concentrations
+endpoint
 serum
 CSF
 serum
-brain
-rats
+free
+brain concentrations
+pregnant rats
 Theophylline
 serum
 protein binding
-equilibrium
-rats
+equilibrium dialysis
+lower
+pregnant rats
 Fetal
 serum
 seizures
+mother
+maternal
 brain
 CSF
+concentrations
+correlated
+advanced
+pregnancy
+effect
+neurotoxic response
 theophylline
 rats

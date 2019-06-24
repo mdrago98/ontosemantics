@@ -1,7 +1,6 @@
 ,Subject,Action,Object,Negation
-0,Propranolol,found,position,False
-1,use,is,question,False
-2,number,reported,fetus,False
-3,number,reported,neonate,False
-4,attempt,differentiate,complications,False
-5,Growth retardation,be,both,False
+0,Propranolol,found,practice,False
+1,Propranolol,found,medicine,False
+2,patients,examined,pregnancies,False
+3,patients,examined,propranolol,False
+4,hypoglycemia,conclude,chronic propranolol therapy,False

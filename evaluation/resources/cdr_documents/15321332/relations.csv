@@ -1,9 +1,16 @@
 ,Subject,Action,Object,Negation
-0,woman,underwent,section,False
-1,woman,underwent,labour,False
-2,A multiparous woman in good psychological health,given,analgesia,False
-3,A multiparous woman in good psychological health,given,mg,False
-4,device,delivering,boluses,False
-5,feeling,worsening,bolus,False
-6,A multiparous woman in good psychological health,received,total,False
-7,syringe,containing,diamorphine,False
+0,woman,underwent,psychological health,False
+1,woman,underwent,caesarean section,False
+2,woman,underwent,labour,False
+3,diagnosis,made,psychological disturbance,True
+4,diagnosis,made,patient,True
+5,diagnosis,made,history,True
+6,syringe,substituted,droperidol,False
+7,syringe,substituted,diamorphine,False
+8,unease,substituted,droperidol,False
+9,unease,substituted,diamorphine,False
+10,extrapyramidal side effects,feel,dopaminergic antiemetics,False
+11,manifestations,feel,dopaminergic antiemetics,False
+12,extrapyramidal side effects,known,dopaminergic antiemetics,False
+13,extrapyramidal side effects,overlooked,dopaminergic antiemetics,False
+14,manifestations,overlooked,dopaminergic antiemetics,False

@@ -1,0 +1,29 @@
+infections
+cancer
+antibiotics
+adverse effects
+tobramycin
+carbenicillin
+Tobramycin
+carbenicillin
+infectious
+cancer
+Pneumonia
+infection
+infections
+Klebsiella pneumoniae
+Escherichia coli
+Pseudomonas aeruginosa
+infections
+neutrophil
+neutrophil
+Azotemia
+side effect
+azotemia
+serum
+creatinine
+Azotemia
+serum
+tobramycin
+antibiotic
+renal toxicity

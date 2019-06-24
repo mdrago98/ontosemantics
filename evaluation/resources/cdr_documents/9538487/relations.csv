@@ -1,7 +1,19 @@
 ,Subject,Action,Object,Negation
-0,history,treated,lithium,False
-1,man,admitted,coma,False
-2,"A 45-year-old man, with a 10-year history of manic depression treated with lithium",gave,year,False
-3,"A 45-year-old man, with a 10-year history of manic depression treated with lithium",remained,blood,False
-4,testing,indicated,nephrogenic diabetes insipidus,False
-5,man,developed,type 2 diabetes,False
+0,man,admitted,history,False
+1,man,admitted,manic depression,False
+2,man,admitted,lithium,False
+3,man,admitted,nonketotic coma,False
+4,time urinalysis,gave,polyuria,False
+5,time urinalysis,gave,glucose,False
+6,water deprivation testing,remained,recovery,False
+7,water deprivation testing,remained,hyperglycaemia,False
+8,water deprivation testing,remained,concentrations,False
+9,water deprivation testing,remained,nephrogenic diabetes insipidus,False
+10,water deprivation testing,indicated,nephrogenic diabetes insipidus,False
+11,man,hypothesize,type 2 diabetes,False
+12,man,hypothesize,nephrogenic diabetes insipidus,False
+13,man,hypothesize,dehydration,False
+14,chronic polyuria,hypothesize,type 2 diabetes,False
+15,chronic polyuria,hypothesize,nephrogenic diabetes insipidus,False
+16,chronic polyuria,hypothesize,dehydration,False
+17,man,developed,type 2 diabetes,False

@@ -1,0 +1,18 @@
+,Subject,Action,Object,Negation
+0,poor glycaemic control,remains,patient,False
+1,poor glycaemic control,remains,diabetes mellitus,False
+2,poor glycaemic control,remains,polyuria,False
+3,poor glycaemic control,remains,glycaemic control,False
+4,poor glycaemic control,remains,action,False
+5,aetiology,remains,patient,False
+6,aetiology,remains,diabetes mellitus,False
+7,aetiology,remains,polyuria,False
+8,aetiology,remains,glycaemic control,False
+9,aetiology,remains,action,False
+10,hypernatraemia,suggest,urine-specific gravity,False
+11,hypernatraemia,suggest,diabetes insipidus,False
+12,hyperglycaemic state,report,manifestation,False
+13,hyperglycaemic state,report,central diabetes insipidus,False
+14,hyperglycaemic state,report,patient,False
+15,hyperglycaemic state,report,history,False
+16,hyperglycaemic state,report,craniopharyngioma,False

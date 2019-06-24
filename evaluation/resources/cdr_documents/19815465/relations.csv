@@ -1,15 +1,26 @@
 ,Subject,Action,Object,Negation
-0,study,investigated,visual defects,False
-1,visual defects,associated,drug,False
-2,people,grouped,basis,False
-3,Groups,matched,respect,False
-4,patients,underwent,assessment,False
-5,constriction,observed,%,False
-6,patients,taking,VGB,False
-7,patients,taking,%,False
-8,who,took,VGB,False
-9,Assessment,revealed,responses,False
-10,Assessment,revealed,%,False
-11,abnormalities,are,population,False
-12,Assessment,identify,retinal toxicity,False
-13,retinal toxicity,associated,VGB,False
+0,study,investigated,defects,False
+1,study,investigated,antiepileptic drug vigabatrin,False
+2,people,grouped,epilepsy,False
+3,people,grouped,antiepileptic drug therapy,False
+4,people,grouped,VGB,False
+5,current,grouped,epilepsy,False
+6,current,grouped,antiepileptic drug therapy,False
+7,current,grouped,VGB,False
+8,Groups,matched,age,False
+9,patients,underwent,assessment,False
+10,patients,underwent,electrophysiological function,False
+11,visual field constriction,observed,patients,False
+12,visual field constriction,observed,VGB,False
+13,visual field constriction,observed,patients,False
+14,visual field constriction,observed,VGB,False
+15,visual field constriction,observed,patients,False
+16,visual field constriction,observed,no exposure,False
+17,visual field constriction,observed,VGB,False
+18,Assessment,revealed,retinal function,True
+19,Assessment,revealed,responses,True
+20,Assessment,revealed,VGB,True
+21,Assessment,revealed,VGB,True
+22,Assessment,revealed,patients,True
+23,Assessment,revealed,exposure to,True
+24,Assessment,revealed,VGB,True

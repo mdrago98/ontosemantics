@@ -27,6 +27,7 @@ def main(nlp: MedicalSpacyFactory, driver: Connection, pmc_pg):
     name, authors = pmc_pg.get_article_details()
     logger.info(f'started generating knowledge graph for {name}')
     doc = nlp(text)
+    ents = [str(entity) for entity in doc.ents]
     abstract = pmc_pg.get_abstract()
     doc_relations = doc._.noun_verb_chunks
     doc_relations = [
@@ -34,7 +35,7 @@ def main(nlp: MedicalSpacyFactory, driver: Connection, pmc_pg):
         for relation in doc_relations]
     logger.info(f'mapping terms for {name}')
     terms, alternate_term_dictionary, term_score = map_relations_with_ontology_terms(doc_relations)
-    detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmc_pg.id, abstract, authors, [], terms)
+    detail_sub_graph, entity_sub_graph, publication = generate_doc_details(pmc_pg.id, abstract, authors, ents, terms)
     terms = sort_terms(terms, term_score)
     sub_graph, associations = get_document_subgraph(doc_relations, terms, pmc_pg.id, publication)
     logger.info(f'generating sub graph for {name}')
@@ -50,13 +51,15 @@ def main(nlp: MedicalSpacyFactory, driver: Connection, pmc_pg):
 #                 OUPPageObject('11238471', 'https://academic.oup.com/jcem/article/86/3/972/2847394'),
 #                 SpringerPageObject('14722654', 'https://link.springer.com/article/10.1007%2Fs00125-003-1313-3'),
 #                 NaturePageObject('11742412', 'https://www.nature.com/articles/414799a')]
+# wilson's disease:
+# PMCPageObject('26692151', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4678372/')
 if __name__ == '__main__':
     nlp = MedicalSpacyFactory.factory()
     driver = KnowledgeGraphConnection()
     # pmc_list = [WileyPageObject('1', '/home/drago/Downloads', True),
     #     BioScientificaPageObject('21498522', 'https://jme.bioscientifica.com/view/journals/jme/47/1/R1.xml')]
-    pmc_list = [BioScientificaPageObject('21498522', 'https://jme.bioscientifica.com/view/journals/jme/47/1/R1.xml'),
-                WileyPageObject('12829233', '/home/drago/Downloads/johnston2003.html', True)
+    pmc_list = [
+                PMCPageObject('26692151', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4678372/')
                 ]
     pool = ThreadPool(10)
     pool.starmap(main, zip(repeat(nlp), repeat(KnowledgeGraphConnection), pmc_list))

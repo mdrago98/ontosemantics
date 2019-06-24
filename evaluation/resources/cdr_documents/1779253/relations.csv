@@ -1,14 +1,47 @@
 ,Subject,Action,Object,Negation
-0,order,evaluate,efficacy,False
-1,patients,treated,%,False
-2,patients,treated,weeks,False
-3,patients,rated,pain,False
-4,patients,rated,analogue,False
-5,investigation,performed,study,False
-6,patients,improved,trial,False
-7,%,discontinued,therapy,False
-8,%,reported,benefit,True
-9,decrease,was,weeks,False
-10,%,improved,follow,False
-11,third,continued,application,False
-12,response,correlated,incidence,True
+0,patients,treated with,efficacy,False
+1,patients,treated with,response,False
+2,patients,treated with,capsaicin,False
+3,patients,treated with,chronic post-herpetic neuralgia,False
+4,patients,treated with,capsaicin cream,False
+5,patients,treated with,weeks,False
+6,months,treated with,efficacy,False
+7,months,treated with,response,False
+8,months,treated with,capsaicin,False
+9,months,treated with,chronic post-herpetic neuralgia,False
+10,months,treated with,capsaicin cream,False
+11,months,treated with,weeks,False
+12,patients,rated,therapy,False
+13,patients,rated,pain,False
+14,patients,rated,visual analogue scale,False
+15,investigation,performed,months,False
+16,investigation,performed,patients,False
+17,patients,improved,trial,False
+18,patients,improved,therapy,False
+19,patients,improved,side-effects,False
+20,patients,improved,capsaicin-induced burning sensations,False
+21,Treatment response,correlated,incidence,True
+22,Treatment response,correlated,capsaicin-induced burning,True
+23,results,indicate,controlled trials,False
+24,results,indicate,capsaicin,False
+25,results,indicate,PHN,False
+26,results,indicate,interference,False
+27,results,indicate,neuropeptide metabolism,False
+28,results,indicate,nociceptive afferents,False
+29,non-randomized study,indicate,controlled trials,False
+30,non-randomized study,indicate,capsaicin,False
+31,non-randomized study,indicate,PHN,False
+32,non-randomized study,indicate,interference,False
+33,non-randomized study,indicate,neuropeptide metabolism,False
+34,non-randomized study,indicate,nociceptive afferents,False
+35,analgesic effect,indicate,controlled trials,False
+36,analgesic effect,indicate,capsaicin,False
+37,analgesic effect,indicate,PHN,False
+38,analgesic effect,indicate,interference,False
+39,analgesic effect,indicate,neuropeptide metabolism,False
+40,analgesic effect,indicate,nociceptive afferents,False
+41,analgesic effect,mediated,capsaicin,False
+42,analgesic effect,mediated,PHN,False
+43,analgesic effect,mediated,interference,False
+44,analgesic effect,mediated,neuropeptide metabolism,False
+45,analgesic effect,mediated,nociceptive afferents,False

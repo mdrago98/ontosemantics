@@ -1,15 +1,24 @@
+Animals
+treated
 gentamicin
 interstitial fibrosis
 renal cortex
+study
+investigated
 expression
 nuclear factor-kappaB
 NF-kappaB
-mitogen-activated protein (MAP) kinases
+mitogen-activated protein
+kinases
 macrophages
 renal cortex
-renal
+structural
+functional
+changes
 rats
+treated
 gentamicin
 gentamicin
-pyrrolidine
+pyrrolidine dithiocarbamate
+PDTC
 NF-kappaB inhibitor

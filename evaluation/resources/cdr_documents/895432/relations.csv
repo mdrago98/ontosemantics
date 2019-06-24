@@ -1,14 +1,47 @@
 ,Subject,Action,Object,Negation
-0,effect,studied,rats,False
-1,rats,divided,groups,False
-2,groups,exercised,days,False
-3,groups,exercised,treadmill,False
-4,groups,exercised,mph,False
-5,groups,exercised,%,False
-6,which,remained,period,False
-7,animals,received,injection,False
-8,hours,following,isoproterenol,False
-9,differences,observed,isoproterenol,False
-10,differences,observed,groups,False
-11,exercise,reduced,mortality,False
-12,mortality,associated,effects,False
+0,effect,studied,exercise,False
+1,effect,studied,severity,False
+2,effect,studied,isoproterenol-induced myocardial infarction,False
+3,effect,studied,rats,False
+4,rats,divided,groups,False
+5,exercise-isoproterenol,remained,days,False
+6,exercise-isoproterenol,remained,treadmill,False
+7,exercise-isoproterenol,remained,mph,False
+8,exercise-isoproterenol,remained,group,False
+9,animals,remained,days,False
+10,animals,remained,treadmill,False
+11,animals,remained,mph,False
+12,animals,remained,group,False
+13,animals,assigned,SC,False
+14,animals,received,exercise,False
+15,animals,received,injection,False
+16,animals,received,isoproterenol,False
+17,Animals,exhibited,S-I group,False
+18,Animals,exhibited,mortality,False
+19,Animals,exhibited,effects of,False
+20,Animals,exhibited,isoproterenol,False
+21,Animals,exhibited,animals,False
+22,Animals,exhibited,E-I group,False
+23,changes,observed,isoproterenol,False
+24,changes,observed,severity,False
+25,changes,observed,lesions,False
+26,changes,observed,heart weight,False
+27,changes,observed,body weight ratios,False
+28,results,indicated,mortality,False
+29,results,indicated,effects of,False
+30,results,indicated,dosages,False
+31,results,indicated,isoproterenol,False
+32,results,indicated,severity,False
+33,results,indicated,infarction,False
+34,exercise,indicated,mortality,False
+35,exercise,indicated,effects of,False
+36,exercise,indicated,dosages,False
+37,exercise,indicated,isoproterenol,False
+38,exercise,indicated,severity,False
+39,exercise,indicated,infarction,False
+40,exercise,reduced,mortality,False
+41,exercise,reduced,effects of,False
+42,exercise,reduced,dosages,False
+43,exercise,reduced,isoproterenol,False
+44,exercise,reduced,severity,False
+45,exercise,reduced,infarction,False

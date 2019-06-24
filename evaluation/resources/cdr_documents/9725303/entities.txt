@@ -1,6 +1,11 @@
-ureteric
-calculi
-HIV
+unique
+CT
+ureteric calculi
+HIV-infected
+patients
 indinavir
 HIV protease inhibitor
+associated with
+increased
+incidence
 urolithiasis

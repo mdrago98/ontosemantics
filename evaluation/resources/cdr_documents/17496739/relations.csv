@@ -1,17 +1,29 @@
 ,Subject,Action,Object,Negation
-0,neurotoxicity,associated,piperacillin,False
-1,end-stage renal disease,receiving,dialysis,False
-2,who,developed,speech,False
-3,who,developed,doses,False
-4,woman,given,bronchiectasis,False
-5,data,revealed,electrolyte,False
-6,data,revealed,ammonia,False
-7,examinations,showed,dysarthria,False
-8,examinations,showed,Babinski,False
-9,episode,recurred,dose,False
-10,imaging,demonstrate,infarction,True
-11,imaging,demonstrate,brain lesions,True
-12,Initiation,reversed,neurologic symptoms,False
-13,Initiation,reversed,hours,False
-14,encephalopathy,considered,patients,False
-15,hemodialysis,terminate,encephalopathy,False
+0,neurotoxicity,goes,piperacillin,False
+1,neurotoxicity,goes,piperacillin,False
+2,neurotoxicity,goes,management,False
+3,episodes,report,woman,False
+4,episodes,report,end-stage renal disease,False
+5,episodes,report,continuous ambulatory peritoneal dialysis,False
+6,episodes,report,slurred speech,False
+7,episodes,report,generalized tonic-clonic seizure,False
+8,episodes,report,doses,False
+9,episodes,report,piperacillin/tazobactam,False
+10,episodes,report,bronchiectasis,False
+11,episodes,report,secondary infection,False
+12,episodes,given,generalized tonic-clonic seizure,False
+13,episodes,given,doses,False
+14,episodes,given,piperacillin/tazobactam,False
+15,episodes,given,bronchiectasis,False
+16,episodes,given,secondary infection,False
+17,laboratory data,revealed,plasma electrolyte,False
+18,Neurologic examinations,showed,dysarthria,False
+19,episode,recurred,antiepileptic agents,False
+20,episode,recurred,dose,False
+21,episode,recurred,piperacillin/tazobactam,False
+22,Brain magnetic resonance imaging,demonstrate,acute infarction,True
+23,Initiation,reversed,high-flux hemodialysis,False
+24,Initiation,reversed,symptoms,False
+25,Piperacillin-induced encephalopathy,considered,patients,False
+26,Piperacillin-induced encephalopathy,considered,neurological manifestations,False
+27,hemodialysis,terminate,piperacillin-induced encephalopathy,False

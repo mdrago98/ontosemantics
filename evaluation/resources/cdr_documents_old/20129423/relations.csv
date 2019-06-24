@@ -1,0 +1,5 @@
+,Subject,Action,Object,Negation
+0,reactions,observed,system,False
+1,side effect,necrotizing,myocarditis,False
+2,diagnosis,made,post,False
+3,myocarditis,reported,English,False

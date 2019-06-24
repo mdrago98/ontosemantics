@@ -1,25 +1,68 @@
+temporary
 middle cerebral artery occlusion
+spontaneously
 rats
-phenylephrine
-hypertension
-brain
+effect
+phenylephrine-induced hypertension
+ischemic brain injury
 blood-brain barrier
+permeability
 Blood pressure
+schedules
+reperfusion
+Control
+normotensive
+reperfusion
 blood pressure
+increased
+reperfusion
+normotensive
+reperfusion
 hypertension
+normotension
 rats
-brain
-tissue
-chloride
+group
+brain injury
+staining tissue
+2,3,5-triphenyltetrazolium chloride
 edema
+evaluated
+microgravimetry
 rats
+group
 blood-brain barrier
+permeability
+measuring
+amount
 extravasation
-dye
-Brain
+Evans Blue dye
+Brain injury
+ischemic hemisphere
+group
+mean +/-
+SD
+group
+control group
+Specific
+gravity
+group
+control
+groups
+Evans Blue
 brain tissue
+group
+control group
+group
+study
+hypothesis
+reperfusion
+short interval
 hypertension
-brain
+decreases
+brain injury
 edema
+sustained
 hypertension
-edema
+increases
+risk
+vasogenic edema

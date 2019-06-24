@@ -1,15 +1,47 @@
 ,Subject,Action,Object,Negation
-0,treatment,has,effect,False
-1,treatment,has,suppression,False
-2,activities,following,myocardial infarction,False
-3,activities,following,relation,False
-4,Isoproterenol,injected,13th,False
-5,Isoproterenol,injected,days,False
-6,Isoproterenol,decreased,dtmin,False
-7,contractility,indexed,LVdp,False
-8,left ventricular dysfunction,was,groups,False
-9,groups,treated,kg,False
-10,Metfromin,lowered,elevation,False
-11,changes,seen,serum,False
-12,metformin,reduces,dysfunction,False
-13,mechanism,considered,target,False
+0,treatment,has,metformin,False
+1,treatment,has,protective effect,False
+2,treatment,has,myocardial infarction,False
+3,treatment,has,suppression,False
+4,treatment,has,inflammatory responses,False
+5,treatment,has,activation,False
+6,treatment,has,AMP-activated protein kinase,False
+7,effect,assessed,study,False
+8,effect,assessed,pre-treatment,False
+9,effect,assessed,metformin,False
+10,effect,assessed,cardiac dysfunction,False
+11,effect,assessed,myocardial infarction,False
+12,effect,assessed,AMPK,False
+13,Wistar rats,assigned,groups,False
+14,Wistar rats,assigned,isoproterenol,False
+15,Wistar rats,assigned,pre-treatment,False
+16,Wistar rats,assigned,metformin,False
+17,Wistar rats,assigned,days,False
+18,normal control,assigned,groups,False
+19,normal control,assigned,isoproterenol,False
+20,normal control,assigned,pre-treatment,False
+21,normal control,assigned,metformin,False
+22,normal control,assigned,days,False
+23,normal control,injected,isoproterenol,False
+24,normal control,injected,pre-treatment,False
+25,normal control,injected,metformin,False
+26,normal control,injected,days,False
+27,Isoproterenol,injected,days,False
+28,Isoproterenol,injected,acute myocardial infarction,False
+29,Isoproterenol,decreased,left ventricular systolic pressure,False
+30,Isoproterenol,decreased,LVdp/dtmax,False
+31,Metfromin,lowered,isoproterenol-induced elevation,False
+32,Metfromin,lowered,levels,False
+33,Metfromin,lowered,TLR4,False
+34,Metfromin,lowered,heart tissues,False
+35,changes,seen,TNF-α,False
+36,Phosphorylated AMPKα,Phosphorylated AMPKα,myocardium,False
+37,Phosphorylated AMPKα,elevated,myocardium,False
+38,Phosphorylated AMPKα,elevated,metformin,False
+39,Chronic pre-treatment,reduces,metformin,False
+40,Chronic pre-treatment,reduces,cardiac dysfunction,False
+41,Chronic pre-treatment,reduces,inflammatory responses,False
+42,Chronic pre-treatment,reduces,inhibition,False
+43,Chronic pre-treatment,reduces,TLR4,False
+44,mechanism,considered,target,False
+45,mechanism,considered,infarcted myocardium,False

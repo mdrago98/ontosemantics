@@ -1,17 +1,27 @@
 Cocaine
+risk factor
+ischemic
 haemorrhagic stroke
 man
+bilateral
 ischemia
 globus pallidus
+excessive
+alcohol
+intranasal
 cocaine
-globus pallidus
-infarctions
+Drug-related globus pallidus infarctions
+associated with
 heroin
+Bilateral
 basal ganglia
 infarcts
 cocaine
+concurrent
 heroin
+use
 patient
+transient
 cardiac arrhythmia
 respiratory dysfunction
 cocaine

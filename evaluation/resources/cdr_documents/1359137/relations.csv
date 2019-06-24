@@ -1,7 +1,15 @@
 ,Subject,Action,Object,Negation
-0,outpatients,associated,medications,False
-1,outpatients,treated,bromocriptine,False
-2,dosages,corrected,hyperprolactinemia,False
-3,woman,developed,psychiatric symptoms,False
-4,menstrual irregularity,corrected,bromocriptine,False
-5,bromocriptine,evaluated,therapy,False
+0,psychiatric outpatients,treated with,hyperprolactinemia,False
+1,psychiatric outpatients,treated with,neuroleptic medications,False
+2,psychiatric outpatients,treated with,bromocriptine,False
+3,dosages,corrected,hyperprolactinemia,False
+4,dosages,corrected,menstruation,False
+5,dosages,corrected,patients,False
+6,woman,developed,psychiatric symptoms,False
+7,woman,developed,bromocriptine,False
+8,patients,had,irregularity,False
+9,patients,had,bromocriptine,False
+10,bromocriptine,suggests,therapy,False
+11,bromocriptine,suggests,neuroleptic-associated hyperprolactinemia,False
+12,bromocriptine,evaluated,therapy,False
+13,bromocriptine,evaluated,neuroleptic-associated hyperprolactinemia,False

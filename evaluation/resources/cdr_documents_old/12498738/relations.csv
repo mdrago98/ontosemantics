@@ -1,0 +1,25 @@
+,Subject,Action,Object,Negation
+0,mechanisms,mediate,cumulative,False
+1,mechanisms,mediate,cardiomyopathy,False
+2,oxidative stress,are,factors,False
+3,dysfunction,are,factors,False
+4,objective,test,hypothesis,False
+5,hypothesis,protects,dysfunction,False
+6,dysfunction,associated,toxicity,False
+7,liver mitochondria,isolated,rats,False
+8,rats,treated,weeks,False
+9,rats,treated,week,False
+10,Heart mitochondria,isolated,rats,False
+11,rats,exhibited,rates,False
+12,mitochondria,isolated,rats,False
+13,capacity,suppressed,mitochondria,False
+14,capacity,suppressed,rats,False
+15,activity,suppressed,mitochondria,False
+16,activity,suppressed,rats,False
+17,treatment,caused,decrease,False
+18,Coadministration,decreased,extent,False
+19,Carvedilol,prevented,decrease,False
+20,Carvedilol,affect,any,True
+21,parameters,measured,liver mitochondria,False
+22,protection,afford,advantage,False
+23,that,accompanies,doxorubicin,False

@@ -1,13 +1,25 @@
 ,Subject,Action,Object,Negation
-0,Lamivudine,is,cytosine,False
-1,that,has,inhibitory,False
-2,We,performed,study,False
-3,carriers,receive,placebo,False
-4,drug,given,weeks,False
-5,patients,monitored,drug,False
-6,patients,receiving,lamivudine,False
-7,patients,had,decrease,False
-8,25 mg of lamivudine was slightly less effective than 100 mg (P = .011) and 300 mg (P = .005),induced,%,False
-9,25 mg of lamivudine was slightly less effective than 100 mg (P = .011) and 300 mg (P = .005),induced,week,False
-10,values,returned,weeks,False
-11,There,was,change,True
+0,carriers,randomized,placebo,False
+1,carriers,randomized,dosages,False
+2,carriers,randomized,dosage,False
+3,patients,randomized,placebo,False
+4,patients,randomized,dosages,False
+5,patients,randomized,dosage,False
+6,patients,receive,placebo,False
+7,patients,receive,dosages,False
+8,patients,receive,dosage,False
+9,drug,given,weeks,False
+10,patients,monitored,weeks,False
+11,drug treatment,monitored,weeks,False
+12,patients,had,lamivudine,False
+13,patients,had,decrease,False
+14,HBV DNA values,returned,pretreatment,False
+15,HBV DNA values,returned,weeks,False
+16,HBV DNA values,returned,cessation,False
+17,HBV DNA values,returned,therapy,False
+18,Studies,performed,lamivudine,False
+19,Studies,performed,HBV DNA,False
+20,suppression,performed,lamivudine,False
+21,suppression,performed,HBV DNA,False
+22,suppression,determine,HBV DNA,False
+23,suppression,achieved,HBV DNA,False

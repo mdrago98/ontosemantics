@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,combination,containing,mg,False
+1,combination,containing,mg,False
+2,blood pressure,declined,month,False
+3,Age,have,influence,True
+4,effect,was,patients,False
+5,patients,experienced,total,False

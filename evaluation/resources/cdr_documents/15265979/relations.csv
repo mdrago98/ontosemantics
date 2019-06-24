@@ -1,11 +1,61 @@
 ,Subject,Action,Object,Negation
-0,Amiodarone,cause,hepatotoxicity,False
-1,Amiodarone,cause,patients,False
-2,mice,administered,doses,False
-3,analysis,revealed,increase,False
-4,inability,activate,human,False
-5,inability,expressed,HepG2,False
-6,amiodarone,disrupts,lipid homeostasis,False
-7,results,provide,information,False
-8,information,regarding,effects,False
-9,PPARalpha,protects,hepatotoxicity,False
+0,Amiodarone,reported,hepatotoxicity,False
+1,Amiodarone,reported,patients,False
+2,mice,administered,mechanism,False
+3,mice,administered,unwanted effect,False
+4,mice,administered,doses,False
+5,mice,administered,amiodarone,False
+6,mice,administered,changes,False
+7,mice,administered,histology,False
+8,Amiodarone,induced,hepatomegaly,False
+9,Amiodarone,induced,serum triglycerides,False
+10,Northern blot analysis,revealed,hepatic RNA,False
+11,Northern blot analysis,revealed,increase,False
+12,Northern blot analysis,revealed,expression,False
+13,Northern blot analysis,revealed,genes,False
+14,Northern blot analysis,revealed,fatty acid oxidation,False
+15,PPARalpha-/-,indicated,induction,False
+16,PPARalpha-/-,indicated,genes,False
+17,PPARalpha-/-,indicated,PPARalpha,False
+18,PPARalpha-/-,indicated,amiodarone,False
+19,PPARalpha-/-,indicated,presence,False
+20,PPARalpha-/-,indicated,PPARalpha gene,False
+21,effects,indicated,induction,False
+22,effects,indicated,genes,False
+23,effects,indicated,PPARalpha,False
+24,effects,indicated,amiodarone,False
+25,effects,indicated,presence,False
+26,effects,indicated,PPARalpha gene,False
+27,treatment,resulted,mice,False
+28,treatment,resulted,PPARalpha-/- mice,False
+29,treatment,resulted,amiodarone,False
+30,treatment,resulted,rate,False
+31,treatment,resulted,total body weight loss,False
+32,effects,indicates,amiodarone,False
+33,effects,indicates,PPARalpha,False
+34,effects,indicates,HepG2,False
+35,effects,indicates,amiodarone,False
+36,effects,indicates,function,False
+37,effects,indicates,receptor,False
+38,amiodarone,conclude,hepatic lipid homeostasis,False
+39,amiodarone,conclude,PPARalpha,False
+40,amiodarone,conclude,toxic effect,False
+41,expression,conclude,hepatic lipid homeostasis,False
+42,expression,conclude,PPARalpha,False
+43,expression,conclude,toxic effect,False
+44,amiodarone,disrupts,hepatic lipid homeostasis,False
+45,amiodarone,disrupts,PPARalpha,False
+46,amiodarone,disrupts,toxic effect,False
+47,expression,disrupts,hepatic lipid homeostasis,False
+48,expression,disrupts,PPARalpha,False
+49,expression,disrupts,toxic effect,False
+50,results,provide,mechanistic information,False
+51,results,provide,effects,False
+52,results,provide,amiodarone,False
+53,results,provide,amiodarone-induced hepatotoxicity,False
+54,PPARalpha,provide,mechanistic information,False
+55,PPARalpha,provide,effects,False
+56,PPARalpha,provide,amiodarone,False
+57,PPARalpha,provide,amiodarone-induced hepatotoxicity,False
+58,PPARalpha,indicate,amiodarone-induced hepatotoxicity,False
+59,PPARalpha,protects,amiodarone-induced hepatotoxicity,False

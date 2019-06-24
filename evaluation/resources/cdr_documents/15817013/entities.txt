@@ -1,5 +1,11 @@
+incidence
 hemorrhage
 stroke
 people
+aged
+older
 atrial fibrillation
+adjusted-dose
 warfarin
+admitted to
+hospital

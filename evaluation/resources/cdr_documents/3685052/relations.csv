@@ -1,10 +1,37 @@
 ,Subject,Action,Object,Negation
-0,Monosodium glutamate,produces,convulsions,False
+0,administration,produces,rodents,False
 1,administration,produces,convulsions,False
-2,administration,produced,alterations,False
-3,technique,evaluate,seizure,False
-4,that,received,injections,False
-5,treatment,resulted,reductions,False
-6,which,correlated,duration,False
-7,testing,be,technique,False
-8,technique,evaluate,seizure,False
+2,administration,produces,behavioral deficits,False
+3,studies,undertaken,MSG,False
+4,studies,undertaken,permanent alterations,False
+5,studies,undertaken,seizure,False
+6,administration,undertaken,MSG,False
+7,administration,undertaken,permanent alterations,False
+8,administration,undertaken,seizure,False
+9,investigations,undertaken,MSG,False
+10,investigations,undertaken,permanent alterations,False
+11,investigations,undertaken,seizure,False
+12,administration,determine,MSG,False
+13,administration,determine,permanent alterations,False
+14,administration,determine,seizure,False
+15,administration,produced,MSG,False
+16,administration,produced,permanent alterations,False
+17,administration,produced,seizure,False
+18,screening technique,used,seizure,False
+19,screening technique,used,mice,False
+20,screening technique,used,injections,False
+21,screening technique,used,MSG,False
+22,treatment,resulted,reductions,False
+23,treatment,resulted,brain weight,False
+24,treatment,resulted,seizure,False
+25,Flurothyl ether,produced,hypothermia,False
+26,Flurothyl ether,produced,duration,False
+27,Flurothyl ether,produced,flurothyl,False
+28,Flurothyl ether,produced,hypothermia,False
+29,Flurothyl ether,produced,seizure,False
+30,relationship,produced,hypothermia,False
+31,relationship,produced,duration,False
+32,relationship,produced,flurothyl,False
+33,relationship,produced,hypothermia,False
+34,relationship,produced,seizure,False
+35,Flurothyl seizure testing,proved,seizure,False

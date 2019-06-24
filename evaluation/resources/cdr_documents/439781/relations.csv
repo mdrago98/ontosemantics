@@ -1,4 +1,10 @@
 ,Subject,Action,Object,Negation
-0,plasma,fell,hours,False
-1,indomethacin,diminish,blood pressure,False
-2,blood pressure,maintaining,effect,False
+0,indomethacin,change,sodium,True
+1,indomethacin,change,systolic blood pressure,True
+2,renin activity,change,sodium,True
+3,renin activity,change,systolic blood pressure,True
+4,indomethacin,diminish,inhibition,False
+5,indomethacin,diminish,prostaglandin,False
+6,indomethacin,diminish,blood pressure,False
+7,indomethacin,diminish,renin-angiotensin system,False
+8,indomethacin,diminish,sodium,False

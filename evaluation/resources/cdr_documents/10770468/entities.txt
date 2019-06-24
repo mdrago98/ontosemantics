@@ -1,26 +1,77 @@
-patient
-lithium
+findings
+bipolar patient
+maintenance
+lithium therapy
 hypercalcemia
+severe
 bradyarrhythmia
-conduct
-lithium
+authors
+retrospective study
+bipolar
+patients
+lithium-associated hypercalcemia
 hypercalcemia
-hypercalcemia
+period
 hypercalcemias
-fluids
-lithium
+associated with
+intravenous fluids
+authors
+non-lithium-treated
+patients
 hypercalcemias
 malignancies
-lithium
-hypercalcemia
+medical conditions
+group A
+patients
+lithium-associated hypercalcemia
 group B
+Patients
 group B
-lithium
-anticonvulsant
-stabilizers
+group A
+medically
+compromised
+multiple
+pharmacotherapies
+control groups
+group
+C1
+lithium-treated
+bipolar normocalcemic
+patients
+group C2
+bipolar normocalcemic
+patients
+treated with
+anticonvulsant mood stabilizers
+electrocardiographic (ECG
+findings
+patients
 group B
-conduction defects
+patients
+groups
+C1
+C2
+groups
+frequency
+ECG
+abnormalities
+frequency
+conduction
+defects
+Patients
 hypercalcemia
-lithium
-hypercalcemia
-conduction defects
+medical diseases
+bipolar patients
+lithium-associated hypercalcemia
+frequencies
+conduction
+defects
+Patients
+group A
+significant
+mortality
+follow-up
+mortality
+groups
+clinical
+findings

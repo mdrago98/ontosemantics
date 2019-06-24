@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,activity,referred,P11,False
+1,activity,studied,cats,False
+2,activity,studied,rats,False
+3,types,used,BaCl2,False
+4,types,used,chloroform,False
+5,compound,introduced,doses,False
+6,compound,manifests,activity,False
+7,compound,manifests,models,False
+8,arrhythmia,induced,90,False
+9,results,associated,beta,False

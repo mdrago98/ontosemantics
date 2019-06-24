@@ -1,17 +1,35 @@
+male
 acute leukemia
-anemia
-red cell
+post-chemotherapy anemia
+red cell transfusion
 hemoglobinuria
 Transfusion reaction
+workup
+negative
 Drug-induced immune hemolytic anemia
-eluate
+suspected
+positive direct antiglobulin test
+negative eluate
 microspherocytes
+smear
+pre-
+post-transfusion
+Drug studies
+indirect antiglobulin test
+positive
 trimethoprim
 trimethoprim-sulfamethoxazole
+negative
 sulfamethoxazole
 patient
-recurrence
+discontinuing
+drug
+no recurrence
+years
 anemia
-anemia
+patients
+worse-than-expected anemia
+chemotherapy
 hemolysis
+transfusion
 transfusion reaction

@@ -1,4 +1,10 @@
 ,Subject,Action,Object,Negation
-0,abnormalities,associated,myocardial necrosis,True
-1,sampling,offer,utility,False
-2,sampling,offer,patients,False
+0,electrocardiogram abnormalities,make,myocardial necrosis,False
+1,electrocardiogram abnormalities,make,myocardial infarction,False
+2,electrocardiogram abnormalities,make,patients,False
+3,electrocardiogram abnormalities,make,cocaine-associated chest pain,False
+4,diagnosis,make,myocardial necrosis,False
+5,diagnosis,make,myocardial infarction,False
+6,diagnosis,make,patients,False
+7,diagnosis,make,cocaine-associated chest pain,False
+8,sampling,offer,patients,False

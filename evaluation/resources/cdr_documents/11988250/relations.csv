@@ -1,10 +1,21 @@
 ,Subject,Action,Object,Negation
-0,We,report,cases,False
-1,We,report,ibuprofen,False
-2,We,report,trial,False
-3,infants,born,weeks,False
-4,Echocardiography,showed,blood flow,False
-5,Hypoxaemia,resolved,therapy,False
-6,investigators,involved,trials,False
-7,investigators,pay,attention,False
-8,hypoxaemia,occurs,administration,False
+0,Echocardiography,showed,pulmonary blood flow,False
+1,Hypoxaemia,resolved,inhaled nitric oxide therapy,False
+2,investigators,suggest,trials,False
+3,investigators,suggest,pulmonary pressure,False
+4,investigators,suggest,prophylactic administration,False
+5,investigators,suggest,ibuprofen,False
+6,hypoxaemia,suggest,trials,False
+7,hypoxaemia,suggest,pulmonary pressure,False
+8,hypoxaemia,suggest,prophylactic administration,False
+9,hypoxaemia,suggest,ibuprofen,False
+10,investigators,pay,trials,False
+11,investigators,pay,pulmonary pressure,False
+12,investigators,pay,prophylactic administration,False
+13,investigators,pay,ibuprofen,False
+14,hypoxaemia,pay,trials,False
+15,hypoxaemia,pay,pulmonary pressure,False
+16,hypoxaemia,pay,prophylactic administration,False
+17,hypoxaemia,pay,ibuprofen,False
+18,hypoxaemia,occurs,prophylactic administration,False
+19,hypoxaemia,occurs,ibuprofen,False

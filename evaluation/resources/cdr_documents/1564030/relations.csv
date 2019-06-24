@@ -1,7 +1,11 @@
 ,Subject,Action,Object,Negation
 0,Fluoxetine,gaining,acceptance,False
-1,fluoxetine,induce,mania,False
-2,who,developed,mania,False
-3,who,developed,pharmacotherapy,False
-4,factors,were,combination,False
-5,that,increase,vulnerability,False
+1,Fluoxetine,gaining,treatment,False
+2,Fluoxetine,gaining,depression,False
+3,fluoxetine,reported,adults,False
+4,fluoxetine,reported,mania,False
+5,cases,reported,depressed adolescents,False
+6,cases,reported,age,False
+7,cases,reported,mania,False
+8,cases,reported,pharmacotherapy,False
+9,cases,reported,fluoxetine,False

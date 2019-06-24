@@ -1,7 +1,6 @@
 ,Subject,Action,Object,Negation
-0,Osteoporosis,caused,excess,False
-1,bisphosphonates,inhibit,bone resorption,False
-2,pain,be,side effect,False
-3,We,presented,patient,False
-4,We,presented,administration,False
-5,patient,admitted,skeletal pain,False
+0,Osteoporosis,caused,bone resorption,False
+1,Osteoporosis,caused,bone formation,False
+2,Osteoporosis,caused,bone resorption,False
+3,Musculoskeletal pain,be,side effect,False
+4,Musculoskeletal pain,be,patients,False

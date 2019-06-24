@@ -1,4 +1,12 @@
 ,Subject,Action,Object,Negation
 0,study,examined,frequency,False
-1,patients,receiving,verapamil,False
-2,verapamil,increased,frequency,False
+1,study,examined,patients,False
+2,study,examined,oral verapamil,False
+3,administration,led,patients,False
+4,administration,led,increase,False
+5,administration,led,activity,False
+6,administration,led,junctional pacemakers,False
+7,verapamil,increased,patients,False
+8,verapamil,increased,chest pain syndromes,False
+9,verapamil,increased,frequency,False
+10,verapamil,increased,escape rhythms,False

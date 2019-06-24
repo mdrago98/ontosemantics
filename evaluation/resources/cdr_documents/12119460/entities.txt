@@ -1,16 +1,33 @@
+continuous
+infusion
 5-fluorouracil
 5-FU
 folinic acid
 FA
+multidrug chemotherapy
+regimens
 advanced gastric cancer
 AGC
-5-FU
+effective
+low
+toxicity
+phase II study
+3-weekly bolus 5-FU
 FA
 mitomycin C
 MMC
+low
+toxicity
+rate
+response rates
+regimens
 ELF
 FAM
-MMC
-5-FU
-FA
+FAMTX
+overall survival
+MMC-dependent
+schedule
+phase II study
+high-dose
+3-weekly bolus
 MMC

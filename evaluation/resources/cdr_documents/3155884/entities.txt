@@ -1,32 +1,60 @@
-insulin
-streptozotocin
-diabetes
+acute
+insulin treatment
+protective effect
+streptozotocin diabetes
+cardiotoxic effect
+high doses
 isoproterenol
 ISO
+investigated
 rats
-crystalline insulin
+injection
+crystalline
+insulin
 ISO
+subcutaneously
 ISO
+induced
 fibrosis
 myocardium
-blood
-glucose
-insulin
+morphometrically analyzed
+days
+correlation
+fall
+blood glucose
+insulin treatment
+myocardial
+content
 catecholamines
+day
+diabetic
 rats
 norepinephrine
+content
+increased
 epinephrine
-sympathetic nervous system
+unchanged
+enhanced
+sympathetic nervous system activity
+consequent
 down regulation
 myocardial beta-adrenergic receptors
-catecholamine
-resistance
-insulin
+catecholamine resistance
+reversion
+insulin treatment
 streptozotocin
 ISO
 resistance
-insulin
+insulin effect
+myocardial
 catecholamine
+sensitivity
+diabetic
 rats
+phenomenon
+pathogenetic mechanisms
+toxic
 myocardial cell degeneration
-cardiovascular
+acute
+diabetic
+patients

@@ -1,4 +1,15 @@
 ,Subject,Action,Object,Negation
-0,rats,received,noradrenaline,False
-1,which,prevents,action,False
-2,results,suggest,involvement,False
+0,rats,received,noradrenaline neurotoxin DSP4,False
+1,rats,received,days,False
+2,rats,received,injection,False
+3,rats,received,D-amphetamine,False
+4,hyperactivity,reduced,D-amphetamine,False
+5,hyperactivity,reduced,DSP4,False
+6,rearings,blocked,pretreatment,True
+7,rearings,blocked,DSP4,True
+8,reduction,blocked,amphetamine hyperactivity,False
+9,reduction,blocked,DSP4,False
+10,reduction,blocked,pretreatment,False
+11,reduction,blocked,noradrenaline-uptake blocking agent,False
+12,reduction,blocked,neurotoxic action,False
+13,reduction,blocked,DSP4,False

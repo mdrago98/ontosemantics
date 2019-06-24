@@ -1,16 +1,34 @@
 ,Subject,Action,Object,Negation
-0,administration,investigated,dogs,False
-1,kg,investigated,dogs,False
-2,diameter,affecting,parameter,False
-3,cromakalim,decreased,vascular resistance,False
-4,cromakalim,decreased,pressure,False
-5,pinacidil,decreased,vascular resistance,False
-6,pinacidil,decreased,pressure,False
-7,pinacidil,increasing,CxAD,False
-8,blood flow,maintained,constant,False
-9,nitroglycerin,dilates,coronary arteries,False
-10,cromakalim,dilate,coronary arteries,False
-11,vasodilation,involved,cromakalim-,False
-12,vasodilation,involved,increase,False
-13,flow,involved,cromakalim-,False
-14,flow,involved,increase,False
+0,bolus administration,investigated,cromakalim,False
+1,bolus administration,investigated,circumflex artery,False
+2,bolus administration,investigated,conscious dogs,False
+3,bolus administration,investigated,nitroglycerin,False
+4,Nitroglycerin,increased,circumflex artery diameter,False
+5,Nitroglycerin,increased,systemic hemodynamic parameter,False
+6,cardiac,increased,circumflex artery diameter,False
+7,cardiac,increased,systemic hemodynamic parameter,False
+8,cardiac,affecting,systemic hemodynamic parameter,False
+9,cromakalim,increased,doses,False
+10,cromakalim,increased,doses,False
+11,Cromakalim,was,pinacidil,False
+12,Cromakalim,was,CxAD,False
+13,Vasodilation,affected,small coronary vessels,True
+14,Vasodilation,affected,cromakalim,True
+15,Vasodilation,affected,beta adrenergic,True
+16,drug-induced tachycardia,affected,small coronary vessels,True
+17,drug-induced tachycardia,affected,cromakalim,True
+18,drug-induced tachycardia,affected,beta adrenergic,True
+19,blood flow,maintained,constant,False
+20,blood flow,reduced,constant,False
+21,blood flow,reduced,CxAD,False
+22,blood flow,reduced,cromakalim,False
+23,increases,reduced,constant,False
+24,increases,reduced,CxAD,False
+25,increases,reduced,cromakalim,False
+26,nitroglycerin,dilate,small coronary arteries,False
+27,cromakalim,dilate,small coronary arteries,False
+28,effect,dilate,small coronary arteries,False
+29,mechanisms,involved,increase,False
+30,mechanisms,involved,CxAD,False
+31,direct vasodilation,involved,increase,False
+32,direct vasodilation,involved,CxAD,False

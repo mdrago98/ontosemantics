@@ -1,13 +1,42 @@
 rhesus monkeys
-spontaneous recovery
-blood
+intravenous challenge
+aeruginosa
+organisms
+acute illness
+days
+duration
+spontaneous
+recovery
+monkeys
+blood cultures
+negative
+days
 Leukocytosis
-vincristine
+monkeys
+Intravenous
+intratracheal
+inoculation
+vincristine sulfate
 leukopenia
-vincristine
+days
+Intravenous
+inoculation
+pyocin type
+Pseudomonas organisms
+monkeys
+vincristine sulfate 4
+days
+fatal
 infection
+monkeys
+Pseudomonas
 died
-antimetabolite
-leukopenia
+studies
+antimetabolite-induced leukopenia
 Pseudomonas sepsis
-antimicrobial
+monkeys
+biological model
+study
+comparative
+efficacy
+antimicrobial agents

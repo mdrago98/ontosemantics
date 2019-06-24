@@ -1,2 +1,4 @@
 ,Subject,Action,Object,Negation
-0,stimulation,ameliorate,signs and symptoms,False
+0,High frequency stimulation,known,subthalamic nucleus,False
+1,High frequency stimulation,known,signs,False
+2,High frequency stimulation,known,Parkinson's disease,False

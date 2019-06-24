@@ -1,12 +1,35 @@
 woman
-latissimus dorsi flap
-carcinoma of the breast
-adjuvant
+mastectomy
+latissimus dorsi flap reconstruction
+diagnosed
+carcinoma
+breast 6
+months
+months
+neo-adjuvant chemotherapy
 epirubicin
 paclitaxel
 Taxol
 cyclophosphamide
+uncomplicated
+level
+physical activity
+bradycardic
+pre-operative
 cardiac symptoms
-Mobitz type II
-atrioventricular block
-ventricular
+Mobitz type II atrioventricular block
+diagnosed
+electrocardiogram
+temporary
+transvenous ventricular pacing
+peri-operative period
+evidence-based guidelines
+case
+chemotherapy
+cardiotoxicity
+years
+patients
+chemotherapy
+pre-operative
+electrocardiogram
+asymptomatic

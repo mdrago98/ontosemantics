@@ -1,16 +1,36 @@
 ,Subject,Action,Object,Negation
-0,administration,mimic,symptoms,False
-1,we,investigated,effects,False
-2,effects,induced,rats,False
-3,effects,following,ICV,False
-4,effects,following,10(-3)M,False
-5,substances,measured,particles,False
-6,production,measured,particles,False
-7,ouabain,remained,days,False
-8,10(-3)M,remained,days,False
-9,hyperlocomotion,remained,days,False
-10,response,remained,days,False
-11,increase,associated,TBARS,False
-12,increase,associated,superoxide,False
-13,behavior,provide,animal,False
-14,model,test,hypothesis,False
+0,administration,suggested,ouabain,False
+1,administration,suggested,rats,False
+2,administration,suggested,symptoms,False
+3,administration,suggested,bipolar mania,False
+4,Clinical studies,shown,mitochondrial dysfunction,False
+5,bipolar disorder,shown,mitochondrial dysfunction,False
+6,effects,measured,ouabain,False
+7,effects,measured,ICV,False
+8,effects,measured,concentrations,False
+9,effects,measured,locomotion,False
+10,effects,measured,open-field test,False
+11,reactive substances,measured,submitochondrial particles,False
+12,reactive substances,measured,prefrontal cortex,False
+13,findings,demonstrated,rats,False
+14,findings,demonstrated,days,False
+15,findings,demonstrated,ICV,False
+16,ouabain,demonstrated,rats,False
+17,ouabain,demonstrated,days,False
+18,ouabain,demonstrated,ICV,False
+19,ouabain,remained,rats,False
+20,ouabain,remained,days,False
+21,ouabain,remained,ICV,False
+22,increase,observed,rat,False
+23,increase,observed,TBARS,False
+24,increase,observed,submitochondrial particles,False
+25,increase,observed,prefrontal cortex,False
+26,increase,associated with,rat,False
+27,increase,associated with,TBARS,False
+28,increase,associated with,submitochondrial particles,False
+29,increase,associated with,prefrontal cortex,False
+30,ouabain-induced mania-like behavior,provide,animal model,False
+31,ouabain-induced mania-like behavior,provide,hypothesis,False
+32,ouabain-induced mania-like behavior,provide,involvement,False
+33,ouabain-induced mania-like behavior,provide,oxidative stress,False
+34,ouabain-induced mania-like behavior,provide,bipolar disorder,False

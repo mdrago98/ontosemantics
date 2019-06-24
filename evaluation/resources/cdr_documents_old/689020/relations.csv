@@ -1,0 +1,7 @@
+,Subject,Action,Object,Negation
+0,method,permitting,measurement,False
+1,method,permitting,displacement,False
+2,coordinates,transferred,input,False
+3,substances,raised,amplitude,False
+4,period,shortened,-20,False
+5,periods,calculated,oscillations,False

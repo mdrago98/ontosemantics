@@ -1,10 +1,21 @@
 ,Subject,Action,Object,Negation
-0,patient,undergoing,desferrioxamine,False
-1,patient,undergoing,compliance,False
-2,patient,administered,dosage,False
-3,which,caused,renal insufficiency,False
-4,decision,introduce,therapy,False
-5,decision,introduce,order,False
-6,order,remove,drug,False
-7,order,remove,therapy,False
-8,haemodialysis,suggested,therapy,False
+0,patient,undergoing,transfusion-dependent thalassemia,False
+1,patient,undergoing,home intravenous desferrioxamine,False
+2,patient,undergoing,implanted system,False
+3,patient,undergoing,poor compliance,False
+4,patient,undergoing,nightly subcutaneous therapy,False
+5,patient,administered,malfunctioning,False
+6,patient,administered,toxic dosage,False
+7,patient,administered,drug,False
+8,patient,administered,renal insufficiency,False
+9,decision,made,deterioration,False
+10,decision,made,symptoms,False
+11,decision,made,medical treatment,False
+12,decision,made,haemodialytical therapy,False
+13,decision,made,drug,False
+14,decision,made,nephrotoxicity,False
+15,haemodialysis,suggested,results,False
+16,haemodialysis,suggested,therapy,False
+17,haemodialysis,suggested,cases,False
+18,haemodialysis,suggested,acute renal failure,False
+19,haemodialysis,suggested,desferrioxamine,False

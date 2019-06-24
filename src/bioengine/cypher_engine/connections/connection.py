@@ -17,8 +17,7 @@ class Connection(ABC):
         """
         args = [(x, cypher_escape(y)) for x, y in kwargs.items() if type(y) is str]
         args += [(x, y) for x, y in kwargs.items() if type(y) is not str]
-        query_string = query.format(**dict(args))
-        return self.driver.run(cypher=query_string)
+        return self.driver.run(cypher=query, parameters=dict(args))
 
     @abstractmethod
     def get_nodes(self, concept: str, node_query=None, factory: ModelFactory = None) -> list:

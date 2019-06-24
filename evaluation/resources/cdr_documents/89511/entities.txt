@@ -1,18 +1,35 @@
+treatment regimens
+patients
 endometrial disease
-climacteric
-women
-oestrogen
+climacteric women
+oestrogen therapy
 Cystic hyperplasia
-oestrogen
+associated with
+unopposed oestrogen therapy
 progestagen
+courses
+days
 norethisterone
+reversion
+cases
 cystic hyperplasia
-atypical hyperplasia
+cases
+atypical
+hyperplasia
+cases
 endometrial carcinoma
-oestrogen
+problems
+inappropriate
+unopposed oestrogen therapy
+severe
 hyperplasia
 malignancy
-oestrogen
+Cyclical
+oestrogen therapy
+7
+days
 progestagen
+increase
+risk
 endometrial hyperplasia
 carcinoma

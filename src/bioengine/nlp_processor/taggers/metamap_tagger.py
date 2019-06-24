@@ -2,7 +2,7 @@ from pymetamap import MetaMap
 import subprocess
 from os import path
 
-from settings import Config
+from src.settings import Config
 from src.bioengine.nlp_processor.taggers.tagger import Tagger
 
 

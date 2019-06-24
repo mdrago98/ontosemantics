@@ -1,36 +1,62 @@
 Wilson's disease
 autosomal
 hepatic
-copper
-metabolism
-copper
+copper metabolism
+consequent
+copper accumulation
+toxicity
 tissues
+consequent
 hepatic
+neurologic
 psychiatric disorders
 Wilson's disease
 chronic liver disease
 patient
+levels
 state anxiety
 depression
-ECD
-cortical
+99mTc-ECD-SPECT
+cortical hypoperfusion
 frontal lobes
 left frontal lobe
+follow-up
 patient
 penicillamine
+interrupted
+appearance
 lichenoid dermatitis
 zinc acetate
+treatment
 patient
+side-effects
+therapy
 zinc acetate
+effective
+treatment
 Wilson's disease
 patient
-penicillamine
+penicillamine-related side effects
+safety
 zinc acetate
-chelating
+toxic
+chelating drugs
+observation
+evidence
+efficacy
+drug
+treatment
 Wilson's disease
 Wilson's disease
-penicillamine
+penicillamine-treated
+patients
 skin lesion
+genetic factor
 drug response
+studies
+clarification
+Wilson's disease therapy
+specific
+therapies
 Wilson's disease
-Wilson's disease
+phenotypes

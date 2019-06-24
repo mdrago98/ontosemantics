@@ -1,10 +1,21 @@
 ,Subject,Action,Object,Negation
-0,who,treated,nitrate,False
-1,who,treated,eye,False
-2,man,developed,bradycardia,False
+0,man,developed,pilocarpine nitrate,False
+1,man,developed,bradycardia,False
+2,man,developed,halothane anaesthesia,False
 3,timolol,identified,collection,False
-4,pilocarpine,identified,collection,False
+4,timolol,identified,urine,False
 5,Timolol,detected,sample,False
-6,plasma,removed,surgery,False
-7,action,enhanced,halothane,False
-8,Pilocarpine,had,effect,False
+6,Timolol,detected,plasma,False
+7,Timolol,detected,surgery,False
+8,Timolol,detected,timolol,False
+9,Timolol,detected,beta-adrenoceptor blockade,False
+10,concentration,detected,sample,False
+11,concentration,detected,plasma,False
+12,concentration,detected,surgery,False
+13,concentration,detected,timolol,False
+14,concentration,detected,beta-adrenoceptor blockade,False
+15,action,postulated,halothane anaesthesia,False
+16,action,postulated,bradycardia,False
+17,action,enhanced,halothane anaesthesia,False
+18,action,enhanced,bradycardia,False
+19,Pilocarpine,had,contributory effect,False

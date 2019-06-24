@@ -1,6 +1,11 @@
 ,Subject,Action,Object,Negation
-0,We,describe,patients,False
-1,patients,developed,treatment,False
-2,complication,result,inhibition,False
-3,patients,receiving,indomethacin,False
-4,attention,prevent,complication,False
+0,life-threatening,describe,patients,False
+1,life-threatening,describe,treatment,False
+2,life-threatening,describe,acute gouty arthritis,False
+3,life-threatening,describe,indomethacin,False
+4,hyperkalemia,describe,patients,False
+5,hyperkalemia,describe,treatment,False
+6,hyperkalemia,describe,acute gouty arthritis,False
+7,hyperkalemia,describe,indomethacin,False
+8,complication,result,inhibition,False
+9,complication,result,prostaglandin,False

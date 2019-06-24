@@ -1,0 +1,19 @@
+,Subject,Action,Object,Negation
+0,effects,compared,adult,False
+1,C57BL/6J,determine,responses,False
+2,characteristics,scored,caffeine,False
+3,characteristics,scored,conditions,False
+4,Mice,received,IP,False
+5,doses,ranging,kg,False
+6,Loss,righting,ability,False
+7,Loss,scored,1,False
+8,Loss,scored,min,False
+9,Loss,scored,min,False
+10,Loss,scored,min,False
+11,death,occurred,min,False
+12,Animals,surviving,min,False
+13,tonic seizures,scored,min,False
+14,activity,measured,min,False
+15,activity,measured,caffeine,False
+16,differences,observed,strains,False
+17,responses,influenced,mammals,False

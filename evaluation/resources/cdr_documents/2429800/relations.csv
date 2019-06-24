@@ -1,8 +1,24 @@
 ,Subject,Action,Object,Negation
-0,effects,studied,patients,False
-1,histamine release,studied,patients,False
-2,Histamine release,occurred,patients,False
-3,Group,had,correlation,False
-4,dosing,prevented,fall,False
-5,changes,associated,d-tubocurarine,False
-6,H2-antagonists,provides,protection,False
+0,Hemodynamic effects,studied,bolus,False
+1,Hemodynamic effects,studied,d-tubocurarine,False
+2,Hemodynamic effects,studied,patients,False
+3,H1-,given,dosing,False
+4,H1-,given,d-tubocurarine,False
+5,H1-,given,randomized double-blind fashion,False
+6,H1-,given,groups,False
+7,group 1,given,dosing,False
+8,group 1,given,d-tubocurarine,False
+9,group 1,given,randomized double-blind fashion,False
+10,group 1,given,groups,False
+11,level,occurred,patients,False
+12,level,occurred,minutes,False
+13,dosing,occurred,patients,False
+14,dosing,occurred,minutes,False
+15,Group 1,had,correlation,False
+16,Group 1,had,plasma,False
+17,Group 1,had,group 4,False
+18,dosing,prevented,antagonists,False
+19,dosing,prevented,systemic vascular resistance,False
+20,data,demonstrate,d-tubocurarine,False
+21,dosing,provides,H1-,False
+22,dosing,provides,protection,False

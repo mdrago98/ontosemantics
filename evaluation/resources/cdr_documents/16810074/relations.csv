@@ -1,21 +1,68 @@
 ,Subject,Action,Object,Negation
-0,Loss,is,hallmark,False
-1,hypertension,involves,mechanisms,False
-2,hypertension,involves,addition,False
-3,Rats,treated,inhibitor,False
-4,Rats,treated,weeks,False
-5,arterial pressure,was,119,False
-6,arteries,removed,measurement,False
-7,cava,removed,measurement,False
-8,contraction,reduced,arteries,False
-9,contraction,reduced,%,False
-10,pressure,elevated,LNNA,True
-11,pressure,elevated,weeks,True
-12,tempol,change,pressure,True
-13,blockade,caused,fall,False
-14,Hg,compared,control,False
-15,arteries,had,levels,False
-16,deficiency,increases,stress,False
-17,deficiency,increases,vessels,False
-18,deficiency,increases,activity,False
-19,impact,make,contribution,True
+0,hypertension,involves,removal,True
+1,hypertension,involves,NO,False
+2,hypertension,involves,mechanisms,False
+3,hypertension,involves,arterial vasodilator activity,False
+4,venomotor,hypothesized,Nomega-nitro-L-arginine,False
+5,venomotor,hypothesized,mechanisms,False
+6,venomotor,plays,Nomega-nitro-L-arginine,False
+7,venomotor,plays,mechanisms,False
+8,Rats,treated with,NO synthase inhibitor,False
+9,Rats,treated with,weeks,False
+10,LNNA,treated with,NO synthase inhibitor,False
+11,LNNA,treated with,weeks,False
+12,Carotid arteries,removed,measurement,False
+13,Carotid arteries,removed,isometric contraction,False
+14,contraction,reduced,norepinephrine,False
+15,contraction,reduced,arteries,False
+16,contraction,reduced,LNNA,False
+17,contraction,reduced,ET-1,False
+18,contraction,reduced,norepinephrine,False
+19,contraction,reduced,arteries,False
+20,contraction,reduced,LNNA,False
+21,contraction,reduced,ET-1,False
+22,control,reduced,norepinephrine,False
+23,control,reduced,arteries,False
+24,control,reduced,LNNA,False
+25,control,reduced,ET-1,False
+26,contraction,reduced,ET-1,False
+27,control,reduced,ET-1,False
+28,contraction,reduced,vena cava,False
+29,contraction,reduced,norepinephrine,False
+30,contraction,reduced,ET-1,False
+31,response,reduced,vena cava,False
+32,response,reduced,norepinephrine,False
+33,response,reduced,ET-1,False
+34,response,observed,ET-1,False
+35,tempol,change,arterial pressure,True
+36,tempol,change,control rats,True
+37,tempol,change,decrease,True
+38,tempol,change,LNNA,True
+39,ganglionic blockade,caused,hexamethonium,False
+40,ganglionic blockade,caused,LNNA,False
+41,Carotid arteries,had,LNNA,False
+42,Carotid arteries,had,basal levels,False
+43,Carotid arteries,had,superoxide,False
+44,Carotid arteries,had,rats,False
+45,data,suggest,oxidative stress,False
+46,data,suggest,arterial,False
+47,data,suggest,veins,False
+48,data,suggest,hypertension,False
+49,NO deficiency,suggest,oxidative stress,False
+50,NO deficiency,suggest,arterial,False
+51,NO deficiency,suggest,veins,False
+52,NO deficiency,suggest,hypertension,False
+53,impact,suggest,oxidative stress,False
+54,impact,suggest,arterial,False
+55,impact,suggest,veins,False
+56,impact,suggest,hypertension,False
+57,NO deficiency,increases,oxidative stress,False
+58,NO deficiency,increases,arterial,False
+59,NO deficiency,make,oxidative stress,True
+60,NO deficiency,make,arterial,True
+61,NO deficiency,make,veins,True
+62,NO deficiency,make,hypertension,True
+63,impact,make,oxidative stress,True
+64,impact,make,arterial,True
+65,impact,make,veins,True
+66,impact,make,hypertension,True

@@ -1,8 +1,24 @@
 ,Subject,Action,Object,Negation
-0,Misoprostol,associated,reactions,False
-1,reactions,including,gastrointestinal symptoms,False
-2,We,present,case,False
-3,woman,became,initiation,False
-4,change in mental status,reported,initiation,False
-5,status,returned,week,False
-6,delirium,resulted,misoprostol,False
+0,Misoprostol,associated with,adverse reactions,False
+1,Misoprostol,associated with,gastrointestinal symptoms,False
+2,Changes,reported,mental status,True
+3,woman,present,case,False
+4,woman,present,long-term care facility,False
+5,woman,present,initiation,False
+6,woman,present,misoprostol therapy,False
+7,woman,became,long-term care facility,False
+8,woman,became,initiation,False
+9,woman,became,misoprostol therapy,False
+10,delirium,improved,misoprostol,False
+11,delirium,improved,week,False
+12,mental status,improved,misoprostol,False
+13,mental status,improved,week,False
+14,mental status,discontinued,week,False
+15,mental status,returned,week,False
+16,factors,changed,patient,False
+17,factors,resulted,patient,False
+18,factors,resulted,patient,False
+19,factors,resulted,misoprostol therapy,False
+20,delirium,resulted,patient,False
+21,delirium,resulted,patient,False
+22,delirium,resulted,misoprostol therapy,False

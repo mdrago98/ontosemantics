@@ -1,42 +1,76 @@
 bupivacaine
 epinephrine
+precipitate
 dysrhythmias
+circulating
 bupivacaine
-anesthesia
+regional anesthesia
+potentiate
+dysrhythmogenic effects
 epinephrine
 bupivacaine
+alters
+dysrhythmogenicity
+administration
 epinephrine
-dogs
+conscious
+healthy dogs
+anesthetized
 dogs
 myocardial infarction
-dogs
+conscious dogs
+micrograms.kg-1.min-1
 epinephrine
+animals
 ventricular tachycardia
 VT
+responders
 bupivacaine
+saline
+micrograms.kg-1.min-1
 epinephrine
 bupivacaine
+groups
 epinephrine
+prodysrhythmic effects
 bupivacaine
 VT
 dogs
+sinoatrial beats
+ectopies
 Epinephrine
+shortened
+QT
 bupivacaine
+control animals
 myocardial infarction
-halothane
-dogs
+halothane-anesthetized dogs
+micrograms.kg-1.min-1
 epinephrine
 VT
 bupivacaine
+injected
+micrograms.kg-1.min-1
 epinephrine
 dogs
+prodysrhythmic response
 epinephrine
 bupivacaine
 Bupivacaine
-epinephrine
+antagonizes
+epinephrine dysrhythmogenicity
+conscious
 dogs
+susceptible
 VT
+anesthetized
 dogs
-dysrhythmias
+spontaneous
+postinfarct dysrhythmias
+systemic
+subtoxic
 bupivacaine
+administration
+enhances
+dysrhythmogenicity
 epinephrine

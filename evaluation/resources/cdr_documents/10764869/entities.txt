@@ -1,7 +1,13 @@
+report
+bilateral
 optic neuropathy
 patient
 tacrolimus
-FK 506
+FK
 Prograf
+Fujisawa USA
+Inc
+Deerfield
+Illinois
 immunosuppression
-liver
+orthotropic liver transplantation

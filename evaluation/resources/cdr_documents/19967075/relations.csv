@@ -1,7 +1,25 @@
 ,Subject,Action,Object,Negation
-0,there,is,regulation,False
-1,rats,injected,kg,False
-2,rats,injected,days,False
-3,rats,exhibited,creatinine,False
-4,Immunoblotting,revealed,expression,False
-5,immunohistochemistry,revealed,expression,False
+0,study,aimed,tubular transporters,False
+1,study,aimed,gentamicin-induced nephropathy,False
+2,rats,injected,gentamicin,False
+3,rats,injected,days,False
+4,rats,injected,tubular transporters,False
+5,rats,injected,immunoblotting,False
+6,expression,injected,gentamicin,False
+7,expression,injected,days,False
+8,expression,injected,tubular transporters,False
+9,expression,injected,immunoblotting,False
+10,expression,determined,tubular transporters,False
+11,expression,determined,immunoblotting,False
+12,protein expression,determined,OAT,False
+13,Gentamicin-treated rats,exhibited,creatinine clearance,False
+14,excretion,increased,sodium,False
+15,Immunoblotting,revealed,expression,False
+16,Immunoblotting,revealed,Na(+)/K(+)-ATPase,False
+17,Immunoblotting,revealed,kidney,False
+18,Immunoblotting,revealed,gentamicin-treated rats,False
+19,NHE3,revealed,expression,False
+20,NHE3,revealed,Na(+)/K(+)-ATPase,False
+21,NHE3,revealed,kidney,False
+22,NHE3,revealed,gentamicin-treated rats,False
+23,expression,decreased,OAT1,False

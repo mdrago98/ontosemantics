@@ -1,17 +1,65 @@
 ,Subject,Action,Object,Negation
-0,study,explore,effect,False
-1,study,explore,effect,False
-2,group,injected,doses,False
-3,group,followed,h,False
-4,group,administered,ZnSO(4,False
-5,group,received,h,False
-6,group,received,dose,False
-7,administration,resulted,deterioration,False
-8,administration,increased,serum,False
-9,pretreatment,counteracted,inhibition,False
-10,features,improved,hippocampus,False
-11,rats,treated,ZnSO(4,False
-12,it,prevented,GR,False
-13,it,prevented,GSH,False
-14,toxicity,counteracted,levels,False
-15,toxicity,counteracted,preservation,False
+0,induction,documented,metallothionein,False
+1,induction,documented,ZnSO(4,False
+2,induction,documented,neuroprotection,False
+3,control group,divided,Wistar albino,False
+4,control group,divided,groups,False
+5,control group,divided,doses,False
+6,control group,divided,normal saline,False
+7,control group,divided,BCNU,False
+8,control group,followed,doses,False
+9,control group,followed,normal saline,False
+10,control group,followed,BCNU,False
+11,group,received,group,False
+12,group,received,BCNU,False
+13,group,received,injection,False
+14,group,received,normal saline,False
+15,solvent,received,group,False
+16,solvent,received,BCNU,False
+17,solvent,received,injection,False
+18,solvent,received,normal saline,False
+19,Fourth group,received,ZnSO(4,False
+20,Fourth group,revealed,ZnSO(4,False
+21,Fourth group,revealed,deterioration,False
+22,Fourth group,revealed,radial arm water maze,False
+23,Fourth group,revealed,hippocampal,False
+24,data,revealed,ZnSO(4,False
+25,data,revealed,deterioration,False
+26,data,revealed,radial arm water maze,False
+27,data,revealed,hippocampal,False
+28,administration,revealed,ZnSO(4,False
+29,administration,revealed,deterioration,False
+30,administration,revealed,radial arm water maze,False
+31,administration,revealed,hippocampal,False
+32,administration,resulted,deterioration,False
+33,administration,resulted,radial arm water maze,False
+34,administration,resulted,hippocampal,False
+35,administration,increased,serum tumor necrosis factor-alpha,False
+36,pretreatment,counteracted,inhibition,False
+37,pretreatment,counteracted,GR,False
+38,pretreatment,counteracted,GSH,False
+39,pretreatment,counteracted,reduction,False
+40,pretreatment,counteracted,levels,False
+41,pretreatment,counteracted,MDA,False
+42,pretreatment,counteracted,caspase-3,False
+43,induction,halts,hippocampal,False
+44,induction,halts,GR,False
+45,induction,halts,levels,False
+46,induction,halts,TNFalpha,False
+47,induction,halts,preservation,False
+48,induction,halts,cognition,False
+49,activity,halts,hippocampal,False
+50,activity,halts,GR,False
+51,activity,halts,levels,False
+52,activity,halts,TNFalpha,False
+53,activity,halts,preservation,False
+54,activity,halts,cognition,False
+55,activity,prevented,GR,False
+56,activity,prevented,levels,False
+57,activity,prevented,TNFalpha,False
+58,activity,prevented,preservation,False
+59,activity,prevented,cognition,False
+60,activity,counteracted,levels,False
+61,activity,counteracted,TNFalpha,False
+62,activity,counteracted,preservation,False
+63,activity,counteracted,cognition,False

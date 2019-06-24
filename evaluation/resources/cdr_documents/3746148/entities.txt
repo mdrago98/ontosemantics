@@ -1,21 +1,58 @@
+Electrocardiographic
+changes
 dipyridamole
+infusion
+patients
 coronary artery disease
-body
+submaximal treadmill
+exercise
+body surface mapping technique
+Patients
+groups
+patients
 myocardial infarction
+non-MI group
 anterior infarction
+ANT-MI
 inferior infarction
 INF-MI
-thoracic surface
+unipolar electrocardiograms
+ECGs
+thoracic
 dipyridamole
-depression
+ischemic ST-segment depression
+non-MI group
+ANT-MI
+group
 INF-MI
+group
+total population
+Exercise-induced
+ST
 depression
+non-MI group
+ANT-MI
+group
 INF-MI
-body
+group
+individual
+patients
+body surface
+distribution
+ST
 depression
+tests
+increase
+pressure rate product
 dipyridamole
-dipyridamole
-myocardial ischemia
+treadmill
+exercise
+data
+dipyridamole-induced myocardial ischemia
+inhomogenous
+distribution
 myocardial blood flow
-dipyridamole
+dipyridamole ECG test
+exercise
+assessment
 coronary artery disease

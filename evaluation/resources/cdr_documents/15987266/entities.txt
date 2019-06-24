@@ -1,16 +1,29 @@
 GAP43
 mossy fiber sprouting
 MFS
+experimental models
 epilepsy
+investigate
 GAP43
 expression
+GAP43-ir
 MFS
-layer
+assessed
+intensity
+densitometry
+extension
+width
+GAP43-ir
+inner molecular layer
 dentate gyrus
+IML
 rats
 status epilepticus
+induced
 pilocarpine
 Pilo
+injected
 cycloheximide
 CHX
+inhibit
 MFS

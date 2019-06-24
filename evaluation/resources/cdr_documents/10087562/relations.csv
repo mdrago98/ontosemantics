@@ -1,4 +1,19 @@
 ,Subject,Action,Object,Negation
-0,authors,describe,case,False
-1,who,developed,QT,False
-2,arrhythmias,occur,doses,False
+0,authors,describe,woman,False
+1,authors,describe,heart failure,False
+2,authors,describe,dilated cardiomyopathy,False
+3,authors,describe,ventricular arrhythmias,False
+4,authors,describe,QT,False
+5,severe,describe,woman,False
+6,severe,describe,heart failure,False
+7,severe,describe,dilated cardiomyopathy,False
+8,severe,describe,ventricular arrhythmias,False
+9,severe,describe,QT,False
+10,arrhythmias,supports,torsade de pointes,False
+11,arrhythmias,supports,dobutamine,False
+12,arrhythmias,supports,hypothesis,False
+13,arrhythmias,supports,low doses,False
+14,arrhythmias,supports,rhythm disturbances,False
+15,arrhythmias,occur,low doses,False
+16,arrhythmias,occur,rhythm disturbances,False
+17,mechanisms,discussed,Dubutamine,False

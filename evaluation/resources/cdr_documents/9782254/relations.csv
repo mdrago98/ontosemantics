@@ -1,16 +1,35 @@
 ,Subject,Action,Object,Negation
-0,patients,underwent,pallidotomy,False
-1,patients,underwent,August,False
-2,patients,underwent,treatment,False
-3,pallidotomies,performed,Leksell,False
-4,they,performed,radiofrequency,False
-5,assessment,carried,pre-,False
-6,time,is,months,False
-7,percent,relieved,symptoms,False
-8,pallidotomies,performed,Gamma,False
-9,2/3,showed,improvements,False
-10,patient,developed,hemianopsia,False
-11,pallidotomy,controlling,certain,False
-12,It,be,technique,False
-13,who,take,anticoagulants,False
-14,It,is,option,False
+0,patients,underwent,Parkinson's disease,False
+1,patients,underwent,treatment,False
+2,patients,underwent,bradykinesia,False
+3,pallidotomies,performed,patients,False
+4,pallidotomies,performed,Leksell Gamma Knife,False
+5,Clinical assessment,carried,Unified,False
+6,scores,carried,Unified,False
+7,pre-,carried,Unified,False
+8,follow-up time,is,months,False
+9,follow-up time,is,patients,False
+10,pallidotomies,relieved,patients,False
+11,pallidotomies,relieved,dyskinesias,False
+12,pallidotomies,relieved,symptoms,False
+13,pallidotomies,relieved,Gamma Knife,False
+14,pallidotomies,relieved,radiofrequency methods,False
+15,pallidotomies,performed,Gamma Knife,False
+16,pallidotomies,performed,radiofrequency methods,False
+17,Gamma Knife,showed,patients,False
+18,Gamma Knife,showed,Gamma Knife,False
+19,Gamma Knife,showed,improvements,False
+20,Gamma Knife,showed,bradykinesia,False
+21,Gamma Knife,showed,group,False
+22,Gamma Knife,showed,improvements,False
+23,Gamma Knife,showed,UPDRS,False
+24,Gamma Knife,showed,group,False
+25,Gamma Knife,showed,improvements,False
+26,Gamma Knife,showed,UPDRS,False
+27,patient,developed,Gamma Knife group,False
+28,patient,developed,homonymous hemianopsia 9,False
+29,patient,developed,treatment,False
+30,patient,developed,radiofrequency group,False
+31,Gamma Knife pallidotomy,is,radiofrequency pallidotomy,False
+32,Gamma Knife pallidotomy,is,symptoms,False
+33,Gamma Knife pallidotomy,is,Parkinson's disease,False

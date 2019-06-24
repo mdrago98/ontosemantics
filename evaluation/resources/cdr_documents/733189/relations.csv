@@ -1,5 +1,14 @@
 ,Subject,Action,Object,Negation
-0,blindness,following,head and neck,False
-1,case,had,injection,False
-2,observations,included,sensorium,False
-3,changes,showed,visual loss,False
+0,cases,reported,bilateral retinal artery,False
+1,cases,reported,blindness,False
+2,cases,reported,head,False
+3,cases,reported,methylprednisolone acetate,False
+4,cases,reported,combination,False
+5,cases,reported,lidocaine,False
+6,penicillin,reported,bilateral retinal artery,False
+7,penicillin,reported,blindness,False
+8,penicillin,reported,head,False
+9,penicillin,reported,methylprednisolone acetate,False
+10,penicillin,reported,combination,False
+11,penicillin,reported,lidocaine,False
+12,changes,showed,visual loss,False

@@ -1,8 +1,22 @@
 ,Subject,Action,Object,Negation
-0,who,received,dose,False
-1,bradycardia,associated,complaints,False
-2,Reversal,found,day,False
-3,registrations,showed,sinus bradycardia,False
-4,registrations,showed,cases,False
-5,patients,receiving,dose,False
-6,MP,contraindicated,patients,False
+0,days,observed,patients,False
+1,days,observed,rheumatoid arthritis,False
+2,days,observed,pulse rate,False
+3,days,observed,day,False
+4,decline,observed,patients,False
+5,decline,observed,rheumatoid arthritis,False
+6,decline,observed,pulse rate,False
+7,decline,observed,day,False
+8,bradycardia,associated with,patients,False
+9,bradycardia,associated with,complaints,False
+10,bradycardia,associated with,substernal pressure,False
+11,Reversal,found,heart rate,False
+12,Reversal,found,day,False
+13,Electrocardiographic registrations,showed,sinus bradycardia,False
+14,Electrocardiographic registrations,showed,cases,False
+15,changes,found,plasma,False
+16,changes,found,electrolytes,False
+17,observation,recommended,patients,False
+18,observation,recommended,high-dose MP,False
+19,MP,contraindicated,patients,False
+20,MP,contraindicated,heart disease,False

@@ -1,12 +1,16 @@
+case documents
 patient
 dizziness
-nystagmus
-patient
-analgesia
+downbeating nystagmus
+dose
+IV patient-controlled analgesia
 morphine
+case reports
 epidural
 morphine
-symptoms and signs
-patient
-analgesia
+symptoms
+signs
+documented
+IV
+patient-controlled analgesia
 morphine

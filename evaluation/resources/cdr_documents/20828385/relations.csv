@@ -1,13 +1,38 @@
 ,Subject,Action,Object,Negation
-0,Mantle cell lymphoma,is,type,False
-1,MCL,treated,temsirolimus,False
-2,we,had,opportunity,False
-3,opportunity,study,case,False
-4,who,had,tumor,False
-5,who,had,temsirolimus,False
-6,temsirolimus,inhibited,tumor,False
-7,temsirolimus,inhibited,cell,False
-8,temsirolimus,had,effect,False
-9,areas,found,temsirolimus,False
-10,temsirolimus,reduced,tumor,False
-11,temsirolimus,reduced,effects,False
+0,Patients,become,chemotherapy,False
+1,prognosis,become,chemotherapy,False
+2,remission rate,reported,MCL,False
+3,remission rate,reported,temsirolimus,False
+4,treatment,had,MCL,False
+5,treatment,had,tumor regression,False
+6,treatment,had,months,False
+7,treatment,had,months,False
+8,treatment,study,MCL,False
+9,treatment,study,tumor regression,False
+10,treatment,study,months,False
+11,treatment,had,tumor regression,False
+12,treatment,had,months,False
+13,lymph node biopsies,performed,months,False
+14,lymph node biopsies,performed,temsirolimus therapy,False
+15,temsirolimus,showed,biopsies,False
+16,temsirolimus,showed,tumor cell proliferation,False
+17,temsirolimus,showed,cell cycle arrest,False
+18,temsirolimus,showed,change,False
+19,temsirolimus,showed,apoptotic tumor cells,False
+20,temsirolimus,inhibited,tumor cell proliferation,False
+21,temsirolimus,inhibited,cell cycle arrest,False
+22,temsirolimus,inhibited,change,False
+23,temsirolimus,inhibited,apoptotic tumor cells,False
+24,temsirolimus,had,cytostatic effect,False
+25,temsirolimus,had,antiangiogenic effect,False
+26,temsirolimus,had,decrease,False
+27,temsirolimus,had,tumor microvessel density,False
+28,well-limited fibrotic areas,found,post-necrotic tissue repair,False
+29,well-limited fibrotic areas,found,temsirolimus therapy,False
+30,temsirolimus,reduced,anti-angiogenic effects,False
+31,cytostatic,reduced,anti-angiogenic effects,False
+32,dual effect,contribute,temsirolimus,False
+33,dual effect,contribute,tumor tissue,False
+34,dual effect,contribute,efficiency,False
+35,dual effect,contribute,MCL,False
+36,dual effect,contribute,chemotherapy,False

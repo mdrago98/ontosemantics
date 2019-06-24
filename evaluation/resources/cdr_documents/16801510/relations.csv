@@ -1,3 +1,7 @@
 ,Subject,Action,Object,Negation
-0,long QT syndrome,is,drug,False
-1,Methadone,prolongs,QT,False
+0,Methadone,prolongs,QT interval,False
+1,frequency,remain,inpatient setting,False
+2,frequency,remain,QT interval,False
+3,frequency,remain,methadone,False
+4,frequency,remain,cofactors,False
+5,frequency,remain,drug-drug interactions,False

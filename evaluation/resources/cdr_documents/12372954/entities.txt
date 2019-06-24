@@ -1,20 +1,39 @@
+report
+case
 acute interstitial nephritis
 AIN
+nicergoline
+Sermion
 patient
+admitted
+hospital
 fever
 acute renal failure
-lysine
+admission
+nicergoline
+bendazac lysine
 retinal vein occlusion
-intermittent fever
+ophthalmologic department
+intermittent
+fever
 skin rash
+admission
+clinical symptoms
 arthralgia
 fever
+laboratory findings
 eosinophilia
 renal failure
 AIN
-renal
-lymphocyte transformation
+pathologic findings
+renal biopsy
+lymphocyte transformation test
+positive
+nicergoline
+Treatment
 withdrawal
+nicergoline
+intravenous
 methylprednisolone
 renal function
-AIN
+nicergoline-associated AIN

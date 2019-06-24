@@ -1,9 +1,14 @@
 ,Subject,Action,Object,Negation
-0,report,describes,case,False
-1,report,describes,remission,False
-2,encephalopathy,developed,course,False
-3,determinant,been,serotonin,False
-4,that,develops,association,False
-5,that,develops,use,False
-6,NMS,are,spectrum,False
-7,disorders,induced,effects,False
+0,report,describes,encephalopathy,False
+1,report,describes,amitriptyline therapy,False
+2,report,describes,remission,False
+3,report,describes,unipolar depression,False
+4,patient,diagnosed,neuroleptic malignant syndrome,False
+5,NMS-like encephalopathy,indicates,association,False
+6,NMS-like encephalopathy,indicates,antidepressants,False
+7,NMS-like encephalopathy,indicates,drugs,False
+8,NMS-like encephalopathy,indicates,serotonergic effects,False
+9,NMS,indicates,association,False
+10,NMS,indicates,antidepressants,False
+11,NMS,indicates,drugs,False
+12,NMS,indicates,serotonergic effects,False

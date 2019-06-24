@@ -1,0 +1,24 @@
+,Subject,Action,Object,Negation
+0,investigation,determine,dosage,False
+1,dosage,maintain,sleep,False
+2,dosage,maintain,sleep,False
+3,adults,undergoing,surgery,False
+4,adults,undergoing,local anesthesia,False
+5,patient,open,eyes,False
+6,patient,open,request,False
+7,etomidate,maintain,sleep,False
+8,etomidate,maintain,sleep,False
+9,variation,occurred,patients,False
+10,patients,requiring,drug,False
+11,investigation,discontinued,patients,False
+12,investigation,discontinued,frequency,False
+13,investigation,discontinued,intensity,False
+14,investigation,discontinued,pain,False
+15,investigation,discontinued,myoclonia,False
+16,technique,abandoned,cases,False
+17,The investigation,considered,unlikely,False
+18,etomidate,be,incidence,False
+19,etomidate,be,hypnotic,False
+20,etomidate,be,technique,False
+21,movements,persisted,minutes,False
+22,movements,persisted,recovery,False

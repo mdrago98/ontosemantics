@@ -1,8 +1,94 @@
 Aconitine
-diterpenoid
-alkaloid
-voltage
+bioactive
+diterpenoid alkaloid
+content
+herbal aconitum plants
+evidence
+voltage-dependent Na(+) channels
+cardiotoxicity
 aconitine
+Ca(2+)
+aconitine poisoning
+study
+pathological
+Ca(2+)
+aconitine poisoning
+in vitro
+in vivo
+Ca(2+)
+overload
+accelerated
+beating rhythm
+adult
+rat
+ventricular
+myocytes
+arrhythmia
+conscious freely moving
+rats
+investigate
+effects
 aconitine
-signaling
+myocardial injury
+cytotoxicity assay
+neonatal
+rat
+ventricular myocytes
+NRVMs
+lactate dehydrogenase
+level
+culture medium
+NRVMs
+activities
+serum
+rats
+results
 aconitine
+myocardial injury
+reduced
+NRVMs
+viability
+dose-dependently
+pro-apoptotic effects
+flow cytometric detection
+cardiac histology
+transmission electron microscopy
+terminal deoxynucleotidyl transferase-mediated dUTP-biotin nick
+results
+aconitine
+stimulated
+apoptosis
+time-dependently
+expression analysis
+Ca(2+)
+proteins
+aconitine
+Ca(2+)
+overload
+expression regulation
+Ca(2+)
+proteins
+expression analysis
+apoptosis-related proteins
+pro-apoptotic protein
+upregulated
+anti-apoptotic protein
+BCL-2
+expression
+downregulated
+phosphorylation
+MAPK
+family members
+P-P38/P38
+ratio
+cardiac tissues
+aconitine
+aggravates
+Ca(2+)
+overload
+causes
+arrhythmia
+promotes
+apoptotic development
+phosphorylation
+P38 mitogen-activated protein kinase

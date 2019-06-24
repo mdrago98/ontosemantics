@@ -1,31 +1,80 @@
+relationship
+mesangial dysfunction
 development
 glomerular sclerosis
 puromycin aminonucleoside
 PAN
+male
 Wistar rats
+subcutaneous
 PAN
+injections
+controls
+saline
+weeks
 PAN
 rats
+severely
+proteinuric
 rats
-carbon
+colloidal carbon
+CC
+intravenously
+months
 glomerular sclerosis
+glomeruli
 PAN
 rats
+glomeruli
+controls
+normal
+Glomeruli
 PAN
 rats
+CC
+glomeruli
+controls
+Glomeruli
 sclerosis
-sclerotic
+CC
+non-sclerotic glomeruli
 kidneys
-sclerotic
+CC
+localized
+sclerotic areas
+affected
+glomeruli
+mesangial CC
+clearance
 mesangium
+chronic
 PAN
+treatment
+CC
 localization
+lesions
+increased
+CC
+uptake
+injection
+apparent
+vulnerable areas
 sclerosis
-PAN glomeruli
+Cluster analysis
+random
+distribution
+lesions
+PAN
+glomeruli
+concordance
+random
 localization
+mesangial areas
+dysfunction
+model
 remnant
-kidney
 PAN
 nephrosis
 development
 glomerular sclerosis
+mesangial

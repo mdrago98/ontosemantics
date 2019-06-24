@@ -1,44 +1,75 @@
 Phenylpropanolamine
 PPA
+overdose
+severe
 hypertension
 intracerebral hemorrhage
 death
+efficacy
+safety
 propranolol
-PPA
-hypertension
+treatment
+PPA-induced hypertension
+Subjects
 propranolol
 mouth
 PPA
+intravenous
 PPA
 PPA
-increased blood pressure
-propranolol
-propranolol
-PPA
-decreased blood pressure
-Left ventricular function
-PPA
-stroke
-cardiac
-propranolol
-Systemic vascular resistance
-PPA
-sec
-cm5
-propranolol
-sec
-cm5
-PPA
+increased
 blood pressure
+systolic
+diastolic
+propranolol
+pretreatment
+antagonized
+increase
+Intravenous
+propranolol
+PPA
+decreased
+blood pressure
+Left ventricular function
+assessed
+echocardiography
+PPA
+increased
+stroke
+volume
+ejection fraction 9%
+cardiac output
+Intravenous
+propranolol
+reversed
+effects
+Systemic
+vascular resistance
+PPA
+increased
+propranolol
+PPA
+increases
+blood pressure
+increasing
 systemic vascular resistance
-cardiac
+cardiac output
 propranolol
+antagonizes
+increase
+effect
 PPA
-cardiac
+cardiac output
 propranolol
+antagonizes
+pressor effect
 PPA
+interaction
 propranolol
+pressor
+effect
 norepinephrine
 PPA
 beta 2
+activity
 norepinephrine

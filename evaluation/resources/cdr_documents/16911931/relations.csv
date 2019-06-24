@@ -1,3 +1,11 @@
 ,Subject,Action,Object,Negation
-0,transplantation,improved,survival,False
-1,study,evaluate,outcomes,False
+0,hepatitis B immune globulin,improved,prophylaxis,False
+1,hepatitis B immune globulin,improved,recurrence,False
+2,hepatitis B immune globulin,improved,hepatitis B,False
+3,hepatitis B immune globulin,improved,liver transplantation,False
+4,hepatitis B immune globulin,improved,survival,False
+5,hepatitis B immune globulin,improved,HBsAg,False
+6,study,undertaken,outcomes,False
+7,study,undertaken,liver transplantation,False
+8,study,undertaken,patients,False
+9,study,undertaken,hepatitis B virus,False

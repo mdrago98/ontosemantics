@@ -1,17 +1,58 @@
 ,Subject,Action,Object,Negation
-0,antagonist,tested,effects,False
-1,rats,using,seizure,False
-2,pretreatment,produced,action,False
-3,rats,treated,pilocarpine,False
-4,biochemical mechanisms,control,seizures,False
-5,biochemical mechanisms,control,models,False
-6,effect,occurred,periods,False
-7,observation,be,an,False
-8,binding,requires,opening,False
-9,it,block,seizures,False
-10,it,terminate,status epilepticus,False
-11,Administration,reduced,seizure,False
-12,activation,plays,role,False
-13,activation,plays,model,False
-14,results,resulting,status epilepticus,False
-15,results,resulting,mortality,False
+0,MK-801,tested,anticonvulsant effects,False
+1,MK-801,tested,rats,False
+2,MK-801,tested,seizure models,False
+3,MK-801,tested,lithium,False
+4,MK-801,tested,high dose,False
+5,MK-801,tested,pilocarpine,False
+6,pretreatment,produced,MK-801,False
+7,pretreatment,produced,anticonvulsant action,False
+8,pretreatment,produced,lithium-pilocarpine model,False
+9,pretreatment,produced,pilocarpine,False
+10,pretreatment,produced,models,False
+11,biochemical,produced,MK-801,False
+12,biochemical,produced,anticonvulsant action,False
+13,biochemical,produced,lithium-pilocarpine model,False
+14,biochemical,produced,pilocarpine,False
+15,biochemical,produced,models,False
+16,mechanisms,produced,MK-801,False
+17,mechanisms,produced,anticonvulsant action,False
+18,mechanisms,produced,lithium-pilocarpine model,False
+19,mechanisms,produced,pilocarpine,False
+20,mechanisms,produced,models,False
+21,biochemical,suggesting,models,False
+22,mechanisms,suggesting,models,False
+23,biochemical,control,models,False
+24,mechanisms,control,models,False
+25,anticonvulsant effect,occurred,MK-801,False
+26,anticonvulsant effect,occurred,lithium-pilocarpine model,False
+27,anticonvulsant effect,occurred,periods,False
+28,anticonvulsant effect,occurred,seizure,False
+29,observation,suggested,agonist-induced opening,False
+30,observation,suggested,channel sites,False
+31,observation,suggested,NMDA receptor,False
+32,binding,suggested,agonist-induced opening,False
+33,binding,suggested,channel sites,False
+34,binding,suggested,NMDA receptor,False
+35,binding,requires,agonist-induced opening,False
+36,binding,requires,channel sites,False
+37,binding,requires,NMDA receptor,False
+38,Administration,reduced,MK-801 30,False
+39,Administration,reduced,pilocarpine,False
+40,Administration,reduced,status epilepticus,False
+41,Administration,reduced,behavioral seizure,False
+42,Administration,reduced,survival rate,False
+43,results,suggest,NMDA receptors,False
+44,results,suggest,status epilepticus,False
+45,results,suggest,lithium-pilocarpine model,False
+46,activation,suggest,NMDA receptors,False
+47,activation,suggest,status epilepticus,False
+48,activation,suggest,lithium-pilocarpine model,False
+49,activation,plays,NMDA receptors,False
+50,activation,plays,status epilepticus,False
+51,activation,plays,lithium-pilocarpine model,False
+52,doses,supported,results,False
+53,doses,supported,NMDA,False
+54,doses,supported,status epilepticus,False
+55,doses,showing,NMDA,False
+56,doses,showing,status epilepticus,False

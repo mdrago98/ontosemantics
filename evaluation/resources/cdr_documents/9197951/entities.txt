@@ -1,12 +1,35 @@
-cocaine
+cocaine-dependent
 man
-diethylpropion
+subject
+study
+anticraving
+efficacy
+stimulant
+medication diethylpropion
 DEP
 manic
+week
+study drug
+Pupillometric changes
 DEP
+changes
+pupillary
+oscillation
+study subjects
 manic
+changes
+pupillary
+oscillation
+days
 patient
 manic
-manic
+medication-associated changes
+pupillary
+oscillation
+persons
+risk
+manic-like
 adverse effects
-sympathomimetic
+medical use
+psychomotor stimulants
+sympathomimetic agents

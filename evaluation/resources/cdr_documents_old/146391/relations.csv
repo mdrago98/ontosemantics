@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,patient,taking,diphenylhydantoin,False
+1,patient,taking,weeks,False
+2,patient,developed,skin rash,False
+3,Skin rash,is,complication,False
+4,Pure red cell aplasia,associated,medication,False
+5,Pure red cell aplasia,reported,patients,False
+6,mechanism,exerts,effects,False

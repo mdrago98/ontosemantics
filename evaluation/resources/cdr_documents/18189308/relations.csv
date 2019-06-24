@@ -1,16 +1,59 @@
 ,Subject,Action,Object,Negation
 0,studies,examined,expression,False
-1,studies,examined,regulation,False
-2,studies,examine,expression,False
-3,studies,examine,durations,False
-4,studies,examine,regulation,False
-5,receptor,bind,NGF,False
-6,receptor,bind,NGF,False
-7,number,increased,cystitis,False
-8,reaction,demonstrated,increases,False
-9,reaction,demonstrated,p75(NTR,False
-10,techniques,identify,bladder,False
-11,techniques,identify,DRG,False
-12,p75(NTR)-IR,increased,cystitis,False
-13,increases,encircling,DRG,False
-14,analyses,demonstrated,pericellular,False
+1,studies,examined,tyrosine kinase receptors,False
+2,studies,examined,micturition reflexes,False
+3,studies,examined,urinary bladder inflammation,False
+4,studies,examine,expression,False
+5,studies,examine,receptor,False
+6,studies,examine,NGF,False
+7,studies,examine,bladder inflammation,False
+8,studies,examine,cyclophosphamide,False
+9,CYP-induced cystitis,increased,expression,False
+10,CYP-induced cystitis,increased,medial dorsal horn,False
+11,CYP-induced cystitis,increased,L1-L2,False
+12,real-time polymerase chain reaction,demonstrated,increases,False
+13,real-time polymerase chain reaction,demonstrated,p75(NTR,False
+14,real-time polymerase chain reaction,demonstrated,DRG,False
+15,real-time polymerase chain reaction,demonstrated,intermediate,False
+16,mRNA,demonstrated,increases,False
+17,mRNA,demonstrated,p75(NTR,False
+18,mRNA,demonstrated,DRG,False
+19,mRNA,demonstrated,intermediate,False
+20,CYP-induced cystitis,demonstrated,increases,False
+21,CYP-induced cystitis,demonstrated,p75(NTR,False
+22,CYP-induced cystitis,demonstrated,DRG,False
+23,CYP-induced cystitis,demonstrated,intermediate,False
+24,Retrograde dye-tracing techniques,used,Fastblue,False
+25,Retrograde dye-tracing techniques,used,DRG,False
+26,p75(NTR)-IR,increased,bladder,False
+27,p75(NTR)-IR,increased,DRG,False
+28,p75(NTR)-IR,increased,cystitis,False
+29,increases,increased,p75(NTR)-IR,False
+30,increases,increased,DRG,False
+31,increases,increased,pericellular,False
+32,increases,increased,DRG,False
+33,increases,increased,p75(NTR)-IR,False
+34,increases,increased,DRG,False
+35,increases,increased,pericellular,False
+36,increases,increased,DRG,False
+37,DRG cells,increased,p75(NTR)-IR,False
+38,DRG cells,increased,DRG,False
+39,DRG cells,increased,pericellular,False
+40,DRG cells,increased,DRG,False
+41,p75(NTR)-IR,increased,p75(NTR)-IR,False
+42,p75(NTR)-IR,increased,DRG,False
+43,p75(NTR)-IR,increased,pericellular,False
+44,p75(NTR)-IR,increased,DRG,False
+45,Confocal analyses,demonstrated,glial marker,False
+46,pericellular p75(NTR)-IR,demonstrated,glial marker,False
+47,pericellular p75(NTR)-IR,colocalized,glial marker,True
+48,studies,demonstrate,micturition reflexes,False
+49,studies,demonstrate,bladder inflammation,False
+50,p75(NTR,demonstrate,micturition reflexes,False
+51,p75(NTR,demonstrate,bladder inflammation,False
+52,expression,demonstrate,micturition reflexes,False
+53,expression,demonstrate,bladder inflammation,False
+54,functional significance,remains,p75(NTR,False
+55,functional significance,remains,micturition reflexes,False
+56,expression,remains,p75(NTR,False
+57,expression,remains,micturition reflexes,False

@@ -1,6 +1,15 @@
 ,Subject,Action,Object,Negation
-0,hepatotoxicity,is,cause,False
-1,We,describe,case,False
-2,Reports,increasing,years,False
-3,Reports,increasing,use,False
-4,physicians,consider,risk,False
+0,diagnosis,suggested,medical history,False
+1,Reports,increasing,cases,False
+2,Reports,increasing,hepatotoxicity,False
+3,Reports,increasing,clopidogrel,False
+4,Reports,increasing,years,False
+5,Reports,increasing,drug,False
+6,physicians,believe,risk,False
+7,physicians,believe,drug-induced hepatic injury,False
+8,clopidogrel,believe,risk,False
+9,clopidogrel,believe,drug-induced hepatic injury,False
+10,physicians,consider,risk,False
+11,physicians,consider,drug-induced hepatic injury,False
+12,clopidogrel,consider,risk,False
+13,clopidogrel,consider,drug-induced hepatic injury,False

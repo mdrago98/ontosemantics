@@ -1,5 +1,14 @@
 ,Subject,Action,Object,Negation
 0,exposure,linked,subependymal hemorrhage,False
-1,exposure,linked,formation,False
-2,neonates,born,term,False
-3,exposure,increases,incidence,False
+1,exposure,linked,cysts,False
+2,exposure,linked,cranial sonography,False
+3,exposure,linked,neonates,False
+4,cocaine exposure,sought,incidence,False
+5,cocaine exposure,sought,subependymal cysts,False
+6,cocaine exposure,sought,preterm infants,False
+7,cocaine exposure,determine,incidence,False
+8,cocaine exposure,determine,subependymal cysts,False
+9,cocaine exposure,determine,preterm infants,False
+10,cocaine exposure,increases,incidence,False
+11,cocaine exposure,increases,subependymal cysts,False
+12,cocaine exposure,increases,preterm infants,False

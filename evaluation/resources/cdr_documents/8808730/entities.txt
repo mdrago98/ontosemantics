@@ -1,27 +1,108 @@
+Immunocytochemical techniques
+alterations
 expression
 neuronal nitric oxide synthase
-bladder
-pathways
+NOS
+bladder pathways
+acute
+chronic irritation
 urinary tract
 rat
 Chemical cystitis
+induced
 cyclophosphamide
 CYP
 metabolized
 acrolein
+irritant
+eliminated
 urine
+Injection
 CYP
-Fos
-immunoreactivity
+perfusion
+acute
+treatment
+animals
+increased
+Fos-immunoreactivity
+IR
 neurons
-commissure
+dorsal commissure
 dorsal horn
-autonomic
+autonomic regions
+spinal segments
+L1-L2
+L6-S1
+afferent
+inputs
 bladder
 urethra
 ureter
-Fos
-IR
+Fos-IR
 spinal cord
 rats
+chronic
 CYP
+treatment
+day
+weeks
+control animals
+animals
+treated
+CYP
+NOS-IR cells
+cell profiles/sections
+detected
+L6-S1 dorsal root ganglia
+DRG
+Chronic
+CYP
+administration
+increased
+bladder weight
+increased
+NOS-immunoreactive
+afferent
+neurons
+L6-S1
+DRG
+increase
+L1
+DRG
+detected
+L2
+L5
+DRG
+Bladder afferent cells
+L6-S1
+DRG
+Fluorogold
+injected
+bladder wall
+NOS-IR
+control animals
+chronic
+CYP
+administration
+bladder
+afferent
+neurons
+NOS-IR
+L6
+S1
+results
+neuronal gene
+visceral sensory pathways
+upregulated
+chemical irritation
+afferent receptors
+urinary tract
+pathological
+changes
+urinary tract
+initiate
+chemical signals
+chemical
+visceral
+afferent
+neurons

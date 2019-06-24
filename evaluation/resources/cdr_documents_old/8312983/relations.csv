@@ -1,0 +1,9 @@
+,Subject,Action,Object,Negation
+0,reports,exist,relationship,False
+1,concentration,associated,somnolence,False
+2,concentration,associated,movement,False
+3,cognitive disorders,linked,blood,True
+4,we,describe,patient,False
+5,we,describe,concentration,False
+6,we,describe,delirium,False
+7,delirium,connected,fluoxetine,False

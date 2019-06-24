@@ -1,12 +1,4 @@
 ,Subject,Action,Object,Negation
-0,We,report,lady,False
-1,lady,due,disease,False
-2,a 45-year-old lady with chronic kidney disease stage 4 due to chronic tubulointerstial disease,admitted,severe anemia,False
-3,a 45-year-old lady with chronic kidney disease stage 4 due to chronic tubulointerstial disease,infused,units,False
-4,a 45-year-old lady with chronic kidney disease stage 4 due to chronic tubulointerstial disease,infused,session,False
-5,a 45-year-old lady with chronic kidney disease stage 4 due to chronic tubulointerstial disease,had,episode,False
-6,Investigations,revealed,central nervous system abnormalities,True
-7,that,provoked,convulsions,False
-8,a 45-year-old lady with chronic kidney disease stage 4 due to chronic tubulointerstial disease,require,support,True
-9,a 45-year-old lady with chronic kidney disease stage 4 due to chronic tubulointerstial disease,had,episodes,True
-10,cause,be,overdose,False
+0,Investigations,revealed,patient,False
+1,Investigations,revealed,structural central nervous system abnormalities,False
+2,Investigations,revealed,convulsions,False

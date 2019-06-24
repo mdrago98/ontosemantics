@@ -1,0 +1,6 @@
+,Subject,Action,Object,Negation
+0,Neuroinflammation,occurs,seizures,False
+1,CCR2,is,chemokine,False
+2,interaction,mediates,infiltration,False
+3,interaction,mediates,cascade,False
+4,cascade,triggered,brain pathologies,False

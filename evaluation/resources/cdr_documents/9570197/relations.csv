@@ -1,3 +1,5 @@
 ,Subject,Action,Object,Negation
-0,amount,causes,deterioration,False
-1,amount,causes,increase,False
+0,study,done,influence,False
+1,study,done,cocaine,False
+2,study,done,LV systolic,False
+3,study,done,humans,False

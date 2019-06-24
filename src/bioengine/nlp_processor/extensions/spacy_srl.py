@@ -10,7 +10,7 @@ from allennlp.predictors.predictor import Predictor
 
 if __name__ == '__main__':
 
-    predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/srl-model-2018.05.25.tar.gz")
+    predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/openie-model.2018-08-20.tar.gz")
     predictor.predict(
         sentence="Did Uriah honestly think he could beat the game in under three hours?"
     )

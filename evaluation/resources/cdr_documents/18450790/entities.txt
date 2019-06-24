@@ -1,9 +1,27 @@
-axonal neuropathy
+studies
+incidence
+sensory axonal neuropathy
+patients
+treated with
+doses
 thalidomide
-nerve sensory
-action potential
-cutaneous lupus erythematosus
+study's
+measure
+variations
+sural nerve sensory action potential
+SAP
+amplitude
+patients
+refractory cutaneous lupus erythematosus
 CLE
+treated with
 thalidomide
+findings
+neurotoxic
+potential
 thalidomide
-fibres
+recovery
+capacity
+sensory fibres
+discontinuation
+treatment

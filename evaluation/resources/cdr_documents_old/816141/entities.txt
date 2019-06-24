@@ -1,0 +1,21 @@
+patient
+renal disease
+hemolytic anemia
+cephalothin
+cephalothin
+IgG antibody
+patient
+serum
+erythrocytes
+binding
+patient
+serum
+proteins
+cephalothin
+cells
+Skin
+lymphocyte stimulation
+patient
+cephalothin
+ampicillin
+hemolytic anemias

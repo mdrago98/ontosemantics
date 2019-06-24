@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,treatment,has,effect,False
+1,treatment,has,suppression,False
+2,activities,following,myocardial infarction,False
+3,activities,following,relation,False
+4,Isoproterenol,injected,13th,False
+5,Isoproterenol,injected,days,False
+6,Isoproterenol,decreased,dtmin,False
+7,contractility,indexed,LVdp,False
+8,left ventricular dysfunction,was,groups,False
+9,groups,treated,kg,False
+10,Metfromin,lowered,elevation,False
+11,changes,seen,serum,False
+12,metformin,reduces,dysfunction,False
+13,mechanism,considered,target,False

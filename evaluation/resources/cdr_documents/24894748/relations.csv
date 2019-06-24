@@ -1,9 +1,19 @@
 ,Subject,Action,Object,Negation
-0,man,prescribed,course,False
-1,man,prescribed,onychomycosis,False
-2,A 63 year-old Caucasian man on metoprolol 200 mg/day for stable coronary artery disease,brought,decrease,False
-3,electrocardiogram,revealed,min,False
-4,score,indicates,relationship,False
-5,rate,ameliorated,decrease,False
-6,terbinafine,decreased,clearance,False
-7,which,resulted,sinus bradycardia,False
+0,man,prescribed,metoprolol,False
+1,man,prescribed,stable coronary artery disease,False
+2,man,prescribed,course,False
+3,man,prescribed,oral terbinafine,False
+4,man,prescribed,onychomycosis,False
+5,electrocardiogram,revealed,beats/min,False
+6,score,indicates,Naranjo adverse drug reaction probability scale,False
+7,score,indicates,relationship,False
+8,score,indicates,sinus bradycardia,False
+9,score,indicates,metoprolol,False
+10,heart rate,ameliorated,decrease,False
+11,heart rate,ameliorated,dose,False
+12,heart rate,ameliorated,metoprolol,False
+13,heart rate,changed,bisoprolol,False
+14,terbinafine,decreased,cytochrome P450 2D6,False
+15,terbinafine,decreased,clearance,False
+16,terbinafine,decreased,metoprolol,False
+17,terbinafine,decreased,sinus bradycardia,False

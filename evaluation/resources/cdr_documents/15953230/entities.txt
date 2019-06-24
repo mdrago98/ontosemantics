@@ -1,4 +1,12 @@
+cases
+deliberate
+self-poisoning
 amisulpride
+cases
+QT
+prolongation
 hypocalcaemia
-calcium
-gluconate
+QT
+prolongation
+administration
+calcium gluconate

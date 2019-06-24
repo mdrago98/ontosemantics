@@ -1,7 +1,43 @@
 ,Subject,Action,Object,Negation
-0,effects,assessed,rats,False
-1,administration,caused,decrease,False
-2,destruction,reduced,magnitude,False
-3,clonidine,microinjected,area,False
-4,pathway,involved,development,False
-5,bradycardia,was,increase,False
+0,effects of,assessed,microinjection,False
+1,effects of,assessed,clonidine,False
+2,effects of,assessed,region,False
+3,effects of,assessed,surface,False
+4,effects of,assessed,medulla oblongata,False
+5,effects of,assessed,cardiovascular function,False
+6,effects of,assessed,urethane-anesthetized rats,False
+7,administration,caused,clonidine,True
+8,administration,caused,decrease,False
+9,administration,caused,arterial pressure,False
+10,clonidine-induced hypotension,antagonized,spinal transection,True
+11,clonidine-induced bradycardia,antagonized,vagotomy,True
+12,destruction,reduced,spinal 5-HT nerves,False
+13,destruction,reduced,"5,7-dihydroxytryptamine",False
+14,destruction,reduced,magnitude,False
+15,destruction,reduced,vasodepressor,False
+16,destruction,reduced,clonidine,False
+17,destruction,reduced,area near,False
+18,destruction,reduced,surface,False
+19,destruction,reduced,medulla oblongata,False
+20,destruction,reduced,rats,False
+21,responses,reduced,spinal 5-HT nerves,False
+22,responses,reduced,"5,7-dihydroxytryptamine",False
+23,responses,reduced,magnitude,False
+24,responses,reduced,vasodepressor,False
+25,responses,reduced,clonidine,False
+26,responses,reduced,area near,False
+27,responses,reduced,surface,False
+28,responses,reduced,medulla oblongata,False
+29,responses,reduced,rats,False
+30,data,indicate,development,False
+31,data,indicate,clonidine-induced hypotension,False
+32,bulbospinal serotonergic pathway,indicate,development,False
+33,bulbospinal serotonergic pathway,indicate,clonidine-induced hypotension,False
+34,bulbospinal serotonergic pathway,involved,development,False
+35,bulbospinal serotonergic pathway,involved,clonidine-induced hypotension,False
+36,hypotension,brought,decrease,False
+37,hypotension,brought,sympathetic efferent activity,False
+38,hypotension,brought,vagal efferent activity,False
+39,bradycardia,brought,decrease,False
+40,bradycardia,brought,sympathetic efferent activity,False
+41,bradycardia,brought,vagal efferent activity,False

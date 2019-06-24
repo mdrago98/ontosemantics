@@ -1,0 +1,11 @@
+,Subject,Action,Object,Negation
+0,OIH,limit,use,False
+1,we,investigated,effects,False
+2,OIH,achieved,mice,False
+3,OIH,achieved,administration,False
+4,Rb1 ginsenosides,prevent,OIH,False
+5,Rb1 ginsenosides,prevent,test,False
+6,Rg1,showed,tendency,False
+7,tendency,aggravate,OIH,False
+8,tendency,aggravate,test,False
+9,ginsenoside Re,contribute,reversal,False

@@ -1,7 +1,6 @@
 ,Subject,Action,Object,Negation
-0,history,presented,hysterectomy,False
-1,history,presented,anaesthetic,False
-2,A 41-year-old woman with a strong history of postoperative nausea and vomiting presented for abdominal hysterectomy 3 months after a previous anaesthetic where ondansetron prophylaxis had been used,developed,disorder,False
-3,A 41-year-old woman with a strong history of postoperative nausea and vomiting presented for abdominal hysterectomy 3 months after a previous anaesthetic where ondansetron prophylaxis had been used,experienced,depressive episode,False
-4,Anaesthesia,provided,postoperative,False
-5,Anaesthesia,provided,exacerbation,False
+0,Anaesthesia,provided,infusion,False
+1,Anaesthesia,provided,serotonin antagonists,False
+2,Anaesthesia,provided,nausea-free postoperative course,False
+3,Anaesthesia,provided,exacerbation,False
+4,Anaesthesia,provided,depression disorder,False

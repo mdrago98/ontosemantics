@@ -1,33 +1,60 @@
 man
 chronic hepatitis C virus infection
+triple therapy
 ribavirin
-interferon
+pegylated interferon
 telaprevir
 patient
 simvastatin
-antiviral
+month
+antiviral therapy
 patient
+admitted
+hospital
 rhabdomyolysis
+admission
 simvastatin
 antiviral drugs
+discontinued
+toxicity
 drug-drug interaction
+suspected
 creatine kinase
 patient
-patient
+treated with
+intravenous
+patient's
 renal function
+unaffected
+days
+hospitalization
 creatine kinase
+level
 patient
+discharged
 Telaprevir
+causative agent
+interaction
 simvastatin
-Drug Interaction
+Drug Interaction Probability Scale
+interaction
 inhibition
+CYP3A4-mediated
 simvastatin
+clearance
 Simvastatin
 plasma
+concentration
+increased
 patient
 statin
-muscle
+induced
+muscle toxicity
+concentration
 statin
 blood
 telaprevir
-drug interactions
+statins
+susceptible
+clinical relevant
+drug-drug interactions

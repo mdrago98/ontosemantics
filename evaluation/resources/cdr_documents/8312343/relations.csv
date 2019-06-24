@@ -1,24 +1,18 @@
 ,Subject,Action,Object,Negation
-0,years,underwent,heart,False
-1,Patients,managed,cyclosporine,False
-2,Patients,managed,azathioprine,False
-3,Steroids,given,to,False
-4,Steroids,given,rejection,False
-5,patients,received,maintenance,False
-6,patients,died,period,False
-7,There,been,deaths,True
-8,up,was,36,False
-9,survival,is,%,False
-10,survival,is,years,False
-11,%,treated,rejection,False
-12,Freedom,was,%,False
-13,Freedom,was,month,False
-14,Cytomegalovirus infections,treated,ganciclovir,False
-15,impairment,observed,children,False
-16,who,underwent,transplantation,False
-17,children,compared,control,False
-18,patients,undergone,catheterizations,False
-19,patients,undergone,sign,True
-20,Seizures,occurred,patients,False
-21,hypertension,treated,patients,False
-22,lymphoproliferative disorder,was,observed.(ABSTRACT,False
+0,Patients,managed,cyclosporine,False
+1,prophylaxis,used,antilymphocyte globulin,False
+2,Steroids,given,patients,False
+3,Steroids,given,refractory rejection,False
+4,weaning,given,patients,False
+5,weaning,given,refractory rejection,False
+6,patients,received,maintenance,False
+7,patients,died,period,False
+8,rejection,monitored,patients,False
+9,rejection,monitored,years,False
+10,rejection,monitored,age,False
+11,Cytomegalovirus infections,treated,ganciclovir,False
+12,Cytomegalovirus infections,treated,patients,False
+13,patients,undergone,catheterizations,False
+14,patients,undergone,graft,False
+15,Seizures,occurred,patients,False
+16,Seizures,occurred,patients,False

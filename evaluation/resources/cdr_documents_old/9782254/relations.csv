@@ -1,0 +1,16 @@
+,Subject,Action,Object,Negation
+0,patients,underwent,pallidotomy,False
+1,patients,underwent,August,False
+2,patients,underwent,treatment,False
+3,pallidotomies,performed,Leksell,False
+4,they,performed,radiofrequency,False
+5,assessment,carried,pre-,False
+6,time,is,months,False
+7,percent,relieved,symptoms,False
+8,pallidotomies,performed,Gamma,False
+9,2/3,showed,improvements,False
+10,patient,developed,hemianopsia,False
+11,pallidotomy,controlling,certain,False
+12,It,be,technique,False
+13,who,take,anticoagulants,False
+14,It,is,option,False

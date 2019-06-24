@@ -1,24 +1,66 @@
 ,Subject,Action,Object,Negation
 0,Lithium,induces,nephrogenic diabetes insipidus,False
-1,Lithium,induces,∼40,False
-2,capacity,concentrate,urine,False
-3,method,treating,polyuria,False
-4,mice,treated,lithium,False
-5,mice,treated,0,False
-6,mice,treated,days,False
-7,controls,treated,lithium,False
-8,controls,treated,0,False
-9,controls,treated,days,False
-10,mice,increased,urine,False
-11,mice,had,change,True
-12,expression,lowered,days,False
-13,results,observed,UT,False
-14,Animals,treated,lithium,False
-15,Animals,treated,weeks,False
-16,mice,had,urine,False
-17,expression,lowered,WT,False
-18,sodium,elevated,WT,False
-19,ablation,preserves,AQP2,False
-20,ablation,preserves,UT-A1 protein expression,False
-21,ablation,preserves,localization,False
-22,polyuria,associated,lithium,False
+1,Lithium,induces,patients,False
+2,null mice,treated with,lithium,False
+3,null mice,treated with,days,False
+4,WT mice,increased,urine output,False
+5,WT mice,increased,days,False
+6,WT mice,increased,treatment,False
+7,WT mice,increased,urine output,False
+8,Western blot analysis,revealed,medullary tissues,False
+9,Western blot analysis,revealed,days,False
+10,Western blot analysis,revealed,WT mice,False
+11,Western blot analysis,revealed,PKCα,False
+12,expression,revealed,medullary tissues,False
+13,expression,revealed,days,False
+14,expression,revealed,WT mice,False
+15,expression,revealed,PKCα,False
+16,AQP2,revealed,medullary tissues,False
+17,AQP2,revealed,days,False
+18,AQP2,revealed,WT mice,False
+19,AQP2,revealed,PKCα,False
+20,expression,lowered,medullary tissues,False
+21,expression,lowered,days,False
+22,expression,lowered,WT mice,False
+23,results,observed,UT-A1,False
+24,Animals,treated with,lithium,False
+25,Animals,treated with,weeks,False
+26,Lithium-treated WT mice,had,urine output,False
+27,Lithium-treated WT mice,had,increase,False
+28,Lithium-treated WT mice,had,output,False
+29,animals,had,urine output,False
+30,animals,had,increase,False
+31,animals,had,output,False
+32,animals,had,increase,False
+33,animals,had,output,False
+34,expression,lowered,WT animals,False
+35,expression,lowered,PKCα,False
+36,expression,lowered,2-fold,False
+37,AQP2,lowered,WT animals,False
+38,AQP2,lowered,PKCα,False
+39,AQP2,lowered,2-fold,False
+40,expression,lowered,WT animals,False
+41,expression,lowered,PKCα,False
+42,expression,lowered,2-fold,False
+43,AQP2,reduced,PKCα,False
+44,AQP2,reduced,2-fold,False
+45,expression,reduced,PKCα,False
+46,expression,reduced,2-fold,False
+47,data,show,PKCα,False
+48,data,show,AQP2,False
+49,data,show,NDI,False
+50,data,show,development,False
+51,data,show,polyuria,False
+52,data,show,lithium therapy,False
+53,ablation,show,PKCα,False
+54,ablation,show,AQP2,False
+55,ablation,show,NDI,False
+56,ablation,show,development,False
+57,ablation,show,polyuria,False
+58,ablation,show,lithium therapy,False
+59,ablation,preserves,PKCα,False
+60,ablation,preserves,AQP2,False
+61,ablation,preserves,NDI,False
+62,ablation,preserves,development,False
+63,ablation,preserves,polyuria,False
+64,ablation,preserves,lithium therapy,False

@@ -1,8 +1,14 @@
 Tacrolimus
+ointment
+anti-inflammatory treatment
+sensitive areas
 face
-steroid
-rosacea
+observations
+treatment
+effective
+steroid-aggravated rosacea
 perioral dermatitis
-dermatitis
+rosaceiform dermatitis
 complication
-tacrolimus
+treatment
+tacrolimus ointment

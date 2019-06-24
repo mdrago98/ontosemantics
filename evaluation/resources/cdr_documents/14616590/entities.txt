@@ -1,17 +1,68 @@
+compared
 pharmacokinetics
+pharmacodynamics
+safety profile
+galenic formulation
 propofol
+AM149 1
+soyabean oil
+formulation
 propofol
-Disoprivan
-blind
+Disoprivan 1%
+randomised
+double-blind
+cross-over study
+healthy volunteers
+intravenous
+injection
 propofol
 Plasma
 propofol
-compartment
-cardiovascular
+levels
+measured
+drug administration
+evaluated
+three-compartment model
+pharmacodynamic
+parameters
+assessed
+induction
+emergence
+respiratory
+cardiovascular effects
+pain
+injection
+Patients
+side effects
+incidence
 thrombophlebitis
+study
+prematurely
+data
+treatment groups
+patients
+group
+analysed
 Plasma
+concentrations
+formulations
 Anaesthesia
+induction
+emergence
+respiratory
 cardiovascular
+variables
+no significant
+treatment groups
+Pain
+injection
 thrombophlebitis
+AM149
 Disoprivan
+formulations
+pharmacokinetic
+pharmacodynamic profiles
+formulation
+clinical
+incidence
 thrombophlebitis

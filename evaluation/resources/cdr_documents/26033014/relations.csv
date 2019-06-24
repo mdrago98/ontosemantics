@@ -1,16 +1,22 @@
 ,Subject,Action,Object,Negation
-0,Metolachlor,classified,Group,False
-1,Study,is,cohort,False
-2,study,including,pesticide,False
-3,The Agricultural Health Study (AHS),evaluated,cancer,False
-4,The Agricultural Health Study (AHS),evaluated,2010/2011,False
-5,The Agricultural Health Study (AHS),evaluated,applicators,False
-6,%,using,metolachlor,False
-7,applicators,using,metolachlor,False
-8,The Agricultural Health Study (AHS),evaluate,Poisson,False
-9,The Agricultural Health Study (AHS),evaluate,relations,False
-10,elevations,observed,categories,False
-11,trends,were,reference,False
-12,pattern,observed,cell lymphoma,False
-13,suggestion,confirmed,update,True
-14,suggestion,is,finding,False
+0,Metolachlor,classified,Group C carcinogen,False
+1,Metolachlor,classified,U.S. Environmental Protection Agency,False
+2,Metolachlor,classified,liver neoplasms,False
+3,Metolachlor,classified,rats,False
+4,Epidemiologic studies,limited,health effects,False
+5,Epidemiologic studies,limited,metolachlor,False
+6,Agricultural Health Study,enrolled,pesticide applicators,False
+7,Agricultural Health Study,enrolled,Iowa,False
+8,prospective cohort study,enrolled,pesticide applicators,False
+9,prospective cohort study,enrolled,Iowa,False
+10,lifetime days,used,Poisson regression,False
+11,lifetime days,used,relations,False
+12,lifetime days,used,metrics,False
+13,lifetime days,evaluate,relations,False
+14,lifetime days,evaluate,metrics,False
+15,trends,were,intensity-weighted lifetime,False
+16,pattern,observed,follicular cell lymphoma,False
+17,findings,warrant,liver cancer,False
+18,findings,warrant,follow-up,False
+19,findings,warrant,effects,False
+20,findings,warrant,factors,False

@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
-0,features,indicate,hepatocellular damage,False
-1,who,presents,illness,False
+0,female,developed,hepatic failure,False
+1,female,developed,phenytoin administration,False
+2,clinical pattern,precedes,manifestations,False
+3,clinical pattern,precedes,hepatic injury,False
+4,pathologic features,indicate,drug hypersensitivity,False

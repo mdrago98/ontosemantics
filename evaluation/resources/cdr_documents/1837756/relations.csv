@@ -1,11 +1,28 @@
 ,Subject,Action,Object,Negation
-0,Antidepressants,associated,reactions,False
-1,Elements,included,history,False
-2,depressive disorders,including,atypicality,False
-3,depressive disorders,present,vulnerability,False
-4,exacerbations,associated,serotonin,False
-5,mechanisms,including,"dopamine release, beta-noradrenergic receptor downregulation",False
-6,GABAB receptor upregulation,acting,vicinity,False
-7,GABAB receptor upregulation,acting,cingulate,False
-8,cases,call,attention,False
-9,considerations,regarding,paranoia,False
+0,Antidepressants,associated with,paranoid reactions,False
+1,Antidepressants,associated with,psychiatric patients,False
+2,cases,reported,paranoid exacerbation,False
+3,cases,reported,serotonin reuptake inhibitors,False
+4,fluoxetine,reported,paranoid exacerbation,False
+5,fluoxetine,reported,serotonin reuptake inhibitors,False
+6,Complicated depressive disorders,present,atypicality,False
+7,Complicated depressive disorders,present,course,False
+8,Complicated depressive disorders,present,primary psychosis,False
+9,Complicated depressive disorders,present,vulnerability,False
+10,Complicated depressive disorders,present,exacerbations,False
+11,Complicated depressive disorders,present,serotonin reuptake inhibitors,False
+12,pharmacology,remain,paranoia,False
+13,lateral orbitofrontal,acting,ventral basal ganglia,False
+14,pharmacology,apply,paranoia,False
+15,pharmacology,apply,ventral basal ganglia,False
+16,pharmacology,apply,phenomenon,False
+17,mechanisms,apply,paranoia,False
+18,mechanisms,apply,ventral basal ganglia,False
+19,mechanisms,apply,phenomenon,False
+20,lateral orbitofrontal,apply,paranoia,False
+21,lateral orbitofrontal,apply,ventral basal ganglia,False
+22,lateral orbitofrontal,apply,phenomenon,False
+23,cases,call,exacerbations,False
+24,cases,call,serotonin reuptake blockers,False
+25,cases,call,patients,False
+26,cases,call,paranoia,False

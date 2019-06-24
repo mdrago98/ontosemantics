@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
 0,study,describes,associations,False
-1,associations,observed,farmers,False
+1,study,describes,ozone,False
+2,study,describes,Parkinson's disease,False
+3,study,describes,farmers,False
+4,study,describes,North Carolina,False

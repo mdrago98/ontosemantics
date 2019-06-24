@@ -1,3 +1,6 @@
 ,Subject,Action,Object,Negation
-0,Studies,given,results,False
-1,order,examine,association,False
+0,Studies,given,association,False
+1,Studies,given,aspirin,False
+2,case-control study,carried,association,False
+3,case-control study,carried,incident,False
+4,case-control study,carried,ESRD,False

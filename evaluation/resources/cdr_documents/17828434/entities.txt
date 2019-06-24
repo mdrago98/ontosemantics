@@ -1,21 +1,30 @@
 Lithium
 valproate
-stabilizers
+prototypic mood stabilizers
+structures
+targets
+drugs
+influence
 inositol metabolism
 Lithium
+inhibits
 IMPase
 valproate
+inhibits
 MIP synthase
+study
 MIP synthase
 inhibition
 lithium
 inositol
-pilocarpine
-seizures
+pilocarpine-induced seizures model
+lack
+effects
 stem
+de-novo
 synthesis
-cellular
-inositol
+cellular inositol
 inhibition
+de-novo
 synthesis
 lithium

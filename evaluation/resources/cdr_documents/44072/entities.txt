@@ -1,19 +1,31 @@
-hydrochloride
-P11
+antiarrhythmic activity
+compound N-(trans-3-hydroxy-1,2,3,4-tetrahydro-2-naphthyl)-N-(3-oxo-3-phenyl-2-methylpropyl)-piperazine hydrochloride
+anaesthesized
 cats
-albino
-rats
+Wistar albino rats
+non-anaesthesized
 rabbits
+experimental
 arrhythmia
 BaCl2
-chloroform
-adrenaline
+chloroform-adrenaline
+strophantine G
 aconitine
+compound P11
+doses
+intravenously
 orally
+compound
+antiarrhythmic activity
+models
+experimental
 arrhythmia
 inhibition
 arrhythmia
-chloroform
-adrenaline
+induced
+chloroform-adrenaline
 BaCl2
-membrane
+associated with
+beta-adrenoblocking
+membrane-stabilizing action
+compound

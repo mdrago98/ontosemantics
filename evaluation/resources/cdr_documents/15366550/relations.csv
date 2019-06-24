@@ -1,7 +1,41 @@
 ,Subject,Action,Object,Negation
-0,study,highlights,contribution,False
-1,nursing,obtaining,health,False
-2,case,discussed,herein,False
-3,staff,discovered,history,False
-4,Lithium,implicated,DI,False
-5,patient,received,lithium,True
+0,case study,highlights,contribution,False
+1,case study,highlights,nursing,False
+2,case study,highlights,health history,False
+3,case,appeared,traumatic brain injury,False
+4,nursing staff,discovered,health history,False
+5,nursing staff,discovered,family,False
+6,nursing staff,discovered,history,False
+7,nursing staff,discovered,polydipsia,False
+8,Lithium,implicated,drug-induced nephrogenic DI,False
+9,Lithium,implicated,lithium,False
+10,Lithium,implicated,hospital,False
+11,Lithium,implicated,DI,False
+12,patient,implicated,drug-induced nephrogenic DI,False
+13,patient,implicated,lithium,False
+14,patient,implicated,hospital,False
+15,patient,implicated,DI,False
+16,treatment,implicated,drug-induced nephrogenic DI,False
+17,treatment,implicated,lithium,False
+18,treatment,implicated,hospital,False
+19,treatment,implicated,DI,False
+20,patient,received,lithium,True
+21,patient,received,hospital,True
+22,patient,changed,lithium,False
+23,patient,changed,hospital,False
+24,patient,changed,DI,False
+25,treatment,changed,lithium,False
+26,treatment,changed,hospital,False
+27,treatment,changed,DI,False
+28,critical care team,demonstrated,information,False
+29,critical care team,demonstrated,patient history,False
+30,critical care team,demonstrated,physical examination,False
+31,critical care team,demonstrated,lithium-induced nephrogenic DI,False
+32,critical care team,demonstrated,DI,False
+33,critical care team,demonstrated,brain trauma,False
+34,patient,demonstrated,information,False
+35,patient,demonstrated,patient history,False
+36,patient,demonstrated,physical examination,False
+37,patient,demonstrated,lithium-induced nephrogenic DI,False
+38,patient,demonstrated,DI,False
+39,patient,demonstrated,brain trauma,False

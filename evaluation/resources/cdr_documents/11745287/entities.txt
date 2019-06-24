@@ -1,3 +1,9 @@
+activity
+combination
 carboplatin
+liposomal
 doxorubicin
-recurrent cervical carcinoma
+Phase II study
+patients
+recurrent
+cervical carcinoma

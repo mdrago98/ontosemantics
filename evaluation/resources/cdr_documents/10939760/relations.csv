@@ -1,13 +1,13 @@
 ,Subject,Action,Object,Negation
-0,nephrotoxicity,reviving,use,False
-1,We,report,cases,False
-2,HIV-positive patients,developed,oliguria,False
-3,patients,recovered,renal function,False
-4,patients,recovered,hydration,False
-5,patients,recovered,alcalinization,False
-6,tube,placed,one,False
-7,tube,placed,single functional kidney,False
-8,None,needed,dialysis,True
-9,None,needed,course,True
-10,We,communicate,case,False
-11,fact,found,literature,True
+0,nephrotoxicity,reviving,toxoplasmosis,False
+1,nephrotoxicity,reviving,patients,False
+2,patients,recovered,renal function,False
+3,patients,recovered,hydration,False
+4,nephrostomy tube,had,patients,False
+5,nephrostomy tube,had,ureteral lithiasis,False
+6,Treatment,requires,sulfadiazine,False
+7,Treatment,requires,exquisite control,False
+8,Treatment,requires,renal function,False
+9,Treatment,requires,increase,False
+10,Treatment,requires,water ingestion,False
+11,Treatment,requires,urine,False

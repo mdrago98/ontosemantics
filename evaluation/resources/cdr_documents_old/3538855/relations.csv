@@ -1,0 +1,15 @@
+,Subject,Action,Object,Negation
+0,aminoglycosides,cause,damage,False
+1,trials,indicate,10,False
+2,risk,developing,acute renal failure,False
+3,risk,developing,therapy,False
+4,risk,ranges,8,False
+5,risk,is,%,False
+6,duration,increase,risk,False
+7,duration,increase,nephrotoxicity,False
+8,gender,increase,risk,False
+9,gender,increase,nephrotoxicity,False
+10,causes,have,effect,False
+11,models,developed,analyses,False
+12,analyses,identifying,patients,False
+13,analyses,identifying,risk,False

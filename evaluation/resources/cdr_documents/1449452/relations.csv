@@ -1,17 +1,36 @@
 ,Subject,Action,Object,Negation
-0,Digoxin,has,therapeutic,False
-1,Digoxin,has,ratio,False
-2,Digoxin,has,concentrations,False
-3,digoxin,has,effects,False
-4,effects,increasing,peripheral resistance,False
-5,effects,increasing,demands,False
-6,effects,causing,arrhythmias,False
-7,There,is,paucity,False
-8,digoxin,improves,symptoms,False
-9,trial,had,power,False
-10,power,evaluate,mortality,False
-11,analysis,shows,mortality,False
-12,there,is,possibility,False
-13,digoxin,increase,mortality,False
-14,digoxin,increase,myocardial infarction,False
-15,digoxin,considered,line,False
+0,Digoxin,has,drugs,False
+1,toxic ratio,has,drugs,False
+2,toxic ratio,affected,drugs,False
+3,digoxin,has,undesirable effects,False
+4,digoxin,has,peripheral resistance,False
+5,digoxin,has,arrhythmias,False
+6,evidence,required,symptoms,False
+7,digoxin,required,symptoms,False
+8,digoxin,showing,symptoms,False
+9,digoxin,improves,symptoms,False
+10,analysis,shows,effects,False
+11,analysis,shows,inotropic drugs,False
+12,analysis,shows,mortality,False
+13,analysis,shows,mortality,False
+14,analysis,shows,myocardial infarction,False
+15,digoxin,shows,effects,False
+16,digoxin,shows,inotropic drugs,False
+17,digoxin,shows,mortality,False
+18,digoxin,shows,mortality,False
+19,digoxin,shows,myocardial infarction,False
+20,digoxin,is,mortality,False
+21,digoxin,is,myocardial infarction,False
+22,digoxin,increase,mortality,False
+23,digoxin,increase,myocardial infarction,False
+24,inhibitors,used,blood level,False
+25,inhibitors,used,progression of disease,False
+26,inhibitors,used,symptoms,False
+27,inhibitors,used,exercise tolerance,False
+28,inhibitors,used,mortality,False
+29,Caution,exercised,digoxin,False
+30,Caution,exercised,benefit,False
+31,mortality trials,exercised,digoxin,False
+32,mortality trials,exercised,benefit,False
+33,mortality trials,completed,benefit,False
+34,digoxin,considered,third-line therapy,False

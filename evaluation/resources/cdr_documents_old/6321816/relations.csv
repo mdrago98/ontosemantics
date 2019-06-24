@@ -1,0 +1,12 @@
+,Subject,Action,Object,Negation
+0,Vasopressin,plays,role,False
+1,Vasopressin,plays,pathogenesis,False
+2,elevation,was,DOCA,True
+3,which,has,action,False
+4,effect,increase,blood pressure,False
+5,Administration,increase,blood pressure,False
+6,levels,observed,administration,False
+7,responsiveness,observed,stage,False
+8,secretion,promotes,function,False
+9,secretion,promotes,factor,False
+10,role,determined,essential hypertension,False

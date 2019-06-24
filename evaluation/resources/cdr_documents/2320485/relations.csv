@@ -1,15 +1,14 @@
 ,Subject,Action,Object,Negation
-0,Methyldopa,is,medication,False
-1,that,prescribed,adult,False
-2,Methyldopa,causes,autoimmune hemolytic anemia,False
-3,who,take,drug,False
-4,We,report,case,False
-5,who,presented,syncope,False
-6,boy,treated,methyldopa,False
-7,boy,treated,trauma,False
-8,Evaluation,revealed,hemoglobin,False
+0,Methyldopa,is,antihypertensive medication,False
+1,Methyldopa,is,trade,False
+2,Methyldopa,is,population,False
+3,Methyldopa,is,children,False
+4,boy,treated with,intravenous methyldopa,False
+5,boy,treated with,trauma,False
+6,Evaluation,revealed,hemoglobin,False
+7,Evaluation,revealed,3+ Coombs' test,False
+8,Evaluation,revealed,polyspecific anti-human globulin,False
 9,Transfusion,resulted,recovery,False
-10,corticosteroid,resulted,recovery,False
-11,physicians,treating,children,False
-12,physicians,be,order,False
-13,order,treat,it,False
+10,Transfusion,resulted,patient,False
+11,Emergency physicians,be,children,False
+12,Emergency physicians,be,syndrome,False

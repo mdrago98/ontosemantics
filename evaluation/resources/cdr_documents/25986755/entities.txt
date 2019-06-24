@@ -1,57 +1,108 @@
-prenatal caffeine exposure
+study
+prenatal
+caffeine exposure
 PCE
+induce
 intrauterine growth retardation
 IUGR
+offspring
+research
 IUGR
+risk factor
 glomerulosclerosis
 PCE
+induce
 glomerulosclerosis
+mechanisms
+study
+induction
 glomerulosclerosis
+adult
+offspring
 PCE
 intrauterine
+programming
+mechanisms
 rat
+model
 IUGR
 PCE
+male
 fetuses
+adult
+offspring
+age
+postnatal
+week
+euthanized
+results
+adult
+offspring
 kidneys
 PCE
+group
 glomerulosclerosis
 interstitial fibrosis
-serum
-creatinine
-urine
-protein
-Renal
-angiotensin II receptor type 2 (AT2R) gene expression
+elevated
+levels
+serum creatinine
+urine protein
+Renal angiotensin II receptor type 2
+AT2R
+gene expression
+adult
+offspring
 PCE
-renal
-angiotensin II receptor type 1a
-expression
+renal angiotensin II receptor type 1a
+expression ratio
+increased
 fetal
 kidneys
 PCE
+group
+enlarged
 Bowman's space
-glomerular
+shrunken glomerular tuft
+reduced
 cortex
-cortical
+width
+increase
+nephrogenic zone/cortical zone
+Observation
+electronic microscope
+structural damage
+podocytes
+reduced
 expression
+level
 podocyte
+marker genes
 nephrin
 podocin
+detected
+q-PCR
 AT2R gene
-protein
+protein expressions
 fetal
 kidneys
+inhibited
 PCE
+associated with
+repression
 gene expression
-glial
-cell
-c-Ret
-signaling pathway
+glial-cell-line-derived neurotrophic factor (GDNF)/tyrosine kinase receptor
+results
 PCE
+induce
 dysplasia
 fetal
 kidneys
 glomerulosclerosis
-renal AT2R
+adult
+offspring
+functional
+renal
+AT2R
+developmental
+adult
 glomerulosclerosis

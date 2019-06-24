@@ -1,8 +1,35 @@
 ,Subject,Action,Object,Negation
-0,effects,compared,those,False
-1,compound,compared,those,False
-2,dogs,received,dronedarone,False
-3,arterial pressure,evaluated,conditions,False
-4,dronedarone,reduced,tachycardia,False
-5,amiodarone,reduced,tachycardia,False
-6,dronedarone,displayed,level,False
+0,Heart rate,evaluated,increase,False
+1,Heart rate,evaluated,left ventricular pressure,False
+2,Heart rate,evaluated,left ventricular ejection fraction,False
+3,Heart rate,evaluated,isoproterenol,False
+4,Heart rate,evaluated,baseline,False
+5,chronotropic response,evaluated,increase,False
+6,chronotropic response,evaluated,left ventricular pressure,False
+7,chronotropic response,evaluated,left ventricular ejection fraction,False
+8,chronotropic response,evaluated,isoproterenol,False
+9,chronotropic response,evaluated,baseline,False
+10,sympathetic stimulation,evaluated,increase,False
+11,sympathetic stimulation,evaluated,left ventricular pressure,False
+12,sympathetic stimulation,evaluated,left ventricular ejection fraction,False
+13,sympathetic stimulation,evaluated,isoproterenol,False
+14,sympathetic stimulation,evaluated,baseline,False
+15,Resting values,Resting values,LVEF,False
+16,Resting values,remained,LVEF,False
+17,Resting values,remained,dronedarone,False
+18,Resting values,remained,amiodarone,False
+19,drug,remained,LVEF,False
+20,drug,remained,dronedarone,False
+21,drug,remained,amiodarone,False
+22,HR,remained,LVEF,False
+23,HR,remained,dronedarone,False
+24,HR,remained,amiodarone,False
+25,drug,lowered,dronedarone,False
+26,drug,lowered,amiodarone,False
+27,HR,lowered,dronedarone,False
+28,HR,lowered,amiodarone,False
+29,dronedarone,reduced,exercise-induced tachycardia,False
+30,dronedarone,reduced,highest dose,False
+31,dronedarone,reduced,isoproterenol-induced tachycardia,False
+32,dronedarone,displayed,level,False
+33,dronedarone,displayed,resting left ventricular function,False

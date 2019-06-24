@@ -1,0 +1,33 @@
+hemodynamic
+dronedarone
+amiodarone
+amiodarone
+oral
+rest
+dogs
+healed myocardial infarction
+dogs
+orally
+dronedarone
+amiodarone
+Heart
+arterial pressure
+MBP
+ventricular
+left ventricular ejection
+isoproterenol
+Resting
+MBP
+resting
+dronedarone
+amiodarone
+dronedarone
+amiodarone
+isoproterenol
+dronedarone
+amiodarone
+resting
+left ventricular function
+dronedarone
+arrhythmias
+left ventricular function

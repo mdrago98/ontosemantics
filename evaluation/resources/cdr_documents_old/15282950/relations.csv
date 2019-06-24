@@ -1,0 +1,8 @@
+,Subject,Action,Object,Negation
+0,effect,examined,isoproterenol,False
+1,level,increased,serum,False
+2,level,increased,heart,False
+3,decrease,observed,activity,False
+4,pretreatment,ameliorate,effect,False
+5,extract,ameliorate,effect,False
+6,extract,retained,activities,False

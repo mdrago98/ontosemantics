@@ -1,11 +1,35 @@
 ,Subject,Action,Object,Negation
-0,effects,beating,rat heart,False
-1,we,determined,effect,False
-2,concentration,caused,reduction,False
-3,treatment,increased,arrhythmogenicity,False
-4,treatment,increased,myocyte,False
-5,pretreatment,caused,increase,False
-6,There,was,decrease,False
-7,There,was,time,False
-8,progesterone,potentiate,bupivacaine,False
-9,progesterone,potentiate,vivo,False
+0,effects of,determined,progesterone,False
+1,effects of,determined,bupivacaine arrhythmogenicity,False
+2,effects of,determined,rat,False
+3,effects of,determined,rats,False
+4,concentration,determining,bupivacaine,False
+5,concentration,determining,rat,False
+6,concentration,determined,bupivacaine,False
+7,concentration,determined,rat,False
+8,concentration,determined,effect,False
+9,concentration,determined,HCl,False
+10,concentration,determined,myocyte,False
+11,concentration,caused,progesterone,False
+12,concentration,caused,reduction,False
+13,concentration,caused,AD50,False
+14,concentration,caused,bupivacaine,False
+15,treatment,increased,arrhythmogenicity,False
+16,treatment,increased,bupivacaine,False
+17,treatment,increased,myocyte,False
+18,treatment,increased,progesterone,False
+19,estradiol effects,potentiated,bupivacaine arrhythmogenicity,False
+20,estradiol effects,potentiated,epinephrine,False
+21,Chronic progesterone pretreatment,caused,days,False
+22,Chronic progesterone pretreatment,caused,increase,False
+23,Chronic progesterone pretreatment,caused,bupivacaine,False
+24,Chronic progesterone pretreatment,caused,pentobarbital-anesthetized rats,False
+25,results,indicate,study,False
+26,progesterone,indicate,study,False
+27,Potentiation,suggests,bupivacaine arrhythmia,False
+28,Potentiation,suggests,myocyte,False
+29,Potentiation,suggests,myocyte,False
+30,effect,suggests,bupivacaine arrhythmia,False
+31,effect,suggests,myocyte,False
+32,effect,suggests,myocyte,False
+33,effect,mediated,myocyte,False
