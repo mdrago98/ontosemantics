@@ -1,12 +1,12 @@
 from collections import OrderedDict
 
 from Bio import Entrez
-from biolinkmodel.datamodel import AnatomicalEntityToAnatomicalEntityAssociation, \
-    ChemicalToDiseaseOrPhenotypicFeatureAssociation, ChemicalToGeneAssociation, ChemicalToThingAssociation, \
-    GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
-    DiseaseOrPhenotypicFeatureAssociationToThingAssociation, OrganismalEntity, \
-    ChemicalSubstance, NamedThing, Association, Disease, PhenotypicFeature, Cell, \
-    CellularComponent, BiologicalProcess, MolecularActivity
+# from biolinkmodel.datamodel import AnatomicalEntityToAnatomicalEntityAssociation, \
+#     ChemicalToDiseaseOrPhenotypicFeatureAssociation, ChemicalToGeneAssociation, ChemicalToThingAssociation, \
+#     GeneToGeneAssociation, GeneToThingAssociation, ThingToDiseaseOrPhenotypicFeatureAssociation, \
+#     DiseaseOrPhenotypicFeatureAssociationToThingAssociation, OrganismalEntity, \
+#     ChemicalSubstance, NamedThing, Association, Disease, PhenotypicFeature, Cell, \
+#     CellularComponent, BiologicalProcess, MolecularActivity
 from py2neo import Relationship, Node, Subgraph
 
 from src.settings import Config

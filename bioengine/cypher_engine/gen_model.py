@@ -39,7 +39,7 @@ def main(path, objects_to_map, neo_schema_path):
                            enumerate(pythonic_variable_names)]
         }
         file_name = f'{graph_obj.lower()}_graph_object.py'
-        with open('./templates/graph_obj_template.txt') as file:
+        with open('templates/graph_obj_template.txt') as file:
             template = file.read()
             with open(join(path, file_name), 'w') as output:
                 out_model = render(template, context)
