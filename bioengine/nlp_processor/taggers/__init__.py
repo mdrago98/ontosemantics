@@ -1,9 +1,13 @@
-from src.settings import Config
-from src.bioengine.nlp_processor.taggers.genia_tagger import GeniaTagger
-from src.bioengine.nlp_processor.taggers.metamap_tagger import MetaMapTagger
-from src.bioengine.nlp_processor.taggers.stanford_tagger import StanfordTagger
-from src.bioengine.nlp_processor.taggers.tagger import Tagger
-from src.bioengine.nlp_processor.taggers.becas_tagger import BecasTagger
+from settings import Config
+from bioengine.nlp_processor.taggers.tagger import Tagger
+
+try:
+    from bioengine.nlp_processor.taggers.genia_tagger import GeniaTagger
+    from bioengine.nlp_processor.taggers.metamap_tagger import MetaMapTagger
+    from bioengine.nlp_processor.taggers.stanford_tagger import StanfordTagger
+    from bioengine.nlp_processor.taggers.becas_tagger import BecasTagger
+except Exception as e:
+    print("Could not load one or more modules ", e)
 
 
 class TaggerFactory:

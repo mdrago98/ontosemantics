@@ -1,10 +1,10 @@
 from py2neo import Table
 
-from src.bioengine.cypher_engine.connections import Connection
-from src.bioengine.cypher_engine.models import ModelFactory
+from bioengine.knowledge_engine.connections import Connection
+from bioengine.knowledge_engine.models import ModelFactory
 from nlp_processor.entity_normalization import normalize_batch
 from nlp_processor.spacy_factory import MedicalSpacyFactory
-from src.bioengine.cypher_engine import OntologyStoreConnection
+from bioengine.knowledge_engine import OntologyStoreConnection
 from utils.pythonic_name import get_pythonic_name
 
 # """UNWIND {terms} as term

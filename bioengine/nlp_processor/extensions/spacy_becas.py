@@ -3,7 +3,7 @@ from spacy.lang.en import English
 from spacy.matcher import PhraseMatcher
 from spacy.tokens import Span, Token, Doc
 from hashlib import md5
-from src.bioengine.nlp_processor import TaggerFactory
+from bioengine.nlp_processor import TaggerFactory
 
 
 class BiologicalNamedEntity:

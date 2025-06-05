@@ -1,7 +1,7 @@
 
 from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_models.ols_graph_object import Class
+from bioengine.knowledge_engine.models.ols_models.ols_graph_object import Class
 
 
 class CHEBI(Class):

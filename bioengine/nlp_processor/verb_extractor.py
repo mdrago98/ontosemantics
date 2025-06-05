@@ -4,7 +4,7 @@ from re import compile
 
 from spacy.tokens import Doc, Token
 
-from src.bioengine.nlp_processor.extensions import get_noun_verb_noun_phrases_from_sentence
+from bioengine.nlp_processor.extensions import get_noun_verb_noun_phrases_from_sentence
 from nlp_processor.spacy_factory import MedicalSpacyFactory
 
 

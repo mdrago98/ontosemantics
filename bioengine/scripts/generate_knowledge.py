@@ -5,15 +5,15 @@ from os import scandir, path
 import plac
 from py2neo import Node
 
-from cypher_engine.biolink_mapping import get_relationship_node, get_association, get_publication_node, get_providers, \
+from knowledge_engine.biolink_mapping import get_relationship_node, get_association, get_publication_node, get_providers, \
     link_publication_to_provider, link_entities_to_publication, commit_sub_graph
-from src.bioengine.cypher_engine.connections import Connection
-from src.bioengine.cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
-from src.bioengine.cypher_engine.match import map_relations_with_ontology_terms
+from bioengine.knowledge_engine.connections import Connection
+from bioengine.knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from bioengine.knowledge_engine.match import map_relations_with_ontology_terms
 from biolinkmodel.datamodel import NamedThing
-from src.bioengine.nlp_processor.extensions.svo import Relation
+from bioengine.nlp_processor.extensions.svo import Relation
 from pandas import read_csv
-from src.bioengine import logger
+from bioengine import logger
 
 
 def generate_doc_details(pmid: str, doc: str, authors: list, entities, terms) -> tuple:

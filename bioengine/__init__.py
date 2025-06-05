@@ -2,7 +2,11 @@
 import logging
 from logging.config import dictConfig
 
-from . import nlp_processor, scripts, dochandlers, cypher_engine, utils
+from . import (nlp_processor,
+               scripts, dochandlers,
+               # knowledge_engine,
+               utils
+               )
 
 from settings import Config
 if Config().logger_conf is not None:

@@ -3,7 +3,7 @@ from random import choice, choices
 import plac
 from pandas import DataFrame, read_csv
 
-from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from evaluation.cases.cbr_task.calculate_cdr_metrics import get_db_relations, cal_tp_rate, generate_metrics
 
 

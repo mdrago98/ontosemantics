@@ -1,6 +1,6 @@
 from geniatagger import GeniaTagger as GenTag
 
-from src.bioengine.nlp_processor.taggers.tagger import Tagger
+from bioengine.nlp_processor.taggers.tagger import Tagger
 
 
 class GeniaTagger(Tagger):

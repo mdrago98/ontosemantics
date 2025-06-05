@@ -9,9 +9,9 @@ from Bio import Entrez
 #     CellularComponent, BiologicalProcess, MolecularActivity
 from py2neo import Relationship, Node, Subgraph
 
-from src.settings import Config
-from src.bioengine.cypher_engine.models import Class
-from src.bioengine.utils.pythonic_name import get_pythonic_name
+from settings import Config
+from bioengine.knowledge_engine.models import Class
+from bioengine.utils.pythonic_name import get_pythonic_name
 
 associations = {
     AnatomicalEntityToAnatomicalEntityAssociation: (['OrganismalEntity', 'Cell', 'CellularComponent'],

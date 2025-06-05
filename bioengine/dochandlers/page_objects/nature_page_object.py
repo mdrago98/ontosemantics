@@ -1,5 +1,5 @@
-from src.bioengine.dochandlers.page_objects.page_object import PageObject
-from src.settings import Config
+from bioengine.dochandlers.page_objects.page_object import PageObject
+from settings import Config
 from utils.citation_utils import strip_citations
 
 

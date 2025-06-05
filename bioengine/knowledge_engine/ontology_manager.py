@@ -3,50 +3,47 @@ from pathlib import Path
 import requests
 from biolink_model.datamodel.model import *
 
+from knowledge_engine.models.ontology_match import OntologyMatch
 
-@dataclass
-class OntologyMatch:
-    entity_text: str
-    ontology_id: str
-    canonical_name: str
-    biolink_type: str
-    confidence: float
-    synonyms: List[str]
-    definition: Optional[str] = None
-    parents: List[str] = None
-    children: List[str] = None
+OBO_URLS = {
+        'mondo': 'http://purl.obolibrary.org/obo/mondo.obo',
+        'hp': 'http://purl.obolibrary.org/obo/hp.obo',
+        'chebi': 'http://purl.obolibrary.org/obo/chebi.obo',
+        'go': 'http://purl.obolibrary.org/obo/go.obo',
+        'cl': 'http://purl.obolibrary.org/obo/cl.obo',
+        'uberon': 'http://purl.obolibrary.org/obo/uberon.obo',
+        'doid': 'http://purl.obolibrary.org/obo/doid.obo'
+}
+
+TERM_MAPPING = {
+    Disease: ['mondo', 'doid'],
+    PhenotypicFeature: ['hp'],
+    ChemicalEntity: ['chebi'],
+    BiologicalProcess: ['go'],
+    MolecularActivity: ['go'],
+    CellularComponent: ['go'],
+    Cell: ['cl'],
+    OrganismalEntity: ['uberon']
+}
 
 class OntologyManager:
-    def __init__(self, ontology_dir: Path = Path("../data/ontologies")):
+    def __init__(self, ontology_dir: Path = Path("../../data/ontologies"), obo_urls=None, term_mapping=None):
+        if term_mapping is None:
+            term_mapping = TERM_MAPPING
+        if obo_urls is None:
+            obo_urls = OBO_URLS
         self.ontology_dir = ontology_dir
         self.ontologies = {}
-        self.term_mapping = {
-            Disease: ['mondo', 'doid'],
-            PhenotypicFeature: ['hp'],
-            ChemicalEntity: ['chebi'],
-            BiologicalProcess: ['go'],
-            MolecularActivity: ['go'],
-            CellularComponent: ['go'],
-            Cell: ['cl'],
-            OrganismalEntity: ['uberon']
-        }
+        self.term_mapping = term_mapping
 
-        self.obo_urls = {
-            'mondo': 'http://purl.obolibrary.org/obo/mondo.obo',
-            'hp': 'http://purl.obolibrary.org/obo/hp.obo',
-            'chebi': 'http://purl.obolibrary.org/obo/chebi.obo',
-            'go': 'http://purl.obolibrary.org/obo/go.obo',
-            'cl': 'http://purl.obolibrary.org/obo/cl.obo',
-            'uberon': 'http://purl.obolibrary.org/obo/uberon.obo',
-            'doid': 'http://purl.obolibrary.org/obo/doid.obo'
-        }
+        self.obo_urls = obo_urls
 
         self.load_ontologies()
 
     def download_and_load_ontologies(self, ontologies_to_load: List[str] = None):
         """Download OBO files and load with Pronto"""
         if ontologies_to_load is None:
-            # For Friday demo, just load essential ones
+            # just load essential ones
             ontologies_to_load = ['mondo', 'hp', 'chebi']  # Start small
 
         self.ontology_dir.mkdir(exist_ok=True)

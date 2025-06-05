@@ -1,4 +1,4 @@
-from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 
 connection = KnowledgeGraphConnection()
 query = """

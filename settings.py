@@ -4,7 +4,7 @@ from meta_classes import Singleton
 import logging.config
 from pathlib import Path
 
-__config_loc__ = join(Path(__file__).parent.parent, 'config.yaml')
+__config_loc__ = join(Path(__file__).parent, 'config.yaml')
 
 
 class Config(metaclass=Singleton):
@@ -15,7 +15,7 @@ class Config(metaclass=Singleton):
     def __init__(self, config: dict = None, logger_level=None):
         if config is None:
             with open(__config_loc__, 'r') as stream:
-                self.conf = yaml.load(stream)
+                self.conf = yaml.safe_load(stream)
 
         if logger_level is None:
             self.logger_level = logging.INFO

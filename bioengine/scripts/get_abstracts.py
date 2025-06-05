@@ -1,9 +1,9 @@
 import plac
 from Bio import Entrez
 
-from src.bioengine.nlp_processor.extensions.svo import Relation
-from src.bioengine import logger
-from src.bioengine.nlp_processor.spacy_factory import MedicalSpacyFactory
+from bioengine.nlp_processor.extensions.svo import Relation
+from bioengine import logger
+from bioengine.nlp_processor.spacy_factory import MedicalSpacyFactory
 from os import path, makedirs
 from pandas import DataFrame
 

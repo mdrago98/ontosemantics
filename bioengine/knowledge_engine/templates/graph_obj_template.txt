@@ -1,7 +1,7 @@
 
 from py2neo.ogm import Property, RelatedTo, RelatedFrom
 
-from src.bioengine.cypher_engine.models.ols_graph_object import Class
+from bioengine.cypher_engine.models.ols_graph_object import Class
 
 
 class {{className}}(Class):

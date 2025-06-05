@@ -1,10 +1,12 @@
+from warnings import deprecated
+
 from py2neo import Graph, NodeMatcher, RelationshipMatch
 
-from src.bioengine.cypher_engine.models import ModelFactory
-from src.settings import Config
-from src.bioengine.cypher_engine.connections import Connection
+from bioengine.knowledge_engine.models import ModelFactory
+from settings import Config
+from bioengine.knowledge_engine.connections import Connection
 
-
+@deprecated('Use neo4j_knowledge_graph_connection or the new factory')
 class KnowledgeGraphConnection(Connection):
     """
     A class abstracting a knowledge graph instance hosted in a neo4j graph

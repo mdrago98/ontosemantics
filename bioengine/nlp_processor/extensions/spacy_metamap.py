@@ -3,7 +3,7 @@ from spacy.matcher import PhraseMatcher
 from spacy.strings import StringStore
 from spacy.tokens import Span
 
-from src.bioengine.nlp_processor import TaggerFactory
+from bioengine.nlp_processor import TaggerFactory
 from re import compile
 
 

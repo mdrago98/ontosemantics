@@ -1,10 +1,10 @@
 import spacy
 from spacy.tokens import Doc
 
-from src.settings import Config
+from settings import Config
 from os.path import join
 
-from src.bioengine.nlp_processor.extensions.svo import get_noun_verb_chunks
+from bioengine.nlp_processor.extensions.svo import get_noun_verb_chunks
 from abc import ABC, abstractmethod
 
 

@@ -1,2 +1,2 @@
 
-from src.bioengine.utils import pythonic_name
+from bioengine.utils import pythonic_name

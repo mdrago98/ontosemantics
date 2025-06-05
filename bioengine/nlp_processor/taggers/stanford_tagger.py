@@ -2,7 +2,7 @@ import nltk
 from nltk.tag.stanford import StanfordNERTagger
 from nltk.corpus import stopwords as nltk_stop_words
 
-from src.bioengine.nlp_processor.taggers.tagger import Tagger
+from bioengine.nlp_processor.taggers.tagger import Tagger
 
 
 class StanfordTagger(Tagger):
