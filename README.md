@@ -221,5 +221,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Blog**: [Here](https://www.matthewdrago.com/blog/ontosemantics)
 
 ---
-
-*Building the future of AI-powered biomedical research, one relationship at a time.*
