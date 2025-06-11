@@ -3,13 +3,13 @@ from itertools import repeat
 from multiprocessing.pool import ThreadPool
 
 from build.lib.knowledge.datamodel import NamedThing
-from cypher_engine.connections import Connection
-from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
-from cypher_engine.match import map_relations_with_ontology_terms
+from knowledge_engine.connections import Connection
+from knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from knowledge_engine.match import map_relations_with_ontology_terms
 from dochandlers.txt_file_handler import read_from_file
 from nlp_processor.extensions.svo import Relation
 from nlp_processor.spacy_factory import MedicalSpacyFactory
-from scripts.generate_knowledge import generate_doc_details, sort_terms, get_document_subgraph
+from scripts import generate_doc_details, sort_terms, get_document_subgraph
 from src.bioengine import logger
 from utils.citation_utils import strip_citations
 

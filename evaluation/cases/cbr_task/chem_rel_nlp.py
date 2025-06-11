@@ -5,13 +5,11 @@ import plac
 from Bio import Entrez
 from pandas import read_csv, DataFrame
 
-from cypher_engine.biolink_mapping import commit_sub_graph
-from cypher_engine.match import map_relations_with_ontology_terms
+from knowledge_engine.biolink_mapping import commit_sub_graph
+from knowledge_engine.match import map_relations_with_ontology_terms
 from nlp_processor.extensions.svo import Relation
 from nlp_processor.spacy_factory import MedicalSpacyFactory
-from scripts.generate_knowledge import generate_doc_details, get_document_subgraph, sort_terms
-from scripts.get_abstracts import read_and_parse
-from src.bioengine import logger
+from scripts import read_and_parse
 
 
 # def map_abstracts(pmid, doc, authors, driver):

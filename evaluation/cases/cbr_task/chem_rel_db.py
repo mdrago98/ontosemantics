@@ -3,9 +3,9 @@ from os import path, scandir
 import plac
 from pandas import read_csv
 
-from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 from nlp_processor.extensions.svo import Relation
-from scripts.generate_knowledge import map_abstracts
+from scripts import map_abstracts
 
 
 def main(in_dir):

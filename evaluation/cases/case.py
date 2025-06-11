@@ -4,18 +4,13 @@ from multiprocessing.pool import ThreadPool
 
 from biolinkmodel.datamodel import NamedThing
 
-from cypher_engine.connections import Connection
-from cypher_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
-from cypher_engine.match import map_relations_with_ontology_terms
-from dochandlers.page_objects.bioscientifica_page_object import BioScientificaPageObject
-from dochandlers.page_objects.nature_page_object import NaturePageObject
-from dochandlers.page_objects.oup_page_object import OUPPageObject
+from knowledge_engine.connections import Connection
+from knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from knowledge_engine.match import map_relations_with_ontology_terms
 from dochandlers.page_objects.pmc_page_object import PMCPageObject
-from dochandlers.page_objects.springer_page_object import SpringerPageObject
-from dochandlers.page_objects.wiley_page_object import WileyPageObject
 from nlp_processor.extensions.svo import Relation
 from nlp_processor.spacy_factory import MedicalSpacyFactory
-from scripts.generate_knowledge import sort_terms, generate_doc_details, get_document_subgraph
+from scripts import sort_terms, generate_doc_details, get_document_subgraph
 
 logger = logging.getLogger(__name__)
 

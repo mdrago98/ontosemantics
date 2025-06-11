@@ -1,2 +1,0 @@
-
-from .taggers import TaggerFactory
