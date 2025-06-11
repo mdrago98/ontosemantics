@@ -16,8 +16,6 @@ Traditional RAG: Query → Static Knowledge Base → Retrieve → Generate
 OntoSemantics:   Query → Dynamic Knowledge Base ← Learn ← Validate ← Generate
 ```
 
-**Results**: 3x improvement in F1-score (0.0 → 0.44) for biomedical relationship extraction through ontological context integration.
-
 ## Features
 
 - **🔄 Self-Improving Architecture**: Knowledge base learns from every query through ontology validation
@@ -62,7 +60,10 @@ from knowledge_engine.ontology_manager import OntologyManager
 om = OntologyManager()
 await om.download_and_load_ontologies()
 ```
-
+or through the bash script:
+```shell
+ sh scripts/download_ontologies.sh -a
+```
 3. **Initialize LLM extractor**:
 ```python
 from nlp_processor.llm_extractor import LLMRelationshipExtractor
@@ -134,11 +135,9 @@ ontosemantics/
 
 | Context Type | Precision | Recall | F1-Score |
 |--------------|-----------|--------|----------|
-| No Context   | 0.000     | 0.000  | 0.000    |
 | Entity Context | 0.083   | 0.333  | 0.133    |
 | **Semantic Context** | **0.333** | **0.667** | **0.444** |
 
-*Results on BioRED dataset sample showing dramatic improvement with ontological context*
 
 ## Supported Ontologies
 
@@ -197,7 +196,7 @@ ONTOLOGY_URLS = {
 If you use OntoSemantics in your research, please cite:
 
 ```bibtex
-@misc{ontosemantics2024,
+@misc{ontosemantics2025,
   title={OntoSemantics: Self-Improving Ontology-RAG Systems for Biomedical Relationship Extraction},
   author={Matthew Drago},
   year={2025},
