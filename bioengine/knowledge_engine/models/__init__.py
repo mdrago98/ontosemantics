@@ -1,5 +1,5 @@
 import logging
-from warnings import deprecated
+from typing_extensions import deprecated
 logger = logging.getLogger(__name__)
 
 try:

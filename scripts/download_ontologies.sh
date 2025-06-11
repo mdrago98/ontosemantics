@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # download_ontologies.sh
-# Script to download essential ontologies from OBO Foundry for OntoSemantics 2.0
+# Script to download essential ontologies_old from OBO Foundry for OntoSemantics 2.0
 
 set -e  # Exit on any error
 
@@ -46,7 +46,7 @@ ONTOLOGY_SIZES=(
     "~25MB"
 )
 
-# Essential ontologies for quick setup (indices)
+# Essential ontologies_old for quick setup (indices)
 ESSENTIAL_INDICES=(0 1 2)  # mondo, hp, chebi
 
 # Function to get ontology info by name
@@ -98,7 +98,7 @@ show_help() {
     echo "  $0 --select        # Choose what to download"
 }
 
-# Function to list available ontologies
+# Function to list available ontologies_old
 list_ontologies() {
     echo "Available Ontologies:"
     echo "===================="
@@ -294,7 +294,7 @@ main() {
     print_status "Log file: $LOG_FILE"
     echo ""
 
-    # Determine which ontologies to download
+    # Determine which ontologies_old to download
     local to_download_indices=()
 
     if [[ "$download_all" == true ]]; then
@@ -330,7 +330,7 @@ main() {
         exit 0
     fi
 
-    # Download ontologies
+    # Download ontologies_old
     local success_count=0
     local total_count=${#to_download_indices[@]}
 

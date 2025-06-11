@@ -1,6 +1,8 @@
+import httpx
 import pronto
 from pathlib import Path
 import requests
+import tqdm
 from biolink_model.datamodel.model import *
 
 from knowledge_engine.models.ontology_match import OntologyMatch
@@ -8,15 +10,13 @@ from knowledge_engine.models.ontology_match import OntologyMatch
 OBO_URLS = {
         'mondo': 'http://purl.obolibrary.org/obo/mondo.obo',
         'hp': 'http://purl.obolibrary.org/obo/hp.obo',
-        'chebi': 'http://purl.obolibrary.org/obo/chebi.obo',
-        'go': 'http://purl.obolibrary.org/obo/go.obo',
+        'go': 'https://purl.obolibrary.org/obo/go/go-basic.obo',
         'cl': 'http://purl.obolibrary.org/obo/cl.obo',
         'uberon': 'http://purl.obolibrary.org/obo/uberon.obo',
-        'doid': 'http://purl.obolibrary.org/obo/doid.obo'
 }
 
 TERM_MAPPING = {
-    Disease: ['mondo', 'doid'],
+    Disease: ['mondo'],
     PhenotypicFeature: ['hp'],
     ChemicalEntity: ['chebi'],
     BiologicalProcess: ['go'],
@@ -27,7 +27,7 @@ TERM_MAPPING = {
 }
 
 class OntologyManager:
-    def __init__(self, ontology_dir: Path = Path("../../data/ontologies"), obo_urls=None, term_mapping=None):
+    def __init__(self, ontology_dir: Path = Path("../../data/ontologies_old"), obo_urls=None, term_mapping=None):
         if term_mapping is None:
             term_mapping = TERM_MAPPING
         if obo_urls is None:
@@ -40,32 +40,33 @@ class OntologyManager:
 
         self.load_ontologies()
 
-    def download_and_load_ontologies(self, ontologies_to_load: List[str] = None):
+    async def download_and_load_ontologies(self, ontologies_to_load: List[str] = None):
         """Download OBO files and load with Pronto"""
         if ontologies_to_load is None:
-            # just load essential ones
-            ontologies_to_load = ['mondo', 'hp', 'chebi']  # Start small
+            ontologies_to_load = OBO_URLS.keys()
 
         self.ontology_dir.mkdir(exist_ok=True)
+        async with httpx.AsyncClient() as client:
+            failed = dict()
+            for onto_name in tqdm.tqdm(ontologies_to_load):
+                obo_file = self.ontology_dir / f"{onto_name}.obo"
 
-        for onto_name in ontologies_to_load:
-            obo_file = self.ontology_dir / f"{onto_name}.obo"
+                try:
+                    if not obo_file.exists():
+                        print(f"Downloading {onto_name}...")
+                        response = await client.request('GET', self.obo_urls[onto_name], follow_redirects=True)
+                        response.raise_for_status()
+                        with open(obo_file, 'wb') as f:
+                            f.write(response.content)
 
-            if not obo_file.exists():
-                print(f"Downloading {onto_name}...")
-                response = requests.get(self.obo_urls[onto_name])
-                with open(obo_file, 'wb') as f:
-                    f.write(response.content)
-
-            print(f"Loading {onto_name}...")
-            try:
-                self.ontologies[onto_name] = pronto.Ontology(str(obo_file))
-                print(f"✅ Loaded {onto_name}: {len(self.ontologies[onto_name])} terms")
-            except Exception as e:
-                print(f"❌ Failed to load {onto_name}: {e}")
+                    self.ontologies[onto_name] = pronto.Ontology(str(obo_file))
+                except Exception as e:
+                    failed[onto_name] = str(e)
+            print(f'Loaded {",".join(self.ontologies.keys())}')
+            print(f'❌Could not load: {",".join(failed.keys())}')
 
     def load_ontologies(self):
-        """Load ontologies that are already downloaded"""
+        """Load ontologies_old that are already downloaded"""
         for onto_name, url in self.obo_urls.items():
             obo_file = self.ontology_dir / f"{onto_name}.obo"
             if obo_file.exists():
@@ -118,8 +119,8 @@ class OntologyManager:
                     confidence=score,
                     synonyms=[syn.description for syn in term.synonyms],
                     definition=term.definition.strip() if term.definition else None,
-                    parents=[parent.name for parent in term.superclasses(with_self=False, distance=1)],
-                    children=[child.name for child in term.subclasses(with_self=False, distance=1)]
+                    parents=[parent for parent in term.superclasses(with_self=False, distance=1)],
+                    children=[child for child in term.subclasses(with_self=False, distance=1)]
                 ))
 
         # Sort by confidence and return top results
@@ -127,7 +128,7 @@ class OntologyManager:
         return matches[:max_results]
 
     def validate_and_enrich_entity(self, entity_text: str) -> List[OntologyMatch]:
-        """Main method for RAG integration - search across all relevant ontologies"""
+        """Main method for RAG integration - search across all relevant ontologies_old"""
         all_matches = []
 
         # Search each loaded ontology
@@ -138,7 +139,7 @@ class OntologyManager:
         # Sort all matches by confidence
         all_matches.sort(key=lambda x: x.confidence, reverse=True)
 
-        return all_matches[:5]  # Return top 5 matches across all ontologies
+        return all_matches[:5]  # Return top 5 matches across all ontologies_old
 
     def _get_biolink_type(self, ontology_name: str, term) -> str:
         """Map ontology to BioLink type"""

@@ -23,7 +23,4 @@ class RelationshipExtractor(ABC):
     def extract_relationships(self, text: str, context: Dict = None) -> List[ExtractedRelationship]:
         raise NotImplementedError()
 
-    @abstractmethod
-    def get_extraction_confidence(self, relationship: ExtractedRelationship) -> float:
-        raise NotImplemented()
 
