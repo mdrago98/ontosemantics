@@ -1,20 +1,14 @@
 # OntoSemantics
 
-*Building machines that learn to learn through ontology-grounded validation*
+Literature-Guided Integration of Biomedical Ontologies for Cross-Domain Knowledge Discovery
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-OntoSemantics is a novel approach to biomedical relationship extraction that combines Large Language Models with ontology-grounded validation to create self-improving systems. Unlike traditional RAG systems with static knowledge bases, OntoSemantics creates a feedback loop where generated answers improve the knowledge base through semantic validation.
-
-### Key Innovation
-
-```
-Traditional RAG: Query → Static Knowledge Base → Retrieve → Generate
-OntoSemantics:   Query → Dynamic Knowledge Base ← Learn ← Validate ← Generate
-```
+OntoSemantics addresses a critical challenge in biomedical AI: isolated ontologies. While biomedical ontologies like MONDO (diseases), CHEBI (chemicals), and Gene Ontology contain rich internal structure, they exist in silos with minimal cross-domain relationships. This creates a fragmented knowledge landscape that limits comprehensive biomedical reasoning.
+Our solution uses hybrid transformer-ontology architectures to automatically discover and validate cross-ontology relationships from biomedical literature, creating the first large-scale integrated biomedical knowledge graph derived from literature evidence.
 
 ## Features
 
@@ -191,18 +185,6 @@ ONTOLOGY_URLS = {
 - **Real-time Knowledge Graph Updates**: Live integration of validated relationships
 - **Cross-Domain Transfer**: Extending beyond biomedical to other knowledge domains
 
-## Citation
-
-If you use OntoSemantics in your research, please cite:
-
-```bibtex
-@misc{ontosemantics2025,
-  title={OntoSemantics: Self-Improving Ontology-RAG Systems for Biomedical Relationship Extraction},
-  author={Matthew Drago},
-  year={2025},
-  url={https://github.com/mdrago98/ontosemantics}
-}
-```
 
 ## License
 
