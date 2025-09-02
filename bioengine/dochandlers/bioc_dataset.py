@@ -27,7 +27,7 @@ class BioCDataset(Dataset):
 
     def parse_annotations(self, passages) -> defaultdict:
         """
-        Your original parse_annotations function adapted for position tracking
+        Parsing of annotations from bioc format
         """
         parsed = defaultdict(list)
         cumulative_offset = 0
@@ -60,7 +60,7 @@ class BioCDataset(Dataset):
 
     def parse_relationships(self, relations: list, annotations: defaultdict) -> List[Dict]:
         """
-        Your original parse_relationships function adapted to return dicts
+        parses relationships from bioc
         """
         processed = []
 
