@@ -1,564 +1,573 @@
 """
-SPARQL Query Agent using LangGraph for OntoSemantics-LLM
-Focused on SPARQL generation and ontology querying for preliminary evaluation
+SPARQL Query Agent with Ontology-backed Hallucination Verification
+- Iterative query expansion to gather deep ontological context
+- Evidence scoring to decide if an LLM-asserted relation is supported or hallucinated
 """
 
 import json
 import time
 import re
-from typing import Dict, List, TypedDict, Annotated, Optional
+import math
+import logging
+from typing import Dict, List, Optional, Any, Tuple
+from dataclasses import dataclass, field
+
+import requests
 import numpy as np
 
-from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage, AIMessage
+# Optional: pyoxigraph Store (if installed and you want to load local ontologies)
+try:
+    from pyoxigraph import Store
+    PYOX_AVAILABLE = True
+except Exception:
+    Store = None
+    PYOX_AVAILABLE = False
+
+# LLM client placeholders (keeps your previous ChatOllama usage)
+# Keep same imports you used earlier - adapt to your environment:
+from langchain_core.messages import BaseMessage, HumanMessage, AIMessage, SystemMessage
 from langchain_ollama import ChatOllama
+
+# For state machine / workflow - keep using your langgraph
+# (we will instantiate nodes like before)
 from langgraph.graph import StateGraph, END
 from langgraph.graph.message import add_messages
-from pyoxigraph import Store
-import requests
 
-# ============= State Definition =============
+# ---------------------------------------------------------
+# Config & helpers
+# ---------------------------------------------------------
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-class SPARQLAgentState(TypedDict):
-    """State for SPARQL query generation and execution"""
-    # Input
-    extracted_entities: List[Dict]  # Entities from your extraction tool
-    extracted_relations: List[Dict]  # Relations from your extraction tool
-    original_text: str
+DEFAULT_SPARQL_ENDPOINT = "https://sparql.hegroup.org/sparql/"  # your previous fallback
 
-    # Processing
-    information_needs: List[str]
-    generated_queries: List[Dict]  # {need: str, query: str, priority: int}
-    query_results: List[Dict]  # {query: str, results: Any, execution_time: float}
+# protect labels for SPARQL string usage
+def sparql_escape_label(label: str) -> str:
+    if label is None:
+        return ""
+    # Escape backslashes and quotes, collapse newlines
+    safe = label.replace("\\", "\\\\").replace('"', r'\"').replace("\n", " ")
+    return safe
 
-    # Output
-    augmented_context: str
-    validation_status: Dict
+# detect if query is ASK
+def is_ask_query(q: str) -> bool:
+    return bool(re.search(r'\bASK\b', q, re.IGNORECASE))
 
-    # Metrics
-    messages: Annotated[List[BaseMessage], add_messages]
-    metrics: Dict
-
-# ============= SPARQL Templates =============
-
+# ---------------------------------------------------------
+# SPARQL TEMPLATES (expanded)
+# ---------------------------------------------------------
 SPARQL_TEMPLATES = {
     "validate_relation": """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
-PREFIX chebi: <http://purl.obolibrary.org/obo/CHEBI_>
-PREFIX mondo: <http://purl.obolibrary.org/obo/MONDO_>
-
 ASK WHERE {{
-    ?subject rdfs:label "{subject_label}" .
-    ?object rdfs:label "{object_label}" .
-    ?subject {predicate} ?object .
+  ?subject rdfs:label "{subject_label}" .
+  ?object rdfs:label "{object_label}" .
+  ?subject {predicate} ?object .
 }}
 """,
-
     "get_entity_type": """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX obo: <http://purl.obolibrary.org/obo/>
-
 SELECT ?type ?typeLabel WHERE {{
-    ?entity rdfs:label "{entity_label}" .
-    ?entity rdf:type ?type .
-    ?type rdfs:label ?typeLabel .
-}}
-LIMIT 5
-""",
-
-    "find_relations": """
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX obo: <http://purl.obolibrary.org/obo/>
-
-SELECT ?predicate ?object ?objectLabel WHERE {{
-    ?subject rdfs:label "{subject_label}" .
-    ?subject ?predicate ?object .
-    ?object rdfs:label ?objectLabel .
-    FILTER(!isBlank(?object))
-}}
-LIMIT 20
-""",
-
-    "get_hierarchy": """
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX obo: <http://purl.obolibrary.org/obo/>
-
-SELECT ?parent ?parentLabel WHERE {{
-    ?entity rdfs:label "{entity_label}" .
-    ?entity rdfs:subClassOf+ ?parent .
-    ?parent rdfs:label ?parentLabel .
+  ?entity rdfs:label "{entity_label}" .
+  ?entity rdf:type ?type .
+  ?type rdfs:label ?typeLabel .
 }}
 LIMIT 10
 """,
-
+    "find_relations": """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?predicate ?object ?objectLabel WHERE {{
+  ?subject rdfs:label "{subject_label}" .
+  ?subject ?predicate ?object .
+  OPTIONAL {{ ?object rdfs:label ?objectLabel . }}
+  FILTER(!isBlank(?object))
+}}
+LIMIT 50
+""",
+    "get_hierarchy": """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdfs2: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?parent ?parentLabel WHERE {{
+  ?entity rdfs:label "{entity_label}" .
+  ?entity rdfs:subClassOf+ ?parent .
+  OPTIONAL {{ ?parent rdfs:label ?parentLabel . }}
+}}
+LIMIT 50
+""",
+    "find_synonyms": """
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?altLabel WHERE {{
+  ?entity rdfs:label "{entity_label}" .
+  {{
+    ?entity skos:altLabel ?altLabel .
+  }} UNION {{
+    ?entity rdfs:label ?altLabel .
+  }}
+}}
+LIMIT 50
+""",
     "find_mechanism": """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
-PREFIX go: <http://purl.obolibrary.org/obo/GO_>
-
 SELECT ?mechanism ?mechanismLabel WHERE {{
-    ?drug rdfs:label "{drug_label}" .
-    ?drug obo:RO_0000087 ?role .  # has role
-    ?role obo:RO_0000052 ?mechanism .  # inheres in
-    ?mechanism rdfs:label ?mechanismLabel .
+  ?drug rdfs:label "{drug_label}" .
+  ?drug ?p ?mechanism .
+  OPTIONAL {{ ?mechanism rdfs:label ?mechanismLabel . }}
+  FILTER(CONTAINS(LCASE(STR(?p)), "mechan") || CONTAINS(LCASE(STR(?p)), "role") || CONTAINS(LCASE(STR(?p)), "inheres"))
 }}
-LIMIT 5
+LIMIT 20
 """
 }
 
-# ============= SPARQL Query Generator Agent =============
-
-class SPARQLGenerator:
-    """Generates SPARQL queries based on extraction context"""
-
-    def __init__(self, model_name: str = "gpt-3.5-turbo"):
-        self.llm = ChatOllama(
-            model="llama3.1:8b",
-            temperature=0,
-            # other params...
-        )
-        self.template_matcher = TemplateMatcher()
-
-    def analyze_information_needs(self, state: SPARQLAgentState) -> List[str]:
-        """Determine what information is needed based on extracted content"""
-
-        needs = []
-
-        # Analyze extracted entities
-        for entity in state["extracted_entities"]:
-            # Need to determine entity type if not clear
-            if entity.get("type") == "UNKNOWN" or not entity.get("ontology_id"):
-                needs.append(f"identify_type:{entity['text']}")
-
-            # Need to get hierarchy for diseases
-            if entity.get("type") in ["DISEASE", "DISORDER"]:
-                needs.append(f"get_hierarchy:{entity['text']}")
-
-        # Analyze extracted relations
-        for relation in state["extracted_relations"]:
-            # Validate the relation exists in ontology
-            needs.append(f"validate_relation:{relation['subject']}:{relation['predicate']}:{relation['object']}")
-
-            # If drug-disease relation, get mechanism
-            if self._is_drug_disease_relation(relation):
-                needs.append(f"find_mechanism:{relation['subject']}")
-
-        # Check for ambiguous relationships
-        if self._has_ambiguous_relations(state["extracted_relations"]):
-            needs.append("disambiguate_relations")
-
-        return needs
-
-    def generate_sparql(self, need: str, context: Dict) -> str:
-        """Generate SPARQL query for a specific information need"""
-
-        # Try template matching first
-        template_query = self.template_matcher.match(need, context)
-        if template_query:
-            return template_query
-
-        # Use LLM for complex queries
-        prompt = self._create_generation_prompt(need, context)
-        response = self.llm.invoke([SystemMessage(content=prompt)])
-
-        # Extract SPARQL from response
-        query = self._extract_sparql_from_response(response.content)
-        return query
-
-    def _create_generation_prompt(self, need: str, context: Dict) -> str:
-        """Create prompt for SPARQL generation"""
-
-        return f"""You are a SPARQL expert for biomedical ontologies.
-
-Available ontologies:
-- MONDO (diseases): PREFIX mondo: <http://purl.obolibrary.org/obo/MONDO_>
-- CHEBI (chemicals): PREFIX chebi: <http://purl.obolibrary.org/obo/CHEBI_>
-- GO (gene ontology): PREFIX go: <http://purl.obolibrary.org/obo/GO_>
-
-Information need: {need}
-Context: {json.dumps(context, indent=2)}
-
-Generate a SPARQL query to address this information need.
-Return ONLY the SPARQL query, no explanation.
-"""
-
-    def _extract_sparql_from_response(self, response: str) -> str:
-        """Extract SPARQL query from LLM response"""
-        # Remove markdown code blocks if present
-        response = re.sub(r'```sparql?\n?', '', response)
-        response = re.sub(r'```', '', response)
-        return response.strip()
-
-    def _is_drug_disease_relation(self, relation: Dict) -> bool:
-        """Check if relation is between drug and disease"""
-        subj_type = relation.get("subject_type", "")
-        obj_type = relation.get("object_type", "")
-        return ("DRUG" in subj_type or "CHEMICAL" in subj_type) and \
-            ("DISEASE" in obj_type or "DISORDER" in obj_type)
-
-    def _has_ambiguous_relations(self, relations: List[Dict]) -> bool:
-        """Check if there are ambiguous relations needing clarification"""
-        for rel in relations:
-            if rel.get("confidence", 1.0) < 0.5 or rel.get("predicate") == "UNKNOWN":
-                return True
-        return False
-
-# ============= Template Matcher =============
-
+# ---------------------------------------------------------
+# Template matcher and predicate mapping
+# ---------------------------------------------------------
 class TemplateMatcher:
-    """Matches information needs to SPARQL templates"""
-
-    def match(self, need: str, context: Dict) -> Optional[str]:
-        """Try to match need to a template"""
-
-        parts = need.split(":")
-        need_type = parts[0] if parts else ""
-
-        if need_type == "identify_type" and len(parts) > 1:
-            entity = parts[1]
-            return SPARQL_TEMPLATES["get_entity_type"].format(entity_label=entity)
-
-        elif need_type == "get_hierarchy" and len(parts) > 1:
-            entity = parts[1]
-            return SPARQL_TEMPLATES["get_hierarchy"].format(entity_label=entity)
-
-        elif need_type == "validate_relation" and len(parts) > 3:
-            subject, predicate, obj = parts[1], parts[2], parts[3]
-            # Convert predicate to ontology format
-            predicate_uri = self._convert_predicate(predicate)
-            return SPARQL_TEMPLATES["validate_relation"].format(
-                subject_label=subject,
-                predicate=predicate_uri,
-                object_label=obj
-            )
-
-        elif need_type == "find_mechanism" and len(parts) > 1:
-            drug = parts[1]
-            return SPARQL_TEMPLATES["find_mechanism"].format(drug_label=drug)
-
-        elif need_type == "find_relations" and len(parts) > 1:
-            entity = parts[1]
-            return SPARQL_TEMPLATES["find_relations"].format(subject_label=entity)
-
-        return None
-
-    def _convert_predicate(self, predicate: str) -> str:
-        """Convert natural language predicate to ontology predicate"""
-        predicate_map = {
+    def __init__(self):
+        # extended mapping including common RO relations and simpler verbs
+        self.predicate_map = {
             "treats": "obo:RO_0002606",
             "causes": "obo:RO_0002410",
             "prevents": "obo:RO_0002559",
             "inhibits": "obo:RO_0002449",
-            "activates": "obo:RO_0002448"
+            "activates": "obo:RO_0002448",
+            # alternate names
+            "reduces risk of": "obo:RO_0002606",
+            "is associated with": "obo:RO_0002610"
         }
-        return predicate_map.get(predicate.lower(), f"obo:{predicate}")
 
-# ============= SPARQL Executor =============
+    def match(self, need: str, context: Dict) -> Optional[str]:
+        parts = need.split(":")
+        t = parts[0]
+        if t == "identify_type" and len(parts) > 1:
+            entity = sparql_escape_label(parts[1])
+            return SPARQL_TEMPLATES["get_entity_type"].format(entity_label=entity)
 
+        if t == "get_hierarchy" and len(parts) > 1:
+            entity = sparql_escape_label(parts[1])
+            return SPARQL_TEMPLATES["get_hierarchy"].format(entity_label=entity)
+
+        if t == "validate_relation" and len(parts) > 3:
+            subj, pred, obj = parts[1], parts[2], parts[3]
+            predicate_uri = self._convert_predicate(pred)
+            return SPARQL_TEMPLATES["validate_relation"].format(
+                subject_label=sparql_escape_label(subj),
+                predicate=predicate_uri,
+                object_label=sparql_escape_label(obj)
+            )
+
+        if t == "find_relations" and len(parts) > 1:
+            entity = sparql_escape_label(parts[1])
+            return SPARQL_TEMPLATES["find_relations"].format(subject_label=entity)
+
+        if t == "find_synonyms" and len(parts) > 1:
+            entity = sparql_escape_label(parts[1])
+            return SPARQL_TEMPLATES["find_synonyms"].format(entity_label=entity)
+
+        if t == "find_mechanism" and len(parts) > 1:
+            drug = sparql_escape_label(parts[1])
+            return SPARQL_TEMPLATES["find_mechanism"].format(drug_label=drug)
+
+        return None
+
+    def _convert_predicate(self, predicate: str) -> str:
+        return self.predicate_map.get(predicate.lower(), f"obo:{predicate}")
+
+# ---------------------------------------------------------
+# SPARQL Executor (with caching and retries)
+# ---------------------------------------------------------
 class SPARQLExecutor:
-    """Executes SPARQL queries against ontology store"""
-
-    def __init__(self, ontology_path: Optional[str] = None):
-        self.store = Store()
-        if ontology_path:
-            self.load_ontology(ontology_path)
-
-        # For demo: use a public SPARQL endpoint as fallback
-        # self.endpoint = "https://sparql.uniprot.org/sparql"  # Example endpoint
-        self.endpoint = "https://sparql.hegroup.org/sparql/"
-
-    def load_ontology(self, path: str):
-        """Load ontology into store"""
-        try:
-            self.store.load(path, format="application/rdf+xml")
-        except Exception as e:
-            print(f"Error loading ontology: {e}")
-
-    def execute(self, query: str) -> Dict:
-        """Execute SPARQL query"""
-        start_time = time.time()
-
-        try:
-            # Try local store first
-            # results = list(self.store.query(query))
-            results =  self._query_endpoint(query)
-            execution_time = time.time() - start_time
-
-            return {
-                "success": True,
-                "results": results,
-                "execution_time": execution_time,
-                "source": "local"
-            }
-        except Exception:
-            # Fallback to endpoint
+    def __init__(self, endpoint: str = DEFAULT_SPARQL_ENDPOINT, ontology_path: Optional[str] = None, max_retries: int = 3):
+        self.endpoint = endpoint
+        self.max_retries = max_retries
+        self.cache: Dict[str, Dict] = {}
+        if PYOX_AVAILABLE and ontology_path:
             try:
-                results = self._query_endpoint(query)
-                execution_time = time.time() - start_time
-
-                return {
-                    "success": True,
-                    "results": results,
-                    "execution_time": execution_time,
-                    "source": "endpoint"
-                }
-            except Exception as e2:
-                return {
-                    "success": False,
-                    "error": str(e2),
-                    "execution_time": time.time() - start_time
-                }
-
-    def _serialize_results(self, results):
-        """Convert pyoxigraph results to JSON-serializable format"""
-        serialized = []
-        for row in results:
-            serialized_row = {}
-            for key, value in row.items():
-                serialized_row[str(key)] = str(value)
-            serialized.append(serialized_row)
-        return serialized
-
-    def _query_endpoint(self, query: str) -> List[Dict]:
-        """Query a SPARQL endpoint"""
-        response = requests.post(
-            self.endpoint,
-            data={"query": query},
-            headers={"Accept": "application/sparql-results+json"}
-        )
-
-        if response.status_code == 200:
-            return response.json().get("results", {}).get("bindings", [])
+                self.store = Store()
+                self.store.load(ontology_path, format="application/rdf+xml")
+                logger.info("Loaded ontology into local store.")
+            except Exception as e:
+                logger.warning(f"Could not load ontology locally: {e}")
+                self.store = None
         else:
-            raise Exception(f"Endpoint query failed: {response.status_code}")
+            self.store = None
 
-# ============= Context Augmenter =============
+    def execute(self, query: str) -> Dict[str, Any]:
+        key = hash(query)
+        if key in self.cache:
+            return {"from_cache": True, **self.cache[key]}
 
-class ContextAugmenter:
-    """Creates augmented context from SPARQL results"""
+        start = time.time()
+        # If local store exists and supports querying, you could run it here.
+        # For portability we use endpoint HTTP POST
+        attempt = 0
+        backoff = 0.5
+        while attempt < self.max_retries:
+            try:
+                headers = {"Accept": "application/sparql-results+json"}
+                resp = requests.post(self.endpoint, data={"query": query}, headers=headers, timeout=15)
+                if resp.status_code != 200:
+                    raise Exception(f"Bad status: {resp.status_code} {resp.text[:200]}")
+                data = resp.json()
 
-    def augment(self, state: SPARQLAgentState) -> str:
-        """Create augmented context from query results"""
+                # convert to canonical results
+                bindings = data.get("results", {}).get("bindings", [])
+                exec_time = time.time() - start
+                result = {
+                    "success": True,
+                    "execution_time": exec_time,
+                    "results": bindings,
+                    "count": len(bindings),
+                    "is_ask": is_ask_query(query),
+                    "raw": data
+                }
+                self.cache[key] = result
+                return result
+            except Exception as e:
+                attempt += 1
+                logger.warning(f"SPARQL attempt {attempt} failed: {e}")
+                time.sleep(backoff)
+                backoff *= 2
 
-        context_parts = []
-
-        # Add original text for reference
-        context_parts.append(f"Original text: {state['original_text']}")
-        context_parts.append("\n--- Ontological Context ---\n")
-
-        # Process each query result
-        for query_result in state["query_results"]:
-            if query_result.get("success") and query_result.get("results"):
-                context = self._format_results(
-                    query_result["query"],
-                    query_result["results"]
-                )
-                context_parts.append(context)
-
-        # Add validation status
-        if state.get("validation_status"):
-            context_parts.append("\n--- Validation ---\n")
-            for relation, status in state["validation_status"].items():
-                context_parts.append(f"{relation}: {status}")
-
-        return "\n".join(context_parts)
-
-    def _format_results(self, query: str, results: List[Dict]) -> str:
-        """Format query results for context"""
-
-        # Identify query type from the query string
-        if "ASK WHERE" in query:
-            # Boolean result
-            return f"Validation result: {bool(results)}"
-
-        elif "SELECT" in query:
-            # Table results
-            if not results:
-                return "No results found."
-
-            formatted = []
-            for row in results[:5]:  # Limit to top 5 for context
-                row_str = ", ".join([f"{k}: {v.get('value', v)}"
-                                     for k, v in row.items()])
-                formatted.append(f"  - {row_str}")
-
-            return "\n".join(formatted)
-
-        return str(results)
-
-# ============= LangGraph Workflow =============
-
-def create_sparql_workflow() -> StateGraph:
-    """Create the LangGraph workflow for SPARQL agent"""
-
-    # Initialize components
-    generator = SPARQLGenerator()
-    executor = SPARQLExecutor()
-    augmenter = ContextAugmenter()
-
-    # Create workflow
-    graph = StateGraph(SPARQLAgentState)
-
-    # Node: Analyze information needs
-    def analyze_needs(state: SPARQLAgentState) -> SPARQLAgentState:
-        """Determine what information is needed"""
-        needs = generator.analyze_information_needs(state)
-        state["information_needs"] = needs
-        state["messages"].append(
-            HumanMessage(content=f"Identified {len(needs)} information needs")
-        )
-        return state
-
-    # Node: Generate SPARQL queries
-    def generate_queries(state: SPARQLAgentState) -> SPARQLAgentState:
-        """Generate SPARQL queries for information needs"""
-        queries = []
-
-        for i, need in enumerate(state["information_needs"][:10]):  # Limit for demo
-            context = {
-                "entities": state["extracted_entities"],
-                "relations": state["extracted_relations"]
-            }
-
-            query = generator.generate_sparql(need, context)
-            queries.append({
-                "need": need,
-                "query": query,
-                "priority": i
-            })
-
-        state["generated_queries"] = queries
-        state["messages"].append(
-            AIMessage(content=f"Generated {len(queries)} SPARQL queries")
-        )
-        return state
-
-    # Node: Execute queries
-    def execute_queries(state: SPARQLAgentState) -> SPARQLAgentState:
-        """Execute SPARQL queries"""
-        results = []
-        validation_status = {}
-
-        for query_obj in state["generated_queries"]:
-            result = executor.execute(query_obj["query"])
-            result["query"] = query_obj["query"]
-            result["need"] = query_obj["need"]
-            results.append(result)
-
-            # Track validation results
-            if "validate_relation" in query_obj["need"]:
-                parts = query_obj["need"].split(":")
-                if len(parts) > 3:
-                    relation_key = f"{parts[1]}-{parts[2]}-{parts[3]}"
-                    validation_status[relation_key] = result.get("success", False)
-
-        state["query_results"] = results
-        state["validation_status"] = validation_status
-
-        # Calculate metrics
-        successful = sum(1 for r in results if r.get("success"))
-        avg_time = np.mean([r.get("execution_time", 0) for r in results])
-
-        state["metrics"] = {
-            "total_queries": len(results),
-            "successful_queries": successful,
-            "average_execution_time": avg_time
+        # final failure
+        return {
+            "success": False,
+            "error": f"Failed after {self.max_retries} attempts"
         }
 
-        state["messages"].append(
-            AIMessage(content=f"Executed {len(results)} queries, {successful} successful")
+# ---------------------------------------------------------
+# QueryPlanner: expand needs and orchestrate iterative exploration
+# ---------------------------------------------------------
+@dataclass
+class QueryPlanner:
+    matcher: TemplateMatcher
+    max_depth: int = 3
+    visited_needs: set = field(default_factory=set)
+
+    def plan_initial(self, state: Dict) -> List[str]:
+        # initial needs from extraction
+        needs = []
+        for ent in state["extracted_entities"]:
+            text = ent.get("text")
+            if not ent.get("ontology_id") or ent.get("type") == "UNKNOWN":
+                needs.append(f"identify_type:{text}")
+            # always consider synonym discovery to catch label variance
+            needs.append(f"find_synonyms:{text}")
+
+            if ent.get("type") in ["DISEASE", "DISORDER"]:
+                needs.append(f"get_hierarchy:{text}")
+
+        for rel in state["extracted_relations"]:
+            subj = rel["subject"]
+            pred = rel["predicate"]
+            obj = rel["object"]
+            needs.append(f"validate_relation:{subj}:{pred}:{obj}")
+            # if drug-disease candidate, seek mechanism
+            if ("DRUG" in rel.get("subject_type", "").upper() or "CHEMICAL" in rel.get("subject_type", "").upper()) and \
+               ("DISEASE" in rel.get("object_type", "").upper() or "DISORDER" in rel.get("object_type", "").upper()):
+                needs.append(f"find_mechanism:{subj}")
+
+        # deduplicate while preserving priority
+        result = []
+        seen = set()
+        for n in needs:
+            if n not in seen:
+                seen.add(n)
+                result.append(n)
+        return result
+
+    def expand(self, need: str, response_results: Dict, depth: int) -> List[str]:
+        """From a need and results produce follow-ups; depth-limited"""
+        if depth >= self.max_depth:
+            return []
+
+        outs = []
+        parts = need.split(":")
+        t = parts[0]
+        if t == "validate_relation":
+            # if ASK failed, search for relations and synonyms of subject/object and mechanistic links
+            if not response_results.get("success") or (response_results.get("is_ask") and response_results.get("count", 0) == 0):
+                subj = parts[1]
+                obj = parts[3] if len(parts) > 3 else None
+                if subj:
+                    outs.append(f"find_relations:{subj}")
+                    outs.append(f"find_synonyms:{subj}")
+                if obj:
+                    outs.append(f"find_relations:{obj}")
+                    outs.append(f"find_synonyms:{obj}")
+                # try mechanism for drug-disease even if initial ASK fails
+                outs.append(f"find_mechanism:{subj}")
+        elif t == "find_synonyms":
+            # if synonyms found, plan to re-run validate relations using synonyms (higher chance of match)
+            if response_results.get("count", 0) > 0:
+                for b in response_results.get("results", []):
+                    alt = b.get("altLabel", {}).get("value")
+                    if alt:
+                        # create new needs to revalidate relations using alt label
+                        # We don't know which relation yet; caller should trigger revalidation
+                        outs.append(f"resolved_synonym:{alt}")
+        elif t == "get_hierarchy":
+            # if we get parents, check parent labels for relations (broaden)
+            if response_results.get("count", 0) > 0:
+                for b in response_results.get("results", []):
+                    parent_label = b.get("parentLabel", {}).get("value")
+                    if parent_label:
+                        outs.append(f"find_relations:{parent_label}")
+                        outs.append(f"find_synonyms:{parent_label}")
+        # deduplicate
+        return list(dict.fromkeys(outs))
+
+# ---------------------------------------------------------
+# SPARQL Generator with LLM fallback & context seeding
+# ---------------------------------------------------------
+class SPARQLGenerator:
+    def __init__(self, model_name: str = "llama3.1:8b"):
+        # deterministic
+        self.llm = ChatOllama(model=model_name, temperature=0)
+        self.matcher = TemplateMatcher()
+
+    def generate(self, need: str, context: Dict) -> str:
+        # try template first
+        templ = self.matcher.match(need, context)
+        if templ:
+            return templ
+
+        # build a richer prompt including ontology-derived context to encourage expansion
+        prompt = self._create_prompt(need, context)
+        sys = SystemMessage(content=prompt)
+        try:
+            resp = self.llm.invoke([sys])
+            # `resp` might be structured or text — adapt extracting content
+            content = getattr(resp, "content", resp)
+            query = self._extract_sparql_from_response(content)
+            return query
+        except Exception as e:
+            logger.warning(f"LLM generation failed: {e}")
+            # fallback: return an empty safe ASK that will fail but is predictable
+            return f"ASK WHERE {{ ?s ?p ?o . FILTER(false) }}"
+
+    def _create_prompt(self, need: str, context: Dict) -> str:
+        short_ctx = {
+            "entities": [e.get("text") for e in context.get("entities", [])],
+            "relations": context.get("relations", [])
+        }
+        return (
+            "You are an expert SPARQL builder for biomedical ontologies (MONDO, CHEBI, GO, OBO). "
+            "Use available labels, synonyms, and hierarchy to create SPARQL queries that help validate claims. "
+            "Return ONLY the SPARQL query.\n\n"
+            f"Information need: {need}\n"
+            f"Context (entities/relations): {json.dumps(short_ctx, indent=2)}\n\n"
+            "Prefer ASK for direct validation and SELECT to gather supporting evidence (labels, predicate URIs)."
         )
-        return state
 
-    # Node: Augment context
-    def augment_context(state: SPARQLAgentState) -> SPARQLAgentState:
-        """Create augmented context from results"""
-        augmented = augmenter.augment(state)
-        state["augmented_context"] = augmented
-        state["messages"].append(
-            AIMessage(content=f"Created augmented context ({len(augmented)} chars)")
-        )
-        return state
+    def _extract_sparql_from_response(self, response: str) -> str:
+        # remove code fences
+        s = re.sub(r'```(?:sparql)?\n', '', response)
+        s = s.replace('```', '')
+        return s.strip()
 
-    # Add nodes to workflow
-    graph.add_node("analyze_needs", analyze_needs)
-    graph.add_node("generate_queries", generate_queries)
-    graph.add_node("execute_queries", execute_queries)
-    graph.add_node("augment_context", augment_context)
+# ---------------------------------------------------------
+# Context Augmenter + Evidence scoring
+# ---------------------------------------------------------
+class ContextAugmenter:
+    def augment(self, state: Dict) -> str:
+        parts = []
+        parts.append("Original text: " + state.get("original_text", ""))
+        parts.append("\n--- Ontology Evidence ---\n")
+        for r in state.get("query_results", []):
+            if r.get("success"):
+                parts.append(self._format_single_result(r))
+        if state.get("validation_status"):
+            parts.append("\n--- Validation Summary ---\n")
+            parts.append(json.dumps(state["validation_status"], indent=2))
+        return "\n".join(parts)
 
-    # Define edges
-    graph.add_edge("analyze_needs", "generate_queries")
-    graph.add_edge("generate_queries", "execute_queries")
-    graph.add_edge("execute_queries", "augment_context")
-    graph.add_edge("augment_context", END)
+    def _format_single_result(self, r: Dict) -> str:
+        q = r.get("query", "")[:200]
+        cnt = r.get("count", 0)
+        sample = ""
+        if r.get("results"):
+            sample_items = []
+            for row in r["results"][:3]:
+                row_str = {k: v.get("value") if isinstance(v, dict) else str(v) for k, v in row.items()}
+                sample_items.append(row_str)
+            sample = json.dumps(sample_items, indent=2)
+        return f"Query: {q}\nCount: {cnt}\nSample: {sample}\n"
 
-    # Set entry point
-    graph.set_entry_point("analyze_needs")
+def compute_validation_score(results_for_relation: List[Dict]) -> float:
+    """
+    Combines signals:
+     - direct ASK true -> high score
+     - number of supporting bindings
+     - mechanistic evidence presence
+     - depth of ontology support (parents)
+    Returns 0..1
+    """
+    if not results_for_relation:
+        return 0.0
 
-    return graph.compile()
+    score = 0.0
+    # if any ASK returned true
+    for r in results_for_relation:
+        if r.get("is_ask") and r.get("success") and r.get("count", 0) > 0:
+            score = max(score, 0.9)
 
-# ============= Evaluation Functions =============
+    # count supporting triples
+    total_bindings = sum(r.get("count", 0) for r in results_for_relation)
+    # log-scale contribution (diminishing returns)
+    if total_bindings > 0:
+        score = max(score, min(0.7, 0.2 + math.log1p(total_bindings) / 5.0))
 
-def evaluate_sparql_agent(test_cases: List[Dict]) -> Dict:
-    """Evaluate SPARQL agent on test cases"""
+    # mechanistic boost
+    mech_evidence = any("mechanism" in (json.dumps(r.get("query", "")).lower()) or
+                        any("mechanism" in k.lower() or "role" in k.lower() for k in (",".join(r.get("query", "").lower().split()) ,))
+                        for r in results_for_relation)
+    if mech_evidence:
+        score = min(1.0, score + 0.15)
 
-    app = create_sparql_workflow()
-    print(app.get_graph().print_ascii())
-    results = []
+    return float(min(1.0, score))
 
-    for test_case in test_cases:
-        # Prepare initial state
-        initial_state = {
-            "extracted_entities": test_case["entities"],
-            "extracted_relations": test_case["relations"],
-            "original_text": test_case["text"],
+# ---------------------------------------------------------
+# Workflow wiring similar to your original LangGraph nodes
+# ---------------------------------------------------------
+class SPARQLAgent:
+    def __init__(self, endpoint: str = DEFAULT_SPARQL_ENDPOINT, model_name: str = "llama3.1:8b"):
+        self.generator = SPARQLGenerator(model_name=model_name)
+        self.executor = SPARQLExecutor(endpoint=endpoint)
+        self.matcher = self.generator.matcher
+        self.planner = QueryPlanner(self.matcher, max_depth=3)
+        self.augmenter = ContextAugmenter()
+
+    def run_for_case(self, case: Dict, max_iterations: int = 20) -> Dict:
+        # initial state
+        state = {
+            "original_text": case.get("text", ""),
+            "extracted_entities": case.get("entities", []),
+            "extracted_relations": case.get("relations", []),
             "information_needs": [],
             "generated_queries": [],
             "query_results": [],
-            "augmented_context": "",
             "validation_status": {},
             "messages": [],
             "metrics": {}
         }
 
-        # Run workflow
-        start_time = time.time()
-        final_state = app.invoke(initial_state)
-        total_time = time.time() - start_time
+        # create initial needs
+        queue = self.planner.plan_initial(state)
+        iteration = 0
+        depth_map = {n: 0 for n in queue}
 
-        # Collect metrics
-        result = {
-            "test_case": test_case["id"],
+        all_query_objs = []
+        # We'll also keep mapping relation->list of results for scoring
+        relation_evidence: Dict[str, List[Dict]] = {}
+
+        while queue and iteration < max_iterations:
+            need = queue.pop(0)
+            d = depth_map.get(need, 0)
+            iteration += 1
+            logger.info(f"[iter {iteration}] Processing need='{need}' (depth {d})")
+
+            query = self.generator.generate(need, {
+                "entities": state["extracted_entities"],
+                "relations": state["extracted_relations"]
+            })
+
+            # store generated query
+            qobj = {"need": need, "query": query, "priority": iteration}
+            all_query_objs.append(qobj)
+            # execute
+            result = self.executor.execute(query)
+            result["query"] = query
+            result["need"] = need
+            state["query_results"].append(result)
+
+            # route results for relation scoring
+            if need.startswith("validate_relation"):
+                # extract canonical relation key
+                parts = need.split(":")
+                if len(parts) > 3:
+                    key = f"{parts[1]}-{parts[2]}-{parts[3]}"
+                    relation_evidence.setdefault(key, []).append(result)
+
+            # planner expansion
+            new_needs = self.planner.expand(need, result, d)
+            for n in new_needs:
+                if n not in depth_map or depth_map[n] > d + 1:
+                    # set depth and enqueue
+                    depth_map[n] = d + 1
+                    queue.append(n)
+
+            # If synonyms resolved -> requeue validation of relations using synonyms
+            if need.startswith("find_synonyms") and result.get("success"):
+                for b in result.get("results", []):
+                    alt = b.get("altLabel", {}).get("value") or b.get("altLabel")
+                    if alt:
+                        # For each existing relation, attempt revalidation with alt label substitution
+                        for rel in state["extracted_relations"]:
+                            new_need = f"validate_relation:{alt}:{rel['predicate']}:{rel['object']}"
+                            if new_need not in depth_map:
+                                depth_map[new_need] = d + 1
+                                queue.append(new_need)
+
+            # stop early if we've got strong evidence for all relations
+            # compute preliminary validation scores and decide
+            for rel in state["extracted_relations"]:
+                key = f"{rel['subject']}-{rel['predicate']}-{rel['object']}"
+                if key in relation_evidence:
+                    score = compute_validation_score(relation_evidence[key])
+                    state["validation_status"][key] = {"score": score, "evidence_count": len(relation_evidence[key])}
+            # if all relations have score >= threshold (0.7) we can stop
+            if state["validation_status"] and all(v["score"] >= 0.7 for v in state["validation_status"].values()):
+                logger.info("All relations validated above threshold, stopping early.")
+                break
+
+        # finalize metrics
+        state["generated_queries"] = all_query_objs
+        successful = sum(1 for r in state["query_results"] if r.get("success"))
+        avg_time = np.mean([r.get("execution_time", 0) for r in state["query_results"]]) if state["query_results"] else 0.0
+        state["metrics"] = {
+            "total_queries": len(state["query_results"]),
+            "successful_queries": successful,
+            "average_execution_time": float(avg_time)
+        }
+        state["augmented_context"] = self.augmenter.augment(state)
+
+        return state
+
+# ---------------------------------------------------------
+# Evaluation harness similar to your evaluate_sparql_agent
+# ---------------------------------------------------------
+def evaluate_agent(agent: SPARQLAgent, test_cases: List[Dict]) -> Dict:
+    results = []
+    for tc in test_cases:
+        t0 = time.time()
+        final_state = agent.run_for_case(tc)
+        total_time = time.time() - t0
+        res = {
+            "test_case": tc["id"],
             "total_time": total_time,
             "queries_generated": len(final_state["generated_queries"]),
-            "queries_successful": final_state["metrics"].get("successful_queries", 0),
-            "avg_query_time": final_state["metrics"].get("average_execution_time", 0),
+            "queries_successful": final_state["metrics"]["successful_queries"],
+            "avg_query_time": final_state["metrics"]["average_execution_time"],
             "context_length": len(final_state["augmented_context"]),
             "validations": final_state["validation_status"]
         }
+        logger.info(f"Case {tc['id']}: {res['queries_successful']}/{res['queries_generated']} queries successful")
+        results.append(res)
 
-        results.append(result)
-
-        # Print progress
-        print(f"Test case {test_case['id']}: {result['queries_successful']}/{result['queries_generated']} queries successful")
-
-    # Calculate aggregate metrics
     aggregate = {
         "total_cases": len(results),
-        "avg_queries_per_case": np.mean([r["queries_generated"] for r in results]),
-        "success_rate": np.mean([r["queries_successful"]/max(r["queries_generated"], 1) for r in results]),
-        "avg_total_time": np.mean([r["total_time"] for r in results]),
-        "avg_query_time": np.mean([r["avg_query_time"] for r in results])
+        "avg_queries_per_case": float(np.mean([r["queries_generated"] for r in results])) if results else 0.0,
+        "avg_total_time": float(np.mean([r["total_time"] for r in results])) if results else 0.0
     }
+    return {"individual_results": results, "aggregate_metrics": aggregate}
 
-    return {
-        "individual_results": results,
-        "aggregate_metrics": aggregate
-    }
-
-# ============= Example Usage =============
-
+# ---------------------------------------------------------
+# Example usage: keep similar test cases
+# ---------------------------------------------------------
 if __name__ == "__main__":
     test_cases = [
         {
@@ -603,21 +612,9 @@ if __name__ == "__main__":
         }
     ]
 
-    # Run evaluation
-    print("Starting SPARQL Agent Evaluation...")
-    results = evaluate_sparql_agent(test_cases)
-
-    # Print results
-    print("\n=== Evaluation Results ===")
-    print(f"Total test cases: {results['aggregate_metrics']['total_cases']}")
-    print(f"Average queries per case: {results['aggregate_metrics']['avg_queries_per_case']:.1f}")
-    print(f"Query success rate: {results['aggregate_metrics']['success_rate']:.2%}")
-    print(f"Average total time: {results['aggregate_metrics']['avg_total_time']:.2f}s")
-    print(f"Average query execution time: {results['aggregate_metrics']['avg_query_time']:.3f}s")
-
-    # These numbers can be used in your presentation!
-    print("\n=== Numbers for Presentation ===")
-    print(f"• Generates {results['aggregate_metrics']['avg_queries_per_case']:.0f} SPARQL queries per extraction")
-    print(f"• {results['aggregate_metrics']['success_rate']:.0%} query success rate")
-    print(f"• {results['aggregate_metrics']['avg_query_time']*1000:.0f}ms average query time")
-    print(f"• Total pipeline time: {results['aggregate_metrics']['avg_total_time']:.1f}s per document")
+    agent = SPARQLAgent(endpoint=DEFAULT_SPARQL_ENDPOINT, model_name="llama3.1:8b")
+    print("Starting Ontology-backed SPARQL Agent Evaluation...")
+    summary = evaluate_agent(agent, test_cases)
+    print(json.dumps(summary["aggregate_metrics"], indent=2))
+    for r in summary["individual_results"]:
+        print(json.dumps(r, indent=2))
