@@ -28,8 +28,8 @@ logger = logging.getLogger("hierarchical_verifier")
 
 # ------------ Config ------------
 DEFAULT_SPARQL_ENDPOINTS = [
-    # "https://sparql.hegroup.org/sparql/"  # fallback; replace with your endpoints
-    "https://sparql.uniprot.org/sparql"  # fallback; replace with your endpoints
+    "https://sparql.hegroup.org/sparql/"  # fallback; replace with your endpoints
+    # "https://sparql.uniprot.org/sparql"  # fallback; replace with your endpoints
 ]
 LLM_MODEL = "gemma3:1b"  # replace if needed
 VALIDATION_THRESHOLD = 0.7
@@ -500,7 +500,7 @@ def node_generator(state: Dict) -> Dict:
     strategy = state.get("current_strategy", "standard")
     ctx = {"entities": state.get("extracted_entities", []), "relations": state.get("extracted_relations", [])}
     query = gen.generate(need, ctx, strategy=strategy, previous_failures=prev_failures)
-    logger.debug('Generated Query: ', query)
+    # logger.debug('Generated Query: ', query)
     state["current_query"] = query
     state.setdefault("messages", []).append(AIMessage(content=f"Generated query for {need} with strategy {strategy}"))
     return state
@@ -525,7 +525,7 @@ def node_executor(state: Dict) -> Dict:
     return state
 
 def node_verifier(state: Dict) -> Dict:
-    """Leaf: process last_query_result; update relation_evidence and validation_status"""
+    """Process last_query_result; handle indirect/multihop results."""
     res = state.get("last_query_result")
     if not res:
         return state
@@ -540,8 +540,21 @@ def node_verifier(state: Dict) -> Dict:
         )
         return state
 
-    if res.get("has_evidence"):
-        key = need  # keep full string
+    has_evidence = False
+    # Detect indirect evidence
+    if not res.get("has_evidence") and not res.get("is_ask"):
+        # Check if bindings contain expected subject and object through intermediates
+        bindings = res.get("results", [])
+        if bindings:
+            has_evidence = True
+            for b in bindings:
+                # optionally normalize and record intermediate nodes
+                state.setdefault("relation_evidence", {}).setdefault(need, []).append(b)
+    else:
+        has_evidence = res.get("has_evidence")
+
+    if has_evidence:
+        key = need
         state.setdefault("relation_evidence", {}).setdefault(key, []).append(res)
         score, reason = compute_validation_score(state["relation_evidence"][key])
         state.setdefault("validation_status", {})[key] = {
@@ -560,7 +573,6 @@ def node_verifier(state: Dict) -> Dict:
             HumanMessage(content=f"No evidence for {need} (empty result)")
         )
     return state
-
 
 def node_augment(state: Dict) -> Dict:
     """Leaf: augment context with evidence summary; used by supervisor decision"""
@@ -694,18 +706,18 @@ if __name__ == "__main__":
     verifier = HierarchicalVerifier()
 
     sample_cases = [
-        # {
-        #     "id": "case_metformin",
-        #     "text": "Metformin is used to treat type 2 diabetes by improving insulin sensitivity.",
-        #     "entities": [{"text":"Metformin"},{"text":"type 2 diabetes"},{"text":"insulin sensitivity"}],
-        #     "relations": [{"subject":"Metformin","predicate":"treats","object":"type 2 diabetes"}]
-        # },
         {
-            "id": "case_aspirin",
-            "text": "Aspirin reduces colorectal cancer risk through COX-2 inhibition.",
-            "entities": [{"text":"Aspirin"},{"text":"colorectal cancer"},{"text":"COX-2"}],
-            "relations": [{"subject":"Aspirin","predicate":"prevents","object":"colorectal cancer"}]
-        }
+            "id": "case_metformin",
+            "text": "Metformin is used to treat type 2 diabetes by improving insulin sensitivity.",
+            "entities": [{"text":"Metformin"},{"text":"type 2 diabetes"},{"text":"insulin sensitivity"}],
+            "relations": [{"subject":"Metformin","predicate":"treats","object":"type 2 diabetes"}]
+        },
+        # {
+        #     "id": "case_aspirin",
+        #     "text": "Aspirin reduces colorectal cancer risk through COX-2 inhibition.",
+        #     "entities": [{"text":"Aspirin"},{"text":"colorectal cancer"},{"text":"COX-2"}],
+        #     "relations": [{"subject":"Aspirin","predicate":"prevents","object":"colorectal cancer"}]
+        # }
     ]
 
     results = []
