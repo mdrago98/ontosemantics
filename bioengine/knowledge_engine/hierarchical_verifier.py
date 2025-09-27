@@ -16,7 +16,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import StateGraph, END
 
 # ---------------- Logging ----------------
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger("hierarchical_verifier")
 
 # ---------------- Config ----------------
@@ -26,11 +26,91 @@ VALIDATION_THRESHOLD = 0.7
 def sparql_escape(text: str) -> str:
     return re.sub(r'["\'\\\n\r\t]+', ' ', text or "").strip()
 
+
+from langchain.tools import tool
+
+# ---------- Ontology Verifier ----------
+class OntologyVerifier:
+    def __init__(self, executor):
+        self.executor = executor
+
+    def get_domain_range(self, predicate_uri: str):
+        query = f"""
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?domain ?range WHERE {{
+          OPTIONAL {{ <{predicate_uri}> rdfs:domain ?domain . }}
+          OPTIONAL {{ <{predicate_uri}> rdfs:range ?range . }}
+        }}
+        """
+        res = self.executor(query)
+        if res.get("success") and not res.get("is_ask"):
+            bindings = res.get("results", [])
+            if bindings:
+                return (
+                    bindings[0].get("domain", {}).get("value"),
+                    bindings[0].get("range", {}).get("value"),
+                )
+        return None, None
+
+    def is_instance_of(self, entity_uri: str, class_uri: str) -> bool:
+        """Check if entity is instance of class (directly or via subclass chain)."""
+        query = f"""
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        ASK {{
+          <{entity_uri}> a/rdfs:subClassOf* <{class_uri}> .
+        }}
+        """
+        res = self.executor(query)
+        return res.get("ask_result", False)
+
+    def check_disjoint(self, class1: str, class2: str) -> bool:
+        query = f"""
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        ASK {{ <{class1}> owl:disjointWith <{class2}> . }}
+        """
+        res = self.executor(query)
+        return res.get("ask_result", False)
+
+    def verify(self, subject_uri: str, predicate_uri: str, object_uri: str) -> dict:
+        """
+        Verify triple against ontology:
+        - Check subject ∈ domain
+        - Check object ∈ range
+        - Check disjointness
+        """
+        domain, range_ = self.get_domain_range(predicate_uri)
+
+        subj_ok, obj_ok = True, True
+        if domain:
+            subj_ok = self.is_instance_of(subject_uri, domain)
+        if range_:
+            obj_ok = self.is_instance_of(object_uri, range_)
+
+        disjoint = False
+        if domain and range_:
+            disjoint = self.check_disjoint(domain, range_)
+
+        return {
+            "direction_ok": subj_ok and obj_ok,
+            "swapped": (not subj_ok and obj_ok),
+            "disjoint": disjoint,
+            "domain": domain,
+            "range": range_,
+        }
+
 # ---------------- SPARQL Generator (Agent) ----------------
 class SPARQLGenerator:
     predicate_map = {
         "treats": "http://purl.obolibrary.org/obo/RO_0002606",
         "causes": "http://purl.obolibrary.org/obo/RO_0002410",
+        "association": "http://purl.obolibrary.org/obo/RO_0002327",  # related via association
+        "bind": "http://purl.obolibrary.org/obo/RO_0002434",  # molecularly interacts with / binds
+        "comparison": "http://purl.obolibrary.org/obo/RO_0002502",  # compared with (closest: has measurement association)
+        "conversion": "http://purl.obolibrary.org/obo/RO_0002449",  # chemically converts to / metabolizes to
+        "cotreatment": "http://purl.obolibrary.org/obo/RO_0002460",  # co-treatment with
+        "drug_interaction": "http://purl.obolibrary.org/obo/RO_0002436",  # interacts with (drug-drug interaction)
+        "negative_correlation": "http://purl.obolibrary.org/obo/RO_0002608",  # negatively correlated with
+        "positive_correlation": "http://purl.obolibrary.org/obo/RO_0002607",  # positively correlated with
     }
 
     def generate_all(self, subj: str, pred: str, obj: str) -> Dict[str, str]:
@@ -141,12 +221,12 @@ def verifier(result: dict) -> Dict:
 # ---------------- Ontology Verification (Tool) ----------------
 @tool("ontology_verification", return_direct=True)
 def ontology_verification(subject: str, predicate_uri: str, obj: str) -> dict:
-    """Check ontology consistency (toy version)."""
-    # A real version would fetch domain/range from ontology.
-    if subject.lower().startswith("type 2") and predicate_uri.endswith("2606"):
-        # Swapped direction case
-        return {"direction_ok": False, "swapped": True, "disjoint": False}
-    return {"direction_ok": True, "swapped": False, "disjoint": False}
+    """
+    Verify that a relation (subject, predicate, object) is ontologically consistent
+    using SPARQL domain/range/disjointness checks.
+    """
+    global_verifier = OntologyVerifier(sparql_executor)
+    return global_verifier.verify(subject, predicate_uri, obj)
 
 # ---------------- Nodes ----------------
 def node_supervisor_plan(state: Dict) -> Dict:
@@ -299,9 +379,14 @@ if __name__=="__main__":
     app.get_graph().print_ascii()
     hv = HierarchicalVerifier()
     bad = {
-        "text": "Type 2 diabetes treats Metformin (nonsense).",
+        "text": "Type 2 diabetes treats Metformin ",
         "entities": [{"text":"type 2 diabetes"},{"text":"Metformin"}],
         "relations":[{"subject":"type 2 diabetes","predicate":"treats","object":"Metformin"}]
+    }
+    idk = {
+        "text": "Type II diabetes mellitus:genetic variability:MODY1",
+        "entities": [{"text":"Type II diabetes mellitus"},{"text":"MODY1"}],
+        "relations":[{"subject":"Type II diabetes mellitus","predicate":"genetic variability","object":"MODY1"}]
     }
     good = {
         "id": "metformin_correct",
@@ -313,7 +398,7 @@ if __name__=="__main__":
     }
 
 
-    for case in [good, bad]:
+    for case in [idk]:
         print(f"\n=== Running {case} ===")
         out = hv.run_case_stream(case)
         print("\nFinal validation:", json.dumps(out["validation_status"], indent=2))
