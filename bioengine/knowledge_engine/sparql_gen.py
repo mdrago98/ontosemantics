@@ -6,9 +6,11 @@ Hierarchical LangGraph with Agents + Tools + Streaming
 - Streaming shows when each node (agent/tool) is invoked and what it outputs
 """
 
-import json, re, requests, logging
+import json
+import re
+import requests
+import logging
 from typing import Dict
-from langchain_core.messages import HumanMessage, AIMessage
 from langchain.tools import tool
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import StateGraph, END
@@ -30,18 +32,26 @@ class SPARQLGenerator:
         "treats": "http://purl.obolibrary.org/obo/RO_0002606",
         "causes": "http://purl.obolibrary.org/obo/RO_0002410",
     }
-    def generate(self, subj: str, pred: str, obj: str) -> str:
+
+    def generate_all(self, subj: str, pred: str, obj: str) -> Dict[str, str]:
+        """Return a dict of strategies -> query string."""
         subj, obj = sparql_escape(subj), sparql_escape(obj)
         pred_uri = self.predicate_map.get(pred.lower())
+
+        queries = {}
+
+        # 1. Direct ASK with mapped predicate
         if pred_uri:
-            return f"""
+            queries["standard"] = f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 ASK {{
   ?s rdfs:label ?sl . FILTER(CONTAINS(LCASE(str(?sl)), LCASE("{subj}")))
   ?o rdfs:label ?ol . FILTER(CONTAINS(LCASE(str(?ol)), LCASE("{obj}")))
   ?s <{pred_uri}> ?o .
 }}"""
-        return f"""
+
+        # 2. Flexible SELECT
+        queries["flexible"] = f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?s ?p ?o WHERE {{
   ?s rdfs:label ?sl . FILTER(CONTAINS(LCASE(str(?sl)), LCASE("{subj}")))
@@ -50,6 +60,40 @@ SELECT ?s ?p ?o WHERE {{
 }} LIMIT 50
 """
 
+        # 3. Synonyms
+        queries["synonym_subj"] = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+SELECT ?entity ?label ?syn WHERE {{
+  ?entity rdfs:label ?label ;
+          oboInOwl:hasExactSynonym ?syn .
+  FILTER(CONTAINS(LCASE(str(?syn)), LCASE("{subj}")))
+}}
+LIMIT 20
+"""
+        queries["synonym_obj"] = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+SELECT ?entity ?label ?syn WHERE {{
+  ?entity rdfs:label ?label ;
+          oboInOwl:hasExactSynonym ?syn .
+  FILTER(CONTAINS(LCASE(str(?syn)), LCASE("{obj}")))
+}}
+LIMIT 20
+"""
+
+        # 4. Indirect / multi-hop traversal
+        queries["indirect"] = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?mid ?p1 ?p2 WHERE {{
+  ?s rdfs:label ?sl . FILTER(CONTAINS(LCASE(str(?sl)), LCASE("{subj}")))
+  ?o rdfs:label ?ol . FILTER(CONTAINS(LCASE(str(?ol)), LCASE("{obj}")))
+  ?s ?p1 ?mid .
+  ?mid ?p2 ?o .
+}}
+LIMIT 50
+"""
+        return queries
 # ---------------- SPARQL Executor (Tool) ----------------
 @tool("sparql_executor", return_direct=True)
 def sparql_executor(query: str) -> dict:
@@ -67,6 +111,21 @@ def sparql_executor(query: str) -> dict:
                 "results": data.get("results", {}).get("bindings", [])}
     except Exception as e:
         return {"success": False, "error": str(e)}
+
+
+@tool("entity_resolver", return_direct=True)
+def entity_resolver(term: str) -> dict:
+    """Resolve a text term to ontology URIs and labels."""
+    query = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+SELECT DISTINCT ?entity ?label ?syn WHERE {{
+  ?entity rdfs:label ?label .
+  OPTIONAL {{ ?entity oboInOwl:hasExactSynonym ?syn }}
+  FILTER(CONTAINS(LCASE(str(?label)), LCASE("{sparql_escape(term)}")))
+}} LIMIT 20
+"""
+    return sparql_executor.invoke({"query": query})
 
 # ---------------- Verifier (Agent) ----------------
 def verifier(result: dict) -> Dict:
@@ -103,22 +162,62 @@ def node_supervisor_select(state: Dict) -> Dict:
     state["current_need"] = state["queue"][0] if state["queue"] else None
     return state
 
+def node_resolve_entities(state: Dict) -> Dict:
+    if not state.get("current_need"): return state
+    subj, pred, obj = state["current_need"].split(":")
+    subj_res = entity_resolver.invoke({"term": subj})
+    obj_res  = entity_resolver.invoke({"term": obj})
+    state.setdefault("entity_mappings", {})[subj] = subj_res
+    state["entity_mappings"][obj] = obj_res
+    return state
+
 def node_generator(state: Dict) -> Dict:
     if not state.get("current_need"): return state
     subj, pred, obj = state["current_need"].split(":")
-    query = SPARQLGenerator().generate(subj, pred, obj)
-    state["current_query"] = query
+    queries = SPARQLGenerator().generate_all(subj, pred, obj)
+    state["current_queries"] = queries
     return state
 
 def node_executor(state: Dict) -> Dict:
-    if not state.get("current_query"): return state
-    res = sparql_executor.invoke({"query": state["current_query"]})
-    state["last_result"] = res
+    if not state.get("current_queries"): return state
+    results = {}
+    for strat, q in state["current_queries"].items():
+        res = sparql_executor.invoke({"query": q})
+        results[strat] = res
+    state["last_results"] = results
     return state
 
 def node_verifier(state: Dict) -> Dict:
-    need = state.get("current_need"); res = state.get("last_result")
-    state["validation_status"][need] = verifier(res)
+    need = state.get("current_need")
+    results = state.get("last_results", {})
+    scores, reasons = [], []
+    inferred = []
+
+    for strat, res in results.items():
+        v = verifier(res)
+        scores.append(v["score"])
+        reasons.append(f"{strat}: {v['reason']}")
+
+        # Collect inferred triples if indirect query had hits
+        if strat == "indirect" and res.get("results"):
+            subj, pred, obj = need.split(":")
+            for b in res["results"]:
+                mid = b.get("mid", {}).get("value")
+                p1 = b.get("p1", {}).get("value")
+                p2 = b.get("p2", {}).get("value")
+                if mid and p1 and p2:
+                    inferred.append({
+                        "subject": subj,
+                        "predicate": f"{p1}+{p2}",  # composite predicate
+                        "object": obj,
+                        "via": mid
+                    })
+
+    state["validation_status"][need] = {
+        "score": max(scores) if scores else 0.0,
+        "reason": " | ".join(reasons)
+    }
+    state.setdefault("inferred_relations", []).extend(inferred)
     return state
 
 def node_ontology(state: Dict) -> Dict:
@@ -141,11 +240,20 @@ def node_ontology(state: Dict) -> Dict:
 def node_decide(state: Dict) -> Dict:
     need = state.get("current_need")
     if not need: return state
-    if state["validation_status"][need]["score"] >= VALIDATION_THRESHOLD:
-        state["done"][need] = True
-    else:
-        state["done"][need] = True
+
+    state["done"][need] = True  # mark current need as processed
+
+    # Add inferred relations to queue
+    new_relations = state.pop("inferred_relations", [])
+    for rel in new_relations:
+        new_need = f"{rel['subject']}:{rel['predicate']}:{rel['object']}"
+        if new_need not in state["done"]:  # prevent duplicates
+            state["queue"].append(new_need)
+            state["done"][new_need] = False
+            logger.info(f"Supervisor inferred new need: {new_need}")
+
     return state
+
 
 def route_after_decide(state: Dict) -> str:
     if all(state["done"].values()): return "end"
@@ -156,6 +264,7 @@ memory = MemorySaver()
 graph = StateGraph(dict)
 graph.add_node("plan", node_supervisor_plan)
 graph.add_node("select", node_supervisor_select)
+graph.add_node('entity_resolution', node_resolve_entities)
 graph.add_node("generator", node_generator)
 graph.add_node("executor", node_executor)
 graph.add_node("verifier", node_verifier)
@@ -163,7 +272,8 @@ graph.add_node("ontology", node_ontology)
 graph.add_node("decide", node_decide)
 
 graph.add_edge("plan","select")
-graph.add_edge("select","generator")
+graph.add_edge("select","entity_resolution")
+graph.add_edge("entity_resolution","generator")
 graph.add_edge("generator","executor")
 graph.add_edge("executor","verifier")
 graph.add_edge("verifier","ontology")
@@ -201,7 +311,13 @@ if __name__=="__main__":
             {"subject": "Metformin", "predicate": "treats", "object": "type 2 diabetes"}
         ],
     }
-    for case in [bad, good]:
+
+
+    for case in [good, bad]:
         print(f"\n=== Running {case} ===")
         out = hv.run_case_stream(case)
         print("\nFinal validation:", json.dumps(out["validation_status"], indent=2))
+        print("\nResolved Entities: ", json.dumps(out['entity_mappings']))
+        print("\nNew inferred relations discovered:")
+        for rel in out.get("inferred_relations", []):
+            print(rel)
