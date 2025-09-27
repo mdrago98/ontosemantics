@@ -37,6 +37,56 @@ LLM_MODEL = "gemma3:1b"
 # ---------------- SPARQL Cache + Executor ----------------
 _SPARQL_CACHE: Dict[int, dict] = {}
 
+# ---------------- SPARQL Generator (Agent) ----------------
+class SPARQLGenerator:
+    predicate_map = {
+        "treats": "http://purl.obolibrary.org/obo/RO_0002606",
+        "causes": "http://purl.obolibrary.org/obo/RO_0002410",
+        "association": "http://purl.obolibrary.org/obo/RO_0002327",
+        "bind": "http://purl.obolibrary.org/obo/RO_0002434",
+        "comparison": "http://purl.obolibrary.org/obo/RO_0002502",
+        "conversion": "http://purl.obolibrary.org/obo/RO_0002449",
+        "cotreatment": "http://purl.obolibrary.org/obo/RO_0002460",
+        "drug_interaction": "http://purl.obolibrary.org/obo/RO_0002436",
+        "negative_correlation": "http://purl.obolibrary.org/obo/RO_0002608",
+        "positive_correlation": "http://purl.obolibrary.org/obo/RO_0002607",
+    }
+
+    def generate_all(self, subj: str, pred: str, obj: str) -> Dict[str, str]:
+        subj, obj = sparql_escape(subj), sparql_escape(obj)
+        pred_uri = self.predicate_map.get(pred.lower())
+        queries = {}
+
+        if pred_uri:
+            queries["standard"] = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ASK {{
+  ?s rdfs:label ?sl . FILTER(CONTAINS(LCASE(str(?sl)), LCASE("{subj}")))
+  ?o rdfs:label ?ol . FILTER(CONTAINS(LCASE(str(?ol)), LCASE("{obj}")))
+  ?s <{pred_uri}> ?o .
+}}"""
+
+        queries["flexible"] = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?s ?p ?o WHERE {{
+  ?s rdfs:label ?sl . FILTER(CONTAINS(LCASE(str(?sl)), LCASE("{subj}")))
+  ?o rdfs:label ?ol . FILTER(CONTAINS(LCASE(str(?ol)), LCASE("{obj}")))
+  ?s ?p ?o .
+}} LIMIT 50
+"""
+
+        queries["indirect"] = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?mid ?p1 ?p2 ?S ?O WHERE {{
+  ?S rdfs:label ?sl . FILTER(CONTAINS(LCASE(str(?sl)), LCASE("{subj}")))
+  ?O rdfs:label ?ol . FILTER(CONTAINS(LCASE(str(?ol)), LCASE("{obj}")))
+  ?S ?p1 ?mid .
+  ?mid ?p2 ?O .
+}} LIMIT 200
+"""
+        return queries
+
+
 def sparql_post(query: str) -> dict:
     key = hash(query)
     if key in _SPARQL_CACHE:
@@ -73,17 +123,27 @@ def sparql_escape(text: str) -> str:
 
 @tool("entity_resolver", return_direct=True)
 def entity_resolver(term: str) -> dict:
-    """Resolve a text term to ontology URIs and labels (label + exact synonym match)."""
+    """
+    Resolves entities from an ontology
+    :param term:
+    :return:
+    """
+    t = sparql_escape(term)
     query = f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 SELECT DISTINCT ?entity ?label ?syn WHERE {{
   ?entity rdfs:label ?label .
   OPTIONAL {{ ?entity oboInOwl:hasExactSynonym ?syn }}
-  FILTER(CONTAINS(LCASE(str(?label)), LCASE("{sparql_escape(term)}")))
-}} LIMIT 20
+  FILTER(
+    CONTAINS(LCASE(STR(?label)), LCASE("{t}")) ||
+    (BOUND(?syn) && CONTAINS(LCASE(STR(?syn)), LCASE("{t}")))
+  )
+}}
+LIMIT 40
 """
     return sparql_executor.invoke({"query": query})
+
 
 def _first_uri(res: dict) -> Optional[str]:
     if not res or res.get("is_ask"): return None
@@ -129,18 +189,36 @@ class OntologyVerifier:
         return bool(res.get("ask_result", False))
     def verify(self, subject_uri: str, predicate_uri: str, object_uri: str) -> dict:
         domain, range_ = self.get_domain_range(predicate_uri)
-        subj_ok, obj_ok = True, True
-        if domain: subj_ok = self.is_instance_of(subject_uri, domain)
-        if range_: obj_ok = self.is_instance_of(object_uri, range_)
+
+        subj_ok, obj_ok = None, None
+        if domain:
+            subj_ok = self.is_instance_of(subject_uri, domain)
+        if range_:
+            obj_ok = self.is_instance_of(object_uri, range_)
+
         disjoint = False
-        if domain and range_: disjoint = self.check_disjoint(domain, range_)
+        if domain and range_:
+            disjoint = self.check_disjoint(domain, range_)
+
+        # Detect swap: subject fits range and object fits domain
+        swapped = False
+        if domain and range_:
+            swapped = self.is_instance_of(subject_uri, range_) and self.is_instance_of(
+                object_uri, domain
+            )
+
         return {
-            "direction_ok": subj_ok and obj_ok,
-            "swapped": (not subj_ok and obj_ok),
-            "disjoint": disjoint,
+            "subject_uri": subject_uri,
+            "object_uri": object_uri,
             "domain": domain,
             "range": range_,
+            "subject_in_domain": subj_ok,
+            "object_in_range": obj_ok,
+            "direction_ok": bool(subj_ok and obj_ok),
+            "swapped": swapped,
+            "disjoint": disjoint,
         }
+
 
 global_verifier = OntologyVerifier(sparql_post)
 
@@ -324,6 +402,14 @@ def node_resolve_entities(state: Dict) -> Dict:
         em[subj] = entity_resolver.invoke({"term": subj}); em[subj]["uri"] = _first_uri(em[subj])
     if obj not in em:
         em[obj] = entity_resolver.invoke({"term": obj}); em[obj]["uri"] = _first_uri(em[obj])
+    logger.info(
+        "Resolved %s → %s, %s → %s",
+        subj,
+        em.get(subj, {}).get("uri"),
+        obj,
+        em.get(obj, {}).get("uri"),
+    )
+
     return state
 
 def node_generator(state: Dict) -> Dict:
@@ -403,23 +489,42 @@ def node_infer(state: Dict) -> Dict:
     return state
 
 def node_ontology(state: Dict) -> Dict:
-    need = state.get("current_need");
-    if not need: return state
+    need = state.get("current_need")
+    if not need:
+        return state
     subj_txt, pred, obj_txt = need.split(":")
-    pred_uri = PREDICATE_URI.get(pred.lower(), "")
+    pred_uri = SPARQLGenerator.predicate_map.get(pred.lower(), "")
     subj_uri = state.get("entity_mappings", {}).get(subj_txt, {}).get("uri")
     obj_uri  = state.get("entity_mappings", {}).get(obj_txt, {}).get("uri")
-    res = {}
+
     if pred_uri and subj_uri and obj_uri:
-        res = ontology_verification.invoke({"subject": subj_uri,"predicate_uri": pred_uri,"obj": obj_uri})
-        ctx = state["validation_status"].setdefault(need, {"score":0.0,"reason":""})
-        if res.get("swapped") or res.get("disjoint"):
-            ctx["score"] = 0.0; ctx["reason"] += " | ontology contradiction"
+        res = ontology_verification.invoke({
+            "subject": subj_uri,
+            "predicate_uri": pred_uri,
+            "obj": obj_uri
+        })
+
+        ctx = state["validation_status"].setdefault(
+            need, {"score": 0.0, "reason": ""}
+        )
+
+        if res.get("disjoint"):
+            ctx["score"] = 0.0
+            ctx["reason"] += " | ontology contradiction"
         elif res.get("direction_ok"):
-            ctx["score"] = max(ctx["score"], 0.75); ctx["reason"] += " | ontology consistent"
+            ctx["score"] = max(ctx["score"], 0.9)  # bump high if ontology matches
+            ctx["reason"] += " | ontology consistent"
+        elif res.get("swapped"):
+            ctx["score"] = 0.0
+            ctx["reason"] += " | ontology swap detected"
+        else:
+            ctx["score"] = 0.0
+            ctx["reason"] += " | ontology mismatch"
+
         state["validation_status"][need] = ctx
-    state["ontology_status"][need] = res
+
     return state
+
 
 def node_planner(state: Dict) -> Dict:
     need = state.get("current_need")
