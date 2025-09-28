@@ -308,10 +308,14 @@ SELECT ?domain ?range WHERE {{
         domain, rng = self._domain_range_via_sparql(predicate_uri)
 
         subj_ok = obj_ok = None
-        # If explicit domain/range IRIs are available, we cannot reliably ASK instance-of here
-        # without a reasoner. As a pragmatic fallback, accept prefix compatibility.
+        used_fallback = False
+        domain_prefixes = []
+        range_prefixes = []
+
         if domain:
-            subj_ok = subject_uri == domain or self._iri_has_prefix(subject_uri, (domain,))
+            subj_ok = subject_uri == domain or self._iri_has_prefix(
+                subject_uri, (domain,)
+            )
         if rng:
             obj_ok = object_uri == rng or self._iri_has_prefix(object_uri, (rng,))
 
@@ -319,15 +323,24 @@ SELECT ?domain ?range WHERE {{
         if domain is None and rng is None:
             fb = PREDICATE_SCHEMA_FALLBACK.get(predicate_uri)
             if fb:
-                subj_ok = self._iri_has_prefix(subject_uri, fb["domain_prefixes"])
-                obj_ok  = self._iri_has_prefix(object_uri,  fb["range_prefixes"])
+                domain_prefixes = fb.get("domain_prefixes", [])
+                range_prefixes = fb.get("range_prefixes", [])
+                subj_ok = self._iri_has_prefix(subject_uri, domain_prefixes)
+                obj_ok = self._iri_has_prefix(object_uri, range_prefixes)
+                used_fallback = True
 
         return {
-            "domain": domain, "range": rng,
-            "subject_in_domain": subj_ok, "object_in_range": obj_ok,
+            "domain": domain if domain else "N/A",
+            "range": rng if rng else "N/A",
+            "domain_prefixes": domain_prefixes,
+            "range_prefixes": range_prefixes,
+            "subject_in_domain": subj_ok,
+            "object_in_range": obj_ok,
             "direction_ok": bool(subj_ok and obj_ok),
-            "swapped": False, "disjoint": False,
-            "reasoner_used": False
+            "swapped": False,
+            "disjoint": False,
+            "reasoner_used": False,
+            "used_fallback": used_fallback,
         }
 
 global_verifier = OntologyVerifier(sparql_post)
@@ -752,15 +765,43 @@ if __name__ == "__main__":
     hv = HierarchicalVerifier()
     cases = [
         {
-            "text": "Metformin treats type 2 diabetes.",
-            "entities": [{"text": "Metformin"}, {"text": "type 2 diabetes"}],
-            "relations": [{"subject":"Metformin","predicate":"treats","object":"type 2 diabetes"}],
+            "text": "",
+            "entities": [
+                {"text": "Hepatocyte nuclear factor-6"},
+                {"text": "genetic variability"},
+            ],
+            "relations": [
+                {
+                    "subject": "Hepatocyte nuclear factor-6",
+                    "predicate": "association",
+                    "object": "genetic variability",
+                }
+            ],  # Hepatocyte nuclear factor-6 -> association -> genetic variability
         },
         {
-            "text": "Type 2 diabetes treats Metformin (nonsense).",
-            "entities": [{"text": "type 2 diabetes"}, {"text": "Metformin"}],
-            "relations": [{"subject":"type 2 diabetes","predicate":"treats","object":"Metformin"}],
+            "text": "",
+            "entities": [
+                {"text": "glucose"},
+                {"text": "insulin"},
+            ],
+            "relations": [
+                {
+                    "subject": "glucose",
+                    "predicate": "positive_correlation",
+                    "object": "insulin",
+                }
+            ],  # Hepatocyte nuclear factor-6 -> association -> genetic variability
         },
+        # {
+        #     "text": "Metformin treats type 2 diabetes.",
+        #     "entities": [{"text": "Metformin"}, {"text": "type 2 diabetes"}],
+        #     "relations": [{"subject":"Metformin","predicate":"treats","object":"type 2 diabetes"}],
+        # },
+        # {
+        #     "text": "Type 2 diabetes treats Metformin (nonsense).",
+        #     "entities": [{"text": "type 2 diabetes"}, {"text": "Metformin"}],
+        #     "relations": [{"subject":"type 2 diabetes","predicate":"treats","object":"Metformin"}],
+        # },
     ]
     for case in cases:
         out = hv.run_case_stream(case)
