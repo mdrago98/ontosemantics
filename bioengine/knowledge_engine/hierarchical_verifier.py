@@ -70,12 +70,35 @@ store.load(path='../../notebooks/data/go.owl', format=RdfFormat.RDF_XML)
 store.load(path='../../notebooks/data/cl.owl', format=RdfFormat.RDF_XML)
 store.load(path='../../notebooks/data/chebi.owl', format=RdfFormat.RDF_XML)
 store.load(path='../../notebooks/data/ro.owl', format=RdfFormat.RDF_XML)
+store.load(path='../../notebooks/data/omim-ordo/omim.owl', format=RdfFormat.RDF_XML)
 
 
 # n = store.query("SELECT (COUNT(*) AS ?n) WHERE { ?s ?p ?o }",
 #                     use_default_graph_as_union=True)
 
 HEGROUP_ENDPOINT = "https://sparql.hegroup.org/sparql"
+
+
+def build_predicate_schema_fallback(res: dict) -> dict:
+    """Convert SPARQL domain/range results into fallback schema."""
+    schema = {}
+    for b in res.get("results", []):
+        prop = b.get("prop", {}).get("value")
+        domain = b.get("domain", {}).get("value")
+        rng = b.get("range", {}).get("value")
+        if not prop:
+            continue
+        schema[prop] = {
+            "domain": domain,
+            "range": rng,
+            # Extract prefixes like CHEBI_, MONDO_, etc.
+            "domain_prefixes": (domain.split("/")[-1].split("_")[0] + "_",) if domain else (),
+            "range_prefixes": (rng.split("/")[-1].split("_")[0] + "_",) if rng else (),
+        }
+    return schema
+
+# Example:
+
 
 PREDICATE_SCHEMA_FALLBACK = {
     # RO_0002606 = treats: drug/chemical → disease/phenotype
@@ -96,14 +119,11 @@ import json
 from pyoxigraph import Store, QueryResultsFormat
 
 # _SPARQL_CACHE: dict[int, dict] = {}
-
 def sparql_post(query: str) -> dict:
-    """Run SPARQL query against local pyoxigraph store and normalize results."""
-    key = hash(query)
+    """Run SPARQL against local pyoxigraph store; normalize to Ubergraph-like JSON."""
+    key = _hashable(query)
     if key in _SPARQL_CACHE:
-        out = dict(_SPARQL_CACHE[key])
-        out["from_cache"] = True
-        return out
+        out = dict(_SPARQL_CACHE[key]); out["from_cache"] = True; return out
 
     if store is None:
         return {"success": False, "error": "Store not initialized."}
@@ -111,43 +131,71 @@ def sparql_post(query: str) -> dict:
     try:
         result = store.query(query, prefixes=_PFX, use_default_graph_as_union=True)
 
-        # ASK queries → bool
+        # ASK -> bool
         if isinstance(result, bool):
-            res = {
-                "success": True,
-                "is_ask": True,
-                "ask_result": result,
-                "results": []
-            }
-
-        # SELECT/CONSTRUCT/DESCRIBE → serialize to JSON
+            res = {"success": True, "is_ask": True, "ask_result": result, "results": []}
         else:
-            raw_json = result.serialize(format=QueryResultsFormat.JSON)
-            parsed = json.loads(raw_json)
-
-            if "boolean" in parsed:
-                res = {
-                    "success": True,
-                    "is_ask": True,
-                    "ask_result": bool(parsed["boolean"]),
-                    "results": []
-                }
-            else:
-                res = {
-                    "success": True,
-                    "is_ask": False,
-                    "results": parsed.get("results", {}).get("bindings", [])
-                }
+            raw = result.serialize(format=QueryResultsFormat.JSON)
+            parsed = json.loads(raw)
+            if "boolean" in parsed:  # ASK (serialized)
+                res = {"success": True, "is_ask": True, "ask_result": bool(parsed["boolean"]), "results": []}
+            else:                    # SELECT / CONSTRUCT / DESCRIBE
+                res = {"success": True, "is_ask": False, "results": parsed.get("results", {}).get("bindings", [])}
 
         _SPARQL_CACHE[key] = res
         return res
-
     except Exception as e:
         return {"success": False, "error": str(e)}
 
-print(sparql_post("""
-ASK { <http://purl.obolibrary.org/obo/CHEBI_9947> <http://purl.obolibrary.org/obo/RO_0002606> <http://purl.obolibrary.org/obo/MONDO_0005148> }
-"""))
+q = """
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?prop ?onClass ?restrictionType
+WHERE {
+  ?x rdfs:subClassOf ?restriction .
+  ?restriction a owl:Restriction ;
+               owl:onProperty ?prop ;
+               ?restrictionType ?onClass .
+  FILTER (?restrictionType IN (owl:someValuesFrom, owl:allValuesFrom))
+}
+LIMIT 200
+"""
+
+res = sparql_post(q)
+print(json.dumps(res, indent=2))
+
+def build_schema_from_restrictions(res: dict) -> dict:
+    schema = {}
+    for b in res.get("results", []):
+        prop = b.get("prop", {}).get("value")
+        onclass = b.get("onClass", {}).get("value")
+        restriction = b.get("restrictionType", {}).get("value")
+
+        if not prop or not onclass:
+            continue
+
+        # Initialize
+        if prop not in schema:
+            schema[prop] = {"domain_prefixes": set(), "range_prefixes": set()}
+
+        # crude heuristic: if class looks like MONDO_/DOID_/HP_ → range
+        if any(pref in onclass for pref in ["MONDO_", "DOID_", "HP_", "EFO_"]):
+            schema[prop]["range_prefixes"].add(onclass.split("/")[-1].split("_")[0] + "_")
+
+        # if class looks like CHEBI_/PR_/NCIT_C → domain
+        if any(pref in onclass for pref in ["CHEBI_", "PR_", "NCIT_C"]):
+            schema[prop]["domain_prefixes"].add(onclass.split("/")[-1].split("_")[0] + "_")
+
+    # convert sets to tuples
+    for k, v in schema.items():
+        v["domain_prefixes"] = tuple(v["domain_prefixes"])
+        v["range_prefixes"] = tuple(v["range_prefixes"])
+    return schema
+
+
+PREDICATE_SCHEMA_FALLBACK = {**PREDICATE_SCHEMA_FALLBACK, **build_schema_from_restrictions(res)}
+print(json.dumps(PREDICATE_SCHEMA_FALLBACK, indent=2))
 
 @tool("sparql_executor", return_direct=True)
 def sparql_executor(query: str) -> dict:
@@ -163,30 +211,59 @@ def sparql_escape(text: str) -> str:
     return re.sub(r'["\'\\\n\r\t]+', ' ', text or "").strip()
 
 # ---------- Entity Resolver ----------
-@tool("entity_resolver", return_direct=True)
-def entity_resolver(term: str) -> dict:
-    """
-    Resolve biomedical entity to ontology IRI using HEGroup SPARQL.
-    Includes labels and synonyms for more robust text matching.
-    """
-    t = sparql_escape(term)
-    query = f"""
+# --- Resolver helpers ---
+def _normalize_term(text: str) -> str:
+    t = (text or "").lower()
+    t = re.sub(r'\s*-\s*', '-', t)            # collapse spaced dashes
+    t = re.sub(r'[^a-z0-9\- ]+', ' ', t)      # strip weird chars
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+def _resolver_query_regex(t: str) -> str:
+    return f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-SELECT DISTINCT ?entity ?label ?syn ?alt WHERE {{
-  ?entity rdfs:label ?label .
-  OPTIONAL {{ ?entity oboInOwl:hasExactSynonym ?syn }}
-  OPTIONAL {{ ?entity skos:altLabel ?alt }}
-  FILTER(
-    CONTAINS(LCASE(STR(?label)), LCASE("{t}")) ||
-    (BOUND(?syn) && CONTAINS(LCASE(STR(?syn)), LCASE("{t}"))) ||
-    (BOUND(?alt) && CONTAINS(LCASE(STR(?alt)), LCASE("{t}")))
-  )
+SELECT DISTINCT ?entity ?label WHERE {{
+  VALUES ?p {{ rdfs:label oboInOwl:hasExactSynonym skos:altLabel }}
+  ?entity ?p ?label .
+  FILTER regex(lcase(str(?label)), "{sparql_escape(t)}", "i")
 }}
-LIMIT 40
+LIMIT 80
 """
-    return sparql_post(query)
+
+def _resolver_query_tokens(t: str, tokens: list[str]) -> str:
+    toks = [sparql_escape(x) for x in tokens if x]
+    if not toks:
+        toks = [sparql_escape(t)]
+    # AND all tokens
+    filters = " && ".join([f'regex(lcase(str(?label)), "{tok}", "i")' for tok in toks])
+    return f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?entity ?label WHERE {{
+  VALUES ?p {{ rdfs:label oboInOwl:hasExactSynonym skos:altLabel }}
+  ?entity ?p ?label .
+  FILTER ( {filters} )
+}}
+LIMIT 80
+"""
+
+@tool("entity_resolver", return_direct=True)
+def entity_resolver(term: str) -> dict:
+    """
+    Resolve a text span to an ontology IRI from locally loaded graphs.
+    Stage 1: regex over label/syn/alt; Stage 2: token-AND fallback.
+    """
+    t = _normalize_term(term)
+    # Stage 1: whole-string regex
+    res = sparql_post(_resolver_query_regex(t))
+    if res.get("success") and res.get("results"):
+        return res
+    # Stage 2: AND over tokens
+    tokens = t.split(" ")
+    return sparql_post(_resolver_query_tokens(t, tokens))
 
 def _first_uri(res: dict) -> Optional[str]:
     if not res or res.get("is_ask"):
@@ -327,18 +404,28 @@ class LLMReasoner:
             if "ASK confirmed" in str(evidence.get("sparql_summary", "")):
                 return "Exact ASK confirmed in knowledge base."
             return "Insufficient evidence (no ontology typing and no strong SPARQL hits)."
-
+        verdict = evidence.get("ontology", {})
         prompt = (
             "You are a biomedical reasoning agent. "
-            "The candidate relation may be novel (not in existing knowledge bases). "
-            "Your task: assess if it is ontologically valid (drug→disease, gene→phenotype, etc.), "
-            "even if ASK/SPARQL evidence is missing.\n\n"
+            "The candidate relation may be novel, but your default stance is skepticism. "
+            "Your task is to assess whether the relation is ontologically valid "
+            "(e.g., drug→disease, gene→phenotype) given the evidence.\n\n"
             f"Relation: {relation}\n\n"
             f"SPARQL summary: {evidence.get('sparql_summary')}\n"
             f"Ontology verdict: {json.dumps(evidence.get('ontology'), indent=2)}\n\n"
-            "If SPARQL found no evidence but ontology typing is consistent, state that the relation is novel but plausible. "
-            "If ontology typing contradicts (wrong domain/range), explain why it is invalid."
+            "Rules:\n"
+            "- If ASK/SPARQL evidence confirms the relation, mark it as supported.\n"
+            "- If ontology typing contradicts (wrong domain/range), explain why it is invalid.\n"
+            "- If there is no SPARQL evidence AND no clear ontology typing, treat the relation as unsupported (likely invalid).\n"
+            "- Only call a relation 'novel but plausible' if:\n"
+            "    (a) the subject and object types clearly match the predicate semantics, AND\n"
+            "    (b) there is at least some indirect SPARQL signal (two-hop, subproperty, or synonym expansion).\n"
+            f"Predicate semantics: domain={verdict.get('domain', 'N/A')} range={verdict.get('range', 'N/A')} "
+            f"(expected subject types: {verdict.get('domain_prefixes')}, "
+            f"expected object types: {verdict.get('range_prefixes')})\n\n"
+            "- Never assume plausibility just because no contradiction was found."
         )
+
         try:
             resp = self.llm.invoke(prompt)
             return (getattr(resp, "content", str(resp)) or "").strip()
@@ -348,17 +435,26 @@ class LLMReasoner:
 reasoner = LLMReasoner()
 
 # ---------- Heuristic verifier aggregator ----------
+# --- Evidence aggregator tuned for novelty ---
 def agg_verifier(result: dict) -> Dict:
     if not result or not result.get("success"):
         err = result.get("error", "unknown error") if isinstance(result, dict) else "unknown error"
         return {"score": 0.0, "reason": f"execution failed: {err}"}
+
     if result.get("is_ask"):
-        return {"score": 0.95 if result.get("ask_result") else 0.0,
-                "reason": "ASK confirmed" if result.get("ask_result") else "ASK false"}
+        # ASK true = strong
+        if result.get("ask_result"):
+            return {"score": 0.95, "reason": "ASK confirmed"}
+        # ASK false = no prior triple; do not penalize discovery
+        return {"score": 0.2, "reason": "ASK false (no prior triple)"}
+
     hits = len(result.get("results", []))
     if hits > 0:
+        # Some structural/path signal
         return {"score": min(0.85, 0.4 + hits/20.0), "reason": f"{hits} hits"}
-    return {"score": 0.0, "reason": "no evidence"}
+    # No evidence = still allow novelty
+    return {"score": 0.15, "reason": "no evidence (candidate may be novel)"}
+
 
 # ---------- Graph Nodes ----------
 def node_supervisor_plan(state: Dict) -> Dict:
@@ -473,12 +569,30 @@ class LLMController:
                 log.warning(f"Planner LLM init failed ({e}); using rule planner.")
                 self.available = False
 
-    def plan(self, relation: str, score: float, reason: str, attempts: int, explanation: str) -> str:
-        # Rule fallback is robust and fast
-        if score >= VALIDATION_THRESHOLD: return "accept"
-        if "contradiction" in reason or "disjoint" in reason: return "reject"
-        if "swap" in reason: return "swap"
-        if attempts < MAX_PLANNER_ITERS_PER_NEED: return "query_more"
+    def plan(self, relation, score, reason, attempts, explanation):
+        # Reject if ontology says direction wrong
+        if (
+            "ontology no evidence" in reason
+            and "direction_ok': false" in explanation.lower()
+        ):
+            return "reject"
+
+        # Accept if ontology consistent
+        if "ontology consistent" in reason:
+            return "accept"
+
+        # Accept if high score from SPARQL
+        if score >= VALIDATION_THRESHOLD:
+            return "accept"
+
+        # Contradictions / disjoint → reject
+        if "contradiction" in reason or "disjoint" in reason:
+            return "reject"
+
+        # Query again if we haven’t tried enough
+        if attempts < MAX_PLANNER_ITERS_PER_NEED:
+            return "query_more"
+
         return "reject"
 
 planner = LLMController()
@@ -538,6 +652,39 @@ def node_swap(state: Dict) -> Dict:
         state["done"][swapped] = False
         state["attempts"][swapped] = 0
     return state
+
+def node_infer(state: Dict) -> Dict:
+    new_relations = []
+    for need, verdict in state.get("ontology_status", {}).items():
+        subj, pred, obj = need.split(":")
+        # Example: transitive effect
+        if pred == "treats":
+            # If disease has known causal links, infer drug may affect them
+            q = f"""
+            SELECT ?downstream WHERE {{
+              <{obj}> <http://purl.obolibrary.org/obo/RO_0002410> ?downstream .
+            }}
+            """
+            res = sparql_post(q)
+            for b in res.get("results", []):
+                dwn = b.get("downstream", {}).get("value")
+                if dwn:
+                    new_relations.append({
+                        "subject": subj,
+                        "predicate": "association",
+                        "object": dwn
+                    })
+    if new_relations:
+        state.setdefault("inferred_relations", []).extend(new_relations)
+        # Add them back to the queue for verification
+        for r in new_relations:
+            rel_str = f"{r['subject']}:{r['predicate']}:{r['object']}"
+            if rel_str not in state["done"]:
+                state["queue"].append(rel_str)
+                state["done"][rel_str] = False
+                state["attempts"][rel_str] = 0
+    return state
+
 
 def route_after_decide(state: Dict) -> str:
     if all(state["done"].values()): return "end"
