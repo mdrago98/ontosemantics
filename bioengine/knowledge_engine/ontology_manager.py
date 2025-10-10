@@ -1,13 +1,15 @@
 import httpx
 import pronto
 from pathlib import Path
+import re
 import tqdm
 from biolink_model.datamodel.model import *
-from typing import List, Dict, Optional
+from typing import Dict, List, Optional
 import owlready2 as owl
 import networkx as nx
 import pickle
 
+from knowledge_engine.ontology_embeddings import OntologyEmbeddingMixin
 from knowledge_engine.models.ontology_match import OntologyMatch
 
 # Extended URL mapping to include OWL versions
@@ -41,7 +43,7 @@ TERM_MAPPING = {
     OrganismalEntity: ['uberon']
 }
 
-class OntologyManager:
+class OntologyManager(OntologyEmbeddingMixin):
     def __init__(self,
                  ontology_dir: Path = Path("../../data/ontologies"),
                  use_owlready: bool = True,
@@ -49,7 +51,7 @@ class OntologyManager:
                  obo_urls: Dict = None,
                  owl_urls: Dict = None,
                  term_mapping: Dict = None):
-
+        super().__init__()
         self.ontology_dir = ontology_dir
         self.use_owlready = use_owlready
         self.use_pronto = use_pronto
@@ -165,6 +167,24 @@ class OntologyManager:
                 except Exception as e:
                     print(f"❌ Failed to load {onto_name} with owlready2: {e}")
 
+    def _iri_to_curie(self, iri_or_name: str) -> str:
+        """Normalize OWLReady names/IRIs like MONDO_0000001 → MONDO:0000001; otherwise pass through."""
+        if iri_or_name is None:
+            return None
+        s = str(iri_or_name)
+        # If already a CURIE like HP:0000001
+        if re.match(r'^[A-Za-z]+:\d+$', s):
+            return s
+        # Names like MONDO_0000001 or IRIs ending with that pattern
+        m = re.search(r'([A-Za-z]+)_(\d+)$', s)
+        if m:
+            return f"{m.group(1)}:{m.group(2)}"
+        # Fallback: try /obo/PREFIX_0000001 in IRI
+        m = re.search(r'/obo/([A-Za-z]+)_(\d+)', s)
+        if m:
+            return f"{m.group(1)}:{m.group(2)}"
+        return s
+
     def _build_unified_graph(self):
         """Build a unified NetworkX graph from all loaded ontologies"""
         print("Building unified ontology graph...")
@@ -172,53 +192,95 @@ class OntologyManager:
         # Add terms from pronto ontologies
         for onto_name, ontology in self.pronto_ontologies.items():
             for term in ontology.terms():
-                term_id = str(term.id)
-                self.ontology_graph.add_node(term_id,
-                                             name=term.name,
-                                             ontology=onto_name,
-                                             definition=term.definition.strip() if term.definition else None,
-                                             synonyms=[syn.description for syn in term.synonyms]
-                                             )
+                term_id = self._iri_to_curie(str(term.id))
+                self.ontology_graph.add_node(
+                    term_id,
+                    name=term.name,
+                    ontology=onto_name,
+                    definition=term.definition.strip() if term.definition else None,
+                    synonyms=[syn.description for syn in term.synonyms]
+                )
                 self.term_to_ontology[term_id] = onto_name
 
-                # Add parent-child relationships
+                # is_a parents
                 for parent in term.superclasses(with_self=False, distance=1):
-                    self.ontology_graph.add_edge(str(parent.id), term_id, relation='is_a')
+                    parent_id = self._iri_to_curie(str(parent.id))
+                    self.ontology_graph.add_edge(parent_id, term_id, relation='is_a', source='pronto')
 
+                # other OBO relationships (typed)
+                # term.relationships() may not exist; use term.relations (dict {Relationship: set(Term)})
+                try:
+                    for rel, targets in getattr(term, "relations", {}).items():
+                        rel_id = getattr(rel, "id", None) or getattr(rel, "name", None) or str(rel)
+                        rel_id = str(rel_id)
+                        for tgt in targets:
+                            tgt_id = self._iri_to_curie(str(tgt.id))
+                            # direction is subject (term) -> object (tgt)
+                            self.ontology_graph.add_edge(term_id, tgt_id, relation=rel_id, source='pronto')
+                except Exception:
+                    pass
         # Add terms from owlready2 ontologies
         for onto_name, ontology in self.owlready_ontologies.items():
             for cls in ontology.classes():
-                term_id = cls.name or str(cls.iri)
+                curie = self._iri_to_curie(cls.name or str(cls.iri))
 
-                # Get labels and synonyms
+                # label/synonyms/definition
                 labels = cls.label if hasattr(cls, 'label') else []
-                name = labels[0] if labels else term_id
-
+                name = labels[0] if labels else curie
                 synonyms = []
-                if hasattr(cls, 'hasExactSynonym'):
-                    synonyms.extend(cls.hasExactSynonym)
-                if hasattr(cls, 'hasRelatedSynonym'):
-                    synonyms.extend(cls.hasRelatedSynonym)
-
-                # Get definition
+                for attr in ('hasExactSynonym', 'hasRelatedSynonym', 'hasBroadSynonym', 'hasNarrowSynonym'):
+                    if hasattr(cls, attr):
+                        syns = getattr(cls, attr)
+                        if isinstance(syns, list):
+                            synonyms.extend([s for s in syns if isinstance(s, str)])
                 definition = None
                 if hasattr(cls, 'definition'):
                     definition = cls.definition[0] if cls.definition else None
 
-                self.ontology_graph.add_node(term_id,
-                                             name=name,
-                                             ontology=onto_name,
-                                             definition=definition,
-                                             synonyms=synonyms,
-                                             iri=str(cls.iri)
-                                             )
-                self.term_to_ontology[term_id] = onto_name
+                self.ontology_graph.add_node(
+                    curie,
+                    name=name,
+                    ontology=onto_name,
+                    definition=definition,
+                    synonyms=synonyms,
+                    iri=str(cls.iri)
+                )
+                self.term_to_ontology[curie] = onto_name
 
-                # Add parent relationships
+                # is_a
                 for parent in cls.is_a:
+                    # Parent could be a class OR a Restriction
+                    #  A) direct named parent
                     if hasattr(parent, 'name') and parent.name:
-                        parent_id = parent.name
-                        self.ontology_graph.add_edge(parent_id, term_id, relation='is_a')
+                        parent_id = self._iri_to_curie(parent.name)
+                        self.ontology_graph.add_edge(parent_id, curie, relation='is_a', source='owlready')
+
+                    #  B) restriction: some/only/min/max etc.
+                    from owlready2 import Restriction
+                    if isinstance(parent, Restriction):
+                        try:
+                            prop = getattr(parent, 'property', None)
+                            filler = getattr(parent, 'value', None)
+                            if prop is not None and hasattr(prop, 'name'):
+                                rel = prop.name
+                            else:
+                                rel = 'owl_restriction'
+
+                            # filler could be a class, a union, etc.
+                            targets = []
+                            # Single class
+                            if hasattr(filler, 'name'):
+                                targets = [filler]
+                            # Collection
+                            elif hasattr(filler, '__iter__'):
+                                targets = [t for t in filler if hasattr(t, 'name')]
+
+                            for tgt in targets:
+                                tgt_id = self._iri_to_curie(tgt.name or str(tgt.iri))
+                                # direction: subject (cls) -> object (tgt) via property
+                                self.ontology_graph.add_edge(curie, tgt_id, relation=rel, source='owlready')
+                        except Exception:
+                            pass
 
     def search_ontology_unified(self, query: str, max_results: int = 5) -> List[OntologyMatch]:
         """Search across all loaded ontologies using the unified graph"""
