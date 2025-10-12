@@ -9,8 +9,8 @@ import owlready2 as owl
 import networkx as nx
 import pickle
 
-from knowledge_engine.ontology_embeddings import OntologyEmbeddingMixin
-from knowledge_engine.models.ontology_match import OntologyMatch
+from bioengine.knowledge_engine.ontology_embeddings import OntologyEmbeddingMixin
+from bioengine.knowledge_engine.models.ontology_match import OntologyMatch
 
 # Extended URL mapping to include OWL versions
 OBO_URLS = {

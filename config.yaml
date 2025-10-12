@@ -1,10 +1,10 @@
 %YAML 1.2
 ---
-resource_dir: /home/drago/PycharmProjects/bioengine/resources
+resource_dir: ${PACKAGE_ROOT}/resources
 medical_stop_word_file_name: stopwords.txt
 
 spacy:
-  use_gpu: True
+  use_gpu: false
   pipeline:
     disable:
       - ner
@@ -19,16 +19,15 @@ ontology_priority:
   - GO
   - CHEBI
   - CL
-  - ZEBRAFISH_ANATOMICAL_ONTOLOGY
 
 ner:
-  stanford_jar: /home/drago/PycharmProjects/bioengine/resources/libs/stanford-ner.jar
-  stanford_ner_model: /home/drago/PycharmProjects/bioengine/resources/models/bio-ner-model.ser.gz
-  genia_tagger: /home/drago/PycharmProjects/bioengine/resources/libs/geniatagger-3.0.2/geniatagger
-  metamap: /home/drago/Downloads/public_mm
+  stanford_jar: ${RESOURCE_DIR}/libs/stanford-ner.jar
+  stanford_ner_model: ${RESOURCE_DIR}/models/bio-ner-model.ser.gz
+  genia_tagger: ${RESOURCE_DIR}/libs/geniatagger-3.0.2/geniatagger
+  metamap: ${RESOURCE_DIR}/libs/public_mm
 
 stanford:
-  location: /home/drago/thesis/stanford-corenlp-full-2018-10-05
+  location: ${RESOURCE_DIR}/libs/stanford-corenlp-full-2018-10-05
   domain: localhost
   port: 9000
   timeout: 15000
@@ -42,10 +41,10 @@ stanford:
     - depparse
 
 becas:
-  email: matthew.drago.16@um.edu.mt
+  email: change-me@example.com
   tool: becas-python
 
-similarity_vector: /home/drago/PycharmProjects/bioengine/resources/vectors/PubMed-shuffle-win-30.bin
+similarity_vector: ${RESOURCE_DIR}/vectors/PubMed-shuffle-win-30.bin
 
 neo4j:
   ontology_store:
@@ -58,10 +57,10 @@ neo4j:
     password: test
 
 headers:
-  'User-Agent': Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
 
 entrez:
-  email: matthew.drago.16@um.edu.mt
+  email: change-me@example.com
   base_url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?
 
 wikipedia_pipeline:
@@ -99,11 +98,6 @@ oup_pipeline:
     id:
       - InfoColumn
       - Sidebar
-#    class:
-#      - widget-instance-SitePageHeader
-#      - journal-header
-#      - navbar
-#      - toolbar-inner-wrap
     h3:
     sup:
     sub:
@@ -115,24 +109,16 @@ springer_pipeline:
 
 logger:
   version: 1
-  disable_existing_loggers: False
+  disable_existing_loggers: false
   formatters:
     simple:
       format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-
   handlers:
     console:
       class: logging.StreamHandler
-      level: DEBUG
+      level: INFO
       formatter: simple
       stream: ext://sys.stdout
-
-  loggers:
-    my_module:
-      level: DEBUG
-      handlers: [console]
-      propagate: no
-
   root:
-    level: DEBUG
+    level: INFO
     handlers: [console]

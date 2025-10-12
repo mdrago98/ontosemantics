@@ -34,12 +34,14 @@ Our solution uses hybrid transformer-ontology architectures to automatically dis
 git clone https://github.com/mdrago98/ontosemantics.git
 cd ontosemantics
 
-# Install dependencies
-pip install -r requirements.txt
-# OR using conda
-conda env create -f environment.yml
-conda activate ontosemantics
+# Install the package (editable local checkout)
+pip install -e .[full]
+
+# Or install directly from GitHub (ideal for Colab)
+pip install "bioengine[full] @ git+https://github.com/mdrago98/bioengine.git"
 ```
+
+Set the `BIOENGINE_CONFIG_PATH` environment variable if you want to load a custom YAML configuration instead of the packaged defaults.
 
 ### Setup
 
@@ -50,7 +52,7 @@ docker-compose up -d
 
 2. **Download ontologies**:
 ```python
-from knowledge_engine.ontology_manager import OntologyManager
+from bioengine.knowledge_engine.ontology_manager import OntologyManager
 om = OntologyManager()
 await om.download_and_load_ontologies()
 ```
@@ -60,7 +62,7 @@ or through the bash script:
 ```
 3. **Initialize LLM extractor**:
 ```python
-from nlp_processor.llm_extractor import LLMRelationshipExtractor
+from bioengine.nlp_processor.llm_extractor import LLMRelationshipExtractor
 extractor = LLMRelationshipExtractor('gemma3:1b')
 ```
 
@@ -110,13 +112,13 @@ for match in matches:
 
 ```
 ontosemantics/
-├── knowledge_engine/          # Core ontology processing
-│   ├── ontology_manager.py   # Ontology loading and management
-│   └── models/               # Data models for entities and relationships
-├── nlp_processor/            # LLM-based extraction
-│   └── llm_extractor.py     # Relationship extraction with context
-├── utils/                    # Evaluation and utilities
-│   └── eval.py              # Metrics calculation and evaluation
+├── bioengine/knowledge_engine/  # Core ontology processing
+│   ├── ontology_manager.py      # Ontology loading and management
+│   └── models/                  # Data models for entities and relationships
+├── bioengine/nlp_processor/     # LLM-based extraction
+│   └── llm_extractor.py         # Relationship extraction with context
+├── bioengine/utils/             # Evaluation and utilities
+│   └── eval.py                  # Metrics calculation and evaluation
 ├── notebooks/                # Jupyter notebooks and experiments
 │   └── ontology.ipynb       # Main experiment notebook
 ├── data/                     # Datasets and ontologies

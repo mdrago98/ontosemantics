@@ -1,8 +1,8 @@
 from datetime import datetime
 from typing import Dict, List
 
-from knowledge_engine.models.relationship import ExtractedRelationship
-from nlp_processor.relationship_extractor import RelationshipExtractor
+from bioengine.knowledge_engine.models.relationship import ExtractedRelationship
+from bioengine.nlp_processor.relationship_extractor import RelationshipExtractor
 from langchain.llms import Ollama
 import re
 import json

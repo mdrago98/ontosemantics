@@ -120,22 +120,28 @@ class OntologyEmbeddingMixin:
         return {node: score / total for node, score in pagerank.items()}
 
     def build_latent_subgraph(
-        self,
-        text: str,
-        mentions: Optional[List[str]] = None,
-        top_k_retrieval: int = 1500,
-        seed_top_k: int = 50,
-        expand_hops: int = 2,
-        ppr_alpha: float = 0.2,
-        final_top_k: int = 200,
-        allowed_biolink_types: Optional[Set[str]] = None,
-        allowed_relations: Optional[Set[str]] = None,
-        weights: Dict[str, float] = None,
+            self,
+            text: str,
+            mentions: Optional[List[str]] = None,
+            top_k_retrieval: int = 1500,
+            seed_top_k: int = 50,
+            expand_hops: int = 2,
+            ppr_alpha: float = 0.2,
+            final_top_k: int = 200,
+            allowed_biolink_types: Optional[Set[str]] = None,
+            allowed_relations: Optional[Set[str]] = None,
+            weights: Dict[str, float] = None,
+            keep_gcc_only: bool = True,  # NEW: keep largest weakly-connected component
+            drop_isolates: bool = True,  # NEW: remove nodes with degree 0 after filtering
+            attach_metadata: bool = True  # NEW: stash seeds/retrieval/scores on subgraph.graph
     ) -> nx.DiGraph:
-        """Build a compact, scored, typed subgraph suitable for downstream reasoning."""
+        """Build a compact, scored, typed subgraph suitable for downstream reasoning (G₀)."""
+        import numpy as np
+
         if weights is None:
             weights = dict(text_sim=0.6, ppr=0.4, seed_bonus=0.05)
 
+        # -------- seeds from mentions + retrieval --------
         seed_ids: Set[str] = set()
         if mentions:
             for mention in mentions:
@@ -144,9 +150,11 @@ class OntologyEmbeddingMixin:
                     seed_ids.add(self._iri_to_curie(matches[0].ontology_id))
 
         retrieved = self.retrieve_candidates(text, top_k=top_k_retrieval)
+        retrieved_ids_ordered = [nid for nid, _ in retrieved]
         for node_id, _ in retrieved[:seed_top_k]:
             seed_ids.add(node_id)
 
+        # -------- local expansion (hops) --------
         frontier = set(seed_ids)
         expanded = set(seed_ids)
         for _ in range(expand_hops):
@@ -161,21 +169,25 @@ class OntologyEmbeddingMixin:
             frontier = next_frontier
 
         candidate_ids = list(expanded)
+
+        # -------- scoring: text sim + PPR (+ seed bonus) --------
         text_sims = {node_id: 0.0 for node_id in candidate_ids}
         if retrieved:
-            retrieved_dict = dict(retrieved)
+            retrieved_dict = dict(retrieved)  # node -> sim
             for node_id in candidate_ids:
                 if node_id in retrieved_dict:
                     text_sims[node_id] = retrieved_dict[node_id]
 
         pprs = self._ppr_scores(list(seed_ids), alpha=ppr_alpha)
+
         scores: Dict[str, float] = {}
         for node_id in candidate_ids:
-            score = weights['text_sim'] * text_sims.get(node_id, 0.0) + weights['ppr'] * pprs.get(node_id, 0.0)
+            s = weights['text_sim'] * text_sims.get(node_id, 0.0) + weights['ppr'] * pprs.get(node_id, 0.0)
             if node_id in seed_ids:
-                score += weights.get('seed_bonus', 0.0)
-            scores[node_id] = score
+                s += weights.get('seed_bonus', 0.0)
+            scores[node_id] = float(s)
 
+        # -------- optional type filter --------
         if allowed_biolink_types is not None:
             filtered: List[str] = []
             for node_id in candidate_ids:
@@ -187,32 +199,39 @@ class OntologyEmbeddingMixin:
             candidate_ids = filtered
             scores = {node_id: scores[node_id] for node_id in candidate_ids}
 
+        # -------- Top-K prune --------
         if len(candidate_ids) > final_top_k:
             candidates = np.array([(node_id, scores[node_id]) for node_id in candidate_ids], dtype=object)
-            indices = np.argpartition(candidates[:, 1].astype(np.float32), -final_top_k)[-final_top_k:]
-            indices = indices[np.argsort(-candidates[indices, 1].astype(np.float32))]
-            chosen = [candidates[index, 0] for index in indices]
+            idx = np.argpartition(candidates[:, 1].astype(np.float32), -final_top_k)[-final_top_k:]
+            idx = idx[np.argsort(-candidates[idx, 1].astype(np.float32))]
+            chosen = [candidates[i, 0] for i in idx]
         else:
-            chosen = sorted(candidate_ids, key=lambda node_id: -scores[node_id])
+            chosen = sorted(candidate_ids, key=lambda nid: -scores[nid])
 
         chosen_set = set(chosen)
         subgraph = self.ontology_graph.subgraph(chosen_set).copy()
 
+        # -------- node attrs (ensure presence) --------
         for node_id in subgraph.nodes():
             node_info = self.ontology_graph.nodes[node_id]
             ontology_name = node_info.get('ontology', '')
             biolink_type = self._get_biolink_type(ontology_name, node_info)
+            # source tag
             source = 'expanded'
             if node_id in seed_ids:
                 source = 'seed'
-            elif node_id in dict(retrieved).keys():
+            elif node_id in retrieved_ids_ordered:
                 source = 'retrieved'
+            # name fallback
+            name = node_info.get('name') or node_id
             subgraph.nodes[node_id].update({
+                'name': name,
                 'score': float(scores.get(node_id, 0.0)),
                 'biolink_type': biolink_type,
                 'source': source,
             })
 
+        # -------- optional relation filter --------
         if allowed_relations is not None:
             to_remove = []
             for u, v, edge_data in subgraph.edges(data=True):
@@ -220,11 +239,38 @@ class OntologyEmbeddingMixin:
                     to_remove.append((u, v))
             subgraph.remove_edges_from(to_remove)
 
+        # ensure every edge has relation + weight
         for u, v in list(subgraph.edges()):
-            relation = self.ontology_graph.edges[u, v].get('relation', 'related_to')
+            rel = subgraph.edges[u, v].get('relation') or self.ontology_graph.edges[u, v].get('relation', 'related_to')
             subgraph.edges[u, v].update({
-                'relation': relation,
+                'relation': rel,
                 'weight': float(0.5 * (subgraph.nodes[u]['score'] + subgraph.nodes[v]['score'])),
             })
+
+        # -------- optional graph cleanup --------
+        if drop_isolates:
+            iso = list(nx.isolates(subgraph))
+            if iso:
+                subgraph.remove_nodes_from(iso)
+        if keep_gcc_only and subgraph.number_of_nodes() > 0:
+            # largest weakly connected component
+            W = subgraph.to_undirected()
+            comps = list(nx.connected_components(W))
+            if len(comps) > 1:
+                gcc = max(comps, key=len)
+                subgraph = subgraph.subgraph(gcc).copy()
+
+        # -------- attach metadata for downstream (nice for training) --------
+        if attach_metadata:
+            subgraph.graph['seeds'] = list(seed_ids)
+            subgraph.graph['retrieved'] = retrieved_ids_ordered
+            subgraph.graph['weights'] = dict(weights)
+            subgraph.graph['build_params'] = dict(
+                top_k_retrieval=top_k_retrieval,
+                seed_top_k=seed_top_k,
+                expand_hops=expand_hops,
+                ppr_alpha=ppr_alpha,
+                final_top_k=final_top_k,
+            )
 
         return subgraph
