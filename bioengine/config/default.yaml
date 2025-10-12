@@ -1,0 +1,124 @@
+%YAML 1.2
+---
+resource_dir: ${PACKAGE_ROOT}/resources
+medical_stop_word_file_name: stopwords.txt
+
+spacy:
+  use_gpu: false
+  pipeline:
+    disable:
+      - ner
+
+pubmed_base_iri: https://www.ncbi.nlm.nih.gov/pubmed/?term
+
+ontology_priority:
+  - MONDO
+  - DOID
+  - FMA
+  - UBERON
+  - GO
+  - CHEBI
+  - CL
+
+ner:
+  stanford_jar: ${RESOURCE_DIR}/libs/stanford-ner.jar
+  stanford_ner_model: ${RESOURCE_DIR}/models/bio-ner-model.ser.gz
+  genia_tagger: ${RESOURCE_DIR}/libs/geniatagger-3.0.2/geniatagger
+  metamap: ${RESOURCE_DIR}/libs/public_mm
+
+stanford:
+  location: ${RESOURCE_DIR}/libs/stanford-corenlp-full-2018-10-05
+  domain: localhost
+  port: 9000
+  timeout: 15000
+  pipeline:
+    - tokenize
+    - ssplit
+    - pos
+    - lemma
+    - ner
+    - parse
+    - depparse
+
+becas:
+  email: change-me@example.com
+  tool: becas-python
+
+similarity_vector: ${RESOURCE_DIR}/vectors/PubMed-shuffle-win-30.bin
+
+neo4j:
+  ontology_store:
+    uri: bolt://localhost:11004
+    user: neo4j
+    password: password
+  knowledge_graph:
+    uri: bolt://localhost:7687
+    user: neo4j
+    password: test
+
+headers:
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+
+entrez:
+  email: change-me@example.com
+  base_url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?
+
+wikipedia_pipeline:
+  div:
+    id:
+      - toc
+      - siteSub
+      - contentSub
+    class:
+      - reflist
+      - infobox
+      - thumb tright
+  table:
+  script:
+  a:
+    class: mw-jump-link
+  li:
+    class: interlanguage-link
+
+pmc_pipeline:
+  div:
+    id:
+      - rightcolumn
+    class:
+      - fm-sec half_rhythm no_top_margin
+      - fig
+      - ref-cit-blk half_rhythm
+  sup:
+
+nature_pipeline:
+  sup:
+
+oup_pipeline:
+  div:
+    id:
+      - InfoColumn
+      - Sidebar
+    h3:
+    sup:
+    sub:
+
+springer_pipeline:
+  aside:
+    class:
+      - main-sidebar-right u-interface
+
+logger:
+  version: 1
+  disable_existing_loggers: false
+  formatters:
+    simple:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: INFO
+      formatter: simple
+      stream: ext://sys.stdout
+  root:
+    level: INFO
+    handlers: [console]
