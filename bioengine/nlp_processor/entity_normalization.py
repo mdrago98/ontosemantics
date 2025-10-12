@@ -1,4 +1,4 @@
-from nlp_processor.spacy_factory import MedicalSpacyFactory
+from bioengine.nlp_processor.spacy_factory import MedicalSpacyFactory
 from re import compile
 
 

@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict
 
-from knowledge_engine.models.relationship import VerifiedRelationship
+from bioengine.knowledge_engine.models.relationship import VerifiedRelationship
 
 
 class KnowledgeStore(ABC):

@@ -1,7 +1,7 @@
 from typing import Dict
 
-from knowledge_engine.connections.connection import KnowledgeStore
-from knowledge_engine.models.relationship import VerifiedRelationship
+from bioengine.knowledge_engine.connections.connection import KnowledgeStore
+from bioengine.knowledge_engine.models.relationship import VerifiedRelationship
 from settings import Config
 
 

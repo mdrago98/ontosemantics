@@ -2,8 +2,10 @@ from collections import defaultdict
 from typing import Dict
 
 from bioc import BioCDocument
+from collections import namedtuple
 
-from bioengine.knowledge_engine.models import stored_relationship
+StoredEntity = namedtuple('StoredEntity', ['text', 'canonical_name', 'biolink_type'])
+StoredRelationship = namedtuple('StoredRelationship', ['subject', 'predicate', 'object'])
 
 
 def parse_annotations(passages) -> defaultdict[list]:
@@ -29,7 +31,7 @@ def parse_relationships(relations: list, annotations) -> list:
     """
     processed = []
     for relation in relations:
-        processed += [stored_relationship.StoredRelationship(subject=annotations.get(relation.infons['entity1'], [relation.infons['entity1']])[0], predicate=relation.infons['type'], object=annotations.get(relation.infons['entity2'], [relation.infons['entity2']])[0], confidence=1, evidence='')]
+        processed += [namedtuple(subject=annotations.get(relation.infons['entity1'], [relation.infons['entity1']])[0], predicate=relation.infons['type'], object=annotations.get(relation.infons['entity2'], [relation.infons['entity2']])[0], confidence=1, evidence='')]
     return processed
 
 

@@ -4,8 +4,8 @@ import spacy
 from benepar.spacy_plugin import BeneparComponent
 from nose_parameterized import parameterized, param
 
-from nlp_processor.entity_normalization import get_base_word, remove_stop_words, convert_parenthesis, remove_punctuation
-from nlp_processor.extensions import BiologicalNamedEntity
+from bioengine.nlp_processor.entity_normalization import get_base_word, remove_stop_words, convert_parenthesis, remove_punctuation
+from bioengine.nlp_processor.extensions import BiologicalNamedEntity
 
 
 class TestEntityNormalization(TestCase):

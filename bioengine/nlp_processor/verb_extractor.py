@@ -5,7 +5,7 @@ from re import compile
 from spacy.tokens import Doc, Token
 
 from bioengine.nlp_processor.extensions import get_noun_verb_noun_phrases_from_sentence
-from nlp_processor.spacy_factory import MedicalSpacyFactory
+from bioengine.nlp_processor.spacy_factory import MedicalSpacyFactory
 
 
 def meta_map_trigger_regex():

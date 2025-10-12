@@ -5,11 +5,11 @@ import plac
 from Bio import Entrez
 from pandas import read_csv, DataFrame
 
-from knowledge_engine.biolink_mapping import commit_sub_graph
-from knowledge_engine.match import map_relations_with_ontology_terms
-from nlp_processor.extensions.svo import Relation
-from nlp_processor.spacy_factory import MedicalSpacyFactory
-from scripts import read_and_parse
+from bioengine.knowledge_engine.biolink_mapping import commit_sub_graph
+from bioengine.knowledge_engine.match import map_relations_with_ontology_terms
+from bioengine.nlp_processor.extensions.svo import Relation
+from bioengine.nlp_processor.spacy_factory import MedicalSpacyFactory
+from bioengine.scripts import read_and_parse
 
 
 # def map_abstracts(pmid, doc, authors, driver):

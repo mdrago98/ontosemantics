@@ -3,9 +3,9 @@ from typing import Dict
 from langchain_core.language_models import LLM
 from langchain_core.vectorstores import VectorStore
 
-from knowledge_engine.models.relationship import ExtractedRelationship, VerificationResult
-from knowledge_engine.ontology_manager import OntologyManager
-from nlp_processor.relationship_extractor import RelationshipVerifier
+from bioengine.knowledge_engine.models.relationship import ExtractedRelationship, VerificationResult
+from bioengine.knowledge_engine.ontology_manager import OntologyManager
+from bioengine.nlp_processor.relationship_extractor import RelationshipVerifier
 
 
 class OntologicalRAGVerifier(RelationshipVerifier):

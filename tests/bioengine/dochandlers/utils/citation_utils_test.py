@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized, param
 
-from utils.citation_utils import strip_citations
+from bioengine.utils.citation_utils import strip_citations
 
 
 class TestCitationUtils(TestCase):

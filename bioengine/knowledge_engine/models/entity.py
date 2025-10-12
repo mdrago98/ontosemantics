@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from knowledge_engine.models.ontology_match import OntologyMatch
+from bioengine.knowledge_engine.models.ontology_match import OntologyMatch
 
 
 @dataclass

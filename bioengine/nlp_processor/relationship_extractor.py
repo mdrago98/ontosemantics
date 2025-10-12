@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict
 
-from knowledge_engine.models.relationship import ExtractedRelationship, VerificationResult
+from bioengine.knowledge_engine.models.relationship import ExtractedRelationship, VerificationResult
 
 
 class RelationshipVerifier(ABC):

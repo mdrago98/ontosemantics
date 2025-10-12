@@ -5,7 +5,7 @@ from os import scandir, path
 import plac
 from py2neo import Node
 
-from knowledge_engine.biolink_mapping import get_relationship_node, get_association, get_publication_node, get_providers, \
+from bioengine.knowledge_engine.biolink_mapping import get_relationship_node, get_association, get_publication_node, get_providers, \
     link_publication_to_provider, link_entities_to_publication, commit_sub_graph
 from bioengine.knowledge_engine.connections import Connection
 from bioengine.knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection

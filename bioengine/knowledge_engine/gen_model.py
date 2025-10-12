@@ -3,7 +3,7 @@ import plac
 from json import loads
 from os.path import join
 from pystache import render
-from utils.pythonic_name import get_pythonic_name
+from bioengine.utils.pythonic_name import get_pythonic_name
 
 ols_properties = ['id', 'iri', 'olsId', 'short_form', 'obo_id', 'ontology_name', 'has_children', 'ontology_prefix',
                   'description', 'label', 'is_defining_ontology', 'is_root', 'is_obsolete', 'ontology_iri',

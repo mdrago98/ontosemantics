@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 
-from knowledge_engine.models.entity import EntityValidation
+from bioengine.knowledge_engine.models.entity import EntityValidation
 
 
 class OntologyManager(ABC):

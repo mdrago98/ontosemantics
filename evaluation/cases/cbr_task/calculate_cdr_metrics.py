@@ -5,8 +5,8 @@ from random import choice, choices
 import plac
 from pandas import read_csv, DataFrame, concat
 
-from knowledge_engine.connections import Connection
-from knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
+from bioengine.knowledge_engine.connections import Connection
+from bioengine.knowledge_engine.connections.knowledge_graph_connection import KnowledgeGraphConnection
 
 
 def query() -> str:

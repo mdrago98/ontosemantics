@@ -3,8 +3,8 @@ from dataclasses import dataclass
 from collections import defaultdict
 import numpy as np
 
-from knowledge_engine.models.relationship import ExtractedRelationship
-from knowledge_engine.models.stored_relationship import StoredRelationship
+from bioengine.knowledge_engine.models.relationship import ExtractedRelationship
+from bioengine.knowledge_engine.models.stored_relationship import StoredRelationship
 
 
 @dataclass

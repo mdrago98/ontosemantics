@@ -2,7 +2,7 @@
 from unittest import TestCase
 from parameterized import parameterized, param
 
-from utils.pythonic_name import convert_to_snake_case_from_camelcase, convert_to_snake_from_kebab_case, \
+from bioengine.utils.pythonic_name import convert_to_snake_case_from_camelcase, convert_to_snake_from_kebab_case, \
     get_pythonic_name
 
 

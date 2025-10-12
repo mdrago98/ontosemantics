@@ -5,8 +5,8 @@ from biolinkmodel.datamodel import OrganismalEntity, Cell, CellularComponent, Bi
 from mock import patch
 from parameterized import parameterized, param
 
-from knowledge_engine.biolink_mapping import is_gene_mention, get_mapping
-from knowledge_engine.models import Class, GO, MONDO
+from bioengine.knowledge_engine.biolink_mapping import is_gene_mention, get_mapping
+from bioengine.knowledge_engine.models import Class, GO, MONDO
 
 
 class TestMapping(TestCase):
