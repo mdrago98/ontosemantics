@@ -1,0 +1,3 @@
+include README.md
+recursive-include bioengine/config *.yaml
+recursive-include resources *
