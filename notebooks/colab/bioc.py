@@ -44,7 +44,7 @@ class BioCDataset(Dataset):
                 # Store as dict with position info
                 entity_data = {
                     'text': annotation.text,
-                    'canonical_name': annotation.text,
+                    'canonical_name': annotation.text,  # You can add ontology enrichment here
                     'biolink_type': annotation.infons.get('type', 'ENTITY'),
                     'start_pos': annotation_start,
                     'end_pos': annotation_end,
@@ -174,8 +174,6 @@ class BioCDataset(Dataset):
 
         # Return tensors
         return {
-            "text": text,
-            "marked_text": marked_text,
             "input_ids": encoding["input_ids"],
             "attention_mask": encoding["attention_mask"],
             "entity1_pos": torch.tensor(entity1_pos, dtype=torch.long),
