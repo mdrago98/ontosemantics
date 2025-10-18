@@ -108,7 +108,7 @@ class MLP(nn.Module):
 class TransformerConv(nn.Module):
     def __init__(self, nin, nout, bias=True, nhead=8):
         super().__init__()
-        self.layer = TransformerConv(
+        self.layer = gnn.TransformerConv(
             in_channels=nin, out_channels=nout//nhead, heads=nhead, edge_dim=nin, bias=bias)
 
     def reset_parameters(self):
